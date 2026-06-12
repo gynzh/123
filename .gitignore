@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+outputs/
+*_mineru_result.zip
+*_origin.pdf
+full.html
+full.md
+*_model.json
+*_content_list.json
+*_content_list_v2.json

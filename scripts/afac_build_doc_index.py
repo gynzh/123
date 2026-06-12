@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+from __future__ import annotations
+
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / "src"
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
+
+from afac2026_docparse.cli import build_parser
+
+if __name__ == "__main__":
+    parser = build_parser()
+    args = parser.parse_args(["build-index", *sys.argv[1:]])
+    args.func(args)
