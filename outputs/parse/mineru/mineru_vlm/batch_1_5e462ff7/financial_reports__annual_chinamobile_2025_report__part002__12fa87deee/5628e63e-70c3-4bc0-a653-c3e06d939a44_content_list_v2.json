@@ -1,0 +1,2650 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "合并财务报表附注"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                87,
+                80,
+                250,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                101,
+                440,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                122,
+                467,
+                137
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "七 金融工具及其风险（续）"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                159,
+                349,
+                175
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 信用风险（续）"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                87,
+                195,
+                268,
+                212
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "于 2025 年 12 月 31 日年及 2024 年 12 月 31 日，应收账款的预期信用损失如下所示："
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                233,
+                870,
+                250
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/baebadd1b350d43d5d831960feb044fbab7fdcc65770ab40fb938f3f8ac456a7.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "*2025年度，针对政企客户群体规模增长与结构多元化趋势，本集团进一步强化政企应收账款精益管理，细化了政企客户应收账款组合划分，分别测算违约损失率，并优化了账龄分析方法，以综合违约损失率列示。本集团已评估上述优化对坏账预期信用减值损失的影响，并依据《企业会计准则第22号——金融工具确认和计量》的相关规定进行会计处理"
+                    }
+                ],
+                "html": "<table><tr><td>2025年12月31日</td><td>30天以内</td><td>31天至90天</td><td>91天至1年</td><td>1年以上</td></tr><tr><td>个人用户组合</td><td></td><td></td><td></td><td></td></tr><tr><td>违约损失率(%)</td><td>2</td><td>20</td><td>80</td><td>100</td></tr><tr><td>账面余额</td><td>2,440</td><td>783</td><td>1,956</td><td>2,613</td></tr><tr><td>坏账准备</td><td>(49)</td><td>(157)</td><td>(1,565)</td><td>(2,613)</td></tr><tr><td>2025年12月31日</td><td>180天以内</td><td>181天至1年</td><td>1年至2年</td><td>2年至3年</td></tr><tr><td>政企客户组合*</td><td></td><td></td><td></td><td></td></tr><tr><td>违约损失率(%)</td><td>3</td><td>23</td><td>58</td><td>79</td></tr><tr><td>账面余额</td><td>49,054</td><td>21,379</td><td>18,997</td><td>9,666</td></tr><tr><td>坏账准备</td><td>(1,472)</td><td>(4,992)</td><td>(10,999)</td><td>(7,630)</td></tr><tr><td>2024年12月31日</td><td>30天以内</td><td>31天至90天</td><td>91天至1年</td><td>1年以上</td></tr><tr><td>个人用户组合</td><td></td><td></td><td></td><td></td></tr><tr><td>违约损失率(%)</td><td>2</td><td>20</td><td>80</td><td>100</td></tr><tr><td>账面余额</td><td>2,468</td><td>807</td><td>2,078</td><td>2,415</td></tr><tr><td>坏账准备</td><td>(49)</td><td>(161)</td><td>(1,662)</td><td>(2,415)</td></tr><tr><td>2024年12月31日</td><td>180天以内</td><td>181天至1年</td><td>1年至2年</td><td>2年至3年</td></tr><tr><td>政企客户组合</td><td></td><td></td><td></td><td></td></tr><tr><td>违约损失率(%)</td><td>3</td><td>25</td><td>65</td><td>85</td></tr><tr><td>账面余额</td><td>33,405</td><td>18,683</td><td>15,222</td><td>7,227</td></tr><tr><td>坏账准备</td><td>(1,002)</td><td>(4,671)</td><td>(9,894)</td><td>(6,143)</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                131,
+                268,
+                915,
+                659
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "除上述客户组合外的其他客户的应收账款预期信用损失不重大。"
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                728,
+                695,
+                744
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "于 2025 年 12 月 31 日及 2024 年 12 月 31 日，本集团无重大的因债务人抵押而持有的担保物或其他信用增级。"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                765,
+                912,
+                802
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                43,
+                247,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "200"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                512,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "合并财务报表附注"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                87,
+                80,
+                250,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                99,
+                440,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                122,
+                467,
+                137
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "七 金融工具及其风险（续）"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                158,
+                349,
+                175
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 流动风险"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                197,
+                221,
+                212
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "流动风险是指由于现金流入及流出的时间及数额错配导致当债务到期时没有现金支付的风险。本集团通过持有足够的现金余额以及银行存款（可随时转换为已知金额的现金），以应付营运资金、资本支出、支付股息、偿付财务公司吸收中国移动集团公司短期存款等资金需求。"
+                    }
+                ]
+            },
+            "bbox": [
+                134,
+                233,
+                912,
+                313
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "于 2025 年 12 月 31 日及 2024 年 12 月 31 日，本集团各项金融负债以未折现的合同现金流量按到期日列示如下"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                334,
+                912,
+                372
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/e87c460c132b06e6354de08fd1ce021ecd814309ed24f3e867489cd2e3b66553.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "2025年12月31日"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td></td><td>一年以内</td><td>一到三年</td><td>三到五年</td><td>五年以上</td><td>合计</td></tr><tr><td>应付票据</td><td>17,202</td><td>-</td><td>-</td><td>-</td><td>17,202</td></tr><tr><td>应付账款</td><td>334,099</td><td>-</td><td>-</td><td>-</td><td>334,099</td></tr><tr><td>预收款项</td><td>83,206</td><td>-</td><td>-</td><td>-</td><td>83,206</td></tr><tr><td>其他应付款</td><td>61,613</td><td>-</td><td>-</td><td>-</td><td>61,613</td></tr><tr><td>租赁负债(含一年内到期部分)</td><td>43,854</td><td>37,640</td><td>8,057</td><td>7,278</td><td>96,829</td></tr><tr><td>长期借款</td><td>19</td><td>20</td><td>9,709</td><td>-</td><td>9,748</td></tr><tr><td>其他非流动负债</td><td>-</td><td>247</td><td>203</td><td>482</td><td>932</td></tr><tr><td>合计</td><td>539,993</td><td>37,907</td><td>17,969</td><td>7,760</td><td>603,629</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                132,
+                404,
+                914,
+                577
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/0d5c3454f5d754460af63aade605d9bfc6c2dc0b53f3ce1e0315335d33fb21ef.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "2024年12月31日"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td></td><td>一年以内</td><td>一到三年</td><td>三到五年</td><td>五年以上</td><td>合计</td></tr><tr><td>应付票据</td><td>40,843</td><td>-</td><td>-</td><td>-</td><td>40,843</td></tr><tr><td>应付账款</td><td>354,341</td><td>-</td><td>-</td><td>-</td><td>354,341</td></tr><tr><td>预收款项</td><td>79,920</td><td>-</td><td>-</td><td>-</td><td>79,920</td></tr><tr><td>其他应付款</td><td>41,331</td><td>-</td><td>-</td><td>-</td><td>41,331</td></tr><tr><td>租赁负债(含一年内到期部分)</td><td>33,691</td><td>46,101</td><td>8,032</td><td>6,812</td><td>94,636</td></tr><tr><td>其他非流动负债</td><td>-</td><td>680</td><td>206</td><td>409</td><td>1,295</td></tr><tr><td>合计</td><td>550,126</td><td>46,781</td><td>8,238</td><td>7,221</td><td>612,366</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                134,
+                621,
+                914,
+                777
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "于 2025 年 12 月 31 日，本集团无重大对外提供的财务担保，亦无重大已签订但尚未开始执行的租赁合同现金流量。"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                791,
+                912,
+                829
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                43,
+                247,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "201"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                510,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "合并财务报表附注"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                80,
+                250,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                101,
+                440,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                84,
+                122,
+                467,
+                137
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "七 金融工具及其风险（续）"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                159,
+                349,
+                175
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(3) 利率风险"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                196,
+                221,
+                212
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本集团将持续监控现时和预计的利率变动，将利率风险控制在合理的水平。于2025年12月31日，本集团的带息负债主要包括长期借款人民币97.48亿元（2024年：无）及吸收中国移动集团公司存入的短期银行存款人民币400.05亿元（2024年：人民币188.84亿元）。浮动利率计息的借款及吸收存款导致本集团产生现金流量利率风险，而固定利率计息的借款续期使得本集团产生公允价值利率风险。本集团主要根据现行市场环境决定使用固定利率或浮动利率借款的政策。由于相关利息并不重大，管理层预期公允价值利率风险水平不高。"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                234,
+                912,
+                376
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本集团于 2025 年 12 月 31 日及 2024 年 12 月 31 日拥有的总现金及银行存款、财务公司拆出资金及同业存单、债权投资（含其他债权投资）、银行理财产品及其他投资产品分别为人民币 6,520.48 亿元及人民币 6,772.58 亿元，2025 年及 2024 年由上述资产产生的收益分别为人民币 179.58 亿元及人民币 224.16 亿元，平均年化利息收益率为 2.70% 及 3.50%。假设前述资产在未来一年保持稳定，且平均利息收益率上升/下降 100 个基点，则 2025 年度及 2024 年度利润及股东权益分别增加/减少人民币 49.17 亿元及人民币 50.93 亿元。"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                395,
+                914,
+                537
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(4) 外汇风险"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                558,
+                221,
+                575
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "外汇风险主要产生于各个子公司以其记账本位币以外的外币资产和负债发生的交易和事项。"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                596,
+                909,
+                633
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本集团须承担因部分货币资金为外币而产生的外汇风险，其中以港币及美元为主。于2025年12月31日及2024年12月31日，本集团年末上述外币资产中存在外汇风险的外币比重分别为7.26%及5.85%。2025年度及2024年度，本集团无尚未履行的外币掉期合同。"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                653,
+                910,
+                733
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(5) 其他价格风险"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                753,
+                260,
+                770
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本集团其他价格风险主要产生于各类以公允价值计量的权益工具投资等，存在权益工具价格变动的风险。于2025年12月31日及2024年12月31日，本集团各类存在公开报价的以公允价值计量的权益工具投资等的账面价值不重大，相关其他价格风险较低。"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                789,
+                912,
+                848
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                84,
+                43,
+                247,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "202"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                512,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "合并财务报表附注"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                87,
+                80,
+                253,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                101,
+                440,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                122,
+                467,
+                137
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "八 公允价值估计"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                159,
+                258,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公允价值计量结果所属的层次，由对公允价值计量整体而言具有重要意义的输入值所属的最低层次决定："
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                193,
+                910,
+                231
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "第一层次：相同资产或负债在活跃市场上未经调整的报价。"
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                248,
+                653,
+                265
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "第二层次：除第一层次输入值外相关资产或负债直接或间接可观察的输入值。"
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                269,
+                815,
+                286
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "第三层次：相关资产或负债的不可观察输入值。"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                290,
+                552,
+                306
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 持续以公允价值计量的资产——按上述三个层次列示"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                324,
+                603,
+                341
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/f9cc69efde4f6671d04f6ec51d1c0ab79dc848f4f9e7bfba94c14074a6fb5192.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "2025年12月31日"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td></td><td>第一层次</td><td>第二层次</td><td>第三层次</td><td>合计</td></tr><tr><td>(a)交易性金融资产</td><td></td><td></td><td></td><td></td></tr><tr><td>其中:银行理财产品</td><td>-</td><td>-</td><td>6,829</td><td>6,829</td></tr><tr><td>资产管理计划</td><td>-</td><td>-</td><td>59,983</td><td>59,983</td></tr><tr><td>债券基金及货币基金</td><td>66,065</td><td>-</td><td>-</td><td>66,065</td></tr><tr><td>权益工具投资及其他</td><td>-</td><td>-</td><td>1,673</td><td>1,673</td></tr><tr><td>(b)其他非流动金融资产</td><td></td><td></td><td></td><td></td></tr><tr><td>其中:银行理财产品</td><td>-</td><td>-</td><td>254,897</td><td>254,897</td></tr><tr><td>(c)其他权益工具投资</td><td>10,167</td><td>-</td><td>956</td><td>11,123</td></tr><tr><td>(d)其他债权投资</td><td>21,265</td><td>-</td><td>-</td><td>21,265</td></tr><tr><td>(e)其他流动资产</td><td>690</td><td>-</td><td>-</td><td>690</td></tr><tr><td>合计</td><td>98,187</td><td>-</td><td>324,338</td><td>422,525</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                132,
+                374,
+                904,
+                657
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                43,
+                247,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "203"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                512,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "合并财务报表附注"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                80,
+                253,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                101,
+                440,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                122,
+                467,
+                137
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "八 公允价值估计（续）"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                158,
+                309,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 持续以公允价值计量的资产——按上述三个层次列示（续）"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                193,
+                653,
+                211
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/a5c3877394857c8e3390e5d3603c08a5fad99ff5387c1c8276ffd91225ea8a20.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "2024年12月31日"
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "注：本集团的资产管理计划为国内公募基金、证券公司及其他金融机构发行的中低风险产品，其资金主要投向为货币市场工具、国债、央行票据、地方政府债券、高信用等级的企业债券和债权资产及少量股票投资。"
+                    }
+                ],
+                "html": "<table><tr><td></td><td>第一层次</td><td>第二层次</td><td>第三层次</td><td>合计</td></tr><tr><td>(a)交易性金融资产</td><td></td><td></td><td></td><td></td></tr><tr><td>其中:银行理财产品</td><td>-</td><td>-</td><td>30,708</td><td>30,708</td></tr><tr><td>资产管理计划</td><td>-</td><td>-</td><td>53,164</td><td>53,164</td></tr><tr><td>债券基金</td><td>57,784</td><td>-</td><td>-</td><td>57,784</td></tr><tr><td>可转换公司债券</td><td>9,903</td><td>-</td><td>-</td><td>9,903</td></tr><tr><td>权益工具投资及其他</td><td>98</td><td>-</td><td>1,537</td><td>1,635</td></tr><tr><td>(b)其他非流动金融资产</td><td></td><td></td><td></td><td></td></tr><tr><td>其中:银行理财产品</td><td>-</td><td>-</td><td>209,422</td><td>209,422</td></tr><tr><td>(c)其他权益工具投资</td><td>2,863</td><td>-</td><td>209</td><td>3,072</td></tr><tr><td>(d)其他债权投资</td><td>10,856</td><td>-</td><td>-</td><td>10,856</td></tr><tr><td>合计</td><td>81,504</td><td>-</td><td>295,040</td><td>376,544</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                132,
+                247,
+                905,
+                529
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                84,
+                43,
+                248,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "204"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                512,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "合并财务报表附注"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                80,
+                253,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                101,
+                442,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                84,
+                122,
+                468,
+                137
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "八 公允价值估计（续）"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                158,
+                309,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 持续以公允价值计量的资产——按上述三个层次列示（续）"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                193,
+                653,
+                211
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、第三层级公允价值计量项目，采用的估值技术和重要参数的定性信息如下："
+                    }
+                ]
+            },
+            "bbox": [
+                95,
+                235,
+                793,
+                250
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "分类为第三层次金融资产主要包括银行理财产品、资产管理计划及非上市权益投资。银行理财产品和资产管理计划的公允价值是参照交易对手金融机构提供的资产负债表日的资产净值进行计量，重大不可观察输入值为净资产，其公允价值随资产净值同向变化。非上市权益投资的公允价值采用市场法进行计量，重大不可观察输入值为流动性折价，其公允价值随流动性折价反向变化。"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                272,
+                910,
+                370
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、本年内第三层次资产变动如下:"
+                    }
+                ]
+            },
+            "bbox": [
+                95,
+                395,
+                406,
+                412
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/4d77a6c3ad58cc8adaa1e72993d61f61af90d17edfe2be1d18280e7476aa3efa.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\"></td><td rowspan=\"2\">2024年12月31日</td><td rowspan=\"2\">购买/转换</td><td rowspan=\"2\">处置/转换</td><td colspan=\"2\">当期利得或损失总额</td><td rowspan=\"2\">2025年12月31日</td></tr><tr><td>计入当期损益的利得或损失(a)</td><td>计入其他综合收益的利得或损失</td></tr><tr><td>交易性金融资产</td><td>85,409</td><td>10,000</td><td>(29,637)</td><td>2,713</td><td>-</td><td>68,485</td></tr><tr><td>其他非流动金融资产</td><td>209,422</td><td>38,646</td><td>(673)</td><td>7,502</td><td>-</td><td>254,897</td></tr><tr><td>其他权益工具投资</td><td>209</td><td>700</td><td>-</td><td>-</td><td>47</td><td>956</td></tr><tr><td>合计</td><td>295,040</td><td>49,346</td><td>(30,310)</td><td>10,215</td><td>47</td><td>324,338</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                141,
+                431,
+                921,
+                588
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(a) 计入当期损益的利得或损失计入利润表中的公允价值变动收益项目。"
+                    }
+                ]
+            },
+            "bbox": [
+                134,
+                601,
+                779,
+                618
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、持续的公允价值计量项目层级转换"
+                    }
+                ]
+            },
+            "bbox": [
+                95,
+                638,
+                442,
+                653
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2025 年度及 2024 年度，本集团金融工具的各层次之间并无转换。"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                675,
+                705,
+                690
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 不以公允价值计量但披露其公允价值的资产和负债"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                712,
+                584,
+                728
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本集团以摊余成本计量的金融资产和金融负债主要包括：应收票据、应收账款、其他应收款、应付票据、应付账款、其他应付款、其他流动资产及租赁负债等，其账面价值与公允价值无重大差异。"
+                    }
+                ]
+            },
+            "bbox": [
+                134,
+                749,
+                910,
+                808
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                84,
+                43,
+                248,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "205"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                512,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "合并财务报表附注"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                80,
+                253,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                99,
+                440,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                84,
+                122,
+                467,
+                137
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "九 资本管理"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                159,
+                220,
+                175
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本集团管理资本的主要目的在于保持合理的资本结构，保障本集团的持续经营能力，从而为股东提供回报。本集团会定期审阅和管理其资本结构，保持资本状况稳健，防范运营风险，同时兼顾取得较佳股东回报，并会根据经济环境的变动对资本结构作出调整。"
+                    }
+                ]
+            },
+            "bbox": [
+                134,
+                195,
+                910,
+                255
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本集团采用资产负债率来管理资本结构。资产负债率是指总负债和总资产的比率。于2025年12月31日及2024年12月31日本集团的资产负债率如下表"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                279,
+                910,
+                317
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/de442ae031ba5e4c20009a5d1f20e7d4ea99c1990fe76dc0beae69290b77f433.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td></td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>总资产</td><td>2,092,882</td><td>2,072,827</td></tr><tr><td>总负债</td><td>695,331</td><td>711,588</td></tr><tr><td>资产负债率</td><td>33.22%</td><td>34.33%</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                141,
+                338,
+                914,
+                445
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "除本集团子公司财务公司受国家金融监督管理总局施加的资本规定限制外，本集团不受制于任何外部强制性资本要求。"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                464,
+                932,
+                502
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "十 承诺事项"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                526,
+                220,
+                544
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(1) 资本性支出承诺事项"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                564,
+                322,
+                581
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "已签约而尚不必在资产负债表上列示的资本性支出承诺："
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                601,
+                636,
+                619
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/2507a9bd17248a0407c52b70577e7b3becb3a69ce51fb90efc79d5c43d2a3e11.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td></td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>土地及建筑物</td><td>1,502</td><td>2,674</td></tr><tr><td>通信设备及其他</td><td>23,272</td><td>22,995</td></tr><tr><td></td><td>24,774</td><td>25,669</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                142,
+                633,
+                914,
+                760
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                84,
+                43,
+                248,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "206"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                514,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                43,
+                247,
+                59
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "合并财务报表附注"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                80,
+                250,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                101,
+                440,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                122,
+                467,
+                137
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "十一 资产负债表日期后事项"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                159,
+                339,
+                175
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "股息分配"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                134,
+                190,
+                220,
+                206
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "董事会于2026年3月26日提议本公司向全体股东派发截至2025年12月31日止年度末期股息每股2.520港元，股息将以港元计价并宣派，其中A股股息将以人民币支付，折算汇率按董事会宣派股息之日前一周的中国人民银行公布的港元对人民币中间价平均值计算。拟宣派的末期股息以2025年12月31日汇率折算合计人民币492.66亿元。若自报告日起至实施2025年末期派息的权益分派股权登记日，本公司已发行股份总数发生变化，本公司拟维持每股派息金额不变，相应调整利润分配总额。于资产负债表日后提议派发的股息并未在资产负债表日确认为负债。"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                219,
+                924,
+                361
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "增值税"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                134,
+                382,
+                200,
+                398
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "中华人民共和国财政部、国家税务总局发布了《关于增值税征税具体范围有关事项的公告》（财政部税务总局公告2026年第9号），规定自2026年1月1日起，在中华人民共和国境内，利用固网、移动网、卫星、互联网，提供手机流量服务、短信和彩信服务、互联网宽带接入服务的业务活动适用的税目由增值电信服务调整为基础电信服务，对应增值税税率由  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "6\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 调整为  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "9\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。此次增值税税目适用范围调整，将对本集团收入及利润产生影响。"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                419,
+                924,
+                539
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "207"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                512,
+                963
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "合并财务报表附注"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                87,
+                80,
+                250,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                99,
+                440,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                122,
+                467,
+                137
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/6e9a46b71693fe2c2b8856883ee804b73b3602987e1b678eb715110cf8a1da99.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "十二 本公司资产负债表"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>资产</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>流动资产</td><td></td><td></td></tr><tr><td>货币资金</td><td>4,590</td><td>4,360</td></tr><tr><td>预付款项</td><td>2</td><td>3</td></tr><tr><td>其他应收款</td><td>1,405</td><td>2,695</td></tr><tr><td>应收资金集中管理款</td><td>19,362</td><td>7,471</td></tr><tr><td>流动资产合计</td><td>25,359</td><td>14,529</td></tr><tr><td>非流动资产</td><td></td><td></td></tr><tr><td>长期股权投资</td><td>548,067</td><td>547,867</td></tr><tr><td>使用权资产</td><td>35</td><td>-</td></tr><tr><td>固定资产</td><td>1</td><td>1</td></tr><tr><td>非流动资产合计</td><td>548,103</td><td>547,868</td></tr><tr><td>资产总计</td><td>573,462</td><td>562,397</td></tr><tr><td>负债和股东权益</td><td></td><td></td></tr><tr><td>流动负债</td><td></td><td></td></tr><tr><td>应交税费</td><td>67</td><td>66</td></tr><tr><td>其他应付款</td><td>7,973</td><td>8,379</td></tr><tr><td>一年内到期的非流动负债</td><td>11</td><td>-</td></tr><tr><td>流动负债合计</td><td>8,051</td><td>8,445</td></tr><tr><td>租赁负债</td><td>23</td><td>-</td></tr><tr><td>非流动负债合计</td><td>23</td><td>-</td></tr><tr><td>负债合计</td><td>8,074</td><td>8,445</td></tr><tr><td>股东权益</td><td></td><td></td></tr><tr><td>股本</td><td>468,445</td><td>461,838</td></tr><tr><td>资本公积</td><td>1,577</td><td>1,787</td></tr><tr><td>未分配利润</td><td>95,366</td><td>90,327</td></tr><tr><td>股东权益合计</td><td>565,388</td><td>553,952</td></tr><tr><td>负债及股东权益总计</td><td>573,462</td><td>562,397</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                142,
+                195,
+                900,
+                894
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                43,
+                245,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "208"
+                    }
+                ]
+            },
+            "bbox": [
+                485,
+                952,
+                512,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "补充资料"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                80,
+                171,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表补充资料"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                99,
+                519,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                122,
+                465,
+                137
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/544754611c808f957af245251d3bb136cd912f39e518c07f3cf692eb332dddf8.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "一 非经常性损益明细表"
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "注：上述非经常性损益明细表中，收益以正数列报，损失以负数列报。"
+                    }
+                ],
+                "html": "<table><tr><td>项目</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>非金融企业持有金融资产和金融负债产生的公允价值变动损益以及处置金融资产和金融负债产生的损益</td><td>12,566</td><td>15,897</td></tr><tr><td>计入当期损益的政府补助，但与公司正常经营业务密切相关、符合国家政策规定、按照确定的标准享有、对公司损益产生持续影响的政府补助除外</td><td>2,388</td><td>2,504</td></tr><tr><td>非流动资产处置损益</td><td>(61)</td><td>(125)</td></tr><tr><td>除上述各项之外的其他营业外收入和支出</td><td>(2,795)</td><td>2,195</td></tr><tr><td>小计</td><td>12,098</td><td>20,471</td></tr><tr><td>减：所得税影响额</td><td>(2,959)</td><td>(4,812)</td></tr><tr><td>少数股东权益影响额（税后）</td><td>(5)</td><td>(1)</td></tr><tr><td>合计</td><td>9,134</td><td>15,658</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                134,
+                191,
+                904,
+                498
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "非经常性损益明细表编制基础："
+                    }
+                ]
+            },
+            "bbox": [
+                134,
+                548,
+                408,
+                564
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "根据中国证券监督管理委员会《公开发行证券的公司信息披露解释性公告第1号——非经常性损益（2023年修订）》的规定，非经常性损益是指与公司正常经营业务无直接关系，以及虽与正常经营业务相关，但由于其性质特殊和偶发性，影响报表使用人对公司经营业绩和盈利能力作出正确判断的各项交易和事项产生的损益。"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                585,
+                910,
+                664
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                89,
+                43,
+                250,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "209"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                512,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                84,
+                63,
+                196,
+                82
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "补充资料"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                83,
+                115,
+                140,
+                136
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表补充资料"
+                    }
+                ]
+            },
+            "bbox": [
+                83,
+                144,
+                387,
+                164
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                83,
+                174,
+                348,
+                194
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "二 净资产收益率及每股收益"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                83,
+                223,
+                274,
+                245
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "加权平均净资产收益率（%）："
+                    }
+                ]
+            },
+            "bbox": [
+                116,
+                277,
+                302,
+                297
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/368f859a25668ab18cc5883519948827972ecbe52392826b155736d61306df91.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td></td><td>2025年度</td><td>2024年度</td></tr><tr><td>归属于母公司普通股股东的净利润</td><td>9.94</td><td>10.36</td></tr><tr><td>扣除非经常性损益后归属于母公司普通股股东的净利润</td><td>9.30</td><td>9.18</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                128,
+                327,
+                965,
+                435
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "每股收益（单位：人民币元）："
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                462,
+                307,
+                482
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/87a5afee020ba9c7a652d962221e9c21d6a85e36253d4455462110102d49ba28.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\"></td><td colspan=\"2\">基本每股收益</td><td colspan=\"2\">稀释每股收益</td></tr><tr><td>2025年度</td><td>2024年度</td><td>2025年度</td><td>2024年度</td></tr><tr><td>归属于母公司普通股股东的净利润</td><td>6.35</td><td>6.45</td><td>6.30</td><td>6.42</td></tr><tr><td>扣除非经常性损益后归属于母公司普通股股东的净利润（注）</td><td>5.92</td><td>5.72</td><td>5.88</td><td>5.70</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                128,
+                510,
+                975,
+                675
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "210"
+                    }
+                ]
+            },
+            "bbox": [
+                489,
+                934,
+                508,
+                949
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                43,
+                250,
+                59
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "补充资料"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                80,
+                171,
+                96
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表补充资料"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                99,
+                519,
+                117
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                122,
+                465,
+                137
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "二 净资产收益率及每股收益（续）"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                160,
+                410,
+                178
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "注：本集团于2019年认购了联营企业浦发银行发行的可转换公司债券，在计算稀释每股收益时因其假定转换具有反稀释性影响而在计算时未予以考虑；该可转换公司债券的公允价值收益亦被本集团作为非经常性损益在计算扣除非经常性损益后归属于母公司股东的净利润中进行了扣除，故而不再重复计算其对扣除非经常性损益的稀释每股收益的影响。"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                197,
+                912,
+                298
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "净资产收益率及每股收益编制基础："
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                317,
+                452,
+                334
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "净资产收益率及每股收益根据中国证券监督管理委员会《公开发行证券的公司信息披露编报规则第9号——净资产收益率和每股收益的计算及披露》（2010年修订）的规则进行计算及披露。"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                355,
+                912,
+                413
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "211"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                512,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "补充资料"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                60,
+                119,
+                121,
+                142
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表补充资料"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                149,
+                367,
+                171
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                179,
+                328,
+                201
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "三 合并财务报表准则差异调节表"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                60,
+                233,
+                282,
+                258
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "鉴于本公司为在香港注册的有限公司，且本公司还在香港联交所和上海交易所上市，本公司按照国际财务报告会计准则/香港财务报告会计准则编制了截至2025年12月31日止年度财务报告。本公司亦按照中华人民共和国财政部颁布的企业会计准则（“中国会计准则”）的规定编制合并财务报表，在适用中国会计准则前境内外会计准则仍存在差异。自2008年采用中国会计准则后，无新增重大会计准则差异。该等准则差异对本集团合并净利润和合并净资产的影响列示如下"
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                285,
+                938,
+                400
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/ba189a48b3ba1540fd47dca9cda0f3666b2647971809ee34d2a2f720b37817c2.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\"></td><td>净利润</td><td>净利润</td><td>净资产</td><td>净资产</td></tr><tr><td>2025年度</td><td>2024年度</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>按中国会计准则</td><td>137,264</td><td>138,526</td><td>1,397,551</td><td>1,361,239</td></tr><tr><td>按国际财务报告会计准则/香港财务报告会计准则调整增加:</td><td></td><td></td><td></td><td></td></tr><tr><td>—因以前年度同一控制下企业合并产生的长期股权投资差额、商誉在中国会计准则与国际财务报告会计准则/香港财务报告会计准则下存在差异注1</td><td>-</td><td>-</td><td>35,300</td><td>35,300</td></tr><tr><td>按国际财务报告会计准则/香港财务报告会计准则</td><td>137,264</td><td>138,526</td><td>1,432,851</td><td>1,396,539</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                96,
+                423,
+                942,
+                682
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                62,
+                177,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "212"
+                    }
+                ]
+            },
+            "bbox": [
+                488,
+                932,
+                508,
+                949
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "中国移动有限公司"
+                    }
+                ]
+            },
+            "bbox": [
+                87,
+                43,
+                250,
+                59
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "补充资料"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                84,
+                171,
+                99
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "截至 2025 年 12 月 31 日止年度财务报表补充资料"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                105,
+                522,
+                122
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(除特别注明外，金额单位为人民币百万元)"
+                    }
+                ]
+            },
+            "bbox": [
+                85,
+                126,
+                467,
+                142
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "三 合并财务报表准则差异调节表（续）"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                85,
+                164,
+                450,
+                181
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "财务报表差异调节表项目注释说明："
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                202,
+                450,
+                219
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "注1：因以前年度收购8省和10省运营子公司产生的长期股权投资差额、商誉在中国会计准则与国际财务报告会计准则/香港财务报告会计准则下存在差异。"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                239,
+                910,
+                277
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本公司分别于 2002 年和 2004 年向最终控股母公司收购了其内地 8 省和 10 省的移动通信业务及资产。在中国会计准则下，收购价与收购生效日被收购公司账面净资产值之间的差额确认为长期股权投资差额，并于 2008 年 1 月 1 日将长期股权投资差额冲销并减记了本公司资本公积。而在国际财务报告会计准则/香港财务报告会计准则下，收购价与收购生效日被收购公司资产及负债的公允价值之间的差额确认为商誉并进行摊销，并于 2005 年 1 月 1 日起停止摊销，剩余商誉账面价值每年及当有减值迹象时进行减值测试。因此，自 2005 年 1 月 1 日起开始出现净资产差异，2008 年 1 月 1 日差异额为人民币 353.00 亿元，并持续至今。"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                297,
+                912,
+                461
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "213"
+                    }
+                ]
+            },
+            "bbox": [
+                484,
+                952,
+                512,
+                964
+            ]
+        }
+    ]
+]

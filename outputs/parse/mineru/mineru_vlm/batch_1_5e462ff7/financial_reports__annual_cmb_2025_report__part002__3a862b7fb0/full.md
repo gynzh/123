@@ -1,0 +1,2112 @@
+## 15. 投资性房地产
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>成本:</td><td></td><td></td><td></td><td></td></tr><tr><td>年初余额</td><td>3,479</td><td>3,097</td><td>1,805</td><td>1,481</td></tr><tr><td>本年转入/(转出)</td><td>94</td><td>318</td><td>331</td><td>324</td></tr><tr><td>汇率变动</td><td>(84)</td><td>64</td><td>-</td><td>-</td></tr><tr><td>年末余额</td><td>3,489</td><td>3,479</td><td>2,136</td><td>1,805</td></tr><tr><td>累计折旧:</td><td></td><td></td><td></td><td></td></tr><tr><td>年初余额</td><td>2,362</td><td>1,937</td><td>964</td><td>645</td></tr><tr><td>本年计提(附注51)</td><td>169</td><td>129</td><td>81</td><td>67</td></tr><tr><td>本年转入/(转出)</td><td>31</td><td>245</td><td>29</td><td>252</td></tr><tr><td>汇率变动</td><td>(70)</td><td>51</td><td>-</td><td>-</td></tr><tr><td>年末余额</td><td>2,492</td><td>2,362</td><td>1,074</td><td>964</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td><td></td></tr><tr><td>年末余额</td><td>997</td><td>1,117</td><td>1,062</td><td>841</td></tr><tr><td>年初余额</td><td>1,117</td><td>1,160</td><td>841</td><td>836</td></tr></table>
+
+(a) 于2025年12月31日，本集团认为投资性房地产不需要计提减值准备（2024年12月31日：无）。  
+(b) 本集团在不可撤销经营租赁期内，未来最低应收租赁款项总额如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>1年或以下(含1年)</td><td>232</td><td>199</td><td>151</td><td>157</td></tr><tr><td>1年以上至2年(含2年)</td><td>162</td><td>187</td><td>115</td><td>154</td></tr><tr><td>2年以上至3年(含3年)</td><td>76</td><td>165</td><td>71</td><td>143</td></tr><tr><td>3年以上至4年(含4年)</td><td>59</td><td>104</td><td>59</td><td>104</td></tr><tr><td>4年以上至5年(含5年)</td><td>45</td><td>106</td><td>45</td><td>106</td></tr><tr><td>5年以上</td><td>238</td><td>169</td><td>238</td><td>169</td></tr><tr><td>合计</td><td>812</td><td>930</td><td>679</td><td>833</td></tr></table>
+
+## 16. 固定资产
+
+本集团
+
+<table><tr><td></td><td>土地及建筑物</td><td>电子设备</td><td>装修费</td><td>飞机、船舶及专业设备</td><td>其他</td><td>合计</td></tr><tr><td>成本:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>34,324</td><td>19,137</td><td>5,245</td><td>119,633</td><td>4,943</td><td>183,282</td></tr><tr><td>购置</td><td>8</td><td>2,177</td><td>57</td><td>22,639</td><td>341</td><td>25,222</td></tr><tr><td>重分类及转入/(转出)</td><td>5,311</td><td>23</td><td>1,196</td><td>-</td><td>158</td><td>6,688</td></tr><tr><td>出售/报废</td><td>(6)</td><td>(584)</td><td>(4)</td><td>(19,160)</td><td>(543)</td><td>(20,297)</td></tr><tr><td>汇率变动</td><td>(148)</td><td>(82)</td><td>(25)</td><td>(2,239)</td><td>(11)</td><td>(2,505)</td></tr><tr><td>2025年12月31日</td><td>39,489</td><td>20,671</td><td>6,469</td><td>120,873</td><td>4,888</td><td>192,390</td></tr><tr><td>累计折旧:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>17,121</td><td>15,646</td><td>2,335</td><td>18,134</td><td>4,165</td><td>57,401</td></tr><tr><td>本年计提</td><td>1,510</td><td>1,765</td><td>267</td><td>6,937</td><td>375</td><td>10,854</td></tr><tr><td>重分类及转入/(转出)</td><td>(34)</td><td>-</td><td>5</td><td>-</td><td>(2)</td><td>(31)</td></tr><tr><td>出售/报废</td><td>(4)</td><td>(584)</td><td>(4)</td><td>(5,624)</td><td>(530)</td><td>(6,746)</td></tr><tr><td>汇率变动</td><td>(126)</td><td>(71)</td><td>(21)</td><td>(336)</td><td>(7)</td><td>(561)</td></tr><tr><td>2025年12月31日</td><td>18,467</td><td>16,756</td><td>2,582</td><td>19,111</td><td>4,001</td><td>60,917</td></tr><tr><td>减值准备:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>-</td><td>-</td><td>-</td><td>1,890</td><td>-</td><td>1,890</td></tr><tr><td>本年计提</td><td>-</td><td>-</td><td>-</td><td>177</td><td>-</td><td>177</td></tr><tr><td>出售/报废</td><td>-</td><td>-</td><td>-</td><td>(1,219)</td><td>-</td><td>(1,219)</td></tr><tr><td>汇率变动</td><td>-</td><td>-</td><td>-</td><td>(17)</td><td>-</td><td>(17)</td></tr><tr><td>2025年12月31日</td><td>-</td><td>-</td><td>-</td><td>831</td><td>-</td><td>831</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2025年12月31日</td><td>21,022</td><td>3,915</td><td>3,887</td><td>100,931</td><td>887</td><td>130,642</td></tr><tr><td>2025年1月1日</td><td>17,203</td><td>3,491</td><td>2,910</td><td>99,609</td><td>778</td><td>123,991</td></tr><tr><td rowspan="2"></td><td colspan="6">本集团</td></tr><tr><td>土地及建筑物</td><td>电子设备</td><td>装修费</td><td>飞机、船舶及专业设备</td><td>其他</td><td>合计</td></tr><tr><td>成本:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>33,026</td><td>17,338</td><td>4,842</td><td>104,803</td><td>5,210</td><td>165,219</td></tr><tr><td>购置</td><td>9</td><td>2,529</td><td>20</td><td>29,732</td><td>285</td><td>32,575</td></tr><tr><td>重分类及转入/(转出)</td><td>1,413</td><td>46</td><td>402</td><td>-</td><td>(29)</td><td>1,832</td></tr><tr><td>出售/报废</td><td>(237)</td><td>(839)</td><td>(37)</td><td>(16,074)</td><td>(530)</td><td>(17,717)</td></tr><tr><td>汇率变动</td><td>113</td><td>63</td><td>18</td><td>1,172</td><td>7</td><td>1,373</td></tr><tr><td>2024年12月31日</td><td>34,324</td><td>19,137</td><td>5,245</td><td>119,633</td><td>4,943</td><td>183,282</td></tr><tr><td>累计折旧:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>15,984</td><td>14,582</td><td>2,112</td><td>16,815</td><td>4,270</td><td>53,763</td></tr><tr><td>本年计提</td><td>1,480</td><td>1,812</td><td>240</td><td>6,689</td><td>453</td><td>10,674</td></tr><tr><td>重分类及转入/(转出)</td><td>(245)</td><td>46</td><td>-</td><td>-</td><td>(46)</td><td>(245)</td></tr><tr><td>出售/报废</td><td>(186)</td><td>(838)</td><td>(32)</td><td>(5,501)</td><td>(523)</td><td>(7,080)</td></tr><tr><td>汇率变动</td><td>88</td><td>44</td><td>15</td><td>131</td><td>11</td><td>289</td></tr><tr><td>2024年12月31日</td><td>17,121</td><td>15,646</td><td>2,335</td><td>18,134</td><td>4,165</td><td>57,401</td></tr><tr><td>减值准备:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>20</td><td>-</td><td>-</td><td>1,159</td><td>-</td><td>1,179</td></tr><tr><td>本年计提</td><td>-</td><td>-</td><td>-</td><td>791</td><td>-</td><td>791</td></tr><tr><td>出售/报废</td><td>(20)</td><td>-</td><td>-</td><td>(74)</td><td>-</td><td>(94)</td></tr><tr><td>汇率变动</td><td>-</td><td>-</td><td>-</td><td>14</td><td>-</td><td>14</td></tr><tr><td>2024年12月31日</td><td>-</td><td>-</td><td>-</td><td>1,890</td><td>-</td><td>1,890</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2024年12月31日</td><td>17,203</td><td>3,491</td><td>2,910</td><td>99,609</td><td>778</td><td>123,991</td></tr><tr><td>2024年1月1日</td><td>17,022</td><td>2,756</td><td>2,730</td><td>86,829</td><td>940</td><td>110,277</td></tr></table>
+
+16. 固定资产（续）
+
+<table><tr><td rowspan="2"></td><td colspan="5">本行</td></tr><tr><td>土地及建筑物</td><td>电子设备</td><td>装修费</td><td>其他</td><td>合计</td></tr><tr><td>成本:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>31,029</td><td>16,899</td><td>4,849</td><td>4,789</td><td>57,566</td></tr><tr><td>购置</td><td>8</td><td>2,072</td><td>-</td><td>331</td><td>2,411</td></tr><tr><td>重分类及转入/(转出)</td><td>5,075</td><td>23</td><td>1,196</td><td>157</td><td>6,451</td></tr><tr><td>出售/报废</td><td>(6)</td><td>(562)</td><td>(3)</td><td>(526)</td><td>(1,097)</td></tr><tr><td>汇率变动</td><td>(1)</td><td>(1)</td><td>-</td><td>(1)</td><td>(3)</td></tr><tr><td>2025年12月31日</td><td>36,105</td><td>18,431</td><td>6,042</td><td>4,750</td><td>65,328</td></tr><tr><td>累计折旧:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>14,572</td><td>13,957</td><td>2,038</td><td>4,045</td><td>34,612</td></tr><tr><td>本年计提</td><td>1,331</td><td>1,515</td><td>240</td><td>366</td><td>3,452</td></tr><tr><td>重分类及转入/(转出)</td><td>(32)</td><td>-</td><td>-</td><td>3</td><td>(29)</td></tr><tr><td>出售/报废</td><td>(4)</td><td>(562)</td><td>(3)</td><td>(517)</td><td>(1,086)</td></tr><tr><td>2025年12月31日</td><td>15,867</td><td>14,910</td><td>2,275</td><td>3,897</td><td>36,949</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2025年12月31日</td><td>20,238</td><td>3,521</td><td>3,767</td><td>853</td><td>28,379</td></tr><tr><td>2025年1月1日</td><td>16,457</td><td>2,942</td><td>2,811</td><td>744</td><td>22,954</td></tr></table>
+
+<table><tr><td rowspan="2"></td><td colspan="5">本行</td></tr><tr><td>土地及建筑物</td><td>电子设备</td><td>装修费</td><td>其他</td><td>合计</td></tr><tr><td>成本:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>29,609</td><td>15,254</td><td>4,475</td><td>5,021</td><td>54,359</td></tr><tr><td>购置</td><td>9</td><td>2,424</td><td>2</td><td>276</td><td>2,711</td></tr><tr><td>重分类及转入/(转出)</td><td>1,410</td><td>45</td><td>403</td><td>(32)</td><td>1,826</td></tr><tr><td>出售/报废</td><td>-</td><td>(825)</td><td>(31)</td><td>(476)</td><td>(1,332)</td></tr><tr><td>汇率变动</td><td>1</td><td>1</td><td>-</td><td>-</td><td>2</td></tr><tr><td>2024年12月31日</td><td>31,029</td><td>16,899</td><td>4,849</td><td>4,789</td><td>57,566</td></tr><tr><td>累计折旧:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>13,518</td><td>13,210</td><td>1,845</td><td>4,125</td><td>32,698</td></tr><tr><td>本年计提</td><td>1,306</td><td>1,525</td><td>222</td><td>439</td><td>3,492</td></tr><tr><td>重分类及转入/(转出)</td><td>(252)</td><td>46</td><td>-</td><td>(46)</td><td>(252)</td></tr><tr><td>出售/报废</td><td>-</td><td>(824)</td><td>(29)</td><td>(473)</td><td>(1,326)</td></tr><tr><td>2024年12月31日</td><td>14,572</td><td>13,957</td><td>2,038</td><td>4,045</td><td>34,612</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2024年12月31日</td><td>16,457</td><td>2,942</td><td>2,811</td><td>744</td><td>22,954</td></tr><tr><td>2024年1月1日</td><td>16,091</td><td>2,044</td><td>2,630</td><td>896</td><td>21,661</td></tr></table>
+
+## 16. 固定资产（续）
+
+(a) 于2025年12月31日，本集团及本行有账面净值约人民币5,908百万元（2024年12月31日：人民币2,394百万元）的建筑物的产权手续尚在办理中，管理层预期相关手续不会影响本集团承继这些资产的权利或对本集团的经营运作造成严重影响。  
+(b) 于2025年12月31日，本集团及本行无重大暂时闲置的固定资产（2024年12月31日：无）。  
+(c) 于2025年12月31日，本集团子公司招银金租之附属公司为拆入资金而抵押的飞机及船舶账面价值为人民币21,806百万元（2024年12月31日：人民币24,026百万元）。  
+(d) 本集团将部分固定资产用于经营出租，与固定资产相关的在不可撤销经营租赁期内的未来最低应收租赁款项如下：
+
+<table><tr><td></td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>1年或以下(含1年)</td><td>11,983</td><td>11,988</td></tr><tr><td>1年以上至2年(含2年)</td><td>10,297</td><td>10,327</td></tr><tr><td>2年以上至3年(含3年)</td><td>9,571</td><td>8,677</td></tr><tr><td>3年以上至4年(含4年)</td><td>8,137</td><td>8,178</td></tr><tr><td>4年以上至5年(含5年)</td><td>7,384</td><td>7,634</td></tr><tr><td>5年以上</td><td>27,760</td><td>29,074</td></tr><tr><td>合计</td><td>75,132</td><td>75,878</td></tr></table>
+
+## 17. 在建工程
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>年初余额</td><td>3,825</td><td>3,980</td><td>3,824</td><td>3,980</td></tr><tr><td>本年新增</td><td>3,016</td><td>1,995</td><td>3,016</td><td>1,994</td></tr><tr><td>本年转出</td><td>(6,782)</td><td>(2,150)</td><td>(6,782)</td><td>(2,150)</td></tr><tr><td>年末余额</td><td>59</td><td>3,825</td><td>58</td><td>3,824</td></tr></table>
+
+## 18. 租赁合同
+
+## (a) 使用权资产
+
+本集团
+
+<table><tr><td></td><td>房屋及建筑物</td><td>电子设备</td><td>运输设备及其他</td><td>合计</td></tr><tr><td>成本:</td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>25,269</td><td>13</td><td>11</td><td>25,293</td></tr><tr><td>本年新增</td><td>2,911</td><td>1</td><td>-</td><td>2,912</td></tr><tr><td>本年减少</td><td>(3,937)</td><td>-</td><td>(1)</td><td>(3,938)</td></tr><tr><td>汇率变动</td><td>(31)</td><td>-</td><td>-</td><td>(31)</td></tr><tr><td>2025年12月31日</td><td>24,212</td><td>14</td><td>10</td><td>24,236</td></tr><tr><td>累计折旧:</td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>12,600</td><td>8</td><td>5</td><td>12,613</td></tr><tr><td>本年计提(附注49)</td><td>3,739</td><td>4</td><td>2</td><td>3,745</td></tr><tr><td>本年减少</td><td>(3,330)</td><td>-</td><td>(1)</td><td>(3,331)</td></tr><tr><td>汇率变动</td><td>(3)</td><td>-</td><td>-</td><td>(3)</td></tr><tr><td>2025年12月31日</td><td>13,006</td><td>12</td><td>6</td><td>13,024</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td><td></td></tr><tr><td>2025年12月31日</td><td>11,206</td><td>2</td><td>4</td><td>11,212</td></tr><tr><td>2025年1月1日</td><td>12,669</td><td>5</td><td>6</td><td>12,680</td></tr></table>
+
+本集团
+
+<table><tr><td></td><td>房屋及建筑物</td><td>电子设备</td><td>运输设备及其他</td><td>合计</td></tr><tr><td colspan="5">成本:</td></tr><tr><td>2024年1月1日</td><td>25,044</td><td>10</td><td>11</td><td>25,065</td></tr><tr><td>本年新增</td><td>4,423</td><td>7</td><td>-</td><td>4,430</td></tr><tr><td>本年减少</td><td>(4,222)</td><td>(4)</td><td>-</td><td>(4,226)</td></tr><tr><td>汇率变动</td><td>24</td><td>-</td><td>-</td><td>24</td></tr><tr><td>2024年12月31日</td><td>25,269</td><td>13</td><td>11</td><td>25,293</td></tr><tr><td colspan="5">累计折旧:</td></tr><tr><td>2024年1月1日</td><td>12,399</td><td>8</td><td>3</td><td>12,410</td></tr><tr><td>本年计提(附注49)</td><td>3,919</td><td>4</td><td>2</td><td>3,925</td></tr><tr><td>本年减少</td><td>(3,759)</td><td>(4)</td><td>-</td><td>(3,763)</td></tr><tr><td>汇率变动</td><td>41</td><td>-</td><td>-</td><td>41</td></tr><tr><td>2024年12月31日</td><td>12,600</td><td>8</td><td>5</td><td>12,613</td></tr><tr><td colspan="5">账面净值:</td></tr><tr><td>2024年12月31日</td><td>12,669</td><td>5</td><td>6</td><td>12,680</td></tr><tr><td>2024年1月1日</td><td>12,645</td><td>2</td><td>8</td><td>12,655</td></tr></table>
+
+## 18. 租赁合同（续）
+
+## (a) 使用权资产（续）
+
+<table><tr><td rowspan="2"></td><td colspan="4">本行</td></tr><tr><td>房屋及建筑物</td><td>电子设备</td><td>运输设备及其他</td><td>合计</td></tr><tr><td>成本:</td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>23,816</td><td>6</td><td>4</td><td>23,826</td></tr><tr><td>本年新增</td><td>2,626</td><td>1</td><td>-</td><td>2,627</td></tr><tr><td>本年减少</td><td>(3,587)</td><td>-</td><td>(1)</td><td>(3,588)</td></tr><tr><td>2025年12月31日</td><td>22,855</td><td>7</td><td>3</td><td>22,865</td></tr><tr><td>累计折旧:</td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>11,584</td><td>2</td><td>3</td><td>11,589</td></tr><tr><td>本年计提(附注49)</td><td>3,552</td><td>2</td><td>1</td><td>3,555</td></tr><tr><td>本年减少</td><td>(3,060)</td><td>-</td><td>(1)</td><td>(3,061)</td></tr><tr><td>2025年12月31日</td><td>12,076</td><td>4</td><td>3</td><td>12,083</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td><td></td></tr><tr><td>2025年12月31日</td><td>10,779</td><td>3</td><td>-</td><td>10,782</td></tr><tr><td>2025年1月1日</td><td>12,232</td><td>4</td><td>1</td><td>12,237</td></tr></table>
+
+<table><tr><td rowspan="2"></td><td colspan="4">本行</td></tr><tr><td>房屋及建筑物</td><td>电子设备</td><td>运输设备及其他</td><td>合计</td></tr><tr><td>成本:</td><td></td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>23,643</td><td>4</td><td>4</td><td>23,651</td></tr><tr><td>本年新增</td><td>4,329</td><td>5</td><td>-</td><td>4,334</td></tr><tr><td>本年减少</td><td>(4,156)</td><td>(3)</td><td>-</td><td>(4,159)</td></tr><tr><td>2024年12月31日</td><td>23,816</td><td>6</td><td>4</td><td>23,826</td></tr><tr><td>累计折旧:</td><td></td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>11,589</td><td>4</td><td>2</td><td>11,595</td></tr><tr><td>本年计提(附注49)</td><td>3,708</td><td>2</td><td>1</td><td>3,711</td></tr><tr><td>本年减少</td><td>(3,713)</td><td>(4)</td><td>-</td><td>(3,717)</td></tr><tr><td>2024年12月31日</td><td>11,584</td><td>2</td><td>3</td><td>11,589</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td><td></td></tr><tr><td>2024年12月31日</td><td>12,232</td><td>4</td><td>1</td><td>12,237</td></tr><tr><td>2024年1月1日</td><td>12,054</td><td>-</td><td>2</td><td>12,056</td></tr></table>
+
+本集团主要租赁房屋及建筑物。租赁条款根据个别基础进行拟定，其包含不同的条款和期限。在确定租赁期和评估不可撤销期期间时，在承租人控制范围内的重大事件或情况发生重大变化时，本集团将重新评估是否合理确定行使延期选择权或不行使终止选择权。
+
+## 18. 租赁合同（续）
+
+## (b) 租赁负债
+
+租赁负债按照剩余到期日的分析如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>1个月内到期(含1个月)</td><td>417</td><td>448</td><td>383</td><td>408</td></tr><tr><td>1个月至3个月(含3个月)</td><td>594</td><td>607</td><td>549</td><td>552</td></tr><tr><td>3个月至1年(含1年)</td><td>2,694</td><td>2,855</td><td>2,505</td><td>2,642</td></tr><tr><td>1年至2年(含2年)</td><td>2,879</td><td>3,145</td><td>2,734</td><td>2,942</td></tr><tr><td>2年至5年(含5年)</td><td>3,817</td><td>4,560</td><td>3,783</td><td>4,615</td></tr><tr><td>5年以上</td><td>852</td><td>1,163</td><td>833</td><td>1,135</td></tr><tr><td>合计</td><td>11,253</td><td>12,778</td><td>10,787</td><td>12,294</td></tr></table>
+
+## (c) 短期租赁及低价值资产租赁
+
+短期租赁及低价值资产租赁费用详见附注49。本集团签订的短期租赁合同包括房屋及建筑物、电子设备、运输设备及其他。
+
+(d) 2025年度，本集团租赁现金总流出量为人民币4,542百万元（2024年度：人民币4,793百万元），本行租赁现金总流出量为人民币4,209百万元（2024年度：人民币4,416百万元）。  
+(e) 截至2025年12月31日，已签订但租赁期尚未开始的租赁合同金额并不重大（2024年12月31日：不重大）。
+
+19. 无形资产
+
+<table><tr><td rowspan="2"></td><td colspan="4">本集团</td></tr><tr><td>土地使用权</td><td>软件及其他</td><td>核心存款</td><td>合计</td></tr><tr><td>成本/评估值:</td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>5,947</td><td>10,753</td><td>1,246</td><td>17,946</td></tr><tr><td>本年购入</td><td>56</td><td>191</td><td>-</td><td>247</td></tr><tr><td>出售/报废</td><td>-</td><td>(44)</td><td>-</td><td>(44)</td></tr><tr><td>汇率变动</td><td>(11)</td><td>(8)</td><td>(56)</td><td>(75)</td></tr><tr><td>2025年12月31日</td><td>5,992</td><td>10,892</td><td>1,190</td><td>18,074</td></tr><tr><td>累计摊销:</td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>1,737</td><td>9,041</td><td>720</td><td>11,498</td></tr><tr><td>本年摊销(附注49)</td><td>183</td><td>399</td><td>42</td><td>624</td></tr><tr><td>出售/报废</td><td>-</td><td>(44)</td><td>-</td><td>(44)</td></tr><tr><td>汇率变动</td><td>(6)</td><td>(8)</td><td>(32)</td><td>(46)</td></tr><tr><td>2025年12月31日</td><td>1,914</td><td>9,388</td><td>730</td><td>12,032</td></tr><tr><td>减值准备:</td><td></td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>-</td><td>42</td><td>-</td><td>42</td></tr><tr><td>2025年12月31日</td><td>-</td><td>42</td><td>-</td><td>42</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td><td></td></tr><tr><td>2025年12月31日</td><td>4,078</td><td>1,462</td><td>460</td><td>6,000</td></tr><tr><td>2025年1月1日</td><td>4,210</td><td>1,670</td><td>526</td><td>6,406</td></tr></table>
+
+<table><tr><td rowspan="2"></td><td colspan="4">本集团</td></tr><tr><td>土地使用权</td><td>软件及其他</td><td>核心存款</td><td>合计</td></tr><tr><td>成本/评估值:</td><td></td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>6,002</td><td>10,577</td><td>1,203</td><td>17,782</td></tr><tr><td>本年购入</td><td>-</td><td>194</td><td>-</td><td>194</td></tr><tr><td>出售/报废</td><td>(61)</td><td>(22)</td><td>-</td><td>(83)</td></tr><tr><td>汇率变动</td><td>6</td><td>4</td><td>43</td><td>53</td></tr><tr><td>2024年12月31日</td><td>5,947</td><td>10,753</td><td>1,246</td><td>17,946</td></tr><tr><td>累计摊销:</td><td></td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>1,557</td><td>8,418</td><td>653</td><td>10,628</td></tr><tr><td>本年摊销(附注49)</td><td>182</td><td>636</td><td>44</td><td>862</td></tr><tr><td>出售/报废</td><td>(2)</td><td>(20)</td><td>-</td><td>(22)</td></tr><tr><td>汇率变动</td><td>-</td><td>7</td><td>23</td><td>30</td></tr><tr><td>2024年12月31日</td><td>1,737</td><td>9,041</td><td>720</td><td>11,498</td></tr><tr><td>减值准备:</td><td></td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>59</td><td>-</td><td>-</td><td>59</td></tr><tr><td>本年计提</td><td>-</td><td>42</td><td>-</td><td>42</td></tr><tr><td>出售/报废</td><td>(59)</td><td>-</td><td>-</td><td>(59)</td></tr><tr><td>2024年12月31日</td><td>-</td><td>42</td><td>-</td><td>42</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td><td></td></tr><tr><td>2024年12月31日</td><td>4,210</td><td>1,670</td><td>526</td><td>6,406</td></tr><tr><td>2024年1月1日</td><td>4,386</td><td>2,159</td><td>550</td><td>7,095</td></tr></table>
+
+19. 无形资产（续）
+
+<table><tr><td rowspan="2"></td><td colspan="3">本行</td></tr><tr><td>土地使用权</td><td>软件及其他</td><td>合计</td></tr><tr><td>成本:</td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>5,763</td><td>9,816</td><td>15,579</td></tr><tr><td>本年购入</td><td>56</td><td>61</td><td>117</td></tr><tr><td>出售/报废</td><td>-</td><td>(39)</td><td>(39)</td></tr><tr><td>汇率变动</td><td>-</td><td>(4)</td><td>(4)</td></tr><tr><td>2025年12月31日</td><td>5,819</td><td>9,834</td><td>15,653</td></tr><tr><td>累计摊销:</td><td></td><td></td><td></td></tr><tr><td>2025年1月1日</td><td>1,676</td><td>8,524</td><td>10,200</td></tr><tr><td>本年摊销(附注49)</td><td>179</td><td>274</td><td>453</td></tr><tr><td>出售/报废</td><td>-</td><td>(39)</td><td>(39)</td></tr><tr><td>汇率变动</td><td>-</td><td>(4)</td><td>(4)</td></tr><tr><td>2025年12月31日</td><td>1,855</td><td>8,755</td><td>10,610</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td></tr><tr><td>2025年12月31日</td><td>3,964</td><td>1,079</td><td>5,043</td></tr><tr><td>2025年1月1日</td><td>4,087</td><td>1,292</td><td>5,379</td></tr><tr><td rowspan="2"></td><td colspan="3">本行</td></tr><tr><td>土地使用权</td><td>软件及其他</td><td>合计</td></tr><tr><td>成本:</td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>5,763</td><td>9,751</td><td>15,514</td></tr><tr><td>本年购入</td><td>-</td><td>77</td><td>77</td></tr><tr><td>出售/报废</td><td>-</td><td>(14)</td><td>(14)</td></tr><tr><td>汇率变动</td><td>-</td><td>2</td><td>2</td></tr><tr><td>2024年12月31日</td><td>5,763</td><td>9,816</td><td>15,579</td></tr><tr><td>累计摊销:</td><td></td><td></td><td></td></tr><tr><td>2024年1月1日</td><td>1,498</td><td>8,031</td><td>9,529</td></tr><tr><td>本年摊销(附注49)</td><td>178</td><td>504</td><td>682</td></tr><tr><td>出售/报废</td><td>-</td><td>(14)</td><td>(14)</td></tr><tr><td>汇率变动</td><td>-</td><td>3</td><td>3</td></tr><tr><td>2024年12月31日</td><td>1,676</td><td>8,524</td><td>10,200</td></tr><tr><td>账面净值:</td><td></td><td></td><td></td></tr><tr><td>2024年12月31日</td><td>4,087</td><td>1,292</td><td>5,379</td></tr><tr><td>2024年1月1日</td><td>4,265</td><td>1,720</td><td>5,985</td></tr></table>
+
+## 20. 商誉
+
+<table><tr><td></td><td>2024年12月31日</td><td>本年增加</td><td>本年减少</td><td>2025年12月31日</td></tr><tr><td>招商永隆银行(注(i))</td><td>10,177</td><td>-</td><td>-</td><td>10,177</td></tr><tr><td>招商基金(注(ii))</td><td>355</td><td>-</td><td>-</td><td>355</td></tr><tr><td>招银网络科技(注(iii))</td><td>1</td><td>-</td><td>-</td><td>1</td></tr><tr><td>合计</td><td>10,533</td><td>-</td><td>-</td><td>10,533</td></tr><tr><td>减:减值准备-招商永隆银行</td><td>(579)</td><td>-</td><td>-</td><td>(579)</td></tr><tr><td>净额</td><td>9,954</td><td>-</td><td>-</td><td>9,954</td></tr></table>
+
+注：  
+(i) 于2008年9月30日本行取得招商永隆银行 $53.12\%$ 的股权。于购买日，招商永隆银行可辨认净资产的公允价值为人民币12,898百万元，其中本行占人民币6,851百万元，其低于合并成本的差额人民币10,177百万元确认为商誉。招商永隆银行详细信息参见附注14(a)。  
+(ii) 于2013年11月28日本行取得招商基金 $55.00\%$ 的股权。于购买日，招商基金可辨认净资产的公允价值为人民币752百万元，其中本行占人民币414百万元，其低于合并成本人民币769百万元的差额人民币355百万元确认为商誉。招商基金详细信息参见附注14(a)。  
+(iii) 招银国际于2015年4月1日取得招银网络科技(深圳)有限公司(“招银网络科技”)100%的股权。于购买日，招银网络科技的可辨认净资产为人民币3百万元，其低于合并成本的差额人民币1百万元确认为商誉。
+
+## 包含商誉的资产组的减值测试
+
+本集团计算资产组的可收回金额中的使用价值时，采用了经管理层批准以五年财务预测为基础编制的预计未来现金流量预测。五年后的现金流量是按平稳的增长率制定，该增长率与权威机构发布的预测长期经济增长率相当，即不会超过资产组所在行业的长期平均增长率。
+
+本集团对现金流折现时采用反映相关资产组特定风险的税前折现率。本集团采用的招商永隆银行和招商基金的税前折现率分别为9%和9%（2024年12月31日：10%和11%）。本集团认为可收回金额所依据的关键假设在未来可能出现的任何合理变动均不会导致资产组的账面金额超过其可收回金额。
+
+## 21. 递延所得税资产、递延所得税负债
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>递延所得税资产</td><td>89,856</td><td>83,674</td><td>86,376</td><td>80,031</td></tr><tr><td>递延所得税负债</td><td>(1,115)</td><td>(1,592)</td><td>-</td><td>-</td></tr><tr><td>净额</td><td>88,741</td><td>82,082</td><td>86,376</td><td>80,031</td></tr></table>
+
+## (a) 递延所得税资产和负债及对应的暂时性差异列示如下：
+
+本集团
+
+<table><tr><td rowspan="2"></td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>可抵扣／（应纳税）暂时性差异</td><td>递延所得税</td><td>可抵扣／（应纳税）暂时性差异</td><td>递延所得税</td></tr><tr><td>未抵销前递延所得税资产</td><td></td><td></td><td></td><td></td></tr><tr><td>以摊余成本计量的贷款和垫款及其他资产损失/减值准备</td><td>293,989</td><td>73,194</td><td>294,876</td><td>73,469</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的金融资产</td><td>24</td><td>6</td><td>1,389</td><td>233</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融工具</td><td>705</td><td>176</td><td>845</td><td>209</td></tr><tr><td>租赁负债</td><td>11,108</td><td>2,770</td><td>12,656</td><td>3,163</td></tr><tr><td>应付工资及其他</td><td>93,066</td><td>22,005</td><td>92,695</td><td>22,081</td></tr><tr><td>合计</td><td>398,892</td><td>98,151</td><td>402,461</td><td>99,155</td></tr><tr><td>未抵销前递延所得税负债</td><td></td><td></td><td></td><td></td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的金融资产</td><td>(13,992)</td><td>(3,432)</td><td>(32,611)</td><td>(8,153)</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融工具</td><td>(554)</td><td>(137)</td><td>(9,597)</td><td>(2,399)</td></tr><tr><td>使用权资产</td><td>(11,089)</td><td>(2,764)</td><td>(12,575)</td><td>(3,142)</td></tr><tr><td>其他</td><td>(20,135)</td><td>(3,077)</td><td>(22,188)</td><td>(3,379)</td></tr><tr><td>合计</td><td>(45,770)</td><td>(9,410)</td><td>(76,971)</td><td>(17,073)</td></tr></table>
+
+本集团
+
+<table><tr><td></td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>未抵销前递延所得税资产</td><td>98,151</td><td>99,155</td></tr><tr><td>抵销金额</td><td>(8,295)</td><td>(15,481)</td></tr><tr><td>抵销后递延所得税资产</td><td>89,856</td><td>83,674</td></tr><tr><td>未抵销前递延所得税负债</td><td>(9,410)</td><td>(17,073)</td></tr><tr><td>抵销金额</td><td>8,295</td><td>15,481</td></tr><tr><td>抵销后递延所得税负债</td><td>(1,115)</td><td>(1,592)</td></tr></table>
+
+## 21. 递延所得税资产、递延所得税负债(续)
+
+## (a) 递延所得税资产和负债及对应的暂时性差异列示如下：（续）
+
+本行
+
+<table><tr><td rowspan="2"></td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>可抵扣／（应纳税）暂时性差异</td><td>递延所得税</td><td>可抵扣／（应纳税）暂时性差异</td><td>递延所得税</td></tr><tr><td>未抵销前递延所得税资产</td><td></td><td></td><td></td><td></td></tr><tr><td>以摊余成本计量的贷款和垫款及其他资产损失/减值准备</td><td>283,276</td><td>70,819</td><td>286,168</td><td>71,542</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融工具</td><td>536</td><td>134</td><td>–</td><td>–</td></tr><tr><td>租赁负债</td><td>10,787</td><td>2,697</td><td>12,294</td><td>3,074</td></tr><tr><td>应付工资及其他</td><td>77,489</td><td>19,373</td><td>77,329</td><td>19,332</td></tr><tr><td>合计</td><td>372,088</td><td>93,023</td><td>375,791</td><td>93,948</td></tr><tr><td>未抵销前递延所得税负债</td><td></td><td></td><td></td><td></td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的金融资产</td><td>(12,944)</td><td>(3,235)</td><td>(31,979)</td><td>(7,994)</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融工具</td><td>–</td><td>–</td><td>(8,735)</td><td>(2,184)</td></tr><tr><td>使用权资产</td><td>(10,782)</td><td>(2,696)</td><td>(12,237)</td><td>(3,059)</td></tr><tr><td>其他</td><td>(2,865)</td><td>(716)</td><td>(2,720)</td><td>(680)</td></tr><tr><td>合计</td><td>(26,591)</td><td>(6,647)</td><td>(55,671)</td><td>(13,917)</td></tr></table>
+
+<table><tr><td rowspan="2"></td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>未抵销前递延所得税资产</td><td>93,023</td><td>93,948</td></tr><tr><td>抵销金额</td><td>(6,647)</td><td>(13,917)</td></tr><tr><td>抵销后递延所得税资产</td><td>86,376</td><td>80,031</td></tr><tr><td>未抵销前递延所得税负债</td><td>(6,647)</td><td>(13,917)</td></tr><tr><td>抵销金额</td><td>6,647</td><td>13,917</td></tr><tr><td>抵销后递延所得税负债</td><td>-</td><td>-</td></tr></table>
+
+## 21. 递延所得税资产、递延所得税负债(续)
+
+## (b) 递延所得税的变动
+
+<table><tr><td rowspan="2"></td><td colspan="5">本集团</td></tr><tr><td>以摊余成本计量的贷款和垫款及其他资产损失/减值准备</td><td>以公允价值计量且其变动计入其他综合收益的金融资产</td><td>以公允价值计量且其变动计入当期损益的金融工具</td><td>其他</td><td>合计</td></tr><tr><td>2025年1月1日</td><td>73,469</td><td>(7,920)</td><td>(2,190)</td><td>18,723</td><td>82,082</td></tr><tr><td>于损益中确认</td><td>(198)</td><td>(361)</td><td>2,217</td><td>115</td><td>1,773</td></tr><tr><td>于其他综合收益确认</td><td>-</td><td>4,862</td><td>-</td><td>(2)</td><td>4,860</td></tr><tr><td>汇率变动影响</td><td>(77)</td><td>(7)</td><td>12</td><td>98</td><td>26</td></tr><tr><td>2025年12月31日</td><td>73,194</td><td>(3,426)</td><td>39</td><td>18,934</td><td>88,741</td></tr></table>
+
+<table><tr><td rowspan="2"></td><td colspan="5">本集团</td></tr><tr><td>以摊余成本计量的贷款和垫款及其他资产损失/减值准备</td><td>以公允价值计量且其变动计入其他综合收益的金融资产</td><td>以公允价值计量且其变动计入当期损益的金融工具</td><td>其他</td><td>合计</td></tr><tr><td>2024年1月1日</td><td>74,251</td><td>(2,232)</td><td>(363)</td><td>17,294</td><td>88,950</td></tr><tr><td>于损益中确认</td><td>(808)</td><td>1,004</td><td>(1,828)</td><td>1,468</td><td>(164)</td></tr><tr><td>于其他综合收益确认</td><td>-</td><td>(6,704)</td><td>-</td><td>4</td><td>(6,700)</td></tr><tr><td>汇率变动影响</td><td>26</td><td>12</td><td>1</td><td>(43)</td><td>(4)</td></tr><tr><td>2024年12月31日</td><td>73,469</td><td>(7,920)</td><td>(2,190)</td><td>18,723</td><td>82,082</td></tr></table>
+
+<table><tr><td rowspan="2"></td><td colspan="5">本行</td></tr><tr><td>以摊余成本计量的贷款和垫款及其他资产损失/减值准备</td><td>以公允价值计量且其变动计入其他综合收益的金融资产</td><td>以公允价值计量且其变动计入当期损益的金融工具</td><td>其他</td><td>合计</td></tr><tr><td>2025年1月1日</td><td>71,542</td><td>(7,994)</td><td>(2,184)</td><td>18,667</td><td>80,031</td></tr><tr><td>于损益中确认</td><td>(723)</td><td>(361)</td><td>2,318</td><td>(1)</td><td>1,233</td></tr><tr><td>于其他综合收益确认</td><td>-</td><td>5,120</td><td>-</td><td>(8)</td><td>5,112</td></tr><tr><td>2025年12月31日</td><td>70,819</td><td>(3,235)</td><td>134</td><td>18,658</td><td>86,376</td></tr></table>
+
+## 21. 递延所得税资产、递延所得税负债(续)
+
+## (b) 递延所得税的变动（续）
+
+<table><tr><td rowspan="2"></td><td colspan="5">本行</td></tr><tr><td>以摊余成本计量的贷款和垫款及其他资产损失/减值准备</td><td>以公允价值计量且其变动计入其他综合收益的金融资产</td><td>以公允价值计量且其变动计入当期损益的金融工具</td><td>其他</td><td>合计</td></tr><tr><td>2024年1月1日</td><td>72,607</td><td>(2,475)</td><td>(308)</td><td>17,353</td><td>87,177</td></tr><tr><td>于损益中确认</td><td>(1,065)</td><td>1,010</td><td>(1,876)</td><td>1,311</td><td>(620)</td></tr><tr><td>于其他综合收益确认</td><td>-</td><td>(6,529)</td><td>-</td><td>3</td><td>(6,526)</td></tr><tr><td>2024年12月31日</td><td>71,542</td><td>(7,994)</td><td>(2,184)</td><td>18,667</td><td>80,031</td></tr></table>
+
+注1：本行适用的所得税率为25%（2024年：25%）。  
+注2：本集团可以控制与子公司投资相关的应纳税暂时性差异转回的时间，该暂时性差异在可预见的未来很可能不会转回，故本集团未对该部分应纳税暂时性差异确认相应的递延所得税负债。
+
+## 22. 其他资产
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>待清算款项</td><td>4,622</td><td>14,206</td><td>2,333</td><td>12,397</td></tr><tr><td>继续涉入资产</td><td>5,274</td><td>5,274</td><td>5,274</td><td>5,274</td></tr><tr><td>应收未收利息</td><td>4,084</td><td>4,662</td><td>4,057</td><td>4,611</td></tr><tr><td>预付租赁费</td><td>392</td><td>482</td><td>392</td><td>482</td></tr><tr><td>抵债资产(附注22(a))</td><td>356</td><td>383</td><td>281</td><td>305</td></tr><tr><td>押金及保证金</td><td>749</td><td>629</td><td>419</td><td>404</td></tr><tr><td>长期待摊费用(附注22(b))</td><td>1,146</td><td>1,317</td><td>1,092</td><td>1,284</td></tr><tr><td>装修、工程及资产购置预付款</td><td>5,490</td><td>6,617</td><td>1,129</td><td>1,372</td></tr><tr><td>设定受益计划(附注29(b))</td><td>74</td><td>71</td><td>-</td><td>-</td></tr><tr><td>其他</td><td>28,290</td><td>23,617</td><td>17,216</td><td>15,447</td></tr><tr><td>合计</td><td>50,477</td><td>57,258</td><td>32,193</td><td>41,576</td></tr></table>
+
+## (a) 抵债资产
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>土地、房屋及建筑物</td><td>449</td><td>506</td><td>327</td><td>383</td></tr><tr><td>其他</td><td>9</td><td>5</td><td>9</td><td>5</td></tr><tr><td>小计</td><td>458</td><td>511</td><td>336</td><td>388</td></tr><tr><td>减:减值准备</td><td>(102)</td><td>(128)</td><td>(55)</td><td>(83)</td></tr><tr><td>待处理抵债资产净额</td><td>356</td><td>383</td><td>281</td><td>305</td></tr></table>
+
+注：本集团于2025年内共处置抵债资产原值为人民币86百万元（2024年：人民币52百万元）。
+
+## 22. 其他资产（续）
+
+## (b) 长期待摊费用
+
+<table><tr><td rowspan="3"></td><td colspan="5">本集团</td></tr><tr><td colspan="5">2025年</td></tr><tr><td>年初余额</td><td>本年增加额</td><td>本年摊销额</td><td>其他变动</td><td>年末余额</td></tr><tr><td>经营租入固定资产改良支出</td><td>945</td><td>470</td><td>(590)</td><td>(2)</td><td>823</td></tr><tr><td>其他</td><td>372</td><td>388</td><td>(438)</td><td>1</td><td>323</td></tr><tr><td>合计</td><td>1,317</td><td>858</td><td>(1,028)</td><td>(1)</td><td>1,146</td></tr><tr><td rowspan="3"></td><td colspan="5">本集团</td></tr><tr><td colspan="5">2024年</td></tr><tr><td>年初余额</td><td>本年增加额</td><td>本年摊销额</td><td>其他变动</td><td>年末余额</td></tr><tr><td>经营租入固定资产改良支出</td><td>1,091</td><td>511</td><td>(651)</td><td>(6)</td><td>945</td></tr><tr><td>其他</td><td>409</td><td>210</td><td>(245)</td><td>(2)</td><td>372</td></tr><tr><td>合计</td><td>1,500</td><td>721</td><td>(896)</td><td>(8)</td><td>1,317</td></tr><tr><td rowspan="3"></td><td colspan="5">本行</td></tr><tr><td colspan="5">2025年</td></tr><tr><td>年初余额</td><td>本年增加额</td><td>本年摊销额</td><td>其他变动</td><td>年末余额</td></tr><tr><td>经营租入固定资产改良支出</td><td>916</td><td>432</td><td>(568)</td><td>(1)</td><td>779</td></tr><tr><td>其他</td><td>368</td><td>380</td><td>(435)</td><td>-</td><td>313</td></tr><tr><td>合计</td><td>1,284</td><td>812</td><td>(1,003)</td><td>(1)</td><td>1,092</td></tr><tr><td rowspan="3"></td><td colspan="5">本行</td></tr><tr><td colspan="5">2024年</td></tr><tr><td>年初余额</td><td>本年增加额</td><td>本年摊销额</td><td>其他变动</td><td>年末余额</td></tr><tr><td>经营租入固定资产改良支出</td><td>1,049</td><td>506</td><td>(637)</td><td>(2)</td><td>916</td></tr><tr><td>其他</td><td>389</td><td>196</td><td>(217)</td><td>-</td><td>368</td></tr><tr><td>合计</td><td>1,438</td><td>702</td><td>(854)</td><td>(2)</td><td>1,284</td></tr></table>
+
+## 23. 资产损失／减值准备表
+
+本集团
+
+<table><tr><td rowspan="2"></td><td rowspan="2">附注</td><td colspan="6">2025年</td></tr><tr><td>年初余额</td><td>本年计提(转回)</td><td>本年收回已核销</td><td>本年核销/处置</td><td>汇率及其他变动</td><td>年末余额</td></tr><tr><td>应收同业和其他金融机构款项损失准备</td><td>6(b),7(c),8(d)</td><td>2,702</td><td>(377)</td><td>-</td><td>-</td><td>(15)</td><td>2,310</td></tr><tr><td>贷款和垫款损失准备</td><td>9(c)</td><td>270,301</td><td>42,582</td><td>10,851</td><td>(56,067)</td><td>(445)</td><td>267,222</td></tr><tr><td>以摊余成本计量的债务工具投资损失准备</td><td>11(c)</td><td>35,459</td><td>(2,181)</td><td>593</td><td>(232)</td><td>(29)</td><td>33,610</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资损失准备</td><td>12(b)</td><td>8,620</td><td>(708)</td><td>-</td><td>-</td><td>(125)</td><td>7,787</td></tr><tr><td>固定资产减值准备</td><td>16</td><td>1,890</td><td>177</td><td>-</td><td>(1,219)</td><td>(17)</td><td>831</td></tr><tr><td>无形资产减值准备</td><td>19</td><td>42</td><td>-</td><td>-</td><td>-</td><td>-</td><td>42</td></tr><tr><td>商誉减值准备</td><td>20</td><td>579</td><td>-</td><td>-</td><td>-</td><td>-</td><td>579</td></tr><tr><td>待处理抵债资产减值准备</td><td>22(a)</td><td>128</td><td>12</td><td>-</td><td>(38)</td><td>-</td><td>102</td></tr><tr><td>其他资产信用损失准备</td><td></td><td>7,402</td><td>(29)</td><td>81</td><td>(255)</td><td>-</td><td>7,199</td></tr><tr><td>合计</td><td></td><td>327,123</td><td>39,476</td><td>11,525</td><td>(57,811)</td><td>(631)</td><td>319,682</td></tr></table>
+
+<table><tr><td rowspan="2"></td><td rowspan="2">附注</td><td colspan="6">2024年</td></tr><tr><td>年初余额</td><td>本年计提(转回)</td><td>本年收回已核销</td><td>本年核销/处置</td><td>汇率及其他变动</td><td>年末余额</td></tr><tr><td>应收同业和其他金融机构款项损失准备</td><td>6(b),7(c),8(d)</td><td>1,331</td><td>1,371</td><td>-</td><td>-</td><td>-</td><td>2,702</td></tr><tr><td>贷款和垫款损失准备</td><td>9(c)</td><td>269,534</td><td>43,608</td><td>10,274</td><td>(53,154)</td><td>39</td><td>270,301</td></tr><tr><td>以摊余成本计量的债务工具投资损失准备</td><td>11(c)</td><td>39,390</td><td>(4,130)</td><td>175</td><td>-</td><td>24</td><td>35,459</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资损失准备</td><td>12(b)</td><td>6,812</td><td>1,730</td><td>-</td><td>-</td><td>78</td><td>8,620</td></tr><tr><td>固定资产减值准备</td><td>16</td><td>1,179</td><td>791</td><td>-</td><td>(94)</td><td>14</td><td>1,890</td></tr><tr><td>无形资产减值准备</td><td>19</td><td>59</td><td>42</td><td>-</td><td>(59)</td><td>-</td><td>42</td></tr><tr><td>商誉减值准备</td><td>20</td><td>579</td><td>-</td><td>-</td><td>-</td><td>-</td><td>579</td></tr><tr><td>待处理抵债资产减值准备</td><td>22(a)</td><td>139</td><td>10</td><td>-</td><td>(19)</td><td>(2)</td><td>128</td></tr><tr><td>其他资产信用损失准备</td><td></td><td>7,296</td><td>441</td><td>19</td><td>(351)</td><td>(3)</td><td>7,402</td></tr><tr><td>合计</td><td></td><td>326,319</td><td>43,863</td><td>10,468</td><td>(53,677)</td><td>150</td><td>327,123</td></tr></table>
+
+## 23. 资产损失／减值准备表（续）
+
+本行
+
+<table><tr><td rowspan="2"></td><td rowspan="2">附注</td><td colspan="6">2025年</td></tr><tr><td>年初余额</td><td>本年计提(转回)</td><td>本年收回已核销</td><td>本年核销/处置</td><td>汇率及其他变动</td><td>年末余额</td></tr><tr><td>应收同业和其他金融机构款项损失准备</td><td>6(b),7(c),8(d)</td><td>2,736</td><td>(385)</td><td>-</td><td>-</td><td>(16)</td><td>2,335</td></tr><tr><td>贷款和垫款损失准备</td><td>9(c)</td><td>259,885</td><td>39,024</td><td>10,558</td><td>(53,491)</td><td>(306)</td><td>255,670</td></tr><tr><td>以摊余成本计量的债务工具投资损失准备</td><td>11(c)</td><td>35,136</td><td>(2,021)</td><td>593</td><td>(232)</td><td>(17)</td><td>33,459</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资损失准备</td><td>12(b)</td><td>8,519</td><td>(710)</td><td>-</td><td>-</td><td>(119)</td><td>7,690</td></tr><tr><td>长期股权投资减值准备</td><td>14</td><td>1,768</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1,768</td></tr><tr><td>待处理抵债资产减值准备</td><td>22(a)</td><td>83</td><td>10</td><td>-</td><td>(38)</td><td>-</td><td>55</td></tr><tr><td>其他资产信用损失准备</td><td></td><td>6,699</td><td>(42)</td><td>81</td><td>(111)</td><td>-</td><td>6,627</td></tr><tr><td>合计</td><td></td><td>314,826</td><td>35,876</td><td>11,232</td><td>(53,872)</td><td>(458)</td><td>307,604</td></tr><tr><td rowspan="2"></td><td rowspan="2">附注</td><td colspan="6">2024年</td></tr><tr><td>年初余额</td><td>本年计提(转回)</td><td>本年收回已核销</td><td>本年核销/处置</td><td>汇率及其他变动</td><td>年末余额</td></tr><tr><td>应收同业和其他金融机构款项损失准备</td><td>6(b),7(c),8(d)</td><td>1,321</td><td>1,414</td><td>-</td><td>-</td><td>1</td><td>2,736</td></tr><tr><td>贷款和垫款损失准备</td><td>9(c)</td><td>261,402</td><td>40,076</td><td>10,261</td><td>(51,770)</td><td>(84)</td><td>259,885</td></tr><tr><td>以摊余成本计量的债务工具投资损失准备</td><td>11(c)</td><td>39,237</td><td>(4,294)</td><td>175</td><td>-</td><td>18</td><td>35,136</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资损失准备</td><td>12(b)</td><td>6,688</td><td>1,758</td><td>-</td><td>-</td><td>73</td><td>8,519</td></tr><tr><td>长期股权投资减值准备</td><td>14</td><td>1,768</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1,768</td></tr><tr><td>待处理抵债资产减值准备</td><td>22(a)</td><td>109</td><td>(3)</td><td>-</td><td>(19)</td><td>(4)</td><td>83</td></tr><tr><td>其他资产信用损失准备</td><td></td><td>6,555</td><td>543</td><td>19</td><td>(418)</td><td>-</td><td>6,699</td></tr><tr><td>合计</td><td></td><td>317,080</td><td>39,494</td><td>10,455</td><td>(52,207)</td><td>4</td><td>314,826</td></tr></table>
+
+注：各项金融工具应计利息的损失准备余额及其变动包含于“其他资产信用损失准备”中。
+
+## 24. 同业和其他金融机构存放款项
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>本金(a)</td><td>910,488</td><td>699,306</td><td>902,198</td><td>691,832</td></tr><tr><td>应计利息</td><td>1,211</td><td>669</td><td>1,112</td><td>558</td></tr><tr><td>合计</td><td>911,699</td><td>699,975</td><td>903,310</td><td>692,390</td></tr></table>
+
+## (a) 按交易对手性质分析：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>境内</td><td>908,760</td><td>697,014</td><td>900,080</td><td>689,699</td></tr><tr><td>— 同业</td><td>32,203</td><td>37,744</td><td>30,132</td><td>34,470</td></tr><tr><td>— 其他金融机构</td><td>876,557</td><td>659,270</td><td>869,948</td><td>655,229</td></tr><tr><td>境外</td><td>1,728</td><td>2,292</td><td>2,118</td><td>2,133</td></tr><tr><td>— 同业</td><td>1,056</td><td>1,157</td><td>1,446</td><td>984</td></tr><tr><td>— 其他金融机构</td><td>672</td><td>1,135</td><td>672</td><td>1,149</td></tr><tr><td>合计</td><td>910,488</td><td>699,306</td><td>902,198</td><td>691,832</td></tr></table>
+
+## 25. 拆入资金
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>本金(a)</td><td>249,635</td><td>234,453</td><td>61,497</td><td>46,466</td></tr><tr><td>应计利息</td><td>1,066</td><td>923</td><td>320</td><td>275</td></tr><tr><td>合计</td><td>250,701</td><td>235,376</td><td>61,817</td><td>46,741</td></tr></table>
+
+## (a) 按交易对手性质分析：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>境内</td><td>174,442</td><td>153,837</td><td>35,336</td><td>28,558</td></tr><tr><td>— 同业</td><td>173,961</td><td>150,562</td><td>35,336</td><td>28,558</td></tr><tr><td>— 其他金融机构</td><td>481</td><td>3,275</td><td>-</td><td>-</td></tr><tr><td>境外</td><td>75,193</td><td>80,616</td><td>26,161</td><td>17,908</td></tr><tr><td>— 同业</td><td>74,983</td><td>80,397</td><td>25,951</td><td>17,689</td></tr><tr><td>— 其他金融机构</td><td>210</td><td>219</td><td>210</td><td>219</td></tr><tr><td>合计</td><td>249,635</td><td>234,453</td><td>61,497</td><td>46,466</td></tr></table>
+
+## 26. 以公允价值计量且其变动计入当期损益的金融负债
+
+<table><tr><td rowspan="2"></td><td rowspan="2">附注</td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>交易性金融负债</td><td>(a)</td><td>88,605</td><td>29,146</td><td>88,317</td><td>28,757</td></tr><tr><td>指定为以公允价值计量且其变动计入当期损益的金融负债</td><td>(b)</td><td>31,894</td><td>38,315</td><td>-</td><td>5,712</td></tr><tr><td>合计</td><td></td><td>120,499</td><td>67,461</td><td>88,317</td><td>34,469</td></tr></table>
+
+## (a) 交易性金融负债
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>与贵金属相关的金融负债</td><td>88,317</td><td>28,757</td><td>88,317</td><td>28,757</td></tr><tr><td>债券卖空</td><td>288</td><td>389</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>88,605</td><td>29,146</td><td>88,317</td><td>28,757</td></tr></table>
+
+## (b) 指定为以公允价值计量且其变动计入当期损益的金融负债
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>境内</td><td>31,085</td><td>32,489</td><td>-</td><td>-</td></tr><tr><td>-其他</td><td>31,085</td><td>32,489</td><td>-</td><td>-</td></tr><tr><td>境外</td><td>809</td><td>5,826</td><td>-</td><td>5,712</td></tr><tr><td>-发行债券</td><td>-</td><td>5,567</td><td>-</td><td>5,712</td></tr><tr><td>-其他</td><td>809</td><td>259</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>31,894</td><td>38,315</td><td>-</td><td>5,712</td></tr></table>
+
+于资产负债表日，本集团及本行的指定为以公允价值计量且其变动计入当期损益的金融负债的公允价值与按合同到期日应支付持有人的金额的差异并不重大。截至2025年12月31日和2024年12月31日止年度及该日，由于本集团及本行信用风险变化导致上述金融负债公允价值变化的金额并不重大。
+
+## 27. 卖出回购金融资产款
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>本金(a)(b)</td><td>95,262</td><td>83,747</td><td>71,932</td><td>53,787</td></tr><tr><td>应计利息</td><td>148</td><td>295</td><td>15</td><td>100</td></tr><tr><td>合计</td><td>95,410</td><td>84,042</td><td>71,947</td><td>53,887</td></tr></table>
+
+## (a) 按交易对手性质分析
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>境内</td><td>81,106</td><td>60,182</td><td>71,000</td><td>50,657</td></tr><tr><td>— 同业</td><td>77,482</td><td>56,941</td><td>71,000</td><td>50,657</td></tr><tr><td>— 其他金融机构</td><td>3,624</td><td>3,241</td><td>-</td><td>-</td></tr><tr><td>境外</td><td>14,156</td><td>23,565</td><td>932</td><td>3,130</td></tr><tr><td>— 同业</td><td>9,873</td><td>11,759</td><td>932</td><td>1,837</td></tr><tr><td>— 其他金融机构</td><td>4,283</td><td>11,806</td><td>-</td><td>1,293</td></tr><tr><td>合计</td><td>95,262</td><td>83,747</td><td>71,932</td><td>53,787</td></tr></table>
+
+## (b) 按资产类型分析
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>债券</td><td>95,262</td><td>83,747</td><td>71,932</td><td>53,787</td></tr><tr><td>-政府债券</td><td>71,743</td><td>57,326</td><td>71,439</td><td>46,787</td></tr><tr><td>-政策性银行债券</td><td>5,007</td><td>8,530</td><td>493</td><td>4,000</td></tr><tr><td>-商业银行及其他金融机构债券</td><td>17,564</td><td>11,128</td><td>-</td><td>-</td></tr><tr><td>-其他债券</td><td>948</td><td>6,763</td><td>-</td><td>3,000</td></tr><tr><td>合计</td><td>95,262</td><td>83,747</td><td>71,932</td><td>53,787</td></tr></table>
+
+## 28. 客户存款
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>本金(a)</td><td>9,836,130</td><td>9,096,587</td><td>9,460,890</td><td>8,778,250</td></tr><tr><td>应计利息</td><td>88,428</td><td>98,742</td><td>86,258</td><td>96,567</td></tr><tr><td>合计</td><td>9,924,558</td><td>9,195,329</td><td>9,547,148</td><td>8,874,817</td></tr></table>
+
+## (a) 按类型分类如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>公司存款</td><td>5,340,216</td><td>5,063,553</td><td>5,195,362</td><td>4,952,448</td></tr><tr><td>-活期</td><td>2,761,092</td><td>2,772,365</td><td>2,691,300</td><td>2,709,727</td></tr><tr><td>-定期</td><td>2,579,124</td><td>2,291,188</td><td>2,504,062</td><td>2,242,721</td></tr><tr><td>零售存款</td><td>4,495,914</td><td>4,033,034</td><td>4,265,528</td><td>3,825,802</td></tr><tr><td>-活期</td><td>2,234,851</td><td>1,980,251</td><td>2,162,313</td><td>1,919,259</td></tr><tr><td>-定期</td><td>2,261,063</td><td>2,052,783</td><td>2,103,215</td><td>1,906,543</td></tr><tr><td>合计</td><td>9,836,130</td><td>9,096,587</td><td>9,460,890</td><td>8,778,250</td></tr></table>
+
+## (b) 于客户存款内含存入保证金，存入保证金情况如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>承兑汇票保证金</td><td>295,228</td><td>283,883</td><td>294,140</td><td>283,707</td></tr><tr><td>贷款保证金</td><td>10,769</td><td>12,086</td><td>10,769</td><td>12,086</td></tr><tr><td>信用证开证保证金</td><td>30,556</td><td>27,385</td><td>30,550</td><td>25,966</td></tr><tr><td>保函保证金</td><td>58,235</td><td>53,126</td><td>57,285</td><td>52,528</td></tr><tr><td>其他</td><td>18,222</td><td>21,087</td><td>16,228</td><td>18,400</td></tr><tr><td>合计</td><td>413,010</td><td>397,567</td><td>408,972</td><td>392,687</td></tr></table>
+
+## 29. 员工福利计划
+
+## (a) 应付职工薪酬
+
+<table><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2025年</td></tr><tr><td>年初账面余额</td><td>本年增加额/(减少额)</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>短期薪酬(i)</td><td>34,364</td><td>60,898</td><td>(59,491)</td><td>35,771</td></tr><tr><td>离职后福利</td><td></td><td></td><td></td><td></td></tr><tr><td>-设定提存计划(ii)</td><td>148</td><td>7,791</td><td>(7,751)</td><td>188</td></tr><tr><td>合计</td><td>34,512</td><td>68,689</td><td>(67,242)</td><td>35,959</td></tr><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2024年</td></tr><tr><td>年初账面余额</td><td>本年增加额/(减少额)</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>短期薪酬(i)</td><td>28,314</td><td>62,029</td><td>(55,979)</td><td>34,364</td></tr><tr><td>离职后福利</td><td></td><td></td><td></td><td></td></tr><tr><td>-设定提存计划(ii)</td><td>361</td><td>6,059</td><td>(6,272)</td><td>148</td></tr><tr><td>其他长期职工福利</td><td></td><td></td><td></td><td></td></tr><tr><td>-以现金结算的股份支付</td><td>4</td><td>-</td><td>(4)</td><td>-</td></tr><tr><td>合计</td><td>28,679</td><td>68,088</td><td>(62,255)</td><td>34,512</td></tr></table>
+
+## 29. 员工福利计划（续）
+
+## (a) 应付职工薪酬（续）
+
+<table><tr><td rowspan="3"></td><td colspan="4">本行</td></tr><tr><td colspan="4">2025年</td></tr><tr><td>年初账面余额</td><td>本年增加额/(减少额)</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>短期薪酬(i)</td><td>29,616</td><td>52,122</td><td>(51,532)</td><td>30,206</td></tr><tr><td>离职后福利</td><td></td><td></td><td></td><td></td></tr><tr><td>-设定提存计划(ii)</td><td>135</td><td>7,225</td><td>(7,180)</td><td>180</td></tr><tr><td>合计</td><td>29,751</td><td>59,347</td><td>(58,712)</td><td>30,386</td></tr><tr><td rowspan="3"></td><td colspan="4">本行</td></tr><tr><td colspan="4">2024年</td></tr><tr><td>年初账面余额</td><td>本年增加额/(减少额)</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>短期薪酬(i)</td><td>23,616</td><td>55,052</td><td>(49,052)</td><td>29,616</td></tr><tr><td>离职后福利</td><td></td><td></td><td></td><td></td></tr><tr><td>-设定提存计划(ii)</td><td>291</td><td>5,622</td><td>(5,778)</td><td>135</td></tr><tr><td>其他长期职工福利</td><td></td><td></td><td></td><td></td></tr><tr><td>-以现金结算的股份支付</td><td>4</td><td>-</td><td>(4)</td><td>-</td></tr><tr><td>合计</td><td>23,911</td><td>60,674</td><td>(54,834)</td><td>29,751</td></tr></table>
+
+## 29. 员工福利计划（续）
+
+## (a) 应付职工薪酬（续）
+
+## (i) 短期薪酬
+
+<table><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2025年</td></tr><tr><td>年初账面余额</td><td>本年增加额</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>工资及奖金</td><td>28,838</td><td>52,680</td><td>(50,992)</td><td>30,526</td></tr><tr><td>职工福利费</td><td>54</td><td>1,531</td><td>(1,558)</td><td>27</td></tr><tr><td>社会保险费</td><td>342</td><td>2,347</td><td>(2,354)</td><td>335</td></tr><tr><td>-医疗保险费</td><td>327</td><td>2,196</td><td>(2,203)</td><td>320</td></tr><tr><td>-工伤保险费</td><td>5</td><td>63</td><td>(63)</td><td>5</td></tr><tr><td>-生育保险费</td><td>10</td><td>88</td><td>(88)</td><td>10</td></tr><tr><td>住房公积金</td><td>51</td><td>3,306</td><td>(3,333)</td><td>24</td></tr><tr><td>工会经费和职工教育经费</td><td>5,079</td><td>1,034</td><td>(1,254)</td><td>4,859</td></tr><tr><td>合计</td><td>34,364</td><td>60,898</td><td>(59,491)</td><td>35,771</td></tr></table>
+
+<table><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2024年</td></tr><tr><td>年初账面余额</td><td>本年增加额</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>工资及奖金</td><td>23,592</td><td>52,627</td><td>(47,381)</td><td>28,838</td></tr><tr><td>职工福利费</td><td>15</td><td>2,389</td><td>(2,350)</td><td>54</td></tr><tr><td>社会保险费</td><td>362</td><td>1,954</td><td>(1,974)</td><td>342</td></tr><tr><td>-医疗保险费</td><td>345</td><td>1,812</td><td>(1,830)</td><td>327</td></tr><tr><td>-工伤保险费</td><td>6</td><td>50</td><td>(51)</td><td>5</td></tr><tr><td>-生育保险费</td><td>11</td><td>92</td><td>(93)</td><td>10</td></tr><tr><td>住房公积金</td><td>141</td><td>2,940</td><td>(3,030)</td><td>51</td></tr><tr><td>工会经费和职工教育经费</td><td>4,204</td><td>2,119</td><td>(1,244)</td><td>5,079</td></tr><tr><td>合计</td><td>28,314</td><td>62,029</td><td>(55,979)</td><td>34,364</td></tr></table>
+
+## 29. 员工福利计划（续）
+
+## (a) 应付职工薪酬(续)
+
+## (i) 短期薪酬（续）
+
+<table><tr><td rowspan="3"></td><td colspan="4">本行</td></tr><tr><td colspan="4">2025年</td></tr><tr><td>年初账面余额</td><td>本年增加额</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>工资及奖金</td><td>24,260</td><td>44,942</td><td>(44,088)</td><td>25,114</td></tr><tr><td>职工福利费</td><td>12</td><td>1,074</td><td>(1,075)</td><td>11</td></tr><tr><td>社会保险费</td><td>338</td><td>2,096</td><td>(2,103)</td><td>331</td></tr><tr><td>-医疗保险费</td><td>321</td><td>1,959</td><td>(1,967)</td><td>313</td></tr><tr><td>-工伤保险费</td><td>5</td><td>55</td><td>(55)</td><td>5</td></tr><tr><td>-生育保险费</td><td>12</td><td>82</td><td>(81)</td><td>13</td></tr><tr><td>住房公积金</td><td>52</td><td>3,072</td><td>(3,099)</td><td>25</td></tr><tr><td>工会经费和职工教育经费</td><td>4,954</td><td>938</td><td>(1,167)</td><td>4,725</td></tr><tr><td>合计</td><td>29,616</td><td>52,122</td><td>(51,532)</td><td>30,206</td></tr></table>
+
+<table><tr><td rowspan="3"></td><td colspan="4">本行</td></tr><tr><td colspan="4">2024年</td></tr><tr><td>年初账面余额</td><td>本年增加额</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>工资及奖金</td><td>19,033</td><td>46,427</td><td>(41,200)</td><td>24,260</td></tr><tr><td>职工福利费</td><td>12</td><td>2,146</td><td>(2,146)</td><td>12</td></tr><tr><td>社会保险费</td><td>353</td><td>1,705</td><td>(1,720)</td><td>338</td></tr><tr><td>-医疗保险费</td><td>336</td><td>1,575</td><td>(1,590)</td><td>321</td></tr><tr><td>-工伤保险费</td><td>5</td><td>43</td><td>(43)</td><td>5</td></tr><tr><td>-生育保险费</td><td>12</td><td>87</td><td>(87)</td><td>12</td></tr><tr><td>住房公积金</td><td>140</td><td>2,722</td><td>(2,810)</td><td>52</td></tr><tr><td>工会经费和职工教育经费</td><td>4,078</td><td>2,052</td><td>(1,176)</td><td>4,954</td></tr><tr><td>合计</td><td>23,616</td><td>55,052</td><td>(49,052)</td><td>29,616</td></tr></table>
+
+## 29. 员工福利计划（续）
+
+## (a) 应付职工薪酬(续)
+
+## (ii) 离职后福利－设定提存计划
+
+<table><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2025年</td></tr><tr><td>年初账面余额</td><td>本年增加额</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>基本养老保险费</td><td>69</td><td>3,980</td><td>(3,996)</td><td>53</td></tr><tr><td>企业年金缴费</td><td>66</td><td>3,672</td><td>(3,615)</td><td>123</td></tr><tr><td>失业保险费</td><td>13</td><td>139</td><td>(140)</td><td>12</td></tr><tr><td>合计</td><td>148</td><td>7,791</td><td>(7,751)</td><td>188</td></tr><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2024年</td></tr><tr><td>年初账面余额</td><td>本年增加额</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>基本养老保险费</td><td>179</td><td>3,519</td><td>(3,629)</td><td>69</td></tr><tr><td>企业年金缴费</td><td>161</td><td>2,430</td><td>(2,525)</td><td>66</td></tr><tr><td>失业保险费</td><td>21</td><td>110</td><td>(118)</td><td>13</td></tr><tr><td>合计</td><td>361</td><td>6,059</td><td>(6,272)</td><td>148</td></tr></table>
+
+## 29. 员工福利计划（续）
+
+## (a) 应付职工薪酬(续)
+
+## (ii) 离职后福利－设定提存计划（续）
+
+<table><tr><td rowspan="3"></td><td colspan="4">本行</td></tr><tr><td colspan="4">2025年</td></tr><tr><td>年初账面余额</td><td>本年增加额</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>基本养老保险费</td><td>63</td><td>3,558</td><td>(3,575)</td><td>46</td></tr><tr><td>企业年金缴费</td><td>60</td><td>3,544</td><td>(3,482)</td><td>122</td></tr><tr><td>失业保险费</td><td>12</td><td>123</td><td>(123)</td><td>12</td></tr><tr><td>合计</td><td>135</td><td>7,225</td><td>(7,180)</td><td>180</td></tr><tr><td rowspan="3"></td><td colspan="4">本行</td></tr><tr><td colspan="4">2024年</td></tr><tr><td>年初账面余额</td><td>本年增加额</td><td>本年支付额/转出额</td><td>年末账面余额</td></tr><tr><td>基本养老保险费</td><td>169</td><td>3,134</td><td>(3,240)</td><td>63</td></tr><tr><td>企业年金缴费</td><td>102</td><td>2,400</td><td>(2,442)</td><td>60</td></tr><tr><td>失业保险费</td><td>20</td><td>88</td><td>(96)</td><td>12</td></tr><tr><td>合计</td><td>291</td><td>5,622</td><td>(5,778)</td><td>135</td></tr></table>
+
+## 设定提存退休金计划
+
+根据中国法规，本集团为全体员工参加了由当地政府组织的法定设定提存退休金计划（基本养老保险）。于2025年，本集团需按员工工资及奖金的 $14\%$ 至 $17\%$ （2024年： $14\%$ 至 $16\%$ )不等的比率，向退休金计划供款。
+
+除上述法定退休金计划外，本集团根据国家企业年金制度的相关政策为员工建立补充设定提存退休金计划（企业年金）。于2025年，本集团年供款按员工工资及奖金的8%计算（2024年：不超过8%）。
+
+对于本集团于中国境外的员工，本集团按照当地法规规定的供款比率制定了设定提存退休金计划。
+
+## 29. 员工福利计划（续）
+
+## (b) 离职后福利－设定受益计划
+
+本集团子公司招商永隆银行为其员工设有设定受益计划，包括设定受益计划和设定受益退休计划部分。设定受益计划的供款是由精算师定期评估该计划的资产负债而确定。设定受益计划根据成员的最后薪金作为计算福利的基准，由招商永隆银行承担所有成本。
+
+设定受益计划最近一次精算估值由专业精算师Towers Watson Hong Kong Limited根据企业会计准则的相关要求于2025年12月31日评估。设定受益计划的设定受益义务现值及服务成本均以预期累计福利单位法计算。于估值日，该等计划之注资水平达 $132\%$ （2024年： $133\%$ ）。
+
+于2025年12月31日止之年度合并资产负债表内确认之金额分析如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>设定受益计划资产公允价值</td><td>306</td><td>283</td></tr><tr><td>已累积设定受益义务现值</td><td>(232)</td><td>(212)</td></tr><tr><td>于合并资产负债表内确认的资产净额</td><td>74</td><td>71</td></tr></table>
+
+以上部分之资产预期在一年后才收回。此项金额不能与未来十二个月内应收款项金额分隔开，原因是未来的供款涉及未来提供的服务以及未来的精算估计和市场变化。预计于2026年不会为设定受益计划作出供款。
+
+截至2025年及2024年12月31日止之年度，退休计划并无受调整、削减或结算之影响。
+
+于合并利润表内确认的金额如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td></tr><tr><td>2025年</td><td>2024年</td></tr><tr><td>服务成本</td><td>(6)</td><td>(7)</td></tr><tr><td>净利息收入</td><td>3</td><td>1</td></tr><tr><td>包括在退休福利成本的支出净额</td><td>(3)</td><td>(6)</td></tr></table>
+
+截至2025年12月31日止，设定受益计划资产的实际收益为人民币51百万元（2024年：实际收益为人民币24百万元）。
+
+## 29. 员工福利计划（续）
+
+## (b) 离职后福利－设定受益计划（续）
+
+设定受益义务变动如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td></tr><tr><td>2025年</td><td>2024年</td></tr><tr><td>年初设定受益义务现值</td><td>212</td><td>217</td></tr><tr><td>服务成本</td><td>6</td><td>7</td></tr><tr><td>利息成本</td><td>6</td><td>7</td></tr><tr><td>实际福利支出</td><td>(14)</td><td>(18)</td></tr><tr><td>负债经验所致的精算损益</td><td>13</td><td>12</td></tr><tr><td>财务假设变动所致的精算损益</td><td>18</td><td>(20)</td></tr><tr><td>人口假设变动所致的精算损益</td><td>-</td><td>-</td></tr><tr><td>汇率变动</td><td>(9)</td><td>7</td></tr><tr><td>年末实际设定受益义务</td><td>232</td><td>212</td></tr></table>
+
+设定受益计划资产公允价值变动如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td></tr><tr><td>2025年</td><td>2024年</td></tr><tr><td>年初设定受益计划资产公允价值</td><td>283</td><td>267</td></tr><tr><td>利息收入</td><td>9</td><td>8</td></tr><tr><td>预期设定受益计划资产利息收入以外的损益</td><td>42</td><td>16</td></tr><tr><td>实际福利支出</td><td>(14)</td><td>(18)</td></tr><tr><td>汇率变动</td><td>(14)</td><td>10</td></tr><tr><td>年末设定受益计划资产公允价值</td><td>306</td><td>283</td></tr></table>
+
+设定受益计划资产主要分类如下：
+
+<table><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>金额</td><td>比例(%)</td><td>金额</td><td>比例(%)</td></tr><tr><td>股权证券</td><td>179</td><td>58.5</td><td>155</td><td>54.8</td></tr><tr><td>债权证券</td><td>53</td><td>17.3</td><td>56</td><td>19.8</td></tr><tr><td>现金</td><td>74</td><td>24.2</td><td>72</td><td>25.4</td></tr><tr><td>总额</td><td>306</td><td>100.0</td><td>283</td><td>100.0</td></tr></table>
+
+截至2025年12月31日止，设定受益计划的资产中存放在本行的存款总值为人民币65百万元（2024年12月31日：人民币63百万元）。
+
+## 29. 员工福利计划（续）
+
+## (b) 离职后福利－设定受益计划（续）
+
+在评估时采用的主要精算假设如下：
+
+<table><tr><td rowspan="3"></td><td colspan="2">本集团</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>%</td><td>%</td></tr><tr><td>折算率</td><td></td><td></td></tr><tr><td>-设定受益计划部分</td><td>2.7</td><td>3.1</td></tr><tr><td>-设定受益退休计划部分</td><td>2.5</td><td>3.7</td></tr><tr><td>设定受益计划部分的长期平均薪酬升幅</td><td>4.0</td><td>3.0</td></tr><tr><td>设定受益退休计划部分的退休金增长幅度</td><td>-</td><td>-</td></tr></table>
+
+于2025年及2024年，因上述精算假设变动引起的退休福利计划负债变动金额均不重大。
+
+## 30. 应交税费
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>企业所得税</td><td>9,051</td><td>5,680</td><td>7,367</td><td>4,153</td></tr><tr><td>增值税</td><td>3,711</td><td>3,963</td><td>3,292</td><td>3,650</td></tr><tr><td>其他</td><td>1,951</td><td>2,070</td><td>1,788</td><td>1,865</td></tr><tr><td>合计</td><td>14,713</td><td>11,713</td><td>12,447</td><td>9,668</td></tr></table>
+
+## 31. 合同负债
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>信用卡积分递延收益</td><td>2,090</td><td>2,838</td><td>2,090</td><td>2,838</td></tr><tr><td>其他递延手续费及佣金收入</td><td>1,458</td><td>1,355</td><td>1,445</td><td>1,321</td></tr><tr><td>合计</td><td>3,548</td><td>4,193</td><td>3,535</td><td>4,159</td></tr></table>
+
+## 32. 预计负债
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>表外预期信用损失准备</td><td>14,963</td><td>14,712</td><td>14,936</td><td>14,640</td></tr><tr><td>其他预计负债</td><td>1,956</td><td>2,050</td><td>1,893</td><td>1,998</td></tr><tr><td>合计</td><td>16,919</td><td>16,762</td><td>16,829</td><td>16,638</td></tr></table>
+
+表外预期信用损失按照三阶段划分：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>13,611</td><td>12,560</td><td>13,589</td><td>12,492</td></tr><tr><td>阶段二(整个存续期预期信用损失-未减值)</td><td>1,036</td><td>1,338</td><td>1,032</td><td>1,335</td></tr><tr><td>阶段三(整个存续期预期信用损失-已减值)</td><td>316</td><td>814</td><td>315</td><td>813</td></tr><tr><td>合计</td><td>14,963</td><td>14,712</td><td>14,936</td><td>14,640</td></tr></table>
+
+## 33. 应付债券
+
+<table><tr><td rowspan="2"></td><td rowspan="2">附注</td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>已发行债券</td><td>(a)</td><td>80,963</td><td>85,003</td><td>34,839</td><td>38,224</td></tr><tr><td>已发行同业存单</td><td></td><td>11,259</td><td>89,186</td><td>11,259</td><td>89,186</td></tr><tr><td>已发行存款证及其他(注)</td><td></td><td>50,181</td><td>47,394</td><td>29,933</td><td>28,230</td></tr><tr><td>应计利息</td><td></td><td>1,084</td><td>1,338</td><td>366</td><td>506</td></tr><tr><td>合计</td><td></td><td>143,487</td><td>222,921</td><td>76,397</td><td>156,146</td></tr></table>
+
+注：其他应付债券为本集团境外子公司发行的票据。
+
+## 33. 应付债券（续）
+
+## (a) 已发行债券
+
+于资产负债表日本行发行债券如下：
+
+<table><tr><td>债券种类</td><td>期限</td><td>发行日期</td><td>年利率(%)</td><td>面值总额(百万元)</td><td>年初余额(人民币百万元)</td><td>本年发行(人民币百万元)</td><td>折溢价摊销(人民币百万元)</td><td>汇率变动(人民币百万元)</td><td>本年偿还(人民币百万元)</td><td>年末余额(人民币百万元)</td></tr><tr><td>中期票据</td><td>60个月</td><td>2021年9月1日</td><td>1.25</td><td>美元300</td><td>2,195</td><td>-</td><td>(1)</td><td>(90)</td><td>-</td><td>2,104</td></tr><tr><td>中期票据</td><td>36个月</td><td>2022年3月2日</td><td>2.00</td><td>美元400</td><td>2,938</td><td>-</td><td>-</td><td>(68)</td><td>(2,870)</td><td>-</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2022年5月11日</td><td>2.65</td><td>人民币5,000</td><td>5,000</td><td>-</td><td>-</td><td>-</td><td>(5,000)</td><td>-</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2022年9月1日</td><td>2.40</td><td>人民币10,000</td><td>9,999</td><td>-</td><td>1</td><td>-</td><td>(10,000)</td><td>-</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2023年3月27日</td><td>2.77</td><td>人民币5,000</td><td>4,999</td><td>-</td><td>-</td><td>-</td><td>-</td><td>4,999</td></tr><tr><td>中期票据</td><td>36个月</td><td>2023年6月13日</td><td>SOFR+65基点</td><td>美元400</td><td>2,927</td><td>-</td><td>-</td><td>(125)</td><td>-</td><td>2,802</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2024年3月22日</td><td>2.35</td><td>人民币5,000</td><td>4,999</td><td>-</td><td>-</td><td>-</td><td>-</td><td>4,999</td></tr><tr><td>中期票据</td><td>36个月</td><td>2024年7月10日</td><td>5.22</td><td>美元400</td><td>2,955</td><td>-</td><td>-</td><td>(134)</td><td>-</td><td>2,821</td></tr><tr><td>中期票据</td><td>36个月</td><td>2024年7月15日</td><td>5.78</td><td>美元300</td><td>2,212</td><td>-</td><td>(1)</td><td>(95)</td><td>-</td><td>2,116</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2025年2月25日</td><td>1.90</td><td>人民币5,000</td><td>-</td><td>5,000</td><td>(1)</td><td>-</td><td>-</td><td>4,999</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2025年6月5日</td><td>1.66</td><td>人民币5,000</td><td>-</td><td>5,000</td><td>(1)</td><td>-</td><td>-</td><td>4,999</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2025年12月3日</td><td>DR+34基点</td><td>人民币3,500</td><td>-</td><td>3,500</td><td>-</td><td>-</td><td>-</td><td>3,500</td></tr><tr><td>固定利率债券</td><td>60个月</td><td>2025年12月3日</td><td>1.85</td><td>人民币1,500</td><td>-</td><td>1,500</td><td>-</td><td>-</td><td>-</td><td>1,500</td></tr><tr><td>合计</td><td></td><td></td><td></td><td></td><td>38,224</td><td>15,000</td><td>(3)</td><td>(512)</td><td>(17,870)</td><td>34,839</td></tr></table>
+
+SOFR为有担保隔夜融资利率，DR为中国外汇中心存款类机构间质押利率。  
+注：于2025年12月31日，招商永隆银行持有本行发行的金融债券余额折合人民币314百万元（2024年12月31日：折合人民币364百万元）。
+
+## 33. 应付债券（续）
+
+## (a) 已发行债券（续）
+
+于资产负债表日招银金租及其子公司发行债券如下：
+
+<table><tr><td>债券种类</td><td>期限</td><td>发行日期</td><td>年利率(%)</td><td>面值总额(百万元)</td><td>年初余额(人民币百万元)</td><td>本年发行(人民币百万元)</td><td>折溢价摊销(人民币百万元)</td><td>汇率变动(人民币百万元)</td><td>本年偿还(人民币百万元)</td><td>年末余额(人民币百万元)</td></tr><tr><td>固定利率债券</td><td>120个月</td><td>2019年7月3日</td><td>3.63</td><td>美元100</td><td>716</td><td>-</td><td>1</td><td>(16)</td><td>-</td><td>701</td></tr><tr><td>固定利率债券</td><td>120个月</td><td>2020年7月14日</td><td>4.25</td><td>人民币2,000</td><td>1,995</td><td>-</td><td>5</td><td>-</td><td>(2,000)</td><td>-</td></tr><tr><td>固定利率债券</td><td>60个月</td><td>2020年8月12日</td><td>1.88</td><td>美元800</td><td>5,748</td><td>-</td><td>3</td><td>(38)</td><td>(5,713)</td><td>-</td></tr><tr><td>固定利率债券</td><td>120个月</td><td>2020年8月12日</td><td>2.75</td><td>美元400</td><td>2,860</td><td>-</td><td>3</td><td>(61)</td><td>-</td><td>2,802</td></tr><tr><td>固定利率债券</td><td>60个月</td><td>2021年2月4日</td><td>2.00</td><td>美元400</td><td>2,873</td><td>-</td><td>2</td><td>(61)</td><td>-</td><td>2,814</td></tr><tr><td>固定利率债券</td><td>120个月</td><td>2021年2月4日</td><td>2.88</td><td>美元400</td><td>2,855</td><td>-</td><td>3</td><td>(61)</td><td>-</td><td>2,797</td></tr><tr><td>固定利率债券</td><td>60个月</td><td>2021年3月24日</td><td>2.00</td><td>美元20</td><td>143</td><td>-</td><td>-</td><td>(2)</td><td>-</td><td>141</td></tr><tr><td>固定利率债券</td><td>60个月</td><td>2021年9月16日</td><td>1.75</td><td>美元300</td><td>2,151</td><td>-</td><td>3</td><td>(46)</td><td>-</td><td>2,108</td></tr><tr><td>浮动利率债券</td><td>60个月</td><td>2022年12月16日</td><td>SOFR+140基点</td><td>美元100</td><td>719</td><td>-</td><td>-</td><td>(16)</td><td>-</td><td>703</td></tr><tr><td>固定利率债券</td><td>24个月</td><td>2023年2月17日</td><td>3.50</td><td>人民币500</td><td>500</td><td>-</td><td>-</td><td>-</td><td>(500)</td><td>-</td></tr><tr><td>浮动利率债券</td><td>24个月</td><td>2023年5月31日</td><td>SOFR+100基点</td><td>美元75</td><td>539</td><td>-</td><td>-</td><td>-</td><td>(539)</td><td>-</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2023年6月13日</td><td>SOFR+105基点</td><td>美元103</td><td>739</td><td>-</td><td>1</td><td>(16)</td><td>-</td><td>724</td></tr><tr><td>固定利率债券</td><td>18个月</td><td>2023年7月10日</td><td>3.05</td><td>人民币700</td><td>700</td><td>-</td><td>-</td><td>-</td><td>(700)</td><td>-</td></tr><tr><td>浮动利率债券</td><td>24个月</td><td>2023年8月16日</td><td>SOFR+95基点</td><td>美元100</td><td>719</td><td>-</td><td>-</td><td>(5)</td><td>(714)</td><td>-</td></tr><tr><td>浮动利率债券</td><td>60个月</td><td>2023年8月18日</td><td>SOFR+130基点</td><td>美元50</td><td>358</td><td>-</td><td>-</td><td>(7)</td><td>-</td><td>351</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2023年8月23日</td><td>SOFR+100基点</td><td>美元300</td><td>2,152</td><td>-</td><td>3</td><td>(46)</td><td>-</td><td>2,109</td></tr><tr><td>浮动利率债券</td><td>24个月</td><td>2023年8月25日</td><td>SOFR+95基点</td><td>美元100</td><td>718</td><td>-</td><td>-</td><td>(4)</td><td>(714)</td><td>-</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2023年11月16日</td><td>2.80</td><td>人民币2,500</td><td>2,496</td><td>-</td><td>2</td><td>-</td><td>-</td><td>2,498</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2023年11月27日</td><td>3.35</td><td>人民币350</td><td>349</td><td>-</td><td>-</td><td>-</td><td>-</td><td>349</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2023年11月30日</td><td>SOFR+110基点</td><td>美元50</td><td>359</td><td>-</td><td>-</td><td>(7)</td><td>-</td><td>352</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2023年12月5日</td><td>2.90</td><td>人民币4,000</td><td>3,994</td><td>-</td><td>4</td><td>-</td><td>-</td><td>3,998</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2024年3月5日</td><td>2.45</td><td>人民币3,000</td><td>2,995</td><td>-</td><td>2</td><td>-</td><td>-</td><td>2,997</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2024年3月12日</td><td>SOFR+105基点</td><td>美元40</td><td>288</td><td>-</td><td>-</td><td>(7)</td><td>-</td><td>281</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2024年3月27日</td><td>SOFR+100基点</td><td>美元67</td><td>481</td><td>-</td><td>-</td><td>(10)</td><td>-</td><td>471</td></tr><tr><td>浮动利率债券</td><td>12个月</td><td>2024年4月16日</td><td>SOFR+64基点</td><td>美元20</td><td>144</td><td>-</td><td>-</td><td>-</td><td>(144)</td><td>-</td></tr><tr><td>浮动利率债券</td><td>12个月</td><td>2024年4月22日</td><td>SOFR+65基点</td><td>美元30</td><td>216</td><td>-</td><td>-</td><td>-</td><td>(216)</td><td>-</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2024年5月23日</td><td>2.20</td><td>人民币2,500</td><td>2,495</td><td>-</td><td>2</td><td>-</td><td>-</td><td>2,497</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2024年6月4日</td><td>SOFR+76基点</td><td>美元500</td><td>3,588</td><td>-</td><td>3</td><td>(77)</td><td>-</td><td>3,514</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2024年8月7日</td><td>SOFR+76基点</td><td>美元257</td><td>1,849</td><td>-</td><td>(1)</td><td>(39)</td><td>-</td><td>1,809</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2024年10月8日</td><td>SOFR+76基点</td><td>美元30</td><td>216</td><td>-</td><td>-</td><td>(5)</td><td>-</td><td>211</td></tr><tr><td>浮动利率债券</td><td>48个月</td><td>2024年10月25日</td><td>SOFR+63.9基点</td><td>美元30</td><td>216</td><td>-</td><td>-</td><td>(5)</td><td>-</td><td>211</td></tr><tr><td>浮动利率债券</td><td>12个月</td><td>2024年11月20日</td><td>SOFR+45基点</td><td>美元50</td><td>359</td><td>-</td><td>-</td><td>(5)</td><td>(354)</td><td>-</td></tr><tr><td>浮动利率债券</td><td>12个月</td><td>2024年11月27日</td><td>SOFR+49基点</td><td>美元100</td><td>719</td><td>-</td><td>-</td><td>(11)</td><td>(708)</td><td>-</td></tr><tr><td>浮动利率债券</td><td>12个月</td><td>2024年12月17日</td><td>SOFR+49基点</td><td>美元30</td><td>216</td><td>-</td><td>-</td><td>(4)</td><td>(212)</td><td>-</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2025年5月22日</td><td>1.75</td><td>人民币2,000</td><td>-</td><td>2,000</td><td>(3)</td><td>-</td><td>-</td><td>1,997</td></tr><tr><td>浮动利率债券</td><td>60个月</td><td>2025年6月5日</td><td>SOFR+80基点</td><td>美元400</td><td>-</td><td>2,875</td><td>-</td><td>(65)</td><td>-</td><td>2,810</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2025年6月5日</td><td>SOFR+68基点</td><td>美元300</td><td>-</td><td>2,156</td><td>1</td><td>(49)</td><td>-</td><td>2,108</td></tr><tr><td>固定利率债券</td><td>36个月</td><td>2025年7月23日</td><td>1.71</td><td>人民币1,500</td><td>-</td><td>1,500</td><td>(3)</td><td>-</td><td>-</td><td>1,497</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2025年9月25日</td><td>SOFR+63基点</td><td>美元50</td><td>-</td><td>356</td><td>-</td><td>(4)</td><td>-</td><td>352</td></tr><tr><td>浮动利率债券</td><td>3个月</td><td>2025年12月17日</td><td>SOFR+35基点</td><td>美元5</td><td>-</td><td>35</td><td>-</td><td>-</td><td>-</td><td>35</td></tr><tr><td>合计</td><td></td><td></td><td></td><td></td><td>47,465</td><td>8,922</td><td>31</td><td>(667)</td><td>(12,514)</td><td>43,237</td></tr></table>
+
+注：于2025年12月31日，本行持有招银金租发行的金融债券余额折合人民币150百万元（2024年12月31日：零），本行及招商永隆银行分别持有招银金租之全资子公司招银国际租赁管理有限公司发行的金融债券余额折合人民币1,884百万元及折合人民币212百万元（2024年12月31日：折合人民币1,533百万元、折合人民币236百万元）。
+
+## 33. 应付债券（续）
+
+## (a) 已发行债券（续）
+
+于资产负债表日招银国际的子公司发行债券如下：
+
+<table><tr><td>债券种类</td><td>期限</td><td>发行日期</td><td>年利率(%)</td><td>面值总额(百万元)</td><td>年初余额(人民币百万元)</td><td>本年发行(人民币百万元)</td><td>折溢价摊销(人民币百万元)</td><td>汇率变动(人民币百万元)</td><td>本年偿还(人民币百万元)</td><td>年末余额(人民币百万元)</td></tr><tr><td>固定利率债券</td><td>24个月</td><td>2024年4月29日</td><td>3.15</td><td>人民币720</td><td>719</td><td>-</td><td>1</td><td>-</td><td>-</td><td>720</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2024年6月26日</td><td>SOFR+65基点</td><td>美元100</td><td>728</td><td>-</td><td>1</td><td>(31)</td><td>-</td><td>698</td></tr><tr><td>浮动利率债券</td><td>36个月</td><td>2025年8月26日</td><td>SOFR+60基点</td><td>美元300</td><td>-</td><td>2,136</td><td>(1)</td><td>(40)</td><td>-</td><td>2,095</td></tr><tr><td>浮动利率债券</td><td>60个月</td><td>2025年8月26日</td><td>SOFR+68基点</td><td>美元300</td><td>-</td><td>2,136</td><td>(1)</td><td>(40)</td><td>-</td><td>2,095</td></tr><tr><td>合计</td><td></td><td></td><td></td><td></td><td>1,447</td><td>4,272</td><td>-</td><td>(111)</td><td>-</td><td>5,608</td></tr></table>
+
+注：于2025年12月31日，招商永隆银行持有招银国际之全资子公司Legend Fortune Limited发行的金融债券余额折合人民币161百万元（2024年12月31日：零）。
+
+## 34. 其他负债
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>结算及清算账户</td><td>8,348</td><td>15,151</td><td>6,076</td><td>13,554</td></tr><tr><td>薪酬风险准备金(注)</td><td>48,950</td><td>48,950</td><td>48,950</td><td>48,950</td></tr><tr><td>应付股利</td><td>25,574</td><td>26</td><td>25,574</td><td>26</td></tr><tr><td>继续涉入负债</td><td>5,274</td><td>5,274</td><td>5,274</td><td>5,274</td></tr><tr><td>代收代付</td><td>602</td><td>885</td><td>305</td><td>665</td></tr><tr><td>退票及退汇</td><td>8</td><td>7</td><td>8</td><td>7</td></tr><tr><td>其他应付款</td><td>41,278</td><td>40,097</td><td>15,854</td><td>15,070</td></tr><tr><td>合计</td><td>130,034</td><td>110,390</td><td>102,041</td><td>83,546</td></tr></table>
+
+注：薪酬风险准备金是指从应分配给本行员工的年度薪酬中进行预留，未来根据风险管理情况延迟发放而形成的专项资金。该准备金的分配兼顾长短期利益，以业绩与风险管理情况为依据，通过考核进行分配。如出现资产质量大幅下降、风险状况和盈利状况明显恶化、较大案件发生、监管部门查出严重违规问题等情况，其相关人员的薪酬风险准备金将被限制分配。
+
+## 35. 股本
+
+本行股本结构分析如下：
+
+<table><tr><td></td><td>年末及年初股数(百万股)</td></tr><tr><td>-A股</td><td>20,629</td></tr><tr><td>-H股</td><td>4,591</td></tr><tr><td>合计</td><td>25,220</td></tr></table>
+
+本行所有发行的A股和H股均为普通股，享有同等权益。上述股份均无限售条件。
+
+<table><tr><td rowspan="2"></td><td colspan="2">股本</td></tr><tr><td>股数(百万股)</td><td>金额</td></tr><tr><td>于2024年12月31日及2025年12月31日</td><td>25,220</td><td>25,220</td></tr></table>
+
+## 36. 其他权益工具
+
+## (a) 优先股
+
+<table><tr><td></td><td>发行时间</td><td>会计分类</td><td>股息率(%)</td><td>发行价格(元/股)</td><td>数量(百万股)</td><td>金额(人民币百万元)</td><td>到期日</td><td>转股条件</td><td>转换情况</td></tr><tr><td>境内优先股(注(i))</td><td>2017年12月22日</td><td>权益工具</td><td>3.62</td><td>人民币100</td><td>275</td><td>27,468</td><td>永久存续</td><td>注(ii)</td><td>无</td></tr><tr><td>合计</td><td></td><td></td><td></td><td></td><td>275</td><td>27,468</td><td></td><td></td><td></td></tr></table>
+
+发行在外的优先股变动情况如下：
+
+<table><tr><td rowspan="2"></td><td rowspan="2">发行时间</td><td colspan="2">2025年1月1日</td><td colspan="2">本年增减变动</td><td colspan="2">2025年12月31日</td></tr><tr><td>数量(百万股)</td><td>金额(人民币百万元)</td><td>数量(百万股)</td><td>金额(人民币百万元)</td><td>数量(百万股)</td><td>金额(人民币百万元)</td></tr><tr><td>境内优先股(注(i))</td><td>2017年12月22日</td><td>275</td><td>27,468</td><td>-</td><td>-</td><td>275</td><td>27,468</td></tr><tr><td>合计</td><td></td><td>275</td><td>27,468</td><td>-</td><td>-</td><td>275</td><td>27,468</td></tr></table>
+
+注：  
+(i) 经中国相关监管机构的批准，本行于2017年12月22日在境内发行了非累积优先股，面值总额为人民币27,500百万元，每股面值为人民币100元，发行数量为275,000,000股，初始股息率为4.81%，在存续期内按约定重置，且最高不得超过16.68%。2022年12月18日，本行在本次境内优先股发行满五年之际按照市场规则进行股息调整，票面年股息率调整为3.62%。  
+(ii) 本行发行的境内优先股具有以下强制转股触发条件：  
+(1) 当其他一级资本工具触发事件发生时，即核心一级资本充足率降至 $5.125\%$ （或以下）时，本行有权在无需获得优先股股东同意的情况下将届时已发行且存续的本次优先股按照票面总金额将境内优先股全部或部分转为A股普通股，并使本行的核心一级资本充足率恢复到 $5.125\%$ 以上。在部分转股情形下，本次优先股按同等比例、以同等条件转股。  
+(2) 当二级资本工具触发事件发生时，本行有权在无需获得优先股股东同意的情况下将届时已发行且存续的本次优先股按照票面总金额将境内优先股全部或部分转为A股普通股。其中，二级资本工具触发事件是指以下两种情形的较早发生者：①金融监管总局认定若不进行转股或减记，本行将无法生存；②相关部门认定若不进行公共部门注资或提供同等效力的支持，本行将无法生存。  
+当本行发生上述强制转股情形时，应当报金融监管总局审查并决定，并按照《证券法》及证监会和香港法规的相关规定，履行临时报告、公告等信息披露义务。
+
+本行以现金形式支付境内优先股股息。上述优先股股东按照约定的股息率分配后，不再同普通股股东一起参加剩余利润分配。上述优先股采取非累积股息支付方式，本行有权取消上述优先股的股息，且不构成违约事件。如本行全部或部分取消上述优先股的派息，自股东会决议通过次日起，直至决定重新开始向优先股股东派发全额股息前，本行将不会向普通股股东分配利润。由于上述优先股采取非累积股息支付方式，因此本行不会派发以前年度已经被取消的股息。
+
+上述境内优先股无到期日，但是自发行结束之日起满5年或以后，经金融监管总局批准并符合相关要求，本行有权赎回全部或部份上述优先股。但是本行不负有必须赎回优先股的义务，优先股股东无权要求本行赎回优先股，且不应形成优先股将被赎回的预期。
+
+上述发行的境内优先股募集资金已计入本行其他一级资本。
+
+## 36. 其他权益工具（续）
+
+## (b) 永续债
+
+<table><tr><td></td><td>发行时间</td><td>会计分类</td><td>初始利息率(%)</td><td>发行价格(元/份)</td><td>数量(百万份)</td><td>金额(人民币百万元)</td><td>到期日</td><td>转股条件</td><td>转换情况</td></tr><tr><td>境内永续债(注(ii))</td><td>2021年12月7日</td><td>权益工具</td><td>3.69</td><td>人民币100</td><td>430</td><td>42,989</td><td>永久存续</td><td>无</td><td>无</td></tr><tr><td>境内永续债(注(iii))</td><td>2023年12月1日</td><td>权益工具</td><td>3.41</td><td>人民币100</td><td>300</td><td>30,000</td><td>永久存续</td><td>无</td><td>无</td></tr><tr><td>境内永续债(注(iv))</td><td>2024年11月5日</td><td>权益工具</td><td>2.42</td><td>人民币100</td><td>300</td><td>30,000</td><td>永久存续</td><td>无</td><td>无</td></tr><tr><td>境内永续债(注(v))</td><td>2025年4月29日</td><td>权益工具</td><td>2.13</td><td>人民币100</td><td>200</td><td>20,000</td><td>永久存续</td><td>无</td><td>无</td></tr><tr><td>境内永续债(注(vi))</td><td>2025年5月29日</td><td>权益工具</td><td>2.05</td><td>人民币100</td><td>270</td><td>27,000</td><td>永久存续</td><td>无</td><td>无</td></tr><tr><td>合计</td><td></td><td></td><td></td><td></td><td>1,500</td><td>149,989</td><td></td><td></td><td></td></tr></table>
+
+发行在外的永续债变动情况如下：
+
+<table><tr><td rowspan="2"></td><td rowspan="2">发行时间</td><td colspan="2">2025年1月1日</td><td colspan="2">本年增减变动</td><td colspan="2">2025年12月31日</td></tr><tr><td>数量(百万份)</td><td>金额(人民币百万元)</td><td>数量(百万份)</td><td>金额(人民币百万元)</td><td>数量(百万份)</td><td>金额(人民币百万元)</td></tr><tr><td>境内永续债(注(i))</td><td>2020年7月9日</td><td>500</td><td>49,989</td><td>(500)</td><td>(49,989)</td><td>-</td><td>-</td></tr><tr><td>境内永续债(注(ii))</td><td>2021年12月7日</td><td>430</td><td>42,989</td><td>-</td><td>-</td><td>430</td><td>42,989</td></tr><tr><td>境内永续债(注(iii))</td><td>2023年12月1日</td><td>300</td><td>30,000</td><td>-</td><td>-</td><td>300</td><td>30,000</td></tr><tr><td>境内永续债(注(iv))</td><td>2024年11月5日</td><td>300</td><td>30,000</td><td>-</td><td>-</td><td>300</td><td>30,000</td></tr><tr><td>境内永续债(注(v))</td><td>2025年4月29日</td><td>-</td><td>-</td><td>200</td><td>20,000</td><td>200</td><td>20,000</td></tr><tr><td>境内永续债(注(vi))</td><td>2025年5月29日</td><td>-</td><td>-</td><td>270</td><td>27,000</td><td>270</td><td>27,000</td></tr><tr><td>合计</td><td></td><td>1,530</td><td>152,978</td><td>(30)</td><td>(2,989)</td><td>1,500</td><td>149,989</td></tr></table>
+
+注：  
+(i) 经中国相关监管机构批准，本行于2020年7月9日在全国银行间债券市场发行“2020年招商银行股份有限公司第一期无固定期限资本债券”人民币50,000百万元。单位票面金额为人民币100元。自发行缴款截止日起每5年为一个票面利率调整期，在一个票面利率调整期内以约定的相同票面利率支付利息。该债券的存续期与本行持续经营存续期一致。经金融监管总局批准，本行已于2025年7月9日全额赎回了该债券。  
+(ii) 经中国相关监管机构批准，本行于2021年12月7日在全国银行间债券市场发行“2021年招商银行股份有限公司无固定期限资本债券”人民币43,000百万元。单位票面金额为人民币100元。自发行缴款截止日起每5年为一个票面利率调整期，在一个票面利率调整期内以约定的相同票面利率支付利息。该债券的存续期与本行持续经营存续期一致。  
+(iii) 经中国相关监管机构批准，本行于2023年12月1日在全国银行间债券市场发行“2023年招商银行股份有限公司无固定期限资本债券”人民币30,000百万元。单位票面金额为人民币100元。自发行缴款截止日起每5年为一个票面利率调整期，在一个票面利率调整期内以约定的相同票面利率支付利息。该债券的存续期与本行持续经营存续期一致。  
+(iv) 经中国相关监管机构批准，本行于2024年11月5日在全国银行间债券市场发行“2024年招商银行股份有限公司无固定期限资本债券（债券通）”人民币30,000百万元。单位票面金额为人民币100元。自发行缴款截止日起每5年为一个票面利率调整期，在一个票面利率调整期内以约定的相同票面利率支付利息。该债券的存续期与本行持续经营存续期一致。  
+(v) 经中国相关监管机构批准，本行于2025年4月29日在全国银行间债券市场发行“2025年招商银行股份有限公司无固定期限资本债券（第一期）（债券通）”人民币20,000百万元。单位票面金额为人民币100元。自发行缴款截止日起每5年为一个票面利率调整期，在一个票面利率调整期内以约定的相同票面利率支付利息。该债券的存续期与本行持续经营存续期一致。  
+(vi) 经中国相关监管机构批准，本行于2025年5月29日在全国银行间债券市场发行“2025年招商银行股份有限公司无固定期限资本债券（第二期）（债券通）”人民币27,000百万元。单位票面金额为人民币100元。自发行缴款截止日起每5年为一个票面利率调整期，在一个票面利率调整期内以约定的相同票面利率支付利息。该债券的存续期与本行持续经营存续期一致。
+
+本行自上述债券各自发行之日起5年后，在得到金融监管总局批准并满足赎回条件的前提下，有权于每年付息日（含发行之日后第5年付息日）全部或部分赎回债券。在上述债券发行后，如发生不可预计的监管规则变化导致上述债券不再计入其他一级资本，本行有权全部而非部分地赎回上述债券。投资者不得回售上述债券。
+
+上述债券的受偿顺序在存款人、一般债权人和处于高于上述债券顺位的次级债务之后，本行股东持有的所有类别股份之前；上述债券与本行其他偿还顺序相同的其他一级资本工具同顺位受偿。
+
+票面利率将在每个基准利率重置日（即自发行之日起每五年的日期）重置。调整后的票面利率将根据重置日的基准利率加上发行时确定的固定息差确定。上述债券不包含利率上调机制或任何其他赎回激励措施。本行有权取消全部或部分上述债券派息，且不构成违约事件。上述债券采取非累积利息支付方式，即未向债券持有人足额派息的差额部分，不累积到下一计息年度。本行在行使该项权利时将充分考虑债券持有人的利益。本行可以自由支配取消的上述债券利息用于偿付其他到期债务。取消全部或部分上述债券派息除构成对普通股的股息分配限制以外，不构成对本行的其他限制。
+
+当无法生存触发事件发生时，本行有权在无需获得债券持有人同意的情况下，将债券的本金进行部分或全部减记。无法生存触发事件是指以下两种情形的较早发生者：(1)金融监管总局认定若不进行减记，本行将无法生存；(2)相关部门认定若不进行公共部门注资或提供同等效力的支持，本行将无法生存。减记部分不可恢复。
+
+上述债券募集资金已依据适用法律和主管部门的批准用于补充本行其他一级资本。
+
+## 36. 其他权益工具(续)
+
+## (c) 归属于权益工具持有者的相关信息
+
+<table><tr><td></td><td>2025年</td><td>2024年</td></tr><tr><td>归属于本行股东的权益</td><td>1,272,875</td><td>1,226,014</td></tr><tr><td>— 归属于本行普通股持有者的权益</td><td>1,095,418</td><td>1,045,568</td></tr><tr><td>— 归属于本行其他权益持有者的权益</td><td>177,457</td><td>180,446</td></tr><tr><td>其中:净利润</td><td>6,307</td><td>5,581</td></tr><tr><td>综合收益总额</td><td>6,307</td><td>5,581</td></tr><tr><td>当期已分配股息/分派利息</td><td>(6,307)</td><td>(5,581)</td></tr><tr><td>累积未分配股利</td><td>-</td><td>-</td></tr><tr><td>归属于少数股东的权益</td><td>8,024</td><td>7,461</td></tr><tr><td>— 归属于普通股少数股东的权益</td><td>8,024</td><td>7,461</td></tr></table>
+
+## 37. 资本公积
+
+资本公积由发行股本的溢价等组成。
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>年初余额</td><td>65,429</td><td>65,432</td><td>76,076</td><td>76,079</td></tr><tr><td>本年变动</td><td>(20)</td><td>(3)</td><td>(20)</td><td>(3)</td></tr><tr><td>年末余额</td><td>65,409</td><td>65,429</td><td>76,056</td><td>76,076</td></tr></table>
+
+## 38. 其他综合收益
+
+<table><tr><td rowspan="4">项目</td><td rowspan="4">归属于母公司股东的其他综合收益年初余额</td><td colspan="8">本集团</td></tr><tr><td colspan="7">2025年</td><td rowspan="3">归属于母公司股东的其他综合收益年末余额</td></tr><tr><td colspan="4">本期计入</td><td colspan="3">其中:</td></tr><tr><td>本年所得税前发生额</td><td>其他综合收益当期转入损益</td><td>所得税</td><td>本年所得税后发生额</td><td>税后归属于母公司</td><td>税后归属于少数股东</td><td>所有者权益内部结转</td></tr><tr><td>以后不能重分类进损益的其他综合收益</td><td>6,018</td><td>2,766</td><td>-</td><td>(154)</td><td>2,612</td><td>2,612</td><td>-</td><td>(11)</td><td>8,619</td></tr><tr><td>—指定为以公允价值计量且其变动计入其他综合收益的权益工具投资公允价值变动</td><td>5,916</td><td>2,755</td><td>-</td><td>(152)</td><td>2,603</td><td>2,603</td><td>-</td><td>(11)</td><td>8,508</td></tr><tr><td>—重新计算设定受益计划负债的变动</td><td>102</td><td>11</td><td>-</td><td>(2)</td><td>9</td><td>9</td><td>-</td><td>-</td><td>111</td></tr><tr><td>以后将重分类进损益的其他综合收益</td><td>37,239</td><td>(16,426)</td><td>(9,269)</td><td>5,012</td><td>(20,683)</td><td>(20,628)</td><td>(55)</td><td>-</td><td>16,611</td></tr><tr><td>—分类为以公允价值计量且其变动计入其他综合收益的金融资产公允价值变动</td><td>19,097</td><td>(8,631)</td><td>(9,271)</td><td>4,651</td><td>(13,251)</td><td>(13,196)</td><td>(55)</td><td>-</td><td>5,901</td></tr><tr><td>—分类为以公允价值计量且其变动计入其他综合收益的金融资产信用损失准备</td><td>10,849</td><td>(1,433)</td><td>-</td><td>361</td><td>(1,072)</td><td>(1,072)</td><td>-</td><td>-</td><td>9,777</td></tr><tr><td>—现金流量套期的有效部分</td><td>56</td><td>(43)</td><td>2</td><td>-</td><td>(41)</td><td>(41)</td><td>-</td><td>-</td><td>15</td></tr><tr><td>—外币财务报表折算差额</td><td>4,816</td><td>(3,175)</td><td>-</td><td>-</td><td>(3,175)</td><td>(3,175)</td><td>-</td><td>-</td><td>1,641</td></tr><tr><td>—权益法下在被投资单位的其他综合收益中享有的份额</td><td>2,421</td><td>(3,144)</td><td>-</td><td>-</td><td>(3,144)</td><td>(3,144)</td><td>-</td><td>-</td><td>(723)</td></tr><tr><td>合计</td><td>43,257</td><td>(13,660)</td><td>(9,269)</td><td>4,858</td><td>(18,071)</td><td>(18,016)</td><td>(55)</td><td>(11)</td><td>25,230</td></tr><tr><td>以后不能重分类进损益的其他综合收益</td><td>3,091</td><td>3,125</td><td>-</td><td>(202)</td><td>2,923</td><td>2,923</td><td>-</td><td>4</td><td>6,018</td></tr><tr><td>—指定为以公允价值计量且其变动计入其他综合收益的权益工具投资公允价值变动</td><td>3,009</td><td>3,101</td><td>-</td><td>(198)</td><td>2,903</td><td>2,903</td><td>-</td><td>4</td><td>5,916</td></tr><tr><td>—重新计算设定受益计划负债的变动</td><td>82</td><td>24</td><td>-</td><td>(4)</td><td>20</td><td>20</td><td>-</td><td>-</td><td>102</td></tr><tr><td>以后将重分类进损益的其他综合收益</td><td>13,591</td><td>37,554</td><td>(7,298)</td><td>(6,486)</td><td>23,770</td><td>23,648</td><td>122</td><td>-</td><td>37,239</td></tr><tr><td>—分类为以公允价值计量且其变动计入其他综合收益的金融资产公允价值变动</td><td>2,747</td><td>29,208</td><td>(7,295)</td><td>(5,490)</td><td>16,423</td><td>16,350</td><td>73</td><td>-</td><td>19,097</td></tr><tr><td>—分类为以公允价值计量且其变动计入其他综合收益的金融资产信用损失准备</td><td>7,849</td><td>4,004</td><td>-</td><td>(1,004)</td><td>3,000</td><td>3,000</td><td>-</td><td>-</td><td>10,849</td></tr><tr><td>—现金流量套期的有效部分</td><td>92</td><td>(41)</td><td>(3)</td><td>8</td><td>(36)</td><td>(36)</td><td>-</td><td>-</td><td>56</td></tr><tr><td>—外币财务报表折算差额</td><td>2,934</td><td>1,931</td><td>-</td><td>-</td><td>1,931</td><td>1,882</td><td>49</td><td>-</td><td>4,816</td></tr><tr><td>—权益法下在被投资单位的其他综合收益中享有的份额</td><td>(31)</td><td>2,452</td><td>-</td><td>-</td><td>2,452</td><td>2,452</td><td>-</td><td>-</td><td>2,421</td></tr><tr><td>合计</td><td>16,682</td><td>40,679</td><td>(7,298)</td><td>(6,688)</td><td>26,693</td><td>26,571</td><td>122</td><td>4</td><td>43,257</td></tr></table>
+
+38. 其他综合收益(续)
+
+<table><tr><td rowspan="3">项目</td><td colspan="7">本行</td></tr><tr><td rowspan="2">其他综合收益年初余额</td><td colspan="5">2025年</td><td rowspan="2">其他综合收益年末余额</td></tr><tr><td>本年所得税前发生额</td><td>前期计入其他综合收益当期转入损益</td><td>所得税</td><td>税后其他综合收益发生额</td><td>所有者权益内部结转</td></tr><tr><td>以后不能重分类进损益的其他综合收益</td><td>3,362</td><td>564</td><td>-</td><td>(141)</td><td>423</td><td>(1)</td><td>3,784</td></tr><tr><td>—指定为以公允价值计量且其变动计入其他综合收益的权益工具投资公允价值变动</td><td>3,362</td><td>564</td><td>-</td><td>(141)</td><td>423</td><td>(1)</td><td>3,784</td></tr><tr><td>以后将重分类进损益的其他综合收益</td><td>33,446</td><td>(15,149)</td><td>(9,080)</td><td>5,253</td><td>(18,976)</td><td>-</td><td>14,470</td></tr><tr><td>—分类为以公允价值计量且其变动计入其他综合收益的金融资产公允价值变动</td><td>20,608</td><td>(10,525)</td><td>(9,084)</td><td>4,900</td><td>(14,709)</td><td>-</td><td>5,899</td></tr><tr><td>—分类为以公允价值计量且其变动计入其他综合收益的金融资产信用损失准备</td><td>10,034</td><td>(1,443)</td><td>-</td><td>361</td><td>(1,082)</td><td>-</td><td>8,952</td></tr><tr><td>—现金流量套期的有效部分</td><td>4</td><td>27</td><td>4</td><td>(8)</td><td>23</td><td>-</td><td>27</td></tr><tr><td>—外币财务报表折算差额</td><td>438</td><td>(49)</td><td>-</td><td>-</td><td>(49)</td><td>-</td><td>389</td></tr><tr><td>—权益法下在被投资单位的其他综合收益中享有的份额</td><td>2,362</td><td>(3,159)</td><td>-</td><td>-</td><td>(3,159)</td><td>-</td><td>(797)</td></tr><tr><td>合计</td><td>36,808</td><td>(14,585)</td><td>(9,080)</td><td>5,112</td><td>(18,553)</td><td>(1)</td><td>18,254</td></tr></table>
+
+<table><tr><td rowspan="3">项目</td><td colspan="7">本行</td></tr><tr><td rowspan="2">其他综合收益年初余额</td><td colspan="5">2024年</td><td rowspan="2">其他综合收益年末余额</td></tr><tr><td>本年所得税前发生额</td><td>前期计入其他综合收益当期转入损益</td><td>所得税</td><td>税后其他综合收益发生额</td><td>所有者权益内部结转</td></tr><tr><td>以后不能重分类进损益的其他综合收益</td><td>2,866</td><td>631</td><td>-</td><td>(157)</td><td>474</td><td>22</td><td>3,362</td></tr><tr><td>-指定为以公允价值计量且其变动计入其他综合收益的权益工具投资公允价值变动</td><td>2,866</td><td>631</td><td>-</td><td>(157)</td><td>474</td><td>22</td><td>3,362</td></tr><tr><td>以后将重分类进损益的其他综合收益</td><td>11,859</td><td>35,113</td><td>(7,170)</td><td>(6,356)</td><td>21,587</td><td>-</td><td>33,446</td></tr><tr><td>-分类为以公允价值计量且其变动计入其他综合收益的金融资产公允价值变动</td><td>4,562</td><td>28,562</td><td>(7,167)</td><td>(5,349)</td><td>16,046</td><td>-</td><td>20,608</td></tr><tr><td>-分类为以公允价值计量且其变动计入其他综合收益的金融资产信用损失准备</td><td>7,004</td><td>4,040</td><td>-</td><td>(1,010)</td><td>3,030</td><td>-</td><td>10,034</td></tr><tr><td>-现金流量套期的有效部分</td><td>11</td><td>(7)</td><td>(3)</td><td>3</td><td>(7)</td><td>-</td><td>4</td></tr><tr><td>-外币财务报表折算差额</td><td>360</td><td>78</td><td>-</td><td>-</td><td>78</td><td>-</td><td>438</td></tr><tr><td>-权益法下在被投资单位的其他综合收益中享有的份额</td><td>(78)</td><td>2,440</td><td>-</td><td>-</td><td>2,440</td><td>-</td><td>2,362</td></tr><tr><td>合计</td><td>14,725</td><td>35,744</td><td>(7,170)</td><td>(6,513)</td><td>22,061</td><td>22</td><td>36,808</td></tr></table>
+
+## 39. 盈余公积
+
+法定盈余公积金是按照财政部所颁布的企业会计准则及其他有关补充规定计算的经审计后本行净利润的10%来计提。
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团及本行</td></tr><tr><td>2025年</td><td>2024年</td></tr><tr><td>年初余额</td><td>122,652</td><td>108,737</td></tr><tr><td>提取法定盈余公积金</td><td>13,618</td><td>13,915</td></tr><tr><td>年末余额</td><td>136,270</td><td>122,652</td></tr></table>
+
+## 40. 一般风险准备
+
+一般风险准备是股东权益的组成部分。本行根据相关监管规定，在提取资产减值准备的基础上，设立一般风险准备用于弥补尚未识别的可能性损失，包括按照本行承担风险和损失的资产期末余额 $1.5\%$ 计提的一般准备，针对中等、较高、高风险国别评级的国别风险暴露计提的国别风险准备，以及按公募基金托管费收入的 $2.5\%$ 计提的公募基金托管业务风险准备金。本集团的一般风险准备还包括本集团的子公司根据其所属行业或所属地区适用法规提取的一般风险准备。
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>年初余额</td><td>154,932</td><td>141,481</td><td>142,486</td><td>129,085</td></tr><tr><td>提取一般风险准备</td><td>8,549</td><td>13,451</td><td>7,750</td><td>13,401</td></tr><tr><td>年末余额</td><td>163,481</td><td>154,932</td><td>150,236</td><td>142,486</td></tr></table>
+
+## 41. 利润分配
+
+## (a) 宣告及分派股利
+
+<table><tr><td></td><td>2025年</td><td>2024年</td></tr><tr><td>年内批准、宣告2025年中期普通股现金股利每股人民币1.013元</td><td>25,548</td><td>-</td></tr><tr><td>年内批准、宣告及分派2024年度普通股现金股利每股人民币2.000元</td><td>50,440</td><td>-</td></tr><tr><td>年内批准、宣告及分派2023年度普通股现金股利每股人民币1.972元</td><td>-</td><td>49,734</td></tr><tr><td>合计</td><td>75,988</td><td>49,734</td></tr></table>
+
+## (b) 建议分配利润
+
+<table><tr><td></td><td>附注</td><td>2025年</td><td>2024年</td></tr><tr><td>提取法定盈余公积</td><td>39</td><td>13,618</td><td>13,915</td></tr><tr><td>提取一般风险准备</td><td>40</td><td>8,549</td><td>13,451</td></tr><tr><td>分派2025年末期普通股现金股利:每股人民币1.003元(2024年:全年每股人民币2.000元)</td><td></td><td>25,296</td><td>50,440</td></tr><tr><td>合计</td><td></td><td>47,463</td><td>77,806</td></tr></table>
+
+2025年度利润分配方案已经本行2026年3月27日董事会审议通过，尚需提交2025年度股东会审议。
+
+## (c) 未分配利润
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>年初未分配利润</td><td>634,078</td><td>568,372</td><td>559,397</td><td>502,902</td></tr><tr><td>加:本年归属于母公司股东的净利润</td><td>150,181</td><td>148,391</td><td>136,184</td><td>139,148</td></tr><tr><td>减:提取法定盈余公积金(附注39)</td><td>(13,618)</td><td>(13,915)</td><td>(13,618)</td><td>(13,915)</td></tr><tr><td>提取一般风险准备(附注40)</td><td>(8,549)</td><td>(13,451)</td><td>(7,750)</td><td>(13,401)</td></tr><tr><td>分派普通股股利(附注41(a))</td><td>(75,988)</td><td>(49,734)</td><td>(75,988)</td><td>(49,734)</td></tr><tr><td>分派优先股股息</td><td>(996)</td><td>(996)</td><td>(996)</td><td>(996)</td></tr><tr><td>分派永续债利息</td><td>(5,311)</td><td>(4,585)</td><td>(5,311)</td><td>(4,585)</td></tr><tr><td>其他综合收益结转留存收益(附注13)</td><td>11</td><td>(4)</td><td>1</td><td>(22)</td></tr><tr><td>年末未分配利润</td><td>679,808</td><td>634,078</td><td>591,919</td><td>559,397</td></tr></table>
+
+2025年12月31日，本集团归属于本行股东的未分配利润中包含了本行的子公司提取的盈余公积人民币4,125百万元（2024年12月31日：人民币3,691百万元）。
+
+## 42. 利息收入
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>贷款和垫款</td><td>233,547</td><td>260,573</td><td>220,254</td><td>244,433</td></tr><tr><td>-公司贷款和垫款</td><td>85,688</td><td>93,282</td><td>74,290</td><td>79,471</td></tr><tr><td>-零售贷款和垫款</td><td>144,315</td><td>161,740</td><td>142,442</td><td>159,468</td></tr><tr><td>-票据贴现</td><td>3,544</td><td>5,551</td><td>3,522</td><td>5,494</td></tr><tr><td>存放中央银行款项</td><td>8,864</td><td>9,698</td><td>8,804</td><td>9,652</td></tr><tr><td>存放同业和其他金融机构款项</td><td>2,648</td><td>2,768</td><td>1,269</td><td>1,286</td></tr><tr><td>拆出资金</td><td>12,184</td><td>12,433</td><td>11,049</td><td>10,466</td></tr><tr><td>买入返售金融资产</td><td>2,631</td><td>3,875</td><td>2,539</td><td>3,810</td></tr><tr><td>金融投资</td><td>91,477</td><td>84,924</td><td>82,934</td><td>78,139</td></tr><tr><td>-以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>33,178</td><td>28,699</td><td>26,414</td><td>23,536</td></tr><tr><td>-以摊余成本计量的债务工具投资</td><td>58,299</td><td>56,225</td><td>56,520</td><td>54,603</td></tr><tr><td>合计</td><td>351,351</td><td>374,271</td><td>326,849</td><td>347,786</td></tr></table>
+
+注：截至2025年12月31日止年度，本集团以公允价值计量且其变动计入其他综合收益的贷款和垫款的利息收入为人民币7,719百万元（2024年：人民币8,868百万元）。
+
+## 43. 利息支出
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>客户存款</td><td>107,869</td><td>130,824</td><td>99,954</td><td>121,025</td></tr><tr><td>向中央银行借款</td><td>2,505</td><td>4,428</td><td>2,502</td><td>4,422</td></tr><tr><td>同业和其他金融机构存放款项</td><td>9,102</td><td>8,277</td><td>8,721</td><td>7,757</td></tr><tr><td>拆入资金及其他</td><td>8,378</td><td>9,251</td><td>2,334</td><td>2,178</td></tr><tr><td>卖出回购金融资产款</td><td>2,521</td><td>2,558</td><td>1,684</td><td>1,848</td></tr><tr><td>应付债券</td><td>5,383</td><td>7,656</td><td>2,810</td><td>5,063</td></tr><tr><td>合计</td><td>135,758</td><td>162,994</td><td>118,005</td><td>142,293</td></tr></table>
+
+## 44. 手续费及佣金收入
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>财富管理手续费及佣金</td><td>26,711</td><td>22,005</td><td>24,707</td><td>20,889</td></tr><tr><td>资产管理手续费及佣金</td><td>11,927</td><td>10,751</td><td>12</td><td>34</td></tr><tr><td>银行卡手续费</td><td>13,643</td><td>16,761</td><td>13,569</td><td>16,691</td></tr><tr><td>结算与清算手续费</td><td>15,465</td><td>15,505</td><td>15,392</td><td>15,444</td></tr><tr><td>信贷承诺及贷款业务佣金</td><td>3,961</td><td>4,219</td><td>3,472</td><td>3,680</td></tr><tr><td>托管业务佣金</td><td>5,375</td><td>4,891</td><td>5,275</td><td>4,800</td></tr><tr><td>其他</td><td>7,183</td><td>6,908</td><td>6,664</td><td>6,400</td></tr><tr><td>合计</td><td>84,265</td><td>81,040</td><td>69,091</td><td>67,938</td></tr></table>
+
+## 45. 投资收益
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融工具</td><td>19,146</td><td>14,723</td><td>16,438</td><td>11,146</td></tr><tr><td>以摊余成本计量的金融资产终止确认产生的损益</td><td>1,607</td><td>4,045</td><td>1,579</td><td>4,033</td></tr><tr><td>处置以公允价值计量且其变动计入其他综合收益的债务工具</td><td>9,271</td><td>7,295</td><td>9,084</td><td>7,167</td></tr><tr><td>其中:票据价差收益</td><td>711</td><td>1,224</td><td>711</td><td>1,224</td></tr><tr><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资的股利收入</td><td>1,100</td><td>947</td><td>274</td><td>245</td></tr><tr><td>长期股权投资收益</td><td>5,630</td><td>2,772</td><td>5,705</td><td>3,779</td></tr><tr><td>其他</td><td>83</td><td>98</td><td>83</td><td>98</td></tr><tr><td>合计</td><td>36,837</td><td>29,880</td><td>33,163</td><td>26,468</td></tr></table>
+
+## 46. 公允价值变动收益
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融工具</td><td>(9,561)</td><td>6,498</td><td>(8,780)</td><td>8,948</td></tr><tr><td>衍生金融工具</td><td>139</td><td>(357)</td><td>184</td><td>(408)</td></tr><tr><td>贵金属</td><td>1,262</td><td>(56)</td><td>1,262</td><td>(50)</td></tr><tr><td>合计</td><td>(8,160)</td><td>6,085</td><td>(7,334)</td><td>8,490</td></tr></table>
+
+## 47. 其他业务收入
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>资产处置收益</td><td>742</td><td>249</td><td>25</td><td>12</td></tr><tr><td>经营性政府补助</td><td>316</td><td>629</td><td>59</td><td>83</td></tr><tr><td>经营租赁收入</td><td>13,320</td><td>12,709</td><td>397</td><td>451</td></tr><tr><td>其他</td><td>398</td><td>539</td><td>280</td><td>142</td></tr><tr><td>合计</td><td>14,776</td><td>14,126</td><td>761</td><td>688</td></tr></table>
+
+## 48. 税金及附加
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>城建税</td><td>1,209</td><td>1,259</td><td>1,121</td><td>1,179</td></tr><tr><td>教育费附加</td><td>864</td><td>904</td><td>802</td><td>845</td></tr><tr><td>其他</td><td>1,024</td><td>787</td><td>938</td><td>711</td></tr><tr><td>合计</td><td>3,097</td><td>2,950</td><td>2,861</td><td>2,735</td></tr></table>
+
+## 49. 业务及管理费
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>员工费用</td><td>68,689</td><td>68,088</td><td>59,347</td><td>60,674</td></tr><tr><td>-工资及奖金</td><td>52,680</td><td>52,627</td><td>44,942</td><td>46,427</td></tr><tr><td>-社会保险及企业补充保险</td><td>10,138</td><td>8,013</td><td>9,321</td><td>7,327</td></tr><tr><td>-其他</td><td>5,871</td><td>7,448</td><td>5,084</td><td>6,920</td></tr><tr><td>固定资产折旧费</td><td>3,917</td><td>3,985</td><td>3,452</td><td>3,492</td></tr><tr><td>无形资产摊销费</td><td>624</td><td>862</td><td>453</td><td>682</td></tr><tr><td>使用权资产折旧费</td><td>3,745</td><td>3,925</td><td>3,555</td><td>3,711</td></tr><tr><td>短期租赁费和低价值资产租赁费</td><td>179</td><td>183</td><td>130</td><td>170</td></tr><tr><td>其他一般及行政费用</td><td>30,798</td><td>30,573</td><td>32,198</td><td>31,844</td></tr><tr><td>合计</td><td>107,952</td><td>107,616</td><td>99,135</td><td>100,573</td></tr></table>
+
+## 50. 信用减值损失
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>贷款及垫款</td><td>42,582</td><td>43,608</td><td>39,024</td><td>40,076</td></tr><tr><td>—以摊余成本计量的贷款和垫款(附注9(c))</td><td>43,268</td><td>41,400</td><td>39,719</td><td>37,869</td></tr><tr><td>—以公允价值计量且其变动计入其他综合收益的贷款和垫款(附注9(c))</td><td>(686)</td><td>2,208</td><td>(695)</td><td>2,207</td></tr><tr><td>应收同业和其他金融机构款项</td><td>(377)</td><td>1,371</td><td>(385)</td><td>1,414</td></tr><tr><td>金融投资</td><td>(2,889)</td><td>(2,400)</td><td>(2,731)</td><td>(2,536)</td></tr><tr><td>—以摊余成本计量的债务工具投资(附注11(c))</td><td>(2,181)</td><td>(4,130)</td><td>(2,021)</td><td>(4,294)</td></tr><tr><td>—以公允价值计量且其变动计入其他综合收益的债务工具投资(附注12(b))</td><td>(708)</td><td>1,730</td><td>(710)</td><td>1,758</td></tr><tr><td>表外预期信用减值损失</td><td>299</td><td>(2,703)</td><td>335</td><td>(2,690)</td></tr><tr><td>其他</td><td>(29)</td><td>100</td><td>(42)</td><td>202</td></tr><tr><td>合计</td><td>39,586</td><td>39,976</td><td>36,201</td><td>36,466</td></tr></table>
+
+## 51. 其他业务成本
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>投资性房地产折旧</td><td>169</td><td>129</td><td>81</td><td>67</td></tr><tr><td>经营租出资产折旧</td><td>6,937</td><td>6,689</td><td>-</td><td>-</td></tr><tr><td>其他</td><td>350</td><td>266</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>7,456</td><td>7,084</td><td>81</td><td>67</td></tr></table>
+
+## 52. 所得税费用
+
+## (a) 利润表所列的所得税费用含：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>当期所得税</td><td>29,640</td><td>28,929</td><td>25,922</td><td>25,405</td></tr><tr><td>- 中国内地</td><td>27,480</td><td>27,174</td><td>25,028</td><td>24,506</td></tr><tr><td>- 中国香港</td><td>1,825</td><td>1,511</td><td>655</td><td>687</td></tr><tr><td>- 海外</td><td>335</td><td>244</td><td>239</td><td>212</td></tr><tr><td>递延所得税</td><td>(1,773)</td><td>164</td><td>(1,233)</td><td>620</td></tr><tr><td>合计</td><td>27,867</td><td>29,093</td><td>24,689</td><td>26,025</td></tr></table>
+
+## (b) 利润表中列示的所得税费用与按法定税率计算得出的金额之间的差异如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>税前利润</td><td>178,993</td><td>178,652</td><td>160,873</td><td>165,173</td></tr><tr><td>按法定税率25%(2024年:25%)</td><td></td><td></td><td></td><td></td></tr><tr><td>计算的所得税</td><td>44,748</td><td>44,663</td><td>40,218</td><td>41,293</td></tr><tr><td>以下项目的税务影响:</td><td>(16,881)</td><td>(15,570)</td><td>(15,529)</td><td>(15,268)</td></tr><tr><td>—减免税项目的影响</td><td>(22,085)</td><td>(18,505)</td><td>(19,709)</td><td>(16,201)</td></tr><tr><td>—不得扣除的成本、费用和损失的纳税影响</td><td>7,116</td><td>4,283</td><td>5,508</td><td>2,079</td></tr><tr><td>—不同地区税率的影响</td><td>(696)</td><td>(300)</td><td>-</td><td>-</td></tr><tr><td>—永续债/永久债务资本利息支出抵扣的影响</td><td>(1,328)</td><td>(1,170)</td><td>(1,328)</td><td>(1,146)</td></tr><tr><td>—其他</td><td>112</td><td>122</td><td>-</td><td>-</td></tr><tr><td>所得税费用</td><td>27,867</td><td>29,093</td><td>24,689</td><td>26,025</td></tr></table>
+
+注：  
+(i) 本行于中华人民共和国境内的业务在2025年的所得税税率为 $25\%$ (2024年： $25\%$ )。  
+(ii) 中国香港及海外业务按所在地区适用的税率计提税费。  
+(iii) 本集团属于支柱二规则的适用范围。截至2025年12月31日，支柱二立法已在本集团设有经营主体的部分国家／地区生效。本集团根据《国际会计准则第12号－所得税》（修订），豁免确认及披露与支柱二所得税相关的递延所得税资产与负债。截至2025年12月31日，补足税对本集团财务报表整体影响不重大。
+
+## 53. 每股收益及净资产收益率
+
+本集团按照证监会的《公开发行证券的公司信息披露编报规则第9号——净资产收益率和每股收益的计算及披露》(2010年修订)计算的每股收益及净资产收益率如下：
+
+<table><tr><td></td><td>附注</td><td>2025年</td><td>2024年</td></tr><tr><td>归属于本行股东的净利润</td><td></td><td>150,181</td><td>148,391</td></tr><tr><td>减:归属于本行优先股股东的净利润</td><td></td><td>(996)</td><td>(996)</td></tr><tr><td>归属于本行永续债投资者的净利润</td><td></td><td>(5,311)</td><td>(4,585)</td></tr><tr><td>归属于本行普通股股东的净利润</td><td></td><td>143,874</td><td>142,810</td></tr><tr><td>减:影响本行普通股股东净利润的非经常性损益</td><td>64</td><td>(174)</td><td>(380)</td></tr><tr><td>扣除非经常性损益后归属于本行普通股股东的净利润</td><td></td><td>143,700</td><td>142,430</td></tr><tr><td colspan="4">每股收益:</td></tr><tr><td>加权平均普通股股本数(百万股)</td><td></td><td>25,220</td><td>25,220</td></tr><tr><td>归属于本行普通股股东的基本和稀释每股收益(人民币元)</td><td></td><td>5.70</td><td>5.66</td></tr><tr><td>扣除非经常性损益后归属于本行普通股股东的基本和稀释每股收益(人民币元)</td><td></td><td>5.70</td><td>5.65</td></tr><tr><td colspan="4">净资产收益率:</td></tr><tr><td>归属于本行普通股股东的加权平均净资产</td><td></td><td>1,070,493</td><td>985,746</td></tr><tr><td>归属于本行普通股股东的加权平均净资产收益率(%)</td><td></td><td>13.44</td><td>14.49</td></tr><tr><td>扣除非经常性损益后归属于本行普通股股东的加权平均净资产收益率(%)</td><td></td><td>13.42</td><td>14.45</td></tr></table>
+
+本行于2017年发行了非累积型优先股，于2020年、2021年、2023年、2024年及2025年分别发行了非累积型的永续债。计算普通股每股收益、净资产收益率时，归属于本行股东的净利润中已扣除当期宣告发放的优先股股利及永续债利息。
+
+优先股的转股特征使得本行存在或有可能发行普通股。截至2025年12月31日及2024年12月31日止年度，转股的触发事件并未发生，优先股的转股特征对2025年度及2024年度基本及稀释每股收益的计算没有影响。
+
+本行发行的非累积型永续债不存在转股条款。
+
+## 54. 经营分部
+
+本集团的主要业务是向零售及批发客户提供存贷款业务、资金业务、资产管理及其他金融服务。
+
+本集团按业务条线和经营地区将业务划分为不同的营运组别，从而进行业务管理。本集团的主要业务报告分部如下：
+
+## (1) 批发金融业务
+
+向公司类客户、政府机构类客户、同业机构类客户提供的金融服务包括：贷款及存款服务、结算与现金管理服务、贸易金融与离岸业务、投资银行业务、拆借、回购等同业机构往来业务、资产托管业务、金融市场业务及其他服务。
+
+## (2) 零售金融业务
+
+向个人客户提供的金融服务包括：贷款及存款服务、银行卡服务、财富管理、私人银行及其他服务。
+
+## (3) 其他业务
+
+该分部业务包括：除上述业务以外的其他业务，包括投资性房地产及除招商永隆银行和招银金租外的子公司、联营及合营企业的相关业务。这些分部尚不符合任何用来厘定报告分部的量化门槛。
+
+就分部分析而言，外部净利息收入／支出是指报告分部通过对外部提供银行业务而获得的净利息收入／支出。内部净利息收入／支出是指报告分部通过内部资金转移定价机制所承担的损益。内部资金转移定价机制已考虑资产及负债组合的结构及市场回报。成本分配是依据各报告分部的直接占用成本及相关动因分摊而定。
+
+经营分部的会计政策与本集团的会计政策相同。上述分部收入代表外部客户产生的收入，分部间的内部交易已被抵销。没有客户为本集团在2025年和2024年贡献了 $10\%$ 或更多的收入。分部之间的内部交易是按照公允价格达成。
+
+## 54. 经营分部(续)
+
+## (a) 分部业绩、资产及负债
+
+<table><tr><td rowspan="2"></td><td colspan="2">批发金融业务</td><td colspan="2">零售金融业务</td><td colspan="2">其他业务</td><td colspan="2">合计</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>外部净利息收入</td><td>42,077</td><td>30,010</td><td>109,422</td><td>120,186</td><td>64,094</td><td>61,081</td><td>215,593</td><td>211,277</td></tr><tr><td>内部净利息收入/(支出)</td><td>41,876</td><td>42,015</td><td>30,971</td><td>28,072</td><td>(72,847)</td><td>(70,087)</td><td>-</td><td>-</td></tr><tr><td>净利息收入</td><td>83,953</td><td>72,025</td><td>140,393</td><td>148,258</td><td>(8,753)</td><td>(9,006)</td><td>215,593</td><td>211,277</td></tr><tr><td>净手续费及佣金收入</td><td>15,731</td><td>14,705</td><td>48,487</td><td>47,141</td><td>11,040</td><td>10,248</td><td>75,258</td><td>72,094</td></tr><tr><td>其他净收入</td><td>38,389</td><td>48,781</td><td>2,137</td><td>1,436</td><td>6,155</td><td>3,900</td><td>46,681</td><td>54,117</td></tr><tr><td>其中:对联营及合营企业的投资收益</td><td>-</td><td>-</td><td>-</td><td>-</td><td>5,473</td><td>2,632</td><td>5,473</td><td>2,632</td></tr><tr><td>营业收入</td><td>138,073</td><td>135,511</td><td>191,017</td><td>196,835</td><td>8,442</td><td>5,142</td><td>337,532</td><td>337,488</td></tr><tr><td>营业支出</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>—固定资产及投资性房地产折旧费用</td><td>(8,309)</td><td>(8,090)</td><td>(2,314)</td><td>(2,311)</td><td>(400)</td><td>(402)</td><td>(11,023)</td><td>(10,803)</td></tr><tr><td>—使用权资产折旧费用</td><td>(1,338)</td><td>(1,422)</td><td>(2,206)</td><td>(2,276)</td><td>(201)</td><td>(227)</td><td>(3,745)</td><td>(3,925)</td></tr><tr><td>—信用减值损失及其他资产减值损失</td><td>(5,063)</td><td>301</td><td>(34,952)</td><td>(41,006)</td><td>240</td><td>(114)</td><td>(39,775)</td><td>(40,819)</td></tr><tr><td>—其他</td><td>(37,817)</td><td>(38,626)</td><td>(60,840)</td><td>(60,547)</td><td>(5,080)</td><td>(3,749)</td><td>(103,737)</td><td>(102,922)</td></tr><tr><td>营业支出</td><td>(52,527)</td><td>(47,837)</td><td>(100,312)</td><td>(106,140)</td><td>(5,441)</td><td>(4,492)</td><td>(158,280)</td><td>(158,469)</td></tr><tr><td>营业外收支净额</td><td>(134)</td><td>(118)</td><td>(29)</td><td>(51)</td><td>(96)</td><td>(198)</td><td>(259)</td><td>(367)</td></tr><tr><td>报告分部税前利润</td><td>85,412</td><td>87,556</td><td>90,676</td><td>90,644</td><td>2,905</td><td>452</td><td>178,993</td><td>178,652</td></tr><tr><td>资本性支出(注)</td><td>24,911</td><td>31,771</td><td>3,759</td><td>3,298</td><td>285</td><td>207</td><td>28,955</td><td>35,276</td></tr><tr><td rowspan="2"></td><td colspan="2">批发金融业务</td><td colspan="2">零售金融业务</td><td colspan="2">其他业务</td><td colspan="2">合计</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>报告分部资产</td><td>7,888,999</td><td>7,103,051</td><td>3,688,125</td><td>3,564,804</td><td>1,386,692</td><td>1,383,480</td><td>12,963,816</td><td>12,051,335</td></tr><tr><td>其中:联营及合营企业投资</td><td>-</td><td>-</td><td>-</td><td>-</td><td>32,914</td><td>31,015</td><td>32,914</td><td>31,015</td></tr><tr><td>报告分部负债</td><td>6,756,216</td><td>6,268,091</td><td>4,640,157</td><td>4,118,838</td><td>287,581</td><td>452,085</td><td>11,683,954</td><td>10,839,014</td></tr></table>
+
+注：资本性支出是指在各期间内购入预期使用一年以上的分部资产的金额。
+
+## 54. 经营分部(续)
+
+(b) 报告分部的收入、利润或亏损、资产和负债以及其他重要项目的调节
+
+<table><tr><td></td><td>2025年</td><td>2024年</td></tr><tr><td>收入</td><td></td><td></td></tr><tr><td>报告分部的营业收入</td><td>337,532</td><td>337,488</td></tr><tr><td>其他收入</td><td>-</td><td>-</td></tr><tr><td>合并收入</td><td>337,532</td><td>337,488</td></tr><tr><td>利润</td><td></td><td></td></tr><tr><td>报告分部的总利润</td><td>178,993</td><td>178,652</td></tr><tr><td>其他利润</td><td>-</td><td>-</td></tr><tr><td>合并税前利润</td><td>178,993</td><td>178,652</td></tr><tr><td>资产</td><td></td><td></td></tr><tr><td>各报告分部的总资产</td><td>12,963,816</td><td>12,051,335</td></tr><tr><td>商誉</td><td>9,954</td><td>9,954</td></tr><tr><td>无形资产</td><td>460</td><td>526</td></tr><tr><td>递延所得税资产</td><td>89,856</td><td>83,674</td></tr><tr><td>其他未分配资产</td><td>6,437</td><td>6,547</td></tr><tr><td>合并资产合计</td><td>13,070,523</td><td>12,152,036</td></tr><tr><td>负债</td><td></td><td></td></tr><tr><td>报告分部的总负债</td><td>11,683,954</td><td>10,839,014</td></tr><tr><td>应交税费</td><td>14,713</td><td>11,713</td></tr><tr><td>递延所得税负债</td><td>1,115</td><td>1,592</td></tr><tr><td>其他未分配负债</td><td>89,842</td><td>66,242</td></tr><tr><td>合并负债合计</td><td>11,789,624</td><td>10,918,561</td></tr></table>
+
+## (c) 地区分部
+
+本集团主要是于中国境内地区经营，分行遍布全国主要省份、自治区和中央政府直辖市。本集团亦在香港、纽约、新加坡、卢森堡、伦敦、悉尼设立分行，在香港、深圳、上海、北京和卢森堡设立子公司及在台北设立代表处。
+
+按地区分部列报信息时，经营收入是以产生收入的分行、子公司的所在地为基准划分。分部资产和非流动资产则按相关资产的所在地划分。
+
+## 54. 经营分部(续)
+
+## (c) 地区分部(续)
+
+作为配合银行运营及管理层对于绩效管理的用途，地区分部的定义为：
+
+- “总行”指本集团总行本部、信用卡中心与资金运营中心；  
+- “长江三角洲地区”指本集团下列地区服务的分行：上海直辖市、浙江省和江苏省；  
+- “环渤海地区”指本集团下列地区服务的分行：北京直辖市、天津直辖市、山东省和河北省；  
+- “珠江三角洲及海西地区”指本集团下列地区服务的分行：广东省和福建省；  
+- “东北地区”指本集团下列地区服务的分行：辽宁省、黑龙江省和吉林省；  
+- “中部地区”指本集团下列地区服务的分行：河南省、安徽省、湖南省、湖北省、江西省、山西省和海南省；  
+- “西部地区”指本集团下列地区服务的分行：四川省、重庆直辖市、贵州省、云南省、陕西省、甘肃省、宁夏回族自治区、新疆维吾尔自治区、广西壮族自治区、内蒙古自治区、青海省和西藏自治区；  
+- “境外”指本集团处于境外的分行及代表处，包括香港分行、纽约分行、新加坡分行、卢森堡分行、伦敦分行、悉尼分行和台北代表处；  
+- “附属机构”指本集团的全资及控股附属机构，包括招商永隆银行、招银国际、招银金租、招商基金、招银理财、招银欧洲、招商信诺资管和招银投资等。
+
+<table><tr><td rowspan="2"></td><td colspan="2">总资产</td><td colspan="2">总负债</td><td colspan="2">非流动性资产</td><td colspan="2">营业收入</td><td colspan="2">税前利润</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>总行</td><td>6,080,367</td><td>5,620,792</td><td>5,064,774</td><td>4,616,716</td><td>64,410</td><td>61,287</td><td>124,416</td><td>138,130</td><td>79,917</td><td>81,021</td></tr><tr><td>长江三角洲地区</td><td>1,628,335</td><td>1,521,903</td><td>1,608,321</td><td>1,503,109</td><td>5,180</td><td>5,469</td><td>46,777</td><td>44,272</td><td>23,496</td><td>23,957</td></tr><tr><td>环渤海地区</td><td>1,085,440</td><td>1,002,690</td><td>1,070,350</td><td>988,780</td><td>3,446</td><td>3,845</td><td>35,799</td><td>33,810</td><td>18,810</td><td>18,547</td></tr><tr><td>珠江三角洲及海西地区</td><td>1,339,581</td><td>1,234,991</td><td>1,312,274</td><td>1,225,218</td><td>3,330</td><td>3,957</td><td>37,141</td><td>35,491</td><td>12,991</td><td>15,054</td></tr><tr><td>东北地区</td><td>173,268</td><td>173,447</td><td>171,332</td><td>171,967</td><td>854</td><td>1,357</td><td>6,713</td><td>6,402</td><td>2,666</td><td>2,109</td></tr><tr><td>中部地区</td><td>753,308</td><td>733,700</td><td>745,557</td><td>725,410</td><td>2,881</td><td>3,195</td><td>20,347</td><td>19,671</td><td>9,168</td><td>9,750</td></tr><tr><td>西部地区</td><td>785,155</td><td>751,874</td><td>778,045</td><td>744,561</td><td>2,522</td><td>2,734</td><td>20,593</td><td>20,154</td><td>9,069</td><td>9,275</td></tr><tr><td>境外</td><td>267,759</td><td>236,567</td><td>276,733</td><td>244,455</td><td>588</td><td>746</td><td>4,554</td><td>4,288</td><td>2,100</td><td>2,635</td></tr><tr><td>附属机构</td><td>957,310</td><td>876,072</td><td>762,238</td><td>698,345</td><td>109,390</td><td>107,343</td><td>41,192</td><td>35,270</td><td>20,776</td><td>16,304</td></tr><tr><td>合计</td><td>13,070,523</td><td>12,152,036</td><td>11,789,624</td><td>10,918,561</td><td>192,601</td><td>189,933</td><td>337,532</td><td>337,488</td><td>178,993</td><td>178,652</td></tr></table>
+
+注：非流动资产包括合营企业投资、联营企业投资、固定资产、在建工程、投资性房地产、使用权资产、无形资产和商誉等。
+
+## 55. 用作质押的资产
+
+本集团下列资产作为附有卖出回购协议、拆入资金协议或向中央银行借款协议的负债的质押物：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>向中央银行借款</td><td>110,679</td><td>189,511</td><td>110,679</td><td>189,511</td></tr><tr><td>拆入资金</td><td>13,353</td><td>6,802</td><td>-</td><td>-</td></tr><tr><td>卖出回购金融资产款</td><td>95,262</td><td>83,747</td><td>71,932</td><td>53,787</td></tr><tr><td>合计</td><td>219,294</td><td>280,060</td><td>182,611</td><td>243,298</td></tr><tr><td>质押物</td><td></td><td></td><td></td><td></td></tr><tr><td>—以公允价值计量且其变动计入当期损益的金融投资</td><td>18,300</td><td>6,921</td><td>3,563</td><td>-</td></tr><tr><td>—以摊余成本计量的债务工具投资</td><td>167,971</td><td>165,583</td><td>158,999</td><td>159,199</td></tr><tr><td>—以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>22,975</td><td>30,491</td><td>16,085</td><td>12,182</td></tr><tr><td>—贷款和垫款</td><td>24,160</td><td>90,320</td><td>12,094</td><td>80,174</td></tr><tr><td>合计</td><td>233,406</td><td>293,315</td><td>190,741</td><td>251,555</td></tr></table>
+
+以上卖出回购交易及拆入资金是按标准借款及拆借的一般惯常条款进行。
+
+## 56. 或有负债和承担
+
+## (a) 信贷承诺
+
+本集团在任何特定期间均须提供贷款额度的承担，形式包括批出贷款额度及信用卡透支额度。
+
+本集团提供财务担保及信用证服务，以保证客户向第三方履行合同。承兑汇票是指本集团对客户签发的汇票作出的兑付承诺。本集团预期大部分的承兑汇票均会同时与客户偿付款项结清。
+
+信贷承诺的合同金额分类载于下表。下表所反映承担的金额是指贷款额度全部支用时的金额。下表所反映担保及信用证的金额是指假如交易另一方未能完全履行合同时，于资产负债表日确认的最大可能损失额。
+
+<table><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2025年12月31日</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>不可撤销的保函</td><td>335,235</td><td>1,113</td><td>276</td><td>336,624</td></tr><tr><td>—融资保函</td><td>24,024</td><td>4</td><td>3</td><td>24,031</td></tr><tr><td>—非融资保函</td><td>311,211</td><td>1,109</td><td>273</td><td>312,593</td></tr><tr><td>不可撤销的信用证</td><td>387,271</td><td>1,179</td><td>–</td><td>388,450</td></tr><tr><td>承兑汇票</td><td>608,062</td><td>4,802</td><td>21</td><td>612,885</td></tr><tr><td>不可撤销的贷款承诺</td><td>206,732</td><td>1,655</td><td>12</td><td>208,399</td></tr><tr><td>—原到期日为1年以内(含)</td><td>82,628</td><td>–</td><td>2</td><td>82,630</td></tr><tr><td>—原到期日为1年以上</td><td>124,104</td><td>1,655</td><td>10</td><td>125,769</td></tr><tr><td>信用卡未使用额度</td><td>1,718,694</td><td>15,381</td><td>–</td><td>1,734,075</td></tr><tr><td>其他</td><td>108,861</td><td>478</td><td>20</td><td>109,359</td></tr><tr><td>合计</td><td>3,364,855</td><td>24,608</td><td>329</td><td>3,389,792</td></tr></table>
+
+<table><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2024年12月31日</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>不可撤销的保函</td><td>326,654</td><td>1,983</td><td>582</td><td>329,219</td></tr><tr><td>—融资保函</td><td>33,109</td><td>754</td><td>293</td><td>34,156</td></tr><tr><td>—非融资保函</td><td>293,545</td><td>1,229</td><td>289</td><td>295,063</td></tr><tr><td>不可撤销的信用证</td><td>304,725</td><td>1,249</td><td>–</td><td>305,974</td></tr><tr><td>承兑汇票</td><td>581,176</td><td>3,054</td><td>360</td><td>584,590</td></tr><tr><td>不可撤销的贷款承诺</td><td>162,159</td><td>415</td><td>96</td><td>162,670</td></tr><tr><td>—原到期日为1年以内(含)</td><td>45,039</td><td>3</td><td>1</td><td>45,043</td></tr><tr><td>—原到期日为1年以上</td><td>117,120</td><td>412</td><td>95</td><td>117,627</td></tr><tr><td>信用卡未使用额度</td><td>1,588,137</td><td>32,399</td><td>5</td><td>1,620,541</td></tr><tr><td>其他</td><td>96,525</td><td>708</td><td>20</td><td>97,253</td></tr><tr><td>合计</td><td>3,059,376</td><td>39,808</td><td>1,063</td><td>3,100,247</td></tr></table>
+
+## 56. 或有负债和承担（续）
+
+## (a) 信贷承诺(续)
+
+截至2025年12月31日，本集团不可撤销的信用证中，开出即期信用证金额为人民币20,231百万元（2024年12月31日：人民币20,139百万元），开出远期信用证金额为人民币18,087百万元（2024年12月31日：人民币18,230百万元），其他付款承诺金额为人民币350,132百万元（2024年12月31日：人民币267,605百万元）。
+
+本行
+
+<table><tr><td rowspan="2"></td><td colspan="4">2025年12月31日</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>不可撤销的保函</td><td>334,864</td><td>1,113</td><td>276</td><td>336,253</td></tr><tr><td>—融资保函</td><td>23,766</td><td>4</td><td>3</td><td>23,773</td></tr><tr><td>—非融资保函</td><td>311,098</td><td>1,109</td><td>273</td><td>312,480</td></tr><tr><td>不可撤销的信用证</td><td>385,821</td><td>1,179</td><td>-</td><td>387,000</td></tr><tr><td>承兑汇票</td><td>606,297</td><td>4,802</td><td>21</td><td>611,120</td></tr><tr><td>不可撤销的贷款承诺</td><td>182,007</td><td>1,582</td><td>11</td><td>183,600</td></tr><tr><td>—原到期日为1年以内(含)</td><td>71,937</td><td>-</td><td>1</td><td>71,938</td></tr><tr><td>—原到期日为1年以上</td><td>110,070</td><td>1,582</td><td>10</td><td>111,662</td></tr><tr><td>信用卡未使用额度</td><td>1,718,189</td><td>15,371</td><td>-</td><td>1,733,560</td></tr><tr><td>其他</td><td>108,413</td><td>478</td><td>20</td><td>108,911</td></tr><tr><td>合计</td><td>3,335,591</td><td>24,525</td><td>328</td><td>3,360,444</td></tr></table>
+
+本行
+
+<table><tr><td rowspan="2"></td><td colspan="4">2024年12月31日</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>不可撤销的保函</td><td>324,028</td><td>1,243</td><td>582</td><td>325,853</td></tr><tr><td>—融资保函</td><td>32,213</td><td>14</td><td>293</td><td>32,520</td></tr><tr><td>—非融资保函</td><td>291,815</td><td>1,229</td><td>289</td><td>293,333</td></tr><tr><td>不可撤销的信用证</td><td>303,372</td><td>1,250</td><td>–</td><td>304,622</td></tr><tr><td>承兑汇票</td><td>581,008</td><td>3,054</td><td>360</td><td>584,422</td></tr><tr><td>不可撤销的贷款承诺</td><td>141,586</td><td>410</td><td>95</td><td>142,091</td></tr><tr><td>—原到期日为1年以内(含)</td><td>35,425</td><td>–</td><td>–</td><td>35,425</td></tr><tr><td>—原到期日为1年以上</td><td>106,161</td><td>410</td><td>95</td><td>106,666</td></tr><tr><td>信用卡未使用额度</td><td>1,587,970</td><td>32,389</td><td>4</td><td>1,620,363</td></tr><tr><td>其他</td><td>96,523</td><td>708</td><td>20</td><td>97,251</td></tr><tr><td>合计</td><td>3,034,487</td><td>39,054</td><td>1,061</td><td>3,074,602</td></tr></table>
+
+## 56. 或有负债和承担（续）
+
+## (a) 信贷承诺（续）
+
+截至2025年12月31日，本行不可撤销的信用证中，开出即期信用证金额为人民币18,781百万元（2024年12月31日：人民币18,787百万元），开出远期信用证金额为人民币18,087百万元（2024年12月31日：人民币18,230百万元），其他付款承诺金额为人民币350,132百万元（2024年12月31日：人民币267,605百万元）。
+
+不可撤销的贷款承诺包含对境外及境内的银团贷款及境外机构对境外客户提供的贷款授信额度等。
+
+除上述不可撤销的贷款承诺外，本集团于2025年12月31日有金额为人民币5,708,716百万元（2024年12月31日：人民币5,385,015百万元）的可撤销贷款承诺。这些贷款承诺是本集团可于任何时间无条件地取消的，或按相关的贷款合同约定因借款人的信贷能力变坏而自动取消的。由于本集团并不承担这些客户未使用的授信额度风险，因此该数额并未包含在信贷承诺内。
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>或有负债和承担的信用风险加权金额</td><td>1,024,984</td><td>846,851</td><td>1,010,421</td><td>808,801</td></tr></table>
+
+自2024年1月1日起，对于或有负债和承担的信用风险加权资产金额，本集团依据国家金融监管总局发布的《商业银行资本管理办法》，并根据原银保监会2014年4月核准的范围采用内部评级法计算，内部评级法未覆盖部分采用权重法计算。
+
+## (b) 资本承担
+
+本集团已授权资本承担如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>已订约</td><td>200</td><td>177</td><td>148</td><td>124</td></tr><tr><td>已授权但未订约</td><td>201</td><td>216</td><td>194</td><td>209</td></tr><tr><td>合计</td><td>401</td><td>393</td><td>342</td><td>333</td></tr></table>
+
+本集团作为出租人的租赁承诺详见附注56(e)。
+
+## (c) 未决诉讼
+
+于2025年12月31日，本行及本集团内子公司尚有作为被起诉方的若干未决诉讼案件，涉及起诉金额约人民币1,476百万元（2024年12月31日：人民币2,024百万元）。本集团认为，本集团不会因该等未决诉讼而遭受重大损失。
+
+## 56. 或有负债和承担（续）
+
+## (d) 承兑责任
+
+作为中国国债承销商，若债券持有人于债券到期日前兑付国债，本集团有责任为债券持有人兑付这些债券。该等国债于到期日前的承兑价是按票面价值加上兑付日应计提的未付利息。债券持有人的应计提利息按照财政部和中国人民银行有关规则计算。承兑价可能与于承兑日市场上交易的相近似债券的公允价值不同。
+
+本集团于资产负债表日按票面值对已承销、出售，但未到期的国债承兑责任如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>承兑责任</td><td>36,693</td><td>30,807</td><td>36,693</td><td>30,807</td></tr></table>
+
+本集团预计于国债到期日前通过本集团提前承兑的国债金额不重大。
+
+## (e) 租赁承诺
+
+本集团于资产负债表日作为出租人的经营租赁承诺和融资租赁承诺如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>经营租赁承诺</td><td>19,779</td><td>14,321</td><td>-</td><td>-</td></tr><tr><td>融资租赁承诺</td><td>40,910</td><td>37,503</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>60,689</td><td>51,824</td><td>-</td><td>-</td></tr></table>
+
+## 57. 代客交易
+
+## (a) 委托贷款业务
+
+本集团的委托贷款业务是指政府部门、企事业单位及个人等委托人提供资金，本集团根据委托人确定的贷款对象和贷款条件等代为发放、监督使用并协助收回的贷款。本集团的委托贷款业务均不需本集团承担任何信用风险，本集团只以代理人的身份，根据委托方的指示持有和管理这些资产及负债，并就所提供的服务收取手续费。
+
+由于委托贷款并不属于本集团的资产，故未在资产负债表内确认。提供有关服务的已收和应收收入在利润表的手续费及佣金收入中确认。
+
+于资产负债表日的委托资产及负债如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>委托贷款</td><td>265,483</td><td>245,897</td><td>265,389</td><td>245,804</td></tr><tr><td>委托贷款资金</td><td>(265,483)</td><td>(245,897)</td><td>(265,389)</td><td>(245,804)</td></tr></table>
+
+## (b) 理财业务
+
+本集团的理财业务主要是指本行及招银理财将理财产品销售给企业或个人，募集资金投资于国家债券、政策性银行债券、企业短期融资券等投资品种。本集团作为发起人成立理财产品，与理财产品相关的投资风险由投资者承担。理财产品未纳入本集团合并财务报表范围。本集团从该业务中获取的收入主要包括理财产品的托管、销售、投资管理等手续费收入。
+
+理财产品投资及募集的资金不是本集团的资产和负债，因此未在资产负债表内确认。从理财业务客户募集的资金于投资前记录为其他负债。
+
+本行根据《关于规范金融机构资产管理业务的指导意见》等相关政策要求，理财产品逐步迁移至招银理财，新产品主要通过招银理财发行。于报告期末，本集团未纳入合并报表的理财业务客户募集的资金为人民币2,453,150百万元（2024年12月31日：人民币2,298,278百万元）。
+
+## (c) 受托管理保险资产业务
+
+本集团的受托管理保险资产业务主要是指本集团受保险公司委托，在监管政策范围内及保险公司投资指引约束下，对委托投资的保险资产行使投资管理权并据此收取手续费收入的业务。
+
+于资产负债表日的受托管理保险资产余额如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>受托管理保险资产</td><td>233,313</td><td>189,647</td><td>-</td><td>-</td></tr></table>
+
+## 58. 风险管理
+
+## (a) 信用风险
+
+信用风险是交易对手或债务人违约，使本集团可能蒙受损失的风险。当所有交易对手集中在单一行业或地区时，银行可能面临较大的信用风险。这主要是由于不同的交易对手会因处于同一地区或行业而受到同样的经济发展影响，可能影响到其还款能力。
+
+本集团专为有效识别、评估和管理信用风险而设计了系统架构、信用政策和程序。董事会委任的风险与资本管理委员会，负责监督和评估风险管理各职能部门的设置、组织架构、工作程序和效果。
+
+日常操作方面，董事会风险与资本管理委员会所督导的风险管理部门负责参与、协调配合并监控各业务部门和法律合规部等部门实施风险管理工作。本集团信用风险管理覆盖授信与投资业务的贷（投）前调查、贷（投）中审查、贷（投）后管理等各流程环节。
+
+本集团按照《商业银行预期信用损失法实施管理办法》的规定，运用预期信用损失模型，对以摊余成本计量的或以公允价值计量且其变动计入其他综合收益的表内承担信用风险的金融资产，以及贷款承诺和财务担保合同等表外承担信用风险的项目计提信用风险损失准备。
+
+在批发金融业务信用风险管理方面，本集团优化了授信与投资政策，持续完善公司、同业及机构类客户准入标准，强化对重点风险领域管控，促进信贷结构优化。
+
+在零售金融业务信用风险管理方面，本集团主要依靠对申请人的信用评估作为发放个人信贷的基础，对信贷申请人收入、信用历史和贷款偿还能力等进行评估。本集团重视对个人贷款的贷后监控，重点关注借款人的偿款能力和抵质押品状况及其价值变化情况。一旦贷款逾期，本集团将根据一套个人贷款标准化催收作业流程体系开展催收工作。
+
+在适当的情况下，本集团将要求客户提供抵质押品或其他担保。本集团已为担保人或抵质押物的准入、担保额度的核定、担保的设定与后续管理制定制度或指引。对担保人或担保物的担保能力、担保意愿均会定期审核，确保其符合相关法律法规的要求，并能有效地缓释风险。
+
+资产质量分类方面，本集团基于《商业银行金融资产风险分类办法》，结合实际情况完善分类制度，细化分类方法。其中，本集团在监管五级分类的基础上，实行十级分类管理（正常一至五级、关注一级、关注二级、次级、可疑及损失）。
+
+或有负债和承担产生的风险在实质上与贷款和垫款的风险一致。因此，这些交易需要经过与贷款业务相同的申请、贷后管理以及抵质押担保要求。
+
+信用风险的集中程度：当一定数量的客户进行相同的经营活动、处于相同的地理位置或其行业具有相似的经济特性时，其履行合约的能力会受到同一经济变化的影响。信用风险的集中程度反映了本集团业绩对某一特定行业或地理位置的敏感程度。为防范集中度风险，本集团制定了必要的限额管理政策，定期进行组合监测、分析。
+
+有关贷款和垫款按行业、贷款组合的分析已于附注9列示。
+
+## 58. 风险管理（续）
+
+## (a) 信用风险(续)
+
+## (i) 内部信用风险评级
+
+本集团根据违约概率将信用风险进行分级。内部信用风险评级基于模型预测的违约风险水平评定，主要考虑了借款人的财务情况、债务压力、行业特征等定性及定量因素。
+
+## (ii) 信用风险显著增加
+
+如附注3所述，如果信用风险显著增加，本集团按照整个存续期预期信用损失计提损失准备。
+
+在评估金融工具自初始确认后信用风险是否显著增加时，本集团对比金融工具及其他工具在初始确认日和报告日的违约风险情况。在实际操作中，本集团在评估信用风险是否显著增加时考虑金融工具的内部信用风险评级（附注58(a)(i)）实际或预期显著恶化情况、内部预警信号、债项五级分类结果、逾期天数等。本集团定期回顾评价标准是否适用当前情况。
+
+满足下列任意条件的批发业务，本集团认为其信用风险显著增加：债项五级分类为关注类；债项逾期天数超过30天（含）；该客户内部信用风险评级下迁达到一定标准；该客户预警信号达到一定级别；该客户出现本集团认定的其他重大风险信号等。
+
+满足下列任意条件的零售业务和信用卡业务，本集团认为其信用风险显著增加：债项五级分类为关注类；债项逾期天数超过30天（含）；该客户或者债项出现信用风险预警信号；该客户出现本集团认定的其他重大风险信号等。
+
+如果：i）违约风险较低，ii)借款人在近期内具有很强的履行合同现金流量义务的能力，以及iii）经济和商业条件的不利变化从长远来看不一定会降低借款人履行合同现金流量义务的能力，债务工具被确定为具有较低的信用风险。
+
+对于贷款承诺和财务担保合同，本集团成为不可撤销承诺一方的日期被视为评估金融工具减值的初始确认日。
+
+本集团认为，如果债务工具逾期90天（含）及以上或者债项五级分类为次级类、可疑类、损失类（此三类也包括债务工具逾期90天（含）及以上），则进入阶段三。
+
+## (iii) 预期信用损失的计量
+
+本集团计量预期信用损失的关键输入值包括：
+
+- 违约概率(PD)：是指债务人在未来12个月或者在整个剩余存续期发生违约的可能性；  
+- 违约损失率(LGD)：是指某一债项违约导致的损失金额占该违约债项风险暴露的比例；  
+- 违约风险暴露(EAD)：是指某一债项的风险暴露敞口。
+
+以上输入值来自于本集团研发的统计模型、历史数据，并考虑前瞻性信息。
+
+## 58. 风险管理（续）
+
+## (a) 信用风险(续)
+
+## (iv) 考虑前瞻性信息
+
+本集团根据资产不同的风险特征，将资产划分为不同的资产组，并根据资产组的风险特征，在合理的成本和时间范围内，收集外部权威数据、内部风险相关数据进行建模，除国内生产总值、消费者物价指数、生产者物价指数、广义货币供应量等常见经济指标外，同时也纳入了行业类、利率汇率类、调查指数类等多类别指标。经量化统计建模并结合专家判断，本集团设置多种前瞻场景，对宏观经济指标、风险参数进行预测。基准情景下，本集团综合外部权威机构发布的预测值、行内专业团队及相关模型预测结果进行设置，其余情景参考历史实际数据进行分析预测。以国内生产总值（年度同比）和消费者物价指数（当月同比）为例，2025年12月31日基准情景下，本集团对未来一年的预测值分别为 $5\%$ 左右和 $0.5\%$ 左右。
+
+本集团多场景权重采取基准场景为主、其余场景为辅的原则，结合量化计量和专家判断进行设置，2025年12月31日基准情景权重占比最高。经敏感性测算，当乐观场景权重上升 $10\%$ ，基准场景权重下降 $10\%$ 时，本集团于2025年12月31日的预期信用损失金额较当前结果减少约 $2.9\%$ （2024年12月31日：减少约 $2.6\%$ )。当悲观场景权重上升 $10\%$ ，基准场景权重下降 $10\%$ 时，预期信用损失金额较当前结果增加约 $4.2\%$ （2024年12月31日：增加约 $4.6\%$ )。
+
+本集团定期对宏观经济指标池的各项指标进行预测，以加权的12个月预期信用损失（阶段一）或加权的整个存续期预期信用损失（阶段二及阶段三）计量相关的损失准备。
+
+## (v) 按照相同的风险特征进行分类
+
+本集团将主要业务分为批发业务、零售业务和信用卡业务。根据相似风险特征对模型进行分组，目前主要分组参考指标包括债项五级分类、业务类型、抵质押方式等。
+
+## (vi) 最大风险敞口
+
+在不考虑抵质押品或其他信用增级的情况下，本集团所承受的信用风险最大敞口金额即为合并资产负债表中相关金融工具的账面金额以及附注56(a)中信贷承诺的合同金额合计。截至2025年12月31日，本集团所承受的最大信用风险敞口金额为人民币16,093,396百万元（2024年12月31日：人民币14,922,470百万元），本行为人民币15,286,649百万元（2024年12月31日：人民币14,199,153百万元）。
+
+## (vii) 重组贷款和垫款
+
+重组贷款标准执行《商业银行金融资产风险分类办法》(中国银行保险监督管理委员会 中国人民银行令〔2023〕第1号)。
+
+截至2025年12月31日，本集团的已重组贷款金额为人民币28,307百万元（2024年12月31日：人民币24,826百万元）。
+
+## 58. 风险管理（续）
+
+## (a) 信用风险(续)
+
+## (viii) 不良贷款
+
+在贷款监管五级分类制度下，本集团的不良贷款包括分类为次级、可疑和损失类的贷款。截至2025年12月31日，本集团不良贷款余额为人民币68,206百万元（2024年12月31日：人民币65,610百万元）；本行不良贷款余额为人民币63,980百万元（2024年12月31日：人民币61,117百万元）。
+
+## (ix) 债券投资的信用质量
+
+于资产负债表日，债券投资的信用质量根据外部信用评估机构的评级结果分析如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>已减值的债券投资总额</td><td>556</td><td>693</td><td>448</td><td>580</td></tr><tr><td>损失准备</td><td>(499)</td><td>(505)</td><td>(397)</td><td>(398)</td></tr><tr><td>账面价值小计</td><td>57</td><td>188</td><td>51</td><td>182</td></tr><tr><td>未逾期未减值</td><td></td><td></td><td></td><td></td></tr><tr><td>AAA</td><td>3,281,531</td><td>2,846,729</td><td>3,117,905</td><td>2,713,871</td></tr><tr><td>AA+至AA-</td><td>113,964</td><td>89,538</td><td>35,692</td><td>11,536</td></tr><tr><td>A+至A-</td><td>238,754</td><td>177,286</td><td>122,211</td><td>94,165</td></tr><tr><td>低于A-</td><td>31,857</td><td>25,609</td><td>12,212</td><td>7,357</td></tr><tr><td>无评级</td><td>50,932</td><td>56,601</td><td>48,534</td><td>51,375</td></tr><tr><td>损失准备</td><td>(7,850)</td><td>(7,985)</td><td>(7,701)</td><td>(7,661)</td></tr><tr><td>账面价值小计</td><td>3,709,188</td><td>3,187,778</td><td>3,328,853</td><td>2,870,643</td></tr><tr><td>合计</td><td>3,709,245</td><td>3,187,966</td><td>3,328,904</td><td>2,870,825</td></tr></table>
+
+注1：2025年12月31日，本集团持有的由政府及政策性银行发行的债券总额为人民币3,115,683百万元（2024年12月31日：人民币2,599,093百万元）。  
+注2：上述损失准备为以摊余成本计量的债券投资的损失准备。
+
+## (x) 抵质押物
+
+已逾期未减值金融资产的抵质押物的公允价值估值如下：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年12月31日</td><td>2024年12月31日</td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>下列金融资产的抵质押物的公允价值估值-贷款和垫款</td><td>16,125</td><td>17,545</td><td>14,154</td><td>14,581</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (a) 信用风险(续)
+
+(xi) 以摊余成本计量的贷款和垫款及以摊余成本计量的债务工具投资本金变动表
+
+以摊余成本计量的贷款和垫款本金变动情况列示如下：
+
+<table><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2025年</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>年初余额</td><td>6,030,395</td><td>204,858</td><td>65,610</td><td>6,300,863</td></tr><tr><td>本年净增加/(减少)</td><td>433,820</td><td>(33,422)</td><td>(5,001)</td><td>395,397</td></tr><tr><td>转移:</td><td></td><td></td><td></td><td></td></tr><tr><td>-至阶段一</td><td>32,719</td><td>(32,616)</td><td>(103)</td><td>-</td></tr><tr><td>-至阶段二</td><td>(145,667)</td><td>146,425</td><td>(758)</td><td>-</td></tr><tr><td>-至阶段三</td><td>(32,927)</td><td>(31,598)</td><td>64,525</td><td>-</td></tr><tr><td>本年核销/处置</td><td>-</td><td>-</td><td>(56,067)</td><td>(56,067)</td></tr><tr><td>年末余额</td><td>6,318,340</td><td>253,647</td><td>68,206</td><td>6,640,193</td></tr></table>
+
+<table><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2024年</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>年初余额</td><td>5,686,659</td><td>165,105</td><td>61,560</td><td>5,913,324</td></tr><tr><td>本年净增加/(减少)</td><td>461,401</td><td>(25,764)</td><td>5,056</td><td>440,693</td></tr><tr><td>转移:</td><td></td><td></td><td></td><td></td></tr><tr><td>-至阶段一</td><td>45,122</td><td>(44,949)</td><td>(173)</td><td>-</td></tr><tr><td>-至阶段二</td><td>(132,857)</td><td>133,368</td><td>(511)</td><td>-</td></tr><tr><td>-至阶段三</td><td>(29,930)</td><td>(22,902)</td><td>52,832</td><td>-</td></tr><tr><td>本年核销/处置</td><td>-</td><td>-</td><td>(53,154)</td><td>(53,154)</td></tr><tr><td>年末余额</td><td>6,030,395</td><td>204,858</td><td>65,610</td><td>6,300,863</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (a) 信用风险(续)
+
+(xi) 以摊余成本计量的贷款和垫款及以摊余成本计量的债务工具投资本金变动表（续）
+
+以摊余成本计量的贷款和垫款本金变动情况列示如下：（续）
+
+<table><tr><td rowspan="3"></td><td colspan="4">本行</td></tr><tr><td colspan="4">2025年</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>年初余额</td><td>5,707,700</td><td>192,074</td><td>61,117</td><td>5,960,891</td></tr><tr><td>本年净增加/(减少)</td><td>418,478</td><td>(32,623)</td><td>(4,013)</td><td>381,842</td></tr><tr><td>转移:</td><td></td><td></td><td></td><td></td></tr><tr><td>-至阶段一</td><td>29,734</td><td>(29,644)</td><td>(90)</td><td>-</td></tr><tr><td>-至阶段二</td><td>(136,866)</td><td>137,453</td><td>(587)</td><td>-</td></tr><tr><td>-至阶段三</td><td>(32,156)</td><td>(28,888)</td><td>61,044</td><td>-</td></tr><tr><td>本年核销/处置</td><td>-</td><td>-</td><td>(53,491)</td><td>(53,491)</td></tr><tr><td>年末余额</td><td>5,986,890</td><td>238,372</td><td>63,980</td><td>6,289,242</td></tr></table>
+
+<table><tr><td rowspan="3"></td><td colspan="4">本行</td></tr><tr><td colspan="4">2024年</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>年初余额</td><td>5,377,083</td><td>136,570</td><td>57,233</td><td>5,570,886</td></tr><tr><td>本年净增加/(减少)</td><td>457,767</td><td>(20,972)</td><td>4,980</td><td>441,775</td></tr><tr><td>转移:</td><td></td><td></td><td></td><td></td></tr><tr><td>-至阶段一</td><td>28,930</td><td>(28,757)</td><td>(173)</td><td>-</td></tr><tr><td>-至阶段二</td><td>(126,365)</td><td>126,870</td><td>(505)</td><td>-</td></tr><tr><td>-至阶段三</td><td>(29,715)</td><td>(21,637)</td><td>51,352</td><td>-</td></tr><tr><td>本年核销/处置</td><td>-</td><td>-</td><td>(51,770)</td><td>(51,770)</td></tr><tr><td>年末余额</td><td>5,707,700</td><td>192,074</td><td>61,117</td><td>5,960,891</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (a) 信用风险(续)
+
+(xi) 以摊余成本计量的贷款和垫款及以摊余成本计量的债务工具投资本金变动表（续）
+
+以摊余成本计量的债务工具投资本金变动情况列示如下：
+
+<table><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2025年</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>年初余额</td><td>1,927,893</td><td>1,790</td><td>26,237</td><td>1,955,920</td></tr><tr><td>本年净增加╱(减少)</td><td>182,101</td><td>475</td><td>(1,564)</td><td>181,012</td></tr><tr><td>转移:</td><td></td><td></td><td></td><td></td></tr><tr><td>-至阶段一</td><td>1</td><td>(1)</td><td>-</td><td>-</td></tr><tr><td>-至阶段二</td><td>(2,317)</td><td>2,323</td><td>(6)</td><td>-</td></tr><tr><td>-至阶段三</td><td>-</td><td>(1)</td><td>1</td><td>-</td></tr><tr><td>本年核销╱处置</td><td>-</td><td>-</td><td>(232)</td><td>(232)</td></tr><tr><td>年末余额</td><td>2,107,678</td><td>4,586</td><td>24,436</td><td>2,136,700</td></tr><tr><td rowspan="3"></td><td colspan="4">本集团</td></tr><tr><td colspan="4">2024年</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>年初余额</td><td>1,738,945</td><td>1,517</td><td>27,548</td><td>1,768,010</td></tr><tr><td>本年净增加╱(减少)</td><td>189,931</td><td>(708)</td><td>(1,313)</td><td>187,910</td></tr><tr><td>转移:</td><td></td><td></td><td></td><td></td></tr><tr><td>-至阶段一</td><td>1</td><td>(1)</td><td>-</td><td>-</td></tr><tr><td>-至阶段二</td><td>(984)</td><td>984</td><td>-</td><td>-</td></tr><tr><td>-至阶段三</td><td>-</td><td>(2)</td><td>2</td><td>-</td></tr><tr><td>本年核销╱处置</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>年末余额</td><td>1,927,893</td><td>1,790</td><td>26,237</td><td>1,955,920</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (a) 信用风险(续)
+
+(xi) 以摊余成本计量的贷款和垫款及以摊余成本计量的债务工具投资本金变动表（续）
+
+以摊余成本计量的债务工具投资本金变动情况列示如下：（续）
+
+<table><tr><td rowspan="3"></td><td colspan="4">本行</td></tr><tr><td colspan="4">2025年</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>年初余额</td><td>1,895,405</td><td>1,357</td><td>26,124</td><td>1,922,886</td></tr><tr><td>本年净增加/(减少)</td><td>141,131</td><td>1,334</td><td>(1,559)</td><td>140,906</td></tr><tr><td>转移:</td><td></td><td></td><td></td><td></td></tr><tr><td>-至阶段一</td><td>1</td><td>(1)</td><td>-</td><td>-</td></tr><tr><td>-至阶段二</td><td>(1,891)</td><td>1,897</td><td>(6)</td><td>-</td></tr><tr><td>-至阶段三</td><td>-</td><td>(1)</td><td>1</td><td>-</td></tr><tr><td>本年核销/处置</td><td>-</td><td>-</td><td>(232)</td><td>(232)</td></tr><tr><td>年末余额</td><td>2,034,646</td><td>4,586</td><td>24,328</td><td>2,063,560</td></tr></table>
+
+<table><tr><td rowspan="3"></td><td colspan="4">本行</td></tr><tr><td colspan="4">2024年</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>年初余额</td><td>1,697,169</td><td>1,517</td><td>27,388</td><td>1,726,074</td></tr><tr><td>本年净增加/(减少)</td><td>198,793</td><td>(715)</td><td>(1,266)</td><td>196,812</td></tr><tr><td>转移:</td><td></td><td></td><td></td><td></td></tr><tr><td>-至阶段一</td><td>1</td><td>(1)</td><td>-</td><td>-</td></tr><tr><td>-至阶段二</td><td>(558)</td><td>558</td><td>-</td><td>-</td></tr><tr><td>-至阶段三</td><td>-</td><td>(2)</td><td>2</td><td>-</td></tr><tr><td>本年核销/处置</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>年末余额</td><td>1,895,405</td><td>1,357</td><td>26,124</td><td>1,922,886</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (a) 信用风险(续)
+
+## (xii) 金融工具信用质量分析
+
+于资产负债表日，本集团的贷款和垫款及以摊余成本计量的债务工具投资的风险阶段划分详见附注9、附注11和附注58(a)(xi)，信贷承诺及表外预期信用损失准备的风险阶段划分详见附注56(a)和附注32，其他金融工具风险阶段划分如下：
+
+2025年12月31日
+
+<table><tr><td rowspan="2"></td><td colspan="4">账面余额</td><td colspan="4">预期信用损失准备</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>存放中央银行款项</td><td>559,967</td><td>-</td><td>-</td><td>559,967</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>存放同业和其他金融机构款项</td><td>199,951</td><td>3</td><td>1</td><td>199,955</td><td>(445)</td><td>(1)</td><td>(1)</td><td>(447)</td></tr><tr><td>拆出资金</td><td>504,938</td><td>-</td><td>-</td><td>504,938</td><td>(1,197)</td><td>-</td><td>-</td><td>(1,197)</td></tr><tr><td>买入返售金融资产</td><td>259,198</td><td>-</td><td>140</td><td>259,338</td><td>(526)</td><td>-</td><td>(140)</td><td>(666)</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>1,325,003</td><td>245</td><td>52</td><td>1,325,300</td><td>(6,027)</td><td>(515)</td><td>(1,245)</td><td>(7,787)</td></tr></table>
+
+2024年12月31日
+
+<table><tr><td rowspan="2"></td><td colspan="4">账面余额</td><td colspan="4">预期信用损失准备</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>存放中央银行款项</td><td>557,166</td><td>-</td><td>-</td><td>557,166</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>存放同业和其他金融机构款项</td><td>220,537</td><td>1</td><td>11</td><td>220,549</td><td>(818)</td><td>(1)</td><td>(11)</td><td>(830)</td></tr><tr><td>拆出资金</td><td>406,817</td><td>-</td><td>-</td><td>406,817</td><td>(1,126)</td><td>-</td><td>-</td><td>(1,126)</td></tr><tr><td>买入返售金融资产</td><td>271,903</td><td>-</td><td>140</td><td>272,043</td><td>(606)</td><td>-</td><td>(140)</td><td>(746)</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>1,082,186</td><td>209</td><td>182</td><td>1,082,577</td><td>(7,339)</td><td>(21)</td><td>(1,260)</td><td>(8,620)</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (a) 信用风险(续)
+
+## (xii) 金融工具信用质量分析（续）
+
+于资产负债表日，本行的贷款和垫款及以摊余成本计量的债务工具投资的风险阶段划分详见附注9、附注11和附注58(a)(xi)，信贷承诺及表外预期信用损失准备的风险阶段划分详见附注56(a)和附注32，其他金融工具风险阶段划分如下：
+
+2025年12月31日
+
+<table><tr><td rowspan="2"></td><td colspan="4">账面余额</td><td colspan="4">预期信用损失准备</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>存放中央银行款项</td><td>553,539</td><td>-</td><td>-</td><td>553,539</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>存放同业和其他金融机构款项</td><td>138,480</td><td>3</td><td>1</td><td>138,484</td><td>(427)</td><td>(1)</td><td>(1)</td><td>(429)</td></tr><tr><td>拆出资金</td><td>483,834</td><td>-</td><td>-</td><td>483,834</td><td>(1,242)</td><td>-</td><td>-</td><td>(1,242)</td></tr><tr><td>买入返售金融资产</td><td>254,999</td><td>-</td><td>140</td><td>255,139</td><td>(524)</td><td>-</td><td>(140)</td><td>(664)</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>1,145,667</td><td>224</td><td>52</td><td>1,145,943</td><td>(5,930)</td><td>(515)</td><td>(1,245)</td><td>(7,690)</td></tr></table>
+
+2024年12月31日
+
+<table><tr><td rowspan="2"></td><td colspan="4">账面余额</td><td colspan="4">预期信用损失准备</td></tr><tr><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td><td>阶段一(12个月预期信用损失)</td><td>阶段二(整个存续期预期信用损失-未减值)</td><td>阶段三(整个存续期预期信用损失-已减值)</td><td>合计</td></tr><tr><td>存放中央银行款项</td><td>554,877</td><td>-</td><td>-</td><td>554,877</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>存放同业和其他金融机构款项</td><td>174,652</td><td>1</td><td>11</td><td>174,664</td><td>(811)</td><td>(1)</td><td>(11)</td><td>(823)</td></tr><tr><td>拆出资金</td><td>375,205</td><td>-</td><td>-</td><td>375,205</td><td>(1,168)</td><td>-</td><td>-</td><td>(1,168)</td></tr><tr><td>买入返售金融资产</td><td>270,561</td><td>-</td><td>140</td><td>270,701</td><td>(605)</td><td>-</td><td>(140)</td><td>(745)</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>914,812</td><td>77</td><td>182</td><td>915,071</td><td>(7,248)</td><td>(11)</td><td>(1,260)</td><td>(8,519)</td></tr></table>
+
+注：上表中的各项金融工具账面余额未包含应计利息。
+
+## 58. 风险管理（续）
+
+## (b) 市场风险
+
+市场风险是指因汇率、利率、商品价格和其他价格等可观察市场因子的变动，引起本集团金融工具的公允价值或未来现金流量变动，从而可能蒙受损失的风险。利率风险和汇率风险是本集团所面临的主要市场风险。本集团的市场风险来自交易账簿和银行账簿两方面。交易账簿包括以交易目的或对冲交易账簿其他项目的风险而持有的金融工具、外汇和商品头寸及经国家金融监督管理总局认定的其他工具。除交易账簿工具外，其他工具划入银行账簿。
+
+## (i) 汇率风险
+
+汇率风险是指以外币形式存在的资产负债及权益项目、外汇及外汇衍生工具头寸，由于汇率发生不利变化导致本集团整体收益遭受损失的风险。本集团的金融资产及负债均以人民币为主，其余主要为美元和港币。本集团根据汇率风险管理政策制定、执行和监督职能相分离的原则，建立了汇率风险管理治理结构，明确董事会、高级管理层、专门委员会及本行相关部门在汇率风险管理中的作用、职责及报告路线。本集团汇率风险偏好审慎，原则上不主动承担风险，较好地适应了本集团当前发展阶段。目前的汇率风险管理政策及制度符合监管要求和本集团自身管理需要。
+
+## (1) 交易账簿
+
+本集团建立了包括汇率风险在内的交易账簿市场风险管理体系，以量化指标对交易账簿汇率风险进行统一管理。交易账簿汇率风险管理的架构、流程、方法与交易账簿利率风险相一致。
+
+本集团采用敞口指标、市场风险价值指标(VaR，包含利率、汇率、商品风险因子)、汇率情景压力测试损失指标、汇率敏感性指标、累计损失指标等量化指标进行管理，管理方式包括下达业务授权和限额指标、每日监控、持续报告等。
+
+## (2) 银行账簿
+
+本集团银行账簿汇率风险由总行统筹管理，总行资产负债管理部作为全行的司库负责具体银行账簿汇率风险管理工作。审计部负责对此进行审计。司库负责按监管要求和审慎原则管理银行账簿汇率风险，通过限额管理、计划调控等方式对银行账簿汇率风险实行统一管理。
+
+本集团的银行账簿汇率风险主要来自本集团持有的非人民币金融资产、金融负债币种的错配。本集团通过严格管控风险敞口，将银行账簿汇率风险控制在本集团可承受范围之内。
+
+本集团主要采用外汇敞口分析、情景模拟分析、压力测试等方法计量、分析银行账簿汇率风险。本集团定期计量和分析银行账簿外汇敞口的变化，在限额框架中按月监测、报告汇率风险，并根据汇率变动趋势对外汇敞口进行相应的调整，以规避有关的银行账簿汇率风险。
+
+本集团继续加大银行账簿汇率风险监测以及限额授权管理的力度，确保风险控制在合理范围内。
+
+## 58. 风险管理（续）
+
+## (b) 市场风险(续)
+
+## (i) 汇率风险(续)
+
+(3) 有关资产和负债按原币种列示如下：
+
+本集团
+
+<table><tr><td rowspan="3"></td><td colspan="7">2025年12月31日</td></tr><tr><td colspan="5">折合人民币</td><td colspan="2">主要原币余额</td></tr><tr><td>人民币</td><td>美元</td><td>港币</td><td>其他</td><td>合计</td><td>美元</td><td>港币</td></tr><tr><td>资产</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>现金及存放中央银行款项</td><td>537,480</td><td>29,542</td><td>2,022</td><td>5,731</td><td>574,775</td><td>4,227</td><td>2,252</td></tr><tr><td>应收同业和其他金融机构款项</td><td>804,487</td><td>116,591</td><td>29,618</td><td>11,225</td><td>961,921</td><td>16,682</td><td>32,986</td></tr><tr><td>贷款和垫款</td><td>6,718,620</td><td>120,400</td><td>135,616</td><td>20,449</td><td>6,995,085</td><td>17,227</td><td>151,033</td></tr><tr><td>金融投资及衍生金融资产</td><td>3,569,334</td><td>441,253</td><td>73,574</td><td>35,272</td><td>4,119,433</td><td>63,136</td><td>81,938</td></tr><tr><td>其他资产(注(i))</td><td>292,968</td><td>120,533</td><td>3,300</td><td>2,508</td><td>419,309</td><td>17,246</td><td>3,675</td></tr><tr><td>资产合计</td><td>11,922,889</td><td>828,319</td><td>244,130</td><td>75,185</td><td>13,070,523</td><td>118,518</td><td>271,884</td></tr><tr><td>负债</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>1,225,028</td><td>120,910</td><td>12,927</td><td>7,199</td><td>1,366,064</td><td>17,300</td><td>14,397</td></tr><tr><td>客户存款</td><td>9,061,882</td><td>521,440</td><td>189,375</td><td>63,433</td><td>9,836,130</td><td>74,609</td><td>210,904</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>134,278</td><td>4,212</td><td>620</td><td>41</td><td>139,151</td><td>602</td><td>690</td></tr><tr><td>应付债券</td><td>66,570</td><td>68,123</td><td>3,752</td><td>3,958</td><td>142,403</td><td>9,747</td><td>4,179</td></tr><tr><td>其他负债(注(i))</td><td>247,091</td><td>58,936</td><td>8,158</td><td>(8,309)</td><td>305,876</td><td>8,434</td><td>9,085</td></tr><tr><td>负债合计</td><td>10,734,849</td><td>773,621</td><td>214,832</td><td>66,322</td><td>11,789,624</td><td>110,692</td><td>239,255</td></tr><tr><td>资产负债净头寸</td><td>1,188,040</td><td>54,698</td><td>29,298</td><td>8,863</td><td>1,280,899</td><td>7,826</td><td>32,629</td></tr><tr><td>资产负债表外头寸:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>信贷承诺(注(ii))</td><td>3,229,204</td><td>117,920</td><td>22,968</td><td>19,700</td><td>3,389,792</td><td>16,872</td><td>25,579</td></tr><tr><td>衍生工具(名义本金):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>-远期购入</td><td>709,400</td><td>716,934</td><td>54,308</td><td>39,855</td><td>1,520,497</td><td>102,580</td><td>60,482</td></tr><tr><td>-远期出售</td><td>(627,659)</td><td>(726,163)</td><td>(49,904)</td><td>(39,851)</td><td>(1,443,577)</td><td>(103,901)</td><td>(55,577)</td></tr><tr><td>-货币期权净头寸</td><td>(60,542)</td><td>22,487</td><td>9,685</td><td>16,210</td><td>(12,160)</td><td>3,217</td><td>10,786</td></tr><tr><td>衍生工具合计</td><td>21,199</td><td>13,258</td><td>14,089</td><td>16,214</td><td>64,760</td><td>1,896</td><td>15,691</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (b) 市场风险(续)
+
+## (i) 汇率风险(续)
+
+(3) 有关资产和负债按原币种列示如下：（续）
+
+<table><tr><td rowspan="4"></td><td colspan="7">本集团</td></tr><tr><td colspan="7">2024年12月31日</td></tr><tr><td colspan="5">折合人民币</td><td colspan="2">主要原币余额</td></tr><tr><td>人民币</td><td>美元</td><td>港币</td><td>其他</td><td>合计</td><td>美元</td><td>港币</td></tr><tr><td>资产</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>现金及存放中央银行款项</td><td>535,838</td><td>27,834</td><td>2,068</td><td>8,048</td><td>573,788</td><td>3,813</td><td>2,200</td></tr><tr><td>应收同业和其他金融机构款项</td><td>721,600</td><td>139,379</td><td>25,582</td><td>10,146</td><td>896,707</td><td>19,096</td><td>27,215</td></tr><tr><td>贷款和垫款</td><td>6,342,999</td><td>123,464</td><td>135,150</td><td>21,337</td><td>6,622,950</td><td>16,916</td><td>143,780</td></tr><tr><td>金融投资及衍生金融资产</td><td>3,264,823</td><td>334,397</td><td>51,019</td><td>24,665</td><td>3,674,904</td><td>45,816</td><td>54,277</td></tr><tr><td>其他资产(注(i))</td><td>261,120</td><td>103,735</td><td>13,681</td><td>5,151</td><td>383,687</td><td>14,213</td><td>14,553</td></tr><tr><td>资产合计</td><td>11,126,380</td><td>728,809</td><td>227,500</td><td>69,347</td><td>12,152,036</td><td>99,854</td><td>242,025</td></tr><tr><td>负债</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>1,061,944</td><td>123,045</td><td>15,668</td><td>6,360</td><td>1,207,017</td><td>16,858</td><td>16,668</td></tr><tr><td>客户存款</td><td>8,427,705</td><td>445,503</td><td>161,032</td><td>62,347</td><td>9,096,587</td><td>61,038</td><td>171,314</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>90,565</td><td>8,258</td><td>168</td><td>53</td><td>99,044</td><td>1,132</td><td>179</td></tr><tr><td>应付债券</td><td>141,431</td><td>69,991</td><td>7,610</td><td>2,551</td><td>221,583</td><td>9,589</td><td>8,096</td></tr><tr><td>其他负债(注(i))</td><td>263,383</td><td>19,854</td><td>9,253</td><td>1,840</td><td>294,330</td><td>2,720</td><td>9,845</td></tr><tr><td>负债合计</td><td>9,985,028</td><td>666,651</td><td>193,731</td><td>73,151</td><td>10,918,561</td><td>91,337</td><td>206,102</td></tr><tr><td>资产负债净头寸</td><td>1,141,352</td><td>62,158</td><td>33,769</td><td>(3,804)</td><td>1,233,475</td><td>8,517</td><td>35,923</td></tr><tr><td>资产负债表外头寸:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>信贷承诺(注(ii))</td><td>2,949,528</td><td>111,092</td><td>21,153</td><td>18,474</td><td>3,100,247</td><td>15,221</td><td>22,504</td></tr><tr><td>衍生工具(名义本金):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>-远期购入</td><td>734,725</td><td>730,591</td><td>30,788</td><td>46,870</td><td>1,542,974</td><td>100,097</td><td>32,754</td></tr><tr><td>-远期出售</td><td>(670,870)</td><td>(778,692)</td><td>(13,120)</td><td>(41,155)</td><td>(1,503,837)</td><td>(106,688)</td><td>(13,958)</td></tr><tr><td>-货币期权净头寸</td><td>(80,894)</td><td>68,451</td><td>(12)</td><td>882</td><td>(11,573)</td><td>9,378</td><td>(13)</td></tr><tr><td>衍生工具合计</td><td>(17,039)</td><td>20,350</td><td>17,656</td><td>6,597</td><td>27,564</td><td>2,787</td><td>18,783</td></tr></table>
+
+注：  
+(i) 上表中的各项金融资产及金融负债的应计利息分别包含于“其他资产”及“其他负债”中。  
+(ii) 信贷承诺有可能在承诺期限到期而未被使用，故以上列示的净头寸并不代表未来现金流之需求。
+
+## 58. 风险管理（续）
+
+## (b) 市场风险(续)
+
+## (i) 汇率风险(续)
+
+(3) 有关资产和负债按原币种列示如下：（续）
+
+<table><tr><td rowspan="4"></td><td colspan="7">本行</td></tr><tr><td colspan="7">2025年12月31日</td></tr><tr><td colspan="5">折合人民币</td><td colspan="2">主要原币余额</td></tr><tr><td>人民币</td><td>美元</td><td>港币</td><td>其他</td><td>合计</td><td>美元</td><td>港币</td></tr><tr><td>资产</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>现金及存放中央银行款项</td><td>537,044</td><td>23,994</td><td>1,305</td><td>5,629</td><td>567,972</td><td>3,433</td><td>1,454</td></tr><tr><td>应收同业和其他金融机构款项</td><td>782,082</td><td>74,142</td><td>9,462</td><td>9,436</td><td>875,122</td><td>10,608</td><td>10,538</td></tr><tr><td>贷款和垫款</td><td>6,536,161</td><td>67,499</td><td>37,156</td><td>14,279</td><td>6,655,095</td><td>9,658</td><td>41,381</td></tr><tr><td>金融投资及衍生金融资产</td><td>3,450,555</td><td>310,382</td><td>7,732</td><td>13,570</td><td>3,782,239</td><td>44,410</td><td>8,613</td></tr><tr><td>其他资产(注(i))</td><td>291,907</td><td>20,063</td><td>35,226</td><td>1,473</td><td>348,669</td><td>2,870</td><td>39,230</td></tr><tr><td>资产合计</td><td>11,597,749</td><td>496,080</td><td>90,881</td><td>44,387</td><td>12,229,097</td><td>70,979</td><td>101,216</td></tr><tr><td>负债</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>1,098,764</td><td>41,234</td><td>1,911</td><td>4,397</td><td>1,146,306</td><td>5,900</td><td>2,128</td></tr><tr><td>客户存款</td><td>9,029,322</td><td>355,406</td><td>33,298</td><td>42,864</td><td>9,460,890</td><td>50,852</td><td>37,084</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>103,181</td><td>2,645</td><td>111</td><td>27</td><td>105,964</td><td>378</td><td>123</td></tr><tr><td>应付债券</td><td>48,453</td><td>21,178</td><td>2,596</td><td>3,804</td><td>76,031</td><td>3,030</td><td>2,891</td></tr><tr><td>其他负债(注(i))</td><td>229,082</td><td>43,507</td><td>58</td><td>(8,153)</td><td>264,494</td><td>6,225</td><td>66</td></tr><tr><td>负债合计</td><td>10,508,802</td><td>463,970</td><td>37,974</td><td>42,939</td><td>11,053,685</td><td>66,385</td><td>42,292</td></tr><tr><td>资产负债净头寸</td><td>1,088,947</td><td>32,110</td><td>52,907</td><td>1,448</td><td>1,175,412</td><td>4,594</td><td>58,924</td></tr><tr><td>资产负债表外头寸:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>信贷承诺(注(ii))</td><td>3,225,421</td><td>111,665</td><td>4,551</td><td>18,807</td><td>3,360,444</td><td>15,977</td><td>5,068</td></tr><tr><td>衍生工具(名义本金):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>-远期购入</td><td>687,280</td><td>644,956</td><td>23,532</td><td>30,611</td><td>1,386,379</td><td>92,282</td><td>26,207</td></tr><tr><td>-远期出售</td><td>(578,307)</td><td>(688,908)</td><td>(40,836)</td><td>(29,394)</td><td>(1,337,445)</td><td>(98,570)</td><td>(45,478)</td></tr><tr><td>-货币期权净头寸</td><td>(60,448)</td><td>21,750</td><td>9,978</td><td>16,541</td><td>(12,179)</td><td>3,112</td><td>11,112</td></tr><tr><td>衍生工具合计</td><td>48,525</td><td>(22,202)</td><td>(7,326)</td><td>17,758</td><td>36,755</td><td>(3,176)</td><td>(8,159)</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (b) 市场风险(续)
+
+## (i) 汇率风险(续)
+
+(3) 有关资产和负债按原币种列示如下：（续）
+
+<table><tr><td rowspan="4"></td><td colspan="7">本行</td></tr><tr><td colspan="7">2024年12月31日</td></tr><tr><td colspan="5">折合人民币</td><td colspan="2">主要原币余额</td></tr><tr><td>人民币</td><td>美元</td><td>港币</td><td>其他</td><td>合计</td><td>美元</td><td>港币</td></tr><tr><td>资产</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>现金及存放中央银行款项</td><td>535,253</td><td>27,570</td><td>1,271</td><td>6,902</td><td>570,996</td><td>3,777</td><td>1,352</td></tr><tr><td>应收同业和其他金融机构款项</td><td>720,919</td><td>83,494</td><td>4,754</td><td>8,667</td><td>817,834</td><td>11,440</td><td>5,057</td></tr><tr><td>贷款和垫款</td><td>6,177,143</td><td>66,011</td><td>32,283</td><td>17,334</td><td>6,292,771</td><td>9,044</td><td>34,345</td></tr><tr><td>金融投资及衍生金融资产</td><td>3,159,409</td><td>216,804</td><td>4,714</td><td>12,191</td><td>3,393,118</td><td>29,704</td><td>5,015</td></tr><tr><td>其他资产(注(i))</td><td>250,456</td><td>3,703</td><td>45,240</td><td>4,496</td><td>303,895</td><td>507</td><td>48,129</td></tr><tr><td>资产合计</td><td>10,843,180</td><td>397,582</td><td>88,262</td><td>49,590</td><td>11,378,614</td><td>54,472</td><td>93,898</td></tr><tr><td>负债</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>945,570</td><td>30,540</td><td>1,053</td><td>4,433</td><td>981,596</td><td>4,184</td><td>1,120</td></tr><tr><td>客户存款</td><td>8,396,602</td><td>311,723</td><td>26,672</td><td>43,253</td><td>8,778,250</td><td>42,709</td><td>28,375</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>57,903</td><td>7,545</td><td>80</td><td>30</td><td>65,558</td><td>1,034</td><td>85</td></tr><tr><td>应付债券</td><td>124,308</td><td>23,956</td><td>4,923</td><td>2,453</td><td>155,640</td><td>3,282</td><td>5,238</td></tr><tr><td>其他负债(注(i))</td><td>247,966</td><td>4,136</td><td>1,742</td><td>641</td><td>254,485</td><td>567</td><td>1,854</td></tr><tr><td>负债合计</td><td>9,772,349</td><td>377,900</td><td>34,470</td><td>50,810</td><td>10,235,529</td><td>51,776</td><td>36,672</td></tr><tr><td>资产负债净头寸</td><td>1,070,831</td><td>19,682</td><td>53,792</td><td>(1,220)</td><td>1,143,085</td><td>2,696</td><td>57,226</td></tr><tr><td>资产负债表外头寸:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>信贷承诺(注(ii))</td><td>2,946,264</td><td>106,763</td><td>3,397</td><td>18,178</td><td>3,074,602</td><td>14,627</td><td>3,614</td></tr><tr><td>衍生工具(名义本金):</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>-远期购入</td><td>723,015</td><td>713,118</td><td>20,239</td><td>38,331</td><td>1,494,703</td><td>97,703</td><td>21,531</td></tr><tr><td>-远期出售</td><td>(657,406)</td><td>(760,047)</td><td>(12,645)</td><td>(35,484)</td><td>(1,465,582)</td><td>(104,133)</td><td>(13,452)</td></tr><tr><td>-货币期权净头寸</td><td>(80,897)</td><td>68,452</td><td>2</td><td>872</td><td>(11,571)</td><td>9,379</td><td>2</td></tr><tr><td>衍生工具合计</td><td>(15,288)</td><td>21,523</td><td>7,596</td><td>3,719</td><td>17,550</td><td>2,949</td><td>8,081</td></tr></table>
+
+注：  
+(i) 上表中的各项金融资产及金融负债的应计利息分别包含于“其他资产”及“其他负债”中。  
+(ii) 信贷承诺有可能在承诺期限到期而未被使用，故以上列示的净头寸并不代表未来现金流之需求。
+
+## 58. 风险管理（续）
+
+## (b) 市场风险(续)
+
+## (i) 汇率风险(续)
+
+## (4) 敏感性分析
+
+在现行管理的浮动汇率制度下，本集团采用敏感性分析衡量汇率变化对本集团净利润以及权益的可能影响。下表列出本集团于2025年12月31日和2024年12月31日按当日资产和负债进行所有涉及的外币币种汇率敏感性分析的结果。
+
+<table><tr><td rowspan="2">汇率变动</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>下降1%</td><td>上升1%</td><td>下降1%</td><td>上升1%</td></tr><tr><td>净利润的(减少)/增加</td><td>(213)</td><td>213</td><td>(112)</td><td>112</td></tr><tr><td>权益的(减少)/增加</td><td>(541)</td><td>541</td><td>(378)</td><td>378</td></tr></table>
+
+汇率变化导致本集团净利润及权益出现的实际变化可能与此敏感性分析的结果不同。
+
+## (ii) 利率风险
+
+利率风险是指利率水平、期限结构等要素发生不利变动导致金融工具和头寸整体收益和市值遭受损失的风险。
+
+## (1) 交易账簿
+
+本集团根据风险治理基本原则建设并不断完善市场风险管理体系，建立市场风险识别、计量、监测、控制和报告的管理流程，覆盖交易账簿业务涉及的利率、汇率、商品等风险。在董事会制定的市场风险偏好下，开展交易账簿相关业务管理，清晰识别、准确计量和有效管理交易账簿市场风险，以确保全行交易账簿风险敞口在可接受范围内，达到风险收益的合理平衡，并不断提升经风险调整后回报水平，努力实现股东价值最大化。
+
+本集团交易账簿市场风险治理组织架构明确了董事会、董事会风险与资本管理委员会、高级管理层及银行相关部门的职责、分工和报告路线，以保障交易账簿市场风险管理目标的实现。市场风险管理部是本集团交易账簿市场风险主管部门，承担风险政策制定及管理职能。
+
+本集团根据业务实际和市场风险治理组织架构建立交易账簿市场风险限额管理体系，由董事会制定的风险偏好定量指标为最高层级限额，通过限额层级自上而下、逐级传导。各层级管理机构在其授权范围内，根据风险特征、产品类型和交易策略等，分配和设置限额。业务前台根据授权和限额要求开展业务，各级监控职责部门根据限额管理规定持续监控和报告。
+
+交易账簿市场风险管理采用规模指标、止损指标、敏感性指标、风险价值指标、压力测试损失指标等风险计量指标作为限额指标，综合考虑风险偏好、风险承受能力、业务经营策略、风险收益、管理条件等因素设置限额值。
+
+本集团采用估值、敏感性分析、风险价值分析、压力测试等计量手段对利率市场风险因子进行甄别和量化分析，并将市场风险计量模型融入日常风险管理，把市场风险计量作为业务规划、资源分配、金融市场业务经营和风险管理的基础。
+
+## 58. 风险管理（续）
+
+## (b) 市场风险(续)
+
+## (ii) 利率风险(续)
+
+## (2) 银行账簿
+
+本集团根据外部监管要求以及内部银行账簿利率风险管理政策，建设并不断完善银行账簿利率风险管理体系，建立利率风险识别、计量、监测、控制和报告的管理流程，覆盖银行账簿表内外各项业务。本集团在董事会制定的银行账簿利率风险偏好下，清晰识别、准确计量和有效管理银行账簿利率风险，以保证在可承受的银行账簿风险范围内，保持净利息收入(NII)和股东权益经济价值(EVE)稳定。
+
+本集团利率风险管理治理架构明确了董事会、高级管理层、专门委员会及银行相关部门在银行账簿利率风险管理中的职责、分工及报告路线，保证利率风险管理的有效性。总行资产负债管理部是银行账簿利率风险的主管部门。总行审计部负责独立审计。
+
+本集团银行账簿利率风险偏好稳健审慎。本集团根据业务实际和银行账簿利率风险治理架构建立银行账簿利率风险限额管理体系，由董事会制定的风险偏好定量指标为最高层级限额，通过限额层级自上而下、逐级传导。各层级在其授权范围内，根据风险承受能力、业务经营策略和风险管理目标等，设置限额并持续监测与报告。本集团根据风险计量和监测结果，结合宏观经济和利率环境，制定利率风险管理策略并定期跟踪回检。本集团风险管理的主要措施包括表内资产负债结构调整和表外利率衍生品对冲。
+
+本集团主要采用情景模拟分析、重定价缺口分析、久期分析等方法，定期计量、分析银行账簿利率风险。压力测试作为情景模拟的一种形式，用于评估极端利率波动情况下净利息收入和经济价值指标的变动。本集团通过资产负债管理系统进行银行账簿利率风险的计量和监测，计量过程中所使用的主要模型和参数假设在投产前经过独立验证，并在投产后定期进行回顾和验证。报告期内，各项利率风险指标反映银行账簿利率风险水平整体稳定，均维持在设定的限额和预警值内。
+
+## (3) 下表列出于资产负债表日资产与负债于相关年度预计下一个重新定价日期（或到期日，以较早者为准）的分析
+
+本集团
+
+<table><tr><td rowspan="2"></td><td colspan="6">2025年12月31日</td></tr><tr><td>合计</td><td>3个月或以下(包括已逾期)</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>不计息</td></tr><tr><td>资产</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>现金及存放中央银行款项</td><td>574,775</td><td>549,425</td><td>-</td><td>-</td><td>-</td><td>25,350</td></tr><tr><td>应收同业和其他金融机构款项</td><td>961,921</td><td>653,640</td><td>280,113</td><td>27,551</td><td>617</td><td>-</td></tr><tr><td>贷款和垫款(注(i))</td><td>6,995,085</td><td>3,659,517</td><td>2,701,575</td><td>573,084</td><td>60,909</td><td>-</td></tr><tr><td>金融投资及衍生金融资产</td><td>4,119,433</td><td>527,990</td><td>504,303</td><td>1,463,072</td><td>1,546,313</td><td>77,755</td></tr><tr><td>其他资产(注(ii))</td><td>419,309</td><td>-</td><td>-</td><td>-</td><td>-</td><td>419,309</td></tr><tr><td>资产总计</td><td>13,070,523</td><td>5,390,572</td><td>3,485,991</td><td>2,063,707</td><td>1,607,839</td><td>522,414</td></tr><tr><td>负债</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>1,366,064</td><td>1,123,446</td><td>215,203</td><td>27,109</td><td>306</td><td>-</td></tr><tr><td>客户存款</td><td>9,836,130</td><td>6,737,206</td><td>1,716,946</td><td>1,338,552</td><td>41,544</td><td>1,882</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>139,151</td><td>-</td><td>-</td><td>-</td><td>-</td><td>139,151</td></tr><tr><td>租赁负债</td><td>11,253</td><td>1,011</td><td>2,694</td><td>6,696</td><td>852</td><td>-</td></tr><tr><td>应付债券</td><td>142,403</td><td>46,997</td><td>41,156</td><td>51,571</td><td>2,679</td><td>-</td></tr><tr><td>其他负债(注(ii))</td><td>294,623</td><td>-</td><td>-</td><td>3,185</td><td>-</td><td>291,438</td></tr><tr><td>负债总计</td><td>11,789,624</td><td>7,908,660</td><td>1,975,999</td><td>1,427,113</td><td>45,381</td><td>432,471</td></tr><tr><td>资产负债缺口</td><td>1,280,899</td><td>(2,518,088)</td><td>1,509,992</td><td>636,594</td><td>1,562,458</td><td>89,943</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (b) 市场风险(续)
+
+## (ii) 利率风险(续)
+
+(3) 下表列出于资产负债表日资产与负债于相关年度预计下一个重新定价日期（或到期日，以较早者为准）的分析（续）
+
+<table><tr><td rowspan="3"></td><td colspan="6">本集团</td></tr><tr><td colspan="6">2024年12月31日</td></tr><tr><td>合计</td><td>3个月或以下(包括已逾期)</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>不计息</td></tr><tr><td>资产</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>现金及存放中央银行款项</td><td>573,788</td><td>547,644</td><td>-</td><td>-</td><td>-</td><td>26,144</td></tr><tr><td>应收同业和其他金融机构款项</td><td>896,707</td><td>678,771</td><td>193,834</td><td>24,089</td><td>13</td><td>-</td></tr><tr><td>贷款和垫款(注(i))</td><td>6,622,950</td><td>2,921,730</td><td>3,085,793</td><td>553,747</td><td>61,680</td><td>-</td></tr><tr><td>金融投资及衍生金融资产</td><td>3,674,904</td><td>487,488</td><td>510,412</td><td>1,287,820</td><td>1,309,218</td><td>79,966</td></tr><tr><td>其他资产(注(ii))</td><td>383,687</td><td>-</td><td>-</td><td>-</td><td>-</td><td>383,687</td></tr><tr><td>资产总计</td><td>12,152,036</td><td>4,635,633</td><td>3,790,039</td><td>1,865,656</td><td>1,370,911</td><td>489,797</td></tr><tr><td>负债</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>1,207,017</td><td>1,008,346</td><td>187,090</td><td>11,192</td><td>389</td><td>-</td></tr><tr><td>客户存款</td><td>9,096,587</td><td>6,367,726</td><td>1,418,427</td><td>1,285,129</td><td>22,696</td><td>2,609</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>99,044</td><td>-</td><td>5,691</td><td>-</td><td>-</td><td>93,353</td></tr><tr><td>租赁负债</td><td>12,778</td><td>1,055</td><td>2,855</td><td>7,705</td><td>1,163</td><td>-</td></tr><tr><td>应付债券</td><td>221,583</td><td>115,232</td><td>54,627</td><td>44,330</td><td>7,394</td><td>-</td></tr><tr><td>其他负债(注(ii))</td><td>281,552</td><td>4</td><td>-</td><td>3,033</td><td>-</td><td>278,515</td></tr><tr><td>负债总计</td><td>10,918,561</td><td>7,492,363</td><td>1,668,690</td><td>1,351,389</td><td>31,642</td><td>374,477</td></tr><tr><td>资产负债缺口</td><td>1,233,475</td><td>(2,856,730)</td><td>2,121,349</td><td>514,267</td><td>1,339,269</td><td>115,320</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (b) 市场风险(续)
+
+## (ii) 利率风险(续)
+
+(3) 下表列出于资产负债表日资产与负债于相关年度预计下一个重新定价日期（或到期日，以较早者为准）的分析（续）
+
+<table><tr><td rowspan="3"></td><td colspan="6">本行</td></tr><tr><td colspan="6">2025年12月31日</td></tr><tr><td>合计</td><td>3个月或以下(包括已逾期)</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>不计息</td></tr><tr><td>资产</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>现金及存放中央银行款项</td><td>567,972</td><td>543,040</td><td>-</td><td>-</td><td>-</td><td>24,932</td></tr><tr><td>应收同业和其他金融机构款项</td><td>875,122</td><td>582,142</td><td>270,930</td><td>22,050</td><td>-</td><td>-</td></tr><tr><td>贷款和垫款(注(i))</td><td>6,655,095</td><td>3,456,312</td><td>2,591,385</td><td>557,969</td><td>49,429</td><td>-</td></tr><tr><td>金融投资及衍生金融资产</td><td>3,782,239</td><td>531,367</td><td>419,237</td><td>1,322,559</td><td>1,470,719</td><td>38,357</td></tr><tr><td>其他资产(注(ii))</td><td>348,669</td><td>-</td><td>-</td><td>-</td><td>-</td><td>348,669</td></tr><tr><td>资产总计</td><td>12,229,097</td><td>5,112,861</td><td>3,281,552</td><td>1,902,578</td><td>1,520,148</td><td>411,958</td></tr><tr><td>负债</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>1,146,306</td><td>983,141</td><td>163,165</td><td>-</td><td>-</td><td>-</td></tr><tr><td>客户存款</td><td>9,460,890</td><td>6,448,849</td><td>1,641,833</td><td>1,328,666</td><td>41,542</td><td>-</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>105,964</td><td>-</td><td>-</td><td>-</td><td>-</td><td>105,964</td></tr><tr><td>租赁负债</td><td>10,787</td><td>932</td><td>2,505</td><td>6,517</td><td>833</td><td>-</td></tr><tr><td>应付债券</td><td>76,031</td><td>24,457</td><td>17,378</td><td>34,196</td><td>-</td><td>-</td></tr><tr><td>其他负债(注(ii))</td><td>253,707</td><td>-</td><td>-</td><td>-</td><td>-</td><td>253,707</td></tr><tr><td>负债总计</td><td>11,053,685</td><td>7,457,379</td><td>1,824,881</td><td>1,369,379</td><td>42,375</td><td>359,671</td></tr><tr><td>资产负债缺口</td><td>1,175,412</td><td>(2,344,518)</td><td>1,456,671</td><td>533,199</td><td>1,477,773</td><td>52,287</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (b) 市场风险(续)
+
+## (ii) 利率风险(续)
+
+(3) 下表列出于资产负债表日资产与负债于相关年度预计下一个重新定价日期（或到期日，以较早者为准）的分析（续）
+
+<table><tr><td rowspan="3"></td><td colspan="6">本行</td></tr><tr><td colspan="6">2024年12月31日</td></tr><tr><td>合计</td><td>3个月或以下(包括已逾期)</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>不计息</td></tr><tr><td>资产</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>现金及存放中央银行款项</td><td>570,996</td><td>545,397</td><td>-</td><td>-</td><td>-</td><td>25,599</td></tr><tr><td>应收同业和其他金融机构款项</td><td>817,834</td><td>631,407</td><td>170,055</td><td>16,372</td><td>-</td><td>-</td></tr><tr><td>贷款和垫款(注(i))</td><td>6,292,771</td><td>2,709,121</td><td>2,994,337</td><td>539,053</td><td>50,260</td><td>-</td></tr><tr><td>金融投资及衍生金融资产</td><td>3,393,118</td><td>462,578</td><td>451,681</td><td>1,173,519</td><td>1,260,623</td><td>44,717</td></tr><tr><td>其他资产(注(ii))</td><td>303,895</td><td>-</td><td>-</td><td>-</td><td>-</td><td>303,895</td></tr><tr><td>资产总计</td><td>11,378,614</td><td>4,348,503</td><td>3,616,073</td><td>1,728,944</td><td>1,310,883</td><td>374,211</td></tr><tr><td>负债</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>981,596</td><td>855,289</td><td>124,769</td><td>1,538</td><td>-</td><td>-</td></tr><tr><td>客户存款</td><td>8,778,250</td><td>6,119,767</td><td>1,359,674</td><td>1,276,113</td><td>22,696</td><td>-</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>65,558</td><td>-</td><td>5,691</td><td>-</td><td>-</td><td>59,867</td></tr><tr><td>租赁负债</td><td>12,294</td><td>960</td><td>2,642</td><td>7,557</td><td>1,135</td><td>-</td></tr><tr><td>应付债券</td><td>155,640</td><td>94,851</td><td>36,125</td><td>24,664</td><td>-</td><td>-</td></tr><tr><td>其他负债(注(ii))</td><td>242,191</td><td>-</td><td>-</td><td>-</td><td>-</td><td>242,191</td></tr><tr><td>负债总计</td><td>10,235,529</td><td>7,070,867</td><td>1,528,901</td><td>1,309,872</td><td>23,831</td><td>302,058</td></tr><tr><td>资产负债缺口</td><td>1,143,085</td><td>(2,722,364)</td><td>2,087,172</td><td>419,072</td><td>1,287,052</td><td>72,153</td></tr></table>
+
+注：  
+(i) 以上列报为“3个月或以下”到期的贷款和垫款包括于2025年12月31日和2024年12月31日的逾期金额（扣除损失准备）。逾期金额是指该等所有或部分本金或利息已逾期的贷款和垫款。  
+(ii) 本表中的各项金融资产及金融负债的应计利息分别包含于“其他资产”及“其他负债”中。
+
+## 58. 风险管理（续）
+
+## (b) 市场风险(续)
+
+## (ii) 利率风险(续)
+
+## (4) 敏感性分析
+
+本集团采用敏感性分析衡量利率变化对本集团净利息收入以及权益的可能影响。下表列出本集团于2025年12月31日和2024年12月31日按当日资产和负债进行利率敏感性分析的结果。
+
+<table><tr><td rowspan="2">利率变更(基点)</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>上升25</td><td>下降25</td><td>上升25</td><td>下降25</td></tr><tr><td>净利息收入的(减少)/增加</td><td>(4,648)</td><td>4,648</td><td>(4,713)</td><td>4,713</td></tr><tr><td>权益的(减少)/增加</td><td>(13,337)</td><td>13,648</td><td>(10,793)</td><td>10,931</td></tr></table>
+
+上述利率敏感性分析显示未来12个月内，在上表假设利率变更情形下，净利息收入和权益的变动情况。由于实际情况与假设可能存在不一致，利率增减导致本集团净利息收入及权益出现的实际变化可能与此敏感性分析的结果不同。
+
+## (c) 流动性风险
+
+流动性风险是指本集团无法以合理成本及时获得充足资金，以应对资产增长、偿付到期债务或其他支付义务的风险。
+
+本集团根据流动性风险管理政策制定、执行和监督职能相分离的原则，建立了流动性风险管理治理结构，明确董事会、高级管理层、专门委员会及本行相关部门在流动性风险管理中的作用、职责及报告路线，以提高流动性风险管理的有效性。董事会承担对流动性风险管理的最终责任，确保本集团有效地识别、计量、监测和控制流动性风险，负责确定本集团可以承受的流动性风险水平。董事会风险与资本管理委员会按照董事会要求履行流动性风险管理方面的职责。董事会审计委员会负责对董事会及高级管理层在流动性风险管理中的履职情况进行监督评价，并向股东会报告。高级管理层（总行行长室）负责流动性风险的具体管理工作，及时了解流动性风险变化，并向董事会报告。资产负债管理委员会按照高级管理层要求行使具体的流动性风险管理职能。总行资产负债管理部是资产负债管理委员会的日常办事机构，负责拟定流动性风险管理政策和程序、对流动性风险进行定性和定量分析等具体管理工作。总行审计部履行对流动性风险管理工作的审计职责，负责对本集团流动性风险管理情况进行全面审计。
+
+本集团流动性风险偏好审慎，较好地适应了本集团当前发展阶段。目前的流动性风险管理政策及制度符合监管要求和本集团自身管理需要。
+
+本集团流动性风险采取总行统筹、分支机构配合的模式开展管理。资产负债管理部作为全行的司库，负责具体日常流动性风险管理工作。司库根据监管要求和审慎原则，通过限额管理、计划调控、主动负债以及内部资金转移定价等方式对流动性实行统一管理。
+
+本集团从短期备付和中长期结构两个层面，计量、监测并识别流动性风险，按照固定频度密切监测各项限额指标。
+
+本集团定期开展压力测试，评估压力情况下流动性风险抵御能力，除监管机构要求开展的年度压力测试外，还按月开展本币及外币流动性压力测试。此外，本集团制定了流动性应急计划，定期开展流动性应急演练，持续提升对流动性风险事件的应对能力。
+
+## 58. 风险管理（续）
+
+## (c) 流动性风险(续)
+
+本集团的资产及负债项目按其剩余到期日情况分析如下：
+
+2025年12月31日
+
+<table><tr><td></td><td>实时偿还</td><td>1个月内到期</td><td>1个月至3个月</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>无期限</td><td>已逾期</td><td>合计</td></tr><tr><td colspan="10">资产</td></tr><tr><td>现金及存放中央银行款项(注(i))</td><td>64,591</td><td>172</td><td>699</td><td>870</td><td>-</td><td>-</td><td>508,443</td><td>-</td><td>574,775</td></tr><tr><td>应收同业和其他金融机构款项</td><td>65,846</td><td>472,977</td><td>114,148</td><td>280,149</td><td>28,184</td><td>617</td><td>-</td><td>-</td><td>961,921</td></tr><tr><td>贷款和垫款</td><td>35,811</td><td>493,615</td><td>487,310</td><td>1,999,735</td><td>2,065,357</td><td>1,884,138</td><td>-</td><td>29,119</td><td>6,995,085</td></tr><tr><td>金融投资及衍生金融资产(注(ii))</td><td>6,988</td><td>250,973</td><td>175,595</td><td>495,397</td><td>1,581,991</td><td>1,578,091</td><td>30,104</td><td>294</td><td>4,119,433</td></tr><tr><td>—以公允价值计量且其变动计入当期损益的金融投资及衍生金融资产</td><td>6,988</td><td>192,914</td><td>66,453</td><td>134,002</td><td>167,739</td><td>92,843</td><td>5,680</td><td>-</td><td>666,619</td></tr><tr><td>—以摊余成本计量的债务工具投资</td><td>-</td><td>32,316</td><td>39,374</td><td>193,537</td><td>846,817</td><td>990,752</td><td>-</td><td>294</td><td>2,103,090</td></tr><tr><td>—以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>-</td><td>25,743</td><td>69,768</td><td>167,858</td><td>567,435</td><td>494,496</td><td>-</td><td>-</td><td>1,325,300</td></tr><tr><td>—指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>24,424</td><td>-</td><td>24,424</td></tr><tr><td>其他资产(注(iii))</td><td>28,275</td><td>13,735</td><td>16,337</td><td>22,958</td><td>18,214</td><td>5,609</td><td>310,097</td><td>4,084</td><td>419,309</td></tr><tr><td>资产总计</td><td>201,511</td><td>1,231,472</td><td>794,089</td><td>2,799,109</td><td>3,693,746</td><td>3,468,455</td><td>848,644</td><td>33,497</td><td>13,070,523</td></tr><tr><td colspan="10">负债</td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>805,452</td><td>130,180</td><td>125,317</td><td>237,987</td><td>59,467</td><td>7,661</td><td>-</td><td>-</td><td>1,366,064</td></tr><tr><td>客户存款</td><td>4,995,943</td><td>767,078</td><td>961,815</td><td>1,718,792</td><td>1,345,525</td><td>46,977</td><td>-</td><td>-</td><td>9,836,130</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>68,370</td><td>15,258</td><td>5,839</td><td>8,087</td><td>12,030</td><td>29,567</td><td>-</td><td>-</td><td>139,151</td></tr><tr><td>租赁负债</td><td>-</td><td>417</td><td>594</td><td>2,694</td><td>6,695</td><td>853</td><td>-</td><td>-</td><td>11,253</td></tr><tr><td>应付债券</td><td>-</td><td>9,237</td><td>20,378</td><td>47,264</td><td>62,844</td><td>2,680</td><td>-</td><td>-</td><td>142,403</td></tr><tr><td>其他负债(注(iii))</td><td>143,971</td><td>55,693</td><td>19,504</td><td>44,555</td><td>30,659</td><td>241</td><td>-</td><td>-</td><td>294,623</td></tr><tr><td>负债总计</td><td>6,013,736</td><td>977,863</td><td>1,133,447</td><td>2,059,379</td><td>1,517,220</td><td>87,979</td><td>-</td><td>-</td><td>11,789,624</td></tr><tr><td>(短)/长头寸</td><td>(5,812,225)</td><td>253,609</td><td>(339,358)</td><td>739,730</td><td>2,176,526</td><td>3,380,476</td><td>848,644</td><td>33,497</td><td>1,280,899</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (c) 流动性风险(续)
+
+本集团的资产及负债项目按其剩余到期日情况分析如下：（续）
+
+2024年12月31日
+
+<table><tr><td></td><td>实时偿还</td><td>1个月内到期</td><td>1个月至3个月</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>无期限</td><td>已逾期</td><td>合计</td></tr><tr><td colspan="10">资产</td></tr><tr><td>现金及存放中央银行款项(注(i))</td><td>46,957</td><td>38</td><td>136</td><td>1,925</td><td>-</td><td>-</td><td>524,732</td><td>-</td><td>573,788</td></tr><tr><td>应收同业和其他金融机构款项</td><td>47,422</td><td>479,313</td><td>151,267</td><td>194,478</td><td>24,214</td><td>13</td><td>-</td><td>-</td><td>896,707</td></tr><tr><td>贷款和垫款</td><td>37,161</td><td>567,322</td><td>521,001</td><td>1,785,295</td><td>1,888,461</td><td>1,793,147</td><td>-</td><td>30,563</td><td>6,622,950</td></tr><tr><td>金融投资及衍生金融资产(注(ii))</td><td>4,936</td><td>269,334</td><td>155,234</td><td>506,409</td><td>1,381,773</td><td>1,330,326</td><td>26,820</td><td>72</td><td>3,674,904</td></tr><tr><td>—以公允价值计量且其变动计入当期损益的金融投资及衍生金融资产</td><td>4,936</td><td>229,529</td><td>51,315</td><td>131,726</td><td>162,250</td><td>65,290</td><td>4,505</td><td>-</td><td>649,551</td></tr><tr><td>—以摊余成本计量的债务工具投资</td><td>-</td><td>20,519</td><td>58,800</td><td>181,330</td><td>740,026</td><td>919,716</td><td>-</td><td>70</td><td>1,920,461</td></tr><tr><td>—以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>-</td><td>19,286</td><td>45,119</td><td>193,353</td><td>479,497</td><td>345,320</td><td>-</td><td>2</td><td>1,082,577</td></tr><tr><td>—指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>22,315</td><td>-</td><td>22,315</td></tr><tr><td>其他资产(注(iii))</td><td>36,930</td><td>12,493</td><td>14,400</td><td>21,479</td><td>18,287</td><td>4,669</td><td>270,768</td><td>4,661</td><td>383,687</td></tr><tr><td>资产总计</td><td>173,406</td><td>1,328,500</td><td>842,038</td><td>2,509,586</td><td>3,312,735</td><td>3,128,155</td><td>822,320</td><td>35,296</td><td>12,152,036</td></tr><tr><td colspan="10">负债</td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>656,081</td><td>149,972</td><td>150,656</td><td>201,897</td><td>41,794</td><td>6,617</td><td>-</td><td>-</td><td>1,207,017</td></tr><tr><td>客户存款</td><td>4,752,616</td><td>673,445</td><td>936,315</td><td>1,420,661</td><td>1,288,740</td><td>24,810</td><td>-</td><td>-</td><td>9,096,587</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>16,928</td><td>10,044</td><td>6,266</td><td>18,668</td><td>16,519</td><td>30,619</td><td>-</td><td>-</td><td>99,044</td></tr><tr><td>租赁负债</td><td>-</td><td>448</td><td>607</td><td>2,855</td><td>7,705</td><td>1,163</td><td>-</td><td>-</td><td>12,778</td></tr><tr><td>应付债券</td><td>-</td><td>26,710</td><td>72,254</td><td>61,455</td><td>53,770</td><td>7,394</td><td>-</td><td>-</td><td>221,583</td></tr><tr><td>其他负债(注(iii))</td><td>141,006</td><td>34,895</td><td>22,135</td><td>49,859</td><td>33,352</td><td>305</td><td>-</td><td>-</td><td>281,552</td></tr><tr><td>负债总计</td><td>5,566,631</td><td>895,514</td><td>1,188,233</td><td>1,755,395</td><td>1,441,880</td><td>70,908</td><td>-</td><td>-</td><td>10,918,561</td></tr><tr><td>(短)/长头寸</td><td>(5,393,225)</td><td>432,986</td><td>(346,195)</td><td>754,191</td><td>1,870,855</td><td>3,057,247</td><td>822,320</td><td>35,296</td><td>1,233,475</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (c) 流动性风险(续)
+
+本行的资产及负债项目按其剩余到期日情况分析如下：
+
+2025年12月31日
+
+<table><tr><td></td><td>实时偿还</td><td>1个月内到期</td><td>1个月至3个月</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>无期限</td><td>已逾期</td><td>合计</td></tr><tr><td colspan="10">资产</td></tr><tr><td>现金及存放中央银行款项(注(i))</td><td>58,150</td><td>172</td><td>699</td><td>870</td><td>-</td><td>-</td><td>508,081</td><td>-</td><td>567,972</td></tr><tr><td>应收同业和其他金融机构款项</td><td>39,542</td><td>448,390</td><td>94,213</td><td>270,985</td><td>21,992</td><td>-</td><td>-</td><td>-</td><td>875,122</td></tr><tr><td>贷款和垫款</td><td>-</td><td>480,281</td><td>468,111</td><td>1,925,580</td><td>1,941,783</td><td>1,811,631</td><td>-</td><td>27,709</td><td>6,655,095</td></tr><tr><td>金融投资及衍生金融资产(注(ii))</td><td>138</td><td>304,846</td><td>146,736</td><td>399,495</td><td>1,410,399</td><td>1,506,391</td><td>13,940</td><td>294</td><td>3,782,239</td></tr><tr><td>-以公允价值计量且其变动计入当期损益的金融投资及衍生金融资产</td><td>138</td><td>251,780</td><td>57,344</td><td>111,051</td><td>107,674</td><td>64,268</td><td>1,875</td><td>-</td><td>594,130</td></tr><tr><td>-以摊余成本计量的债务工具投资</td><td>-</td><td>31,696</td><td>37,003</td><td>162,516</td><td>816,888</td><td>981,704</td><td>-</td><td>294</td><td>2,030,101</td></tr><tr><td>-以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>-</td><td>21,370</td><td>52,389</td><td>125,928</td><td>485,837</td><td>460,419</td><td>-</td><td>-</td><td>1,145,943</td></tr><tr><td>-指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>12,065</td><td>-</td><td>12,065</td></tr><tr><td>其他资产(注(iii))</td><td>27,156</td><td>8,945</td><td>13,411</td><td>20,384</td><td>6,511</td><td>4,588</td><td>263,617</td><td>4,057</td><td>348,669</td></tr><tr><td>资产总计</td><td>124,986</td><td>1,242,634</td><td>723,170</td><td>2,617,314</td><td>3,380,685</td><td>3,322,610</td><td>785,638</td><td>32,060</td><td>12,229,097</td></tr><tr><td colspan="10">负债</td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>811,708</td><td>98,713</td><td>72,720</td><td>163,165</td><td>-</td><td>-</td><td>-</td><td>-</td><td>1,146,306</td></tr><tr><td>客户存款</td><td>4,853,613</td><td>703,053</td><td>879,523</td><td>1,643,358</td><td>1,334,820</td><td>46,523</td><td>-</td><td>-</td><td>9,460,890</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>66,870</td><td>14,671</td><td>5,596</td><td>7,713</td><td>11,045</td><td>69</td><td>-</td><td>-</td><td>105,964</td></tr><tr><td>租赁负债</td><td>-</td><td>383</td><td>549</td><td>2,505</td><td>6,517</td><td>833</td><td>-</td><td>-</td><td>10,787</td></tr><tr><td>应付债券</td><td>-</td><td>6,411</td><td>15,244</td><td>20,180</td><td>34,196</td><td>-</td><td>-</td><td>-</td><td>76,031</td></tr><tr><td>其他负债(注(iii))</td><td>127,985</td><td>48,944</td><td>15,566</td><td>38,573</td><td>22,639</td><td>-</td><td>-</td><td>-</td><td>253,707</td></tr><tr><td>负债总计</td><td>5,860,176</td><td>872,175</td><td>989,198</td><td>1,875,494</td><td>1,409,217</td><td>47,425</td><td>-</td><td>-</td><td>11,053,685</td></tr><tr><td>(短)/长头寸</td><td>(5,735,190)</td><td>370,459</td><td>(266,028)</td><td>741,820</td><td>1,971,468</td><td>3,275,185</td><td>785,638</td><td>32,060</td><td>1,175,412</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (c) 流动性风险(续)
+
+本行的资产及负债项目按其剩余到期日情况分析如下：（续）
+
+2024年12月31日
+
+<table><tr><td></td><td>实时偿还</td><td>1个月内到期</td><td>1个月至3个月</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>无期限</td><td>已逾期</td><td>合计</td></tr><tr><td colspan="10">资产</td></tr><tr><td>现金及存放中央银行款项(注(i))</td><td>44,693</td><td>38</td><td>136</td><td>1,925</td><td>-</td><td>-</td><td>524,204</td><td>-</td><td>570,996</td></tr><tr><td>应收同业和其他金融机构款项</td><td>25,133</td><td>468,251</td><td>138,021</td><td>170,069</td><td>16,360</td><td>-</td><td>-</td><td>-</td><td>817,834</td></tr><tr><td>贷款和垫款</td><td>-</td><td>553,607</td><td>503,867</td><td>1,713,183</td><td>1,755,641</td><td>1,737,459</td><td>-</td><td>29,014</td><td>6,292,771</td></tr><tr><td>金融投资及衍生金融资产(注(ii))</td><td>1</td><td>263,561</td><td>146,405</td><td>444,232</td><td>1,246,488</td><td>1,279,280</td><td>13,079</td><td>72</td><td>3,393,118</td></tr><tr><td>-以公允价值计量且其变动计入当期损益的金融投资及衍生金融资产</td><td>1</td><td>229,282</td><td>64,787</td><td>122,190</td><td>120,726</td><td>40,232</td><td>1,562</td><td>-</td><td>578,780</td></tr><tr><td>-以摊余成本计量的债务工具投资</td><td>-</td><td>20,166</td><td>56,380</td><td>171,149</td><td>725,533</td><td>914,452</td><td>-</td><td>70</td><td>1,887,750</td></tr><tr><td>-以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>-</td><td>14,113</td><td>25,238</td><td>150,893</td><td>400,229</td><td>324,596</td><td>-</td><td>2</td><td>915,071</td></tr><tr><td>-指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>11,517</td><td>-</td><td>11,517</td></tr><tr><td>其他资产(注(iii))</td><td>35,719</td><td>8,304</td><td>11,829</td><td>19,155</td><td>8,076</td><td>4,189</td><td>212,012</td><td>4,611</td><td>303,895</td></tr><tr><td>资产总计</td><td>105,546</td><td>1,293,761</td><td>800,258</td><td>2,348,564</td><td>3,026,565</td><td>3,020,928</td><td>749,295</td><td>33,697</td><td>11,378,614</td></tr><tr><td colspan="10">负债</td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>651,965</td><td>107,495</td><td>95,830</td><td>124,768</td><td>1,538</td><td>-</td><td>-</td><td>-</td><td>981,596</td></tr><tr><td>客户存款</td><td>4,628,986</td><td>617,507</td><td>868,915</td><td>1,360,354</td><td>1,278,432</td><td>24,056</td><td>-</td><td>-</td><td>8,778,250</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债及衍生金融负债</td><td>15,562</td><td>9,955</td><td>6,122</td><td>18,608</td><td>15,264</td><td>47</td><td>-</td><td>-</td><td>65,558</td></tr><tr><td>租赁负债</td><td>-</td><td>408</td><td>552</td><td>2,642</td><td>7,557</td><td>1,135</td><td>-</td><td>-</td><td>12,294</td></tr><tr><td>应付债券</td><td>-</td><td>23,008</td><td>68,916</td><td>39,052</td><td>24,664</td><td>-</td><td>-</td><td>-</td><td>155,640</td></tr><tr><td>其他负债(注(iii))</td><td>130,653</td><td>27,539</td><td>18,277</td><td>40,282</td><td>25,440</td><td>-</td><td>-</td><td>-</td><td>242,191</td></tr><tr><td>负债总计</td><td>5,427,166</td><td>785,912</td><td>1,058,612</td><td>1,585,706</td><td>1,352,895</td><td>25,238</td><td>-</td><td>-</td><td>10,235,529</td></tr><tr><td>(短)/长头寸</td><td>(5,321,620)</td><td>507,849</td><td>(258,354)</td><td>762,858</td><td>1,673,670</td><td>2,995,690</td><td>749,295</td><td>33,697</td><td>1,143,085</td></tr></table>
+
+注：  
+(i) 现金及存放中央银行款项中的“无期限”款项是指存放中央银行款项中的法定存款准备金及缴存中央银行的财政性存款。  
+(ii) 金融投资中的以公允价值计量且其变动计入当期损益的金融投资，剩余到期日不代表本集团打算持有至最后到期日。  
+(iii) 各项金融资产及金融负债的应计利息分别包含于“其他资产”及“其他负债”中。
+
+## 58. 风险管理（续）
+
+## (c) 流动性风险(续)
+
+下表列示于报告期末，本集团的非衍生金融资产、非衍生金融负债及贷款承诺的未折现合同现金流量分析。这些金融工具的实际现金流量可能与本分析有显著差异。
+
+<table><tr><td rowspan="2"></td><td colspan="10">2025年12月31日</td></tr><tr><td>账面值</td><td>合计</td><td>实时偿还</td><td>1个月内</td><td>1个月至3个月</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>无期限</td><td>已逾期</td></tr><tr><td>非衍生金融资产</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>现金及存放中央银行款项</td><td>574,775</td><td>574,775</td><td>64,591</td><td>172</td><td>699</td><td>870</td><td>-</td><td>-</td><td>508,443</td><td>-</td></tr><tr><td>应收同业和其他金融机构款项</td><td>961,921</td><td>966,522</td><td>65,857</td><td>473,271</td><td>114,477</td><td>282,807</td><td>29,492</td><td>618</td><td>-</td><td>-</td></tr><tr><td>贷款和垫款</td><td>6,995,085</td><td>8,012,967</td><td>35,811</td><td>509,294</td><td>519,642</td><td>2,178,429</td><td>2,412,294</td><td>2,328,378</td><td>-</td><td>29,119</td></tr><tr><td>金融投资</td><td>4,100,610</td><td>4,804,457</td><td>6,850</td><td>256,626</td><td>188,821</td><td>555,065</td><td>1,833,835</td><td>1,931,812</td><td>31,154</td><td>294</td></tr><tr><td>—以公允价值计量且其变动计入当期损益的金融投资</td><td>647,796</td><td>677,565</td><td>6,850</td><td>190,654</td><td>63,731</td><td>132,310</td><td>171,268</td><td>106,022</td><td>6,730</td><td>-</td></tr><tr><td>—以摊余成本计量的债务工具投资</td><td>2,103,090</td><td>2,506,830</td><td>-</td><td>36,969</td><td>48,681</td><td>230,452</td><td>1,008,537</td><td>1,181,897</td><td>-</td><td>294</td></tr><tr><td>—以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>1,325,300</td><td>1,595,638</td><td>-</td><td>29,003</td><td>76,409</td><td>192,303</td><td>654,030</td><td>643,893</td><td>-</td><td>-</td></tr><tr><td>—指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>24,424</td><td>24,424</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>24,424</td><td>-</td></tr><tr><td>其他资产</td><td>137,675</td><td>137,675</td><td>28,275</td><td>13,711</td><td>16,290</td><td>22,710</td><td>11,752</td><td>1,178</td><td>39,677</td><td>4,082</td></tr><tr><td>合计</td><td>12,770,066</td><td>14,496,396</td><td>201,384</td><td>1,253,074</td><td>839,929</td><td>3,039,881</td><td>4,287,373</td><td>4,261,986</td><td>579,274</td><td>33,495</td></tr><tr><td>非衍生金融负债及租赁负债</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>1,366,064</td><td>1,380,412</td><td>805,667</td><td>130,782</td><td>127,438</td><td>243,100</td><td>64,961</td><td>8,464</td><td>-</td><td>-</td></tr><tr><td>客户存款</td><td>9,836,130</td><td>10,011,785</td><td>5,003,628</td><td>776,068</td><td>983,694</td><td>1,774,568</td><td>1,425,829</td><td>47,998</td><td>-</td><td>-</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债</td><td>120,499</td><td>120,607</td><td>68,325</td><td>12,280</td><td>2,916</td><td>2,153</td><td>5,435</td><td>29,498</td><td>-</td><td>-</td></tr><tr><td>租赁负债</td><td>11,253</td><td>12,000</td><td>-</td><td>417</td><td>595</td><td>2,733</td><td>7,143</td><td>1,112</td><td>-</td><td>-</td></tr><tr><td>应付债券</td><td>142,403</td><td>148,583</td><td>-</td><td>9,376</td><td>21,062</td><td>49,441</td><td>65,984</td><td>2,720</td><td>-</td><td>-</td></tr><tr><td>其他负债</td><td>239,288</td><td>190,556</td><td>39,686</td><td>55,693</td><td>19,504</td><td>44,555</td><td>30,877</td><td>241</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>11,715,637</td><td>11,863,943</td><td>5,917,306</td><td>984,616</td><td>1,155,209</td><td>2,116,550</td><td>1,600,229</td><td>90,033</td><td>-</td><td>-</td></tr><tr><td>贷款承诺</td><td>-</td><td>1,942,474</td><td>1,942,474</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (c) 流动性风险(续)
+
+2024年12月31日
+
+<table><tr><td></td><td>账面值</td><td>合计</td><td>实时偿还</td><td>1个月内</td><td>1个月至3个月</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>无期限</td><td>已逾期</td></tr><tr><td colspan="11">非衍生金融资产</td></tr><tr><td>现金及存放中央银行款项</td><td>573,788</td><td>573,788</td><td>46,957</td><td>38</td><td>136</td><td>1,925</td><td>-</td><td>-</td><td>524,732</td><td>-</td></tr><tr><td>应收同业和其他金融机构款项</td><td>896,707</td><td>904,328</td><td>47,430</td><td>479,793</td><td>152,137</td><td>197,581</td><td>27,374</td><td>13</td><td>-</td><td>-</td></tr><tr><td>贷款和垫款</td><td>6,622,950</td><td>7,670,661</td><td>37,161</td><td>583,775</td><td>555,313</td><td>1,963,041</td><td>2,235,195</td><td>2,265,613</td><td>-</td><td>30,563</td></tr><tr><td>金融投资</td><td>3,642,371</td><td>4,273,759</td><td>4,956</td><td>272,560</td><td>163,542</td><td>555,653</td><td>1,597,127</td><td>1,653,029</td><td>26,820</td><td>72</td></tr><tr><td>-以公允价值计量且其变动计入当期损益的金融投资</td><td>617,018</td><td>638,145</td><td>4,956</td><td>225,776</td><td>45,894</td><td>124,509</td><td>156,719</td><td>75,786</td><td>4,505</td><td>-</td></tr><tr><td>-以摊余成本计量的债务工具投资</td><td>1,920,461</td><td>2,324,329</td><td>-</td><td>25,001</td><td>67,717</td><td>219,327</td><td>895,238</td><td>1,116,976</td><td>-</td><td>70</td></tr><tr><td>-以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>1,082,577</td><td>1,288,970</td><td>-</td><td>21,783</td><td>49,931</td><td>211,817</td><td>545,170</td><td>460,267</td><td>-</td><td>2</td></tr><tr><td>-指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>22,315</td><td>22,315</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>22,315</td><td>-</td></tr><tr><td>其他资产</td><td>102,337</td><td>102,337</td><td>33,461</td><td>12,442</td><td>14,328</td><td>21,190</td><td>5,063</td><td>511</td><td>10,681</td><td>4,661</td></tr><tr><td>合计</td><td>11,838,153</td><td>13,524,873</td><td>169,965</td><td>1,348,608</td><td>885,456</td><td>2,739,390</td><td>3,864,759</td><td>3,919,166</td><td>562,233</td><td>35,296</td></tr><tr><td colspan="11">非衍生金融负债及租赁负债</td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>1,207,017</td><td>1,220,980</td><td>656,335</td><td>150,888</td><td>152,614</td><td>206,029</td><td>47,556</td><td>7,558</td><td>-</td><td>-</td></tr><tr><td>客户存款</td><td>9,096,587</td><td>9,321,148</td><td>4,793,218</td><td>686,784</td><td>958,060</td><td>1,470,346</td><td>1,387,318</td><td>25,422</td><td>-</td><td>-</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债</td><td>67,461</td><td>67,510</td><td>16,886</td><td>6,247</td><td>1,342</td><td>7,526</td><td>4,998</td><td>30,511</td><td>-</td><td>-</td></tr><tr><td>租赁负债</td><td>12,778</td><td>13,793</td><td>-</td><td>451</td><td>614</td><td>2,908</td><td>8,299</td><td>1,521</td><td>-</td><td>-</td></tr><tr><td>应付债券</td><td>221,583</td><td>228,531</td><td>-</td><td>26,990</td><td>73,018</td><td>63,674</td><td>57,135</td><td>7,714</td><td>-</td><td>-</td></tr><tr><td>其他负债</td><td>181,168</td><td>181,168</td><td>43,755</td><td>33,783</td><td>21,974</td><td>48,334</td><td>33,017</td><td>305</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>10,786,594</td><td>11,033,130</td><td>5,510,194</td><td>905,143</td><td>1,207,622</td><td>1,798,817</td><td>1,538,323</td><td>73,031</td><td>-</td><td>-</td></tr><tr><td>贷款承诺</td><td>-</td><td>1,783,211</td><td>1,783,211</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (c) 流动性风险(续)
+
+下表列示于报告期末，本行的非衍生金融资产、非衍生金融负债及贷款承诺的未折现合同现金流量分析。这些金融工具的实际现金流量可能与本分析有显著差异。
+
+<table><tr><td rowspan="2"></td><td colspan="10">2025年12月31日</td></tr><tr><td>账面值</td><td>合计</td><td>实时偿还</td><td>1个月内</td><td>1个月至3个月</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>无期限</td><td>已逾期</td></tr><tr><td>非衍生金融资产</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>现金及存放中央银行款项</td><td>567,972</td><td>567,972</td><td>58,150</td><td>172</td><td>699</td><td>870</td><td>-</td><td>-</td><td>508,081</td><td>-</td></tr><tr><td>应收同业和其他金融机构款项</td><td>875,122</td><td>878,712</td><td>39,551</td><td>448,588</td><td>94,541</td><td>273,371</td><td>22,661</td><td>-</td><td>-</td><td>-</td></tr><tr><td>贷款和垫款</td><td>6,655,095</td><td>7,633,900</td><td>-</td><td>494,472</td><td>499,402</td><td>2,099,350</td><td>2,270,188</td><td>2,242,779</td><td>-</td><td>27,709</td></tr><tr><td>金融投资</td><td>3,764,031</td><td>4,461,796</td><td>-</td><td>309,969</td><td>158,575</td><td>459,880</td><td>1,658,614</td><td>1,860,524</td><td>13,940</td><td>294</td></tr><tr><td>-以公允价值计量且其变动计入当期损益的金融投资</td><td>575,922</td><td>605,570</td><td>-</td><td>249,543</td><td>54,651</td><td>109,590</td><td>112,445</td><td>77,466</td><td>1,875</td><td>-</td></tr><tr><td>-以摊余成本计量的债务工具投资</td><td>2,030,101</td><td>2,433,535</td><td>-</td><td>36,290</td><td>46,096</td><td>201,523</td><td>976,534</td><td>1,172,798</td><td>-</td><td>294</td></tr><tr><td>-以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>1,145,943</td><td>1,410,626</td><td>-</td><td>24,136</td><td>57,828</td><td>148,767</td><td>569,635</td><td>610,260</td><td>-</td><td>-</td></tr><tr><td>-指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>12,065</td><td>12,065</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>12,065</td><td>-</td></tr><tr><td>其他资产</td><td>113,686</td><td>113,686</td><td>27,156</td><td>8,939</td><td>13,399</td><td>20,278</td><td>270</td><td>171</td><td>39,416</td><td>4,057</td></tr><tr><td>合计</td><td>11,975,906</td><td>13,656,066</td><td>124,857</td><td>1,262,140</td><td>766,616</td><td>2,853,749</td><td>3,951,733</td><td>4,103,474</td><td>561,437</td><td>32,060</td></tr><tr><td>非衍生金融负债及租赁负债</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>1,146,306</td><td>1,148,253</td><td>811,924</td><td>98,901</td><td>73,194</td><td>164,234</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>客户存款</td><td>9,460,890</td><td>9,642,474</td><td>4,875,188</td><td>711,504</td><td>896,599</td><td>1,697,227</td><td>1,414,412</td><td>47,544</td><td>-</td><td>-</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债</td><td>88,317</td><td>88,366</td><td>66,816</td><td>11,869</td><td>2,916</td><td>2,153</td><td>4,612</td><td>-</td><td>-</td><td>-</td></tr><tr><td>租赁负债</td><td>10,787</td><td>11,525</td><td>-</td><td>384</td><td>551</td><td>2,545</td><td>6,959</td><td>1,086</td><td>-</td><td>-</td></tr><tr><td>应付债券</td><td>76,031</td><td>78,058</td><td>-</td><td>6,551</td><td>15,491</td><td>20,893</td><td>35,123</td><td>-</td><td>-</td><td>-</td></tr><tr><td>其他负债</td><td>207,339</td><td>158,389</td><td>32,667</td><td>48,944</td><td>15,566</td><td>38,573</td><td>22,639</td><td>-</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>10,989,670</td><td>11,127,065</td><td>5,786,595</td><td>878,153</td><td>1,004,317</td><td>1,925,625</td><td>1,483,745</td><td>48,630</td><td>-</td><td>-</td></tr><tr><td>贷款承诺</td><td>-</td><td>1,917,160</td><td>1,917,160</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (c) 流动性风险(续)
+
+2024年12月31日
+
+<table><tr><td></td><td>账面值</td><td>合计</td><td>实时偿还</td><td>1个月内</td><td>1个月至3个月</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>无期限</td><td>已逾期</td></tr><tr><td colspan="11">非衍生金融资产</td></tr><tr><td>现金及存放中央银行款项</td><td>570,996</td><td>570,996</td><td>44,693</td><td>38</td><td>136</td><td>1,925</td><td>-</td><td>-</td><td>524,204</td><td>-</td></tr><tr><td>应收同业和其他金融机构款项</td><td>817,834</td><td>821,606</td><td>25,140</td><td>468,432</td><td>138,501</td><td>172,451</td><td>17,082</td><td>-</td><td>-</td><td>-</td></tr><tr><td>贷款和垫款</td><td>6,292,771</td><td>7,303,084</td><td>-</td><td>568,695</td><td>536,288</td><td>1,884,826</td><td>2,084,623</td><td>2,199,638</td><td>-</td><td>29,014</td></tr><tr><td>金融投资</td><td>3,361,303</td><td>3,987,667</td><td>-</td><td>266,545</td><td>154,140</td><td>490,850</td><td>1,461,036</td><td>1,601,945</td><td>13,079</td><td>72</td></tr><tr><td>-以公允价值计量且其变动计入当期损益的金融投资</td><td>546,965</td><td>567,192</td><td>-</td><td>225,688</td><td>59,508</td><td>113,289</td><td>116,355</td><td>50,790</td><td>1,562</td><td>-</td></tr><tr><td>-以摊余成本计量的债务工具投资</td><td>1,887,750</td><td>2,290,618</td><td>-</td><td>24,604</td><td>65,150</td><td>208,729</td><td>880,419</td><td>1,111,646</td><td>-</td><td>70</td></tr><tr><td>-以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>915,071</td><td>1,118,340</td><td>-</td><td>16,253</td><td>29,482</td><td>168,832</td><td>464,262</td><td>439,509</td><td>-</td><td>2</td></tr><tr><td>-指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>11,517</td><td>11,517</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>11,517</td><td>-</td></tr><tr><td>其他资产</td><td>86,775</td><td>86,775</td><td>32,276</td><td>8,297</td><td>11,800</td><td>18,874</td><td>314</td><td>31</td><td>10,572</td><td>4,611</td></tr><tr><td>合计</td><td>11,129,679</td><td>12,770,128</td><td>102,109</td><td>1,312,007</td><td>840,865</td><td>2,568,926</td><td>3,563,055</td><td>3,801,614</td><td>547,855</td><td>33,697</td></tr><tr><td colspan="11">非衍生金融负债及租赁负债</td></tr><tr><td>向中央银行借款及应付同业和其他金融机构款项</td><td>981,596</td><td>983,223</td><td>652,221</td><td>107,928</td><td>96,163</td><td>125,373</td><td>1,538</td><td>-</td><td>-</td><td>-</td></tr><tr><td>客户存款</td><td>8,778,250</td><td>8,998,590</td><td>4,669,023</td><td>630,719</td><td>889,650</td><td>1,408,127</td><td>1,376,403</td><td>24,668</td><td>-</td><td>-</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债</td><td>34,469</td><td>34,518</td><td>15,562</td><td>6,198</td><td>1,342</td><td>7,526</td><td>3,890</td><td>-</td><td>-</td><td>-</td></tr><tr><td>租赁负债</td><td>12,294</td><td>13,275</td><td>-</td><td>410</td><td>557</td><td>2,687</td><td>8,138</td><td>1,483</td><td>-</td><td>-</td></tr><tr><td>应付债券</td><td>155,640</td><td>157,860</td><td>-</td><td>23,183</td><td>69,219</td><td>39,874</td><td>25,584</td><td>-</td><td>-</td><td>-</td></tr><tr><td>其他负债</td><td>149,663</td><td>149,663</td><td>38,125</td><td>27,539</td><td>18,277</td><td>40,282</td><td>25,440</td><td>-</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>10,111,912</td><td>10,337,129</td><td>5,374,931</td><td>795,977</td><td>1,075,208</td><td>1,623,869</td><td>1,440,993</td><td>26,151</td><td>-</td><td>-</td></tr><tr><td>贷款承诺</td><td>-</td><td>1,762,454</td><td>1,762,454</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></table>
+
+注：各项金融资产及金融负债的应计利息分别包含于“其他资产”及“其他负债”中。
+
+## 58. 风险管理（续）
+
+## (d) 操作风险
+
+操作风险是指由于内部程序、员工、信息科技系统存在问题以及外部事件造成损失的风险，包括法律风险，但不包括战略风险和声誉风险。
+
+报告期内，本集团通过加强对重点领域操作风险的识别、评估和监测，从流程、制度、人员、系统入手，针对关键控制环节存在的问题，进一步完善操作风险管理方法，健全操作风险考核评价机制，强化操作风险管理经济资本分配机制，进一步提升本集团操作风险管理的针对性和有效性，各项主要风险指标均符合本集团风险偏好要求。
+
+面对内外部经营管理方面的挑战，本集团将继续以风险偏好为引领，进一步提升风险管理能力，加强操作风险监测和管控，努力防范和降低操作风险事件及损失。
+
+## (e) 资本管理
+
+本集团资本管理的目标为：
+
+- 保持合理的资本充足率水平，持续满足资本监管法规和政策要求。保持稳固的资本基础，支持本集团业务增长和战略规划的实施，充分履行社会责任，实现全面、协调和可持续发展；  
+一 遵守资本监管法规，开展内部资本充足评估程序，公开披露资本管理相关信息，全面覆盖各类风险，确保集团安全运营；  
+充分运用各类风险量化成果，推行以经济资本为核心的银行价值管理体系，动态完善政策流程和管理应用体系，强化资本约束和资本激励机制，提升客户定价和决策支持能力，提高资本配置效率；  
+— 合理运用各类资本工具，不断增强资本实力，优化资本结构，提高资本质量，降低资本成本，为股东创造最佳回报。
+
+本集团对资本结构进行管理，并根据经济环境和集团经营活动的风险特性进行资本结构调整。为保持或调整资本结构，本集团可能调整利润分配政策，发行或回购股票、其他一级资本工具、合格二级资本工具、可转换公司债券等。本集团管理层根据监管规定的方法定期监控资本充足率。本集团及本行于每季度向金融监管总局提交所需信息。
+
+本集团资本充足率计算范围包括本行及其子公司。本行资本充足率计算范围包括本行境内外所有分支机构。截至2025年12月31日，本集团资本充足率并表的子公司包括：招商永隆银行、招银国际、招银金租、招商基金、招银理财、招商信诺资管、招银欧洲和招银投资。
+
+自2024年1月1日起，本集团按照金融监管总局《商业银行资本管理办法》及其他相关规定的要求计算资本充足率。根据原银保监会2014年4月18日核准本行实施资本计量高级方法的批复要求以及《国家金融监督管理总局关于实施〈商业银行资本管理办法〉相关事项的通知》（金规〔2023〕9号），本集团符合监管要求的公司风险暴露和金融机构风险暴露使用初级内部评级法，零售风险暴露使用高级内部评级法，市场风险、操作风险均采用标准法。采用资本计量高级方法的商业银行应当按照资本计量高级方法和其他方法平行计量资本充足率，并遵守资本底线要求。同时，金融监管总局或其派出机构对采用资本计量高级方法的商业银行设立并行期，并行期内商业银行应遵循《商业银行资本管理办法》中并行期相关规定开展资本计量。
+
+## 58. 风险管理（续）
+
+## (e) 资本管理（续）
+
+资本充足率管理是本集团资本管理的核心。资本充足率反映了本集团稳健经营和抵御风险的能力。本集团在满足法定监管要求的基础上，根据实际面临的风险状况，参考国际先进同业的资本充足率水准及本集团经营状况，审慎确定资本充足率目标。
+
+本集团根据战略发展规划、业务扩张情况、风险变动趋势等因素采用情景模拟、压力测试等方法预测、规划和管理资本充足率。
+
+本集团根据《商业银行资本管理办法》等有关法规计量高级方法资本充足率结果如下：
+
+<table><tr><td></td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>核心一级资本充足率</td><td>14.16%</td><td>14.86%</td></tr><tr><td>一级资本充足率</td><td>16.51%</td><td>17.48%</td></tr><tr><td>资本充足率</td><td>18.24%</td><td>19.05%</td></tr><tr><td>核心一级资本</td><td>1,080,721</td><td>1,036,392</td></tr><tr><td>核心一级资本监管扣除项目</td><td>13,161</td><td>13,344</td></tr><tr><td>核心一级资本净额</td><td>1,067,560</td><td>1,023,048</td></tr><tr><td>其他一级资本</td><td>177,457</td><td>180,446</td></tr><tr><td>一级资本净额</td><td>1,245,017</td><td>1,203,494</td></tr><tr><td>二级资本</td><td>130,014</td><td>108,248</td></tr><tr><td>资本净额</td><td>1,375,031</td><td>1,311,742</td></tr><tr><td>风险加权资产(考虑资本底线要求)</td><td>7,540,202</td><td>6,885,783</td></tr></table>
+
+## (f) 运用衍生工具
+
+衍生工具包括本集团在外汇和利率市场进行的远期、掉期和期权交易。
+
+本集团为资金业务及对资产和负债的管理而进行利率、货币及其他衍生工具交易。根据持有目的不同分类为公允价值套期金融工具、现金流量套期金融工具和以公允价值计量且其变动计入当期损益的金融工具。
+
+本集团会根据银行资产负债的利率、汇率风险状况，基于对未来利率、汇率走势的分析判断，选择合适的套期策略和套期工具。
+
+当本集团的资产或负债的原币为外币时，面临的汇率风险可以通过外汇远期合约或外汇期权合约进行套期。
+
+本集团使用利率掉期工具对浮息贷款、浮息债券投资和同业资产或负债的现金流量变动风险进行现金流量套期；对以公允价值计量且当期损益计入其他综合收益的债券投资的公允价值变动风险进行公允价值套期。
+
+## 58. 风险管理（续）
+
+## (f) 运用衍生工具(续)
+
+以下列示的是各资产负债表日本集团衍生工具按剩余到期日分析的名义金额及公允价值，名义金额仅指在资产负债表日尚未到期交割的交易量，并不代表风险数额。
+
+本集团
+
+<table><tr><td rowspan="3"></td><td colspan="7">2025年12月31日</td></tr><tr><td colspan="5">按剩余到期日分析的名义金额</td><td colspan="2">公允价值</td></tr><tr><td>3个月或以下</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>合计</td><td>资产</td><td>负债</td></tr><tr><td>以公允价值计量且其变动计入当期损益的衍生工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>720,088</td><td>1,201,348</td><td>1,333,727</td><td>2,854</td><td>3,258,017</td><td>6,758</td><td>(6,837)</td></tr><tr><td>利率掉期</td><td>719,717</td><td>1,201,277</td><td>1,333,727</td><td>2,854</td><td>3,257,575</td><td>6,757</td><td>(6,837)</td></tr><tr><td>债券期货</td><td>371</td><td>61</td><td>-</td><td>-</td><td>432</td><td>1</td><td>-</td></tr><tr><td>利率期权</td><td>-</td><td>10</td><td>-</td><td>-</td><td>10</td><td>-</td><td>-</td></tr><tr><td>货币衍生工具</td><td>1,140,645</td><td>972,108</td><td>55,994</td><td>6,019</td><td>2,174,766</td><td>11,521</td><td>(11,341)</td></tr><tr><td>远期</td><td>82,150</td><td>41,970</td><td>1,915</td><td>1,897</td><td>127,932</td><td>362</td><td>(831)</td></tr><tr><td>外汇掉期</td><td>798,244</td><td>552,630</td><td>40,564</td><td>4,122</td><td>1,395,560</td><td>9,262</td><td>(8,158)</td></tr><tr><td>期货</td><td>-</td><td>8,391</td><td>-</td><td>-</td><td>8,391</td><td>-</td><td>-</td></tr><tr><td>期权</td><td>260,251</td><td>369,117</td><td>13,515</td><td>-</td><td>642,883</td><td>1,897</td><td>(2,352)</td></tr><tr><td>其他衍生工具</td><td>3,310</td><td>6,788</td><td>403</td><td>-</td><td>10,501</td><td>254</td><td>(261)</td></tr><tr><td>权益期权购入</td><td>570</td><td>3,247</td><td>35</td><td>-</td><td>3,852</td><td>47</td><td>-</td></tr><tr><td>权益期权出售</td><td>580</td><td>3,247</td><td>-</td><td>-</td><td>3,827</td><td>-</td><td>(20)</td></tr><tr><td>大宗商品交易</td><td>1,895</td><td>294</td><td>68</td><td>-</td><td>2,257</td><td>207</td><td>(238)</td></tr><tr><td>信用违约掉期</td><td>265</td><td>-</td><td>300</td><td>-</td><td>565</td><td>-</td><td>(3)</td></tr><tr><td>公允价值套期金融工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>-</td><td>1,500</td><td>9,922</td><td>949</td><td>12,371</td><td>-</td><td>(27)</td></tr><tr><td>利率掉期</td><td>-</td><td>1,500</td><td>9,922</td><td>949</td><td>12,371</td><td>-</td><td>(27)</td></tr><tr><td>货币衍生工具</td><td>1,036</td><td>830</td><td>1,222</td><td>-</td><td>3,088</td><td>84</td><td>(12)</td></tr><tr><td>外汇掉期</td><td>1,036</td><td>830</td><td>1,222</td><td>-</td><td>3,088</td><td>84</td><td>(12)</td></tr><tr><td>现金流量套期金融工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>5,148</td><td>11,844</td><td>25,466</td><td>279</td><td>42,737</td><td>68</td><td>(95)</td></tr><tr><td>利率掉期</td><td>5,148</td><td>11,844</td><td>25,466</td><td>279</td><td>42,737</td><td>68</td><td>(95)</td></tr><tr><td>货币衍生工具</td><td>3,412</td><td>7,662</td><td>2,571</td><td>-</td><td>13,645</td><td>137</td><td>(79)</td></tr><tr><td>外汇掉期</td><td>3,412</td><td>7,662</td><td>2,571</td><td>-</td><td>13,645</td><td>137</td><td>(79)</td></tr><tr><td>与指定为以公允价值计量且其变动计入当期损益的金融工具一并管理的衍生工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>-</td><td>175</td><td>-</td><td>-</td><td>175</td><td>1</td><td>-</td></tr><tr><td>利率掉期</td><td>-</td><td>175</td><td>-</td><td>-</td><td>175</td><td>1</td><td>-</td></tr><tr><td>合计</td><td>1,873,639</td><td>2,202,255</td><td>1,429,305</td><td>10,101</td><td>5,515,300</td><td>18,823</td><td>(18,652)</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (f) 运用衍生工具(续)
+
+本集团
+
+<table><tr><td rowspan="3"></td><td colspan="7">2024年12月31日</td></tr><tr><td colspan="5">按剩余到期日分析的名义金额</td><td colspan="2">公允价值</td></tr><tr><td>3个月或以下</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>合计</td><td>资产</td><td>负债</td></tr><tr><td>以公允价值计量且其变动计入当期损益的衍生工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>295,444</td><td>931,606</td><td>847,772</td><td>1,290</td><td>2,076,112</td><td>11,136</td><td>(11,478)</td></tr><tr><td>利率掉期</td><td>290,990</td><td>931,524</td><td>847,772</td><td>1,290</td><td>2,071,576</td><td>11,035</td><td>(11,478)</td></tr><tr><td>债券期货</td><td>4,454</td><td>82</td><td>-</td><td>-</td><td>4,536</td><td>101</td><td>-</td></tr><tr><td>货币衍生工具</td><td>944,726</td><td>947,917</td><td>83,676</td><td>1,722</td><td>1,978,041</td><td>20,926</td><td>(19,773)</td></tr><tr><td>远期</td><td>44,479</td><td>21,093</td><td>1,372</td><td>280</td><td>67,224</td><td>588</td><td>(579)</td></tr><tr><td>外汇掉期</td><td>664,671</td><td>740,338</td><td>67,377</td><td>1,442</td><td>1,473,828</td><td>17,734</td><td>(16,958)</td></tr><tr><td>期货</td><td>18</td><td>387</td><td>-</td><td>-</td><td>405</td><td>-</td><td>-</td></tr><tr><td>期权</td><td>235,558</td><td>186,099</td><td>14,927</td><td>-</td><td>436,584</td><td>2,604</td><td>(2,236)</td></tr><tr><td>其他衍生工具</td><td>4,767</td><td>6,090</td><td>230</td><td>37</td><td>11,124</td><td>262</td><td>(123)</td></tr><tr><td>权益期权购入</td><td>805</td><td>2,769</td><td>-</td><td>37</td><td>3,611</td><td>131</td><td>-</td></tr><tr><td>权益期权出售</td><td>805</td><td>2,769</td><td>-</td><td>-</td><td>3,574</td><td>-</td><td>(21)</td></tr><tr><td>大宗商品交易</td><td>3,157</td><td>351</td><td>-</td><td>-</td><td>3,508</td><td>131</td><td>(100)</td></tr><tr><td>信用违约掉期</td><td>-</td><td>201</td><td>230</td><td>-</td><td>431</td><td>-</td><td>(2)</td></tr><tr><td>公允价值套期金融工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>-</td><td>-</td><td>500</td><td>-</td><td>500</td><td>-</td><td>(15)</td></tr><tr><td>利率掉期</td><td>-</td><td>-</td><td>500</td><td>-</td><td>500</td><td>-</td><td>(15)</td></tr><tr><td>货币衍生工具</td><td>1,200</td><td>1,940</td><td>6,614</td><td>-</td><td>9,754</td><td>76</td><td>(161)</td></tr><tr><td>外汇掉期</td><td>1,200</td><td>1,940</td><td>6,614</td><td>-</td><td>9,754</td><td>76</td><td>(161)</td></tr><tr><td>现金流量套期金融工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>2,110</td><td>10,384</td><td>9,533</td><td>330</td><td>22,357</td><td>128</td><td>(33)</td></tr><tr><td>利率掉期</td><td>2,110</td><td>10,384</td><td>9,533</td><td>330</td><td>22,357</td><td>128</td><td>(33)</td></tr><tr><td>与指定为以公允价值计量且其变动计入当期损益的金融工具一并管理的衍生工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>-</td><td>-</td><td>183</td><td>-</td><td>183</td><td>5</td><td>-</td></tr><tr><td>利率掉期</td><td>-</td><td>-</td><td>183</td><td>-</td><td>183</td><td>5</td><td>-</td></tr><tr><td>合计</td><td>1,248,247</td><td>1,897,937</td><td>948,508</td><td>3,379</td><td>4,098,071</td><td>32,533</td><td>(31,583)</td></tr></table>
+
+本集团本年度因无效的现金流量套期导致的对当期损益的影响为零（2024年度：零）。
+
+## 58. 风险管理（续）
+
+## (f) 运用衍生工具(续)
+
+本行
+
+<table><tr><td rowspan="3"></td><td colspan="7">2025年12月31日</td></tr><tr><td colspan="5">按剩余到期日分析的名义金额</td><td colspan="2">公允价值</td></tr><tr><td>3个月或以下</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>合计</td><td>资产</td><td>负债</td></tr><tr><td>以公允价值计量且其变动计入当期损益的衍生工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>718,580</td><td>1,201,287</td><td>1,333,200</td><td>2,854</td><td>3,255,921</td><td>6,747</td><td>(6,829)</td></tr><tr><td>利率掉期</td><td>718,327</td><td>1,201,277</td><td>1,333,200</td><td>2,854</td><td>3,255,658</td><td>6,747</td><td>(6,829)</td></tr><tr><td>债券期货</td><td>253</td><td>-</td><td>-</td><td>-</td><td>253</td><td>-</td><td>-</td></tr><tr><td>利率期权</td><td>-</td><td>10</td><td>-</td><td>-</td><td>10</td><td>-</td><td>-</td></tr><tr><td>货币衍生工具</td><td>1,043,338</td><td>924,158</td><td>49,940</td><td>6,019</td><td>2,023,455</td><td>11,168</td><td>(10,530)</td></tr><tr><td>远期</td><td>70,335</td><td>36,732</td><td>776</td><td>1,897</td><td>109,740</td><td>366</td><td>(782)</td></tr><tr><td>外汇掉期</td><td>716,106</td><td>514,529</td><td>35,649</td><td>4,122</td><td>1,270,406</td><td>8,926</td><td>(7,413)</td></tr><tr><td>期货</td><td>-</td><td>8,391</td><td>-</td><td>-</td><td>8,391</td><td>-</td><td>-</td></tr><tr><td>期权</td><td>256,897</td><td>364,506</td><td>13,515</td><td>-</td><td>634,918</td><td>1,876</td><td>(2,335)</td></tr><tr><td>其他衍生工具</td><td>3,264</td><td>6,788</td><td>368</td><td>-</td><td>10,420</td><td>254</td><td>(261)</td></tr><tr><td>权益期权购入</td><td>552</td><td>3,247</td><td>-</td><td>-</td><td>3,799</td><td>47</td><td>-</td></tr><tr><td>权益期权出售</td><td>552</td><td>3,247</td><td>-</td><td>-</td><td>3,799</td><td>-</td><td>(20)</td></tr><tr><td>大宗商品交易</td><td>1,895</td><td>294</td><td>68</td><td>-</td><td>2,257</td><td>207</td><td>(238)</td></tr><tr><td>信用违约掉期</td><td>265</td><td>-</td><td>300</td><td>-</td><td>565</td><td>-</td><td>(3)</td></tr><tr><td>公允价值套期金融工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>-</td><td>1,500</td><td>9,922</td><td>949</td><td>12,371</td><td>-</td><td>(27)</td></tr><tr><td>利率掉期</td><td>-</td><td>1,500</td><td>9,922</td><td>949</td><td>12,371</td><td>-</td><td>(27)</td></tr><tr><td>现金流量套期金融工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>2,577</td><td>4,120</td><td>7,797</td><td>-</td><td>14,494</td><td>38</td><td>-</td></tr><tr><td>利率掉期</td><td>2,577</td><td>4,120</td><td>7,797</td><td>-</td><td>14,494</td><td>38</td><td>-</td></tr><tr><td>与指定为以公允价值计量且其变动计入当期损益的金融工具一并管理的衍生工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>-</td><td>175</td><td>-</td><td>-</td><td>175</td><td>1</td><td>-</td></tr><tr><td>利率掉期</td><td>-</td><td>175</td><td>-</td><td>-</td><td>175</td><td>1</td><td>-</td></tr><tr><td>合计</td><td>1,767,759</td><td>2,138,028</td><td>1,401,227</td><td>9,822</td><td>5,316,836</td><td>18,208</td><td>(17,647)</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (f) 运用衍生工具(续)
+
+本行
+
+<table><tr><td rowspan="3"></td><td colspan="7">2024年12月31日</td></tr><tr><td colspan="5">按剩余到期日分析的名义金额</td><td colspan="2">公允价值</td></tr><tr><td>3个月或以下</td><td>3个月至1年</td><td>1年至5年</td><td>5年以上</td><td>合计</td><td>资产</td><td>负债</td></tr><tr><td>以公允价值计量且其变动计入当期损益的衍生工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>295,068</td><td>931,606</td><td>845,839</td><td>1,290</td><td>2,073,803</td><td>11,128</td><td>(11,462)</td></tr><tr><td>利率掉期</td><td>290,990</td><td>931,524</td><td>845,839</td><td>1,290</td><td>2,069,643</td><td>11,031</td><td>(11,462)</td></tr><tr><td>债券期货</td><td>4,078</td><td>82</td><td>-</td><td>-</td><td>4,160</td><td>97</td><td>-</td></tr><tr><td>货币衍生工具</td><td>911,557</td><td>941,218</td><td>75,782</td><td>1,722</td><td>1,930,279</td><td>20,518</td><td>(19,505)</td></tr><tr><td>远期</td><td>42,672</td><td>19,658</td><td>1,372</td><td>280</td><td>63,982</td><td>524</td><td>(527)</td></tr><tr><td>外汇掉期</td><td>634,582</td><td>735,176</td><td>59,483</td><td>1,442</td><td>1,430,683</td><td>17,401</td><td>(16,753)</td></tr><tr><td>期货</td><td>18</td><td>387</td><td>-</td><td>-</td><td>405</td><td>-</td><td>-</td></tr><tr><td>期权</td><td>234,285</td><td>185,997</td><td>14,927</td><td>-</td><td>435,209</td><td>2,593</td><td>(2,225)</td></tr><tr><td>其他衍生工具</td><td>4,019</td><td>6,084</td><td>230</td><td>-</td><td>10,333</td><td>155</td><td>(107)</td></tr><tr><td>权益期权购入</td><td>431</td><td>2,766</td><td>-</td><td>-</td><td>3,197</td><td>24</td><td>-</td></tr><tr><td>权益期权出售</td><td>431</td><td>2,766</td><td>-</td><td>-</td><td>3,197</td><td>-</td><td>(5)</td></tr><tr><td>大宗商品交易</td><td>3,157</td><td>351</td><td>-</td><td>-</td><td>3,508</td><td>131</td><td>(100)</td></tr><tr><td>信用违约掉期</td><td>-</td><td>201</td><td>230</td><td>-</td><td>431</td><td>-</td><td>(2)</td></tr><tr><td>公允价值套期金融工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>-</td><td>-</td><td>500</td><td>-</td><td>500</td><td>-</td><td>(15)</td></tr><tr><td>利率掉期</td><td>-</td><td>-</td><td>500</td><td>-</td><td>500</td><td>-</td><td>(15)</td></tr><tr><td>现金流量套期金融工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>1,966</td><td>5,712</td><td>281</td><td>-</td><td>7,959</td><td>9</td><td>-</td></tr><tr><td>利率掉期</td><td>1,966</td><td>5,712</td><td>281</td><td>-</td><td>7,959</td><td>9</td><td>-</td></tr><tr><td>与指定为以公允价值计量且其变动计入当期损益的金融工具一并管理的衍生工具</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>利率衍生工具</td><td>-</td><td>-</td><td>183</td><td>-</td><td>183</td><td>5</td><td>-</td></tr><tr><td>利率掉期</td><td>-</td><td>-</td><td>183</td><td>-</td><td>183</td><td>5</td><td>-</td></tr><tr><td>合计</td><td>1,212,610</td><td>1,884,620</td><td>922,815</td><td>3,012</td><td>4,023,057</td><td>31,815</td><td>(31,089)</td></tr></table>
+
+本行本年度因无效的现金流量套期导致的对当期损益的影响为零（2024年度：零）。
+
+## 58. 风险管理（续）
+
+## (f) 运用衍生工具(续)
+
+本集团有关衍生工具的信用风险加权资产情况如下：
+
+<table><tr><td></td><td>2025年12月31日</td><td>2024年12月31日</td></tr><tr><td>交易对手违约风险加权资产</td><td>6,640</td><td>4,254</td></tr><tr><td>信用估值调整风险加权资产</td><td>1,581</td><td>2,353</td></tr><tr><td>合计</td><td>8,221</td><td>6,607</td></tr></table>
+
+自2024年1月1日起，本集团根据《商业银行资本管理办法》计算衍生工具的风险加权资产，对符合原银保监会2014年4月核准的内评覆盖范围的业务采用内部评级法计算风险加权资产，内部评级法未覆盖部分仍采用权重法计算。
+
+## (g) 公允价值
+
+## (i) 确定公允价值的方法
+
+本集团设有多项会计政策和披露规定，要求计量金融和非金融资产和负债的公允价值。
+
+本集团就计量公允价值制定了一个控制架构，包括设立估值团队，全面监控所有重大的公允价值计量，包括三层次的公允价值计量。
+
+估值团队会定期审阅重大和不可观察的输入值和估值调整。如果使用第三方信息（如经纪报价或定价服务）来计量公允价值，估值团队会评核从第三方得到的证据，以支持有关估值符合《企业会计准则》规定的结论，包括有关估值结果已分类为公允价值层次中的应属层次。
+
+在计量资产或负债的公允价值时，本集团会尽可能使用市场上可观察的数据。公允价值会根据估值技术所采用的输入值来分类为不同的层次。
+
+公允价值计量结果所属层次取决于对公允价值计量整体而言具有重要意义的最低层次的输入值。三个层次输入值的定义如下：
+
+- 第一层次输入值是指主体在计量日能获得的相同资产或负债在活跃市场中未经调整的报价；  
+- 第二层次输入值是指除了第一层次输入值所包含的报价以外的，资产或负债的其他直接或间接可观察的输入值；  
+- 第三层次输入值是指资产或负债的不可观察输入值。
+
+本集团会在出现变动的报告期末确认在公允价值层次之间的转换。
+
+本集团以公允价值计量的资产和负债均持续以公允价值计量，不存在非持续以公允价值计量的资产和负债。
+
+## 58. 风险管理（续）
+
+## (g) 公允价值(续)
+
+## (ii) 持续以公允价值计量的金融资产和金融负债
+
+下表列示了本集团在每个资产负债表日持续以公允价值计量的资产和负债于本报告期末的公允价值信息及其公允价值计量的层次：
+
+2025年
+
+<table><tr><td rowspan="2"></td><td colspan="4">本集团</td><td colspan="4">本行</td></tr><tr><td>第一层次</td><td>第二层次</td><td>第三层次</td><td>总额</td><td>第一层次</td><td>第二层次</td><td>第三层次</td><td>总额</td></tr><tr><td>资产</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>分类为以公允价值计量且其变动计入当期损益的金融投资</td><td>21,396</td><td>610,143</td><td>4,789</td><td>636,328</td><td>15,671</td><td>558,805</td><td>1,446</td><td>575,922</td></tr><tr><td>—债券投资</td><td>14,087</td><td>330,563</td><td>153</td><td>344,803</td><td>9,244</td><td>218,865</td><td>-</td><td>228,109</td></tr><tr><td>—贵金属合同</td><td>5,817</td><td>-</td><td>-</td><td>5,817</td><td>5,817</td><td>-</td><td>-</td><td>5,817</td></tr><tr><td>—股权投资</td><td>1,442</td><td>1,432</td><td>3,846</td><td>6,720</td><td>610</td><td>-</td><td>1,265</td><td>1,875</td></tr><tr><td>—基金投资</td><td>50</td><td>264,586</td><td>586</td><td>265,222</td><td>-</td><td>330,091</td><td>-</td><td>330,091</td></tr><tr><td>—理财产品</td><td>-</td><td>4,416</td><td>-</td><td>4,416</td><td>-</td><td>703</td><td>-</td><td>703</td></tr><tr><td>—其他</td><td>-</td><td>9,146</td><td>204</td><td>9,350</td><td>-</td><td>9,146</td><td>181</td><td>9,327</td></tr><tr><td>指定为以公允价值计量且其变动计入当期损益的金融投资</td><td>168</td><td>11,300</td><td>-</td><td>11,468</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>—债券投资</td><td>168</td><td>11,300</td><td>-</td><td>11,468</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>衍生金融资产</td><td>-</td><td>18,823</td><td>-</td><td>18,823</td><td>-</td><td>18,208</td><td>-</td><td>18,208</td></tr><tr><td>以公允价值计量且其变动计入当期损益的贷款和垫款</td><td>-</td><td>97,270</td><td>1,036</td><td>98,306</td><td>-</td><td>97,270</td><td>973</td><td>98,243</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>304,014</td><td>1,033,936</td><td>-</td><td>1,337,950</td><td>187,548</td><td>968,796</td><td>-</td><td>1,156,344</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的贷款和垫款</td><td>-</td><td>519,054</td><td>522</td><td>519,576</td><td>-</td><td>519,054</td><td>-</td><td>519,054</td></tr><tr><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>14,705</td><td>1,901</td><td>7,818</td><td>24,424</td><td>3,507</td><td>1,870</td><td>6,688</td><td>12,065</td></tr><tr><td>合计</td><td>340,283</td><td>2,292,427</td><td>14,165</td><td>2,646,875</td><td>206,726</td><td>2,164,003</td><td>9,107</td><td>2,379,836</td></tr><tr><td>负债</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>交易性金融负债</td><td>88,317</td><td>288</td><td>-</td><td>88,605</td><td>88,317</td><td>-</td><td>-</td><td>88,317</td></tr><tr><td>—与贵金属相关的金融负债</td><td>88,317</td><td>-</td><td>-</td><td>88,317</td><td>88,317</td><td>-</td><td>-</td><td>88,317</td></tr><tr><td>—债券卖空</td><td>-</td><td>288</td><td>-</td><td>288</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>指定为以公允价值计量且其变动计入当期损益的金融负债</td><td>-</td><td>30,325</td><td>1,569</td><td>31,894</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>—其他</td><td>-</td><td>30,325</td><td>1,569</td><td>31,894</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>衍生金融负债</td><td>-</td><td>18,652</td><td>-</td><td>18,652</td><td>-</td><td>17,647</td><td>-</td><td>17,647</td></tr><tr><td>合计</td><td>88,317</td><td>49,265</td><td>1,569</td><td>139,151</td><td>88,317</td><td>17,647</td><td>-</td><td>105,964</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (g) 公允价值(续)
+
+## (ii) 持续以公允价值计量的金融资产和金融负债（续）
+
+2024年
+
+<table><tr><td rowspan="2"></td><td colspan="4">本集团</td><td colspan="4">本行</td></tr><tr><td>第一层次</td><td>第二层次</td><td>第三层次</td><td>总额</td><td>第一层次</td><td>第二层次</td><td>第三层次</td><td>总额</td></tr><tr><td>资产</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>分类为以公允价值计量且其变动计入当期损益的金融投资</td><td>15,699</td><td>584,337</td><td>3,317</td><td>603,353</td><td>12,137</td><td>533,154</td><td>1,583</td><td>546,874</td></tr><tr><td>—债券投资</td><td>14,204</td><td>237,508</td><td>340</td><td>252,052</td><td>11,204</td><td>136,598</td><td>657</td><td>148,459</td></tr><tr><td>—贵金属合同</td><td>134</td><td>-</td><td>-</td><td>134</td><td>134</td><td>-</td><td>-</td><td>134</td></tr><tr><td>—股权投资</td><td>1,360</td><td>3</td><td>1,899</td><td>3,262</td><td>799</td><td>-</td><td>763</td><td>1,562</td></tr><tr><td>—基金投资</td><td>1</td><td>343,079</td><td>871</td><td>343,951</td><td>-</td><td>394,657</td><td>-</td><td>394,657</td></tr><tr><td>—理财产品</td><td>-</td><td>3,134</td><td>-</td><td>3,134</td><td>-</td><td>1,303</td><td>-</td><td>1,303</td></tr><tr><td>—其他</td><td>-</td><td>613</td><td>207</td><td>820</td><td>-</td><td>596</td><td>163</td><td>759</td></tr><tr><td>指定为以公允价值计量且其变动计入当期损益的金融投资</td><td>1,646</td><td>12,019</td><td>-</td><td>13,665</td><td>-</td><td>91</td><td>-</td><td>91</td></tr><tr><td>—债券投资</td><td>1,646</td><td>12,019</td><td>-</td><td>13,665</td><td>-</td><td>91</td><td>-</td><td>91</td></tr><tr><td>衍生金融资产</td><td>-</td><td>32,533</td><td>-</td><td>32,533</td><td>-</td><td>31,815</td><td>-</td><td>31,815</td></tr><tr><td>以公允价值计量且其变动计入当期损益的贷款和垫款</td><td>-</td><td>34,601</td><td>1,174</td><td>35,775</td><td>-</td><td>34,601</td><td>1,109</td><td>35,710</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>230,469</td><td>861,658</td><td>-</td><td>1,092,127</td><td>131,367</td><td>791,457</td><td>-</td><td>922,824</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的贷款和垫款</td><td>-</td><td>345,349</td><td>206,343</td><td>551,692</td><td>-</td><td>344,791</td><td>206,343</td><td>551,134</td></tr><tr><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>12,873</td><td>1,903</td><td>7,539</td><td>22,315</td><td>3,121</td><td>1,870</td><td>6,526</td><td>11,517</td></tr><tr><td>合计</td><td>260,687</td><td>1,872,400</td><td>218,373</td><td>2,351,460</td><td>146,625</td><td>1,737,779</td><td>215,561</td><td>2,099,965</td></tr><tr><td>负债</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>交易性金融负债</td><td>28,757</td><td>389</td><td>-</td><td>29,146</td><td>28,757</td><td>-</td><td>-</td><td>28,757</td></tr><tr><td>—与贵金属相关的金融负债</td><td>28,757</td><td>-</td><td>-</td><td>28,757</td><td>28,757</td><td>-</td><td>-</td><td>28,757</td></tr><tr><td>—债券卖空</td><td>-</td><td>389</td><td>-</td><td>389</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>指定为以公允价值计量且其变动计入当期损益的金融负债</td><td>5,567</td><td>31,592</td><td>1,156</td><td>38,315</td><td>5,712</td><td>-</td><td>-</td><td>5,712</td></tr><tr><td>—发行债券</td><td>5,567</td><td>-</td><td>-</td><td>5,567</td><td>5,712</td><td>-</td><td>-</td><td>5,712</td></tr><tr><td>—其他</td><td>-</td><td>31,592</td><td>1,156</td><td>32,748</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>衍生金融负债</td><td>-</td><td>31,583</td><td>-</td><td>31,583</td><td>-</td><td>31,089</td><td>-</td><td>31,089</td></tr><tr><td>合计</td><td>34,324</td><td>63,564</td><td>1,156</td><td>99,044</td><td>34,469</td><td>31,089</td><td>-</td><td>65,558</td></tr></table>
+
+于2025年度及2024年度，金融工具并无在公允价值层次的第一和第二层次之间作出重大转移。
+
+## 58. 风险管理（续）
+
+## (g) 公允价值(续)
+
+## (ii) 持续以公允价值计量的金融资产和金融负债（续）
+
+## 1) 持续第一层次公允价值计量项目市价的确定依据
+
+对于有活跃市场报价的金融工具采用彭博等发布的活跃市场报价。
+
+## 2) 持续第二层次公允价值计量项目，采用的估值技术和重要参数的信息
+
+估值日当日中国债券信息网存在估值的人民币债券，采用中国债券信息网最新发布的估值结果确定其公允价值。
+
+对于没有活跃市场报价的外币债券采用彭博等发布的综合估值。
+
+衍生金融工具中的远期外汇合约的公允价值是采用对远期外汇合约约定价格与市场远期价格之差折现的方法来确定。所使用的折现率为报告期末相关的人民币掉期收益率曲线。
+
+外汇期权合约、大宗商品期权合约、权益期权合约等期权合约的公允价值是基于柏力克－舒尔斯(Black-Scholes)模型，采用无风险利率、外汇、大宗商品、权益类合约标的市场价格及价格波动率等市场数据计算确定。所使用的市场数据源为彭博、路孚特、万得等供应商提供的活跃市场报价。
+
+衍生金融工具中的利率掉期合约、外汇掉期合约、非期权类的大宗商品合约的公允价值为假设于报告期末终止该掉期合约预计所应收或应付金额折现。所使用的折现率为报告期末相关币种和掉期品种收益率曲线。
+
+以公允价值计量且其变动计入当期损益的金融投资项下的股权投资、基金投资及理财产品的估值根据在市场的可观察报价或采用在当前情况下适用的估值技术得出。
+
+以公允价值计量且其变动计入其他综合收益及以公允价值计量且其变动计入当期损益的票据贴现主要采用上海票据交易所公布的票据转贴现成交价格，以10日均线为基准对票据价值进行评估。以公允价值计量且其变动计入其他综合收益的其他贷款及垫款，基于可观察市场报价对现金流进行折现确定其公允价值。
+
+指定为以公允价值计量且其变动计入其他综合收益的权益工具投资，采用彭博提供的估值结果或采用报告期末中国债券信息网的相关收益率曲线对现金流进行折现确定其公允价值。
+
+发行的存款证，估值取自彭博提供的估值结果。
+
+以公允价值计量且其变动计入当期损益的金融投资项下的“其他”投资估值采用投资的资产净值。
+
+指定为以公允价值计量且其变动计入当期损益的金融负债项下的“其他”采用投资目标的市价组合法，其公允价值根据投资的资产净值，即产品投资组合的可观察市值及相关费用决定。
+
+## 58. 风险管理（续）
+
+## (g) 公允价值(续)
+
+(ii) 持续以公允价值计量的金融资产和金融负债（续）
+
+3) 持续第三层次公允价值计量项目，采用的估值技术和重要参数的定性信息如下：
+
+2025年12月31日
+
+<table><tr><td></td><td>的公允价值</td><td>估值技术</td><td>不可观察输入值</td></tr><tr><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>1,141</td><td>市场法</td><td>流动性折价</td></tr><tr><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>57</td><td>现金流量折现法</td><td>风险调整折现率、现金流量</td></tr><tr><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>6,620</td><td>资产净值法</td><td>净资产、流动性折价</td></tr><tr><td>以公允价值计量且其变动计入当期损益的贷款和垫款</td><td>1,036</td><td>现金流量折现法</td><td>风险调整折现率</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的贷款和垫款</td><td>522</td><td>现金流量折现法</td><td>风险调整折现率</td></tr><tr><td>分类为以公允价值计量且其变动计入当期损益的金融投资</td><td></td><td></td><td></td></tr><tr><td>-股权投资</td><td>2,511</td><td>市场法</td><td>流动性折价</td></tr><tr><td>-股权投资</td><td>567</td><td>现金流量折现法</td><td>风险调整折现率、现金流量</td></tr><tr><td>-股权投资</td><td>768</td><td>资产净值法</td><td>净资产、流动性折价</td></tr><tr><td>-债券投资</td><td>153</td><td>现金流量折现法</td><td>风险调整折现率</td></tr><tr><td>-基金投资</td><td>481</td><td>基金净值法</td><td>净资产</td></tr><tr><td>-基金投资</td><td>105</td><td>市场法</td><td>流动性折价</td></tr><tr><td>-其他</td><td>181</td><td>现金流量折现法</td><td>风险调整折现率、现金流量</td></tr><tr><td>-其他</td><td>23</td><td>基金净值法</td><td>净资产</td></tr><tr><td>指定为以公允价值计量且其变动计入当期损益的金融负债</td><td>1,569</td><td>基金净值法</td><td>净资产、流动性折价</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (g) 公允价值(续)
+
+## (ii) 持续以公允价值计量的金融资产和金融负债（续）
+
+3) 持续第三层次公允价值计量项目，采用的估值技术和重要参数的定性信息如下：（续）
+
+<table><tr><td></td><td>2024年12月31日的公允价值</td><td>估值技术</td><td>不可观察输入值</td></tr><tr><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>1,022</td><td>市场法</td><td>流动性折价</td></tr><tr><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>67</td><td>现金流量折现法</td><td>风险调整折现率、现金流量</td></tr><tr><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>6,450</td><td>资产净值法</td><td>净资产、流动性折价</td></tr><tr><td>以公允价值计量且其变动计入当期损益的贷款和垫款</td><td>1,174</td><td>现金流量折现法</td><td>风险调整折现率</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的贷款和垫款</td><td>206,343</td><td>现金流量折现法</td><td>风险调整折现率</td></tr><tr><td>分类为以公允价值计量且其变动计入当期损益的金融投资</td><td></td><td></td><td></td></tr><tr><td>-股权投资</td><td>1,119</td><td>市场法</td><td>流动性折价</td></tr><tr><td>-股权投资</td><td>516</td><td>现金流量折现法</td><td>风险调整折现率、现金流量</td></tr><tr><td>-股权投资</td><td>264</td><td>资产净值法</td><td>净资产、流动性折价</td></tr><tr><td>-债券投资</td><td>340</td><td>现金流量折现法</td><td>风险调整折现率</td></tr><tr><td>-基金投资</td><td>807</td><td>基金净值法</td><td>净资产</td></tr><tr><td>-基金投资</td><td>64</td><td>市场法</td><td>流动性折价</td></tr><tr><td>-其他</td><td>163</td><td>现金流量折现法</td><td>风险调整折现率、现金流量</td></tr><tr><td>-其他</td><td>44</td><td>基金净值法</td><td>净资产</td></tr><tr><td>指定为以公允价值计量且其变动计入当期损益的金融负债</td><td>1,156</td><td>基金净值法</td><td>净资产、流动性折价</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (g) 公允价值(续)
+
+## (ii) 持续以公允价值计量的金融资产和金融负债（续）
+
+## 3) 持续第三层次公允价值计量项目，采用的估值技术和重要参数的定性信息如下：（续）
+
+以重要的不可观察输入变量估值的金融工具
+
+下表列示在公允价值层次第三层次所计量公允价值的年初结余与年末结余之间的变动：
+
+<table><tr><td rowspan="2">资产</td><td colspan="5">本集团</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融投资</td><td>以公允价值计量且其变动计入当期损益的贷款和垫款</td><td>以公允价值计量且其变动计入其他综合收益的贷款和垫款</td><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>总额</td></tr><tr><td>于2025年1月1日</td><td>3,317</td><td>1,174</td><td>206,343</td><td>7,539</td><td>218,373</td></tr><tr><td>收益或(损失)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>-于损益中确认</td><td>533</td><td>(7)</td><td>-</td><td>-</td><td>526</td></tr><tr><td>-于其他综合收益中确认</td><td>46</td><td>-</td><td>(154)</td><td>352</td><td>244</td></tr><tr><td>购买/发放</td><td>1,284</td><td>(15)</td><td>588,594</td><td>-</td><td>589,863</td></tr><tr><td>出售和结算</td><td>(330)</td><td>(114)</td><td>(499,954)</td><td>(3)</td><td>(500,401)</td></tr><tr><td>从第三层次转出</td><td>-</td><td>-</td><td>(294,300)</td><td>-</td><td>(294,300)</td></tr><tr><td>汇率变动</td><td>(61)</td><td>(2)</td><td>(7)</td><td>(70)</td><td>(140)</td></tr><tr><td>于2025年12月31日</td><td>4,789</td><td>1,036</td><td>522</td><td>7,818</td><td>14,165</td></tr><tr><td>于报告日持有的以上资产项目于损益中确认的未实现收益或(损失)</td><td>427</td><td>(22)</td><td>-</td><td>-</td><td>405</td></tr></table>
+
+<table><tr><td rowspan="2">资产</td><td colspan="5">本集团</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融投资</td><td>以公允价值计量且其变动计入当期损益的贷款和垫款</td><td>以公允价值计量且其变动计入其他综合收益的贷款和垫款</td><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>总额</td></tr><tr><td>于2024年1月1日</td><td>4,160</td><td>3,729</td><td>120,762</td><td>7,338</td><td>135,989</td></tr><tr><td>收益或(损失)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>-于损益中确认</td><td>(531)</td><td>(84)</td><td>-</td><td>-</td><td>(615)</td></tr><tr><td>-于其他综合收益中确认</td><td>-</td><td>-</td><td>252</td><td>297</td><td>549</td></tr><tr><td>购买/发放</td><td>72</td><td>-</td><td>485,550</td><td>-</td><td>485,622</td></tr><tr><td>出售和结算</td><td>(179)</td><td>(2,472)</td><td>(400,221)</td><td>(104)</td><td>(402,976)</td></tr><tr><td>从第三层次转出</td><td>(214)</td><td>-</td><td>-</td><td>-</td><td>(214)</td></tr><tr><td>汇率变动</td><td>9</td><td>1</td><td>-</td><td>8</td><td>18</td></tr><tr><td>于2024年12月31日</td><td>3,317</td><td>1,174</td><td>206,343</td><td>7,539</td><td>218,373</td></tr><tr><td>于报告日持有的以上资产项目于损益中确认的未实现收益或(损失)</td><td>(434)</td><td>(104)</td><td>-</td><td>-</td><td>(538)</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (g) 公允价值(续)
+
+## (ii) 持续以公允价值计量的金融资产和金融负债（续）
+
+3) 持续第三层次公允价值计量项目，采用的估值技术和重要参数的定性信息如下：（续）
+
+以重要的不可观察输入变量估值的金融工具(续)
+
+下表列示在公允价值层次第三层次所计量公允价值的年初结余与年末结余之间的变动：（续）
+
+<table><tr><td rowspan="2">以公允价值计量且其变动计入当期损益的金融负债</td><td colspan="2">本集团</td></tr><tr><td>2025年</td><td>2024年</td></tr><tr><td>于年初余额</td><td>1,156</td><td>1,825</td></tr><tr><td>于损益中确认的收益或(损失)</td><td>263</td><td>(235)</td></tr><tr><td>发行</td><td>382</td><td>6</td></tr><tr><td>出售和结算</td><td>(206)</td><td>(455)</td></tr><tr><td>汇率变动</td><td>(26)</td><td>15</td></tr><tr><td>于年末余额</td><td>1,569</td><td>1,156</td></tr><tr><td>于报告日持有的以上负债项目于损益中确认的未实现收益或(损失)</td><td>263</td><td>(235)</td></tr></table>
+
+<table><tr><td rowspan="2">资产</td><td colspan="5">本行</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融投资</td><td>以公允价值计量且其变动计入当期损益的贷款和垫款</td><td>以公允价值计量且其变动计入其他综合收益的贷款和垫款</td><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>总额</td></tr><tr><td>于2025年1月1日</td><td>1,583</td><td>1,109</td><td>206,343</td><td>6,526</td><td>215,561</td></tr><tr><td>收益或(损失)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>-于损益中确认</td><td>105</td><td>(21)</td><td>-</td><td>-</td><td>84</td></tr><tr><td>-于其他综合收益中确认</td><td>-</td><td>-</td><td>(174)</td><td>165</td><td>(9)</td></tr><tr><td>购买/发放</td><td>-</td><td>(15)</td><td>587,848</td><td>-</td><td>587,833</td></tr><tr><td>出售和结算</td><td>(242)</td><td>(100)</td><td>(499,717)</td><td>(3)</td><td>(500,062)</td></tr><tr><td>从第三层次转出</td><td>-</td><td>-</td><td>(294,300)</td><td>-</td><td>(294,300)</td></tr><tr><td>于2025年12月31日</td><td>1,446</td><td>973</td><td>-</td><td>6,688</td><td>9,107</td></tr><tr><td>于报告日持有的以上资产项目于损益中确认的未实现收益或(损失)</td><td>45</td><td>(35)</td><td>-</td><td>-</td><td>10</td></tr></table>
+
+## 58. 风险管理（续）
+
+## (g) 公允价值(续)
+
+## (ii) 持续以公允价值计量的金融资产和金融负债（续）
+
+## 3) 持续第三层次公允价值计量项目，采用的估值技术和重要参数的定性信息如下：（续）
+
+以重要的不可观察输入变量估值的金融工具(续)
+
+下表列示在公允价值层次第三层次所计量公允价值的年初结余与年末结余之间的变动：（续）
+
+<table><tr><td rowspan="2">资产</td><td colspan="5">本行</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融投资</td><td>以公允价值计量且其变动计入当期损益的贷款和垫款</td><td>以公允价值计量且其变动计入其他综合收益的贷款和垫款</td><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>总额</td></tr><tr><td>于2024年1月1日</td><td>1,209</td><td>3,647</td><td>120,762</td><td>6,521</td><td>132,139</td></tr><tr><td>收益或(损失)</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>-于损益中确认</td><td>114</td><td>(70)</td><td>-</td><td>-</td><td>44</td></tr><tr><td>-于其他综合收益中确认</td><td>-</td><td>-</td><td>252</td><td>109</td><td>361</td></tr><tr><td>购买/发放</td><td>264</td><td>-</td><td>485,550</td><td>-</td><td>485,814</td></tr><tr><td>出售和结算</td><td>(4)</td><td>(2,468)</td><td>(400,221)</td><td>(104)</td><td>(402,797)</td></tr><tr><td>于2024年12月31日</td><td>1,583</td><td>1,109</td><td>206,343</td><td>6,526</td><td>215,561</td></tr><tr><td>于报告日持有的以上资产项目于损益中确认的未实现收益或(损失)</td><td>175</td><td>(85)</td><td>-</td><td>-</td><td>90</td></tr></table>
+
+2025年度，由于对部分金融资产的估值参数由不可观察输入值调整为可观察输入值，本集团及本行将这些金融资产从以公允价值计量的第三层次金融资产转入第二层次。（2024年度：没有发生重大转换）。
+
+2025年度及2024年度，本集团上述持续以公允价值计量所使用的估值技术并未发生变更。
+
+## (iii) 未以公允价值计量的金融资产和金融负债
+
+## 1) 金融资产
+
+本集团未以公允价值计量的金融资产主要包括存放中央银行款项、存放同业和其他金融机构款项、拆出资金、买入返售金融资产、以摊余成本计量的债务工具投资以及以摊余成本计量的贷款和垫款。
+
+除以摊余成本计量的贷款和垫款及以摊余成本计量的债务工具投资外，未以公允价值计量的金融资产大部分于一年之内到期，其账面值接近公允价值。
+
+以摊余成本计量的贷款和垫款以摊余成本扣除损失／减值准备列账（附注9）。由于大部分以摊余成本计量的贷款和垫款按贷款基准利率定价，至少每年按市场利率重定价一次，减值贷款已扣除损失准备以反映其可回收金额，因此以摊余成本计量的贷款和垫款的公允价值与账面值接近。
+
+以摊余成本计量的债务工具投资以摊余成本扣除减值准备列账，其中涉及的上市债券投资的公允价值已披露于附注11。
+
+## 58. 风险管理（续）
+
+## (g) 公允价值(续)
+
+## (iii) 未以公允价值计量的金融资产和金融负债（续）
+
+## 1) 金融资产（续）
+
+下表列示了未以公允价值计量的以摊余成本计量的债务工具投资的账面价值、公允价值以及公允价值层次的披露：
+
+其中，第一层次公允价值计量依据为采用彭博等发布的活跃市场报价的债券；第二层次公允价值计量项目中，人民币债券采用中国债券信息网最新发布的估值结果确定其公允价值，对于没有活跃市场报价的外币债券采用彭博发布的综合估值；第三层次公允价值为采用预期现金流回收的估值方法。
+
+本集团
+
+2025年12月31日
+
+<table><tr><td></td><td>账面价值</td><td>公允价值</td><td>第一层次</td><td>第二层次</td><td>第三层次</td></tr><tr><td>以摊余成本计量的债务工具投资</td><td>2,103,090</td><td>2,205,577</td><td>117,481</td><td>2,012,821</td><td>75,275</td></tr><tr><td rowspan="2"></td><td colspan="5">2024年12月31日</td></tr><tr><td>账面价值</td><td>公允价值</td><td>第一层次</td><td>第二层次</td><td>第三层次</td></tr><tr><td>以摊余成本计量的债务工具投资</td><td>1,920,461</td><td>2,066,244</td><td>71,429</td><td>1,913,893</td><td>80,922</td></tr></table>
+
+注：以上金融资产不包含应计利息。
+
+## 2) 金融负债
+
+本集团未以公允价值计量的金融负债主要包括客户存款、同业和其他金融机构存放及拆入款项、卖出回购金融资产款和本集团发行的债券。除以下的金融负债外，其他金融负债于各资产负债表日的账面值接近公允价值。
+
+2025年12月31日
+
+<table><tr><td></td><td>账面价值</td><td>公允价值</td><td>第一层次</td><td>第二层次</td><td>第三层次</td></tr><tr><td>已发行债券</td><td>80,963</td><td>80,793</td><td>-</td><td>80,793</td><td>-</td></tr><tr><td>合计</td><td>80,963</td><td>80,793</td><td>-</td><td>80,793</td><td>-</td></tr></table>
+
+2024年12月31日
+
+<table><tr><td></td><td>账面价值</td><td>公允价值</td><td>第一层次</td><td>第二层次</td><td>第三层次</td></tr><tr><td>已发行债券</td><td>85,003</td><td>89,325</td><td>-</td><td>89,325</td><td>-</td></tr><tr><td>合计</td><td>85,003</td><td>89,325</td><td>-</td><td>89,325</td><td>-</td></tr></table>
+
+注：以上金融负债不包含应计利息。
+
+## 59. 现金流量表补充说明
+
+## (a) 将净利润调整为经营活动的现金流量：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>净利润</td><td>151,126</td><td>149,559</td><td>136,184</td><td>139,148</td></tr><tr><td>调整：</td><td></td><td></td><td></td><td></td></tr><tr><td>计提贷款和垫款减值准备</td><td>42,582</td><td>43,608</td><td>39,024</td><td>40,076</td></tr><tr><td>计提金融投资及其他资产减值准备</td><td>(2,807)</td><td>(2,789)</td><td>(2,813)</td><td>(3,613)</td></tr><tr><td>固定资产及投资性房地产折旧</td><td>11,023</td><td>10,803</td><td>3,533</td><td>3,559</td></tr><tr><td>使用权资产折旧</td><td>3,745</td><td>3,925</td><td>3,555</td><td>3,711</td></tr><tr><td>无形资产摊销</td><td>624</td><td>862</td><td>453</td><td>682</td></tr><tr><td>长期待摊费用摊销</td><td>1,028</td><td>896</td><td>1,003</td><td>854</td></tr><tr><td>固定资产及其他资产处置净收益</td><td>(742)</td><td>(249)</td><td>(25)</td><td>(12)</td></tr><tr><td>公允价值变动和未实现汇兑损益</td><td>8,236</td><td>(11,306)</td><td>9,017</td><td>(14,406)</td></tr><tr><td>投资收益</td><td>(36,126)</td><td>(28,656)</td><td>(32,452)</td><td>(25,244)</td></tr><tr><td>投资利息收入</td><td>(91,477)</td><td>(84,924)</td><td>(82,934)</td><td>(78,139)</td></tr><tr><td>债券利息支出</td><td>5,383</td><td>7,656</td><td>2,810</td><td>5,063</td></tr><tr><td>租赁负债利息支出</td><td>391</td><td>457</td><td>371</td><td>427</td></tr><tr><td>已减值贷款和垫款折现回拨</td><td>(118)</td><td>(223)</td><td>(106)</td><td>(240)</td></tr><tr><td>递延所得税变动</td><td>(1,773)</td><td>164</td><td>(1,233)</td><td>620</td></tr><tr><td>经营性应收项目的增加</td><td>(586,869)</td><td>(551,049)</td><td>(563,547)</td><td>(525,961)</td></tr><tr><td>经营性应付项目的增加</td><td>947,231</td><td>908,289</td><td>895,645</td><td>864,311</td></tr><tr><td>经营活动产生的现金流量净额</td><td>451,457</td><td>447,023</td><td>408,485</td><td>410,836</td></tr></table>
+
+## (b) 现金及现金等价物包括以下项目（原到期日均在3个月以内）：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>现金及存放中央银行款项</td><td>64,591</td><td>46,957</td><td>58,150</td><td>44,693</td></tr><tr><td>存放同业及其他金融机构款项</td><td>145,435</td><td>158,646</td><td>117,459</td><td>127,726</td></tr><tr><td>拆出资金</td><td>133,750</td><td>111,547</td><td>99,041</td><td>107,594</td></tr><tr><td>买入返售金融资产</td><td>258,867</td><td>271,447</td><td>255,001</td><td>270,564</td></tr><tr><td>债券投资及票据贴现</td><td>107,179</td><td>167,930</td><td>104,649</td><td>165,418</td></tr><tr><td>现金及现金等价物合计</td><td>709,822</td><td>756,527</td><td>634,300</td><td>715,995</td></tr></table>
+
+## 59. 现金流量表补充说明（续）
+
+## (c) 现金及现金等价物净增加情况：
+
+<table><tr><td rowspan="2"></td><td colspan="2">本集团</td><td colspan="2">本行</td></tr><tr><td>2025年</td><td>2024年</td><td>2025年</td><td>2024年</td></tr><tr><td>现金的年末余额</td><td>14,808</td><td>16,622</td><td>14,433</td><td>16,119</td></tr><tr><td>减:现金的年初余额</td><td>(16,622)</td><td>(14,931)</td><td>(16,119)</td><td>(14,499)</td></tr><tr><td>现金等价物的年末余额</td><td>695,014</td><td>739,905</td><td>619,867</td><td>699,876</td></tr><tr><td>减:现金等价物的年初余额</td><td>(739,905)</td><td>(584,088)</td><td>(699,876)</td><td>(543,952)</td></tr><tr><td>现金及现金等价物净(减少)/增加额</td><td>(46,705)</td><td>157,508</td><td>(81,695)</td><td>157,544</td></tr></table>
+
+## (d) 重大非现金交易
+
+2025年度及2024年度，本集团无重大非现金交易。
+
+## (e) 筹资活动引起的负债变动
+
+下表列示了筹资活动引起的负债变动，包括现金变动和非现金变动。筹资活动引起的负债是在集团现金流量表中分类为筹资活动的负债。
+
+本集团
+
+<table><tr><td></td><td>同业存单</td><td>存款证及其他</td><td>债券(注)</td><td>债券应计利息</td><td>应付股利</td><td>其他金融负债</td><td>租赁负债</td><td>合计</td></tr><tr><td>2025年1月1日余额</td><td>89,186</td><td>47,394</td><td>90,570</td><td>1,338</td><td>26</td><td>35,782</td><td>12,778</td><td>277,074</td></tr><tr><td>现金变动:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>本年发行</td><td>27,230</td><td>81,221</td><td>27,237</td><td>-</td><td>-</td><td>19,529</td><td>-</td><td>155,217</td></tr><tr><td>本年偿还</td><td>(105,950)</td><td>(77,173)</td><td>(35,801)</td><td>-</td><td>-</td><td>(36,936)</td><td>(4,534)</td><td>(260,394)</td></tr><tr><td>本年支付利息/股利</td><td>-</td><td>-</td><td>-</td><td>(4,678)</td><td>(57,074)</td><td>-</td><td>-</td><td>(61,752)</td></tr><tr><td>非现金变动:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>本年租赁负债新增</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2,618</td><td>2,618</td></tr><tr><td>本年计提利息</td><td>-</td><td>-</td><td>-</td><td>4,424</td><td>-</td><td>-</td><td>391</td><td>4,815</td></tr><tr><td>宣告股利</td><td>-</td><td>-</td><td>-</td><td>-</td><td>82,622</td><td>-</td><td>-</td><td>82,622</td></tr><tr><td>折溢价摊销</td><td>793</td><td>140</td><td>26</td><td>-</td><td>-</td><td>-</td><td>-</td><td>959</td></tr><tr><td>公允价值变动</td><td>-</td><td>-</td><td>99</td><td>-</td><td>-</td><td>(950)</td><td>-</td><td>(851)</td></tr><tr><td>其他</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>17,661</td><td>-</td><td>17,661</td></tr><tr><td>汇率变动</td><td>-</td><td>(1,401)</td><td>(1,168)</td><td>-</td><td>-</td><td>(26)</td><td>-</td><td>(2,595)</td></tr><tr><td>2025年12月31日余额</td><td>11,259</td><td>50,181</td><td>80,963</td><td>1,084</td><td>25,574</td><td>35,060</td><td>11,253</td><td>215,374</td></tr></table>
+
+## 59. 现金流量表补充说明（续）
+
+## (e) 筹资活动引起的负债变动（续）
+
+本集团
+
+<table><tr><td></td><td>同业存单</td><td>存款证及其他(注)</td><td>债券(注)</td><td>债券应计利息</td><td>应付股利</td><td>其他金融负债</td><td>租赁负债</td><td>合计</td></tr><tr><td>2024年1月1日余额</td><td>21,443</td><td>34,340</td><td>124,372</td><td>1,814</td><td>26</td><td>32,616</td><td>12,675</td><td>227,286</td></tr><tr><td>现金变动:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>本年发行</td><td>155,569</td><td>61,462</td><td>24,995</td><td>-</td><td>-</td><td>9,947</td><td>-</td><td>251,973</td></tr><tr><td>本年偿还</td><td>(90,160)</td><td>(49,187)</td><td>(59,989)</td><td>-</td><td>-</td><td>(11,775)</td><td>(4,793)</td><td>(215,904)</td></tr><tr><td>本年支付利息/股利</td><td>-</td><td>-</td><td>-</td><td>(5,339)</td><td>(55,692)</td><td>-</td><td>-</td><td>(61,031)</td></tr><tr><td>非现金变动:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>本年租赁负债新增</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>4,439</td><td>4,439</td></tr><tr><td>本年计提利息</td><td>-</td><td>-</td><td>-</td><td>4,863</td><td>-</td><td>-</td><td>457</td><td>5,320</td></tr><tr><td>宣告股利</td><td>-</td><td>-</td><td>-</td><td>-</td><td>55,692</td><td>-</td><td>-</td><td>55,692</td></tr><tr><td>折溢价摊销</td><td>2,334</td><td>430</td><td>29</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2,793</td></tr><tr><td>公允价值变动</td><td>-</td><td>1</td><td>229</td><td>-</td><td>-</td><td>690</td><td>-</td><td>920</td></tr><tr><td>其他</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>4,289</td><td>-</td><td>4,289</td></tr><tr><td>汇率变动</td><td>-</td><td>348</td><td>934</td><td>-</td><td>-</td><td>15</td><td>-</td><td>1,297</td></tr><tr><td>2024年12月31日余额</td><td>89,186</td><td>47,394</td><td>90,570</td><td>1,338</td><td>26</td><td>35,782</td><td>12,778</td><td>277,074</td></tr></table>
+
+本行
+
+<table><tr><td></td><td>同业存单</td><td>存款证及其他</td><td>债券(注)</td><td>债券应计利息</td><td>应付股利</td><td>租赁负债</td><td>合计</td></tr><tr><td>2025年1月1日余额</td><td>89,186</td><td>28,230</td><td>43,936</td><td>506</td><td>26</td><td>12,294</td><td>174,178</td></tr><tr><td>现金变动:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>本年发行</td><td>27,230</td><td>60,497</td><td>15,000</td><td>-</td><td>-</td><td>-</td><td>102,727</td></tr><tr><td>本年偿还</td><td>(105,950)</td><td>(58,318)</td><td>(23,598)</td><td>-</td><td>-</td><td>(4,209)</td><td>(192,075)</td></tr><tr><td>本年支付利息/股利</td><td>-</td><td>-</td><td>-</td><td>(2,020)</td><td>(56,747)</td><td>-</td><td>(58,767)</td></tr><tr><td>非现金变动:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>本年租赁负债新增</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2,331</td><td>2,331</td></tr><tr><td>本年计提利息</td><td>-</td><td>-</td><td>-</td><td>1,880</td><td>-</td><td>371</td><td>2,251</td></tr><tr><td>宣告股利</td><td>-</td><td>-</td><td>-</td><td>-</td><td>82,295</td><td>-</td><td>82,295</td></tr><tr><td>折溢价摊销</td><td>793</td><td>140</td><td>(3)</td><td>-</td><td>-</td><td>-</td><td>930</td></tr><tr><td>公允价值变动</td><td>-</td><td>-</td><td>103</td><td>-</td><td>-</td><td>-</td><td>103</td></tr><tr><td>汇率变动</td><td>-</td><td>(616)</td><td>(599)</td><td>-</td><td>-</td><td>-</td><td>(1,215)</td></tr><tr><td>2025年12月31日余额</td><td>11,259</td><td>29,933</td><td>34,839</td><td>366</td><td>25,574</td><td>10,787</td><td>112,758</td></tr></table>
+
+## 59. 现金流量表补充说明（续）
+
+## (e) 筹资活动引起的负债变动（续）
+
+本行
+
+<table><tr><td></td><td>同业存单</td><td>存款证及其他(注)</td><td>债券(注)</td><td>债券应计利息</td><td>应付股利</td><td>租赁负债</td><td>合计</td></tr><tr><td>2024年1月1日余额</td><td>21,443</td><td>17,721</td><td>73,134</td><td>1,093</td><td>26</td><td>12,039</td><td>125,456</td></tr><tr><td>现金变动:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>本年发行</td><td>155,569</td><td>42,758</td><td>9,990</td><td>-</td><td>-</td><td>-</td><td>208,317</td></tr><tr><td>本年偿还</td><td>(90,160)</td><td>(32,490)</td><td>(40,000)</td><td>-</td><td>-</td><td>(4,416)</td><td>(167,066)</td></tr><tr><td>本年支付利息/股利</td><td>-</td><td>-</td><td>-</td><td>(2,884)</td><td>(55,315)</td><td>-</td><td>(58,199)</td></tr><tr><td>非现金变动:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>本年租赁负债新增</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>4,244</td><td>4,244</td></tr><tr><td>本年计提利息</td><td>-</td><td>-</td><td>-</td><td>2,297</td><td>-</td><td>427</td><td>2,724</td></tr><tr><td>宣告股利</td><td>-</td><td>-</td><td>-</td><td>-</td><td>55,315</td><td>-</td><td>55,315</td></tr><tr><td>折溢价摊销</td><td>2,334</td><td>432</td><td>-</td><td>-</td><td>-</td><td>-</td><td>2,766</td></tr><tr><td>公允价值变动</td><td>-</td><td>1</td><td>234</td><td>-</td><td>-</td><td>-</td><td>235</td></tr><tr><td>汇率变动</td><td>-</td><td>(192)</td><td>578</td><td>-</td><td>-</td><td>-</td><td>386</td></tr><tr><td>2024年12月31日余额</td><td>89,186</td><td>28,230</td><td>43,936</td><td>506</td><td>26</td><td>12,294</td><td>174,178</td></tr></table>
+
+注：该列金额包括指定为以公允价值计量且其变动计入当期损益的金融负债。
+
+## 60. 金融资产转移
+
+在日常业务中，本集团进行的某些交易会将已确认的金融资产转让给第三方或结构化实体。这些金融资产转让若全部或部分符合终止确认条件，相关金融资产全部或部分终止确认。当本集团保留了已转让资产的几乎所有的风险与报酬时，相关金融资产转让不符合终止确认的条件，本集团继续在资产负债表中确认上述资产。
+
+## 信贷资产证券化
+
+本集团开展了将信贷资产出售给特殊目的信托，再由特殊目的信托向投资者发行资产支持证券的资产证券化业务。本集团在该等信贷资产转让业务中可能会持有部分次级档投资，从而对所转让信贷资产保留了部分风险和报酬。本集团会按照风险和报酬的保留程度，分析判断是否终止确认相关信贷资产。
+
+## 60. 金融资产转移(续)
+
+## 信贷资产证券化（续）
+
+本集团根据附注3(7)(c)中列示的标准进行了评估，对于符合终止确认条件的信贷资产证券化，本集团全部终止确认已转移的信贷资产。2025年度本集团通过该等信贷资产证券化交易转让的贷款价值为人民币34,232百万元（2024年：人民币22,569百万元），从而转移了贷款所有权的绝大部分风险及回报，本集团已终止确认该等证券化贷款的全部金额。
+
+对于既没有转移也没有保留与所转让信贷资产所有权有关的几乎所有风险和报酬，且保留了对该信贷资产的控制，本集团合并资产负债表上会按照本集团的继续涉入程度确认该项资产，其余部分终止确认。继续涉入所转让金融资产的程度，是指本集团承担的被转移金融资产价值变动风险或报酬的程度。2025年度本集团无新增继续涉入的证券化信贷资产（2024年：无）。截至2025年12月31日，本集团继续涉入的资产和负债均为人民币5,274百万元（2024年12月31日：人民币5,274百万元），分别列示于本集团的其他资产和其他负债中。
+
+## 信贷资产的转让
+
+2025年，本集团无直接向第三方转让信贷资产（不含资产证券化）(2024年：人民币8百万元)。本集团根据附注3(7)(c)中列示的标准进行了评估，认为已转让该等贷款所有权的绝大部分风险及报酬，本集团已终止确认该等贷款的全部金额。
+
+## 卖出回购交易及证券借出交易
+
+全部未终止确认的已转让金融资产主要为卖出回购交易中作为抵质押物交付给交易对手的证券或票据及证券借出交易中借出的证券，此种交易下交易对手在本集团无任何违约的情况下，可以将上述证券出售或再次用于担保，但同时需承担在协议规定的到期日将上述证券归还于本集团的义务。对于上述交易，本集团认为本集团保留了相关证券的几乎所有的风险和报酬，故未对相关证券进行终止确认。同时，本集团将收到的作为抵押品的现金确认为一项金融负债。
+
+## 61. 关联方关系及交易
+
+## (a) 主要关联方概况
+
+## (i) 本行主要股东及其母公司和本行控股子公司
+
+各公司主要情况
+
+<table><tr><td>企业名称</td><td>注册地址</td><td>注册资本</td><td>对本行持有股数</td><td>对本行的持股比例</td><td>本行持股比例</td><td>主营业务</td><td>与本行关系</td><td>经济性质或类型</td><td>法定代表人</td></tr><tr><td>招商局集团有限公司</td><td>北京</td><td>人民币16,900百万元</td><td>7,559,427,375</td><td>29.97%(注(i,iv))</td><td>-</td><td>运输、代理、仓储服务、租赁、制造、修理、承包施工、销售、组织管理</td><td>大股东之母公司</td><td>有限公司</td><td>缪建民</td></tr><tr><td>其中:招商局轮船有限公司</td><td>北京</td><td>人民币17,000百万元</td><td>3,289,470,337</td><td>13.04%(注(ii))</td><td>-</td><td>运输、修理、建造、销售采购供应、代理</td><td>大股东</td><td>有限公司</td><td>缪建民</td></tr><tr><td>深圳市晏清投资发展有限公司</td><td>深圳</td><td>人民币600百万元</td><td>1,258,542,349</td><td>4.99%</td><td>-</td><td>投资兴办实业、国内商业、物资供销业</td><td>股东</td><td>有限公司</td><td>孙献</td></tr><tr><td>深圳市楚源投资发展有限公司</td><td>深圳</td><td>人民币600百万元</td><td>944,013,171</td><td>3.74%</td><td>-</td><td>投资兴办实业、国内商业、物资供销业</td><td>股东</td><td>有限公司</td><td>孙献</td></tr><tr><td>招商局金融控股有限公司</td><td>深圳</td><td>人民币8,824百万元</td><td>1,147,377,415</td><td>4.55%</td><td>-</td><td>投资兴办实业、国内商业、物资供销业</td><td>股东</td><td>有限公司</td><td>缪建民</td></tr><tr><td>Best Winner Investment Ltd.</td><td>英属维尔京群岛</td><td>美元1元</td><td>386,924,063</td><td>1.53%</td><td>-</td><td>-</td><td>股东</td><td>股份有限公司</td><td>-</td></tr><tr><td>China Merchants Union (BVI) Limited</td><td>英属维尔京群岛</td><td>美元0.06百万元</td><td>477,903,500</td><td>1.89%</td><td>-</td><td>-</td><td>股东</td><td>有限公司</td><td>-</td></tr><tr><td>招商局实业发展(深圳)有限公司</td><td>深圳</td><td>美元10百万元</td><td>55,196,540</td><td>0.22%</td><td>-</td><td>投资兴办工业和其它实业、企业管理及投资咨询</td><td>股东</td><td>有限公司</td><td>王效钉</td></tr><tr><td>中国远洋海运集团有限公司</td><td>上海</td><td>人民币11,000百万元</td><td>2,515,193,034</td><td>9.97%(注(iii))</td><td>-</td><td>国际船舶运输、国际海运辅助业务、从事货物及技术的进出口业务、国际货运代理业务</td><td>股东之母公司</td><td>有限公司</td><td>万敏</td></tr><tr><td>其中:中国远洋运输有限公司</td><td>北京</td><td>人民币16,191百万元</td><td>1,574,729,111</td><td>6.24%</td><td>-</td><td>运输业务、租赁业务、船舶购销业务、仓储业务</td><td>股东</td><td>有限公司</td><td>万敏</td></tr><tr><td>中远海运(广州)有限公司</td><td>广州</td><td>人民币3,191百万元</td><td>696,450,214</td><td>2.76%</td><td>-</td><td>水上运输业</td><td>股东</td><td>有限公司</td><td>张安铭</td></tr><tr><td>广州中远海运海宁科技有限公司</td><td>广州</td><td>人民币52百万元</td><td>103,552,616</td><td>0.41%</td><td>-</td><td>商务服务业</td><td>股东</td><td>有限公司</td><td>陈建尧</td></tr><tr><td>中远海运(上海)有限公司</td><td>上海</td><td>人民币1,399百万元</td><td>75,617,340</td><td>0.30%</td><td>-</td><td>运输业务、租赁业务、船舶修造业务</td><td>股东</td><td>有限公司</td><td>赵邦涛</td></tr><tr><td>中远海运投资控股有限公司</td><td>香港</td><td>港币500百万元</td><td>54,721,930</td><td>0.22%</td><td>-</td><td>租赁业务、金融业务、保险业务</td><td>股东</td><td>有限公司</td><td>张铭文</td></tr><tr><td>广州市三鼎油品运输有限公司</td><td>广州</td><td>人民币299百万元</td><td>10,121,823</td><td>0.04%</td><td>-</td><td>购销业务、货运代理业务、船舶租赁业务、运输业务</td><td>股东</td><td>有限公司</td><td>刘文保</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (a) 主要关联方概况（续）
+
+## (i) 本行主要股东及其母公司和本行控股子公司（续）
+
+各公司主要情况（续）
+
+<table><tr><td>企业名称</td><td>注册地址</td><td>注册资本</td><td>对本行持有股数</td><td>对本行的持股比例</td><td>本行持股比例</td><td>主营业务</td><td>与本行关系</td><td>经济性质或类型</td><td>法定代表人</td></tr><tr><td>招银国际金融控股有限公司</td><td>香港</td><td>港币4,129百万元</td><td>-</td><td>-</td><td>100%</td><td>投行及投资管理</td><td>子公司</td><td>有限公司</td><td>王良</td></tr><tr><td>招银金融租赁有限公司</td><td>上海</td><td>人民币18,000百万元</td><td>-</td><td>-</td><td>100%</td><td>融资租赁</td><td>子公司</td><td>有限公司</td><td>钟德胜</td></tr><tr><td>招商永隆银行有限公司</td><td>香港</td><td>港币1,161百万元</td><td>-</td><td>-</td><td>100%</td><td>银行业务</td><td>子公司</td><td>有限公司</td><td>王良</td></tr><tr><td>招商基金管理有限公司</td><td>深圳</td><td>人民币1,310百万元</td><td>-</td><td>-</td><td>55%</td><td>基金管理</td><td>子公司</td><td>有限公司</td><td>王颖</td></tr><tr><td>招银理财有限责任公司</td><td>深圳</td><td>人民币5,556百万元</td><td>-</td><td>-</td><td>90%</td><td>资产管理</td><td>子公司</td><td>有限公司</td><td>吴润兵</td></tr><tr><td>招商银行(欧洲)有限公司</td><td>卢森堡</td><td>欧元100百万元</td><td>-</td><td>-</td><td>100%</td><td>银行业务</td><td>子公司</td><td>有限公司</td><td>薛斐</td></tr><tr><td>招商信诺资产管理有限公司</td><td>北京</td><td>人民币500百万元</td><td>-</td><td>-</td><td>详见附注14注(vii)</td><td>资产管理</td><td>子公司</td><td>有限公司</td><td>王小青</td></tr><tr><td>招银金融资产投资有限公司</td><td>深圳</td><td>人民币15,000百万元</td><td>-</td><td>-</td><td>100%</td><td>金融资产投资业务</td><td>子公司</td><td>有限公司</td><td>雷财华</td></tr></table>
+
+注：  
+(i) 招商局集团有限公司(“招商局集团”)于2025年12月31日通过其子公司间接持有本行29.97%(2024年12月31日：29.97%)的股份。  
+(ii) 招商局轮船有限公司(“招商局轮船”)是招商局集团的子公司，于2025年12月31日其持有本行 $13.04\%$ 的股权（2024年12月31日： $13.04\%$ ），为本行第一大股东。  
+(iii) 中国远洋海运集团有限公司(“中国远洋海运集团”)于2025年12月31日通过其子公司间接持有本行9.97%(2024年12月31日：9.97%)的股份。  
+(iv) 招商局集团对本行的持股比例与以上部分相关数直接相加之和在尾数上可能略有差异，系四舍五入所致。  
+(v) 自2025年12月18日起，根据本行章程规定，本行不再设置监事会，原派驻监事的中国交通建设集团有限公司、上海汽车工业（集团）有限公司、中国保险保障基金有限责任公司属本行过去12个月内的主要股东。
+
+## 61. 关联方关系及交易 (续)
+
+## (a) 主要关联方概况（续）
+
+## (i) 本行主要股东及其母公司和本行控股子公司（续）
+
+各公司的注册资本及其变化
+
+单位：元
+
+<table><tr><td>关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>招商局集团</td><td>人民币</td><td>16,900,000,000</td><td>人民币</td><td>16,900,000,000</td></tr><tr><td>招商局轮船</td><td>人民币</td><td>17,000,000,000</td><td>人民币</td><td>17,000,000,000</td></tr><tr><td>深圳市晏清投资发展有限公司</td><td>人民币</td><td>600,000,000</td><td>人民币</td><td>600,000,000</td></tr><tr><td>深圳市楚源投资发展有限公司</td><td>人民币</td><td>600,000,000</td><td>人民币</td><td>600,000,000</td></tr><tr><td>招商局金融控股有限公司</td><td>人民币</td><td>8,824,000,000</td><td>人民币</td><td>7,778,000,000</td></tr><tr><td>Best Winner Investment Ltd.</td><td>美元</td><td>1</td><td>美元</td><td>1</td></tr><tr><td>China Merchants Union (BVI) Limited</td><td>美元</td><td>60,000</td><td>美元</td><td>60,000</td></tr><tr><td>招商局实业发展(深圳)有限公司</td><td>美元</td><td>10,000,000</td><td>美元</td><td>10,000,000</td></tr><tr><td>中国远洋海运集团</td><td>人民币</td><td>11,000,000,000</td><td>人民币</td><td>11,000,000,000</td></tr><tr><td>中国远洋运输有限公司</td><td>人民币</td><td>16,191,351,300</td><td>人民币</td><td>16,191,351,300</td></tr><tr><td>中远海运(广州)有限公司</td><td>人民币</td><td>3,191,200,000</td><td>人民币</td><td>3,191,200,000</td></tr><tr><td>广州中远海运海宁科技有限公司</td><td>人民币</td><td>52,000,000</td><td>人民币</td><td>52,000,000</td></tr><tr><td>中远海运(上海)有限公司</td><td>人民币</td><td>1,398,941,000</td><td>人民币</td><td>1,398,941,000</td></tr><tr><td>中远海运投资控股有限公司</td><td>港币</td><td>500,000,000</td><td>港币</td><td>500,000,000</td></tr><tr><td>广州市三鼎油品运输有限公司</td><td>人民币</td><td>299,020,000</td><td>人民币</td><td>299,020,000</td></tr><tr><td>招银国际金融控股有限公司</td><td>港币</td><td>4,129,000,000</td><td>港币</td><td>4,129,000,000</td></tr><tr><td>招银金融租赁有限公司</td><td>人民币</td><td>18,000,000,000</td><td>人民币</td><td>18,000,000,000</td></tr><tr><td>招商永隆银行有限公司</td><td>港币</td><td>1,160,950,575</td><td>港币</td><td>1,160,950,575</td></tr><tr><td>招商基金管理有限公司</td><td>人民币</td><td>1,310,000,000</td><td>人民币</td><td>1,310,000,000</td></tr><tr><td>招银理财有限责任公司</td><td>人民币</td><td>5,555,555,555</td><td>人民币</td><td>5,555,555,555</td></tr><tr><td>招商银行(欧洲)有限公司</td><td>欧元</td><td>100,000,000</td><td>欧元</td><td>100,000,000</td></tr><tr><td>招商信诺资产管理有限公司</td><td>人民币</td><td>500,000,000</td><td>人民币</td><td>500,000,000</td></tr><tr><td>招银金融资产投资有限公司</td><td>人民币</td><td>15,000,000,000</td><td>不适用</td><td>不适用</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (a) 主要关联方概况（续）
+
+## (i) 本行主要股东及其母公司和本行控股子公司（续）
+
+大股东对本行所持股份及本行对子公司所持股份比例
+
+<table><tr><td rowspan="3"></td><td colspan="2">大股东对本行</td><td colspan="15">本行对主要子公司</td><td></td></tr><tr><td colspan="2">招商局轮船</td><td colspan="2">招银国际</td><td colspan="2">招银金租</td><td colspan="2">招商永隆银行</td><td colspan="2">招商基金</td><td colspan="2">招银理财</td><td colspan="2">招银欧洲</td><td colspan="2">招商信诺资管</td><td colspan="2">招银投资</td></tr><tr><td>对本行持有股数</td><td>比例%</td><td>注册资本(元)港币</td><td>比例%</td><td>注册资本(元)人民币</td><td>比例%</td><td>注册资本(元)港币</td><td>比例%</td><td>注册资本(元)人民币</td><td>比例%</td><td>注册资本(元)人民币</td><td>比例%</td><td>注册资本(元)欧元</td><td>比例%</td><td>注册资本(元)人民币</td><td>比例%</td><td>注册资本(元)人民币</td><td>比例%</td></tr><tr><td>于2025年1月1日</td><td>3,289,470,337</td><td>13.04</td><td>4,129,000,000</td><td>100.00</td><td>18,000,000,000</td><td>100.00</td><td>1,160,950,575</td><td>100.00</td><td>1,310,000,000</td><td>55.00</td><td>5,555,555,555</td><td>90.00</td><td>100,000,000</td><td>100.00</td><td>500,000,000</td><td>注</td><td>-</td><td>-</td></tr><tr><td>于2025年12月31日</td><td>3,289,470,337</td><td>13.04</td><td>4,129,000,000</td><td>100.00</td><td>18,000,000,000</td><td>100.00</td><td>1,160,950,575</td><td>100.00</td><td>1,310,000,00</td><td>55.00</td><td>5,555,555,555</td><td>90.00</td><td>100,000,000</td><td>100.00</td><td>500,000,000</td><td>注</td><td>15,000,000,000</td><td>100.00</td></tr></table>
+
+<table><tr><td rowspan="3"></td><td colspan="2">大股东对本行</td><td colspan="14">本行对主要子公司</td></tr><tr><td colspan="2">招商局轮船</td><td colspan="2">招银国际</td><td colspan="2">招银金租</td><td colspan="2">招商永隆银行</td><td colspan="2">招商基金</td><td colspan="2">招银理财</td><td colspan="2">招银欧洲</td><td colspan="2">招商信诺资管</td></tr><tr><td>对本行持有股数</td><td>比例%</td><td>注册资本(元)港币</td><td>比例%</td><td>注册资本(元)人民币</td><td>比例%</td><td>注册资本(元)港币</td><td>比例%</td><td>注册资本(元)人民币</td><td>比例%</td><td>注册资本(元)人民币</td><td>比例%</td><td>注册资本(元)欧元</td><td>比例%</td><td>注册资本(元)人民币</td><td>比例%</td></tr><tr><td>于2024年1月1日</td><td>3,289,470,337</td><td>13.04</td><td>4,129,000,000</td><td>100.00</td><td>12,000,000,000</td><td>100.00</td><td>1,160,950,575</td><td>100.00</td><td>1,310,000,000</td><td>55.00</td><td>5,555,555,555</td><td>90.00</td><td>100,000,000</td><td>100.00</td><td>500,000,000</td><td>注</td></tr><tr><td>于2024年12月31日</td><td>3,289,470,337</td><td>13.04</td><td>4,129,000,000</td><td>100.00</td><td>18,000,000,000</td><td>100.00</td><td>1,160,950,575</td><td>100.00</td><td>1,310,000,000</td><td>55.00</td><td>5,555,555,555</td><td>90.00</td><td>100,000,000</td><td>100.00</td><td></td><td>500,000,000</td></tr></table>
+
+注：详见附注14(a)对子公司的投资注(vii)
+
+(ii) 于2025年12月31日，本行董事监事、高管及其近亲属控制、任职和可施加重大影响的公司除上述关联方外共计87家（2024年12月31日：85家）。
+
+## 61. 关联方关系及交易 (续)
+
+## (b) 重大关联方交易款项余额
+
+本集团与关联公司交易的条件及利率均按本集团业务的一般规定执行。
+
+## (i) 与本集团关联公司的交易余额
+
+## (1) 拆出资金
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>400</td><td>0.08</td><td>-</td><td>-</td></tr><tr><td>联营企业及合营企业小计</td><td>13,300</td><td>2.63</td><td>12,800</td><td>3.15</td></tr><tr><td>合计</td><td>13,700</td><td>2.71</td><td>12,800</td><td>3.15</td></tr></table>
+
+## (2) 贷款和垫款
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>67,903</td><td>0.94</td><td>58,843</td><td>0.85</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>4,346</td><td>0.06</td><td>3,043</td><td>0.04</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>40,102</td><td>0.55</td><td>37,795</td><td>0.55</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>2,308</td><td>0.03</td><td>6,091</td><td>0.09</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>-</td><td>-</td><td>8,805</td><td>0.13</td></tr><tr><td>联营企业及合营企业小计</td><td>-</td><td>-</td><td>6,459</td><td>0.09</td></tr><tr><td>合计</td><td>114,659</td><td>1.58</td><td>121,036</td><td>1.75</td></tr></table>
+
+于2025年12月31日，持有本行 $5\%$ 及 $5\%$ 以上股份股东在本集团贷款余额为零（2024年12月31日：零）。
+
+## 61. 关联方关系及交易 (续)
+
+## (b) 重大关联方交易款项余额（续）
+
+## (i) 与本集团关联公司的交易余额（续）
+
+(3) 金融投资
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>3,790</td><td>0.09</td><td>7,580</td><td>0.21</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>310</td><td>0.01</td><td>250</td><td>0.01</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>50</td><td>-</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>4,150</td><td>0.10</td><td>7,830</td><td>0.22</td></tr></table>
+
+(4) 同业和其他金融机构存放款项
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>38,788</td><td>4.26</td><td>36,109</td><td>5.16</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>1,485</td><td>0.16</td><td>1,836</td><td>0.26</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>75</td><td>0.01</td><td>4</td><td>-</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>723</td><td>0.08</td><td>458</td><td>0.07</td></tr><tr><td>中国保险保障基金及其关联公司小计</td><td>225</td><td>0.02</td><td>2,141</td><td>0.31</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>1</td><td>-</td><td>1</td><td>-</td></tr><tr><td>联营企业及合营企业小计</td><td>1,845</td><td>0.20</td><td>1,055</td><td>0.15</td></tr><tr><td>合计</td><td>43,142</td><td>4.73</td><td>41,604</td><td>5.95</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (b) 重大关联方交易款项余额（续）
+
+## (i) 与本集团关联公司的交易余额（续）
+
+## (5) 客户存款
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>62,316</td><td>0.63</td><td>75,028</td><td>0.82</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>13,118</td><td>0.13</td><td>5,559</td><td>0.06</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>7,230</td><td>0.07</td><td>6,374</td><td>0.07</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>6,318</td><td>0.06</td><td>9,138</td><td>0.10</td></tr><tr><td>中国保险保障基金及其关联公司小计</td><td>2,353</td><td>0.02</td><td>3,647</td><td>0.04</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>11,444</td><td>0.12</td><td>14,362</td><td>0.16</td></tr><tr><td>联营企业及合营企业小计</td><td>553</td><td>0.01</td><td>658</td><td>0.01</td></tr><tr><td>合计</td><td>103,332</td><td>1.04</td><td>114,766</td><td>1.26</td></tr></table>
+
+## (6) 租赁负债
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>150</td><td>1.33</td><td>186</td><td>1.46</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>15</td><td>0.13</td><td>8</td><td>0.06</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>-</td><td>-</td><td>5</td><td>0.04</td></tr><tr><td>联营公司及合营公司小计</td><td>6</td><td>0.05</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>171</td><td>1.51</td><td>199</td><td>1.56</td></tr></table>
+
+## 61. 关联方关系及交易（续）
+
+## (b) 重大关联方交易款项余额（续）
+
+## (i) 与本集团关联公司的交易余额（续）
+
+(7) 本集团的关键管理人员是指有权力及责任直接或间接地计划、指令和控制本集团的活动的人士，包括董事、监事和高级管理人员。
+
+<table><tr><td></td><td>2025年人民币千元</td><td>2024年人民币千元</td></tr><tr><td>薪金及其他酬金</td><td>33,679</td><td>35,001</td></tr><tr><td>酌定花红</td><td>-</td><td>-</td></tr><tr><td>设定提存退休金计划供款</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>33,679</td><td>35,001</td></tr></table>
+
+注：本行董事会截至2025年12月31日尚未审核同意本行董事、监事和高级管理人员的2025年度酌定花红、设定提存退休金计划供款。
+
+(8) 于2025年12月31日，本集团在日常业务过程中，按一般商业条款同董事、监事和高级管理人员等关联自然人进行业务往来。具体业务包括发放贷款、吸收存款以及租赁负债，相应利率及租金等同于本集团向第三方提供的利率及租金市价。本集团向上述关联自然人发放贷款余额折合人民币5,367百万元（2024年12月31日：人民币5,064百万元）。本集团向上述关联自然人吸收存款余额折合人民币2,548百万元（2024年12月31日：人民币2,508百万元）。  
+(9) 于2025年12月31日，本集团为关联方开出信用证、保函、承兑汇票、不可撤销的贷款承诺余额分别为人民币4,580百万元、人民币20,174百万元、人民币3,444百万元、人民币8,736百万元（2024年12月31日：人民币5,353百万元、人民币21,735百万元、人民币6,000百万元、人民币8,489百万元）。
+
+## 61. 关联方关系及交易 (续)
+
+## (b) 重大关联方交易款项余额（续）
+
+## (ii) 与本行关联公司的交易余额（不含子公司）
+
+## (1) 拆出资金
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>联营企业及合营企业小计</td><td>12,000</td><td>2.48</td><td>12,000</td><td>3.20</td></tr><tr><td>合计</td><td>12,000</td><td>2.48</td><td>12,000</td><td>3.20</td></tr></table>
+
+## (2) 贷款和垫款
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>60,450</td><td>0.88</td><td>52,393</td><td>0.80</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>1,965</td><td>0.03</td><td>1,490</td><td>0.02</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>39,721</td><td>0.58</td><td>36,670</td><td>0.56</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>2,068</td><td>0.03</td><td>5,667</td><td>0.09</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>-</td><td>-</td><td>8,605</td><td>0.13</td></tr><tr><td>联营企业及合营企业小计</td><td>-</td><td>-</td><td>6,459</td><td>0.10</td></tr><tr><td>合计</td><td>104,204</td><td>1.52</td><td>111,284</td><td>1.70</td></tr></table>
+
+于2025年12月31日，持有本行 $5\%$ 及 $5\%$ 以上股份股东在本行贷款余额为零（2024年12月31日：零）。
+
+## 61. 关联方关系及交易 (续)
+
+## (b) 重大关联方交易款项余额(续)
+
+(ii) 与本行关联公司的交易余额（不含子公司）（续）
+
+(3) 金融投资
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>3,790</td><td>0.11</td><td>7,397</td><td>0.22</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>310</td><td>0.01</td><td>250</td><td>0.01</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>50</td><td>-</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>4,150</td><td>0.12</td><td>7,647</td><td>0.23</td></tr></table>
+
+(4) 同业和其他金融机构存放款项
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>38,788</td><td>4.30</td><td>36,109</td><td>5.22</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>1,485</td><td>0.16</td><td>1,836</td><td>0.27</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>75</td><td>0.01</td><td>4</td><td>-</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>723</td><td>0.08</td><td>458</td><td>0.07</td></tr><tr><td>中国保险保障基金及其关联公司小计</td><td>225</td><td>0.02</td><td>2,141</td><td>0.31</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>1</td><td>-</td><td>1</td><td>-</td></tr><tr><td>联营企业及合营企业小计</td><td>1,845</td><td>0.20</td><td>1,055</td><td>0.15</td></tr><tr><td>合计</td><td>43,142</td><td>4.77</td><td>41,604</td><td>6.02</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (b) 重大关联方交易款项余额(续)
+
+## (ii) 与本行关联公司的交易余额（不含子公司）（续）
+
+## (5) 客户存款
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>59,413</td><td>0.63</td><td>72,013</td><td>0.82</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>5,312</td><td>0.06</td><td>5,271</td><td>0.06</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>7,011</td><td>0.07</td><td>6,357</td><td>0.07</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>6,317</td><td>0.07</td><td>9,137</td><td>0.10</td></tr><tr><td>中国保险保障基金及其关联公司小计</td><td>2,353</td><td>0.02</td><td>3,647</td><td>0.04</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>11,444</td><td>0.12</td><td>14,362</td><td>0.16</td></tr><tr><td>联营企业及合营企业小计</td><td>353</td><td>-</td><td>489</td><td>0.01</td></tr><tr><td>合计</td><td>92,203</td><td>0.97</td><td>111,276</td><td>1.26</td></tr></table>
+
+## (6) 租赁负债
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>150</td><td>1.39</td><td>186</td><td>1.51</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>15</td><td>0.14</td><td>8</td><td>0.07</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>-</td><td>-</td><td>5</td><td>0.04</td></tr><tr><td>联营公司及合营公司小计</td><td>6</td><td>0.06</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>171</td><td>1.59</td><td>199</td><td>1.62</td></tr></table>
+
+(7) 于2025年12月31日，本行在日常业务过程中，按一般商业条款同董事、监事和高级管理人员等关联自然人进行业务往来。具体业务包括发放贷款和吸收存款，相应利率等同于本集团向第三方提供的利率。本行向上述关联自然人发放贷款余额折合人民币5,334百万元（2024年12月31日：人民币5,033百万元）。本行向上述关联自然人吸收存款余额折合人民币2,483百万元（2024年12月31日：人民币2,376百万元）。  
+(8) 于2025年12月31日，本行为关联方开出信用证、保函、承兑汇票、不可撤销的贷款承诺分别为人民币4,580百万元、人民币20,174百万元、人民币3,444百万元、人民币8,736百万元（2024年12月31日：人民币5,353百万元、人民币21,735百万元、人民币6,000百万元、人民币8,489百万元）。
+
+## 61. 关联方关系及交易 (续)
+
+## (b) 重大关联方交易款项余额（续）
+
+## (iii) 与本行子公司的交易余额
+
+本行与子公司之间的重大往来余额及交易均已在合并财务报表中抵销。
+
+## (1) 存放同业和其他金融机构款项
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商永隆银行有限公司及其附属子公司</td><td>435</td><td>0.31</td><td>5,585</td><td>3.20</td></tr><tr><td>招商银行(欧洲)有限公司</td><td>1,052</td><td>0.76</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>1,487</td><td>1.07</td><td>5,585</td><td>3.20</td></tr></table>
+
+## (2) 拆出资金
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招银金融租赁有限公司及其附属子公司</td><td>31,300</td><td>6.47</td><td>23,500</td><td>6.26</td></tr><tr><td>招商永隆银行有限公司及其附属子公司</td><td>650</td><td>0.13</td><td>1,820</td><td>0.49</td></tr><tr><td>招商银行(欧洲)有限公司</td><td>1,107</td><td>0.23</td><td>1,528</td><td>0.41</td></tr><tr><td>合计</td><td>33,057</td><td>6.83</td><td>26,848</td><td>7.16</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (b) 重大关联方交易款项余额（续）
+
+## (iii) 与本行子公司的交易余额（续）
+
+## (3) 贷款和垫款
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招银国际金融控股有限公司及其附属子公司</td><td>5,836</td><td>0.08</td><td>6,110</td><td>0.09</td></tr><tr><td>招银金融租赁有限公司及其附属子公司</td><td>7,121</td><td>0.10</td><td>9,874</td><td>0.15</td></tr><tr><td>合计</td><td>12,957</td><td>0.18</td><td>15,984</td><td>0.24</td></tr></table>
+
+## (4) 金融投资
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招银金融租赁有限公司及其附属子公司</td><td>2,048</td><td>0.06</td><td>1,526</td><td>0.04</td></tr><tr><td>合计</td><td>2,048</td><td>0.06</td><td>1,526</td><td>0.04</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (b) 重大关联方交易款项余额(续)
+
+## (iii) 与本行子公司的交易余额（续）
+
+(5) 同业和其他金融机构存放款项
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招商永隆银行有限公司及其附属子公司</td><td>358</td><td>0.04</td><td>133</td><td>0.02</td></tr><tr><td>招银金融租赁有限公司及其附属子公司</td><td>3,255</td><td>0.36</td><td>5,377</td><td>0.78</td></tr><tr><td>招银理财有限责任公司</td><td>470</td><td>0.05</td><td>448</td><td>0.06</td></tr><tr><td>招商基金管理有限公司及其附属子公司</td><td>464</td><td>0.05</td><td>588</td><td>0.08</td></tr><tr><td>招商银行(欧洲)有限公司</td><td>26</td><td>-</td><td>6</td><td>-</td></tr><tr><td>招银金融资产投资有限公司</td><td>11,720</td><td>1.30</td><td>-</td><td>-</td></tr><tr><td>合计</td><td>16,293</td><td>1.80</td><td>6,552</td><td>0.94</td></tr></table>
+
+(6) 客户存款
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年12月31日</td><td colspan="2">2024年12月31日</td></tr><tr><td>交易余额</td><td>占有关同类交易余额比例(%)</td><td>交易余额</td><td>占有关同类交易余额比例(%)</td></tr><tr><td>招银国际金融控股有限公司及其附属子公司</td><td>8,548</td><td>0.09</td><td>6,973</td><td>0.08</td></tr><tr><td>招银金融租赁有限公司及其附属子公司</td><td>661</td><td>0.01</td><td>648</td><td>0.01</td></tr><tr><td>其他子公司</td><td>79</td><td>-</td><td>479</td><td>0.01</td></tr><tr><td>合计</td><td>9,288</td><td>0.10</td><td>8,100</td><td>0.10</td></tr></table>
+
+(7) 于2025年12月31日，本行出具的以招商永隆银行有限公司及其附属子公司为受益人的保函余额为人民币49百万元（2024年12月31日：人民币2,190百万元）。
+
+## 61. 关联方关系及交易 (续)
+
+## (c) 关联方交易发生额
+
+## (i) 与本集团关联公司的交易发生额
+
+## (1) 利息收入
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>2,012</td><td>0.57</td><td>1,979</td><td>0.53</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>170</td><td>0.05</td><td>85</td><td>0.02</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>1,231</td><td>0.35</td><td>1,225</td><td>0.33</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>124</td><td>0.04</td><td>145</td><td>0.04</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>-</td><td>-</td><td>412</td><td>0.11</td></tr><tr><td>联营企业及合营企业小计</td><td>271</td><td>0.08</td><td>775</td><td>0.21</td></tr><tr><td>合计</td><td>3,808</td><td>1.09</td><td>4,621</td><td>1.24</td></tr></table>
+
+## (2) 利息支出
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>1,319</td><td>0.97</td><td>1,366</td><td>0.84</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>287</td><td>0.21</td><td>177</td><td>0.11</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>42</td><td>0.03</td><td>47</td><td>0.03</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>71</td><td>0.05</td><td>111</td><td>0.07</td></tr><tr><td>中国保险保障基金及其关联公司小计</td><td>153</td><td>0.11</td><td>70</td><td>0.04</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>424</td><td>0.31</td><td>200</td><td>0.12</td></tr><tr><td>联营企业及合营企业小计</td><td>31</td><td>0.02</td><td>35</td><td>0.02</td></tr><tr><td>合计</td><td>2,327</td><td>1.70</td><td>2,006</td><td>1.23</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (c) 关联方交易发生额(续)
+
+## (i) 与本集团关联公司的交易发生额（续）
+
+## (3) 净手续费及佣金收入
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>610</td><td>0.81</td><td>425</td><td>0.59</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>34</td><td>0.05</td><td>13</td><td>0.02</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>12</td><td>0.02</td><td>16</td><td>0.02</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>4</td><td>0.01</td><td>7</td><td>0.01</td></tr><tr><td>中国保险保障基金及其关联公司小计</td><td>94</td><td>0.12</td><td>141</td><td>0.20</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>7</td><td>0.01</td><td>66</td><td>0.09</td></tr><tr><td>联营企业及合营企业小计</td><td>1,383</td><td>1.84</td><td>1,722</td><td>2.39</td></tr><tr><td>合计</td><td>2,144</td><td>2.86</td><td>2,390</td><td>3.32</td></tr></table>
+
+## (4) 其他净收入
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>127</td><td>0.27</td><td>238</td><td>0.44</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>739</td><td>1.58</td><td>550</td><td>1.02</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>19</td><td>0.04</td><td>3</td><td>0.01</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>4</td><td>0.01</td><td>-</td><td>-</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>12</td><td>0.03</td><td>-</td><td>-</td></tr><tr><td>联营企业及合营企业小计</td><td>49</td><td>0.10</td><td>16</td><td>0.03</td></tr><tr><td>合计</td><td>950</td><td>2.03</td><td>807</td><td>1.50</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (c) 关联方交易发生额(续)
+
+## (i) 与本集团关联公司的交易发生额（续）
+
+## (5) 业务及管理费
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>944</td><td>0.87</td><td>1,012</td><td>0.94</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>8</td><td>0.01</td><td>2</td><td>-</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>3,550</td><td>3.29</td><td>3,330</td><td>3.09</td></tr><tr><td>联营企业及合营企业小计</td><td>46</td><td>0.04</td><td>197</td><td>0.18</td></tr><tr><td>合计</td><td>4,548</td><td>4.21</td><td>4,541</td><td>4.21</td></tr></table>
+
+## (ii) 与本行关联公司的交易发生额（不含子公司）
+
+## (1) 利息收入
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>1,585</td><td>0.48</td><td>1,955</td><td>0.56</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>39</td><td>0.01</td><td>33</td><td>0.01</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>1,182</td><td>0.36</td><td>1,182</td><td>0.34</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>117</td><td>0.04</td><td>129</td><td>0.04</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>-</td><td>-</td><td>412</td><td>0.12</td></tr><tr><td>联营企业及合营企业小计</td><td>246</td><td>0.08</td><td>747</td><td>0.21</td></tr><tr><td>合计</td><td>3,169</td><td>0.97</td><td>4,458</td><td>1.28</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (c) 关联方交易发生额(续)
+
+(ii) 与本行关联公司的交易发生额（不含子公司）（续）
+
+(2) 利息支出
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>1,229</td><td>1.04</td><td>1,283</td><td>0.90</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>57</td><td>0.05</td><td>139</td><td>0.10</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>41</td><td>0.03</td><td>40</td><td>0.03</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>71</td><td>0.06</td><td>111</td><td>0.08</td></tr><tr><td>中国保险保障基金及其关联公司小计</td><td>153</td><td>0.13</td><td>70</td><td>0.05</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>424</td><td>0.36</td><td>200</td><td>0.14</td></tr><tr><td>联营企业及合营企业小计</td><td>28</td><td>0.02</td><td>32</td><td>0.02</td></tr><tr><td>合计</td><td>2,003</td><td>1.69</td><td>1,875</td><td>1.32</td></tr></table>
+
+(3) 净手续费及佣金收入
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>585</td><td>0.95</td><td>430</td><td>0.71</td></tr><tr><td>中国交通建设集团及其关联公司小计</td><td>11</td><td>0.02</td><td>15</td><td>0.02</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>33</td><td>0.05</td><td>13</td><td>0.02</td></tr><tr><td>上海汽车工业集团及其关联公司小计</td><td>4</td><td>0.01</td><td>7</td><td>0.01</td></tr><tr><td>中国保险保障基金及其关联公司小计</td><td>94</td><td>0.15</td><td>141</td><td>0.23</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>3</td><td>-</td><td>74</td><td>0.12</td></tr><tr><td>联营企业及合营企业小计</td><td>1,045</td><td>1.69</td><td>1,475</td><td>2.44</td></tr><tr><td>合计</td><td>1,775</td><td>2.87</td><td>2,155</td><td>3.55</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (c) 关联方交易发生额(续)
+
+(ii) 与本行关联公司的交易发生额（不含子公司）（续）
+
+(4) 其他净收入
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>55</td><td>0.19</td><td>110</td><td>0.28</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>12</td><td>0.04</td><td>-</td><td>-</td></tr><tr><td>联营企业及合营企业小计</td><td>24</td><td>0.08</td><td>16</td><td>0.04</td></tr><tr><td>合计</td><td>91</td><td>0.31</td><td>126</td><td>0.32</td></tr></table>
+
+(5) 业务及管理费
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商局集团及其关联公司小计</td><td>888</td><td>0.90</td><td>962</td><td>0.96</td></tr><tr><td>中国远洋海运集团及其关联公司小计</td><td>2</td><td>-</td><td>2</td><td>-</td></tr><tr><td>董监事、高管及近亲属控制、任职和可施加重大影响的公司小计(不含以上公司)</td><td>3,492</td><td>3.52</td><td>3,305</td><td>3.29</td></tr><tr><td>联营企业及合营企业小计</td><td>35</td><td>0.04</td><td>196</td><td>0.19</td></tr><tr><td>合计</td><td>4,417</td><td>4.46</td><td>4,465</td><td>4.44</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (c) 关联方交易发生额(续)
+
+## (iii) 与本行子公司的交易发生额
+
+## (1) 利息收入
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商永隆银行有限公司及其附属子公司</td><td>28</td><td>0.01</td><td>45</td><td>0.01</td></tr><tr><td>招银金融租赁有限公司及其附属子公司</td><td>967</td><td>0.30</td><td>1,019</td><td>0.29</td></tr><tr><td>招银国际金融控股有限公司及其附属子公司</td><td>262</td><td>0.08</td><td>357</td><td>0.10</td></tr><tr><td>其他子公司</td><td>15</td><td>-</td><td>13</td><td>-</td></tr><tr><td>合计</td><td>1,272</td><td>0.39</td><td>1,434</td><td>0.40</td></tr></table>
+
+## (2) 利息支出
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商永隆银行有限公司及其附属子公司</td><td>1</td><td>-</td><td>4</td><td>-</td></tr><tr><td>招银金融租赁有限公司及其附属子公司</td><td>39</td><td>0.03</td><td>31</td><td>0.02</td></tr><tr><td>招银国际金融控股有限公司及其附属子公司</td><td>55</td><td>0.05</td><td>69</td><td>0.05</td></tr><tr><td>招银理财有限责任公司</td><td>9</td><td>0.01</td><td>6</td><td>-</td></tr><tr><td>招商基金管理有限公司及其附属子公司</td><td>6</td><td>0.01</td><td>6</td><td>-</td></tr><tr><td>招银金融资产投资有限公司</td><td>21</td><td>0.02</td><td>-</td><td>-</td></tr><tr><td>其他子公司</td><td>-</td><td>-</td><td>4</td><td>-</td></tr><tr><td>合计</td><td>131</td><td>0.12</td><td>120</td><td>0.07</td></tr></table>
+
+## 61. 关联方关系及交易 (续)
+
+## (c) 关联方交易发生额(续)
+
+## (iii) 与本行子公司的交易发生额（续）
+
+## (3) 净手续费及佣金收入
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招银金融租赁有限公司及其附属子公司</td><td>1</td><td>-</td><td>1</td><td>-</td></tr><tr><td>招银国际金融控股有限公司及其附属子公司</td><td>14</td><td>0.02</td><td>20</td><td>0.03</td></tr><tr><td>招银理财有限责任公司</td><td>131</td><td>0.21</td><td>138</td><td>0.23</td></tr><tr><td>招商基金管理有限公司及其附属子公司</td><td>445</td><td>0.72</td><td>419</td><td>0.69</td></tr><tr><td>其他子公司</td><td>6</td><td>0.01</td><td>13</td><td>0.02</td></tr><tr><td>合计</td><td>597</td><td>0.96</td><td>591</td><td>0.97</td></tr></table>
+
+## (4) 其他净收入
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招商永隆银行有限公司及其附属子公司</td><td>813</td><td>2.83</td><td>489</td><td>1.24</td></tr><tr><td>招银金融租赁有限公司及其附属子公司</td><td>30</td><td>0.10</td><td>53</td><td>0.13</td></tr><tr><td>招商基金管理有限公司及其附属子公司</td><td>42</td><td>0.15</td><td>44</td><td>0.11</td></tr><tr><td>招银国际金融控股有限公司及其附属子公司</td><td>2</td><td>0.01</td><td>2</td><td>0.01</td></tr><tr><td>招商银行(欧洲)有限公司</td><td>20</td><td>0.07</td><td>22</td><td>0.06</td></tr><tr><td>合计</td><td>907</td><td>3.16</td><td>610</td><td>1.55</td></tr></table>
+
+## (5) 业务及管理费
+
+<table><tr><td rowspan="2">关联方名称</td><td colspan="2">2025年</td><td colspan="2">2024年</td></tr><tr><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td><td>交易发生额</td><td>占有关同类交易发生额比例(%)</td></tr><tr><td>招银国际金融控股有限公司及其附属子公司</td><td>6,322</td><td>6.38</td><td>6,594</td><td>6.56</td></tr><tr><td>招商银行(欧洲)有限公司</td><td>30</td><td>0.03</td><td>20</td><td>0.02</td></tr><tr><td>合计</td><td>6,352</td><td>6.41</td><td>6,614</td><td>6.58</td></tr></table>
+
+## (iv) 与本行企业年金基金的交易金额
+
+本集团与本行设立的企业年金基金除正常的供款和普通银行业务外，2025年度和2024年度均未发生其他关联交易。
+
+## 62. 少数股东权益
+
+少数股东权益是指本集团子公司权益中不由本集团占有的部分。本集团在报告期内没有拥有重要少数股东权益的子公司。
+
+## 63. 在未纳入合并财务报表范围的结构化主体中的权益
+
+本集团合并财务报表的合并范围以控制为基础予以确定。控制，是指投资方拥有对被投资方的权力，通过参与被投资方的相关活动而享有可变回报，并且有能力运用对被投资方的权力影响其回报金额。
+
+本集团对结构化主体拥有权力而其他投资者没有实质性权利，同时承担并有权获取可变回报，并且有能力运用上述权力影响其回报金额的结构化主体将纳入合并报表范围。
+
+除上述已纳入本集团合并财务报表范围的结构化主体外，本集团在未纳入合并财务报表范围的结构化主体的权益信息如下：
+
+## (a) 在第三方机构发起设立的结构化主体中享有的权益
+
+本集团通过直接持有投资而在第三方机构发起设立的结构化主体中享有权益。这些结构化主体未纳入本集团的合并财务报表范围，主要包括理财产品、资产管理计划、信托受益权、资产支持证券以及基金。本集团持有这些结构化主体的目的是获取投资收益、资本增值或两者兼具。
+
+截至2025年12月31日及2024年12月31日，本集团通过直接持有投资而在第三方机构发起设立的结构化主体中享有的权益的账面余额及其在本集团的资产负债表的相关资产负债列示如下：
+
+2025年12月31日
+
+<table><tr><td rowspan="2"></td><td colspan="4">账面余额</td><td></td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融投资</td><td>以摊余成本计量的债务工具投资</td><td>以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>合计</td><td>最大损失敞口</td></tr><tr><td>资产管理计划</td><td>9,073</td><td>67,642</td><td>200</td><td>76,915</td><td>76,915</td></tr><tr><td>信托受益权</td><td>181</td><td>7,311</td><td>-</td><td>7,492</td><td>7,492</td></tr><tr><td>资产支持证券</td><td>850</td><td>464</td><td>46,903</td><td>48,217</td><td>48,217</td></tr><tr><td>基金</td><td>255,474</td><td>-</td><td>-</td><td>255,474</td><td>255,474</td></tr><tr><td>理财产品</td><td>880</td><td>-</td><td>-</td><td>880</td><td>880</td></tr><tr><td>合计</td><td>266,458</td><td>75,417</td><td>47,103</td><td>388,978</td><td>388,978</td></tr></table>
+
+## 63. 在未纳入合并财务报表范围的结构化主体中的权益(续)
+
+## (a) 在第三方机构发起设立的结构化主体中享有的权益(续)
+
+2024年12月31日
+
+<table><tr><td rowspan="2"></td><td colspan="4">账面余额</td><td></td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融投资</td><td>以摊余成本计量的债务工具投资</td><td>以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>合计</td><td>最大损失敞口</td></tr><tr><td>资产管理计划</td><td>596</td><td>69,168</td><td>-</td><td>69,764</td><td>69,764</td></tr><tr><td>信托受益权</td><td>163</td><td>12,942</td><td>-</td><td>13,105</td><td>13,105</td></tr><tr><td>资产支持证券</td><td>1,755</td><td>1,818</td><td>43,911</td><td>47,484</td><td>47,484</td></tr><tr><td>基金</td><td>334,929</td><td>-</td><td>-</td><td>334,929</td><td>334,929</td></tr><tr><td>理财产品</td><td>432</td><td>-</td><td>-</td><td>432</td><td>432</td></tr><tr><td>合计</td><td>337,875</td><td>83,928</td><td>43,911</td><td>465,714</td><td>465,714</td></tr></table>
+
+基金、信托受益权、资产管理计划、理财产品及资产支持证券的最大损失敞口为其在资产负债表中的账面余额。
+
+## (b) 在本集团作为发起人但未纳入合并财务报表范围的结构化主体中享有的权益
+
+本集团发起设立的未纳入合并财务报表范围的结构化主体，主要包括本集团发行的非保本理财产品、基金以及资产管理计划。这些结构化主体的性质和目的主要是管理投资者的资产并收取管理费，其融资方式是向投资者发行投资产品。本集团在这些未纳入合并财务报表范围的结构化主体中享有的权益主要指通过管理这些结构化主体赚取手续费及佣金或管理费收入。
+
+于2025年12月31日，本集团发起设立但未纳入本集团合并财务报表范围的非保本理财产品余额为人民币2,643,750百万元（2024年12月31日：人民币2,470,334百万元）。
+
+于2025年12月31日，本集团发起设立但未纳入本集团合并财务报表范围的基金为人民币1,413,031百万元（2024年12月31日：人民币1,320,359百万元）。
+
+于2025年12月31日，本集团发起设立但未纳入本集团合并财务报表范围的资产管理计划为人民币245,943百万元（2024年12月31日：人民币299,261百万元）。
+
+于2025年12月31日，本集团与本集团作为发起人设立的非保本理财产品之间的买入返售交易余额为零（2024年12月31日：人民币18,397百万元）。这些交易是根据正常的商业交易条款和条件进行的。
+
+于2025年12月31日，本集团持有的本集团作为发起人设立的非保本理财产品余额为人民币3,557百万元（2024年12月31日：人民币2,703百万元）。
+
+于2025年12月31日，本集团持有的本集团作为发起人设立的基金产品余额为人民币9,748百万元（2024年12月31日：人民币9,022百万元）。
+
+于2025年度，本集团在本集团作为发起人但未纳入合并范围的非保本理财产品确认的手续费及佣金收入为人民币9,785百万元（2024年：人民币9,088百万元）。
+
+于2025年度，本集团在本集团作为发起人但未纳入合并范围的基金的管理费收入为人民币7,060百万元（2024年：人民币6,288百万元）。
+
+于2025年度，本集团在本集团作为发起人但未纳入合并范围的资产管理计划的管理费收入为人民币770百万元（2024年：人民币637百万元）。
+
+本集团于2025年1月1日之后发行，并于2025年12月31日之前已到期的非保本理财产品发行总量共计人民币213,494百万元（2024年：人民币366,222百万元）。
+
+## 64. 非经常性损益
+
+根据《公开发行证券的公司信息披露解释性公告第1号—非经常性损益（2023年修订）》的规定，本集团非经常性损益列示如下：
+
+<table><tr><td></td><td>2025年</td><td>2024年</td></tr><tr><td>处置固定资产净损益</td><td>28</td><td>249</td></tr><tr><td>其他净损益</td><td>190</td><td>266</td></tr><tr><td>小计</td><td>218</td><td>515</td></tr><tr><td>减:以上各项对税务的影响</td><td>(39)</td><td>(123)</td></tr><tr><td>合计</td><td>179</td><td>392</td></tr><tr><td>其中:影响本行股东净利润的非经常性损益</td><td>174</td><td>380</td></tr><tr><td>影响少数股东净利润的非经常性损益</td><td>5</td><td>12</td></tr></table>
+
+## 65. 资产负债表日后事项
+
+本行于2026年3月13日发布《招商银行股份有限公司关于拟赎回优先股的公告》，经本行股东大会授权董事会及董事会转授权的两位董事批准，并经国家金融监督管理总局答复无异议，本行拟于2026年4月15日赎回于2017年12月非公开发行的2.75亿股境内优先股，每股面值人民币100元，总金额人民币275亿元。
+
+## 66. 同期比较数字
+
+为符合本财务报表的列报方式，本集团对附注个别比较数字进行了重新列报。
+
+# 未经审计财务报表补充资料
+
+2025年12月31日止年度
+
+（除特别注明外，货币单位均以人民币百万元列示）
+
+## 1. 资本构成信息披露
+
+以下监管资本项目与资产负债表对应关系附表依据《商业银行资本管理办法》(国家金融监督管理总局令第4号)进行披露。
+
+附表一：资本构成披露
+
+<table><tr><td colspan="2"></td><td>数额</td></tr><tr><td colspan="3">核心一级资本:</td></tr><tr><td>1</td><td>实收资本和资本公积可计入部分</td><td>90,624</td></tr><tr><td>2</td><td>留存收益</td><td>969,084</td></tr><tr><td>2a</td><td>盈余公积</td><td>136,233</td></tr><tr><td>2b</td><td>一般风险准备</td><td>163,481</td></tr><tr><td>2c</td><td>未分配利润</td><td>669,370</td></tr><tr><td>3</td><td>累计其他综合收益</td><td>21,013</td></tr><tr><td>4</td><td>少数股东资本可计入部分</td><td>-</td></tr><tr><td>5</td><td>扣除前的核心一级资本</td><td>1,080,721</td></tr><tr><td colspan="3">核心一级资本:扣除项</td></tr><tr><td>6</td><td>审慎估值调整</td><td>-</td></tr><tr><td>7</td><td>商誉(扣除递延税负债)</td><td>9,953</td></tr><tr><td>8</td><td>其他无形资产(土地使用权除外)(扣除递延税负债)</td><td>1,849</td></tr><tr><td>9</td><td>依赖未来盈利的由经营亏损引起的净递延税资产</td><td>1,282</td></tr><tr><td>10</td><td>对未按公允价值计量的项目进行套期形成的现金流储备</td><td>15</td></tr><tr><td>11</td><td>损失准备缺口</td><td>-</td></tr><tr><td>12</td><td>资产证券化销售利得</td><td>-</td></tr><tr><td>13</td><td>自身信用风险变化导致其负债公允价值变化带来的未实现损益</td><td>-</td></tr><tr><td>14</td><td>确定受益类的养老金资产净额(扣除递延税项负债)</td><td>62</td></tr><tr><td>15</td><td>直接或间接持有本银行的股票</td><td>-</td></tr><tr><td>16</td><td>银行间或银行与其他金融机构间通过协议相互持有的核心一级资本</td><td>-</td></tr><tr><td>17</td><td>对未并表金融机构小额少数资本投资中的核心一级资本中应扣除金额</td><td>-</td></tr><tr><td>18</td><td>对未并表金融机构大额少数资本投资中的核心一级资本中应扣除金额</td><td>-</td></tr><tr><td>19</td><td>其他依赖于银行未来盈利的净递延税资产中应扣除金额</td><td>-</td></tr></table>
+
+## 1. 资本构成信息披露(续)
+
+## 附表一：资本构成披露(续)
+
+数额
+
+<table><tr><td>20</td><td>对未并表金融机构大额少数资本投资中的核心一级资本和其他依赖于银行未来盈利的净递延税资产的未扣除部分超过核心一级资本15%的应扣除金额</td><td>-</td></tr><tr><td>21</td><td>其中:应在对金融机构大额少数资本投资中扣除的金额</td><td>-</td></tr><tr><td>22</td><td>其中:应在其他依赖于银行未来盈利的净递延税资产中扣除的金额</td><td>-</td></tr><tr><td>23</td><td>其他应在核心一级资本中扣除的项目合计</td><td>-</td></tr><tr><td>24</td><td>应从其他一级资本和二级资本中扣除的未扣缺口</td><td>-</td></tr><tr><td>25</td><td>核心一级资本扣除项总和</td><td>13,161</td></tr><tr><td>26</td><td>核心一级资本净额</td><td>1,067,560</td></tr><tr><td colspan="3">其他一级资本:</td></tr><tr><td>27</td><td>其他一级资本工具及其溢价</td><td>177,457</td></tr><tr><td>28</td><td>其中:权益部分</td><td>177,457</td></tr><tr><td>29</td><td>其中:负债部分</td><td>-</td></tr><tr><td>30</td><td>少数股东资本可计入部分</td><td>-</td></tr><tr><td>31</td><td>扣除前的其他一级资本</td><td>177,457</td></tr><tr><td colspan="3">其他一级资本:扣除项</td></tr><tr><td>32</td><td>直接或间接持有的本银行其他一级资本</td><td>-</td></tr><tr><td>33</td><td>银行间或银行与其他金融机构间通过协议相互持有的其他一级资本</td><td>-</td></tr><tr><td>34</td><td>对未并表金融机构小额少数资本投资中的其他一级资本中应扣除金额</td><td>-</td></tr><tr><td>35</td><td>对未并表金融机构大额少数资本投资中的其他一级资本</td><td>-</td></tr><tr><td>36</td><td>其他应在其他一级资本中扣除的项目合计</td><td>-</td></tr><tr><td>37</td><td>应从二级资本中扣除的未扣缺口</td><td>-</td></tr><tr><td>38</td><td>其他一级资本扣除项总和</td><td>-</td></tr><tr><td>39</td><td>其他一级资本净额</td><td>177,457</td></tr><tr><td>40</td><td>一级资本净额</td><td>1,245,017</td></tr></table>
+
+## 1. 资本构成信息披露(续)
+
+## 附表一：资本构成披露(续)
+
+数额
+
+<table><tr><td colspan="3">二级资本:</td></tr><tr><td>41</td><td>二级资本工具及其溢价</td><td>-</td></tr><tr><td>42</td><td>少数股东资本可计入部分</td><td>-</td></tr><tr><td>43</td><td>超额损失准备可计入部分</td><td>130,014</td></tr><tr><td>44</td><td>扣除前的二级资本</td><td>130,014</td></tr><tr><td colspan="3">二级资本:扣除项</td></tr><tr><td>45</td><td>直接或间接持有的本银行的二级资本</td><td>-</td></tr><tr><td>46</td><td>银行间或银行与其他金融机构间通过协议相互持有的二级资本投资及TLAC非资本债务工具投资</td><td>-</td></tr><tr><td>47</td><td>对未并表金融机构小额少数资本投资中的二级资本应扣除金额</td><td>-</td></tr><tr><td>47a</td><td>对未并表金融机构的小额投资中的TLAC非资本债务工具中应扣除金额(仅适用全球系统重要性银行)</td><td>-</td></tr><tr><td>48</td><td>对未并表金融机构大额少数资本投资中的二级资本应扣除金额</td><td>-</td></tr><tr><td>48a</td><td>对未并表金融机构大额投资中的TLAC非资本债务工具中应扣除金额(仅适用全球系统重要性银行)</td><td>-</td></tr><tr><td>49</td><td>其他应在二级资本中扣除的项目合计</td><td>-</td></tr><tr><td>50</td><td>二级资本扣除项总和</td><td>-</td></tr><tr><td>51</td><td>二级资本净额</td><td>130,014</td></tr><tr><td>52</td><td>总资本净额</td><td>1,375,031</td></tr><tr><td>53</td><td>风险加权资产</td><td>7,540,202</td></tr><tr><td colspan="3">资本充足率和其他各级资本要求</td></tr><tr><td>54</td><td>核心一级资本充足率</td><td>14.16%</td></tr><tr><td>55</td><td>一级资本充足率</td><td>16.51%</td></tr><tr><td>56</td><td>资本充足率</td><td>18.24%</td></tr><tr><td>57</td><td>其他各级资本要求</td><td>3.25%</td></tr><tr><td>58</td><td>其中:储备资本要求</td><td>2.50%</td></tr><tr><td>59</td><td>其中:逆周期资本要求</td><td>0.00%</td></tr><tr><td>60</td><td>其中:全球系统重要性银行或国内系统重要性银行附加资本要求</td><td>0.75%</td></tr><tr><td>61</td><td>满足最低资本要求后的可用核心一级资本净额占风险加权资产的比例</td><td>9.16%</td></tr><tr><td colspan="3">我国最低监管资本要求</td></tr><tr><td>62</td><td>核心一级资本充足率</td><td>5.00%</td></tr><tr><td>63</td><td>一级资本充足率</td><td>6.00%</td></tr><tr><td>64</td><td>资本充足率</td><td>8.00%</td></tr><tr><td colspan="3">门槛扣除项中未扣除部分</td></tr><tr><td>65</td><td>对未并表金融机构的小额少数资本投资中的未扣除部分</td><td>54,898</td></tr><tr><td>65a</td><td>对未并表金融机构的小额投资中的TLAC非资本债务工具未扣除部分(仅适用全球系统重要性银行)</td><td>不适用</td></tr><tr><td>66</td><td>对未并表金融机构的大额少数资本投资未扣除部分</td><td>28,545</td></tr><tr><td>67</td><td>其他依赖于银行未来盈利的净递延税资产(扣除递延税负债)</td><td>87,622</td></tr></table>
+
+## 1. 资本构成信息披露(续)
+
+## 附表一：资本构成披露(续)
+
+数额
+
+<table><tr><td colspan="3">可计入二级资本的超额损失准备的限额</td></tr><tr><td>68</td><td>权重法下,实际计提的超额损失准备金额</td><td>64,453</td></tr><tr><td>69</td><td>权重法下,可计入二级资本超额损失准备的数额</td><td>37,560</td></tr><tr><td>70</td><td>内部评级法下,实际计提的超额损失准备金额</td><td>92,454</td></tr><tr><td>71</td><td>内部评级法下,可计入二级资本超额损失准备的数额</td><td>92,454</td></tr></table>
+
+2025年，本行按照原银保监会于2014年4月核准的资本管理高级方法计算的核心一级资本充足率为 $13.74\%$ 、一级资本充足率为 $16.15\%$ 、资本充足率为 $17.95\%$ 、资本净额为人民币1,220,932百万元、风险加权资产总额为人民币6,801,840百万元（考虑资本底线要求）。  
+2025年，本集团信用风险采用权重法、市场风险采用标准法、操作风险采用标准法计算的核心一级资本充足率为 $11.92\%$ 、一级资本充足率为 $13.90\%$ 、资本充足率为 $15.00\%$ 、资本净额为人民币1,343,023百万元、风险加权资产总额为人民币8,954,305百万元。  
+2025年，本行信用风险采用权重法、市场风险采用标准法、操作风险采用标准法计算的核心一级资本充足率为11.38%、一级资本充足率13.37%、资本充足率为14.47%、资本净额为人民币1,188,894百万元、风险加权资产总额为人民币8,215,906百万元。
+
+## 1. 资本构成信息披露(续)
+
+附表二：集团口径的资产负债表（财务并表和监管并表）
+
+<table><tr><td></td><td>财务并表口径下的资产负债表</td><td>监管并表口径下的资产负债表</td></tr><tr><td>资产</td><td></td><td></td></tr><tr><td>现金</td><td>14,808</td><td>14,808</td></tr><tr><td>贵金属</td><td>38,669</td><td>38,669</td></tr><tr><td>存放中央银行款项</td><td>560,207</td><td>560,207</td></tr><tr><td>存放同业和其他金融机构款项</td><td>200,399</td><td>182,595</td></tr><tr><td>拆出资金</td><td>507,439</td><td>507,439</td></tr><tr><td>买入返售金融资产</td><td>258,708</td><td>256,452</td></tr><tr><td>贷款和垫款</td><td>7,004,238</td><td>7,009,000</td></tr><tr><td>衍生金融资产</td><td>18,823</td><td>18,822</td></tr><tr><td>金融投资</td><td>4,135,121</td><td>4,055,646</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融投资</td><td>647,796</td><td>604,016</td></tr><tr><td>以摊余成本计量的债务工具投资</td><td>2,124,951</td><td>2,106,513</td></tr><tr><td>以公允价值计量且其变动计入其他综合收益的债务工具投资</td><td>1,337,950</td><td>1,337,406</td></tr><tr><td>指定为以公允价值计量且其变动计入其他综合收益的权益工具投资</td><td>24,424</td><td>7,711</td></tr><tr><td>长期股权投资</td><td>32,914</td><td>29,509</td></tr><tr><td>投资性房地产</td><td>997</td><td>1,106</td></tr><tr><td>固定资产</td><td>130,642</td><td>131,194</td></tr><tr><td>在建工程</td><td>59</td><td>59</td></tr><tr><td>使用权资产</td><td>11,212</td><td>11,108</td></tr><tr><td>无形资产</td><td>6,000</td><td>5,958</td></tr><tr><td>其中:土地使用权</td><td>4,078</td><td>4,039</td></tr><tr><td>商誉</td><td>9,954</td><td>9,953</td></tr><tr><td>递延所得税资产</td><td>89,856</td><td>89,775</td></tr><tr><td>其他资产</td><td>50,477</td><td>49,926</td></tr><tr><td>资产总计</td><td>13,070,523</td><td>12,972,226</td></tr></table>
+
+## 1. 资本构成信息披露(续)
+
+附表二：集团口径的资产负债表（财务并表和监管并表）（续）
+
+<table><tr><td></td><td>财务并表口径下的资产负债表</td><td>监管并表口径下的资产负债表</td></tr><tr><td>负债</td><td></td><td></td></tr><tr><td>向中央银行借款</td><td>111,077</td><td>111,077</td></tr><tr><td>同业和其他金融机构存放款项</td><td>911,699</td><td>911,699</td></tr><tr><td>拆入资金</td><td>250,701</td><td>249,674</td></tr><tr><td>以公允价值计量且其变动计入当期损益的金融负债</td><td>120,499</td><td>69,159</td></tr><tr><td>衍生金融负债</td><td>18,652</td><td>18,595</td></tr><tr><td>卖出回购金融资产款</td><td>95,410</td><td>72,179</td></tr><tr><td>客户存款</td><td>9,924,558</td><td>9,924,886</td></tr><tr><td>应付职工薪酬</td><td>35,959</td><td>34,591</td></tr><tr><td>应交税费</td><td>14,713</td><td>13,909</td></tr><tr><td>合同负债</td><td>3,548</td><td>2,797</td></tr><tr><td>租赁负债</td><td>11,253</td><td>11,082</td></tr><tr><td>预计负债</td><td>16,919</td><td>16,919</td></tr><tr><td>应付债券</td><td>143,487</td><td>137,879</td></tr><tr><td>递延所得税负债</td><td>1,115</td><td>953</td></tr><tr><td>其中:与商誉相关的递延所得税负债</td><td>-</td><td>-</td></tr><tr><td>与无形资产相关的递延所得税负债</td><td>70</td><td>70</td></tr><tr><td>其他负债</td><td>130,034</td><td>130,646</td></tr><tr><td>负债总计</td><td>11,789,624</td><td>11,706,045</td></tr><tr><td>股东权益</td><td></td><td></td></tr><tr><td>股本</td><td>25,220</td><td>25,220</td></tr><tr><td>其他权益工具</td><td>177,457</td><td>177,457</td></tr><tr><td>其中:优先股</td><td>27,468</td><td>27,468</td></tr><tr><td>其中:永续债</td><td>149,989</td><td>149,989</td></tr><tr><td>资本公积</td><td>65,409</td><td>65,404</td></tr><tr><td>其他综合收益</td><td>25,230</td><td>21,013</td></tr><tr><td>盈余公积</td><td>136,270</td><td>136,233</td></tr><tr><td>一般风险准备</td><td>163,481</td><td>163,481</td></tr><tr><td>未分配利润</td><td>679,808</td><td>669,370</td></tr><tr><td>其中:建议分配利润</td><td>25,296</td><td>25,296</td></tr><tr><td>归属于本行股东权益合计</td><td>1,272,875</td><td>1,258,178</td></tr><tr><td>少数股东权益</td><td>8,024</td><td>8,003</td></tr><tr><td>其中:普通股少数股东权益</td><td>8,024</td><td>8,003</td></tr><tr><td>永久债务资本</td><td>-</td><td>-</td></tr><tr><td>股东权益合计</td><td>1,280,899</td><td>1,266,181</td></tr><tr><td>负债及股东权益合计</td><td>13,070,523</td><td>12,972,226</td></tr></table>
+
+## 1. 资本构成信息披露(续)
+
+附表三：资本工具主要特征  
+资本工具和合格外部总损失吸收能力非资本债务工具的主要特征
+
+<table><tr><td>1</td><td>发行机构</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td></tr><tr><td>2</td><td>标识码</td><td>600036</td><td>3968</td><td>360028</td><td>2128047</td><td>242380033</td><td>242480070</td><td>242580008</td><td>242580015</td></tr><tr><td>3</td><td>适用法律</td><td>中国大陆</td><td>中国香港</td><td>中国大陆</td><td>中国大陆</td><td>中国大陆</td><td>中国大陆</td><td>中国大陆</td><td>中国大陆</td></tr><tr><td>3a</td><td>对受外国法律(处置实体母国之外的法律)管辖的其他合格TLAC工具进行处置的方式</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td></tr><tr><td>4</td><td>资本层级</td><td>核心一级资本</td><td>核心一级资本</td><td>其他一级资本</td><td>其他一级资本</td><td>其他一级资本</td><td>其他一级资本</td><td>其他一级资本</td><td>其他一级资本</td></tr><tr><td>5</td><td>适用法人/集团层面</td><td>法人和集团</td><td>法人和集团</td><td>法人和集团</td><td>法人和集团</td><td>法人和集团</td><td>法人和集团</td><td>法人和集团</td><td>法人和集团</td></tr><tr><td>6</td><td>工具类型</td><td>普通股</td><td>普通股</td><td>其他一级资本工具</td><td>其他一级资本工具</td><td>其他一级资本工具</td><td>其他一级资本工具</td><td>其他一级资本工具</td><td>其他一级资本工具</td></tr><tr><td>7</td><td>可计入监管资本的数额(最近一期报告日数额,单位:百万元人民币)</td><td>人民币70,228</td><td>人民币31,673</td><td>人民币27,468</td><td>人民币42,989</td><td>人民币30,000</td><td>人民币30,000</td><td>人民币20,000</td><td>人民币27,000</td></tr><tr><td>8</td><td>工具面值(单位:百万元人民币)</td><td>人民币20,629</td><td>人民币4,591</td><td>人民币27,500</td><td>人民币43,000</td><td>人民币30,000</td><td>人民币30,000</td><td>人民币20,000</td><td>人民币27,000</td></tr><tr><td>9</td><td>会计处理</td><td>权益</td><td>权益</td><td>权益</td><td>权益</td><td>权益</td><td>权益</td><td>权益</td><td>权益</td></tr><tr><td>10</td><td>初始发行日</td><td>2002年3月27日</td><td>2006年9月22日</td><td>2017年12月13日</td><td>2021年12月7日</td><td>2023年12月1日</td><td>2024年11月1日</td><td>2025年4月29日</td><td>2025年5月29日</td></tr><tr><td>11</td><td>是否存在固定期限</td><td>无固定期限</td><td>无固定期限</td><td>无固定期限</td><td>无固定期限</td><td>无固定期限</td><td>无固定期限</td><td>无固定期限</td><td>无固定期限</td></tr><tr><td>12</td><td>其中:原始到期日</td><td>无到期日</td><td>无到期日</td><td>无到期日</td><td>无到期日</td><td>无到期日</td><td>无到期日</td><td>无到期日</td><td>无到期日</td></tr><tr><td>13</td><td>发行人赎回(需经监管认可)</td><td>否</td><td>否</td><td>是</td><td>是</td><td>是</td><td>是</td><td>是</td><td>是</td></tr><tr><td>14</td><td>其中:赎回日期及额度</td><td>不适用</td><td>不适用</td><td>自发行结束之日起满5年或以后,经金融监管总局批准并符合相关要求,本公司有权赎回全部或部分本次优先股。</td><td>自发行之日起5年后,经金融监管总局批准并符合相关要求,本公司有权于每年付息日(含发行之日后第5年付息日)全部或部分赎回本期债券。</td><td>自发行之日起5年后,经金融监管总局批准并符合相关要求,本公司有权于每年付息日(含发行之日后第5年付息日)全部或部分赎回本期债券。</td><td>自发行之日起5年后,经金融监管总局批准并符合相关要求,本公司有权于每年付息日(含发行之日后第5年付息日)全部或部分赎回本期债券。</td><td>自发行之日起5年后,经金融监管总局批准,并符合相关要求,本公司有权于每年付息日(含发行之日后第5年付息日)全部或部分赎回本期债券。</td><td>自发行之日起5年后,经金融监管总局批准并符合相关要求,本公司有权于每年付息日(含发行之日后第5年付息日)全部或部分赎回本期债券。</td></tr></table>
+
+## 1. 资本构成信息披露(续)
+
+附表三：资本工具主要特征（续）  
+资本工具和合格外部总损失吸收能力非资本债务工具的主要特征(续)
+
+<table><tr><td></td><td>发行机构标识码</td><td>招商银行600036</td><td>招商银行3968</td><td>招商银行360028</td><td>招商银行2128047</td><td>招商银行242380033</td><td>招商银行242480070</td><td>招商银行242580008</td><td>招商银行242580015</td></tr><tr><td>15</td><td>其中:后续赎回日期(如有)</td><td>不适用</td><td>不适用</td><td>自发行结束之日起满5年或以后,经金融监管总局批准并符合相关要求,本公司有权赎回全部或部分本次优先股</td><td>自发行之日起5年后,经金融监管总局批准并符合相关要求,本公司有权于每年付息日(含发行之日后第5年付息日)全部或部分赎回本期债券。</td><td>自发行之日起5年后,经金融监管总局批准并符合相关要求,本公司有权于每年付息日(含发行之日后第5年付息日)全部或部分赎回本期债券。</td><td>自发行之日起5年后,经金融监管总局批准并符合相关要求,本公司有权于每年付息日(含发行之日后第5年付息日)全部或部分赎回本期债券。</td><td>自发行之日起5年后,经金融监管总局批准并符合条件相关要求,本公司有权于每年付息日(含发行之日后第5年付息日)全部或部分赎回本期债券。</td><td>自发行之日起5年后,经金融监管总局批准并符合相关要求,本公司有权于每年付息日(含发行之日后第5年付息日)全部或部分赎回本期债券。</td></tr><tr><td>16</td><td>分红或派息其中:固定或浮动分红/派息</td><td>浮动</td><td>浮动</td><td>票面股息率为基准利率加固定利差,采用分阶段调整,每5年为一个股息率调整期,每个股息率调整期内以约定的相同股息率支付股息</td><td>票面股息率为基准利率加固定利差,采用分阶段调整,每5年为一个股息率调整期,每个股息率调整期内以约定的相同股息率支付股息</td><td>票面股息率为基准利率加固定利差,采用分阶段调整,每5年为一个股息率调整期,每个股息率调整期内以约定的相同股息率支付股息</td><td>票面股息率为基准利率加固定资产差,采用分阶段调整,每5年为一个股息率调整期,每个股息率调整期内以约定的相同股息率支付股息</td><td>票面股息率为基准利率加固定资产差,采用分阶段调整,每5年为一个股息率调整期,每个股息率调整期内以约定的相同股息率支付股息</td><td>票面股息率为基准利率加固定资产差,采用分阶段调整,每5年为个股息率调整期,每个股息率调整期内以约定的相同股息率支付股息</td></tr><tr><td>17</td><td>其中:票面利率及相关指标。如采用的基准利率等</td><td>不适用</td><td>不适用</td><td>发行满五年调后股息率为3.62%</td><td>首个票面利率调整周期的票面利率为3.69%</td><td>首个票面利率调整周期的票面利率为3.41%</td><td>首个票面利率调整周期的票面利率为2.42%</td><td>首个票面利率调整周期的票面利率为2.13%</td><td>首个票面利率调整周期的票面利率为2.05%</td></tr><tr><td>18</td><td>其中:是否存在股息制动机制</td><td>不适用</td><td>不适用</td><td>是</td><td>是</td><td>是</td><td>是</td><td>是</td><td>是</td></tr><tr><td>19</td><td>其中:是否可自主取消分红或派息</td><td>完全自由裁量</td><td>完全自由裁量</td><td>完全自由裁量</td><td>完全自由裁量</td><td>完全自由裁量</td><td>完全自由裁量</td><td>完全自由裁量</td><td>完全自由裁量</td></tr><tr><td>20</td><td>其中:是否有赎回激励机制</td><td>否</td><td>否</td><td>否</td><td>否</td><td>否</td><td>否</td><td>否</td><td>否</td></tr><tr><td>21</td><td>其中:累计或非累计</td><td>非累计</td><td>非累计</td><td>非累计</td><td>非累计</td><td>非累计</td><td>非累计</td><td>非累计</td><td>非累计</td></tr><tr><td>22</td><td>是否可转股</td><td>不适用</td><td>不适用</td><td>是</td><td>否</td><td>否</td><td>否</td><td>否</td><td>否</td></tr></table>
+
+## 1. 资本构成信息披露(续)
+
+附表三：资本工具主要特征（续）  
+资本工具和合格外部总损失吸收能力非资本债务工具的主要特征(续)
+
+<table><tr><td rowspan="2"></td><td>发行机构</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td></tr><tr><td>标识码</td><td>600036</td><td>3968</td><td>360028</td><td>2128047</td><td>242380033</td><td>242480070</td><td>242580008</td><td>242580015</td></tr><tr><td>23</td><td>其中:若可转股,则说明转股的触发条件</td><td>不适用</td><td>不适用</td><td>其他一级资本工具触发事件或二级资本工具触发事件</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td></tr><tr><td>24</td><td>其中:若可转股,则说明是全部转股还是部分转股</td><td>不适用</td><td>不适用</td><td>可全部转股也可部分转股</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td></tr><tr><td>25</td><td>其中:若可转股,则说明转股价格的确定方式</td><td>不适用</td><td>不适用</td><td>以审议通过本次境内优先股发行方案的董事会决议公告日(2017年3月24日)前二十个交易日本公司A股普通股股票交易均价作为初始转股价格</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td></tr><tr><td>26</td><td>其中:若可转股,则说明是否为强制性转换</td><td>不适用</td><td>不适用</td><td>强制的</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td></tr><tr><td>27</td><td>其中:若可转股,则说明转换后工具类型</td><td>不适用</td><td>不适用</td><td>核心一级资本</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td></tr><tr><td>28</td><td>其中:若可转股,则说明转换后工具的发行人</td><td>不适用</td><td>不适用</td><td>招商银行</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td></tr><tr><td>29</td><td>是否减记</td><td>不适用</td><td>不适用</td><td>否</td><td>是</td><td>是</td><td>是</td><td>是</td><td>是</td></tr><tr><td>30</td><td>其中:若减记,则说明减记触发条件</td><td>不适用</td><td>不适用</td><td>不适用</td><td>以下两种情形中的较早者:(1)金融监管总局认定若不进行减记,发行人将无法生存;(2)相关部门认定若不进行公共部门注资或提供同等效力的支持发行人将无法生存。</td><td>以下两种情形中的较早者:(1)金融监管总局认定若不进行减记,发行人将无法生存;(2)相关部门认定若不进行公共部门注资或提供同等效力的支持发行人将无法生存。</td><td>以下两种情形中的较早者:(1)金融监管总局认定若不进行减记,发行人将无法生存;(2)相关部门认定若不进行公共部门注资或提供同等效力的支持发行人将无法生存。</td><td>以下两种情形中的较低者:(1)金融监管总局认定若不进行减记,发行人将无法生存;(2)相关部门认定若不进行公共部门注资或提供同等效力的支持发行人将无法生存。</td><td>以下两种情形中的较低者:(1)金融监管总局认定若不进行减记,发行人将无法生存;(2)相关部门认定若不进行公共部门注资或提供同等效力的支持发行人将无法生存。</td></tr></table>
+
+## 1. 资本构成信息披露(续)
+
+附表三：资本工具主要特征（续）  
+资本工具和合格外部总损失吸收能力非资本债务工具的主要特征(续)
+
+<table><tr><td rowspan="2"></td><td>发行机构</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td><td>招商银行</td></tr><tr><td>标识码</td><td>600036</td><td>3968</td><td>360028</td><td>2128047</td><td>242380033</td><td>242480070</td><td>242580008</td><td>242580015</td></tr><tr><td>31</td><td>其中:若减记,则说明是部分减记还是全部减记</td><td>不适用</td><td>不适用</td><td>不适用</td><td>全部或部分减记</td><td>全部或部分减记</td><td>全部或部分减记</td><td>全部或部分减记</td><td>全部或部分减记</td></tr><tr><td>32</td><td>其中:若减记,则说明是永久减记还是临时减记</td><td>不适用</td><td>不适用</td><td>不适用</td><td>永久减记</td><td>永久减记</td><td>永久减记</td><td>永久减记</td><td>永久减记</td></tr><tr><td>33</td><td>其中:若临时减记,则说明账面价值恢复机制</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td></tr><tr><td>33a</td><td>次级类型</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td><td>不适用</td></tr><tr><td>34</td><td>清算时清偿顺序(说明清偿顺序更高级的工具类型)</td><td>受偿顺序在存款人、一般债权人及次级债、二级资本债和其他一级资本工具持有人之后</td><td>受偿顺序在存款人、一般债权人及次级债、二级资本债和其他一级资本工具持有人之后</td><td>受偿顺序在存款人、一般债权人及次级债之后,与具有同等清偿顺序的资本工具同顺位受偿</td><td>受偿顺序在存款人、一般债权人和处于高于本期债券顺位的次级债务之后,发行人股东持有的所有类别股份之前;本期债券与发行人其他偿还顺序相同的其他一级资本工具同顺位受偿。</td><td>受偿顺序在存款人、一般债权人和处于高于本期债券顺位的次级债务之后,发行人股东持有的所有类别股份之前;本期债券与发行人其他偿还顺序相同的其他一级资本工具同顺位受偿。</td><td>受偿顺序在存款人、一般债权人和处于高于本期债券顺位的次级债务之后,发行人股东持有的所有类别股份之前;本期债券与发行人其他偿还顺序相同的其他一级资本工具同顺位受偿。</td><td>承销顺序在存款人、一般债权人和处于高于本期债券顺位的次级债务之后,发行人股东持有的所有类别股份之前;本期债券与发行人其他偿还顺序相同的其他一级资本工具同顺位受偿。</td><td>承销顺序在存款人、一般债权人和处于高于本期债券顺位的次级债务之后,发行人股东持有的所有类别股份之前;本期债券与发行人其他偿还顺序相同的其他一级资本工具同顺位受偿。</td></tr></table>
+
+注：以上附表一至附表三按照《商业银行资本管理办法》（国家金融监督管理总局令第4号）口径计算及披露，为未经审计数据，与财务报表披露的口径存在差异。
+
+## 2. 杠杆率
+
+本集团依据《商业银行资本管理办法》(国家金融监督管理总局令第4号)指引编制的杠杆率如下。
+
+与杠杆率监管项目对应的相关会计项目以及监管项目与会计项目的差异：
+
+<table><tr><td></td><td></td><td>2025年12月31日</td><td>2025年9月30日</td></tr><tr><td>1</td><td>并表总资产</td><td>13,070,523</td><td>12,644,075</td></tr><tr><td>2</td><td>并表调整项</td><td>(98,297)</td><td>(90,696)</td></tr><tr><td>3</td><td>客户资产调整项</td><td>-</td><td>-</td></tr><tr><td>4</td><td>衍生工具调整项</td><td>37,203</td><td>38,085</td></tr><tr><td>5</td><td>证券融资交易调整项</td><td>98</td><td>-</td></tr><tr><td>6</td><td>表外项目调整项</td><td>2,559,519</td><td>2,517,096</td></tr><tr><td>7</td><td>资产证券化交易调整项</td><td>-</td><td>-</td></tr><tr><td>8</td><td>未结算金融资产调整项</td><td>(19)</td><td>(96)</td></tr><tr><td>9</td><td>现金池调整项</td><td>-</td><td>-</td></tr><tr><td>10</td><td>存款准备金调整项(如有)</td><td>-</td><td>-</td></tr><tr><td>11</td><td>审慎估值和减值准备调整项</td><td>-</td><td>-</td></tr><tr><td>12</td><td>其他调整项</td><td>(13,161)</td><td>(13,194)</td></tr><tr><td>13</td><td>调整后表内外资产余额</td><td>15,555,866</td><td>15,095,270</td></tr></table>
+
+杠杆率水平、一级资本净额、调整后的表内外资产及相关明细项目信息：
+
+<table><tr><td colspan="2"></td><td>2025年12月31日</td><td>2025年9月30日</td></tr><tr><td colspan="4">表内资产余额</td></tr><tr><td>1</td><td>表内资产(除衍生工具和证券融资交易外)</td><td>13,003,558</td><td>12,767,589</td></tr><tr><td>2</td><td>减:减值准备</td><td>(306,625)</td><td>(315,836)</td></tr><tr><td>3</td><td>减:一级资本扣减项</td><td>(13,161)</td><td>(13,194)</td></tr><tr><td>4</td><td>调整后的表内资产余额(衍生工具和证券融资交易除外)</td><td>12,683,772</td><td>12,438,559</td></tr><tr><td colspan="4">衍生工具资产余额</td></tr><tr><td>5</td><td>各类衍生工具的重置成本(扣除合格保证金,考虑双边净额结算协议的影响)</td><td>6,873</td><td>9,478</td></tr><tr><td>6</td><td>各类衍生工具的潜在风险暴露</td><td>48,247</td><td>46,543</td></tr><tr><td>7</td><td>已从资产负债表中扣除的抵质押品总和</td><td>-</td><td>-</td></tr><tr><td>8</td><td>减:因提供合格保证金形成的应收资产</td><td>-</td><td>-</td></tr><tr><td>9</td><td>减:为客户提供清算服务时与中央交易对手交易形成的衍生工具资产余额</td><td>-</td><td>-</td></tr><tr><td>10</td><td>卖出信用衍生工具的名义本金</td><td>906</td><td>1,151</td></tr><tr><td>11</td><td>减:可扣除的卖出信用衍生工具资产余额</td><td>(1)</td><td>(1)</td></tr><tr><td>12</td><td>衍生工具资产余额</td><td>56,025</td><td>57,171</td></tr><tr><td colspan="4">证券融资交易资产余额</td></tr><tr><td>13</td><td>证券融资交易的会计资产余额</td><td>256,452</td><td>82,444</td></tr><tr><td>14</td><td>减:可以扣除的证券融资交易资产余额</td><td>-</td><td>-</td></tr><tr><td>15</td><td>证券融资交易的交易对手信用风险暴露</td><td>98</td><td>-</td></tr><tr><td>16</td><td>代理证券融资交易形成的证券融资交易资产余额</td><td>-</td><td>-</td></tr><tr><td>17</td><td>证券融资交易资产余额</td><td>256,550</td><td>82,444</td></tr><tr><td colspan="4">表外项目余额</td></tr><tr><td>18</td><td>表外项目余额</td><td>10,765,965</td><td>10,667,042</td></tr><tr><td>19</td><td>减:因信用转换调整的表外项目余额</td><td>(8,190,828)</td><td>(8,133,622)</td></tr><tr><td>20</td><td>减:减值准备</td><td>(15,618)</td><td>(16,324)</td></tr><tr><td>21</td><td>调整后的表外项目余额</td><td>2,559,519</td><td>2,517,096</td></tr><tr><td colspan="4">一级资本净额和调整后表内外资产余额</td></tr><tr><td>22</td><td>一级资本净额</td><td>1,245,017</td><td>1,241,293</td></tr><tr><td>23</td><td>调整后表内外资产余额</td><td>15,555,866</td><td>15,095,270</td></tr><tr><td colspan="4">杠杆率</td></tr><tr><td>24</td><td>杠杆率</td><td>8.00%</td><td>8.22%</td></tr><tr><td>24a</td><td>杠杆率a</td><td>8.00%</td><td>8.22%</td></tr><tr><td>25</td><td>最低杠杆率要求</td><td>4.00%</td><td>4.00%</td></tr><tr><td>26</td><td>附加杠杆率要求</td><td>0.375%</td><td>0.375%</td></tr><tr><td colspan="4">各类平均值的披露</td></tr><tr><td>27</td><td>证券融资交易的季日均余额</td><td>148,893</td><td>167,250</td></tr><tr><td>27a</td><td>证券融资交易的季末余额</td><td>256,452</td><td>82,444</td></tr><tr><td>28</td><td>调整后表内外资产余额a</td><td>15,448,307</td><td>15,180,076</td></tr><tr><td>28a</td><td>调整后表内外资产余额b</td><td>15,448,307</td><td>15,180,076</td></tr><tr><td>29</td><td>杠杆率b</td><td>8.06%</td><td>8.18%</td></tr><tr><td>29a</td><td>杠杆率c</td><td>8.06%</td><td>8.18%</td></tr></table>
+
+## 3. 商业银行全球系统重要性评估指标披露
+
+本集团根据《商业银行资本管理办法》(国家金融监督管理总局令第4号)信息披露有关要求和巴塞尔银行监管委员会2025年度《全球系统重要性银行评估填报说明》的最新规定，编制的2025年商业银行全球系统重要性评估指标如下：
+
+单位：人民币亿元
+
+<table><tr><td>序号</td><td>指标</td><td>指标值</td></tr><tr><td>1</td><td>调整后的表内外资产余额</td><td>155,855</td></tr><tr><td>2</td><td>金融机构间资产</td><td>14,837</td></tr><tr><td>3</td><td>金融机构间负债</td><td>11,966</td></tr><tr><td>4</td><td>发行证券和其他融资工具</td><td>21,433</td></tr><tr><td>5</td><td>通过支付系统或代理行结算的支付额(年初至报告期末数)</td><td>2,460,199</td></tr><tr><td>6</td><td>托管资产</td><td>260,855</td></tr><tr><td>7</td><td>有价证券承销额(年初至报告期末数)</td><td>17,036</td></tr><tr><td>8</td><td>固定收益类证券交易量</td><td>98,650</td></tr><tr><td>9</td><td>上市股票和其他证券交易量</td><td>44,303</td></tr><tr><td>10</td><td>场外衍生产品名义本金</td><td>58,271</td></tr><tr><td>11</td><td>交易类和可供出售类证券</td><td>2,048</td></tr><tr><td>12</td><td>第三层次资产</td><td>121</td></tr><tr><td>13</td><td>跨境债权</td><td>7,220</td></tr><tr><td>14</td><td>跨境负债</td><td>6,224</td></tr></table>
+
+注：以上评估指标按照《商业银行资本管理办法》（国家金融监督管理总局令第4号）及巴塞尔委员会2025年度《全球系统重要性银行评估填报说明》的口径计算及披露，为未经审计数据，与财务报表披露的口径存在差异。
+
+## 4. 流动性覆盖率
+
+本集团根据《商业银行流动性覆盖率信息披露办法》的相关规定编制和披露流动性覆盖率信息。本集团2025年第四季度流动性覆盖率均值为 $175.51\%$ ，较上季度提升13.93个百分点，主要受合格优质流动性资产增加的影响。本集团2025年第四季度末流动性覆盖率时点值为 $200.03\%$ ，符合监管要求。本集团流动性覆盖率各明细项目的2025年第四季度平均值如下表所示：
+
+<table><tr><td>序号</td><td></td><td>折算前数值</td><td>折算后数值</td></tr><tr><td colspan="4">合格优质流动性资产</td></tr><tr><td>1</td><td>合格优质流动性资产</td><td></td><td>2,777,244</td></tr><tr><td colspan="4">现金流出</td></tr><tr><td>2</td><td>零售存款、小企业客户存款,其中:</td><td>4,591,920</td><td>406,956</td></tr><tr><td>3</td><td>稳定存款</td><td>1,044,708</td><td>52,235</td></tr><tr><td>4</td><td>欠稳定存款</td><td>3,547,212</td><td>354,721</td></tr><tr><td>5</td><td>无抵(质)押批发融资,其中:</td><td>5,028,918</td><td>1,758,074</td></tr><tr><td>6</td><td>业务关系存款(不包括代理行业务)</td><td>2,751,970</td><td>679,436</td></tr><tr><td>7</td><td>非业务关系存款(所有交易对手)</td><td>2,270,199</td><td>1,071,889</td></tr><tr><td>8</td><td>无抵(质)押债务</td><td>6,749</td><td>6,749</td></tr><tr><td>9</td><td>抵(质)押融资</td><td></td><td>37</td></tr><tr><td>10</td><td>其他项目,其中:</td><td>2,565,883</td><td>716,395</td></tr><tr><td>11</td><td>与衍生产品及其他抵(质)押品要求相关的现金流出</td><td>595,795</td><td>595,795</td></tr><tr><td>12</td><td>与抵(质)押债务工具融资流失相关的现金流出</td><td>-</td><td>-</td></tr><tr><td>13</td><td>信用便利和流动性便利</td><td>1,970,088</td><td>120,600</td></tr><tr><td>14</td><td>其他契约性融资义务</td><td>118,723</td><td>118,723</td></tr><tr><td>15</td><td>或有融资义务</td><td>4,194,346</td><td>131,379</td></tr><tr><td>16</td><td>预期现金流出总量</td><td></td><td>3,131,564</td></tr><tr><td colspan="4">现金流入</td></tr><tr><td>17</td><td>抵(质)押借贷(包括逆回购和借入证券)</td><td>149,312</td><td>147,471</td></tr><tr><td>18</td><td>完全正常履约付款带来的现金流入</td><td>1,186,913</td><td>804,503</td></tr><tr><td>19</td><td>其他现金流入</td><td>595,412</td><td>595,012</td></tr><tr><td>20</td><td>预期现金流入总量</td><td>1,931,637</td><td>1,546,986</td></tr></table>
+
+<table><tr><td></td><td></td><td>调整后数值</td></tr><tr><td>21</td><td>合格优质流动性资产</td><td>2,777,244</td></tr><tr><td>22</td><td>现金净流出量</td><td>1,584,578</td></tr><tr><td>23</td><td>流动性覆盖率(%)</td><td>175.51%</td></tr></table>
+
+注：  
+(1) 上表中各项数据为最近一个季度内92天数值的简单算术平均值。  
+(2) 上表中的“合格优质流动性资产”由现金、压力条件下可动用的央行准备金，以及符合《商业银行流动性风险管理办法》规定的一级资产和二级资产定义的债券构成。
+
+## 5. 净稳定资金比例
+
+本集团根据《商业银行净稳定资金比例信息披露办法》的相关规定编制和披露净稳定资金比例信息。本集团2025年第四季度净稳定资金比例季末时点值为 $142.02\%$ ，较上季度提高6.04个百分点，基本保持平稳。本集团最近两个季度的净稳定资金比例各明细项目如下表所示：
+
+2025年12月31日
+
+<table><tr><td rowspan="2" colspan="2">序号</td><td colspan="4">折算前数值</td><td rowspan="2">折算后数值</td></tr><tr><td>无期限</td><td>&lt;6个月</td><td>6-12个月</td><td>≥1年</td></tr><tr><td colspan="7">可用的稳定资金</td></tr><tr><td>1</td><td>资本</td><td>1,258,177</td><td>-</td><td>-</td><td>-</td><td>1,258,177</td></tr><tr><td>2</td><td>监管资本</td><td>1,258,177</td><td>-</td><td>-</td><td>-</td><td>1,258,177</td></tr><tr><td>3</td><td>其他资本工具</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>4</td><td>来自零售和小企业客户的存款</td><td>2,771,731</td><td>2,264,568</td><td>35,640</td><td>8,278</td><td>4,630,164</td></tr><tr><td>5</td><td>稳定存款</td><td>1,132,172</td><td>9,667</td><td>992</td><td>335</td><td>1,086,024</td></tr><tr><td>6</td><td>欠稳定存款</td><td>1,639,559</td><td>2,254,901</td><td>34,648</td><td>7,943</td><td>3,544,140</td></tr><tr><td>7</td><td>批发融资</td><td>3,006,770</td><td>2,673,836</td><td>198,600</td><td>314,356</td><td>3,040,205</td></tr><tr><td>8</td><td>业务关系存款</td><td>2,749,530</td><td>-</td><td>-</td><td>-</td><td>1,374,765</td></tr><tr><td>9</td><td>其他批发融资</td><td>257,240</td><td>2,673,836</td><td>198,600</td><td>314,356</td><td>1,665,440</td></tr><tr><td>10</td><td>相互依存的负债</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>11</td><td>其他负债</td><td>22,344</td><td>225,133</td><td>76,407</td><td>177,500</td><td>190,495</td></tr><tr><td>12</td><td>净稳定资金比例衍生产品负债</td><td></td><td></td><td></td><td>25,209</td><td></td></tr><tr><td>13</td><td>以上未包括的所有其它负债和权益</td><td>22,344</td><td>225,133</td><td>76,407</td><td>152,291</td><td>190,495</td></tr><tr><td>14</td><td>可用的稳定资金合计</td><td></td><td></td><td></td><td></td><td>9,119,041</td></tr><tr><td colspan="7">所需的稳定资金</td></tr><tr><td>15</td><td>净稳定资金比例合格优质流动性资产</td><td></td><td></td><td></td><td></td><td>443,300</td></tr><tr><td>16</td><td>存放在金融机构的业务关系存款</td><td>36,133</td><td>21,802</td><td>1</td><td>5</td><td>29,794</td></tr><tr><td>17</td><td>贷款和证券</td><td>165,022</td><td>2,806,438</td><td>1,600,470</td><td>4,333,418</td><td>5,384,705</td></tr><tr><td>18</td><td>由一级资产担保的向金融机构发放的贷款</td><td>-</td><td>245,019</td><td>-</td><td>-</td><td>36,753</td></tr><tr><td>19</td><td>由非一级资产担保或无担保的向金融机构发放的贷款</td><td>207</td><td>754,297</td><td>155,428</td><td>58,875</td><td>249,825</td></tr><tr><td>20</td><td>向零售和小企业客户、非金融机构、主权、中央银行和公共部门实体等发放的贷款</td><td>-</td><td>1,549,469</td><td>1,352,427</td><td>2,625,168</td><td>3,650,654</td></tr><tr><td>21</td><td>其中:风险权重不高于35%</td><td>-</td><td>69,490</td><td>31,171</td><td>158,435</td><td>153,313</td></tr><tr><td>22</td><td>住房抵押贷款</td><td>-</td><td>30,473</td><td>30,569</td><td>1,356,693</td><td>971,495</td></tr><tr><td>23</td><td>其中:风险权重不高于35%</td><td>-</td><td>25,480</td><td>25,529</td><td>1,061,077</td><td>715,204</td></tr><tr><td>24</td><td>不符合合格优质流动性资产标准的非违约证券,包括交易所交易的权益类证券</td><td>164,815</td><td>227,180</td><td>62,046</td><td>292,682</td><td>475,978</td></tr><tr><td>25</td><td>相互依存的资产</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>26</td><td>其他资产</td><td>94,043</td><td>124,155</td><td>37,579</td><td>83,238</td><td>313,284</td></tr></table>
+
+## 5. 净稳定资金比例(续)
+
+2025年12月31日（续）
+
+<table><tr><td rowspan="2" colspan="2">序号</td><td colspan="4">折算前数值</td><td rowspan="2">折算后数值</td></tr><tr><td>无期限</td><td>&lt;6个月</td><td>6-12个月</td><td>≥1年</td></tr><tr><td colspan="2">所需的稳定资金(续)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>27</td><td>实物交易的大宗商品(包括黄金)</td><td>38,673</td><td></td><td></td><td></td><td>32,872</td></tr><tr><td>28</td><td>提供的衍生产品初始保证金及提供给中央交易对手的违约基金</td><td></td><td></td><td></td><td>525</td><td>446</td></tr><tr><td>29</td><td>净稳定资金比例衍生产品资产</td><td></td><td></td><td></td><td>26,936</td><td>1,727</td></tr><tr><td>30</td><td>衍生产品附加要求</td><td></td><td></td><td></td><td>5,360</td><td>5,360</td></tr><tr><td>31</td><td>以上未包括的所有其它资产</td><td>55,370</td><td>124,155</td><td>37,579</td><td>55,777</td><td>272,879</td></tr><tr><td>32</td><td>表外项目</td><td></td><td></td><td></td><td>6,610,172</td><td>249,682</td></tr><tr><td>33</td><td>所需的稳定资金合计</td><td></td><td></td><td></td><td></td><td>6,420,765</td></tr><tr><td>34</td><td>净稳定资金比例(%)</td><td></td><td></td><td></td><td></td><td>142.02%</td></tr></table>
+
+2025年9月30日
+
+<table><tr><td rowspan="2" colspan="2">序号</td><td colspan="4">折算前数值</td><td rowspan="2">折算后数值</td></tr><tr><td>无期限</td><td>&lt;6个月</td><td>6-12个月</td><td>≥1年</td></tr><tr><td colspan="7">可用的稳定资金</td></tr><tr><td>1</td><td>资本</td><td>1,254,484</td><td>-</td><td>-</td><td>-</td><td>1,254,484</td></tr><tr><td>2</td><td>监管资本</td><td>1,254,484</td><td>-</td><td>-</td><td>-</td><td>1,254,484</td></tr><tr><td>3</td><td>其他资本工具</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>4</td><td>来自零售和小企业客户的存款</td><td>2,573,047</td><td>2,214,898</td><td>41,562</td><td>9,337</td><td>4,409,673</td></tr><tr><td>5</td><td>稳定存款</td><td>1,064,643</td><td>9,699</td><td>1,263</td><td>905</td><td>1,022,729</td></tr><tr><td>6</td><td>欠稳定存款</td><td>1,508,404</td><td>2,205,199</td><td>40,299</td><td>8,432</td><td>3,386,944</td></tr><tr><td>7</td><td>批发融资</td><td>2,807,652</td><td>2,754,352</td><td>199,374</td><td>295,420</td><td>2,963,955</td></tr><tr><td>8</td><td>业务关系存款</td><td>2,734,302</td><td>-</td><td>-</td><td>-</td><td>1,367,151</td></tr><tr><td>9</td><td>其他批发融资</td><td>73,350</td><td>2,754,352</td><td>199,374</td><td>295,420</td><td>1,596,804</td></tr><tr><td>10</td><td>相互依存的负债</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>11</td><td>其他负债</td><td>3,787</td><td>226,882</td><td>73,672</td><td>153,559</td><td>168,736</td></tr><tr><td>12</td><td>净稳定资金比例衍生产品负债</td><td></td><td></td><td></td><td>21,659</td><td></td></tr><tr><td>13</td><td>以上未包括的所有其它负债和权益</td><td>3,787</td><td>226,882</td><td>73,672</td><td>131,900</td><td>168,736</td></tr><tr><td>14</td><td>可用的稳定资金合计</td><td></td><td></td><td></td><td></td><td>8,796,848</td></tr><tr><td colspan="7">所需的稳定资金</td></tr><tr><td>15</td><td>净稳定资金比例合格优质流动性资产</td><td></td><td></td><td></td><td></td><td>423,725</td></tr><tr><td>16</td><td>存放在金融机构的业务关系存款</td><td>65,417</td><td>11,504</td><td>2</td><td>-</td><td>38,670</td></tr><tr><td>17</td><td>贷款和证券</td><td>167,621</td><td>2,524,993</td><td>1,647,024</td><td>4,237,255</td><td>5,477,685</td></tr><tr><td>18</td><td>由一级资产担保的向金融机构发放的贷款</td><td>-</td><td>78,117</td><td>-</td><td>-</td><td>11,718</td></tr><tr><td>19</td><td>由非一级资产担保或无担保的向金融机构发放的贷款</td><td>136</td><td>685,034</td><td>238,215</td><td>45,719</td><td>268,875</td></tr><tr><td>20</td><td>向零售和小企业客户、非金融机构、主权、中央银行和公共部门实体等发放的贷款</td><td>-</td><td>1,541,570</td><td>1,267,353</td><td>2,551,680</td><td>3,540,637</td></tr><tr><td>21</td><td>其中:风险权重不高于35%</td><td>-</td><td>69,726</td><td>49,887</td><td>163,766</td><td>166,254</td></tr></table>
+
+## 5. 净稳定资金比例(续)
+
+2025年9月30日（续）
+
+<table><tr><td rowspan="2" colspan="2">序号</td><td colspan="4">折算前数值</td><td rowspan="2">折算后数值</td></tr><tr><td>无期限</td><td>&lt;6个月</td><td>6-12个月</td><td>≥1年</td></tr><tr><td colspan="2">所需的稳定资金(续)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>22</td><td>住房抵押贷款</td><td>-</td><td>30,367</td><td>30,478</td><td>1,365,625</td><td>1,188,802</td></tr><tr><td>23</td><td>其中:风险权重不高于35%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>24</td><td>不符合合格优质流动性资产标准的非违约证券,包括交易所交易的权益类证券</td><td>167,485</td><td>189,905</td><td>110,978</td><td>274,231</td><td>467,653</td></tr><tr><td>25</td><td>相互依存的资产</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>26</td><td>其他资产</td><td>51,868</td><td>104,381</td><td>37,613</td><td>111,106</td><td>283,721</td></tr><tr><td>27</td><td>实物交易的大宗商品(包括黄金)</td><td>20,740</td><td></td><td></td><td></td><td>17,629</td></tr><tr><td>28</td><td>提供的衍生产品初始保证金及提供给中央交易对手的违约基金</td><td></td><td></td><td></td><td>716</td><td>608</td></tr><tr><td>29</td><td>净稳定资金比例衍生产品资产</td><td></td><td></td><td></td><td>26,723</td><td>5,064</td></tr><tr><td>30</td><td>衍生产品附加要求</td><td></td><td></td><td></td><td>4,882</td><td>4,882</td></tr><tr><td>31</td><td>以上未包括的所有其它资产</td><td>31,128</td><td>104,381</td><td>37,613</td><td>83,667</td><td>255,538</td></tr><tr><td>32</td><td>表外项目</td><td></td><td></td><td></td><td>6,396,433</td><td>245,644</td></tr><tr><td>33</td><td>所需的稳定资金合计</td><td></td><td></td><td></td><td></td><td>6,469,445</td></tr><tr><td>34</td><td>净稳定资金比例(%)</td><td></td><td></td><td></td><td></td><td>135.98%</td></tr></table>
+
+注：  
+(1) 本集团根据《商业银行流动性风险管理办法》及相关统计制度规定计算净稳定资金比例。  
+(2) 上表所称“无期限”项目包括但不限于拥有永久期限的资本、无确定到期日（活期）存款、空头头寸、无到期日头寸、不符合合格优质流动性资产标准的权益、实物交易的大宗商品等。  
+(3) 上表第30项“衍生产品附加要求”填写衍生产品负债金额，即扣减变动保证金之前的净稳定资金比例衍生产品负债金额，不区分期限，且折算前金额不纳入第26项“其他资产”合计。
+
+![](images/58f9703b6185bbd2798b928f8d215ca40a615e2e6703528b761df1866229b606.jpg)
+
+# 招商銀行
+
+CHINA MERCHANTS BANK
+
+招商银行股份有限公司
+
+因 您 而 变
