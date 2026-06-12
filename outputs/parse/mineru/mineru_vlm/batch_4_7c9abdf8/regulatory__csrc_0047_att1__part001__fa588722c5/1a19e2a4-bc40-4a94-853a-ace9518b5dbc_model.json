@@ -1,0 +1,3003 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.115,
+                0.035,
+                0.209,
+                0.049
+            ],
+            "angle": 0,
+            "content": "ICS 03.060"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.116,
+                0.055,
+                0.189,
+                0.067
+            ],
+            "angle": 0,
+            "content": "CCS A 11"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.711,
+                0.079,
+                0.886,
+                0.122
+            ],
+            "angle": 0,
+            "content": "JR"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.119,
+                0.146,
+                0.912,
+                0.178
+            ],
+            "angle": 0,
+            "content": "中华人民共和国金融行业标准"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.732,
+                0.192,
+                0.908,
+                0.21
+            ],
+            "angle": 0,
+            "content": "JR/T 0313—2024"
+        },
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.198,
+                0.394,
+                0.857,
+                0.43
+            ],
+            "angle": 0,
+            "content": "证券发行人信息披露文件编码规则"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.119,
+                0.458,
+                0.936,
+                0.477
+            ],
+            "angle": 0,
+            "content": "Coding rules for information disclosure documents of securities issuers",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.116,
+                0.839,
+                0.293,
+                0.857
+            ],
+            "angle": 0,
+            "content": "2024-09-11 发布",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.75,
+                0.841,
+                0.926,
+                0.86
+            ],
+            "angle": 0,
+            "content": "2024-09-11 实施",
+            "merge_prev": false
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.254,
+                0.92,
+                0.758,
+                0.94
+            ],
+            "angle": 0,
+            "content": "中国证券监督管理委员会 发布"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.035,
+                0.21,
+                0.05
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.115,
+                0.053,
+                0.192,
+                0.07
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.707,
+                0.074,
+                0.886,
+                0.133
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.115,
+                0.144,
+                0.914,
+                0.183
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.12,
+                0.456,
+                0.938,
+                0.478
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.732,
+                0.191,
+                0.909,
+                0.211
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.839,
+                0.293,
+                0.858
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.75,
+                0.841,
+                0.926,
+                0.861
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.195,
+                0.395,
+                0.86,
+                0.436
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.257,
+                0.92,
+                0.64,
+                0.943
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.689,
+                0.918,
+                0.759,
+                0.941
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.77,
+                0.092,
+                0.907,
+                0.105
+            ],
+            "angle": 0,
+            "content": "JR/T 0313—2024"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.456,
+                0.16,
+                0.567,
+                0.182
+            ],
+            "angle": 0,
+            "content": "目次"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.117,
+                0.224,
+                0.906,
+                0.24
+            ],
+            "angle": 0,
+            "content": "前言....II",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.117,
+                0.248,
+                0.906,
+                0.263
+            ],
+            "angle": 0,
+            "content": "引言.... III",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.117,
+                0.271,
+                0.906,
+                0.286
+            ],
+            "angle": 0,
+            "content": "1 范围.... 1",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.116,
+                0.293,
+                0.906,
+                0.309
+            ],
+            "angle": 0,
+            "content": "2 规范性引用文件.... 1",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.116,
+                0.317,
+                0.906,
+                0.332
+            ],
+            "angle": 0,
+            "content": "3 术语和定义.... 1",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.116,
+                0.34,
+                0.906,
+                0.355
+            ],
+            "angle": 0,
+            "content": "4 编码规则 2",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.116,
+                0.271,
+                0.906,
+                0.355
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.131,
+                0.363,
+                0.906,
+                0.379
+            ],
+            "angle": 0,
+            "content": "4.1 基本原则 2",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.132,
+                0.382,
+                0.906,
+                0.396
+            ],
+            "angle": 0,
+            "content": "4.2 编码方法..... 2",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.132,
+                0.4,
+                0.906,
+                0.415
+            ],
+            "angle": 0,
+            "content": "4.3 编码单元 2",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.131,
+                0.363,
+                0.906,
+                0.415
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.116,
+                0.423,
+                0.906,
+                0.438
+            ],
+            "angle": 0,
+            "content": "5 注册服务.... 3",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.116,
+                0.446,
+                0.906,
+                0.462
+            ],
+            "angle": 0,
+            "content": "附录 A（规范性） 信息披露文件基础元数据 ..... 4",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.879,
+                0.92,
+                0.889,
+                0.93
+            ],
+            "angle": 0,
+            "content": "I"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.769,
+                0.092,
+                0.908,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.533,
+                0.158,
+                0.571,
+                0.185
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.457,
+                0.16,
+                0.487,
+                0.184
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.114,
+                0.222,
+                0.162,
+                0.242
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.888,
+                0.227,
+                0.905,
+                0.237
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.114,
+                0.244,
+                0.177,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.877,
+                0.25,
+                0.906,
+                0.261
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.113,
+                0.268,
+                0.202,
+                0.288
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.114,
+                0.293,
+                0.278,
+                0.31
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.112,
+                0.315,
+                0.253,
+                0.333
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.114,
+                0.338,
+                0.229,
+                0.357
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.131,
+                0.362,
+                0.273,
+                0.379
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.895,
+                0.366,
+                0.906,
+                0.376
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.38,
+                0.269,
+                0.399
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.892,
+                0.383,
+                0.907,
+                0.395
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.398,
+                0.27,
+                0.416
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.892,
+                0.402,
+                0.907,
+                0.413
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.112,
+                0.421,
+                0.234,
+                0.44
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.117,
+                0.446,
+                0.469,
+                0.462
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.878,
+                0.92,
+                0.89,
+                0.933
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.092,
+                0.094,
+                0.232,
+                0.108
+            ],
+            "angle": 0,
+            "content": "JR/T 0313—2024"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.43,
+                0.168,
+                0.543,
+                0.19
+            ],
+            "angle": 0,
+            "content": "前言"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.09,
+                0.232,
+                0.884,
+                0.266
+            ],
+            "angle": 0,
+            "content": "本文件按照GB/T 1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.269,
+                0.757,
+                0.285
+            ],
+            "angle": 0,
+            "content": "本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC 180/SC4）提出。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.126,
+                0.288,
+                0.581,
+                0.303
+            ],
+            "angle": 0,
+            "content": "本文件由全国金融标准化技术委员会（SAC/TC 180）归口。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.09,
+                0.306,
+                0.884,
+                0.378
+            ],
+            "angle": 0,
+            "content": "本文件起草单位：上证所信息网络有限公司、中国上市公司协会、上海证券交易所、深圳证券交易所、中证信息技术服务有限责任公司、北京证券交易所有限责任公司、全国中小企业股份转让系统有限责任公司、北京股权交易中心有限公司、上海股权托管交易中心股份有限公司、深圳前海股权交易中心有限公司、深圳证券信息有限公司。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.09,
+                0.38,
+                0.884,
+                0.416
+            ],
+            "angle": 0,
+            "content": "本文件主要起草人：赵洋明、刘洁、赵伟、华菁、冯艳、张莉、王泊、赖华贵、路一、王瑞喆、兰集、朱培、周耀亮、胡爽峰、陈晓玲。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.113,
+                0.92,
+                0.13,
+                0.93
+            ],
+            "angle": 0,
+            "content": "II"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.233,
+                0.881,
+                0.248
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.091,
+                0.25,
+                0.144,
+                0.268
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.381,
+                0.881,
+                0.395
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.094,
+                0.4,
+                0.388,
+                0.414
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.093,
+                0.095,
+                0.23,
+                0.109
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.43,
+                0.166,
+                0.466,
+                0.192
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.513,
+                0.167,
+                0.544,
+                0.192
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.128,
+                0.268,
+                0.759,
+                0.285
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.289,
+                0.58,
+                0.304
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.308,
+                0.88,
+                0.322
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.093,
+                0.324,
+                0.881,
+                0.341
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.096,
+                0.345,
+                0.881,
+                0.358
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.094,
+                0.363,
+                0.371,
+                0.377
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.111,
+                0.919,
+                0.132,
+                0.935
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.77,
+                0.092,
+                0.907,
+                0.105
+            ],
+            "angle": 0,
+            "content": "JR/T 0313—2024"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.455,
+                0.16,
+                0.565,
+                0.182
+            ],
+            "angle": 0,
+            "content": "引言"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.114,
+                0.224,
+                0.907,
+                0.276
+            ],
+            "angle": 0,
+            "content": "近年来信息披露电子化成效明显，基于XBRL的电子描述语言为我国证券市场信息披露提供更高效和更丰富的手段。但相关信息披露规范主要应用于文件内容，目前证券市场上对于发布后的信息披露文件本身缺乏编码规则。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.114,
+                0.28,
+                0.908,
+                0.388
+            ],
+            "angle": 0,
+            "content": "《中华人民共和国证券法》（2019年修订）第七十九条、第八十条、第八十一条关于信息披露义务人的相关规定，上市公司、公司债券上市交易的公司、股票在国务院批准的其他全国性证券交易场所交易的公司，都应当按照国务院证券监督管理机构和证券交易场所规定的内容和格式编制定期报告，并在发生规定的重大事件时报送临时报告；第八十六条规定“依法披露的信息，应当在证券交易场所的网站和符合国务院证券监督管理机构规定条件的媒体发布”。证券发行人信息披露文件一直是证券市场最为关注的信息之一，数量庞大、类别繁多。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.114,
+                0.391,
+                0.907,
+                0.425
+            ],
+            "angle": 0,
+            "content": "信息披露文件一经证券交易所网站发布，即通过多种渠道进行传播。投资者阅读公告时，往往缺少信息对公告源进行回溯，因此需要对信息披露文件加以标识。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.114,
+                0.428,
+                0.908,
+                0.499
+            ],
+            "angle": 0,
+            "content": "本文件发布后，证券发行人提交的信息披露文件，可由各交易所根据规则自行编码管理，为每份信息披露文件提供唯一标识，通过该标识可以精准定位到此信息披露文件。信息披露文件标识一旦发布不可更改，后续可以采用多种形式利用编码，如将该编码以水印形式附加在信息披露文件上，便于传播和利用。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.864,
+                0.92,
+                0.888,
+                0.93
+            ],
+            "angle": 0,
+            "content": "III"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.393,
+                0.904,
+                0.405
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.41,
+                0.589,
+                0.425
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.769,
+                0.092,
+                0.908,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.536,
+                0.159,
+                0.568,
+                0.184
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.456,
+                0.159,
+                0.489,
+                0.184
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.429,
+                0.905,
+                0.443
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.448,
+                0.906,
+                0.461
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.466,
+                0.906,
+                0.48
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.116,
+                0.483,
+                0.169,
+                0.5
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.862,
+                0.919,
+                0.892,
+                0.937
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.224,
+                0.906,
+                0.24
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.244,
+                0.905,
+                0.257
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.262,
+                0.271,
+                0.277
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.28,
+                0.905,
+                0.295
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.299,
+                0.906,
+                0.313
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.12,
+                0.319,
+                0.905,
+                0.331
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.336,
+                0.904,
+                0.35
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.119,
+                0.355,
+                0.905,
+                0.369
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.12,
+                0.375,
+                0.428,
+                0.386
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.769,
+                0.092,
+                0.907,
+                0.105
+            ],
+            "angle": 0,
+            "content": "JR/T 0313—2024"
+        },
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.307,
+                0.123,
+                0.713,
+                0.145
+            ],
+            "angle": 0,
+            "content": "证券发行人信息披露文件编码规则"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.115,
+                0.181,
+                0.182,
+                0.196
+            ],
+            "angle": 0,
+            "content": "1 范围"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.114,
+                0.218,
+                0.907,
+                0.252
+            ],
+            "angle": 0,
+            "content": "本文件确立了证券发行人信息披露文件编码的基本原则，规定了编码的方法、各编码单元的长度与要求，以及注册管理机构的服务要求。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.114,
+                0.255,
+                0.908,
+                0.29
+            ],
+            "angle": 0,
+            "content": "本文件适用于上市公司、公司债券上市交易的公司、股票在国务院批准的其他全国性证券交易场所交易的公司的信息披露文件编码与注册服务。",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.114,
+                0.311,
+                0.271,
+                0.326
+            ],
+            "angle": 0,
+            "content": "2 规范性引用文件"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.114,
+                0.348,
+                0.908,
+                0.4
+            ],
+            "angle": 0,
+            "content": "下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.403,
+                0.57,
+                0.418
+            ],
+            "angle": 0,
+            "content": "GB 32100 法人和其他组织统一社会信用代码编码规则",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.148,
+                0.422,
+                0.851,
+                0.437
+            ],
+            "angle": 0,
+            "content": "GB/T 7408—2005 数据元和交换格式 信息交换 日期和时间表示法（ISO 8601:2000，IDT）",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.441,
+                0.597,
+                0.456
+            ],
+            "angle": 0,
+            "content": "GB/T 21076 证券及相关金融工具 国际证券识别编码体系",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.459,
+                0.58,
+                0.474
+            ],
+            "angle": 0,
+            "content": "GB/T 23696 证券及相关金融工具 交易所和市场识别码",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.478,
+                0.906,
+                0.492
+            ],
+            "angle": 0,
+            "content": "GB/T 42495.1—2023 金融服务 全球法人识别编码 第1部分：编码说明（ISO 17442—1:2020，IDT）",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.497,
+                0.906,
+                0.511
+            ],
+            "angle": 0,
+            "content": "IETF RFC 3651 标码系统命名和服务定义（Handle System Namespace and Service Definition）",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.515,
+                0.756,
+                0.53
+            ],
+            "angle": 0,
+            "content": "W3C/MIT RFC 8820 统一资源标识符设计与归属（URI Design and Ownership）",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.534,
+                0.614,
+                0.548
+            ],
+            "angle": 0,
+            "content": "BCP 47 语言识别标签（Tags for Identifying Languages）",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.114,
+                0.57,
+                0.235,
+                0.585
+            ],
+            "angle": 0,
+            "content": "3 术语和定义"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.607,
+                0.392,
+                0.622
+            ],
+            "angle": 0,
+            "content": "下列术语和定义适用于本文件。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.115,
+                0.627,
+                0.146,
+                0.64
+            ],
+            "angle": 0,
+            "content": "3.1",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.644,
+                0.402,
+                0.658
+            ],
+            "angle": 0,
+            "content": "证券发行人 securities issuer",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.663,
+                0.534,
+                0.678
+            ],
+            "angle": 0,
+            "content": "为筹措资金而发行股票、债券等证券的发行主体。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.115,
+                0.683,
+                0.147,
+                0.695
+            ],
+            "angle": 0,
+            "content": "3.2",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.7,
+                0.376,
+                0.715
+            ],
+            "angle": 0,
+            "content": "披露场所 disclosure place",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.719,
+                0.286,
+                0.733
+            ],
+            "angle": 0,
+            "content": "信息披露的场所。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.145,
+                0.738,
+                0.383,
+                0.751
+            ],
+            "angle": 0,
+            "content": "注：一般为公司上市或挂牌的场所。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.115,
+                0.756,
+                0.147,
+                0.769
+            ],
+            "angle": 0,
+            "content": "3.3",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.774,
+                0.552,
+                0.789
+            ],
+            "angle": 0,
+            "content": "信息披露文件 information disclosure document",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.793,
+                0.674,
+                0.807
+            ],
+            "angle": 0,
+            "content": "证券发行人（3.1）按法规要求在披露场所（3.2）发布的正式文件。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.115,
+                0.812,
+                0.147,
+                0.824
+            ],
+            "angle": 0,
+            "content": "3.4",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.83,
+                0.667,
+                0.844
+            ],
+            "angle": 0,
+            "content": "信息披露文件编码 code for information disclosure document",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.848,
+                0.418,
+                0.862
+            ],
+            "angle": 0,
+            "content": "信息披露文件（3.3）的唯一标识。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.115,
+                0.868,
+                0.147,
+                0.88
+            ],
+            "angle": 0,
+            "content": "3.5",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.151,
+                0.886,
+                0.297,
+                0.899
+            ],
+            "angle": 0,
+            "content": "元数据 metadata",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.879,
+                0.92,
+                0.889,
+                0.93
+            ],
+            "angle": 0,
+            "content": "1"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.112,
+                0.18,
+                0.185,
+                0.198
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.218,
+                0.905,
+                0.233
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.238,
+                0.412,
+                0.252
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.256,
+                0.906,
+                0.27
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.118,
+                0.275,
+                0.466,
+                0.289
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.83,
+                0.667,
+                0.846
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.77,
+                0.092,
+                0.908,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.115,
+                0.311,
+                0.27,
+                0.326
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.72,
+                0.287,
+                0.733
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.884,
+                0.299,
+                0.903
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.114,
+                0.569,
+                0.236,
+                0.587
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.477,
+                0.907,
+                0.493
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.495,
+                0.907,
+                0.513
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.878,
+                0.92,
+                0.89,
+                0.933
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.514,
+                0.756,
+                0.531
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.442,
+                0.596,
+                0.455
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.532,
+                0.615,
+                0.551
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.113,
+                0.681,
+                0.151,
+                0.699
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.113,
+                0.81,
+                0.152,
+                0.829
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.114,
+                0.867,
+                0.151,
+                0.884
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.155,
+                0.349,
+                0.904,
+                0.363
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.117,
+                0.366,
+                0.907,
+                0.382
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.116,
+                0.385,
+                0.168,
+                0.401
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.307,
+                0.123,
+                0.716,
+                0.146
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.404,
+                0.57,
+                0.419
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.46,
+                0.578,
+                0.474
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.422,
+                0.853,
+                0.438
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.157,
+                0.608,
+                0.393,
+                0.622
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.699,
+                0.377,
+                0.717
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.738,
+                0.385,
+                0.752
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.114,
+                0.625,
+                0.151,
+                0.643
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.113,
+                0.754,
+                0.152,
+                0.773
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.643,
+                0.403,
+                0.661
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.849,
+                0.419,
+                0.863
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.663,
+                0.534,
+                0.678
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.774,
+                0.553,
+                0.791
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.793,
+                0.677,
+                0.808
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.092,
+                0.094,
+                0.232,
+                0.108
+            ],
+            "angle": 0,
+            "content": "JR/T 0313—2024"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.124,
+                0.395,
+                0.139
+            ],
+            "angle": 0,
+            "content": "描述信息披露文件（3.3）的数据。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.121,
+                0.143,
+                0.435,
+                0.157
+            ],
+            "angle": 0,
+            "content": "示例：信息披露文件的证券代码、证券简称等。",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.09,
+                0.18,
+                0.194,
+                0.195
+            ],
+            "angle": 0,
+            "content": "4 编码规则"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.09,
+                0.217,
+                0.212,
+                0.232
+            ],
+            "angle": 0,
+            "content": "4.1 基本原则"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.09,
+                0.244,
+                0.884,
+                0.278
+            ],
+            "angle": 0,
+            "content": "证券发行人信息披露文件编码应广泛适用于各种应用，应满足IETF RFC 3651及W3C/MIT RFC 8820语法要求，即：",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.282,
+                0.446,
+                0.296
+            ],
+            "angle": 0,
+            "content": "a）标识为任意UTF-8字符组成的字符串；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.3,
+                0.341,
+                0.315
+            ],
+            "angle": 0,
+            "content": "b）长度不超过256个字节。",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.128,
+                0.282,
+                0.446,
+                0.315
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.09,
+                0.328,
+                0.212,
+                0.343
+            ],
+            "angle": 0,
+            "content": "4.2 编码方法"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.356,
+                0.458,
+                0.371
+            ],
+            "angle": 0,
+            "content": "证券发行人信息披露文件分为正文和附件。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.125,
+                0.374,
+                0.58,
+                0.389
+            ],
+            "angle": 0,
+            "content": "选取与信息披露文件相关、一般不变的编码单元进行编码。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.09,
+                0.393,
+                0.884,
+                0.445
+            ],
+            "angle": 0,
+            "content": "正文编码包括发布者、披露场所、产品、发布日期、发布序列号5个部分，各部分之间由半角圆点（.）分割，可包含大写或小写的英文字母（A-Z, a-z）和阿拉伯数字（0-9）。信息披露文件正文编码结构图见图1。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.203,
+                0.468,
+                0.773,
+                0.655
+            ],
+            "angle": 0,
+            "content": "```mermaid\ngraph TD\n  A[\"发布者\"] --> B[\"分隔符\"]\n  B --> C[\"披露场所\"]\n  C --> D[\"产品\"]\n  D --> E[\"发布日期\"]\n  E --> F[\"发布序列号\"]\n```",
+            "sub_type": "flowchart"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.338,
+                0.671,
+                0.623,
+                0.687
+            ],
+            "angle": 0,
+            "content": "图 1 信息披露文件正文编码结构图"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.09,
+                0.699,
+                0.884,
+                0.734
+            ],
+            "angle": 0,
+            "content": "附件编码包括所属正文编码和附件序列号2个部分，由半角圆点（.）分割。信息披露文件附件编码结构图见图2。",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.341,
+                0.749,
+                0.64,
+                0.85
+            ],
+            "angle": 0,
+            "content": "××...×× . ×××\n附件序列号\n分隔符\n所属正文编码",
+            "sub_type": "text_image"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.338,
+                0.866,
+                0.623,
+                0.881
+            ],
+            "angle": 0,
+            "content": "图 2 信息披露文件附件编码结构图"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.09,
+                0.893,
+                0.212,
+                0.908
+            ],
+            "angle": 0,
+            "content": "4.3 编码单元"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.111,
+                0.92,
+                0.121,
+                0.93
+            ],
+            "angle": 0,
+            "content": "2"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.245,
+                0.883,
+                0.26
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.094,
+                0.263,
+                0.211,
+                0.278
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.7,
+                0.881,
+                0.712
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.094,
+                0.717,
+                0.203,
+                0.732
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.093,
+                0.095,
+                0.23,
+                0.109
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.091,
+                0.179,
+                0.194,
+                0.195
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.091,
+                0.216,
+                0.212,
+                0.233
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.091,
+                0.328,
+                0.212,
+                0.344
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.091,
+                0.893,
+                0.212,
+                0.909
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.111,
+                0.919,
+                0.125,
+                0.934
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.375,
+                0.58,
+                0.389
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.394,
+                0.881,
+                0.407
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.102,
+                0.413,
+                0.881,
+                0.425
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.093,
+                0.429,
+                0.205,
+                0.446
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.3,
+                0.342,
+                0.315
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.124,
+                0.397,
+                0.139
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.34,
+                0.671,
+                0.622,
+                0.686
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.341,
+                0.866,
+                0.622,
+                0.881
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.144,
+                0.437,
+                0.156
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.13,
+                0.282,
+                0.449,
+                0.297
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.356,
+                0.457,
+                0.371
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.77,
+                0.092,
+                0.907,
+                0.105
+            ],
+            "angle": 0,
+            "content": "JR/T 0313—2024"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.116,
+                0.489,
+                0.131
+            ],
+            "angle": 0,
+            "content": "编码单元的名称、含义、长度及要求见表1。",
+            "merge_prev": false
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.431,
+                0.144,
+                0.591,
+                0.159
+            ],
+            "angle": 0,
+            "content": "表 1 编码单元说明"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.139,
+                0.169,
+                0.885,
+                0.528
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>编码单元名称</td><td>含义</td><td>长度</td><td>要求</td></tr><tr><td>发布者</td><td>信息披露文件的发布者,一般为证券发行人,也可为证券交易所或中介机构</td><td>小于20位</td><td>(1) 发布者为境内机构的,应使用统一社会信用代码,编码应符合GB 32100的要求(2) 发布者为境外机构的,宜使用全球法人识别编码(LEI),编码应符合GB/T 42495.1—2023的要求,如境外机构没有申请全球法人识别编码(LEI),可使用披露场所认可的其他唯一识别码</td></tr><tr><td>披露场所</td><td>证券发行人进行信息披露的首要场所,一般为公司上市或挂牌场所</td><td>2-8位英文字母</td><td>编码为披露场所指定的字母组合;如同一份文件需要在多个披露场所披露,应使用首要披露场所编码</td></tr><tr><td>产品</td><td>同一披露场所内产品的唯一码</td><td>小于32位的数字或字母组合</td><td>证券发行人所在披露场所统一分配的产品代码,一般为证券代码;如一个信息披露文件对应了多个产品,使用6位字母“NOTICE”替代</td></tr><tr><td>发布日期</td><td>信息披露文件发布日期</td><td>8位数字</td><td>YYYYMMDD</td></tr><tr><td>发布序列号</td><td>信息披露文件发布的当日序列号</td><td>3位数字</td><td>按照该证券产品当日发布的披露文件顺序取值,第一个取值为“001”,之后依次递增</td></tr><tr><td>附件序列号</td><td>每个信息披露文件的附件序列号</td><td>3位数字</td><td>按照每个文件的附件发布顺序取值,第一个附件取值为“001”,之后依次递增</td></tr></table>"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.115,
+                0.547,
+                0.218,
+                0.562
+            ],
+            "angle": 0,
+            "content": "5 注册服务"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.584,
+                0.64,
+                0.599
+            ],
+            "angle": 0,
+            "content": "各披露场所是信息披露文件的注册管理机构，应提供如下服务：",
+            "merge_prev": false
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.149,
+                0.603,
+                0.813,
+                0.655
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.149,
+                0.603,
+                0.813,
+                0.618
+            ],
+            "angle": 0,
+            "content": "a) 按本文件为在本披露场所进行信息披露的文件分配唯一编码，一旦分配不应变更；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.621,
+                0.648,
+                0.636
+            ],
+            "angle": 0,
+            "content": "b) 持续更新信息披露文件的基础元数据（应符合附录A要求）；",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.15,
+                0.64,
+                0.533,
+                0.654
+            ],
+            "angle": 0,
+            "content": "c）提供唯一编码和基础元数据的相互查询功能。",
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.879,
+                0.92,
+                0.889,
+                0.93
+            ],
+            "angle": 0,
+            "content": "3"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.602,
+                0.816,
+                0.618
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.584,
+                0.639,
+                0.599
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.62,
+                0.648,
+                0.637
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.769,
+                0.092,
+                0.908,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.432,
+                0.144,
+                0.59,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.114,
+                0.546,
+                0.218,
+                0.563
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.877,
+                0.919,
+                0.891,
+                0.932
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.64,
+                0.534,
+                0.655
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.117,
+                0.489,
+                0.13
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.093,
+                0.094,
+                0.23,
+                0.108
+            ],
+            "angle": 0,
+            "content": "JR/T 0313—2024"
+        },
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.463,
+                0.162,
+                0.548,
+                0.177
+            ],
+            "angle": 0,
+            "content": "附录 A"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.469,
+                0.18,
+                0.541,
+                0.195
+            ],
+            "angle": 0,
+            "content": "(规范性)"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.406,
+                0.199,
+                0.604,
+                0.215
+            ],
+            "angle": 0,
+            "content": "信息披露文件基础元数据"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.251,
+                0.43,
+                0.266
+            ],
+            "angle": 0,
+            "content": "信息披露文件基础元数据信息见表A.1。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.269,
+                0.526,
+                0.284
+            ],
+            "angle": 0,
+            "content": "披露场所在提供服务时，可在此基础元数据上扩展。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.288,
+                0.509,
+                0.303
+            ],
+            "angle": 0,
+            "content": "披露场所及产品元数据组和资源元数据组可重复。",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.127,
+                0.306,
+                0.333,
+                0.321
+            ],
+            "angle": 0,
+            "content": "枚举型的取值范围可扩展。",
+            "merge_prev": false
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.352,
+                0.334,
+                0.622,
+                0.35
+            ],
+            "angle": 0,
+            "content": "表 A.1 信息披露文件基础元数据"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.113,
+                0.357,
+                0.865,
+                0.854
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>元数据组</td><td>元数据</td><td>元数据名称</td><td>是否必选</td><td>要求</td></tr><tr><td rowspan=\"4\">发布者</td><td>AUTHOR_COD</td><td>信息披露文件发布者标识</td><td rowspan=\"3\">至少选一</td><td>证券发行人或其他信息披露义务人的统一社会信用代码,应符合GB 32100的要求</td></tr><tr><td>AUTHOR_LEI</td><td>全球法人识别编码</td><td>全球法人识别编码(LEI),应符合GB/T 42495.1-2023的要求</td></tr><tr><td>AUTHOR_OTHERCODE</td><td>其他编码</td><td>披露场所认可的发行人编码,可使用披露场所作为前缀以避免重码</td></tr><tr><td>AUTHOR_NAME</td><td>发布者名称</td><td>可选</td><td>信息披露文件发布者名称</td></tr><tr><td rowspan=\"8\">披露场所及产品</td><td>EXCHANGE_NAME</td><td>披露场所</td><td>必选</td><td>由披露场所指定的字母组合</td></tr><tr><td>EXCHANGE_MIC</td><td>MIC码</td><td>可选</td><td>表明交易场所,编码应符合GB/T 23696的要求</td></tr><tr><td>PRODUCT_CODE</td><td>产品代码</td><td>必选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品码,一般使用证券代码;如一个信息披露文件对应了多个场所的多个证券或产品,则均应列出</td></tr><tr><td>PRODUCT_NAME_SHORT</td><td>产品简称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品简称,一般为证券简称</td></tr><tr><td>PRODUCT_NAME_EXTENDED</td><td>证券扩位简称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的证券扩位简称</td></tr><tr><td>PRODUCT_NAME_FULL</td><td>产品全称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品全称</td></tr><tr><td>PRODUCT_NAME_EN</td><td>英文简称</td><td>可选</td><td>由证券发行人在披露场所申请或由披露场所分配的产品英文简称</td></tr><tr><td>PRODUCT_ISIN</td><td>国际证券识别编码</td><td>可选</td><td>编码应符合GB/T 21076的要求</td></tr></table>"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.112,
+                0.92,
+                0.121,
+                0.93
+            ],
+            "angle": 0,
+            "content": "4"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.462,
+                0.161,
+                0.551,
+                0.179
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.468,
+                0.18,
+                0.543,
+                0.197
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.407,
+                0.2,
+                0.603,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.307,
+                0.334,
+                0.321
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.093,
+                0.095,
+                0.23,
+                0.109
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.111,
+                0.92,
+                0.125,
+                0.933
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.352,
+                0.333,
+                0.622,
+                0.351
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.271,
+                0.528,
+                0.284
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.289,
+                0.51,
+                0.303
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.129,
+                0.252,
+                0.429,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.77,
+                0.092,
+                0.907,
+                0.105
+            ],
+            "angle": 0,
+            "content": "JR/T 0313—2024"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.35,
+                0.126,
+                0.663,
+                0.142
+            ],
+            "angle": 0,
+            "content": "表 A.1 信息披露文件基础元数据（续）"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.108,
+                0.15,
+                0.865,
+                0.721
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>元数据组</td><td>元数据</td><td>元数据名称</td><td>是否必须</td><td>要求</td></tr><tr><td rowspan=\"11\">信息披露文件信息</td><td>DOC_TITLE</td><td>信息披露文件标题</td><td>必选</td><td>信息披露文件标题</td></tr><tr><td>DOC_TYPE</td><td>披露类型</td><td>可选</td><td>披露场所自定义的披露类型,如注册审核公告、发行公告、定期公告、临时公告等</td></tr><tr><td>DOC_LAN</td><td>语言</td><td>可选</td><td>信息披露文件使用的语言,应符合BCP 47的要求</td></tr><tr><td>DOC_PUBDATE</td><td>发布日期</td><td>必选</td><td>信息披露文件发布日期,格式为YYYYMMDD</td></tr><tr><td>DOC_PUBTIME</td><td>发布时间</td><td>可选</td><td>信息披露文件发布时间,应符合GB/T 7408-2005中5.4.1的要求</td></tr><tr><td>DOC_DISDATE</td><td>披露日期</td><td>可选</td><td>信息披露文件披露日期,格式为YYYYMMDD,可与信息披露文件发布日期不同</td></tr><tr><td>DOC_URL</td><td>信息披露文件链接</td><td>必选</td><td>信息披露文件存放链接,可按需更新</td></tr><tr><td>DOC_VAL</td><td>是否有效</td><td>必选</td><td>信息披露文件是否有效</td></tr><tr><td>DOC_VER</td><td>版本</td><td>可选</td><td>信息披露文件版本,从1起计数</td></tr><tr><td>DOC_NO</td><td>文件发布序列号</td><td>必选</td><td>3位数字,按照该证券产品当日发布的信息披露文件顺序取值,第一个取值为“001”,之后依次递增</td></tr><tr><td>DOC_ATT_NO</td><td>附件序列号</td><td>可选</td><td>3位数字,按照每个文件的附件发布顺序取值,第一个附件取值为“001”,之后依次递增</td></tr><tr><td rowspan=\"2\">资源</td><td>RES_CDD</td><td>资源标识</td><td>可选</td><td>与信息披露文件有关联的其他信息披露文件标识,编码应遵照本文件要求</td></tr><tr><td>RES_TYPE</td><td>资源类型</td><td>可选</td><td>本信息披露文件与资源的关系,如:引用、更新、等同、翻译,其中引用代表新发布的信息披露文件引用了以前发布的一个或多个信息披露文件;更新代表新发布的信息披露文件取代了以前发布的信息披露文件;等同代表新发布的信息披露文件等同于另一份信息披露文件,如在不同披露场所发布同样的信息披露文件;翻译代表新发布的信息披露文件是以前发布的信息披露文件的翻译版本</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.879,
+                0.92,
+                0.889,
+                0.93
+            ],
+            "angle": 0,
+            "content": "5"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.769,
+                0.092,
+                0.908,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.878,
+                0.92,
+                0.89,
+                0.932
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.351,
+                0.126,
+                0.664,
+                0.142
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

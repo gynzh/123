@@ -1,0 +1,1433 @@
+[
+    [
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.163,
+                0.153,
+                0.854,
+                0.219
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.26,
+                0.855,
+                0.451
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.2,
+                0.46,
+                0.37,
+                0.483
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.493,
+                0.855,
+                0.884
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.929,
+                0.506,
+                0.941
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.161,
+                0.152,
+                0.858,
+                0.186
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.42,
+                0.186,
+                0.579,
+                0.221
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.206,
+                0.261,
+                0.848,
+                0.282
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.294,
+                0.848,
+                0.315
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.327,
+                0.848,
+                0.348
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.361,
+                0.848,
+                0.382
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.394,
+                0.851,
+                0.415
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.426,
+                0.729,
+                0.449
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.203,
+                0.459,
+                0.369,
+                0.484
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.205,
+                0.494,
+                0.849,
+                0.515
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.528,
+                0.848,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.559,
+                0.85,
+                0.581
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.593,
+                0.848,
+                0.615
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.626,
+                0.848,
+                0.648
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.66,
+                0.848,
+                0.681
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.693,
+                0.848,
+                0.715
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.726,
+                0.848,
+                0.749
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.759,
+                0.848,
+                0.781
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.793,
+                0.848,
+                0.815
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.827,
+                0.848,
+                0.848
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.86,
+                0.811,
+                0.882
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.93,
+                0.505,
+                0.943
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.2,
+                0.094,
+                0.368,
+                0.116
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.212,
+                0.127,
+                0.663,
+                0.15
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.16,
+                0.861,
+                0.55
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.559,
+                0.855,
+                0.883
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.929,
+                0.506,
+                0.941
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.203,
+                0.093,
+                0.369,
+                0.118
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.93,
+                0.506,
+                0.944
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.215,
+                0.127,
+                0.663,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.217,
+                0.16,
+                0.848,
+                0.182
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.194,
+                0.848,
+                0.216
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.227,
+                0.849,
+                0.249
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.26,
+                0.849,
+                0.283
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.294,
+                0.847,
+                0.315
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.327,
+                0.849,
+                0.349
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.36,
+                0.862,
+                0.382
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.394,
+                0.848,
+                0.416
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.426,
+                0.846,
+                0.448
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.46,
+                0.848,
+                0.482
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.493,
+                0.85,
+                0.516
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.528,
+                0.488,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.217,
+                0.56,
+                0.848,
+                0.581
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.593,
+                0.848,
+                0.615
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.626,
+                0.849,
+                0.647
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.658,
+                0.849,
+                0.683
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.693,
+                0.849,
+                0.715
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.726,
+                0.848,
+                0.748
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.76,
+                0.848,
+                0.782
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.792,
+                0.849,
+                0.814
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.826,
+                0.85,
+                0.847
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.859,
+                0.489,
+                0.882
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.094,
+                0.859,
+                0.449
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.459,
+                0.861,
+                0.783
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.792,
+                0.855,
+                0.883
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.929,
+                0.506,
+                0.941
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.493,
+                0.929,
+                0.506,
+                0.942
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.218,
+                0.094,
+                0.848,
+                0.115
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.128,
+                0.849,
+                0.149
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.16,
+                0.848,
+                0.183
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.194,
+                0.859,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.228,
+                0.848,
+                0.248
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.26,
+                0.85,
+                0.283
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.294,
+                0.848,
+                0.316
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.327,
+                0.848,
+                0.349
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.361,
+                0.849,
+                0.382
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.394,
+                0.85,
+                0.416
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.426,
+                0.302,
+                0.449
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.217,
+                0.46,
+                0.848,
+                0.482
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.494,
+                0.847,
+                0.515
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.527,
+                0.849,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.56,
+                0.848,
+                0.582
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.593,
+                0.848,
+                0.615
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.626,
+                0.848,
+                0.648
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.66,
+                0.859,
+                0.681
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.693,
+                0.848,
+                0.715
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.726,
+                0.848,
+                0.748
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.759,
+                0.301,
+                0.782
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.219,
+                0.794,
+                0.849,
+                0.814
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.826,
+                0.849,
+                0.848
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.86,
+                0.848,
+                0.881
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.094,
+                0.861,
+                0.484
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.493,
+                0.855,
+                0.648
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.659,
+                0.855,
+                0.812
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.2,
+                0.826,
+                0.479,
+                0.848
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.199,
+                0.859,
+                0.848,
+                0.881
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.929,
+                0.506,
+                0.941
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.931,
+                0.505,
+                0.941
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.094,
+                0.862,
+                0.115
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.127,
+                0.849,
+                0.15
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.161,
+                0.863,
+                0.183
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.194,
+                0.85,
+                0.216
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.227,
+                0.849,
+                0.249
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.153,
+                0.26,
+                0.848,
+                0.282
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.293,
+                0.848,
+                0.316
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.326,
+                0.848,
+                0.349
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.36,
+                0.848,
+                0.382
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.393,
+                0.848,
+                0.416
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.427,
+                0.849,
+                0.449
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.46,
+                0.839,
+                0.482
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.218,
+                0.493,
+                0.849,
+                0.515
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.527,
+                0.848,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.56,
+                0.85,
+                0.582
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.593,
+                0.848,
+                0.615
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.149,
+                0.627,
+                0.406,
+                0.648
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.218,
+                0.66,
+                0.849,
+                0.681
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.693,
+                0.848,
+                0.714
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.726,
+                0.849,
+                0.749
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.761,
+                0.848,
+                0.782
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.148,
+                0.79,
+                0.198,
+                0.817
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.204,
+                0.826,
+                0.476,
+                0.85
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.201,
+                0.859,
+                0.85,
+                0.882
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.146,
+                0.094,
+                0.851,
+                0.351
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.494,
+                0.929,
+                0.506,
+                0.941
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.494,
+                0.93,
+                0.505,
+                0.942
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.094,
+                0.836,
+                0.116
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.128,
+                0.846,
+                0.148
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.161,
+                0.849,
+                0.183
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.195,
+                0.848,
+                0.216
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.227,
+                0.849,
+                0.248
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.26,
+                0.848,
+                0.282
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.293,
+                0.849,
+                0.316
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.328,
+                0.594,
+                0.348
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

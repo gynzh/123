@@ -1,0 +1,26 @@
+{
+  "num_documents": 573,
+  "num_upload_parts": 604,
+  "num_chunks": 13884,
+  "domains": [
+    "financial_contracts",
+    "financial_reports",
+    "insurance",
+    "regulatory",
+    "research"
+  ],
+  "documents_by_domain": {
+    "financial_contracts": 14,
+    "financial_reports": 10,
+    "insurance": 16,
+    "regulatory": 513,
+    "research": 20
+  },
+  "upload_parts_by_domain": {
+    "financial_contracts": 29,
+    "financial_reports": 20,
+    "insurance": 16,
+    "regulatory": 519,
+    "research": 20
+  }
+}

@@ -1,11 +1,2 @@
 .env
-.env.*
-!.env.example
-outputs/
-*_mineru_result.zip
-*_origin.pdf
-full.html
-full.md
-*_model.json
-*_content_list.json
-*_content_list_v2.json
+outputs/parse/mineru/mineru_vlm/batch_1_15592cd5/

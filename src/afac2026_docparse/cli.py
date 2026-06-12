@@ -59,7 +59,12 @@ def cmd_inspect(args: argparse.Namespace) -> None:
 
 
 def _jina_output_dir_from_args(args: argparse.Namespace) -> Path:
-    return Path(args.jina_output_dir)
+    if getattr(args, "jina_output_dir", None):
+        return Path(args.jina_output_dir)
+    # Keep Jina artifacts under the same root as the final parse outputs.
+    # Default output_dir is outputs/parse/mineru, so the default Jina directory is
+    # outputs/parse/jina/jina_html.
+    return Path(args.output_dir).parent / "jina" / "jina_html"
 
 
 def cmd_parse(args: argparse.Namespace) -> None:
@@ -179,7 +184,7 @@ def build_parser() -> argparse.ArgumentParser:
     parse.add_argument("--no-auto-split-pdf", action="store_true", help="关闭长 PDF 自动拆分。默认开启，避免 MinerU 单文件 200 页限制导致失败")
     parse.add_argument("--max-pdf-pages-per-upload", type=int, default=200, help="每个拆分 PDF 的最大页数，默认 200，不建议超过 200")
     parse.add_argument("--no-cache", action="store_true", default=None, help="传给 MinerU，绕过缓存")
-    parse.add_argument("--jina-output-dir", default="outputs/parsein/jina/jina_html", help="Jina HTML 原始解析结果输出目录")
+    parse.add_argument("--jina-output-dir", default=None, help="Jina HTML 原始解析结果输出目录；默认与 output-dir 同级：<output-dir父目录>/jina/jina_html")
     parse.add_argument("--jina-respond-with", default="readerlm-v2", help="Jina Reader x-respond-with，默认 readerlm-v2")
     parse.add_argument("--jina-retries", type=int, default=6, help="Jina 请求失败重试次数")
     parse.add_argument("--jina-rate-limit-sleep", type=int, default=30, help="Jina 429 限流后的基础等待秒数")

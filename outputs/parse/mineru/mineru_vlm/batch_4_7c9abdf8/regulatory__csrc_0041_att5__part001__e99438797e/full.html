@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>full</title>
+  <style>
+
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+border: none;
+border-top: 1px solid #1a1a1a;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+table {
+display: table; overflow: auto;
+max-width: 100%;
+border-collapse: collapse;
+page-break-inside: avoid;
+}
+table th {
+text-align: center;
+font-weight: bold;
+}
+table td,table th {
+border: 1px solid #dfe2e5;
+padding: 6px 13px;
+}
+table tr {
+background-color: #fff;
+border-top: 1px solid #c6cbd1;
+}
+table tr:nth-child(2n) {
+background-color: #f6f8fa;
+}
+</style>
+</head>
+<body>
+<h1 id="区域性股权市场企业产品和投资者编码规范">区域性股权市场企业、产品和投资者编码规范</h1>
+<h1 id="specification-for-unified-code-of-companies-products-and-investors-in-regional-equity-market">Specification
+for unified code of companies, products and investors in regional equity
+market</h1>
+<p>2024-12-24 发布</p>
+<p>2024-12-24 实施</p>
+<h2 id="目次">目次</h2>
+<p>前言….II<br />
+引言…. III</p>
+<p>1 范围…. 1<br />
+2 规范性引用文件…. 1<br />
+3 术语和定义…. 1<br />
+4 企业编码要求….2</p>
+<p>4.1 企业编码结构….2<br />
+4.2 企业编码规则 …… 3<br />
+4.3 企业编码分配要求…. 4</p>
+<p>5 产品编码要求….4</p>
+<p>5.1 产品编码结构….4<br />
+5.2 产品编码规则…. 5<br />
+5.3 产品编码分配要求…. 5</p>
+<p>6 投资者编码要求…. 5</p>
+<p>6.1 投资者编码结构…. 5<br />
+6.2 投资者编码规则…. 5<br />
+6.3 投资者编码分配要求…. 6</p>
+<p>附录 A（资料性）企业编码参考示例 …… 7</p>
+<p>附录 B（资料性）产品编码参考示例 8</p>
+<p>附录 C（资料性）投资者编码参考示例….9</p>
+<h2 id="前言">前言</h2>
+<p>本文件按照GB/T 1.1—2020《标准化工作导则
+第1部分：标准化文件的结构和起草规则》的规定起草。</p>
+<p>请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。</p>
+<p>本文件由全国金融标准化技术委员会证券分技术委员会（SAC/TC
+180/SC4）提出。</p>
+<p>本文件由全国金融标准化技术委员会（SAC/TC 180）归口。</p>
+<p>本文件起草单位：中证信息技术服务有限责任公司、中国证券监督管理委员会市场监管二司、深圳证券通信有限公司、上海边界智能科技有限公司。</p>
+<p>本文件主要起草人：王凤冬、彭枫、谷新萍、陈柏峰、李宇、杨博、蒲军、陈明忠、陈小泉。</p>
+<h2 id="引言">引言</h2>
+<p>区域性股权市场是服务所在省级行政区域内中小微企业的私募股权市场，是多层次资本市场体系重要组成部分，是地方扶持中小微企业政策措施的综合运用平台，也是一类地方金融组织。同时要看到，区域性股权市场也存在功能发挥不畅、地方监管制度体系不完善、业务系统多样异构、数据规范性差、业务规则不完备等问题。区块链具有数据透明、不易篡改、可追溯等技术优势，在促进数据共享、优化业务流程、降低运营成本、提升协同效率、建设可信体系等方面具有积极作用。基于监管链和地方业务链的双层架构，可以更好支持区域性股权市场企业赋能服务、业务创新并逐步实现穿透式监管。为建成物理分散、逻辑统一的区域性股权市场新型金融基础设施，有必要定义区域性股权市场企业、产品和投资者的统一编码规范。</p>
+<p>本规范对区域性股权市场服务的企业、产品和投资者的编码进行了统一规范，明确了编码结构、编码规则和编码分配要求。</p>
+<h1 id="区域性股权市场企业产品和投资者编码规范-1">区域性股权市场企业、产品和投资者编码规范</h1>
+<h2 id="范围">1 范围</h2>
+<p>本文件规定了区域性股权市场服务的企业、产品和投资者的编码要求和分配规则。</p>
+<p>本文件适用于为区域性股权市场服务的企业、产品和投资者统一编码和分配。</p>
+<h2 id="规范性引用文件">2 规范性引用文件</h2>
+<p>下列文件中的内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。</p>
+<p>GB/T 2260 中华人民共和国行政区划代码</p>
+<p>GB 18030 信息技术 中文编码字符集</p>
+<p>GB/T 35964 证券及相关金融工具 金融工具分类（CFI）编码</p>
+<h2 id="术语和定义">3 术语和定义</h2>
+<p>下列术语和定义适用于本文件。</p>
+<p>3.1</p>
+<p>监管链 global regulation blockchain</p>
+<p>以区域性股权市场全局服务和监管为目的构建的区块链系统。</p>
+<p>3.2</p>
+<p>企业编码 company code</p>
+<p>由区域性股权市场分配的标识区域性股权市场企业信息的全局唯一代码。</p>
+<p>3.3</p>
+<p>辖区编码 region code</p>
+<p>标识区域性股权市场所在行政区域信息的代码。</p>
+<p>注：辖区编码是企业编码的组成部分。</p>
+<p>3.4</p>
+<p>企业数字编码 company number code</p>
+<p>由区域性股权市场分配的标识企业主体的数字编码。</p>
+<p>注：企业数字编码是企业编码的组成部分。</p>
+<p>3.5</p>
+<p>企业分层（类）编码 company classification code</p>
+<p>标识企业所在服务层次、分类信息的代码。</p>
+<p>注：企业分层（类）编码是企业编码的组成部分。</p>
+<p>3.6</p>
+<p>产品编码 product code</p>
+<p>由区域性股权市场分配的标识企业非公开发行、转让或登记托管的证券产品信息的唯一代码。</p>
+<p>3.7</p>
+<p>证券品种编码 securities classification code</p>
+<p>标识证券产品品种信息的代码。</p>
+<p>注：证券品种编码是产品编码的组成部分。</p>
+<p>3.8</p>
+<p>证券发行期次编码 securities issuance batch code</p>
+<p>由区域性股权市场分配的标识证券产品发行期次信息的代码。</p>
+<p>注：证券发行期次编码是产品编码的组成部分。</p>
+<p>3.9</p>
+<p>投资者编码 investor code</p>
+<p>由监管链分配的标识投资者信息的全局唯一代码。</p>
+<p>3.10</p>
+<p>投资者类别编码 investor classification code</p>
+<p>标识投资者类别信息的代码。</p>
+<p>注：投资者类别编码是投资者编码的组成部分。</p>
+<p>3.11</p>
+<p>投资者数字编码 investor number code</p>
+<p>由监管链分配的投资者的数字编码。</p>
+<p>注：投资者数字编码是投资者编码的组成部分。</p>
+<h2 id="企业编码要求">4 企业编码要求</h2>
+<h2 id="企业编码结构">4.1 企业编码结构</h2>
+<p>企业编码结构应与图1相符合，由辖区编码、企业数字编码和企业分层（类）编码（如存在）组成。附录A给出了企业编码参考示例。</p>
+<p>注：辖区编码预留三位，企业编码分配方可根据所属辖区的实际情况填写两位或三位辖区编码。</p>
+<p><img role="img" src="data:image/jpeg;base64,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b/oW/D//AIGtR/avxW/6Fvw//wCBrUAeh0V55/avxW/6Fvw//wCBrUf2r8Vv+hb8P/8Aga1AHodFeef2r8Vv+hb8P/8Aga1H9q/Fb/oW/D//AIGtQB6HXE/F26Fp8KtfkJxugWIfV3Vf61S/tX4rf9C34f8A/A1qz9U0bx/41aw0vxBp2kafo6XkdxdvbXDSPIiHOwA+pxQB6No1sbLQ9PtGGDBbRxkf7qgf0q7RRQAUUUUAFFFFABRRRQAUUUUAeeaj+5+PmjOf+W+hzRD32ybq9DrhPHOheIJfE3h7xJ4btba7u9N8+KW3uJfLEiSKAOfY5/MVB/bfxS/6FDR//BjQB6FRXnv9t/FL/oUNH/8ABjUNz4j+J9paTXMnhDSSkSNIwXUMnAGTgUAekUV5J4e+JvjDxpBNeeGvCllJZwlYna5vdh8zYCwHqATx7Y+lbP8AbfxS/wChQ0f/AMGNAHoVeefGP5/CenW3e41i0iA9ctn+lL/bfxS/6FDR/wDwY1n3umePPF+s6BFrui6dp2m6fqUd/K8N35jMYwcLj3zj8aAPUqKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACvBPiRpE//AAtqz0W2OzTvFRtTfovG8xSHd/46Aa97rhPFOhXt/wDFLwTqcFo8lpZ/a/tMw6RZjGzP1PSgDulVURURQqqMAAYAFLRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB458L9Jjtfi98Qp0UDyZwq47CV2fH/jo/KvY64zwn4Uv9C8a+MNXuZIGtdXmgktgjEsAgfduGOOWHc9K7OgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKbIiyxtGwyrAqR7GnUUAeRfs6KB8OrwgcnU5M/9+469dry74CaXf6V8P7iHULOe1lbUZWEcyFGI2oucH3Uj8K9RoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAKeparZaRDFNfTeUksyQIdpbc7HCjAB6mrZOAT1x6V5v44uTH4hikfUL+S00iL+0p4IFhzExPlxBdydTl2+Ynp2q9Lp0un31tcT6nqeo2SW7QqrX6QyJIW3N5kgkTcegAwcYPtQB1+marZazZ/a7CcTQ7mQnBBVlOCpB5BB7GnXupWOmrG99eQWyyNsRppAgZsE4BPfANeT6NKms6TYW0K3FrPd6jI0y22sGJpVWRtxCmViW4BPHPOCOtdp40UC/8JjrjWYxzz/yzkoA2/wDhI9D/AOg1p3/gUn+NQXXi/wAOWaI8+u6eod1jXFwpyxOAODTbrXE0jVEttXWKC1uWxa3nSMt/zzfP3W9D0b2PFZfhLVNW8R6rqWsF408OO3k6dCYhvl28NNu67Sc4HOR6dwDrnkSOJpHYBFBYsegHrVfTtRtNW0+G/sJ1ntZl3RyL0YfjXP8Aji/kSyt9KS1vpItRZo7ie1haTyoQMvkj7pYfKCcAZJzxXJz6nqGp3fh2WG0lg0ebUGi061tpDbzSW6wMMswcDBIyBkcDvmgD0bT9Zs9Sur20gZ1ubKQR3EUiFWQkZU+hBHIIyKvSSxxDMjqg9WOK4TxBo13d+H9Tg0/RtZS9uLdkR21YkFsYGczc/jW9rE1jpfguW81KGGeCxtPNImAkG5V45OcnPGfegDRn1nS7aaKGfUbWOSXcY1eZQW2jLY57DmoH8TaDGjO+t6cFUZJ+1JwPzrl/A66DZ6fYaOLInUksvtssstg0edzfMQzKP4ice1U/tdwfgfe3txM8091azFWkOSBIxVAPYAgCgD0S2uYL21iubWZJoJVDxyRtuVlPQgipar6fbrZ6da2yjCwxJGAO2ABVigAooooAKytf8RaZ4asorvVJzFFLMkCbULFnY4AAHJ/Cr93d29hayXV1MkMEY3O7nAArgdVZbgzeM/EVhOdK09Nun6cVHmEOQrTOpIG4g8Keg68ngA9DByAR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" /></p>
+text_image
+X X X X X X X X X X 辖区编码 企业数字编码 企业分层（类）编码
+<p>图 1 企业编码结构图</p>
+<h2 id="企业编码规则">4.2 企业编码规则</h2>
+<p>企业编码规则如下：</p>
+<p>a）辖区编码应符合 GB/T 2260 规定的字母码，见表 1；<br />
+b）企业数字编码应按照 GB 18030，采用 6 位无意义数字 0～9
+进行编码；<br />
+c）企业分层（类）编码应符合表2的规则，根据企业分层或分类信息采用固定的单个字母。</p>
+<p>表 1 辖区编码表</p>
+<table>
+<tbody>
+<tr>
+<td>序号</td>
+<td>行政区域</td>
+<td>区域性股权市场名称</td>
+<td>辖区编码</td>
+</tr>
+<tr>
+<td>01</td>
+<td>北京</td>
+<td>北京股权交易中心有限公司</td>
+<td>BJ</td>
+</tr>
+<tr>
+<td>02</td>
+<td>天津</td>
+<td>天津滨海柜台交易市场股份公司</td>
+<td>TJ</td>
+</tr>
+<tr>
+<td>03</td>
+<td>河北</td>
+<td>雄安股权交易所股份有限公司</td>
+<td>HE</td>
+</tr>
+<tr>
+<td>04</td>
+<td>山西</td>
+<td>山西股权交易中心有限公司</td>
+<td>SX</td>
+</tr>
+<tr>
+<td>05</td>
+<td>内蒙古</td>
+<td>内蒙古股权交易中心股份有限公司</td>
+<td>NM</td>
+</tr>
+<tr>
+<td>06</td>
+<td>辽宁</td>
+<td>辽宁股权交易中心股份有限公司</td>
+<td>LN</td>
+</tr>
+<tr>
+<td>07</td>
+<td>吉林</td>
+<td>吉林股权交易所股份有限公司</td>
+<td>JL</td>
+</tr>
+<tr>
+<td>08</td>
+<td>黑龙江</td>
+<td>黑龙江股权交易中心有限责任公司</td>
+<td>HL</td>
+</tr>
+<tr>
+<td>09</td>
+<td>上海</td>
+<td>上海股权托管交易中心股份有限公司</td>
+<td>SH</td>
+</tr>
+<tr>
+<td>10</td>
+<td>江苏</td>
+<td>江苏股权交易中心有限责任公司</td>
+<td>JS</td>
+</tr>
+<tr>
+<td>11</td>
+<td>浙江</td>
+<td>浙江股权服务集团有限公司</td>
+<td>ZJ</td>
+</tr>
+<tr>
+<td>12</td>
+<td>安徽</td>
+<td>安徽省股权托管交易中心有限责任公司</td>
+<td>AH</td>
+</tr>
+<tr>
+<td>13</td>
+<td>福建</td>
+<td>海峡股权交易中心(福建)有限公司</td>
+<td>FJ</td>
+</tr>
+<tr>
+<td>14</td>
+<td>江西</td>
+<td>江西联合股权交易中心股份有限公司</td>
+<td>JX</td>
+</tr>
+<tr>
+<td>15</td>
+<td>山东</td>
+<td>齐鲁股权交易中心有限公司</td>
+<td>SD</td>
+</tr>
+<tr>
+<td>16</td>
+<td>河南</td>
+<td>中原股权交易中心股份有限公司</td>
+<td>HA</td>
+</tr>
+<tr>
+<td>17</td>
+<td>湖北</td>
+<td>武汉股权托管交易中心有限公司</td>
+<td>HB</td>
+</tr>
+<tr>
+<td>18</td>
+<td>湖南</td>
+<td>湖南股权交易所有限公司</td>
+<td>HN</td>
+</tr>
+<tr>
+<td>19</td>
+<td>广东</td>
+<td>广东股权交易中心股份有限公司</td>
+<td>GD</td>
+</tr>
+<tr>
+<td>20</td>
+<td>广西</td>
+<td>广西北部湾股权交易所股份有限公司</td>
+<td>GX</td>
+</tr>
+<tr>
+<td>21</td>
+<td>海南</td>
+<td>海南股权交易中心有限责任公司</td>
+<td>HI</td>
+</tr>
+<tr>
+<td>22</td>
+<td>重庆</td>
+<td>重庆股份转让中心有限责任公司</td>
+<td>CQ</td>
+</tr>
+<tr>
+<td>23</td>
+<td>四川</td>
+<td>天府(四川)联合股权交易中心股份有限公司</td>
+<td>SC</td>
+</tr>
+<tr>
+<td>24</td>
+<td>贵州</td>
+<td>贵州股权交易中心有限公司</td>
+<td>GZ</td>
+</tr>
+<tr>
+<td>25</td>
+<td>云南</td>
+<td>云南省股权交易中心有限公司</td>
+<td>YN</td>
+</tr>
+<tr>
+<td>26</td>
+<td>陕西</td>
+<td>陕西股权交易中心股份有限公司</td>
+<td>SN</td>
+</tr>
+<tr>
+<td>27</td>
+<td>甘肃</td>
+<td>甘肃股权交易中心股份有限公司</td>
+<td>GS</td>
+</tr>
+<tr>
+<td>28</td>
+<td>青海</td>
+<td>青海股权交易中心有限公司</td>
+<td>QH</td>
+</tr>
+<tr>
+<td>29</td>
+<td>宁夏</td>
+<td>宁夏股权托管交易中心(有限公司)</td>
+<td>NX</td>
+</tr>
+<tr>
+<td>30</td>
+<td>新疆</td>
+<td>新疆股权交易中心有限公司</td>
+<td>XJ</td>
+</tr>
+<tr>
+<td>31</td>
+<td>深圳</td>
+<td>深圳前海股权交易中心有限公司</td>
+<td>SZX</td>
+</tr>
+<tr>
+<td>32</td>
+<td>大连</td>
+<td>大连股权交易中心股份有限公司</td>
+<td>DLC</td>
+</tr>
+<tr>
+<td>33</td>
+<td>宁波</td>
+<td>宁波股权交易中心有限公司</td>
+<td>NGB</td>
+</tr>
+<tr>
+<td>34</td>
+<td>厦门</td>
+<td>厦门两岸股权交易中心有限公司</td>
+<td>XMN</td>
+</tr>
+<tr>
+<td>35</td>
+<td>青岛</td>
+<td>青岛蓝海股权交易中心有限责任公司</td>
+<td>TAO</td>
+</tr>
+</tbody>
+</table>
+<p>表 2 企业分层（类）编码表</p>
+<table>
+<tbody>
+<tr>
+<td>序号</td>
+<td>企业分层(类)编码</td>
+<td>企业分层(类)编码描述</td>
+</tr>
+<tr>
+<td>01</td>
+<td>F</td>
+<td>孵化层</td>
+</tr>
+<tr>
+<td>02</td>
+<td>G</td>
+<td>规范层</td>
+</tr>
+<tr>
+<td>03</td>
+<td>P</td>
+<td>培育层</td>
+</tr>
+<tr>
+<td>04</td>
+<td>T</td>
+<td>纯托管企业</td>
+</tr>
+</tbody>
+</table>
+<h2 id="企业编码分配要求">4.3 企业编码分配要求</h2>
+<p>企业编码分配要求如下：</p>
+<p>a）应保证企业编码在不同区域性股权市场的全局唯一性；<br />
+b）应根据企业所属区域性股权市场所在地信息来分配辖区编码；<br />
+c）对于新增企业，区域性股权市场应根据企业数字编码规则和服务情况自行分配企业数字编码；<br />
+d）对于存量企业，区域性股权市场已分配的6位企业代码保持不变，将现有企业代码作为企业数字编码；如果存量企业代码不为6位数字，区域性股权市场应按照本文件要求规范企业代码；<br />
+e）若区域性股权市场对企业进行分层管理，应根据企业分层（类）信息及表2的规则自行分配企业分层（类）编码；<br />
+f）若企业所属层级产生变化，应根据表2的规则进行相应变更，企业编码中其余部分编码保持不变；<br />
+g）区域性股权市场为本区域内企业编码分配方。</p>
+<h2 id="产品编码要求">5 产品编码要求</h2>
+<h2 id="产品编码结构">5.1 产品编码结构</h2>
+<p>产品编码结构应与图2相符合，由企业编码、证券品种编码、证券发行期次编码三部分组成。证券品种编码与企业编码之间由半角圆点（.）分隔。附录B给出了产品编码参考示例。</p>
+<p><img role="img" src="data:image/jpeg;base64,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" /></p>
+text_image
+XXXXXX 企业编码 . XXXXXX 证券品种编码 XXXXX 证券发行期次编码
+<p>图 2 产品编码结构图</p>
+<h2 id="产品编码规则">5.2 产品编码规则</h2>
+<p>产品编码规则如下:</p>
+<p>a）企业编码规则应符合 4.2 要求；<br />
+b）证券品种编码是在参考 GB/T 35964
+规定的编码规则基础上，结合区域性股权市场实际产品类型，定义的编码；<br />
+c）证券发行期次编码应按照 GB 18030，采用不超过 4 位数字 0～9
+进行编码。其中，前两位数字表示发行年份，后两位数字为发行期次编号。</p>
+<h2 id="产品编码分配要求">5.3 产品编码分配要求</h2>
+<p>产品编码分配要求如下:</p>
+<ol type="a">
+<li>企业的每个证券产品应拥有一个相对应的产品编码；<br />
+</li>
+<li>现有存量产品保留原有编码不变，直至兑付完成；<br />
+</li>
+<li>新增产品应按照本文件进行编码;<br />
+</li>
+<li>区域性股权市场为本区域内产品编码分配方。</li>
+</ol>
+<h2 id="投资者编码要求">6 投资者编码要求</h2>
+<h2 id="投资者编码结构">6.1 投资者编码结构</h2>
+<p>投资者编码结构应与图3相符合，由投资者类别编码、投资者数字编码组成。附录C给出了投资者编码参考示例。</p>
+<p><img role="img" src="data:image/jpeg;base64,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" /></p>
+text_image
+X X X X X X X X X X 投资者类别编码 投资者数字编码
+<p>图 3 投资者编码结构图</p>
+<h2 id="投资者编码规则">6.2 投资者编码规则</h2>
+<p>投资者编码规则如下:</p>
+<p>a）投资者类别编码应符合表3的规则，根据投资者类别信息采用固定的单个字母；</p>
+<p>注：目前全国性证券交易场所的投资者证券账户是以 A、B、C、D、E、F
+等字母开头，为避免混淆，区域性股权市场投资者类别编码以字母 Q、R、S
+开头。</p>
+<p>b）投资者数字编码应按照 GB 18030，采用 9 位无意义数字 0～9
+进行编码。</p>
+<p>表 3 投资者类别编码表</p>
+<table>
+<tbody>
+<tr>
+<td>序号</td>
+<td>投资者类别编码</td>
+<td>投资者类别说明</td>
+</tr>
+<tr>
+<td>01</td>
+<td>Q</td>
+<td>自然人投资者</td>
+</tr>
+<tr>
+<td>02</td>
+<td>R</td>
+<td>机构类投资者</td>
+</tr>
+<tr>
+<td>03</td>
+<td>S</td>
+<td>产品类投资者</td>
+</tr>
+<tr>
+<td colspan="3">注1:自然人投资者包括合格投资者、豁免投资者及其他投资者,涵盖已登记的持有区域性股权市场企业股份的、未来新增的符合要求的以自然人名义开立账户的投资者。注2:机构类投资者指依法设立的公司法人、机关法人、社会团体法人、事业单位法人、基金会法人等法人机构,合伙企业等,以及证券公司及其资管子公司、基金管理公司及其子公司、保险公司、信托公司、银行及商业银行理财子公司等市场参与主体。注3:产品类投资者指证券公司单一资产管理计划及集合资产管理计划、基金管理公司单一资产管理计划及集合资产管理计划、期货公司单一资产管理计划及集合资产管理计划、保险资产管理公司特定客户资产管理计划及集合资产管理计划、证券投资基金、信托产品、保险产品、银行理财产品(含商业银行理财子公司发行的理财产品)、企业年金计划、职业年金计划、养老金产品、全国社会保障基金投资组合、地方社保基金等依法设立的证券投资产品。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="投资者编码分配要求">6.3 投资者编码分配要求</h2>
+<p>投资者编码分配要求如下:</p>
+<ol type="a">
+<li>每一名投资者的投资者编码全局唯一，在全国区域性股权市场通用；<br />
+</li>
+<li>投资者编码应通过中国证监会监管链系统分配。附录 C
+给出了投资者编码参考示例。</li>
+</ol>
+<h1 id="附录-a">附录 A</h1>
+<h1 id="资料性">(资料性)</h1>
+<h1 id="企业编码参考示例">企业编码参考示例</h1>
+<p>以下是企业编码的参考示例。</p>
+<p>BJ000001F</p>
+<p>——BJ</p>
+<p>解释：辖区编码字段，由表 1 可知 BJ 代表北京股权交易中心。</p>
+<p>——000001</p>
+<p>解释：企业数字编码字段，为 6 位数字。</p>
+<p>——F</p>
+<p>解释：企业分层（类）编码字段，由表 2 可知 F
+代表该企业处于孵化层。</p>
+<h1 id="附录-b">附录 B</h1>
+<h1 id="资料性-1">(资料性)</h1>
+<h1 id="产品编码参考示例">产品编码参考示例</h1>
+<p>以下是产品编码的参考示例。</p>
+<p>BJ000001F. DCFGFR2110</p>
+<p>——BJ</p>
+<p>解释：辖区编码字段，由表 1 可知 BJ 代表北京股权交易中心。</p>
+<p>——000001</p>
+<p>解释：企业数字编码字段，为 6 位数字。</p>
+<p>——F</p>
+<p>解释：企业分层（类）编码字段，由表 2 可知 F
+代表该企业处于孵化层。</p>
+<p>——DCFGFR</p>
+<p>解释：证券品种编码字段，表示可转换公司债券。</p>
+<p>——2110</p>
+<p>解释：证券发行期次编码字段，4位数字2101的前两位21代表发行年份2021年，后两位01代表第一期次。</p>
+<h1 id="附录-c">附录 C</h1>
+<h1 id="资料性-2">(资料性)</h1>
+<h1 id="投资者编码参考示例">投资者编码参考示例</h1>
+<p>以下是投资者编码的参考示例。</p>
+<p>Q000000001</p>
+<p>——Q</p>
+<p>解释：投资者类别编码字段，由表 4 可知 Q
+代表该投资者为自然人投资者。</p>
+<p>——000000001</p>
+<p>解释：投资者数字编码字段，为9位数字000000001。</p>
+</body>
+</html>

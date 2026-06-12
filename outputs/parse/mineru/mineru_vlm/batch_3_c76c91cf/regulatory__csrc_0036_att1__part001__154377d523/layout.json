@@ -1,0 +1,650 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        107,
+                        107,
+                        487,
+                        129
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                107,
+                                108,
+                                487,
+                                129
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        107,
+                                        108,
+                                        487,
+                                        129
+                                    ],
+                                    "type": "text",
+                                    "content": "关于修改、废止部分证券期货规范性文件的决定",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        171,
+                        506,
+                        251
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                120,
+                                171,
+                                505,
+                                189
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        120,
+                                        171,
+                                        505,
+                                        189
+                                    ],
+                                    "type": "text",
+                                    "content": "为做好新修订的《公司法》的贯彻落实工作，中国证监会对",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                202,
+                                506,
+                                221
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        202,
+                                        506,
+                                        221
+                                    ],
+                                    "type": "text",
+                                    "content": "有关证券期货规范性文件进行了清理。经过清理，中国证监会决",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                85,
+                                231,
+                                119,
+                                253
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        231,
+                                        119,
+                                        253
+                                    ],
+                                    "type": "text",
+                                    "content": "定：",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        117,
+                        264,
+                        485,
+                        314
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 4,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                117,
+                                264,
+                                485,
+                                282
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 2,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        264,
+                                        487,
+                                        283
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                119,
+                                                264,
+                                                487,
+                                                283
+                                            ],
+                                            "type": "text",
+                                            "content": "一、对 65 部规范性文件的部分条款予以修改。（附件 1）",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                117,
+                                296,
+                                403,
+                                314
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 3,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        295,
+                                        405,
+                                        314
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                119,
+                                                295,
+                                                405,
+                                                314
+                                            ],
+                                            "type": "text",
+                                            "content": "二、对2 部规范性文件予以废止。（附件 2）",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        117,
+                        327,
+                        292,
+                        344
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                327,
+                                292,
+                                345
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        327,
+                                        292,
+                                        345
+                                    ],
+                                    "type": "text",
+                                    "content": "本决定自公布之日起施行。",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        117,
+                        389,
+                        401,
+                        439
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 8,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                117,
+                                389,
+                                401,
+                                407
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        389,
+                                        402,
+                                        407
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                119,
+                                                389,
+                                                402,
+                                                407
+                                            ],
+                                            "type": "text",
+                                            "content": "附件：1.中国证监会决定修改的规范性文件",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                161,
+                                420,
+                                401,
+                                439
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 7,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        162,
+                                        420,
+                                        402,
+                                        439
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                162,
+                                                420,
+                                                402,
+                                                439
+                                            ],
+                                            "type": "text",
+                                            "content": "2.中国证监会决定废止的规范性文件",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        107,
+                        107,
+                        487,
+                        129
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "index": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                107,
+                                108,
+                                487,
+                                129
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        107,
+                                        108,
+                                        487,
+                                        129
+                                    ],
+                                    "type": "text",
+                                    "content": "关于修改、废止部分证券期货规范性文件的决定",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        86,
+                        171,
+                        506,
+                        251
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 1,
+                    "lines": [
+                        {
+                            "bbox": [
+                                120,
+                                171,
+                                505,
+                                189
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        120,
+                                        171,
+                                        505,
+                                        189
+                                    ],
+                                    "type": "text",
+                                    "content": "为做好新修订的《公司法》的贯彻落实工作，中国证监会对",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                89,
+                                202,
+                                506,
+                                221
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        89,
+                                        202,
+                                        506,
+                                        221
+                                    ],
+                                    "type": "text",
+                                    "content": "有关证券期货规范性文件进行了清理。经过清理，中国证监会决",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                85,
+                                231,
+                                119,
+                                253
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        231,
+                                        119,
+                                        253
+                                    ],
+                                    "type": "text",
+                                    "content": "定：",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        117,
+                        264,
+                        485,
+                        314
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 4,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                117,
+                                264,
+                                485,
+                                282
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 2,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        264,
+                                        487,
+                                        283
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                119,
+                                                264,
+                                                487,
+                                                283
+                                            ],
+                                            "type": "text",
+                                            "content": "一、对 65 部规范性文件的部分条款予以修改。（附件 1）",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                117,
+                                296,
+                                403,
+                                314
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 3,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        295,
+                                        405,
+                                        314
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                119,
+                                                295,
+                                                405,
+                                                314
+                                            ],
+                                            "type": "text",
+                                            "content": "二、对2 部规范性文件予以废止。（附件 2）",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                },
+                {
+                    "bbox": [
+                        117,
+                        327,
+                        292,
+                        344
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "index": 5,
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                327,
+                                292,
+                                345
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        327,
+                                        292,
+                                        345
+                                    ],
+                                    "type": "text",
+                                    "content": "本决定自公布之日起施行。",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        117,
+                        389,
+                        401,
+                        439
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 8,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                117,
+                                389,
+                                401,
+                                407
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 6,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        389,
+                                        402,
+                                        407
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                119,
+                                                389,
+                                                402,
+                                                407
+                                            ],
+                                            "type": "text",
+                                            "content": "附件：1.中国证监会决定修改的规范性文件",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                161,
+                                420,
+                                401,
+                                439
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "index": 7,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        162,
+                                        420,
+                                        402,
+                                        439
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                162,
+                                                420,
+                                                402,
+                                                439
+                                            ],
+                                            "type": "text",
+                                            "content": "2.中国证监会决定废止的规范性文件",
+                                            "score": 1.0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": false,
+    "_vlm_ocr_enable": false,
+    "_version_name": "3.2.1"
+}

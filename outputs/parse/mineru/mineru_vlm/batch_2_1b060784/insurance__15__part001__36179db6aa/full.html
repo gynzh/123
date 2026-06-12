@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>full</title>
+  <style>
+
+html {
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 12px;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+html {
+background-color: white;
+}
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+svg {
+height: auto;
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+font-size: 85%;
+margin: 0;
+hyphens: manual;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+border: none;
+border-top: 1px solid #1a1a1a;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+table {
+display: table; overflow: auto;
+max-width: 100%;
+border-collapse: collapse;
+page-break-inside: avoid;
+}
+table th {
+text-align: center;
+font-weight: bold;
+}
+table td,table th {
+border: 1px solid #dfe2e5;
+padding: 6px 13px;
+}
+table tr {
+background-color: #fff;
+border-top: 1px solid #c6cbd1;
+}
+table tr:nth-child(2n) {
+background-color: #f6f8fa;
+}
+</style>
+</head>
+<body>
+<h2 id="阅读指引">阅读指引</h2>
+<p>本阅读指引旨在帮助您（投保人，以下含义相同）理解条款，本合同内容以条款具体约定为准。</p>
+<p><img role="img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAArAEMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiqlxqmn2kvlXN/awyYzslmVTj6E0AW6K5TxF8SPCfhi186/wBYt3cjKQWzCWR/oq9PqcD3ry28+M/i7xfdPYeA/DkqjOPtMkfmuvoT/An/AAIkUAe+0V8g2XxY8eeHfEVxLd6tLdzRyGO4tbthJESpIIAHC855TFetaZ+0Z4Zmso21LTtRtbrH7xIkWVM+zbgf0oA9korytf2gvBDdTqS/W2H9Gq3Z/HbwHdzCN9QuLbJwGntnC/mAcfjQB6TRUVtcwXlrFc2s0c0Eqh45I2DK6noQR1FFAEtfMumeF4fi38XfFL6jeXMNnbO+x4cbsK4jjXkEAbVJr6ar5s8A+JtL+HvxT8XWviC6+yW8kkqLKYnfLLLleFBPKsTQB3+ifAHwfpV59pujeanj7sV1IBGD6kKBn8ePavTbSytdPtktrK2htrdBhIoUCKv0A4FU9B8Q6T4n0xdS0a9S7tGYpvVSuGHUEMAQfqO4rToAzpfD+izszTaRYSMxyS9shJP4ivDvG/jWw0Hx5feGrH4eaDqJg8vYTZqzvuiVz8oXtk/gK9u8S6m+i+F9W1SMxiS0s5Z08z7pZUJAP4gV4l8H9N1Xxt4/vfiNqrQqsTtCqxDG6UxBMAc4VUYck9SOvNAGI3im6m6fBbTD/uaU4/klZOsQa34ntjYaf8KYdOlcj/SLewmR05/vcKPTkEc19ZUUAcB4B8G6xoXgfTNOvtTlguYkYyQxncsZZ2bbkHBwDjjiiu/ooAK5PWvhn4O8Q6pNqWqaJHcXk2PMl82RC2AAPusB0ArrKKAPna/0DxX8Edfl1jQFk1Pw1MczwnJCr6SAfdI7SDj164PQJ+0l4eMYL6LqivjkKYyM/XcP5V7T1qo2l6ezbmsbYt6mFc/yoA+aPEOtX3xv8baVZaPp13aWUaiKd2O8Ipbc0j4+UYHQE8n619D+FPC2neDvD8Gj6Yr+RGSzPIcvI56sx9f8BWyiLGoVFCqOgAwBTqACiiigAooooA//2Q==" /></p>
+<p>我们提供的保障（本阅读指引中，“我们”指中国人寿保险股份有限公司）</p>
+<table>
+<tbody>
+<tr>
+<td>投保年龄</td>
+<td>18周岁至55周岁</td>
+</tr>
+<tr>
+<td>我们保多久</td>
+<td>至100周岁</td>
+</tr>
+<tr>
+<td rowspan="4">我们保什么</td>
+<td>养老年金若被保险人生存,按照本合同约定,自养老年金开始领取日起至养老年金开始领取日起年满20个保单年度后的首个年生效对应日前,每年初给付养老年金养老年金开始领取日男性:被保险人年满60、65周岁的年生效对应日两种,由投保人在投保时与我们约定女性:被保险人年满55、60、65周岁的年生效对应日三种,由投保人在投保时与我们约定</td>
+</tr>
+<tr>
+<td>长寿金若被保险人生存,按照本合同约定,自养老年金开始领取日起年满20个保单年度后的首个年生效对应日起至保险期间届满前,每年初给付长寿金</td>
+</tr>
+<tr>
+<td>满期保险金若被保险人生存,按照本合同约定,保险期间届满给付满期保险金</td>
+</tr>
+<tr>
+<td>身故保险金按照本合同约定,提供身故保障</td>
+</tr>
+</tbody>
+</table>
+<p>注：每年初是指本合同每年生效对应日。</p>
+<p><img role="img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAlAEMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iivFvE/xl1+08caj4f8M+HV1UWR2vtjkkkJGN5wnQBjj/8AXQB7TWJ4g8X+H/C0Pm61qtvaZGVjZsyMPZBlj+ArxyfxJ8Y/HLDTtP0STQIiMS3Bhe3OD/tyc/8AfAzWr4f/AGe9PWf7b4r1W41W6c7pIomKIT33Ofnb6/LQBv6R8dPBWraubA3NxZAkCO4u4wkUh+uTt+rYr0hHSWNZI2V0YZVlOQR6g1893/7N17LfXEtlrlpFA8jNFE0L/IpPC5yc4HGagT4b+K/DinTrX4n2OnrEc/Zf7SlgCZ5+5njOc9KAPo2ivnI+HvH8f+r+LWkN/v63J/8AEmszVdX+IXg+2OoH4iaVf7GH7iHUluXbnsjryPXFAH1BRXC+CviD/wAJD4P07VL2zlW6mRhKIUyhZWKkjJ6HbnHbNFAHdV4F8ESs3xO8Z3E5zdlpOT1wZiW/ULXvteA6x8OviFonxD1rXfBbxRQ3zu4k82IEhyHZSr5HDfyoA9+orxn4afFq5mv5fC/jeU22tRzMkdxMixhzn/VuAAFYdj0PHfr7NQBFcXENpbS3NxIsUEKGSSRzgKoGSSfQCvmLUNJ0z4oftA31tbXckmlXADPdWpGQsduq5BIIxvUDOO9elfGX4it4atJPDUGm/arjVrGRBL5uPKD5T7mCWPXHI5qf4HeC5vDHhJ7zU7AW+q30pc+YmJUhwAqHuOQWx7jPSgDNX9m/woPvarrJ+kkQ/wDadWLX9nbwbBMJJbrV7hR/yzknQKfrtQH9a9booAq6bptnpGnQafp9ulvaW6bIok6KP896KtUUAFFFFAHEePPhfoXjyMS3Qa01JF2x3sKjdjsHH8Q/X0IrzJ/g9rNrL9mTx7fhF4AWFwMfTzaKKAOo8KfArT9F1+11zVNaudWubdxLErxeWu8fdLZZicHBHI5Ar1yiigAooooAKKKKAP/Z" /></p>
+<h2 id="您可选择的交费方式">您可选择的交费方式</h2>
+<table>
+<tbody>
+<tr>
+<td>交费方式</td>
+<td>交费期间(分期交费)</td>
+</tr>
+<tr>
+<td>一次性交费、分期交费</td>
+<td>3年、5年、10年(每年或每月交一次)</td>
+</tr>
+</tbody>
+</table>
+<p><img role="img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAlAEMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiuO1/4p+D/AAxq8ularqhivIgpeNIJH25GRkqpGcEH8aAOxoryHxB+0H4asrcJoMFxq12/CrsaFFPuWGSfYD8RXM/ZfjD8S+biQ6BpMn8Jzbgr/ujMjcevBoA9+ju7aaeWCK4ieaLHmRq4LJnpkdqmr41Twh4+8M69LPpWk68k1vKyR3dtZyjzADjPAOQcZxyK9M0/4vfEaxso4dT8EXV3Mgw05tJoS/uQFxn6YHtQB79RXhB+PHiaL/XeAbgfV5F/nHRF+0ZLbzKNV8IXFvExwXS5O4fQMgz+YoA93orK0PxHpfiHRbXVrC5VrW5Tcm8hWHOCCOxBBB+lFAGrXzl8PdA0zx78V/F19rtol5DFJIyQyE4BaUhTwRnCqR+NfRtfLth4qb4R/FrxQt1p8t1bzySKsauEIVnEkbZIOflP60AfQWjeBvC/h66N1pWh2dtcHgSqmXH0JyR+FdBXI+AviDpXj7TJLmyBt7qFts1pIwLoOzcdVPr65FddQAV8/eM/F/xAm+MV94U8LaqUB2fZ7cxwgD9wsjfMy/7x5NepfEHxfpfhnwzqUdxqiWmoy2Ups0DYkZ9pClQOfvY57V5t8BfDMmq3N5481a6uLm/aV7eEzEsT8q7pCxOSeSo9MH2wAIul/HxuuqQr9Wtv6LVTUfAXxk8U2zadrWtW32KQjzFknUIcHPIjXJ6Zr6EooA5Dwp8PtO8N+GLHSZHa6kt0O+bJXezMWOBngZJx7UV19FABUUltBKSZIY3J4JZQaKKAPnP4q+Gk+F/iLT/FHhO8lsJbuVwbdACiEAE4/wBg5+6QR+gFJP2jvFioA2maMzAfe8qUZ/8AIlFFAGLBr1/8XviZoNv4h+zpA0giMVshVfLGXYfezlsYznivq7TtOs9J0+Gw0+2jtrSFdscUYwqiiigC1RRRQAUUUUAf/9k=" /></p>
+<h2 id="您拥有的重要权益">您拥有的重要权益</h2>
+<p>✿ 被保险人可以享受本合同提供的保障……第五条<br />
+✿ 签收保险单后15日内您可以按约定要求退还保险费……第十一条<br />
+✿ 您有按约定退保的权利……第十一条<br />
+您可以向我们申请借款……第八条</p>
+<p><img role="img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAlAEMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiuK8Q/Fbwj4Y1mXSdT1CRLyIKZEjgd9uRkAkDGcEH8aAO1orx7X/2hNAtoFj8PWdzqt5JwgZDEintnI3E+wH4iuc/sr4v/ABL51C4Og6VJ/wAsjmAFfTYMyN/wI4oA98hv7O4uZbaC7glnhx5sSSBmTPTcByPxqxXxwPA3j3w3rss2k6Tray20rLFd2ttIpdQcBhjPBA6c9a9I0/4qfFKwso4dR8D3d5KgwZ30+eNn9yAMZ+gFAHv9FeEH43eM4v8AXfD+4H1SZf5rSJ+0NqFnKp1jwbNBAxwXWZlI+gZMH6ZFAHvFFZGheJtK8RaJaatY3K/ZrlNyCQhWXkggjPBBBH4UUAa9fOfw60LTPHPxX8X32u2cV5FHJIyQy5KgtKQp/BVx+NfRlfLlp4qk+EXxb8TifTnu7e4kcLEJdhCs4kjbODn5Tj8fagD6G0fwZ4a8P3JudK0SytJyMebHEN4HoCeR+Fbtcf4A+Iml+P8ATZZ7Rfs15AxE1m7hnQdmHTKn1x14rsKACvnzxn4p8e3XxlvvCnhjWHiB2fZ4CIwq4t1kb5mX/eNepfETxjpXhjw1qUNzqYtNSnsZfsaKSJGcqVUrjp8xHPavOfgH4YbUpLzx1qtzcXOoPK9vC0zFiflXdIWJyxOSvtg9ewA1dA+O7ddchX6zRf0Sqt/8Ovi/4mt20/WvENv9hcjzEe5O1gCDyqJzyM4PpX0HRQByXhbwBpnhvwzY6S5a6e3Qh5iSu9ixYnAPAyTgelFdbRQAU0ordVB+ooooA+c/iz4Xj+GuuWHizwpdy6dPdTspt4wNiNjJK/7J7oQR+HFZaftGeMVjCmx0Vzj7zQSZP5SYoooAybLWr/4u/E3QbbxG8IgZ/LMdvGUXyxl2Xrn5sYznjNfWFhYWml2MNjYW8dvawrtjiiXaqj2FFFAFiiiigAooooA//9k=" /></p>
+<h2 id="您应当特别注意的事项">您应当特别注意的事项</h2>
+<p>✿ 本合同中还有一些免除或者减轻本公司责任的内容……第六条<br />
+✿ 您应当如何交纳保险费……第七条<br />
+✿ 您有如实告知的义务……第四条<br />
+✿ 您有及时向我们通知保险事故的责任……第六条<br />
+✿ 退保会给您造成一定损失，请您慎重决策……第十一条<br />
+✿ 我们对一些重要术语进行了解释，请您注意释义……第十三条、第十六条<br />
+✿
+本合同利益条款和个人保险基本条款中加粗部分属于与您有重大利害关系的条款</p>
+<p>说明：标注下划波浪线的条目为本合同利益条款对应条目；未标注下划波浪线的条目为本合同个人保险基本条款对应条目。</p>
+<p><img role="img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAoAEADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iqerana6LpF3qd6+y2tYmmkI64UZ49/SvKP+GkPCn/QK1n/AL9xf/HKAPY6z9W17SdBt/P1bUrWyjPQzyhN30B5P4V4fN8R/iN8RJnt/BWivp9gTtN2QCffMrYUfRRkepqhrHwF8TT6Jcandas2r+IXZdsAk4Iz8xaWQjOBnjA/GgD6C0vVtP1uxS+0u9gu7Z/uyQuGH0PofY81dr5U0L4ffFvwlf8A2zR9NuLWX+IR3cDLIPRl3kMPqK7Y+KPjnD9/w1bP9IVP8pKAPdaK8Hbx18aovveD4W+llIf5SVc8O/GnXYfFFnoPjXw6NNlu3WOOVI5IipY4UlHzlSeMg8UAdL8dLuS1+FWoLGcefLDEx9t4J/8AQcU/4W+F9EHw00OSXSrGeWaDzpJZbdGZmZieSRk4zj6AVpfFXQpvEXw21eytYjLcrGs8KKMlmRg2AO5IBGPevGvDXxY8UeA/Dmm6VqnhaUafbP5f2ieKSJ2UsW2gkY3AE4+lAH0pFFHBEsUUaxxoMKiDAUegFPrP0TW9O8RaTBqel3KXFpMMq69j3BHYjuDWhQBg+N7qSy8BeIbmKdoJY9OuGjlRirK/lttII6HOMe9fPvgbwx8QvHmiS6rZeNb22hjuGt9s9/cbiQqnIxkY+b9DVn4y+MbHx3qujaF4ca5uJ4ZpYZV8tlDyMyKqgd+VP6V7/wCF/DWn+EvD9to2mowt4QSWc5aRjyWY+pP+FAHj/wDwqD4kMPm+IM/0+2XB/rWj4Y+BM1n4jtdb8S+IH1Oa2kWVIlVjuZTldzsSSAecYr2eigAqjq+j6fr2lz6bqlrHc2k64eNx+RHoR2I5FFFAHij/AAv8f+BdUuJfh/rIksLg5MEzIGX03K4KMf8AaGD9Kla1+Pt0pia7tbdTwXBth+oBI/CiigDpvhV8LX8FrdajrUltd6zcsMSIN/kLznazAHLE8n2FenUUUAFFFFAH/9k=" /></p>
+<p>条款是保险合同的重要内容，为充分保障您的权益，请您仔细阅读本条款。条款包含利益条款和个人保险基本条款，本合同利益条款与本合同个人保险基本条款相抵触的，以本合同利益条款为准。</p>
+<p><img role="img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAlAEADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+isrxLrkHhrw3qGs3C7o7OFpNgON5/hX8TgfjXi9t8fPE97AJ7TwQ08RJAkiaR1J+oWgD32uO8R/FLwf4Xd4r7V4pLletvajzXB9Dt4U/wC8RXlp0j4tfFE79RnOgaPJ/wAsTuhDL/uD53/4EQPStS7/AGdNMj8NS29jqDzay5Xbd3RKxoAfmwi+o45JoA9M8KeO/D3jO283R79HlAzJbSfJNH9V9PcZHvXR181R/s+eLdNnW8s/EGl28sPzrMs0sbJjvuCcVqHwx8WIfu/EPTH/AO4k5/nHQB9A0V89PpfxfiHHjbTmH/X+n9VqLQfif408NeN7DQvE1/ZatbXUqRMYJIpGj3ttBDR9weobnHpkGgDv/jzNJF8K71UJCyXEKPjuN4P8wK2vhTFFD8LfDyw42G13HH94sS36k1b+IXh2XxV4E1bR7cA3M0QaAEgZkQh1GT0yVxn3rwyC++L3ww8OWxubNYtDs5APLbyJgAzElWKEuASSM9s4z0oA+maK53wb410nxvoy6hpkuHGBPbOf3kLejD09D0NdFQByPxL1jTdL8A63FfX1vby3en3EVvHJIFaZzGVwoPLHLDp0zXhnwy+Dln458LyaxfaldWh+1PDGkUakMqqvzZPuWH4Uvj7xNd/F/wAU6VoGiaRMjWU0sbOW353MqlzgYVQFzk+tfSul6XZaLplvp2nW6W9pbrsjiQcAf1OeSe5NAHjw/Zs0HHOu6ln2RP8ACuj8KfBHwt4W1WDVA95f3kDb4muXXZGw6MFUDke+fWvSaKACmTQxXELwzxpLFIpV0dQVYHqCD1FFFAHhXjL4QW2gX51nwxrl5o4mJDQQ5O3POFYMpC+xzXNWXhXxLrc4s5/HmrGN+CJHkcfkZKKKAPaPhz8ObD4fabcRW91JeXd2ytPcOmzIUHaoXJwBk9z1+ldrRRQAUUUUAf/Z" /></p>
+<p>条款目录</p>
+<table>
+<tbody>
+<tr>
+<td colspan="2">利益条款</td>
+<td colspan="2">个人保险基本条款</td>
+</tr>
+<tr>
+<td colspan="4">1.我们保什么、保多久</td>
+</tr>
+<tr>
+<td>第三条</td>
+<td>保险期间</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>第四条</td>
+<td>养老年金开始领取日</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>第五条</td>
+<td>保险责任</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="4">2.我们不保什么</td>
+</tr>
+<tr>
+<td>第六条</td>
+<td>责任免除</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="4">3.如何支付保险费</td>
+</tr>
+<tr>
+<td rowspan="2">第七条</td>
+<td rowspan="2">保险费</td>
+<td>第二条</td>
+<td>首期后保险费的交付、宽限期间及合同效力中止</td>
+</tr>
+<tr>
+<td>第三条</td>
+<td>合同效力恢复(复效)</td>
+</tr>
+<tr>
+<td colspan="4">4.如何申领保险金</td>
+</tr>
+<tr>
+<td>第九条</td>
+<td>保险金申请所需证明和资料</td>
+<td>第五条</td>
+<td>受益人</td>
+</tr>
+<tr>
+<td rowspan="2">第十条</td>
+<td rowspan="2">保险金的申请与给付</td>
+<td>第六条</td>
+<td>保险事故的通知</td>
+</tr>
+<tr>
+<td>第七条</td>
+<td>保险金的申请与给付</td>
+</tr>
+<tr>
+<td colspan="4">5.如何退保</td>
+</tr>
+<tr>
+<td>第十一条</td>
+<td>投保人解除合同的处理</td>
+<td>第十四条</td>
+<td>投保人解除合同的处理</td>
+</tr>
+<tr>
+<td colspan="4">6.其他权益</td>
+</tr>
+<tr>
+<td>第八条</td>
+<td>现金价值</td>
+<td>第八条</td>
+<td>借款</td>
+</tr>
+<tr>
+<td colspan="4">7.其他事项</td>
+</tr>
+<tr>
+<td>第一条</td>
+<td>保险合同构成</td>
+<td>第一条</td>
+<td>保险合同成立、生效和保险责任开始</td>
+</tr>
+<tr>
+<td>第二条</td>
+<td>投保范围</td>
+<td>第四条</td>
+<td>明确说明与如实告知</td>
+</tr>
+<tr>
+<td>第十二条</td>
+<td>附则</td>
+<td>第九条</td>
+<td>欠款扣除</td>
+</tr>
+<tr>
+<td>第十三条</td>
+<td>释义</td>
+<td>第十条</td>
+<td>合同内容变更</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>第十一条</td>
+<td>住所或通讯地址变更</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>第十二条</td>
+<td>年龄计算及错误处理</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>第十三条</td>
+<td>未成年人身故保险金限制</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>第十五条</td>
+<td>争议处理</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>第十六条</td>
+<td>释义</td>
+</tr>
+</tbody>
+</table>
+<h1 id="中国人寿保险股份有限公司">中国人寿保险股份有限公司</h1>
+<h1 id="国寿鑫享添盈养老年金保险互联网专属利益条款">国寿鑫享添盈养老年金保险（互联网专属）利益条款</h1>
+<h2 id="第一条-保险合同构成">第一条 保险合同构成</h2>
+<p>国寿鑫享添盈养老年金保险（互联网专属）合同（以下简称本合同）由保险单及所附国寿鑫享添盈养老年金保险（互联网专属）利益条款（以下简称本合同利益条款）、个人保险基本条款（以下简称本合同基本条款）、现金价值表、声明、批注、批单以及与本合同有关的投保单、复效申请书、健康声明书和其他书面协议共同构成。</p>
+<h2 id="第二条-投保范围">第二条 投保范围</h2>
+<p>凡十八周岁以上、五十五周岁以下，身体健康者均可作为被保险人，由本人或对其具有保险利益的人作为投保人向本公司投保本保险。</p>
+<h2 id="第三条-保险期间">第三条 保险期间</h2>
+<p>本合同的保险期间为本合同生效之日起至被保险人年满一百周岁的年生效对应日止。</p>
+<h2 id="第四条-养老年金开始领取日">第四条 养老年金开始领取日</h2>
+<p>男性：养老年金开始领取日分为被保险人年满六十周岁的年生效对应日和被保险人年满六十五周岁的年生效对应日两种，投保人在投保时可选择其中一种作为本合同的养老年金开始领取日。</p>
+<p>女性：养老年金开始领取日分为被保险人年满五十五周岁的年生效对应日、被保险人年满六十周岁的年生效对应日和被保险人年满六十五周岁的年生效对应日三种，投保人在投保时可选择其中一种作为本合同的养老年金开始领取日。</p>
+<p>养老年金开始领取日一经确定，在本合同的保险期间内不得变更。</p>
+<h2 id="第五条-保险责任">第五条 保险责任</h2>
+<p>在本合同保险期间内，本公司承担以下保险责任：</p>
+<h2 id="一养老年金">一、养老年金</h2>
+<p>自本合同约定的养老年金开始领取日起，至养老年金开始领取日起年满二十个保单年度后的首个年生效对应日前，若被保险人生存至本合同的年生效对应日，本公司每年按本合同基本保险金额的500%给付养老年金。</p>
+<h2 id="二长寿金">二、长寿金</h2>
+<p>自本合同约定的养老年金开始领取日起年满二十个保单年度后的首个年生效对应日起，至本合同保险期间届满前一年的年生效对应日止，若被保险人生存至本合同的年生效对应日，本公司每年按本合同基本保险金额给付长寿金。</p>
+<h2 id="三满期保险金">三、满期保险金</h2>
+<p>被保险人生存至本合同保险期间届满的年生效对应日，本合同终止，本公司按本合同基本保险金额给付满期保险金。</p>
+<h2 id="四身故保险金">四、身故保险金</h2>
+<p>被保险人于本合同生效（或最后复效）之日起身故，本合同终止，本公司按被保险人身故当时下列两者的较大值给付身故保险金：</p>
+<ol type="1">
+<li>本合同所交保险费（不计利息）减去本合同累计已给付的养老年金；<br />
+2.本合同现金价值。</li>
+</ol>
+<h2 id="第六条-责任免除">第六条 责任免除</h2>
+<p>因下列任何情形之一导致被保险人身故，本公司不承担给付身故保险金的责任：</p>
+<p>一、投保人对被保险人的故意杀害、故意伤害；</p>
+<p>二、被保险人故意犯罪或抗拒依法采取的刑事强制措施；</p>
+<p>三、被保险人在本合同成立或者本合同效力最后恢复之日起二年内自杀，但被保险人自杀时为无民事行为能力人的除外；</p>
+<h2 id="四被保险人服用吸食或注射毒品">四、被保险人服用、吸食或注射毒品；</h2>
+<p>五、被保险人酒后驾驶、无合法有效驾驶证驾驶，或驾驶无合法有效行驶证的机动车；</p>
+<p>六、战争、军事冲突、暴乱或武装叛乱；</p>
+<p>七、核爆炸、核辐射或核污染。</p>
+<p>无论上述何种情形发生，导致被保险人身故，本合同终止，本公司向投保人退还本合同的现金价值，但投保人对被保险人故意杀害或伤害造成被保险人身故的，本公司退还本合同的现金价值，作为被保险人遗产处理，但法律另有规定的除外。</p>
+<h2 id="第七条-保险费">第七条 保险费</h2>
+<p>保险费的交付方式分为一次性交付和分期交付两种。交付方式为分期交付的，交费期间分为三年、五年和十年三种，交付方式分为年交和月交两种，由投保人在投保时选择。</p>
+<p>本合同保险费的交付方式和交费期间一经确定，在本合同的保险期间内不得变更。</p>
+<h2 id="第八条-现金价值">第八条 现金价值</h2>
+<p>保险单所具有的价值，是指解除合同时，根据精算原理计算的、由本公司退还的那部分金额。保单年度末的现金价值会在保险合同上载明，保单年度内的现金价值，投保人可以向本公司咨询。</p>
+<h2 id="第九条-保险金申请所需证明和资料">第九条
+保险金申请所需证明和资料</h2>
+<p>一、申请养老年金、长寿金和满期保险金时，所需的证明和资料为：</p>
+<ol type="1">
+<li>保险单；</li>
+</ol>
+<p>2.申请人法定身份证明。</p>
+<p>二、申请身故保险金时，所需的证明和资料为：</p>
+<ol type="1">
+<li>保险单；</li>
+</ol>
+<p>2.申请人法定身份证明；</p>
+<ol start="3" type="1">
+<li>公安部门、二级以上（含二级）医院或其他相关机构出具的被保险人死亡证明；</li>
+</ol>
+<p>4.本公司要求的申请人所能提供的与确认保险事故的性质、原因等相关的其他证明和资料。</p>
+<h2 id="第十条-保险金的申请与给付">第十条 保险金的申请与给付</h2>
+<p>一、保险金申请时，由受益人作为申请人，填写保险金给付申请书，并提供本合同利益条款所列的保险金申请所需证明和资料。</p>
+<p>上述证明和资料不完整的，本公司将于二个工作日内一次性通知申请人补充提供有关证明和资料。</p>
+<p>二、本公司收到申请人的保险金给付申请书及上述证明和资料后，将于五个工作日内作出核定；情形复杂的，将在三十日内作出核定。经核定后确定属于保险责任的，本公司在与申请人达成给付保险金的协议后十日内，履行给付保险金的义务；不属于保险责任的，本公司将于作出核定后一个工作日内通知申请人。</p>
+<p>本公司自收到申请人的保险金给付申请书及上述证明和资料之日起六十日内，对属于保险责任而给付保险金的数额不能确定的，根据已有证明和资料，按可以确定的数额先予支付，本公司最终确定给付保险金的数额后，支付相应的差额。</p>
+<p>三、人寿保险以外的其他保险的申请人，向本公司请求给付保险金的诉讼时效期间为二年，自其知道或者应当知道保险事故发生之日起计算。人寿保险的申请人向本公司请求给付保险金的诉讼时效期间为五年，自其知道或者应当知道保险事故发生之日起计算。</p>
+<h2 id="第十一条-投保人解除合同的处理">第十一条
+投保人解除合同的处理</h2>
+<p>本合同成立后，除本合同另有约定外，投保人可以要求解除本合同。投保人要求解除本合同时，应填写解除合同申请书，并提交保险合同和投保人法定身份证明。</p>
+<p>本合同自本公司接到解除合同申请书时终止。投保人于签收保险单后十五日内要求解除本合同的，本公司在接到解除合同申请书之日起三十日内向投保人退还本合同已收全部保险费。投保人于签收保险单十五日后要求解除本合同，本公司于接到解除合同申请书之日起三十日内向投保人退还本合同的现金价值。</p>
+<p>投保人于签收保险单十五日后解除本合同，可能会遭受一定的损失。</p>
+<p>本合同基本条款“投保人解除合同的处理”事项不适用于本合同。</p>
+<h2 id="第十二条-附则">第十二条 附则</h2>
+<p>一、本合同基本条款“保险金的申请与给付”事项不适用于本合同。<br />
+二、本合同基本条款与本合同利益条款相抵触的，以本合同利益条款为准。</p>
+<h2 id="第十三条-释义">第十三条 释义</h2>
+<p>基本保险金额：指保险单载明的保险金额。</p>
+<p>毒品：指中华人民共和国刑法规定的鸦片、海洛因、甲基苯丙胺（冰毒）、吗啡、大麻、可卡因以及国家规定管制的其他能够使人形成瘾癖的麻醉药品和精神药品，但不包括由医生开具并遵医嘱使用的用于治疗疾病但含有毒品成分的处方药品。</p>
+<p>酒后驾驶：指经检测或鉴定，发生事故时车辆驾驶人员每百毫升血液中的酒精含量达到或超过一定的标准，公安机关交通管理部门依据《道路交通安全法》的规定认定为饮酒后驾驶或醉酒后驾驶。</p>
+<p>无合法有效驾驶证驾驶：指下列情形之一：</p>
+<ol type="1">
+<li>没有取得驾驶资格;<br />
+</li>
+<li>驾驶与驾驶证准驾车型不相符合的车辆；<br />
+</li>
+<li>持审验不合格的驾驶证驾驶;<br />
+</li>
+<li>持学习驾驶证学习驾车时，无教练员随车指导，或不按指定时间、路线学习驾车。</li>
+</ol>
+<p>无合法有效行驶证：指下列情形之一：</p>
+<ol type="1">
+<li>机动车被依法注销登记的;<br />
+</li>
+<li>未依法按时进行或通过机动车安全技术检验。</li>
+</ol>
+<p>机动车：指以动力装置驱动或者牵引，供人员乘用或者用于运送物品以及进行工程专项作业的轮式车辆。</p>
+<p>战争：指国家与国家、民族与民族、政治集团与政治集团之间为了一定的政治、经济目的而进行的武装斗争，以政府宣布为准。</p>
+<p>军事冲突：指国家或民族之间在一定范围内的武装对抗，以政府宣布为准。</p>
+<p>暴乱：指破坏社会秩序的武装骚动，以政府宣布为准。</p>
+<h1 id="中国人寿保险股份有限公司-个人保险基本条款">中国人寿保险股份有限公司
+个人保险基本条款</h1>
+<h2 id="第一条-保险合同成立生效和保险责任开始">第一条
+保险合同成立、生效和保险责任开始</h2>
+<p>投保人提出保险申请、本公司同意承保，本合同成立，合同成立日期在保险单上载明。</p>
+<p>自本合同成立、本公司收取首期保险费并签发保险单的次日零时起本合同生效，合同生效日期在保险单上载明。生效对应日、保单年度均以该日期计算。</p>
+<p>除另有约定外，本合同生效的日期为本公司开始承担保险责任的日期。</p>
+<h2 id="第二条-首期后保险费的交付宽限期间及合同效力中止">第二条
+首期后保险费的交付、宽限期间及合同效力中止</h2>
+<p>分期交付保险费的，首期保险费后的年交、半年交、季交或月交保险费的交付日期分别为本合同年生效对应日、半年生效对应日、季生效对应日或月生效对应日。</p>
+<p>投保人未按上述规定日期交付保险费的，自次日起六十日为宽限期间；在宽限期间内发生保险事故，本公司仍承担保险责任；超过宽限期间仍未交付保险费的，本合同效力自宽限期间届满的次日起中止。在本合同效力中止期间，本公司不承担保险责任。</p>
+<h2 id="第三条-合同效力恢复复效">第三条 合同效力恢复（复效）</h2>
+<p>在本合同效力中止之日起二年内, 投保人可填写复效申请书,
+并提供被保险人的健康声明书或二级以上（含二级）医院出具的体检报告书,
+申请恢复合同效力。经本公司与投保人协商并达成协议,
+自投保人补交所欠的保险费及利息、借款及利息的次日起, 本合同效力恢复。</p>
+<p>自本合同效力中止之日起二年内双方未达成协议的，本公司有权解除本合同，并向投保人退还本合同的现金价值。</p>
+<h2 id="第四条-明确说明与如实告知">第四条 明确说明与如实告知</h2>
+<p>订立本合同时，本公司应向投保人明确说明本合同的内容。对保险条款中免除本公司责任的条款，本公司在订立合同时应当在投保单、保险单或者其他保险凭证上作出足以引起投保人注意的提示，并对该条款的内容以书面或者口头形式向投保人作出明确说明。</p>
+<p>本公司可以就投保人、被保险人的有关情况提出询问，投保人应当如实告知。申请恢复本合同效力时，投保人应如实告知被保险人当时的健康状况。</p>
+<p>投保人故意或者因重大过失未履行前款规定的如实告知义务，足以影响本公司决定是否同意承保或者提高保险费率的，本公司有权解除合同。</p>
+<p>前款规定的合同解除权，自本公司知道有解除事由之日起，超过三十日不行使而消灭。自本合同成立之日起超过二年的，本公司不得解除合同；发生保险事故的，本公司承担给付保险金的责任。</p>
+<p>投保人故意不履行如实告知义务的，本公司对于合同解除前发生的保险事故，不承担给付保险金的责任，并不退还保险费。</p>
+<p>投保人因重大过失未履行如实告知义务，对保险事故的发生有严重影响的，本公司对于合同解除前发生的保险事故，不承担给付保险金的责任，但退还保险费。</p>
+<p>本公司在本合同订立时已经知道投保人未如实告知的情况的，本公司不得解除合同；发生保险事故的，本公司承担给付保险金的责任。</p>
+<h2 id="第五条-受益人">第五条 受益人</h2>
+<p>本合同包含身故保险责任的，被保险人或投保人可指定一人或数人为身故保险金受益人。</p>
+<p>除本合同另有指定外，本合同约定的除身故保险金外的其他保险金的受益人为被保险人本人。</p>
+<p>受益人为数人的，可以确定受益顺序和受益份额；未确定受益份额的，受益人按照相等份额享有受益权。</p>
+<p>被保险人为无民事行为能力人或限制民事行为能力人的，可以由其监护人指定受益人。</p>
+<p>被保险人或投保人可以变更身故保险金受益人，但需书面通知本公司，由本公司在保险单或其他保险凭证上批注或者附贴批单。</p>
+<p>投保人指定或变更身故保险金受益人时须经被保险人同意。</p>
+<p>被保险人身故后，有下列情形之一的，保险金作为被保险人的遗产，由本公司依照《中华人民共和国继承法》的规定履行给付保险金的义务：</p>
+<ol type="1">
+<li>没有指定受益人，或者受益人指定不明无法确定的；<br />
+</li>
+<li>受益人先于被保险人身故，没有其他受益人的；<br />
+</li>
+<li>受益人依法丧失受益权或者放弃受益权，没有其他受益人的。</li>
+</ol>
+<p>受益人与被保险人在同一事件中身故，且不能确定身故先后顺序的，推定受益人身故在先。</p>
+<p>受益人故意造成被保险人死亡、伤残、疾病的，或者故意杀害被保险人未遂的，该受益人丧失受益权。</p>
+<h2 id="第六条-保险事故的通知">第六条 保险事故的通知</h2>
+<p>投保人、被保险人或受益人知道保险事故发生后，应及时通知本公司。若因故意或者因重大过失未及时通知，致使保险事故的性质、原因、损失程度等难以确定的，本公司对无法确定的部分，不承担给付保险金的责任，但本公司通过其他途径已经及时知道或者应当及时知道保险事故发生的除外。</p>
+<h2 id="第七条-保险金的申请与给付">第七条 保险金的申请与给付</h2>
+<p>一、保险金申请时，由受益人作为申请人，填写保险金给付申请书，并提供本合同利益条款所列的保险金申请所需证明和资料。</p>
+<p>上述证明和资料不完整的，本公司将及时一次性通知申请人补充提供有关证明和资料。</p>
+<p>二、本公司收到申请人的保险金给付申请书及上述证明和资料后，将及时作出核定；情形复杂的，将在三十日内作出核定，但本合同另有约定的除外。经核定后确定属于保险责任的，本公司在与申请人达成给付保险金的协议后十日内，履行给付保险金的义务；不属于保险责任的，本公司将自作出核定之日起三日内向申请人发出拒绝给付保险金通知书，并说明理由。</p>
+<p>本公司自收到申请人的保险金给付申请书及上述证明和资料之日起六十日内，对属于保险责任而给付保险金的数额不能确定的，根据已有证明和资料，按可以确定的数额先予支付，本公司最终确定给付保险金的数额后，支付相应的差额。</p>
+<p>三、人寿保险的申请人向本公司请求给付保险金的诉讼时效期间为五年，自其知道或者应当知道保险事故发生之日起计算。人寿保险以外的其他保险的申请人，向本公司请求给付保险金的诉讼时效期间为二年，自其知道或者应当知道保险事故发生之日起计算。</p>
+<h2 id="第八条-借款">第八条 借款</h2>
+<p>在本合同保险期间内，如果本合同已经具有现金价值，投保人可以书面形式向本公司申请借款，但最高借款金额不得超过本合同当时的现金价值扣除欠交保险费、借款及利息后余额的百分之八十，且每次借款期限不得超过六个月。</p>
+<p>借款及利息应在借款期限届满日偿还。未能按期偿还的，则所有利息将被并入原借款金额中，视同重新借款。</p>
+<p>当本合同当时的现金价值不足以抵偿欠交的保险费、借款及利息时，本合同效力中止。</p>
+<h2 id="第九条-欠款扣除">第九条 欠款扣除</h2>
+<p>本公司在给付保险金、派发红利（仅适用于分红型保险）、退还本合同现金价值或保险费时，如投保人有欠交保险费或保险单借款未还清者，本公司有权先扣除欠款及其应付利息。</p>
+<h2 id="第十条-合同内容变更">第十条 合同内容变更</h2>
+<p>投保人和本公司可以协商变更本合同的内容。变更本合同时，投保人应填写变更合同申请书，经本公司审核同意后，由本公司在保险单或者其他保险凭证上批注或者附贴批单，或者由投保人和本公司订立变更的书面协议。</p>
+<h2 id="第十一条-住所或通讯地址变更">第十一条 住所或通讯地址变更</h2>
+<p>投保人的住所或通讯地址变更时，应及时以书面形式通知本公司。投保人未以书面形式通知的，本公司按所知最后的投保人住所或通讯地址发送有关通知。</p>
+<h2 id="第十二条-年龄计算及错误处理">第十二条 年龄计算及错误处理</h2>
+<p>被保险人的投保年龄按周岁计算。投保人应在投保本保险时将被保险人的真实年龄在投保单上填明，如果发生错误，除本合同另有约定外，本公司按照下列规定办理：</p>
+<p>一、投保人申报的被保险人年龄不真实，并且其真实年龄不符合合同约定的年龄限制的，本公司有权在知道有解除事由之日起三十日内解除本合同，并向投保人退还本合同的现金价值，但自本合同成立之日起超过二年的除外。<br />
+二、投保人申报的被保险人年龄不真实，致使投保人支付的保险费少于应付保险费的，本公司有权更正并要求投保人补交保险费，或在给付保险金时按照实付保险费与应付保险费的比例支付。<br />
+三、投保人申报的被保险人年龄不真实，致使投保人支付的保险费多于应付保险费的，本公司应将多收的保险费无息退还投保人。</p>
+<h2 id="第十三条-未成年人身故保险金限制">第十三条
+未成年人身故保险金限制</h2>
+<p>为未成年子女投保的人身保险，因被保险人身故给付的保险金总和不得超过国务院保险监督管理机构规定的限额。</p>
+<h2 id="第十四条-投保人解除合同的处理">第十四条
+投保人解除合同的处理</h2>
+<p>本合同成立后，除本合同另有约定外，投保人可以要求解除本合同。投保人要求解除本合同时，应填写解除合同申请书，并提交保险合同和投保人法定身份证明。</p>
+<p>本合同自本公司接到解除合同申请书时终止。投保人于签收保险单后十日内要求解除本合同的，本公司在接到解除合同申请书之日起三十日内向投保人退还已收全部保险费。投保人于签收保险单十日后要求解除本合同，本公司于接到解除合同申请书之日起三十日内向投保人退还本合同的现金价值。</p>
+<h2 id="第十五条-争议处理">第十五条 争议处理</h2>
+<p>本合同争议的解决方式，由当事人在合同中约定从下列两种方式中选择一种：</p>
+<p>一、因履行本合同发生的争议，由当事人协商解决，协商不成的，提交×××仲裁委员会仲裁；<br />
+二、因履行本合同发生的争议，由当事人协商解决，协商不成的，依法向人民法院提起诉讼。</p>
+<h2 id="第十六条-释义">第十六条 释义</h2>
+<p>本公司：指中国人寿保险股份有限公司。</p>
+<p>生效对应日：生效日每年（半年、季或月）的对应日为本合同每年（半年、季或月）生效对应日。</p>
+<p>保单年度：自本合同生效日（或年生效对应日）起至下一个年生效对应日前一日的二十四时止。</p>
+<p>利息：指补交保险费或借款的利息，根据补交保险费或借款的数额、经过日数按日利率依复利方式计算。日利率
+=
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false" form="prefix">(</mo><mn>1</mn><mo>+</mo><mtext mathvariant="normal">年利率</mtext><msup><mo stretchy="false" form="postfix">)</mo><mrow><mn>1</mn><mi>/</mi><mn>360</mn></mrow></msup><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">(1 + \text{年利率})^{1/360} - 1</annotation></semantics></math>
+，年利率由本公司每年度公布一次。</p>
+<p>周岁：指按法定身份证明文件中记载的出生日期计算的年龄，自出生之日起为零周岁，每经过一年增加一岁，不足一年的不计。</p>
+<p>法定身份证明：指依据法律规定，由有权机构制作颁发的证明身份的证件、文件等，如：居民身份证、户口簿、护照、军人证等。</p>
+</body>
+</html>
