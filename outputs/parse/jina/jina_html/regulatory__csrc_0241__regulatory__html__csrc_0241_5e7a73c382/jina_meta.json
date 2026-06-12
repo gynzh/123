@@ -1,0 +1,9 @@
+{
+  "api": "jina_reader",
+  "endpoint": "https://r.jina.ai/",
+  "respond_with": "readerlm-v2",
+  "reference_url": "https://afac.local/regulatory/html/csrc_0241.html",
+  "source_rel_path": "regulatory/html/csrc_0241.html",
+  "doc_id": "csrc_0241",
+  "domain": "regulatory"
+}
