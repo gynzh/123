@@ -1,7 +1,7 @@
 {
   "num_documents": 573,
   "num_upload_parts": 604,
-  "num_chunks": 13884,
+  "num_chunks": 13881,
   "domains": [
     "financial_contracts",
     "financial_reports",

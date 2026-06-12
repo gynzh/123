@@ -129,6 +129,8 @@ python scripts/parse_documents.py parse `
   --output-dir outputs/parse/mineru `
   --model-version vlm `
   --extra-format html `
+  --ocr `
+  --no-cache `
   --poll-interval 10 `
   --max-wait 3600
 ```

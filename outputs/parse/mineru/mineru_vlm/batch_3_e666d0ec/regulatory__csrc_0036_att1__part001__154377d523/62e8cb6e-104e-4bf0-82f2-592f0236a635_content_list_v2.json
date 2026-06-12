@@ -1,0 +1,120 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "关于修改、废止部分证券期货规范性文件的决定"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                179,
+                127,
+                818,
+                153
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为做好新修订的《公司法》的贯彻落实工作，中国证监会对有关证券期货规范性文件进行了清理。经过清理，中国证监会决定："
+                    }
+                ]
+            },
+            "bbox": [
+                144,
+                203,
+                850,
+                298
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "一、对 65 部规范性文件的部分条款予以修改。(附件 1)"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "二、对 2 部规范性文件予以废止。(附件 2)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                196,
+                313,
+                815,
+                373
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本决定自公布之日起施行。"
+                    }
+                ]
+            },
+            "bbox": [
+                196,
+                388,
+                490,
+                409
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "附件：1. 中国证监会决定修改的规范性文件"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2.中国证监会决定废止的规范性文件"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                196,
+                462,
+                673,
+                521
+            ]
+        }
+    ]
+]

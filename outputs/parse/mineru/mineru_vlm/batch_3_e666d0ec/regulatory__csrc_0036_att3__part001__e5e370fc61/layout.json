@@ -1,0 +1,354 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        76,
+                        111,
+                        121,
+                        128
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                76,
+                                111,
+                                121,
+                                128
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        111,
+                                        121,
+                                        128
+                                    ],
+                                    "type": "text",
+                                    "content": "附件 2"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        160,
+                        155,
+                        434,
+                        178
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                160,
+                                155,
+                                434,
+                                178
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        160,
+                                        155,
+                                        434,
+                                        178
+                                    ],
+                                    "type": "text",
+                                    "content": "中国证监会决定废止的规范性文件"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        76,
+                        219,
+                        518,
+                        364
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 4,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                76,
+                                219,
+                                518,
+                                301
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        219,
+                                        518,
+                                        301
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                76,
+                                                219,
+                                                518,
+                                                301
+                                            ],
+                                            "type": "text",
+                                            "content": "一、上市公司监管指引第1号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求（2012年3月23日证监会公告〔2012〕6号）"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2,
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                76,
+                                312,
+                                515,
+                                364
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        312,
+                                        515,
+                                        364
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                76,
+                                                312,
+                                                515,
+                                                364
+                                            ],
+                                            "type": "text",
+                                            "content": "二、关于进一步落实上市公司现金分红有关事项的通知（2012年5月4日 证监发〔2012〕37号）"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3,
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        293,
+                        781,
+                        299,
+                        790
+                    ],
+                    "type": "page_number",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                293,
+                                781,
+                                299,
+                                790
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        293,
+                                        781,
+                                        299,
+                                        790
+                                    ],
+                                    "type": "text",
+                                    "content": "1"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                }
+            ],
+            "page_size": [
+                595,
+                841
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        76,
+                        111,
+                        121,
+                        128
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                76,
+                                111,
+                                121,
+                                128
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        111,
+                                        121,
+                                        128
+                                    ],
+                                    "type": "text",
+                                    "content": "附件 2"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        160,
+                        155,
+                        434,
+                        178
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                160,
+                                155,
+                                434,
+                                178
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        160,
+                                        155,
+                                        434,
+                                        178
+                                    ],
+                                    "type": "text",
+                                    "content": "中国证监会决定废止的规范性文件"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        76,
+                        219,
+                        518,
+                        364
+                    ],
+                    "type": "list",
+                    "angle": 0,
+                    "index": 4,
+                    "blocks": [
+                        {
+                            "bbox": [
+                                76,
+                                219,
+                                518,
+                                301
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        219,
+                                        518,
+                                        301
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                76,
+                                                219,
+                                                518,
+                                                301
+                                            ],
+                                            "type": "text",
+                                            "content": "一、上市公司监管指引第1号——上市公司实施重大资产重组后存在未弥补亏损情形的监管要求（2012年3月23日证监会公告〔2012〕6号）"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 2,
+                            "merge_prev": false
+                        },
+                        {
+                            "bbox": [
+                                76,
+                                312,
+                                515,
+                                364
+                            ],
+                            "type": "text",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        312,
+                                        515,
+                                        364
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                76,
+                                                312,
+                                                515,
+                                                364
+                                            ],
+                                            "type": "text",
+                                            "content": "二、关于进一步落实上市公司现金分红有关事项的通知（2012年5月4日 证监发〔2012〕37号）"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 3,
+                            "merge_prev": false
+                        }
+                    ],
+                    "sub_type": "text"
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_ocr_enable": true,
+    "_vlm_ocr_enable": true,
+    "_version_name": "3.2.1"
+}

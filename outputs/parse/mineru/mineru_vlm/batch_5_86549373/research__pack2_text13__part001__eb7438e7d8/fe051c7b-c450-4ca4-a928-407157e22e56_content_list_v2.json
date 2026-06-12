@@ -1,0 +1,5951 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "农林牧渔"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                65,
+                112,
+                226,
+                142
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "宠物医院报告：从激进扩张走到稳健发展"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                63,
+                156,
+                615,
+                181
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "宠物医疗需求升级，行业由激进扩张到内生重塑。1、宠物医疗：2025年宠物医疗行业规模同比+9.25%；这一增长主要由以下几方面因素驱动，且持续推动我国宠物医疗市场发展：1）宠物犬猫数量及家庭饲养率的持续增加；2）单只宠物的平均消费水平稳步上升。3）宠物老龄化与宠物主人年轻化双轨驱动，其在慢性病管理、功能处方粮及专业康复护理领域形成持续消费需求。2、宠物医院：数量增长快，格局分散、连锁率低；我国宠物行业发展起步较晚，宠物医院数量的增长也反映了宠物医疗需求的升级，最新2025年我国宠物医院数量达到2.46万家，同比增长10.3%，我国宠物医院还面临格局分散、连锁率低的情况，2025年有78%的机构月营业额在20万以下，有53.4%的诊疗机构年营业额负增长，前五大企业集中度仅为6.5%。"
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                196,
+                610,
+                367
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "复盘1：看国内，从激进扩张到稳健发展。与美国相比，不管是集中化程度还是盈利水平，我国的宠物诊疗机构还有着较大的差距，但近几年在行业快速发展下，我国已基本形成了大连锁与精品医院共存的格局，从新瑞鹏、瑞派宠物门店数量回落、瑞派宠物近几年盈利水平大幅改善（2025H1毛利率  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "25\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 、净利率为正）可以看出，头部连锁企业的发展思路也从门店数量的激进扩张逐步走到提升运营质量的稳健发展上：1）新瑞鹏：追求外延扩张，成长为我国第一大宠物医疗机构，公司依托资本优势创立多品牌“ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 + P + C"
+                    },
+                    {
+                        "type": "text",
+                        "content": "”系统。2）瑞派宠物：追求稳健发展，我国第二大宠物医疗机构，在运营模式上，公司构建三级诊疗协同体系和首创了VDP兽医发展伙伴模式。"
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                380,
+                610,
+                535
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "复盘2：看全球，复盘玛氏医疗，从大连锁到专科连锁。美国是诊疗机构最多的国家，其宠物医疗体系也最为健全，医院普遍具备手术、影像、牙科、心血管、肿瘤与康复等专科能力，形成“全科+专科+急救”的三层体系，2024年美国拥有约3.4万家诊疗机构。主要模式有1）VCA：树立全球宠物医疗连锁标杆模式“诊疗-诊断”，以综合性医院为主，2025年VCA拥有诊疗机构超1000家、年服务400万+宠物主。2）Banfield：以预防医学为主的连锁精品社区医院，与PetSmart深度绑定，在美国和波多黎各拥有超过1000家医院。3）BluePearl：深耕社区的转诊中心，专科化让医院成为“不可替代”，全美拥有超100家医院大型专科医院。"
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                548,
+                610,
+                689
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "未来发展：大连锁打造稳健发展，精品专科医院谋增长。我国宠物医疗行业起步比美国晚20年，目前正处于连锁化扩张的关键阶段。从VCA走全科大连锁、Banfield以预防医学为主发展连锁社区医院、BluePearl走专业化专科医院，其走过40-80年的发展历程，均找到适合自身理念的模式，在最佳规模下实现高利润增长。而看国内，积极扩张带来的是利"
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                702,
+                610,
+                778
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "润快速下滑，而瑞派宠物吸取后发优势，独创 VDP 兽医发展伙伴模式，初步解决扩张中 “人” 和 “管理” 的问题，谋求稳健发展。我们认为，看历史经验，未来我国可以走出一条大连锁稳健发展、专科精品医院谋增长的道路。"
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                780,
+                610,
+                841
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "风险提示: 宠物数量增长不及预期; 市场竞争加剧导致医院效益不及预期; 核心兽医人才短缺及流失。"
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                860,
+                606,
+                892
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "增持（维持）"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                721,
+                196,
+                838,
+                214
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/766eb4ffa195fb365a16e0f23be5ed678a5a8a961a12655932b2dfab37c749a5.jpg"
+                },
+                "content": "| Date     | 农林牧渔 | 沪深300 |\n| -------- | -------- | ------- |\n| 2025-04  | -2%      | -2%     |\n| 2025-08  | 14%      | 14%     |\n| 2025-12  | 14%      | 22%     |\n| 2026-04  | 6%       | 22%     |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "行业走势"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "sub_type": "line chart",
+            "bbox": [
+                650,
+                262,
+                907,
+                397
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "作者"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                635,
+                410,
+                670,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "分析师 张斌梅"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                432,
+                742,
+                445
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "执业证书编号：S0680523070007"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                449,
+                823,
+                460
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "邮箱：zhangbinmei@gszq.com"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                464,
+                808,
+                476
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "分析师 沈嘉妍"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                480,
+                742,
+                492
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "执业证书编号：S0680524040001"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                495,
+                821,
+                506
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "邮箱：shenjiayan@gszq.com"
+                    }
+                ]
+            },
+            "bbox": [
+                635,
+                511,
+                798,
+                523
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "相关研究"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                635,
+                529,
+                705,
+                544
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1、《农林牧渔：生猪全面步入亏损，大宗原料成本稳步抬升》2026-03-30"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                552,
+                932,
+                580
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2、《农林牧渔：关注地缘政治对农业整体板块的影响，生猪亏损加深逻辑增强》 2026-03-02"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                583,
+                931,
+                611
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3、《农林牧渔：关注原油波动对农产品带动效应，生猪旺季亏损静待催化》2026-02-02"
+                    }
+                ]
+            },
+            "bbox": [
+                633,
+                614,
+                932,
+                642
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                43,
+                265,
+                87
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "证券研究报告 | 行业深度"
+                    }
+                ]
+            },
+            "bbox": [
+                749,
+                60,
+                942,
+                76
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                825,
+                79,
+                941,
+                91
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                398,
+                950,
+                603,
+                965
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "内容目录"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                63,
+                90,
+                161,
+                109
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "一、宠物医疗需求升级，行业由疯狂扩张到内生重塑....3"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                63,
+                118,
+                934,
+                134
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1、宠物医疗：2025年宠物医疗行业规模预计同比+7.92% 3"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2、宠物医院：数量增长快，格局分散、连锁率低....4"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                97,
+                135,
+                934,
+                165
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "二、经营模式：大连锁与精品医院共促行业发展 7"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                63,
+                166,
+                934,
+                180
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1、看全球：复盘玛氏医疗，从大连锁到专科连锁....7"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2、看国内：从激进扩张到稳健发展....10"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                97,
+                181,
+                934,
+                211
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "三、大连锁追求稳健发展，精品专科医院谋增长 16"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                63,
+                212,
+                934,
+                225
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "四、风险提示 19"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                63,
+                228,
+                934,
+                242
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "图表目录"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                63,
+                258,
+                161,
+                277
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 1: 2025 年我国宠物医疗行业规模估计为 395 亿元，同比 +7.92% …… 3"
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                287,
+                937,
+                302
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表2：我国宠物猫数量CAGR（2025-2030）达  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "8.2\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 4"
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                304,
+                937,
+                318
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表3：2025年我国猫狗家庭养宠率仍相对较低 4"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                319,
+                937,
+                332
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 4: 单只犬猫年均消费持续增长....4"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                335,
+                937,
+                349
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 5: 2024 年我国宠物就诊率还相对较低.....4"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                350,
+                937,
+                363
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 6: 我国宠物诊疗机构数量.....5"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                366,
+                937,
+                380
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表7：宠物诊疗机构不同区间月营业额占比（万元） 5"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                381,
+                937,
+                395
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表8: 宠物诊疗机构不同区间年营业额同比增长率占比 5"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                397,
+                937,
+                410
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 9: 我国宠物医院连锁率仍较低（%）....6"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                412,
+                937,
+                426
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 10: 二线及以下城市占比 67%（%）......6"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                426,
+                937,
+                441
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 11: 宠物诊疗机构不同区间投资规模占比（%）......6"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                443,
+                937,
+                456
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 12: 2024 年主要国家宠物诊疗机构数量及增速（家）.....7"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                458,
+                937,
+                472
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 13: 每万只宠物所匹配的宠物医院（家）及兽医数量（人）....7"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                473,
+                937,
+                487
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 14: 2024 年玛氏拥有美国 51 个宠物临床研究中心、欧洲 28 个宠物临床研究中心....8"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                489,
+                937,
+                502
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 15: VCA 退市前营收、净利润及同比（USD/百万元）....9"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                504,
+                937,
+                518
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 16: 公司退市前销售毛利率及净利率情况.....9"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                520,
+                937,
+                533
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 17: 公司医院网络 ..... 9"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                535,
+                937,
+                549
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 18: 全生命周期服务 OWP 套餐 …… 10"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                550,
+                937,
+                564
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 19: 我国头部五家宠物医院情况 …… 11"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                565,
+                937,
+                580
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 20: 新瑞鹏宠物医院数量（家） 11"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                582,
+                937,
+                596
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 21: 瑞派宠物医院数量（家）..... 11"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                596,
+                875,
+                611
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 22: 新瑞鹏宠物医院毛利率及净利率..... 11"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                613,
+                937,
+                626
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 23: 瑞派宠物医院毛利率及净利率.....11"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                627,
+                937,
+                640
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 24: 新瑞鹏集团品牌矩阵 ..... 12"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                643,
+                937,
+                657
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 25: 新瑞鹏医院网络系统 ..... 13"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                659,
+                937,
+                671
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 26: 新瑞鹏单店收入下滑 ..... 13"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                674,
+                937,
+                687
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表27：截至2025年上半年，公司宠物医院数量达548家（家） 14"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                689,
+                937,
+                703
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 28: 公司企业使命-致力宠物健康，赢得宠主敬重.....14"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                705,
+                937,
+                718
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 29: 2025H1 公司宠物诊疗服务收入占比 91%（%） 15"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                720,
+                937,
+                734
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 30: 2025H1 公司区域中心医院收入占比 44%（%） 15"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                736,
+                937,
+                749
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 31: 公司三级诊疗协同体系 ..... 15"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                751,
+                937,
+                764
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 32: 公司人效稳步提升（千元/人）..... 16"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                766,
+                937,
+                780
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 33: 公司坪效稳步提升（千元/平方米）..... 16"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                782,
+                937,
+                795
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 34: 截至瑞派宠物招股说明书公告最后实际可行日期公司医疗人员占比 74%.....16"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                797,
+                937,
+                810
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 35: 截至瑞派宠物招股说明书公告最后实际可行日期公司兽医从业人员五年经验以上占比达 49%......16"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                813,
+                937,
+                826
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 36: 人才问题是宠物诊疗机构面临的最大问题 ..... 17"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                828,
+                937,
+                841
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 37: 大于 10 人执业兽医的诊疗机构只占 7%（%）..... 17"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                844,
+                937,
+                857
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 38: 诊疗机构专科及以下人员占比 60%（%） ..... 17"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                859,
+                937,
+                872
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 39: 专科诊疗占比未来营收增长点 74%....18"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                873,
+                937,
+                887
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表 40: 专科化也是未来趋势 ..... 18"
+                    }
+                ]
+            },
+            "bbox": [
+                65,
+                890,
+                937,
+                903
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                944,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.2"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                933,
+                102,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                394,
+                933,
+                600,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "一、宠物医疗需求升级，行业由疯狂扩张到内生重塑"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                270,
+                78,
+                855,
+                99
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1、宠物医疗：2025年宠物医疗行业规模预计同比  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "+7.92\\%"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                270,
+                137,
+                813,
+                155
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我国宠物市场进入高速发展期，宠物医疗市场规模连年增加。2025年，我国宠物市场规模已达到3126亿元，同比增长  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "4.1\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，预计2028年宠物市场规模达4050亿元。其中，宠物医院及诊所为服务场所的宠物医疗赛道因其需求刚性、市场广阔、且具备深厚的护城河，同时消费结构的变化，均使得我国宠物市场医疗支出持续提高，根据灼识咨询报告2025年我国宠物医疗行业规模估计为395亿元，同比  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "+7.92\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                268,
+                181,
+                944,
+                265
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/5effd882d0f3cabbf089ea736a59d3b2a2b5037dfd054d8150f29e32d781fc05.jpg"
+                },
+                "content": "| 年份       | 中国宠物医疗行业规模 (十亿元) | 同比增长 |\n| ---------- | ----------------------------- | -------- |\n| 2022年     | 33                            | -        |\n| 2023年     | 35                            | 8.5%     |\n| 2024年     | 37                            | 5.5%     |\n| 2025年 (估计) | 40                          | 7.5%     |\n| 2026年 (估计) | 43                          | 7.0%     |\n| 2027年 (估计) | 45                          | 6.5%     |\n| 2028年 (估计) | 51                          | 13.0%    |\n| 2029年 (估计) | 57                          | 11.5%    |\n| 2030年 (估计) | 70                          | 22.5%    |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表1：2025年我国宠物医疗行业规模估计为395亿元，同比+7.92%"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：灼识咨询、瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar-line hybrid chart",
+            "bbox": [
+                302,
+                305,
+                907,
+                558
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "这一增长主要由以下几方面因素驱动，且持续推动我国宠物医疗市场发展："
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                268,
+                596,
+                845,
+                614
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1）宠物犬猫数量及家庭饲养率的持续增加。根据《2025 中国宠物医疗行业研究报告》我国宠物数量增长较快，其中猫数量预计 CAGR（2025-2028）达 8.2%；其次目前我国家庭养宠率较低，2025 年犬猫家庭养宠率分别为 14.2%/15.1%，较美国（43%/38.3%）、巴西（52%/24.9%）等国均有较大发展空间。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2）单只宠物的平均消费水平稳步上升。数量与单宠消费的双重推动，使宠物市场规模持续扩大，并为行业长期稳定发展奠定了坚实基础，2025年我国单只犬年均消费3006元，同比增长1.5%，单只猫年均消费2085元，同比增长较多为3.2%。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3）宠物老龄化与宠物主人年轻化双轨驱动。随着城镇中约  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "32\\%"
+                            },
+                            {
+                                "type": "text",
+                                "content": " 的宠物猫和  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "20\\%"
+                            },
+                            {
+                                "type": "text",
+                                "content": " 的宠物狗步入中老年阶段，其在慢性病管理、功能处方粮及专业康复护理领域形成持续消费需求；同时，宠物主人整体呈现年轻化，25至35岁的年轻宠物主占比超过  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "60\\%"
+                            },
+                            {
+                                "type": "text",
+                                "content": " ，其中女性比例达  "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "60.5\\%"
+                            },
+                            {
+                                "type": "text",
+                                "content": " ，这一群体秉持科学养宠理念，将推动医疗及服务类别的消费。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                630,
+                944,
+                846
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                944,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.3"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                934,
+                102,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                394,
+                933,
+                600,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/ee7ecb7eaf7abe94b919e3194993a642e70c7064e2de3af3449105db76099c4a.jpg"
+                },
+                "content": "| 地区 | 宠物猫数量（万只） | CAGR (2025—2030) (%) |\n| :--- | :--- | :--- |\n| 美国 | 90,000 | 1.5 |\n| 中国 | 70,000 | 8.5 |\n| 巴西 | 38,000 | 5.5 |\n| 英国 | 12,000 | 0.8 |\n| 日本 | 8,000 | 0.4 |\n| 澳大利亚 | 6,000 | 0.5 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表2：我国宠物猫数量 CAGR（2025-2030）达 8.2%"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源:《2025 中国宠物医疗行业研究报告》(欧睿数据统计口径包含流浪猫犬)、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar-line hybrid",
+            "bbox": [
+                70,
+                87,
+                480,
+                273
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/f79c23ce7f1f03acfc3e0bd4d7be7575e370450f1b83dfe195a5d81446d59af2.jpg"
+                },
+                "content": "| 地区 | 家庭养宠率（猫）/% | 家庭养宠率（狗）/% |\n| :--- | :--- | :--- |\n| 美国 | 38 | 43 |\n| 巴西 | 25 | 52 |\n| 英国 | 21 | 29 |\n| 中国 | 15 | 14 |\n| 日本 | 9 | 8 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表3：2025年我国猫狗家庭养宠率仍相对较低"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "line chart",
+            "bbox": [
+                521,
+                87,
+                919,
+                275
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/162cf63d2e367401d0d1824d72a421546744d02547e4092313319b7bfcc60f88.jpg"
+                },
+                "content": "| Year | 单只犬消费金额 (元) | 单只猫消费金额 (元) |\n| ---- | ------------------ | ------------------ |\n| 2021 | 2600               | 1800               |\n| 2022 | 2900               | 1850               |\n| 2023 | 2850               | 1800               |\n| 2024 | 2950               | 2000               |\n| 2025 | 3000               | 2100               |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表4: 单只犬猫年均消费持续增长"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：中国宠物行业白皮书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "line chart",
+            "bbox": [
+                67,
+                367,
+                468,
+                551
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/b8d156d7b7138bbe1370e47349fdbc5ed63206685adaab4d79dce7f289d92097.jpg"
+                },
+                "content": "| 国家     | 宠物就诊率（猫）/% | 宠物就诊率（狗）/% |\n| -------- | ------------------ | ------------------ |\n| 巴西     | 10                 | 20                 |\n| 中国     | 35                 | 35                 |\n| 美国     | 55                 | 75                 |\n| 英国     | 65                 | 80                 |\n| 日本     | 65                 | 80                 |\n| 澳大利亚 | 68                 | 75                 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表5: 2024年我国宠物就诊率还相对较低"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "line chart",
+            "bbox": [
+                519,
+                367,
+                924,
+                551
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2、宠物医院：数量增长快，格局分散、连锁率低"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                265,
+                650,
+                712,
+                669
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我国宠物行业发展起步较晚，宠物医院数量也在近十年发展快速，1992年，中国小动物保护协会正式成立，标志着我国宠物行业开始萌芽。2004年中国畜牧兽医学会小动物医学分会成立，标志着行业开始走向规范化。2010-2016年宠物医院迎来爆发期，2014年资本大量投资宠物医疗行业，高瓴资本开始在国内投资及收购大量的宠物医院项目，我国宠物医院数量从2010年约2000家增至2016年近1万家，2023年突破2万家，最新2025年我国宠物医院数量达到2.46万家，同比增长  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "10.3\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，市场规模急速扩张，宠物医院数量的增长也反映了宠物医疗需求的升级。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                696,
+                944,
+                813
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.4"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                933,
+                102,
+                945
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                394,
+                933,
+                600,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/ffe0d0378df2eccb9afb9c049f6ec8ea59f89340599b8051d71693af4c453359.jpg"
+                },
+                "content": "| 年份 | 宠物诊疗机构数量 (家) | YOY (%) |\n| :--- | :--- | :--- |\n| 2020 | 16000 | |\n| 2021 | 18000 | 12.5 |\n| 2022 | 19930 | 10.5 |\n| 2023 | 20197 | 1.5 |\n| 2024 | 22320 | 10.8 |\n| 2025 | 24619 | 10.5 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表6: 我国宠物诊疗机构数量"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar-line hybrid chart",
+            "bbox": [
+                307,
+                85,
+                907,
+                328
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我国宠物医院面临格局分散、连锁率低的情况；资本快速涌入，行业参与者在短时间内实现快速扩容，造成行业监管短时缺位与市场供需阶段性失衡的局面，尽管机构数量较多，但市场由大量单体医院主导，呈现出“小而散”的竞争态势，根据《2025中国宠物医疗行业研究报告》最新数据，2025年有  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "78\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的机构月营业额在20万以下，有  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "53.4\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的诊疗机构年营业额负增长。"
+                    }
+                ]
+            },
+            "bbox": [
+                268,
+                386,
+                944,
+                469
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我国宠物医疗市场也仍处于连锁化初期，根据《2025中国宠物医疗行业研究报告》，2025年我国连锁宠物诊疗机构占比  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "21.3\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，单体宠物诊疗机构占比  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "78.7\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。从投资规模看，投资百万以下的机构占比达到  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "54\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，200万元以下的占比达到  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "84\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，从执业兽医数量看，拥有5人以下的机构占比达  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "78\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，仅有  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "7\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的机构拥有10人以上执业兽医。从城市分布看，宠物医院正在快速向二线、三线城市及五线城市渗透，二线及以下城市拥有的诊疗机构占比达  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "67\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 。"
+                    }
+                ]
+            },
+            "bbox": [
+                267,
+                487,
+                944,
+                577
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/79f062440b577c23d4603d723e64499e4a4cc7fa2b9a0c4e265154848b9e3fbb.jpg"
+                },
+                "content": "| 年龄段 | 2025年占比(%) (%) | 2024年占比(%) (%) |\n| :--- | :--- | :--- |\n| >80 | 3 | 3 |\n| >40~80 | 7 | 6 |\n| >20~40 | 14 | 12 |\n| 10~20 | 23 | 26 |\n| <10 | 56 | 55 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表7: 宠物诊疗机构不同区间月营业额占比（万元）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar chart",
+            "bbox": [
+                70,
+                625,
+                465,
+                814
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/b41055457c848a834403adf93743d750e68ff03ce626cc52a9eb9420011153c4.jpg"
+                },
+                "content": "| Category | 2025年(%) (%) | 2024年(%) (%) |\n|---|---|---|\n| >30 | 2.5 | 1.8 |\n| 10~30 | 6.5 | 5.8 |\n| <10 | 17.8 | 18.2 |\n| 0 | 21.0 | 23.0 |\n| -5~0 | 14.3 | 13.5 |\n| >-10~ -5 | 14.3 | 13.8 |\n| <-10 | 25.5 | 24.5 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表8：宠物诊疗机构不同区间年营业额同比增长率占比"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar chart",
+            "bbox": [
+                526,
+                624,
+                915,
+                816
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                944,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.5"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                933,
+                102,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                394,
+                933,
+                601,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/39d6ee849f5c043f67b74231c44458f30cfcbe9650dde31d36fdce684bf27ba7.jpg"
+                },
+                "content": "| 类别 | 数量 |\n|---|---|\n| 连锁宠物诊疗机构 | 21 |\n| 单体宠物诊疗机构 | 79 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表9: 我国宠物医院连锁率仍较低（%）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "pie chart",
+            "bbox": [
+                164,
+                116,
+                379,
+                244
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/dd04addde4dc3bd0bd3f5731008f507b83b5c756555009a613493af996127556.jpg"
+                },
+                "content": "| 城市级别 | 数量 |\n| :--- | :--- |\n| 一线城市（北上广深） | 10 |\n| 新一线城市 | 23 |\n| 二线及以下城市 | 67 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表10：二线及以下城市占比67%（%）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "pie chart",
+            "bbox": [
+                616,
+                97,
+                862,
+                244
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/fc4ae794172918db3730713a41efa2b1e3cd7844ca5461228611830333c5ba68.jpg"
+                },
+                "content": "| Category | Value |\n|---|---|\n| <100万元 | 54 |\n| 100-200万元 | 30 |\n| >200-500万元 | 12 |\n| >500万元 | 4 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表11：宠物诊疗机构不同区间投资规模占比（%）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "pie chart",
+            "bbox": [
+                468,
+                374,
+                714,
+                520
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.6"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                934,
+                102,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                394,
+                933,
+                600,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "二、经营模式：大连锁与精品医院共促行业发展"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                270,
+                58,
+                805,
+                80
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1、看全球：复盘玛氏医疗，从大连锁到专科连锁"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                268,
+                117,
+                712,
+                135
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "美国宠物医疗体系最为健全，2024年，美国宠物行业总规模达人民币9234亿元，其中宠物医疗市场规模为人民币2786亿元，占总体的  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "30.2\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，这一结构性差异的背后，是美国市场已建立起一个覆盖预防医学、专科诊疗、慢性病管理到临终关怀的全生命周期健康管理体系，其高医疗占比不仅源于更成熟的消费意识，更依赖于包括健康保险、先进影像诊断和复杂外科手术在内的完整服务生态。2024年美国拥有约3.4万家宠物诊疗机构。"
+                    }
+                ]
+            },
+            "bbox": [
+                267,
+                143,
+                944,
+                243
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/e9deaa9bea2346536928a769a7525bf2fb334e287a64b46378be36a078d32e36.jpg"
+                },
+                "content": "2024年主要国家宠物诊疗机构数量\n| 国家 | 2024年主要国家宠物诊疗机构数量 | CAGR (2019-2024) (%) |\n| :--- | :--- | :--- |\n| 巴西 | 69,000 | 3.0 |\n| 美国 | 34,000 | 8.5 |\n| 中国 | 30,000 | 2.0 |\n| 英国 | 7,000 | 1.2 |\n| 日本 | 13,000 | 0.8 |\n| 澳大利亚 | 3,000 | 0.5 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表12：2024年主要国家宠物诊疗机构数量及增速（家）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar-line hybrid",
+            "bbox": [
+                67,
+                286,
+                478,
+                500
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/a5234d01908d30cafe6594d0c663c9ba5e6c7ff304312f77ffc428761c0092db.jpg"
+                },
+                "content": "| 国家 | 每万只宠物所匹配的宠物医院数量 | 每万只宠物所匹配的兽医数量 |\n|---|---|---|\n| 中国 | 2.5 | 5 |\n| 美国 | 2 | 7 |\n| 日本 | 8 | 10.5 |\n| 澳大利亚 | 3 | 12 |\n| 英国 | 3 | 12.5 |\n| 巴西 | 6.5 | 17.5 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表13：每万只宠物所匹配的宠物医院（家）及兽医数量（人）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar chart",
+            "bbox": [
+                521,
+                290,
+                927,
+                495
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我们以全球宠物医疗龙头玛氏（Mars）发展史来看全球宠物医院发展模式，Mars 宠物重要医疗网络包括了 Banfield 宠物医院（1994 年入资、2007 年收购）、VCA 动物医院（2017 年收购）、和 BluePearl（2015 年收购），三家医院分别拥有不同的运行模式。"
+                    }
+                ]
+            },
+            "bbox": [
+                267,
+                558,
+                944,
+                609
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.7"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                934,
+                105,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                394,
+                933,
+                600,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/27aac60442437e048db61138edceaa13451967ec4615c897dca620133ca04f90.jpg"
+                },
+                "content": "| Country | Clinical Study Sites |\n| --- | --- |\n| USA | 249 |\n| UK | 12 |\n| Germany | 3 |\n| Italy | 3 |\n| France | 1 |\n| Spain | 3 |\n| Poland | 1 |\n| Sweden | 2 |\n| Switzerland | 1 |\n| Netherlands | 1 |\n| Canada | 1 |\n| Australia | 1 |\n| New Zealand | 1 |\n| Russia | 1 |\n| Mexico | 1 |\n| Argentina | 1 |\n| Peru | 1 |\n| Colombia | 1 |\n| Venezuela | 1 |\n| Ecuador | 1 |\n| Bolivia | 1 |\n| Paraguay | 1 |\n| Uruguay | 1 |\n| Costa Rica | 1 |\n| Panama | 1 |\n| Nicaragua | 1 |\n| Honduras | 1 |\n| Belize | 1 |\n| Bahrain | 1 |\n| Israel | 1 |\n| Japan | 1 |\n| South Korea | 1 |\n| Taiwan | 1 |\n| Hong Kong | 1 |\n| Singapore | 1 |\n| Malaysia | 1 |\n| Vietnam | 1 |\n| Thailand | 1 |\n| Philippines | 1 |\n| Indonesia | 1 |\n| Pakistan | 1 |\n| Bangladesh | 1 |\n| Myanmar | 1 |\n| Cambodia | 1 |\n| Laos | 1 |\n| Nepal | 1 |\n| Bhutan | 1 |\n| Sri Lanka | 1 |\n| Mozambique | 1 |\n| Madagascar | 1 |\n| Papua New Guinea | 1 |\n| Suriname | 1 |\n| French Guiana | 1 |\n| Solomon Islands | 1 |\n| Tonga | 1 |\n| Kiribati | 1 |\n| Tuvalu | 1 |\n| Nauru | 1 |\n| Saint Lucia | 1 |\n| Palau | 1 |\n| Marshall Islands | 1 |\n| Micronesia | 1 |\n| Vanuatu | 1 |\n| Samoa | 1 |\n| Kiribati | 1 |\n| Tuvalu | 1 |\n| Nauru | 1 |\n| Saint Lucia | 1 |\n| Palau | 1 |\n| Marshall Islands | 1 |\n| Micronesia | 1 |\n| Vanuatu | 1 |\n| Samoa | 1 |\n| Kiribati | 1 |\n| Tuvalu | 2 |\n| Tuvalu | 2 |\n| Montenegro | 2 |\n| Slovenia | 2 |\n| Latvia | 2 |\n| Lithuania | 2 |\n| Estonia | 2 |\n| Latvia | 2 |\n| Lithuania | 2 |\n| Estonia | 2 |\n| Lithuania | 2 |\n| Latvia | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Latvia | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Latvia | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lithuania | 2 |\n| Lauru | - |\n| North Macedonia (Pol.) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (NED) | - |\n| Bulgaria (GER) | - |\n| Bulgaria (POL) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (NED) | - |\n| Bulgaria (GER) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (NED) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWI) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWi) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWt) | - |\n| Bulgaria (SWt) | - |\n| Bulgaria (SWt) | - |\n| Bulgaria (SWt) | - |\n| Bulgaria (SWt) | - |\n| Bulgaria (SWt) | - |\n| Bulgaria (SWt) | - |\n| Bulgaria (SWt) | - |\n| Bulgaria (SWt) | - |\n| Bulgaria (SWt) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (SWs) | - |\n| Bulgaria (Sws) | - |\n| Bulgaria (Sws) | - |\n| Bulgaria (Sws) | - |\n| Bulgaria (Sws) | - |\n| Bulgaria (Sws) | - |\n| Bulgaria (Sws) | - |\n| Bulgaria (Sws) | - |\n| Bulgaria (Sws) | - |\n| Bulgaria (Sws) | - |\n| Bulgaria (Sws) | - |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表14：2024年玛氏拥有美国51个宠物临床研究中心、欧洲28个宠物临床研究中心"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：Mars、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "map with markers",
+            "bbox": [
+                297,
+                80,
+                915,
+                368
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1）VCA：树立全球宠物医疗连锁标杆模式“诊疗-诊断”，以综合性医院为主，2025年VCA拥有诊疗机构超1000家、年服务400万+宠物主。"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                267,
+                418,
+                944,
+                451
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "VCA树立了全球宠物医疗连锁的标杆模式。VCA成立于1986年，1987年VCA率先推出“医院+诊断实验室”的组合模式，构建了“诊疗-诊断”内部协同体系，实验室配备超声检查、内镜研究等专业设备，可为旗下医院提供腹腔、胸腔无创评估、胃肠道可视化检查等精准诊断支持，让诊疗方案更具科学性，这种模式不仅提升了诊疗效率，更在零散的市场中建立了标准化服务优势，初步形成差异化壁垒。"
+                    }
+                ]
+            },
+            "bbox": [
+                267,
+                468,
+                944,
+                551
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1991 年，VCA 成功完成首次 IPO，开启了批量收购区域宠物医院，1996 年医院数量突破 50 家。"
+                    }
+                ]
+            },
+            "bbox": [
+                267,
+                568,
+                942,
+                601
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2001 年 VCA 再次登陆纳斯达克，走出美国本土，收购加拿大的连锁宠物医院，正式开启北美市场布局，并且进行全产业链延伸，通过收购医疗设备公司补充超声、内镜等先进设备，强化诊疗技术支撑；2014 年以战略性价格收购宠物日托品牌 Camp Bow Wow，为 Camp Bow Wow 注入医疗资源，推出“日间照护+健康监测”增值服务，比如为寄养宠物提供免费基础体检，进一步提升客户黏性。2004 年到 2018 年间，它先后并购了 Pet's Choice、Healthy Pet 等六家宠物医院连锁品牌，到 2016 年，已在美国 41 个州和加拿大 3 个省拥有 795 家宠物医院和 61 家诊断实验室。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                618,
+                944,
+                734
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2017 年，VCA 以 91 亿美元的价格被玛氏集团收购，迎来新的里程碑式的发展，依托玛氏的资金实力和渠道优势，VCA 继续深化布局: 2023-2024 年新增多家加拿大专科诊所，重点强化肿瘤、心脏病、内科等高端诊疗能力，诊所配备董事会认证专科医生坐诊，提供化疗、靶向治疗、复杂手术等进阶服务；到 2024 年，其全球网点已超 1000 家，更深度融入玛氏构建的“诊断—治疗—营养”完整商业闭环——VCA 承接疑难转诊诊疗，诊疗后由玛氏旗下皇家、渴望等品牌提供定制化处方粮和营养方案，形成“诊疗+营养管理”全链路服务。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                751,
+                944,
+                866
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                33,
+                944,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.8"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                934,
+                102,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                394,
+                933,
+                600,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/bd92cabb0c92c090ea34c3adf6a8e2676e07d5a0369174e559fcf2d76d9f6dbb.jpg"
+                },
+                "content": "| Year    | 营业收入 | 净利润 | 营收同比（右） | 利润同比（右边） |\n|---------|----------|--------|----------------|------------------|\n| 2013    | 1800     | 150    | 50             | 250              |\n| 2014    | 1900     | 150    | 50             | 50               |\n| 2015    | 2150     | 200    | 50             | 100              |\n| 2016    | 2500     | 200    | 50             | 50               |\n| 2017H1  | 1450     | 100    | 50             | 50               |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表15: VCA 退市前营收、净利润及同比（USD/百万元）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：wind、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar-line hybrid chart",
+            "bbox": [
+                67,
+                91,
+                480,
+                275
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/cc833dce44ef7d9215f757d704dc5c1e78a5714048286fa7c44b4bc1ca7b4cce.jpg"
+                },
+                "content": "| Year   | 销售毛利率(%) | 销售净利率(%) |\n| ------ | -------------- | -------------- |\n| 2013   | 22.5           | 8.0            |\n| 2014   | 23.0           | 7.5            |\n| 2015   | 24.0           | 10.0           |\n| 2016   | 23.5           | 8.5            |\n| 2017H1 | 24.0           | 8.5            |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表16：公司退市前销售毛利率及净利率情况"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：wind、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "line chart",
+            "bbox": [
+                521,
+                97,
+                919,
+                266
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "图表17: 公司医院网络"
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                338,
+                203,
+                351
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "初级保健"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                95,
+                370,
+                189,
+                387
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我们的初级保健团队是您宠物所有需求的首选联系人，从体检到治疗，我们的顶尖护理团队了解您和您的宠物。"
+                    }
+                ]
+            },
+            "bbox": [
+                102,
+                388,
+                433,
+                426
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "急诊护理"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                95,
+                464,
+                189,
+                481
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我们急救团队经过培训，能够应对各种紧急情况，包括创伤性损伤、呼吸急症、休克、中毒、重症等。"
+                    }
+                ]
+            },
+            "bbox": [
+                95,
+                482,
+                440,
+                508
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "寄宿服务"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                95,
+                548,
+                188,
+                565
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "许多寄养设施与兽医医院有关联，配备受过专业培训的专业人员来照顾您的宠物。"
+                    }
+                ]
+            },
+            "bbox": [
+                94,
+                565,
+                438,
+                592
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "专科护理"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                563,
+                407,
+                655,
+                424
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我们高级护理团队包括肿瘤科医生、外科医生以及各自领域的专业兽医，他们都是各自领域的领导者。"
+                    }
+                ]
+            },
+            "bbox": [
+                561,
+                425,
+                895,
+                451
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "医院网络"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                468,
+                474,
+                549,
+                489
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "VCA宠物癌症护理®"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                563,
+                502,
+                747,
+                519
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我们拥有29个VCA宠物癌症护理中心和60多名住院肿瘤科医生——其中包括11名放射肿瘤科医生——遍布北美，我们通过世界一流的兽医医疗和富有同理心的护理，支持患者和客户应对复杂的肿瘤病例。"
+                    }
+                ]
+            },
+            "bbox": [
+                561,
+                521,
+                897,
+                573
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：VCA 公司官网、国盛证券研究所"
+                    }
+                ]
+            },
+            "bbox": [
+                63,
+                602,
+                324,
+                615
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2）Banfield：以预防医学为主的连锁精品社区医院，与 PetSmart 深度绑定，在美国和波多黎各拥有超过 1000 家医院。"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                265,
+                653,
+                944,
+                687
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "和 VCA 以大型综合性医院为主不同，Banfield 以社区精品诊所为主要模式。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                703,
+                845,
+                720
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Banfield 成立于 1955 年，1994 年 Mars 首次进入宠物医疗领域，便入资了成立于 1955 年全美领先的宠物私人医疗机构 Banfield 宠物医院，同时，Banfield 与 PetSmart 开启战略合作，PetSmart 是美国最大的宠物专营零售商，Banfield 积极在 PetSmart 开设店中店，使得能够迅速扩大其服务网络。2007 年，玛氏加大了对 Banfield 宠物医院的投资额，并获得了控股权，Banfield 公司开始快速发展。2013 年，PetSmart 共有 1200 余家门店，其中 816 家门店中开设了宠物诊所，除了在加拿大的 7 家是与当地诊所合作外，809 家都是以 Banfield 品牌进行运营，这也占到 Banfield 医院总数的 80%以上。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                737,
+                944,
+                854
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Banfield 将自身从诊疗机构变为在身边触手可及的健康预防管理平台，进行宠物全生命周期服务链，其 OWP 套餐包含疫苗 +体检+齿科+营养咨询，增强客户粘性，提高复购率。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                870,
+                944,
+                919
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "G"
+                    }
+                ]
+            },
+            "bbox": [
+                47,
+                15,
+                94,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券"
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                17,
+                208,
+                38
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "GUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                100,
+                38,
+                206,
+                43
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                944,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.9"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                933,
+                102,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                394,
+                933,
+                600,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a83f0ee1cab348eea57d5c0cef905d68dac8de2167f91b1fe0b1d258ee96b262.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表18: 全生命周期服务 OWP 套餐"
+                    },
+                    {
+                        "type": "text",
+                        "content": "幼犬包>"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                163,
+                101,
+                218,
+                143
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/30f0cd26593830d7ffe65b1a852c0d9f438aed776a9a592357036381c32818a8.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "小猫包>"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                326,
+                101,
+                381,
+                143
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ffd268612670096fa20628f0b3370ba4ceeab9b184e37a2fcfe0a2cabd22692d.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "狗狗套餐>"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                489,
+                101,
+                542,
+                143
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a826257702f61fa4fef2d8c83288529362d0626bc26d9105035e801edf6d6609.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "猫咪套餐>"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                652,
+                101,
+                707,
+                143
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4a5cd2e88457053b9deac55491910eb5299c086204442138ffec9a866a2c7d11.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "开放式工作许可常见问题>"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                823,
+                105,
+                863,
+                137
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "为各年龄段和各阶段设计的开放式工作许可（OWP）套餐"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                110,
+                193,
+                406,
+                206
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我们提供多种针对不同需求、年龄和生活方式设计的开放式办公计划（OWP），包括我们的NEW Senior Care计划，结合疫苗接种和体检等基本服务，并进行深入的诊断检测，以早期发现疾病迹象。"
+                    }
+                ]
+            },
+            "bbox": [
+                110,
+                212,
+                500,
+                235
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "探索幼犬计划>"
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                242,
+                174,
+                252
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "探索小猫计划>"
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                260,
+                174,
+                269
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "探索狗狗计划>"
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                277,
+                174,
+                287
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "探索猫咪计划>"
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                294,
+                174,
+                305
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "探索老年犬计划>"
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                313,
+                181,
+                322
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "探索老年猫的计划>"
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                330,
+                189,
+                340
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c77300d0d9020224c9c35ab6ef6eadcbdfbd8e86ce04c4f859271d3370459c28.jpg"
+                },
+                "content": "A dog resting on grass in a park setting, with blurred background figures and no visible text or symbols.",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：Banfield 公司官网、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "natural_image",
+            "bbox": [
+                524,
+                193,
+                924,
+                353
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3）BluePearl：深耕社区的转诊中心，专科化让医院成为“不可替代”，遍布全美拥有超100家医院的大型专科医院。"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                265,
+                413,
+                944,
+                445
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "BluePearl 为专科转诊中心，成立于 1996 年，是当今美国最大的专科和急诊动物医院之一。其凭借尖端设备与专科能力（如肿瘤、神经外科）抢占技术制高点，其核心优势在于："
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                463,
+                944,
+                511
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1）尖端设备密度全美第一：标配高场强 MRI、CT、数字血管造影机，可执行复杂手术；"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2）专科医生联盟：聚集全美 15% 的兽医专科医师（如 ACVIM 认证内科、ECVS 认证外科专家），单院年均承接转诊病例超 5000 例；"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3）高附加值服务溢价，复杂病例客单价可达普通医院的8-10倍。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                514,
+                941,
+                579
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "拥有全方位的医疗矩阵，教学型医院。BluePearl不仅是一家医院，更是一个多学科协作的医学中心，其专科矩阵涵盖了内科、神经外科、放射科、康复理疗、急诊等，甚至拥有每两周到诊一次的执业兽医牙科专家。在实验室诊断方面，他们与Antech（同属Mars旗下）及IDEXX保持紧密合作，同时，医院非常重视兽医技术员的专业化发展，通过VTS（兽医技术专家）认证体系，让技术员在外科或麻醉等领域达到专家级别。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                596,
+                946,
+                678
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2、看国内：从激进扩张到稳健发展"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                265,
+                733,
+                588,
+                751
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "与美国相比,不管是集中化程度还是盈利水平,我国的宠物诊疗机构还有着较大的差距,但近几年在行业快速发展下,我们认为我国已基本形成了大连锁与精品医院共存的格局,从新瑞鹏、瑞派宠物门店数量回落、瑞派宠物近几年盈利水平大幅改善(2025H1毛利率25%、净利率为正)可以看出,头部连锁企业的发展思路也从门店数量的激进扩张逐步走到提升运营质量的稳健发展上,具体我们从头部公司发展情况梳理:"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                778,
+                949,
+                860
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.10"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                933,
+                115,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                405,
+                933,
+                611,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/cf911566e2a73f231d8c928f15a2c0b11d64787a412fbe156a7a4d39ed80a977.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表19: 我国头部五家宠物医院情况"
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ],
+                "html": "<table><tr><td></td><td>公司类别</td><td>2024年宠物医院数量(家)</td><td>2024年院均经营收入(百万元)</td></tr><tr><td>公司A</td><td>全国性大型连锁宠物医疗服务提供商</td><td>~1,500</td><td>~2.0</td></tr><tr><td>瑞派宠物</td><td>全国性大型连锁宠物医疗服务提供商</td><td>565</td><td>3.1</td></tr><tr><td>公司B</td><td>区域性中型连锁宠物医疗服务提供商</td><td>~210</td><td>~3.0</td></tr><tr><td>公司C</td><td>区域性小型连锁宠物医疗服务提供商</td><td>~60</td><td>~4.0</td></tr><tr><td>公司D</td><td>区域性小型连锁宠物医疗服务提供商</td><td>~60</td><td>~2.8</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                275,
+                74,
+                919,
+                287
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/afc9ffa6aa5496faf130785e1e1e002bc57a2c2fe403f69b61c25294eb1b13ef.jpg"
+                },
+                "content": "| 年份 | 医院数量 |\n| ---- | -------- |\n| 2019 | 1100     |\n| 2020 | 1250     |\n| 2021 | 1900     |\n| 截至2022年三季度末 | 1950    |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表20: 新瑞鹏宠物医院数量（家）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：新瑞鹏招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar chart",
+            "bbox": [
+                70,
+                360,
+                465,
+                561
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/af6d035605f0291d54b9ce1f6f026c29dbca8678d2acacad82e31c16c5ab164c.jpg"
+                },
+                "content": "| Year     | 医院数量 |\n| -------- | -------- |\n| 2022     | 520      |\n| 2023     | 580      |\n| 2024     | 565      |\n| 2025H1   | 550      |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表21：瑞派宠物医院数量（家）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar chart",
+            "bbox": [
+                521,
+                379,
+                919,
+                542
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/2254dd6a0e64a9c51e46c423b7286e1fbb545422451a06be9935a3023b036567.jpg"
+                },
+                "content": "| Year | 销售毛利率(%) | 销售净利率(%) |\n| ---- | -------------- | ------------- |\n| 2019 | 1.5            | 3.2           |\n| 2020 | 4.8            | 0.8           |\n| 2021 | 4.7            | 2.0           |\n| 2022 | 5.5            | 3.4           |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表22：新瑞鹏宠物医院毛利率及净利率"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：新瑞鹏招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar-line hybrid chart",
+            "bbox": [
+                67,
+                661,
+                480,
+                829
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/a045e89c87b70333454997b0fe63f0fe039110b31b682ed9bb1068f9e89fe415.jpg"
+                },
+                "content": "| Year    | 销售毛利率(%) | 销售净利率(%) |\n| ------- | ------------- | ------------- |\n| 2022    | 22.5          | -5            |\n| 2023    | 21.0          | -15           |\n| 2024    | 22.0          | 0             |\n| 2025H1  | 24.8          | 5             |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表23: 瑞派宠物医院毛利率及净利率"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar-line hybrid chart",
+            "bbox": [
+                521,
+                661,
+                927,
+                829
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.11"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                933,
+                112,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                406,
+                932,
+                611,
+                948
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1）新瑞鹏：追求外延扩张，成长为我国第一大宠物医疗机构"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                267,
+                59,
+                744,
+                76
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1998年瑞鹏第一家医院深圳华南总院开业，1999年芭比堂创立；2009年瑞鹏的连锁宠物医院子品牌纳吉亚成立；2012-2013年瑞鹏进驻广州以及湖南并同时一路北上不断扩张；2016年瑞鹏挂牌新三板；2018年从新三板摘牌开始与高瓴整合；2019年新瑞鹏集团成立，将Skyfield Group运营的693家宠物医院整合到自身拥有388家宠物医院的医院网络中，截至2022年三季度末宠物医院数量达到1942家。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                93,
+                944,
+                175
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d099f159b7746c547d8fa72ebca63d3502c71f7e1be5df8743d686c5efe0cc10.jpg"
+                },
+                "content": "National Brands\n瑞鹏宠物医院\nRUI PENG PET HOSPITAL\nDr Pet\n宠颐生\nPUPPY TOWN\n芭比堂动物医院\nPUPPY TOWN ANIMAL HOSPITAL\n安安宠医\n美联众合动物医院\nMEILIANZHONGHE VETERINARY HOSPITAL\nHigh-End/Specialty Brands\nNaughty Family\n顽皮家族\nnaqta\n纳吉亚®\n新 与 科\n北京恒爱动物医院\nBEIJING HENKAU ANIMAL HOSPITAL\n康科蒂亚宠医\nCONCORDIA PET CARE\n凯特喵猫专科医院\nCATMEW CAT HOSPITAL\nRegional Flagship Brands\n东方动物医院\n你我它动物医院\n荣耀喜动场医院\n佳雯宠物医院\nJiwen Pet Hospital\nAMC\n中心动物医院\nAnimal Medical Center\n爱诺动物医院\nAINJO ANIMAL HOSPITAL | 专业动物诊疗机构\n艾贝尔宠物医院\nAi - Bi Pet Hospital",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表24: 新瑞鹏集团品牌矩阵"
+                    }
+                ],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：新瑞鹏招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                282,
+                218,
+                922,
+                520
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "在实现全国一体化医院网络上，公司拥有多品牌“1+P+C”系统，这三种类型的医院各自拥有不同的能力水平，共同构成了一条层次分明、有机连接的运作链，能够高效且有效地满足中国各地宠物主人的各种需求。在“1+P+C”系统中，将医院、病例和兽医划分为不同的类别，借助诸如排班、指导、转介、咨询、远程治疗和智能治疗等工具，为每只宠物匹配最合适的服务水平。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                561,
+                944,
+                643
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- “1”（综合性宠物医院）。综合性宠物医院通常负责处理诊断、治疗和康复方面的疑难杂症。它们在采用多学科方法提供医疗服务方面具备强大能力，并具备进行先进且全面的检测、诊断和疗法的优势，这些服务超越了宠物主人为其宠物前来就诊时所面临的表面健康问题范畴，且会根据具体情况结合不同的治疗方法。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                659,
+                944,
+                726
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- “P”(专业宠物医院)。专业宠物医院是指拥有一项或多项既定专业领域以及相应专业人才的医院。此类医院提供专业化的医疗服务，并能处理相对复杂的医疗案例，其中许多案例是由社区宠物医院转介而来的。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                744,
+                944,
+                791
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- “C” (社区宠物医院)。社区宠物医院是基础宠物护理机构，提供一般宠物护理服务，方便宠物主人就近获取。它们具备标准化的诊断及操作流程，通常会成为需要帮助的宠物主人的第一选择，为他们提供基础护理服务，这些服务性质上属于必要、重复且高频率的范畴。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                810,
+                944,
+                876
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "强大的综合型及专科型宠物医院建立了品牌认知市场，并吸引宠物主人们来到社区宠物医院，遍布中国各地的社区宠物医院为众多宠物主人提供了便利的就诊服务，这些医院通过转介方式引导宠物主人们前往综合性或专科医院就诊，从综合性和专科医院所获得的高质量医疗及其他服务，反过来有助于提升社区宠物医院的客户满意度。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                892,
+                944,
+                926
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.12"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                934,
+                115,
+                947
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                405,
+                933,
+                611,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                267,
+                59,
+                944,
+                92
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4e832561726133f82ac8619ea58644ab6cdc61b680ee4e6f51a520244bd95f63.jpg"
+                },
+                "content": "```mermaid\ngraph TD\n  A[\"需求\"] --> B[\"社区宠物医院\"]\n  A --> C[\"专科/综合宠物医院\"]\n  B --> D[\"社区宠物医院 将客户转介至专科/综合宠物医院\"]\n  C --> E[\"专科/综合宠物医院 通过技术优势建立品牌认知\"]\n  D --> F[\"社区宠物医院 缩短人才培训时间可促进社区宠物医院的快速扩张\"]\n  E --> G[\"专科/综合宠物医院 使社区宠物医院能够降低对普通兽医的能力要求\"]\n  F --> H[\"综合宠物医院 难题。\"]\n  G --> H\n  H --> I[\"专科宠物医院 专科诊所\"]\n  I --> J[\"专科宠物医院 专科诊断\"]\n  J --> K[\"专科宠物医院 专科诊断\"]\n  K --> L[\"专科宠物医院 专科诊断\"]\n  L --> M[\"专科宠物医院 专科诊断\"]\n  M --> N[\"专科宠物医院 专科诊断\"]\n  N --> O[\"专科宠物医院 专科诊断\"]\n  O --> P[\"专科宠物医院 专科诊断\"]\n  P --> Q[\"专科宠物医院 专科诊断\"]\n  Q --> R[\"专科宠物医院 专科诊断\"]\n  R --> S[\"专科宠物医院 专科诊断\"]\n  S --> T[\"专科宠物医院 专科诊断\"]\n  T --> U[\"专科宠物医院 专科诊断\"]\n  U --> V[\"专科宠物医院 专科诊断\"]\n  V --> W[\"专科宠物医院 专科诊断\"]\n  W --> X[\"专科宠物医院 专科诊断\"]\n  X --> Y[\"专科宠物医院 专科诊断\"]\n  Y --> Z[\"专科宠物医院 专科诊断\"]\n  Z --> AA[\"专科宠物医院 专科诊断\"]\n  AA --> AB[\"专科宠物医院 专科诊断\"]\n  AB --> AC[\"专科宠物医院 专科诊断\"]\n  AC --> AD[\"专科宠物医院 专科诊断\"]\n  AD --> AE[\"专科宠物医院 专科诊断\"]\n  AE --> AF[\"专科宠物医院 专科诊断\"]\n  AF --> AG[\"专科宠物医院 专科诊断\"]\n  AG --> AH[\"专科宠物医院 专科诊断\"]\n  AH --> AI[\"专科宠物医院 专科诊断\"]\n  AI --> AJ[\"专科宠物医院 专科诊断\"]\n  AJ --> AK[\"专科宠物医院 专科诊断\"]\n  AK --> AL[\"专科宠物医院 专科诊断\"]\n  AL --> AM[\"专科宠物医院 专科诊断\"]\n  AM --> AN[\"专科宠物医院 专科诊断\"]\n  AN --> AO[\"专科宠物医院 专科诊断\"]\n  AO --> AP[\"专科宠物医院 专科诊断\"]\n  AP --> AQ[\"专科宠物医院 专科诊断\"]\n  AQ --> AR[\"专科宠物医院 专科诊断\"]\n  AR --> AS[\"专科宠物医院 专科诊断\"]\n  AS --> AT[\"专科宠物医院 专科诊断\"]\n  AT --> AU[\"专科宠物医院 专科诊断\"]\n  AU --> AV[\"专科宠物医院 专科诊断\"]\n  AV --> AW[\"专科宠物医院 专科诊断\"]\n  AW --> AX[\"专科宠物医院 专科诊断\"]\n  AX --> AY[\"专科宠物医院 专科诊断\"]\n  AY --> AZ[\"专科宠物医院 专科诊断\"]\n  AZ --> BA[\"专科宠物医院 专科诊断\"]\n  BA --> BB[\"专科宠物医院 专科诊断\"]\n  BB --> BC[\"专科宠物医院 专科诊断\"]\n  BC --> BD[\"专科宠物医院 专科诊断\"]\n  BD --> BE[\"专科宠物医院 专科诊断\"]\n  BE --> BF[\"专科宠物医院 专科诊断\"]\n  BF --> BG[\"专科宠物医院 专科诊断\"]\n  BG --> BH[\"专科宠物医院 专科诊断\"]\n  BH --> BI[\"专科宠物医院 专科诊断\"]\n  BI --> BJ[\"专科宠物医院 专科诊断\"]\n  BJ --> BK[\"专科宠物医院 专科诊断\"]\n  BK --> BL[\"专科宠物医院 专科诊断\"]\n  BL --> BM[\"专科宠物医院 专科诊断\"]\n  BM --> BN[\"专科宠物医院 专科诊断\"]\n  BN --> BO[\"专科宠物医院 专科诊断\"]\n  BO --> BP[\"专科宠物医院 专科诊断\"]\n  BP --> BQ[\"专科宠物医院 专科诊断\"]\n  BQ --> BR[\"专科宠物医院 专科诊断\"]\n  BR --> BS[\"专科宠物医院 专科诊断\"]\n  BS --> BT[\"专科宠物医院 专科诊断\"]\n  BT --> BU[\"专科宠物医院 专科诊断\"]\n  BU --> BV[\"专科宠物医院 专科诊断\"]\n  BV --> BW[\"专科宠物医院 专科诊断\"]\n  BW --> BX[\"专科宠物医院 专科诊断\"]\n  BX --> BY[\"专科宠物医院 专科诊断\"]\n  BY --> BZ[\"专科宠物医院 专科诊断\"]\n  BZ --> CA[\"专科宠物医院 专科诊断\"]\n  CA --> CB[\"专科宠物医院 专科诊断\"]\n  CB --> CC[\"专科宠物医院 专科诊断\"]\n  CC --> CD[\"专科宠物医院 专科诊断\"]\n  CD --> CE[\"专科宠物医院 专科诊断\"]\n  CE --> CF[\"专科宠物医院 专科诊断\"]\n  CF --> CG[\"专科宠物医院 专科诊断\"]\n  CG --> CH[\"专科宠物医院 专科诊断\"]\n  CH --> CI[\"专科宠物医院 专科诊断\"]\n  CI --> CJ[\"专科宠物医院 专科诊断\"]\n  CJ --> CK[\"专科宠物医院 专科诊断\"]\n```",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表25: 新瑞鹏医院网络系统"
+                    }
+                ],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：新瑞鹏招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "flowchart",
+            "bbox": [
+                329,
+                122,
+                882,
+                350
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "新瑞鹏提交 IPO 后追求规模化增长，公司依赖收购手段来整合行业内合适标的，以及实现 “1PC” 的规模化复制，但这种依靠收购短期进行门店疯狂扩张的模式也为后续发展埋下隐患，截至 2022 年 9 月 30 日公司单店收入下降至 118 万元（2020 年为 168 万元）。"
+                    }
+                ]
+            },
+            "bbox": [
+                267,
+                390,
+                944,
+                441
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "主要原因在于我国高质量医生不足及服务能力问题，据中国工程院院士张改平2024年介绍，截至2023年，我国官方兽医有13.6万人，执业兽医16.5万人，乡村兽医17.7万人，按照发达国家每千人对兽医服务的需求比例，我国执业兽医缺口在30万人左右。另一个问题便是管理问题，盲目扩张势必会带来管理半径问题，公司多品牌战略虽然保留了原有品牌的客户粘性，但也导致了管理割裂，统一芭比堂、瑞鹏等不同品牌的供应链、IT系统和医疗标准是个极大的问题。2024年新瑞鹏年中战略会议上，其主线已经变成“内外兼修，提质提效”。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                456,
+                944,
+                573
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/5a87cf800252983c3b4f89864e0322e27c4dd203b00e196e6886ec5ca11ba875.jpg"
+                },
+                "content": "| 年份         | 宠物医疗收入（亿元） | 单店收入（万元） |\n| ------------ | --------------------- | ---------------- |\n| 2020         | 20.5                  | 170              |\n| 2021         | 30.0                  | 160              |\n| 截至2022年三季度末 | 23.0                | 120              |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表26: 新瑞鹏单店收入下滑"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：新瑞鹏招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "bar-line hybrid chart",
+            "bbox": [
+                307,
+                615,
+                905,
+                860
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.13"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                933,
+                115,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                406,
+                932,
+                611,
+                948
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2）瑞派宠物：追求稳健发展，我国第二大宠物医疗机构"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                267,
+                59,
+                709,
+                76
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2012 年公司正式成立，2013 年以北京及环京区域作为战略起点，成立瑞派京华管理公司，2014 年深入宠物医疗业态成熟的华东区域，2016 年初步完成全国城市布局，实现近 100 家门店连锁规模，2017 年 5 月获得美国高盛集团 A 轮融资，2017 年底发展超过 200 家门店。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                93,
+                944,
+                159
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2018年企业开启高速发展模式，相继获华泰新兴产业基金、越秀资本、瑞济医药为公司注入B轮系列融资，年底达299家门店。2019年12月，获得玛氏中国投资完成C轮融资，所辖门店超300家，并在行业内推行“医院分级管理制度”和“学科分级体系”，2022年再次实现了营收、利润双增长，取得了行业连锁经营利润第一，规模扩张速度第一的空前成绩，医院遍布全国70余座城市，D轮融资先后获得基石资本及蒙牛创投基金投资。2025年底，公司递交招股书。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                175,
+                944,
+                275
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "公司以健康管理业务为主，2025年上半年  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "91.3\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " 的收入源于宠物诊疗服务，从公司发展历程看，其核心发展思路为“门店扩张+单店效率提升”的双驱动逻辑，可以看到从22年到25年上半年，新建医院数量每年在31家及以下，新收购医院数量在64家及以下，并且新收购数量每年递减，同时每年有关闭医院，门店数量保持稳定，既是可以留给投资部及自建医院的团队有充分的时间和空间去打磨单店模型，也可以让新并购医院留有稳定的时间去调整和融入。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                293,
+                944,
+                392
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/05848afca71e40785de06a72023a759d4138c821ffca675ad5c59b9da40fcecc.jpg"
+                },
+                "content": "| 年份 | 社区医院数量 | 区域中心医院数量 | 城市中心医院数量 |\n| :--- | :--- | :--- | :--- |\n| 2022年 | 300 | 150 | 40 |\n| 2023年 | 320 | 180 | 45 |\n| 2024年 | 300 | 190 | 45 |\n| 2025H1 | 280 | 200 | 50 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表27：截至2025年上半年，公司宠物医院数量达548家（家）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "stacked bar chart",
+            "bbox": [
+                67,
+                444,
+                467,
+                615
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/f23f15cdffda1b93fc7400f1e24b69a074c2b0d932c177aaa95f2df9a38f3480.jpg"
+                },
+                "content": "企业愿景\n成为宠主信赖\n的国际领先型\n宠物医疗企业\n企业价值观\n以客户为中心\n以奋斗者为本\n企业使命\n致力宠物健康\n赢得宠主敬重\n核心理念\n正直 热爱\n奋斗 创新\n快乐 分享",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表28：公司企业使命-致力宠物健康，赢得宠主敬重"
+                    }
+                ],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物公司官网、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                515,
+                435,
+                934,
+                627
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.14"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                933,
+                115,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                406,
+                932,
+                611,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/eef77fcf5f5603e0818370be68dcc1a77fd57ab74629a11b8cdcb3e5697e83a6.jpg"
+                },
+                "content": "| 服务类型 | 数量 |\n| :--- | :--- |\n| 宠物产品销售 | 4 |\n| 洗美服务 | 3 |\n| 其他服务 | 1 |\n| 诊疗服务 | 91 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表29: 2025H1 公司宠物诊疗服务收入占比 91%（%）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "pie chart",
+            "bbox": [
+                119,
+                98,
+                386,
+                249
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/98bdba580137308480777e564ae3bf2a60bccc309d27ca70d7a5d378e215c15b.jpg"
+                },
+                "content": "| 类别 | 数量 |\n|---|---|\n| 社区医院 | 24 |\n| 城市中心医院 | 32 |\n| 区域中心医院 | 44 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表30：2025H1公司区域中心医院收入占比  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "44\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " （%）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "pie chart",
+            "bbox": [
+                616,
+                115,
+                833,
+                247
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "在运营模式上，公司构建了两大核心竞争力："
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                318,
+                613,
+                334
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1）三级诊疗协同体系：打造“城市中心医院、区域中心医院、社区医院”分级网络，城市中心医院聚焦疑难杂症与专科特色，区域中心医院提供全科与特色专科服务，社区医院侧重基础医疗与预防医学，通过转诊机制实现资源协同，2025年上半年区域中心医院营收占比44%，为营收贡献主力。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                335,
+                944,
+                401
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2）首创了 VDP 兽医发展伙伴模式，独特的扩张模式是公司稳健发展的关键，VDP 通过共同持股、保持特色、瞄准未来的方式经营，与小股东形成事业共同体，呈现事业共有、分工协作、各具特色的特点。公司收购其 60% 的股权，原团队依然保留 40% 的股权，这样可以和医院小股东形成利益共同体，能够有效地减少人才流失，绝大部分宠物医院，院长或者所有人就是医院诊疗技术核心人物，保留其利益和动力，是保障收购后依然稳健发展的关键。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                418,
+                944,
+                517
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6ecd3280d64436a7551c22706d67f91d29a1e0149f28973080be13a50ab6f9e8.jpg"
+                },
+                "content": "```mermaid\ngraph TD\n  A[\"城市中心医院\"] --> B[\"11位宠物醫師\"]\n  A --> C[\"17位助理醫師\"]\n  B --> D[\"全科服务（基础医疗服务及特色專科醫療服務）\"]\n  C --> E[\"219家醫院\"]\n  D --> F[\"區域中心醫院\"]\n  E --> G[\"5位宠物醫師\"]\n  E --> H[\"7位助理醫師\"]\n  F --> I[\"3位宠物醫師\"]\n  G --> J[\"3位助理醫師\"]\n  H --> K[\"3位机构\"]\n    style A fill:#4A90E2,stroke:#333,color:white\n    style B fill:#4A90E2,stroke:#333,color:white\n    style C fill:#4A90E2,stroke:#333,color:white\n    style D fill:#4A90E2,stroke:#333,color:white\n    style E fill:#4A90E2,stroke:#333,color:white\n    style F fill:#4A90E2,stroke:#333,color:white\n    style G fill:#4A90E2,stroke:#333,color:white\n    style H fill:#4A90E2,stroke:#333,color:white\n    style I fill:#4A90E2,stroke:#333,color:white\n    style J fill:#4A90E2,stroke:#333,color:white\n    style K fill:#4A90E2,stroke:#333,color:white\n    subgraph sg[\"医疗指导\"]\n        L[\"技術領先，具有專科特色，註重解決疑難雜體\"]\n        M[\"面積大於400㎡\"]\n        N[\"48家醫院\"]\n    end\n    subgraph sg_2[\"医疗指导\"]\n        O[\"全科服務（基礎医疗服务及特色專科醫療服務）\"]\n        P[\"面積200-400㎡\"]\n        Q[\"219家醫院\"]\n        R[\"區域中心醫院\"]\n        S[\"5位宠物醫師\"]\n        T[\"7位助理醫師\"]\n    end\n    subgraph sg_3[\"轉診\"]\n        U[\"轉診\"]\n        V[\"轉診\"]\n    end\n```",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表31：公司三级诊疗协同体系"
+                    }
+                ],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "flowchart",
+            "bbox": [
+                284,
+                556,
+                922,
+                785
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "G"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                94,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券"
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                17,
+                208,
+                38
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "GUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                38,
+                206,
+                45
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.15"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                933,
+                115,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                406,
+                932,
+                611,
+                948
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/ce516cf84a750c9f13e97b3ec81377d93457064ff50568292f59e4bfdb32e217.jpg"
+                },
+                "content": "| Year    | 城市中心医院 | 区域中心医院 | 社区医院 |\n| ------- | ------------ | ------------ | -------- |\n| 2022    | 380          | 280          | 220      |\n| 2023    | 400          | 285          | 225      |\n| 2024    | 410          | 290          | 215      |\n| 2025H1  | 420          | 300          | 240      |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表32: 公司人效稳步提升（千元/人）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "line chart",
+            "bbox": [
+                67,
+                97,
+                470,
+                268
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/61a8d9b018606a87595af62ee58fcd978b7aaff473fd2df39842c0044f65fa25.jpg"
+                },
+                "content": "| Year    | 城市中心医院 | 区域中心医院 | 社区医院 |\n| ------- | ------------ | ------------ | -------- |\n| 2022    | 24.5         | 14.5         | 8.5      |\n| 2023    | 26.0         | 13.5         | 7.8      |\n| 2024    | 28.0         | 13.8         | 7.5      |\n| 2025H1  | 29.5         | 15.0         | 8.0      |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表33: 公司坪效稳步提升（千元/平方米）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "line chart",
+            "bbox": [
+                521,
+                97,
+                919,
+                266
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "除此之外，公司成功关键因素在于拥有领先的专科技术水平、标准化的运营体系、完善的全生命周期健康管理服务。领先的专科技术水平，不仅驱动收入稳定增长，更决定了医院盈利能力的跨越，公司在基础医疗、专科医疗领域提供服务，涵盖影像科、检验科、麻醉科、内科、外科、异宠科等核心科室。截至瑞派招股说明书公告最后实际可行日期，公司已拥有2,137名持有执业兽医师资格证书的宠物医师，其中包括143位经内部认证的专科医师，22家医院已获得中国兽医协会的五星级认证。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                317,
+                944,
+                418
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/4cbca2b306b2201595f0714d4c8a912ecf8db19b92c214f6a9c3a8d3bcaa6011.jpg"
+                },
+                "content": "| 类别 | 占比 (%) |\n| :--- | :--- |\n| 医疗 | 74 |\n| 运营 | 15 |\n| 洗美 | 5 |\n| 管理 | 6 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表34：截至瑞派宠物招股说明书公告最后实际可行日期公司医疗人员占比74%"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "pie chart",
+            "bbox": [
+                157,
+                480,
+                381,
+                625
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/d1259ac4e8e8205dbad5b01e7263aa4aae2524b6aceac594fa03ddd7d9d3fbba.jpg"
+                },
+                "content": "| Category | Percentage (%) |\n|---|---|\n| 三年以下 (包括三年) | 36 |\n| 三至五年 (包括五年) | 15 |\n| 五至十年 (包括十年) | 31 |\n| 十年以上 | 18 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表35：截至瑞派宠物招股说明书公告最后实际可行日期公司兽医从业人员五年经验以上占比达49%"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：瑞派宠物招股说明书、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "pie chart",
+            "bbox": [
+                615,
+                493,
+                870,
+                646
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "三、大连锁追求稳健发展，精品专科医院谋增长"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                267,
+                732,
+                803,
+                755
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我国宠物医疗行业起步比美国晚20年，目前正处于连锁化扩张的关键阶段。从VCA走全科大连锁、Banfield以预防医学为主发展连锁社区医院、BluePearl走专业化专科医院，其走过40-80年的发展历程，均找到适合自身理念的模式，在最佳规模下实现高利润增长。而看国内，新瑞鹏的极速扩张带来的是利润快速下滑，而瑞派宠物吸取后发优势，独创VDP兽医发展伙伴模式，初步解决扩张中“人”和“管理”的问题，谋求稳健发展。我们认为，看历史经验，未来我国可以走出一条大连锁稳健发展、专科精品医院谋增长的道路，主要有："
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                790,
+                944,
+                908
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.16"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                933,
+                115,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                405,
+                932,
+                611,
+                948
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1）连锁化是趋势但需“并购+整合”并重。目前中国宠物医疗行业的连锁化率较美国而言仍然较低，连锁化是必然趋势。但连锁化不是“盲目并购”，而是“并购+整合”并重。从新瑞鹏及瑞派宠物看，国内企业在并购后，必须重视服务标准化、管理规范化等，否则很容易陷入“规模越大、问题越多”的困境。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                59,
+                944,
+                127
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2) 全产业链布局提升抗风险能力。我国很多宠物医院还依赖单一诊疗收入，抗风险能力弱。VCA 的“诊疗+服务+营养”全链布局值得借鉴，国内企业可以拓展专科治疗、宠物护理、用品零售等业务，形成全链路服务，打破单一业务依赖，提升盈利能力和抗风险能力。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                142,
+                944,
+                209
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3）专业人才是宠物医疗行业的核心壁垒，专科化也是未来发展趋势。可以看到，根据《我国宠物医疗行业报告研究》数据，人才问题是宠物诊疗机构面临的最大问题，占比达到  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "70\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，大于10人执业兽医的诊疗机构只占  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "7\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，专科及以下人员占比  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "60\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " ，目前我国专科兽医缺口较大，制约了行业升级。企业要提前布局专科人才培养，通过完善的激励机制留住核心人才；同时引入新技术提升诊疗效率，才能在未来的竞争中占据优势。此外，随着宠物主健康意识的提升，宠物保险市场也在萌发，布局“医疗+保险”的组合，也能提升用户粘性。"
+                    }
+                ]
+            },
+            "bbox": [
+                265,
+                225,
+                944,
+                342
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/168c99d2406b91a662c70aa19526cc4afb2293562971f1d47dc817f01a6721e1.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表36: 人才问题是宠物诊疗机构面临的最大问题"
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ],
+                "html": "<table><tr><td colspan=\"2\">宠物诊疗机构面临的经营挑战占比</td></tr><tr><td>经营挑战</td><td>占比/%</td></tr><tr><td>人才问题</td><td>70</td></tr><tr><td>市场竞争问题</td><td>62</td></tr><tr><td>管理问题</td><td>57</td></tr><tr><td>资金问题</td><td>30</td></tr><tr><td>其他,请注明</td><td>5</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                275,
+                382,
+                932,
+                514
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/3288d1b6f661d7ffa7e1356d025300a13a95b6828200f2065e985b518a9f2ca8.jpg"
+                },
+                "content": "| Category | Count |\n|---|---|\n| >10人 | 7 |\n| 6-10人 | 15 |\n| 1-2人 | 30 |\n| 3-5人 | 48 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表37：大于10人执业兽医的诊疗机构只占  "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "7\\%"
+                    },
+                    {
+                        "type": "text",
+                        "content": " （%）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "pie chart",
+            "bbox": [
+                166,
+                601,
+                386,
+                746
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/2d2dbe763bcfbd200859cbacffdc8af904e546ef475889897b79db073404db7a.jpg"
+                },
+                "content": "| Category | Value |\n|---|---|\n| 本科以上 | 17 |\n| 本科 | 23 |\n| 专科及以下 | 60 |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表38: 诊疗机构专科及以下人员占比60%（%）"
+                    }
+                ],
+                "chart_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ]
+            },
+            "sub_type": "pie chart",
+            "bbox": [
+                616,
+                615,
+                833,
+                745
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                946,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.17"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                933,
+                115,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                406,
+                932,
+                611,
+                948
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/f12f090f5f3a6a641995628bbcb9c6ed22220260f07a22a1d06275aa010d9420.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表39: 专科诊疗占比未来营收增长点 74%"
+                    },
+                    {
+                        "type": "text",
+                        "content": "宠物诊疗机构未来营收增长点占比"
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ],
+                "html": "<table><tr><td>类别</td><td>占比/%</td></tr><tr><td>体检、绝育、疫苗及驱虫等</td><td>76</td></tr><tr><td>专科诊疗</td><td>74</td></tr><tr><td>设备升级</td><td>40</td></tr><tr><td>宠物营养、健康咨询</td><td>28</td></tr><tr><td>线上诊疗</td><td>15</td></tr><tr><td>流动医疗(到家服务等)</td><td>5</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                63,
+                131,
+                443,
+                316
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/3be9b20c08c0816fe03b4a5c6bfb9e9ec9abe710cef47df7774415a7a0bac5c5.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "图表40: 专科化也是未来趋势"
+                    },
+                    {
+                        "type": "text",
+                        "content": "宠物诊疗机构专科特色开设比例"
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "资料来源：《2025 中国宠物医疗行业研究报告》、国盛证券研究所"
+                    }
+                ],
+                "html": "<table><tr><td>专科名称</td><td>开设比例/%</td></tr><tr><td>内科</td><td>70</td></tr><tr><td>皮肤科</td><td>60</td></tr><tr><td>猫科</td><td>59</td></tr><tr><td>外科</td><td>49</td></tr><tr><td>影像科</td><td>35</td></tr><tr><td>牙科</td><td>35</td></tr><tr><td>心脏科</td><td>32</td></tr><tr><td>老年病</td><td>30</td></tr><tr><td>无</td><td>28</td></tr><tr><td>眼科</td><td>11</td></tr><tr><td>肿瘤</td><td>10.5</td></tr><tr><td>中兽医</td><td>7.5</td></tr><tr><td>异宠</td><td>2.5</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                510,
+                99,
+                929,
+                341
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                33,
+                942,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.18"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                934,
+                112,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                406,
+                933,
+                611,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "四、风险提示"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                270,
+                59,
+                421,
+                79
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1、宠物数量增长不及预期。目前我国宠物数量仍保持较好增速，但若因社会经济等因素导致宠物数量增长不及预期，那么也会导致宠物医院业务增长疲软。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2、市场竞争加剧导致医院效益不及预期。目前我国宠物医院竞争较为激烈，连锁化扩张快速，专科医院发展强劲，头部企业或因跨区域管理能力不足，可能出现客流量分流、门店盈利不及预期等。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3、核心兽医人才短缺及流失风险。目前行业存在兽医人才短缺，核心兽医人才供给不足，若出现因职业发展通道有限、待遇不足等问题导致骨干医生大规模流失，宠物医院可能面临人手不足、诊疗效率下降等困境，进而影响医院运营。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                273,
+                118,
+                932,
+                282
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                33,
+                944,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.19"
+                    }
+                ]
+            },
+            "bbox": [
+                73,
+                934,
+                112,
+                945
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                406,
+                933,
+                611,
+                947
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "免责声明"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                462,
+                73,
+                534,
+                89
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券股份有限公司（以下简称“本公司”）具有中国证监会许可的证券投资咨询业务资格。本报告仅供本公司的客户使用。本公司不会因接收人收到本报告而视其为客户。在任何情况下，本公司不对任何人因使用本报告中的任何内容所引致的任何损失负任何责任。"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                98,
+                942,
+                143
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告的信息均来源于本公司认为可信的公开资料，但本公司及其研究人员对该等信息的准确性及完整性不作任何保证。本报告中的资料、意见及预测仅反映本公司于发布本报告当日的判断，可能会随时调整。在不同时期，本公司可发出与本报告所载资料、意见及推测不一致的报告。本公司不保证本报告所含信息及资料保持在最新状态，对本报告所含信息可在不发出通知的情形下做出修改，投资者应当自行关注相应的更新或修改。"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                153,
+                942,
+                215
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本公司力求报告内容客观、公正，但本报告所载的资料、工具、意见、信息及推测只提供给客户作参考之用，不构成任何投资、法律、会计或税务的最终操作建议，本公司不就报告中的内容对最终操作建议做出任何担保。本报告中所指的投资及服务可能不适合个别客户，不构成客户私人咨询建议。投资者应当充分考虑自身特定状况，并完整理解和使用本报告内容，不应视本报告为做出投资决策的唯一因素。"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                224,
+                942,
+                287
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "投资者应注意，在法律许可的情况下，本公司及其本公司的关联机构可能会持有本报告中涉及的公司所发行的证券并进行交易，也可能为这些公司正在提供或争取提供投资银行、财务顾问和金融产品等各种金融服务。"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                294,
+                942,
+                326
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告版权归“国盛证券股份有限公司”所有。未经事先本公司书面授权，任何机构或个人不得对本报告进行任何形式的发布、复制。任何机构或个人如引用、刊发本报告，需注明出处为“国盛证券研究所”，且不得对本报告进行有悖原意的删节或修改。"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                335,
+                942,
+                381
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "分析师声明"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                455,
+                391,
+                542,
+                406
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "本报告署名分析师在此声明：我们具有中国证券业协会授予的证券投资咨询执业资格或相当的专业胜任能力，本报告所表述的任何观点均精准地反映了我们对标的证券和发行人的个人看法，结论不受任何第三方的授意或影响。我们所得报酬的任何部分无论是在过去、现在及将来均不会与本报告中的具体投资建议或观点有直接或间接联系。"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                414,
+                942,
+                462
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/e17de4a89e0a2dd4f4a6ba541108586ca8c8bdf336b328549d1caf1af2251ee5.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "投资评级说明"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>投资建议的评级标准</td><td></td><td>评级</td><td>说明</td></tr><tr><td rowspan=\"7\">评级标准为报告发布日后的6个月内公司股价(或行业指数)相对同期基准指数的相对市场表现。其中A股市场以沪深300指数为基准;新三板市场以三板成指(针对协议转让标的)或三板做市指数(针对做市转让标的)为基准;香港市场以摩根士丹利中国指数为基准,美股市场以标普500指数或纳斯达克综合指数为基准。</td><td rowspan=\"4\">股票评级</td><td>买入</td><td>相对同期基准指数涨幅在15%以上</td></tr><tr><td>增持</td><td>相对同期基准指数涨幅在5%~15%之间</td></tr><tr><td>持有</td><td>相对同期基准指数涨幅在-5%~+5%之间</td></tr><tr><td>减持</td><td>相对同期基准指数跌幅在5%以上</td></tr><tr><td rowspan=\"3\">行业评级</td><td>增持</td><td>相对同期基准指数涨幅在10%以上</td></tr><tr><td>中性</td><td>相对同期基准指数涨幅在-10%~+10%之间</td></tr><tr><td>减持</td><td>相对同期基准指数跌幅在10%以上</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                57,
+                495,
+                944,
+                674
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券研究所"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                55,
+                701,
+                174,
+                715
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "北京"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                722,
+                94,
+                737
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "地址: 北京市东城区永定门西滨河路8号院7楼中海地产广场东塔7层"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                741,
+                492,
+                775
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "邮编：100077"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                778,
+                166,
+                794
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "邮箱：gsresearch@gszq.com"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                799,
+                277,
+                814
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "南昌"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                58,
+                837,
+                94,
+                851
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "地址：南昌市红谷滩新区凤凰中大道1115号北京银行大厦"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                854,
+                492,
+                870
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "邮编：330038"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                875,
+                166,
+                889
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "传真：0791-86281485"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                892,
+                228,
+                908
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "邮箱：gsresearch@gszq.com"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                913,
+                277,
+                928
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "上海"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                502,
+                722,
+                537,
+                737
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "地址：上海市浦东新区南洋泾路555号陆家嘴金融街区22栋"
+                    }
+                ]
+            },
+            "bbox": [
+                502,
+                741,
+                939,
+                775
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "邮编：200120"
+                    }
+                ]
+            },
+            "bbox": [
+                502,
+                780,
+                610,
+                794
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "电话：021-38124100"
+                    }
+                ]
+            },
+            "bbox": [
+                502,
+                799,
+                662,
+                813
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "邮箱：gsresearch@gszq.com"
+                    }
+                ]
+            },
+            "bbox": [
+                502,
+                818,
+                719,
+                833
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "深圳"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                502,
+                837,
+                537,
+                851
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "地址：深圳市福田区福华三路100号鼎和大厦24楼"
+                    }
+                ]
+            },
+            "bbox": [
+                502,
+                854,
+                885,
+                870
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "邮编：518033"
+                    }
+                ]
+            },
+            "bbox": [
+                502,
+                875,
+                610,
+                889
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "邮箱：gsresearch@gszq.com"
+                    }
+                ]
+            },
+            "bbox": [
+                502,
+                894,
+                719,
+                909
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "国盛证券\nGUOSHENG SECURITIES"
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                15,
+                211,
+                48
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "2026年04月17日"
+                    }
+                ]
+            },
+            "bbox": [
+                794,
+                32,
+                944,
+                47
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "P.20"
+                    }
+                ]
+            },
+            "bbox": [
+                72,
+                934,
+                112,
+                946
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "请仔细阅读本报告末页声明"
+                    }
+                ]
+            },
+            "bbox": [
+                406,
+                933,
+                611,
+                947
+            ]
+        }
+    ]
+]
