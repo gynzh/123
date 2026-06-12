@@ -117,14 +117,14 @@ TXT/Markdown 文件不调用外部服务，直接生成标准 manifest 记录并
 扫描：
 
 ```powershell
-python scripts/afac_parse_documents.py inspect `
+python scripts/parse_documents.py inspect `
   --dataset-root public_dataset_a/public_dataset_upload
 ```
 
 解析：
 
 ```powershell
-python scripts/afac_parse_documents.py parse `
+python scripts/parse_documents.py parse `
   --dataset-root public_dataset_a/public_dataset_upload `
   --output-dir outputs/parse/mineru `
   --model-version vlm `
@@ -136,6 +136,6 @@ python scripts/afac_parse_documents.py parse `
 重建索引：
 
 ```powershell
-python scripts/afac_parse_documents.py build-index `
+python scripts/parse_documents.py build-index `
   --output-dir outputs/parse/mineru
 ```

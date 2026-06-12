@@ -9,9 +9,9 @@ SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from afac2026_docparse.cli import build_parser
+from docparse.cli import build_parser
 
 if __name__ == "__main__":
     parser = build_parser()
-    args = parser.parse_args(["inspect", *sys.argv[1:]])
+    args = parser.parse_args(["build-index", *sys.argv[1:]])
     args.func(args)

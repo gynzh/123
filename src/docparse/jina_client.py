@@ -9,15 +9,17 @@ import time
 
 import requests
 from requests.adapters import HTTPAdapter
-from requests.exceptions import RequestException, Timeout, ConnectionError, SSLError
+from requests.exceptions import ConnectionError, RequestException, SSLError, Timeout
 from urllib3.util.retry import Retry
 
-from .dataset import SourceDocument, safe_path_component, write_jsonl
+from .dataset import SourceDocument, safe_path_component
 
 JINA_READER_URL = "https://r.jina.ai/"
 
 
 def make_retry_session() -> requests.Session:
+    """创建带基础重试能力的 Jina HTTP Session。"""
+
     retry = Retry(
         total=2,
         connect=2,
@@ -36,6 +38,8 @@ def make_retry_session() -> requests.Session:
 
 
 def get_jina_token() -> str:
+    """读取 Jina API Key；没有配置时使用匿名请求。"""
+
     return os.getenv("JINA_API_KEY") or os.getenv("JINA_TOKEN") or ""
 
 
@@ -45,6 +49,8 @@ def _is_rate_limited(status_code: int, text: str) -> bool:
 
 
 def read_existing_summary(summary_path: Path) -> list[dict[str, Any]]:
+    """读取已完成的 Jina 解析摘要，用于幂等续跑。"""
+
     if not summary_path.exists():
         return []
     try:
@@ -62,6 +68,8 @@ def write_json(path: Path, data: Any) -> None:
 
 
 def _markdown_is_usable(record: dict[str, Any]) -> bool:
+    """判断已有 Jina 记录是否可以直接复用。"""
+
     if record.get("download_status") != "done":
         return False
     extract_dir = Path(record.get("local_extract_dir") or "")
@@ -74,18 +82,27 @@ def _target_dir(output_dir: Path, doc: SourceDocument) -> Path:
 
 
 def _record_for_existing_file(doc: SourceDocument, target_dir: Path) -> dict[str, Any] | None:
+    """兼容 summary 丢失但 full.md 仍存在的情况。"""
+
     md_path = target_dir / "full.md"
     if not md_path.exists() or md_path.stat().st_size == 0:
         return None
-    return _base_record(doc, target_dir) | {
-        "jina_state": "done",
-        "download_status": "done",
-        "download_error": "",
-        "jina_cached": True,
-    }
+
+    record = _base_record(doc, target_dir)
+    record.update(
+        {
+            "jina_state": "done",
+            "download_status": "done",
+            "download_error": "",
+            "jina_cached": True,
+        }
+    )
+    return record
 
 
 def _base_record(doc: SourceDocument, target_dir: Path) -> dict[str, Any]:
+    """生成与 MinerU 记录兼容的标准 manifest 记录。"""
+
     return {
         **doc.to_json(),
         "batch_no": 0,
@@ -112,9 +129,8 @@ def _base_record(doc: SourceDocument, target_dir: Path) -> dict[str, Any]:
 
 
 def _reference_url(doc: SourceDocument) -> str:
-    # Jina Reader accepts a reference URL with raw HTML. The local file itself is
-    # not accessible to Jina, so use a stable pseudo URL only as a base for
-    # relative links in metadata.
+    """为本地 HTML 构造稳定的伪 URL，供 Jina 解析相对路径。"""
+
     rel = doc.rel_path.replace(" ", "%20")
     return f"https://afac.local/{rel}"
 
@@ -129,6 +145,12 @@ def jina_read_html(
     max_retries: int = 6,
     rate_limit_sleep: int = 30,
 ) -> str:
+    """调用 Jina Reader API 将本地 HTML 内容转换为 Markdown。
+
+    这里采用 raw HTML POST 方式：读取本地 HTML 内容放入 payload["html"]。
+    不使用本地 fallback，避免最终语料混入不同 HTML 解析模式。
+    """
+
     html = doc.path.read_text(encoding="utf-8", errors="ignore")
     payload = {"html": html, "url": _reference_url(doc)}
     headers = {
@@ -155,17 +177,20 @@ def jina_read_html(
         text = resp.text or ""
         if resp.status_code == 200 and text.strip():
             return text
+
         last_error = f"HTTP {resp.status_code}: {text[:500]}"
         if _is_rate_limited(resp.status_code, text) and attempt < max_retries:
             sleep_seconds = min(120, rate_limit_sleep * attempt)
             print(f"[JINA RATE LIMIT] {doc.rel_path}: {last_error}; {sleep_seconds}s 后重试")
             time.sleep(sleep_seconds)
             continue
+
         if 500 <= resp.status_code < 600 and attempt < max_retries:
             sleep_seconds = min(90, 5 * attempt)
             print(f"[JINA RETRY] {doc.rel_path}: {last_error}; {sleep_seconds}s 后重试")
             time.sleep(sleep_seconds)
             continue
+
         break
 
     raise RuntimeError(f"Jina HTML 解析失败：{doc.rel_path}; {last_error}")
@@ -185,22 +210,17 @@ def run_jina_html_docs(
     *,
     options: JinaBatchOptions | None = None,
 ) -> list[dict[str, Any]]:
-    """Parse local HTML files with Jina Reader API in an idempotent way.
+    """批量解析 HTML，并自动复用已成功结果。"""
 
-    Successful records are reused automatically. Failed or missing records are
-    retried on the next run. There is intentionally no local HTML fallback: if
-    Jina fails, the command stops so the final corpus will not mix parse modes.
-    """
     options = options or JinaBatchOptions()
     output_dir.mkdir(parents=True, exist_ok=True)
     summary_path = output_dir / "jina_parse_summary.json"
+
     existing_records = read_existing_summary(summary_path)
     existing_by_data_id: dict[str, dict[str, Any]] = {}
     for record in existing_records:
         data_id = str(record.get("data_id") or "")
-        if not data_id:
-            continue
-        if _markdown_is_usable(record):
+        if data_id and _markdown_is_usable(record):
             existing_by_data_id[data_id] = record
 
     records: list[dict[str, Any]] = []
@@ -210,11 +230,13 @@ def run_jina_html_docs(
         if cached and _markdown_is_usable(cached):
             records.append(cached)
             continue
+
         target_dir = _target_dir(output_dir, doc)
         existing_file_record = _record_for_existing_file(doc, target_dir)
         if existing_file_record is not None:
             records.append(existing_file_record)
             continue
+
         pending.append(doc)
 
     print(f"[JINA RESUME] total_html={len(docs)}, done_skipped={len(records)}, pending={len(pending)}")
@@ -227,6 +249,7 @@ def run_jina_html_docs(
         for idx, doc in enumerate(pending, start=1):
             target_dir = _target_dir(output_dir, doc)
             target_dir.mkdir(parents=True, exist_ok=True)
+
             print(f"[JINA] ({idx}/{len(pending)}) {doc.rel_path}")
             markdown = jina_read_html(
                 session,
@@ -236,26 +259,34 @@ def run_jina_html_docs(
                 max_retries=options.max_retries,
                 rate_limit_sleep=options.rate_limit_sleep,
             )
+
             (target_dir / "source.html").write_text(doc.path.read_text(encoding="utf-8", errors="ignore"), encoding="utf-8")
             (target_dir / "full.md").write_text(markdown.strip() + "\n", encoding="utf-8")
-            meta = {
-                "api": "jina_reader",
-                "endpoint": JINA_READER_URL,
-                "respond_with": options.respond_with,
-                "reference_url": _reference_url(doc),
-                "source_rel_path": doc.rel_path,
-                "doc_id": doc.doc_id,
-                "domain": doc.domain,
-            }
-            write_json(target_dir / "jina_meta.json", meta)
-            record = _base_record(doc, target_dir) | {
-                "jina_state": "done",
-                "jina_error": "",
-                "download_status": "done",
-                "download_error": "",
-            }
+            write_json(
+                target_dir / "jina_meta.json",
+                {
+                    "api": "jina_reader",
+                    "endpoint": JINA_READER_URL,
+                    "respond_with": options.respond_with,
+                    "reference_url": _reference_url(doc),
+                    "source_rel_path": doc.rel_path,
+                    "doc_id": doc.doc_id,
+                    "domain": doc.domain,
+                },
+            )
+
+            record = _base_record(doc, target_dir)
+            record.update(
+                {
+                    "jina_state": "done",
+                    "jina_error": "",
+                    "download_status": "done",
+                    "download_error": "",
+                }
+            )
             records.append(record)
             write_json(summary_path, records)
+
             if options.request_gap_seconds > 0:
                 time.sleep(options.request_gap_seconds)
 

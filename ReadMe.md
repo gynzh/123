@@ -13,7 +13,7 @@ public_dataset_a/public_dataset_upload/
 ├── raw/                         # 比赛原始文档
 └── questions/group_a/           # A 榜问题集
 
-src/docparse/           # 文档解析模块
+src/docparse/                    # 文档解析模块
 scripts/                         # 命令行入口
 outputs/parse/mineru/            # 最终统一语料索引与 MinerU PDF 解析结果
 outputs/parse/jina/jina_html/    # Jina HTML 原始解析结果
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 ### 1. 扫描数据集与题目引用关系
 
 ```powershell
-python scripts/afac_parse_documents.py inspect `
+python scripts/parse_documents.py inspect `
   --dataset-root public_dataset_a/public_dataset_upload
 ```
 
@@ -69,7 +69,7 @@ python scripts/afac_parse_documents.py inspect `
 ### 2. 全量解析并自动续跑
 
 ```powershell
-python scripts/afac_parse_documents.py parse `
+python scripts/parse_documents.py parse `
   --dataset-root public_dataset_a/public_dataset_upload `
   --output-dir outputs/parse/mineru `
   --model-version vlm `
@@ -83,7 +83,7 @@ python scripts/afac_parse_documents.py parse `
 ### 3. 仅重建索引
 
 ```powershell
-python scripts/afac_parse_documents.py build-index `
+python scripts/parse_documents.py build-index `
   --output-dir outputs/parse/mineru
 ```
 
