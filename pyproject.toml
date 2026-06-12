@@ -1,11 +1,11 @@
 [project]
 name = "afac2026-chanllenge4-agent"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "AFAC2026 Challenge 4 financial long-document agent pipeline"
+readme = "ReadMe.md"
 requires-python = ">=3.12"
 dependencies = [
-    "cryptography>=48.0.1",
+    "cryptography>=3.1",
     "pypdf>=4.0.0",
     "python-dotenv>=1.0.0",
     "requests>=2.31.0",
