@@ -1,5 +1,11 @@
 .env
+.venv/
+.idea/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 outputs/parse/mineru/_upload_parts/
 *.part

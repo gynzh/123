@@ -19,7 +19,7 @@ from .normalize import (
     build_parse_outputs,
     enrich_records_with_artifacts,
     handle_local_text_docs,
-    remove_obsolete_corpus_files,
+    remove_out_of_scope_outputs,
 )
 
 
@@ -93,7 +93,7 @@ def _write_parse_outputs(records: list[dict], output_dir: Path) -> None:
     records = enrich_records_with_artifacts(records, output_dir)
     build_doc_id_map(records, output_dir)
     build_parse_outputs(records, output_dir)
-    remove_obsolete_corpus_files(output_dir)
+    remove_out_of_scope_outputs(output_dir)
 
 
 def cmd_parse(args: argparse.Namespace) -> None:

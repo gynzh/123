@@ -219,8 +219,8 @@ def build_parse_outputs(records: list[dict[str, Any]], output_dir: Path) -> None
     )
 
 
-def remove_obsolete_corpus_files(output_dir: Path) -> None:
-    """删除旧索引阶段遗留的语料文件。"""
+def remove_out_of_scope_outputs(output_dir: Path) -> None:
+    """删除不属于文档解析阶段的输出文件。"""
 
     for path in output_dir.glob("corpus_*.jsonl"):
         if path.is_file():
