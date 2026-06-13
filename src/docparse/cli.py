@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from pathlib import Path
 import argparse
 import json
+from pathlib import Path
 
 try:
     from dotenv import load_dotenv
@@ -12,16 +12,30 @@ except Exception:  # pragma: no cover
 from .dataset import collect_source_documents, group_by_engine, load_question_doc_ids, write_jsonl
 from .jina_client import JinaBatchOptions, run_jina_html_docs
 from .mineru_client import MinerUBatchOptions, get_token, run_mineru_batches
-from .normalize import build_corpus_files, build_doc_id_map, enrich_records_with_artifacts, handle_local_text_docs
+from .normalize import (
+    build_doc_id_map,
+    build_parse_outputs,
+    enrich_records_with_artifacts,
+    handle_local_text_docs,
+    remove_obsolete_corpus_files,
+)
 
 
 def add_common_args(parser: argparse.ArgumentParser) -> None:
     """为 inspect/parse 子命令添加通用数据集参数。"""
 
-    parser.add_argument("--dataset-root", default="public_dataset_a/public_dataset_upload", help="比赛数据根目录")
+    parser.add_argument(
+        "--dataset-root",
+        default="public_dataset_a/public_dataset_upload",
+        help="比赛数据根目录",
+    )
     parser.add_argument("--raw-dir", default=None, help="raw 目录；默认等于 <dataset-root>/raw")
-    parser.add_argument("--question-dir", default=None, help="题目目录；默认等于 <dataset-root>/questions/group_a")
-    parser.add_argument("--output-dir", default="outputs/parse/mineru", help="最终语料索引输出目录")
+    parser.add_argument(
+        "--question-dir",
+        default=None,
+        help="题目目录；默认等于 <dataset-root>/questions/group_a",
+    )
+    parser.add_argument("--output-dir", default="outputs/parse/mineru", help="文档解析汇总输出目录")
     parser.add_argument("--domain", action="append", dest="domains", help="只解析指定 domain，可重复传入")
     parser.add_argument("--no-recursive", action="store_true", help="不递归扫描 raw 目录")
 
@@ -56,7 +70,8 @@ def cmd_inspect(args: argparse.Namespace) -> None:
             parsed_doc_ids = {d.doc_id for d in docs if d.domain == domain}
             missing = sorted(meta["doc_ids"] - parsed_doc_ids)
             print(
-                f"  - {domain}: qids={len(meta['qids'])}, referenced_docs={len(meta['doc_ids'])}, "
+                f"  - {domain}: qids={len(meta['qids'])}, "
+                f"referenced_docs={len(meta['doc_ids'])}, "
                 f"missing_in_raw_scan={len(missing)}"
             )
             if missing[:10]:
@@ -75,8 +90,17 @@ def _jina_output_dir_from_args(args: argparse.Namespace) -> Path:
     return Path(args.output_dir).parent / "jina" / "jina_html"
 
 
+def _write_parse_outputs(records: list[dict], output_dir: Path) -> None:
+    """写出文档解析阶段汇总文件"""
+
+    records = enrich_records_with_artifacts(records, output_dir)
+    build_doc_id_map(records, output_dir)
+    build_parse_outputs(records, output_dir)
+    remove_obsolete_corpus_files(output_dir)
+
+
 def cmd_parse(args: argparse.Namespace) -> None:
-    """自动续跑文档解析，并生成统一语料索引。"""
+    """自动续跑文档解析，并生成解析阶段汇总文件。"""
 
     if load_dotenv:
         load_dotenv()
@@ -129,7 +153,9 @@ def cmd_parse(args: argparse.Namespace) -> None:
             max_pdf_pages_per_upload=args.max_pdf_pages_per_upload,
         )
         token = get_token()
-        all_records.extend(run_mineru_batches(mineru_docs, output_dir / "mineru_vlm", token=token, options=options))
+        all_records.extend(
+            run_mineru_batches(mineru_docs, output_dir / "mineru_vlm", token=token, options=options)
+        )
 
     html_docs = grouped.get("jina_html", [])
     if html_docs:
@@ -143,32 +169,31 @@ def cmd_parse(args: argparse.Namespace) -> None:
         )
         all_records.extend(run_jina_html_docs(html_docs, jina_output_dir, options=jina_options))
 
-    records = enrich_records_with_artifacts(all_records, output_dir)
-    build_doc_id_map(records, output_dir)
-    build_corpus_files(records, output_dir, max_chars=args.chunk_chars, overlap_chars=args.chunk_overlap)
-
-    print(f"[DONE] 解析完成，输出目录：{output_dir.resolve()}")
-    print("[DONE] 关键文件：manifest.jsonl / doc_id_map.json / corpus_documents.jsonl / corpus_chunks.jsonl")
+    _write_parse_outputs(all_records, output_dir)
+    print(f"[DONE] 文档解析完成，输出目录：{output_dir.resolve()}")
+    print("[DONE] 关键文件：manifest.jsonl / doc_id_map.json / parsed_documents.jsonl / parse_stats.json")
 
 
-def cmd_build_index(args: argparse.Namespace) -> None:
-    """基于已存在 manifest 重建 doc_id_map 和 chunk 文件。"""
-
-    output_dir = Path(args.output_dir)
+def _load_manifest(output_dir: Path) -> list[dict]:
     manifest_path = output_dir / "manifest.jsonl"
     if not manifest_path.exists():
         raise RuntimeError(f"找不到 manifest.jsonl：{manifest_path}。请先运行 parse。")
 
-    records = []
+    records: list[dict] = []
     with manifest_path.open("r", encoding="utf-8") as f:
         for line in f:
             if line.strip():
                 records.append(json.loads(line))
+    return records
 
-    records = enrich_records_with_artifacts(records, output_dir)
-    build_doc_id_map(records, output_dir)
-    build_corpus_files(records, output_dir, max_chars=args.chunk_chars, overlap_chars=args.chunk_overlap)
-    print(f"[DONE] 索引重建完成：{output_dir.resolve()}")
+
+def cmd_build_manifest(args: argparse.Namespace) -> None:
+    """基于已存在 manifest 重建解析阶段汇总文件。"""
+
+    output_dir = Path(args.output_dir)
+    records = _load_manifest(output_dir)
+    _write_parse_outputs(records, output_dir)
+    print(f"[DONE] 解析汇总文件重建完成：{output_dir.resolve()}")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -179,7 +204,7 @@ def build_parser() -> argparse.ArgumentParser:
     add_common_args(inspect)
     inspect.set_defaults(func=cmd_inspect)
 
-    parse = sub.add_parser("parse", help="自动续跑解析 raw 文档，并生成语料索引")
+    parse = sub.add_parser("parse", help="自动续跑解析 raw 文档，并生成解析汇总文件")
     add_common_args(parse)
     parse.add_argument("--model-version", default="vlm", choices=["pipeline", "vlm"], help="非 HTML 文档使用的 MinerU 模型")
     parse.add_argument("--language", default="ch", help="MinerU 解析语言")
@@ -201,16 +226,17 @@ def build_parser() -> argparse.ArgumentParser:
     parse.add_argument("--jina-retries", type=int, default=6, help="Jina 请求失败重试次数")
     parse.add_argument("--jina-rate-limit-sleep", type=int, default=30, help="Jina 429 限流后的基础等待秒数")
     parse.add_argument("--jina-request-gap", type=float, default=0.2, help="连续 Jina 请求之间的等待秒数")
-    parse.add_argument("--chunk-chars", type=int, default=1800, help="chunk 最大字符数")
-    parse.add_argument("--chunk-overlap", type=int, default=180, help="相邻 chunk 重叠字符数")
     parse.add_argument("--dry-run", action="store_true", help="只扫描文件，不上传解析")
     parse.set_defaults(func=cmd_parse)
 
-    idx = sub.add_parser("build-index", help="基于已下载/已解析结果重建 manifest/chunks")
-    idx.add_argument("--output-dir", default="outputs/parse/mineru")
-    idx.add_argument("--chunk-chars", type=int, default=1800)
-    idx.add_argument("--chunk-overlap", type=int, default=180)
-    idx.set_defaults(func=cmd_build_index)
+    # 保留 build-index 作为兼容别名，但语义已改为“重建解析清单”，不再生成 chunks。
+    build_index = sub.add_parser("build-index", help="兼容别名：基于 manifest 重建解析汇总文件，不生成 chunks")
+    build_index.add_argument("--output-dir", default="outputs/parse/mineru")
+    build_index.set_defaults(func=cmd_build_manifest)
+
+    build_manifest = sub.add_parser("build-manifest", help="基于 manifest 重建解析汇总文件")
+    build_manifest.add_argument("--output-dir", default="outputs/parse/mineru")
+    build_manifest.set_defaults(func=cmd_build_manifest)
 
     return parser
 
