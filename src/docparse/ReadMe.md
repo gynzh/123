@@ -1,19 +1,22 @@
 # src/docparse 文档解析模块说明
 
-`src/docparse` 是项目的文档解析工具包，只负责把比赛原始文档转换为可追溯的文档级解析产物。模块边界包括：数据集扫描、解析引擎分流、MinerU 解析、Jina HTML 解析、本地文本标准化、解析产物发现、manifest 构建、doc_id 映射和文档级结果汇总。
+`src/docparse` 是本项目的文档解析工具包，负责把比赛原始文件统一解析为文档级标准化产物。模块只覆盖文档解析阶段，不包含问答生成、向量库构建、训练流程或应用服务代码。
 
-## 模块流程
+## 处理流程
 
 ```text
-raw 原始文档
+原始文件 raw/
    ↓
-dataset.py 扫描文件并识别 domain / doc_id / engine
+dataset.py 扫描文件，识别 domain、doc_id 和解析引擎
    ↓
-cli.py 按文件类型调度解析流程
+cli.py 调度 inspect、parse、build-manifest 命令
    ↓
-mineru_client.py / jina_client.py / normalize.py 生成解析产物
+按文件类型进入不同解析路径：
+   - TXT / Markdown  → normalize.py 本地读取并生成 full.md
+   - HTML / HTM      → jina_client.py 调用 Jina Reader
+   - PDF / Office / 图片 → mineru_client.py 调用 MinerU
    ↓
-artifacts.py 发现 full.md、content_list.json、HTML 等解析文件
+artifacts.py 发现 full.md、content_list.json、middle.json、HTML 等解析产物
    ↓
 normalize.py 生成 manifest、doc_id_map、parsed_documents 和 parse_stats
 ```
@@ -22,47 +25,49 @@ normalize.py 生成 manifest、doc_id_map、parsed_documents 和 parse_stats
 
 | 文件 | 职责 |
 |---|---|
-| `__init__.py` | 声明文档解析包导出的模块。 |
-| `dataset.py` | 扫描 `raw` 目录，识别文件类型，推断 `domain`、`doc_id` 和解析引擎。 |
-| `mineru_client.py` | 调用 MinerU v4 API，完成上传、轮询、下载、解压和长 PDF 自动拆分。 |
-| `jina_client.py` | 调用 Jina Reader API，将 HTML / HTM 文件解析为 Markdown 文本。 |
-| `artifacts.py` | 在解析结果目录中发现和读取 `full.md`、`content_list.json`、`middle.json`、HTML 等产物。 |
+| `__init__.py` | 声明 `docparse` 为文档解析包，并导出解析阶段使用的模块。 |
+| `dataset.py` | 扫描 `raw` 目录，推断领域、文档 ID、文件类型和解析引擎。 |
+| `mineru_client.py` | 调用 MinerU 解析 PDF、Office、图片等复杂文档，并下载解析结果。 |
+| `jina_client.py` | 调用 Jina Reader 将 HTML / HTM 文件转换为 Markdown。 |
+| `artifacts.py` | 在解析目录中发现、读取和整理 Markdown、JSON、HTML 等产物。 |
 | `normalize.py` | 生成 `manifest.jsonl`、`manifest.json`、`doc_id_map.json`、`parsed_documents.jsonl` 和 `parse_stats.json`。 |
 | `cli.py` | 提供 `inspect`、`parse`、`build-manifest` 三个命令行入口。 |
 
 ## 命令入口
 
-推荐从仓库根目录执行脚本入口：
+扫描数据集：
 
 ```powershell
 python scripts/parse_documents.py inspect --dataset-root public_dataset_a/public_dataset_upload
 ```
 
+执行解析：
+
 ```powershell
 python scripts/parse_documents.py parse --dataset-root public_dataset_a/public_dataset_upload --output-dir outputs/parse/mineru --model-version vlm --extra-format html --ocr --no-cache --poll-interval 10 --max-wait 3600
 ```
+
+重建汇总文件：
 
 ```powershell
 python scripts/parse_documents.py build-manifest --output-dir outputs/parse/mineru
 ```
 
-PowerShell 中不要使用 `\` 作为换行符；本说明中的命令均为单行，可直接复制执行。
-
 ## 输出文件
 
-| 文件 | 说明 |
+| 文件 | 作用 |
 |---|---|
 | `source_documents.jsonl` | 原始文件扫描清单。 |
-| `manifest.jsonl` | 每个解析片段的状态、来源、解析目录和解析产物路径。 |
+| `manifest.jsonl` | 每个解析片段的状态、源文件信息和产物路径。 |
 | `manifest.json` | `manifest.jsonl` 的 JSON 数组版本。 |
 | `doc_id_map.json` | 按 `domain::doc_id` 聚合源文件与解析片段。 |
 | `parsed_documents.jsonl` | 按原始 `doc_id` 聚合后的文档级解析结果。 |
-| `parse_stats.json` | 文档数量、分片数量、领域分布和输出文件清单。 |
+| `parse_stats.json` | 解析覆盖统计。 |
 
 ## 设计约束
 
-- `doc_id` 保留原始文件名中的业务标识，便于和题目引用关系对齐。
-- PDF 超过 MinerU 单文件页数限制时自动拆分，汇总阶段仍归并到同一个原始 `doc_id`。
-- HTML 文件统一通过 Jina Reader 解析，输出目录独立于 MinerU 原始解析目录。
-- TXT、Markdown 文件不调用外部解析服务，直接写入标准 `full.md`。
-- 汇总文件只描述文档解析阶段的结果，不包含文档解析以外的索引或问答产物。
+- `doc_id` 尽量保留原始文件名中的业务标识，避免破坏题目引用关系。
+- `data_id` 由相对路径和哈希生成，用于上传、目录名和解析记录去重。
+- 长 PDF 按页数拆分上传，汇总阶段仍按原始 `doc_id` 合并。
+- HTML 统一使用 Jina Reader，避免同一类文件混用不同解析方式。
+- 汇总文件只描述文档解析阶段的结果，不包含文档解析以外的业务流程产物。

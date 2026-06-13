@@ -69,7 +69,7 @@ def _has_any_text_artifact(extract_dir: Path, artifacts: dict[str, str]) -> bool
 
 
 def enrich_records_with_artifacts(records: list[dict[str, Any]], output_dir: Path) -> list[dict[str, Any]]:
-    """为解析记录补充 artifact 字段和索引状态。"""
+    """为解析记录补充 artifact 字段和文本可用状态。"""
 
     enriched: list[dict[str, Any]] = []
     for record in records:

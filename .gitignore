@@ -1,11 +1,8 @@
 .env
 .venv/
-.idea/
 __pycache__/
 *.py[cod]
 *$py.class
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-outputs/parse/mineru/_upload_parts/
-*.part
+.idea/
+.vscode/
+outputs/parse/mineru/corpus_*.jsonl

@@ -27,65 +27,55 @@ outputs/parse/jina/jina_html/    # Jina HTML 原始解析结果目录
 
 在仓库根目录准备 `.env`：
 
-```bash
+```env
 MINERU_API_KEY=你的 MinerU API Key
 JINA_API_KEY=你的 Jina API Key
 ```
 
 也支持以下变量名：
 
-```bash
+```env
 MINERU_TOKEN=你的 MinerU API Key
 JINA_TOKEN=你的 Jina API Key
 ```
 
 ## 安装依赖
 
-```bash
+```powershell
 pip install -r requirements.txt
 ```
 
 使用 uv 时也可以执行：
 
-```bash
+```powershell
 uv add -r requirements.txt
 ```
 
 ## 常用命令
 
+以下命令均为单行形式，可直接在 Windows PowerShell 中复制执行。
+
 ### 1. 扫描数据集与题目引用关系
 
-```bash
-python scripts/parse_documents.py inspect \
-  --dataset-root public_dataset_a/public_dataset_upload
+```powershell
+python scripts/parse_documents.py inspect --dataset-root public_dataset_a/public_dataset_upload
 ```
 
 该命令只做本地扫描，不调用 MinerU 或 Jina。
 
 ### 2. 全量解析并自动续跑
 
-```bash
-python scripts/parse_documents.py parse \
-  --dataset-root public_dataset_a/public_dataset_upload \
-  --output-dir outputs/parse/mineru \
-  --model-version vlm \
-  --extra-format html \
-  --ocr \
-  --no-cache \
-  --poll-interval 10 \
-  --max-wait 3600
+```powershell
+python scripts/parse_documents.py parse --dataset-root public_dataset_a/public_dataset_upload --output-dir outputs/parse/mineru --model-version vlm --extra-format html --ocr --no-cache --poll-interval 10 --max-wait 3600
 ```
 
 解析命令是幂等的：已经成功解析并且存在可用文本产物的 MinerU 上传片段和 Jina HTML 文件会自动跳过；缺失或失败的部分会继续处理。
 
-### 3. 仅重建文档级解析汇总文件
+### 3. 基于已有解析结果重建汇总文件
 
-```bash
-python scripts/parse_documents.py build-manifest \
-  --output-dir outputs/parse/mineru
+```powershell
+python scripts/parse_documents.py build-manifest --output-dir outputs/parse/mineru
 ```
-
-该命令基于已有 `manifest.jsonl` 重新生成 `doc_id_map.json`、`parsed_documents.jsonl` 和 `parse_stats.json`，不重新调用外部解析服务。
 
 ## 核心输出
 
@@ -95,21 +85,27 @@ outputs/parse/mineru/
 ├── manifest.jsonl               # 每个解析片段的标准记录
 ├── manifest.json                # manifest 的 JSON 数组版本
 ├── doc_id_map.json              # domain/doc_id 到源文件和解析产物的映射
-├── parsed_documents.jsonl       # 按原始 doc_id 聚合后的文档级解析文本
+├── parsed_documents.jsonl       # 按原始 doc_id 聚合后的文档级解析结果
 └── parse_stats.json             # 解析统计信息
 ```
 
-## 解析阶段目标
+Jina HTML 原始解析产物默认位于：
 
-1. 题目引用的 `doc_ids` 能与 raw 文档稳定对齐。
-2. 所有支持格式的原始文档都能进入统一解析记录。
-3. 长 PDF 拆分后仍按原始 `doc_id` 聚合。
-4. HTML 统一使用 Jina Reader 解析。
-5. 最终输出保持文档级结构，可直接作为后续处理的数据输入。
+```text
+outputs/parse/jina/jina_html
+```
 
-## 进一步说明
+MinerU VLM 原始解析产物默认位于：
 
-解析模块设计和输出字段见：
+```text
+outputs/parse/mineru/mineru_vlm
+```
+
+## 模块边界
+
+本项目只保留文档解析代码和文档解析产物。项目不包含问答生成、向量库构建、检索流程、训练流程或应用服务代码。
+
+更多解析模块设计和输出字段说明见：
 
 ```text
 docs/MINERU_PARSE_README.md

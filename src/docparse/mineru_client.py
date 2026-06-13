@@ -580,7 +580,7 @@ def read_existing_summary(summary_path: Path) -> list[dict[str, Any]]:
 
 
 def _has_text_artifact(record: dict[str, Any]) -> bool:
-    """判断记录对应解压目录是否已有可索引文本产物。"""
+    """判断记录对应解压目录是否已有可用文本产物。"""
 
     extract_dir = Path(record.get("local_extract_dir") or "")
     if not extract_dir.exists():
@@ -596,7 +596,7 @@ def _record_is_complete(record: dict[str, Any]) -> bool:
 
 
 def _existing_records_by_data_id(records: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
-    """按 data_id 建立历史记录索引，优先保留完整记录。"""
+    """按 data_id 建立历史记录映射，优先保留完整记录。"""
 
     result: dict[str, dict[str, Any]] = {}
     for record in records:
