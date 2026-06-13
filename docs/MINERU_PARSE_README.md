@@ -1,111 +1,78 @@
-# 文档解析产物说明
+# MinerU 解析与标题层级增强说明
 
-本文说明 AFAC2026 Challenge 4 文档解析阶段的输入、解析流程和输出文件。当前项目只覆盖文档解析模块，不包含问答生成、向量库构建、训练流程或应用服务代码。
+## 解析产物
 
-## 输入目录
-
-默认数据集目录：
+MinerU 每个解析目录通常包含：
 
 ```text
-public_dataset_a/public_dataset_upload
+full.md
+full.html
+*_content_list.json
+*_content_list_v2.json
+*_model.json
+layout.json
+mineru_result.zip
 ```
 
-核心输入：
+`full.md` 适合人工阅读；`content_list_v2/content_list` 更适合后续结构化处理，因为其中包含标题候选、页码、bbox 和 MinerU 原始标题层级。
 
-```text
-public_dataset_a/public_dataset_upload/raw
-public_dataset_a/public_dataset_upload/questions/group_a
-```
+## 标题层级问题
 
-## 解析流程
+当前 MinerU VLM 输出的 `title.level/text_level` 对中文金融、合同、年报、保险条款等文档通常只有 1、2 两级。后续分块和检索不应直接把 MinerU 原始层级当作最终章节树。
 
-1. `inspect` 扫描 raw 文档，并统计题目引用的 `doc_id` 是否能在 raw 中匹配。
-2. `parse` 根据文件类型选择解析路径：
-   - PDF / Office / 图片使用 MinerU VLM。
-   - HTML / HTM 使用 Jina Reader。
-   - TXT / Markdown 使用本地文本读取。
-3. MinerU 长 PDF 自动拆分上传，下载后保留每个分片的解析目录。
-4. `build-manifest` 可基于已有 `manifest.jsonl` 重建文档级汇总文件。
+## 增强策略
 
-## 常用命令
+新增 `enhance-hierarchy` 命令以 MinerU 的标题候选为输入，调用 OpenAI-compatible LLM 纠正标题层级。LLM 只返回 `title_id -> enhanced_level/is_title`，本地代码负责校验、生成 `section_path`，并重写可视化 Markdown。
 
-扫描数据集：
+## 命令
+
+全量增强：
 
 ```powershell
-python scripts/parse_documents.py inspect --dataset-root public_dataset_a/public_dataset_upload
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash
 ```
 
-执行解析：
+单文档增强：
 
 ```powershell
-python scripts/parse_documents.py parse --dataset-root public_dataset_a/public_dataset_upload --output-dir outputs/parse/mineru --model-version vlm --extra-format html --ocr --no-cache --poll-interval 10 --max-wait 3600
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --domain financial_contracts --doc-id text01
 ```
 
-重建文档级汇总：
+指定解析目录增强：
 
 ```powershell
-python scripts/parse_documents.py build-manifest --output-dir outputs/parse/mineru
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
 ```
 
-## 输出目录
+本地测试流程：
+
+```powershell
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider mock --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
+```
+
+## 输出
 
 ```text
-outputs/parse/mineru
+outputs/parse/mineru/title_hierarchy.jsonl
+outputs/parse/mineru/hierarchy_stats.json
 ```
 
-核心输出文件：
-
-| 文件 | 说明 |
-|---|---|
-| `source_documents.jsonl` | 从 raw 扫描得到的源文档清单。 |
-| `manifest.jsonl` | 每个解析片段的标准记录，包含源文件、解析引擎、状态和产物路径。 |
-| `manifest.json` | `manifest.jsonl` 的 JSON 数组版本。 |
-| `doc_id_map.json` | 按 `domain::doc_id` 汇总源文件和解析片段。 |
-| `parsed_documents.jsonl` | 文档级解析结果清单。 |
-| `parse_stats.json` | 解析统计信息。 |
-
-MinerU 原始解析结果默认保存在：
+每个 MinerU 解析目录中新增：
 
 ```text
-outputs/parse/mineru/mineru_vlm
+full_titleEnhanced.md
 ```
 
-Jina HTML 原始解析结果默认保存在：
+`hierarchy_stats.json` 中的 `usage` 字段记录：
 
-```text
-outputs/parse/jina/jina_html
+```json
+{
+  "requests": 1,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "total_tokens": 0,
+  "prompt_cost_usd": 0.0,
+  "completion_cost_usd": 0.0,
+  "total_cost_usd": 0.0
+}
 ```
-
-## `manifest.jsonl` 主要字段
-
-| 字段 | 说明 |
-|---|---|
-| `domain` | 文档所属领域。 |
-| `doc_id` | 从源文件名中推断出的文档 ID。 |
-| `rel_path` | 相对 raw 目录的路径。 |
-| `engine` | 使用的解析方式。 |
-| `data_id` | 用于上传和本地目录的安全标识。 |
-| `download_status` | 解析结果下载状态。 |
-| `local_extract_dir` | 本地解析结果目录。 |
-| `artifacts` | 已发现的 Markdown、JSON、HTML 等产物路径。 |
-| `index_status` | 当前解析片段是否具备可用文本产物。 |
-
-## `parsed_documents.jsonl` 主要字段
-
-| 字段 | 说明 |
-|---|---|
-| `domain` | 文档所属领域。 |
-| `doc_id` | 原始文档 ID。 |
-| `source_files` | 对应的源文件路径列表。 |
-| `engines` | 参与该文档解析的解析方式。 |
-| `parts` | 长文档拆分后的解析片段列表。 |
-| `char_count` | 合并文本字符数。 |
-| `text` | 文档级合并文本。 |
-
-## 完成标准
-
-- `inspect` 中 `missing_in_raw_scan=0`，说明题目引用文档可以在 raw 中匹配。
-- `manifest.jsonl` 存在，说明解析片段记录已经生成。
-- `doc_id_map.json` 存在，说明源文件和解析片段已经完成聚合。
-- `parsed_documents.jsonl` 存在，说明文档级解析结果已经生成。
-- `parse_stats.json` 存在，说明解析覆盖统计已经生成。

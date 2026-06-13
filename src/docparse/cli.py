@@ -1,5 +1,4 @@
 """文档解析命令行入口。"""
-
 from __future__ import annotations
 
 from pathlib import Path
@@ -12,6 +11,7 @@ except Exception:  # pragma: no cover
     load_dotenv = None
 
 from .dataset import collect_source_documents, group_by_engine, load_question_doc_ids, write_jsonl
+from .hierarchy import HierarchyEnhanceOptions, enhance_hierarchy
 from .jina_client import JinaBatchOptions, run_jina_html_docs
 from .mineru_client import MinerUBatchOptions, get_token, run_mineru_batches
 from .normalize import (
@@ -25,7 +25,6 @@ from .normalize import (
 
 def add_common_args(parser: argparse.ArgumentParser) -> None:
     """为 inspect、parse、build-manifest 子命令添加通用参数。"""
-
     parser.add_argument(
         "--dataset-root",
         default="public_dataset_a/public_dataset_upload",
@@ -44,11 +43,9 @@ def add_common_args(parser: argparse.ArgumentParser) -> None:
 
 def cmd_inspect(args: argparse.Namespace) -> None:
     """扫描数据集和题目引用关系，不调用外部解析 API。"""
-
     dataset_root = Path(args.dataset_root)
     raw_root = Path(args.raw_dir) if args.raw_dir else dataset_root / "raw"
     question_root = Path(args.question_dir) if args.question_dir else dataset_root / "questions" / "group_a"
-
     docs = collect_source_documents(raw_root, domains=args.domains, recursive=not args.no_recursive)
     grouped = group_by_engine(docs)
 
@@ -81,7 +78,6 @@ def cmd_inspect(args: argparse.Namespace) -> None:
 
 def _jina_output_dir_from_args(args: argparse.Namespace) -> Path:
     """确定 Jina HTML 原始解析产物目录。"""
-
     if getattr(args, "jina_output_dir", None):
         return Path(args.jina_output_dir)
     return Path(args.output_dir).parent / "jina" / "jina_html"
@@ -89,7 +85,6 @@ def _jina_output_dir_from_args(args: argparse.Namespace) -> Path:
 
 def _write_parse_outputs(records: list[dict], output_dir: Path) -> None:
     """写出文档解析阶段汇总文件。"""
-
     records = enrich_records_with_artifacts(records, output_dir)
     build_doc_id_map(records, output_dir)
     build_parse_outputs(records, output_dir)
@@ -98,33 +93,27 @@ def _write_parse_outputs(records: list[dict], output_dir: Path) -> None:
 
 def cmd_parse(args: argparse.Namespace) -> None:
     """自动续跑文档解析，并生成文档级标准化产物。"""
-
     if load_dotenv:
         load_dotenv()
-
     dataset_root = Path(args.dataset_root)
     raw_root = Path(args.raw_dir) if args.raw_dir else dataset_root / "raw"
     output_dir = Path(args.output_dir)
     jina_output_dir = _jina_output_dir_from_args(args)
-
     docs = collect_source_documents(raw_root, domains=args.domains, recursive=not args.no_recursive)
     if not docs:
         raise RuntimeError(f"没有找到可解析文件：{raw_root}")
 
     output_dir.mkdir(parents=True, exist_ok=True)
     write_jsonl(output_dir / "source_documents.jsonl", [d.to_json() for d in docs])
-
     grouped = group_by_engine(docs)
     print(f"[INFO] 待解析文件：{len(docs)}")
     for engine, rows in sorted(grouped.items()):
         print(f" - {engine}: {len(rows)}")
-
     if args.dry_run:
         print(f"[DRY RUN] 文件清单已写入：{output_dir / 'source_documents.jsonl'}")
         return
 
     all_records: list[dict] = []
-
     local_docs = grouped.get("local_text", [])
     if local_docs:
         print(f"\n========== LOCAL TEXT: {len(local_docs)} files ==========")
@@ -150,9 +139,7 @@ def cmd_parse(args: argparse.Namespace) -> None:
             max_pdf_pages_per_upload=args.max_pdf_pages_per_upload,
         )
         token = get_token()
-        all_records.extend(
-            run_mineru_batches(mineru_docs, output_dir / "mineru_vlm", token=token, options=options)
-        )
+        all_records.extend(run_mineru_batches(mineru_docs, output_dir / "mineru_vlm", token=token, options=options))
 
     html_docs = grouped.get("jina_html", [])
     if html_docs:
@@ -173,11 +160,9 @@ def cmd_parse(args: argparse.Namespace) -> None:
 
 def _load_manifest(output_dir: Path) -> list[dict]:
     """读取已经存在的 manifest.jsonl。"""
-
     manifest_path = output_dir / "manifest.jsonl"
     if not manifest_path.exists():
         raise RuntimeError(f"找不到 manifest.jsonl：{manifest_path}。请先运行 parse。")
-
     records: list[dict] = []
     with manifest_path.open("r", encoding="utf-8") as f:
         for line in f:
@@ -188,16 +173,50 @@ def _load_manifest(output_dir: Path) -> list[dict]:
 
 def cmd_build_manifest(args: argparse.Namespace) -> None:
     """基于已存在 manifest 重建文档级解析汇总文件。"""
-
     output_dir = Path(args.output_dir)
     records = _load_manifest(output_dir)
     _write_parse_outputs(records, output_dir)
     print(f"[DONE] 解析汇总文件重建完成：{output_dir.resolve()}")
 
 
+def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
+    """基于 MinerU 产物增强标题层级，并生成可视化 Markdown。"""
+    if load_dotenv:
+        load_dotenv()
+    options = HierarchyEnhanceOptions(
+        output_dir=Path(args.output_dir),
+        provider=args.provider,
+        model=args.model,
+        api_key=args.api_key,
+        base_url=args.base_url,
+        batch_size=args.hierarchy_batch_size,
+        timeout=args.llm_timeout,
+        max_retries=args.llm_retries,
+        doc_id=args.doc_id,
+        domain=args.domain,
+        extract_dir=Path(args.extract_dir) if args.extract_dir else None,
+        limit_docs=args.limit_docs,
+        write_enhanced_md=not args.no_write_enhanced_md,
+        resume=args.resume,
+        input_price_per_1m=args.input_price_per_1m,
+        output_price_per_1m=args.output_price_per_1m,
+    )
+    stats = enhance_hierarchy(options)
+    usage = stats.get("usage", {})
+    print(f"[DONE] 标题层级增强完成，记录数：{stats.get('title_record_count', 0)}")
+    print(f"[DONE] title_hierarchy.jsonl：{stats['outputs']['title_hierarchy_jsonl']}")
+    print(f"[DONE] hierarchy_stats.json：{stats['outputs']['hierarchy_stats_json']}")
+    print(
+        "[USAGE] "
+        f"requests={usage.get('requests', 0)}, "
+        f"prompt_tokens={usage.get('prompt_tokens', 0)}, "
+        f"completion_tokens={usage.get('completion_tokens', 0)}, "
+        f"total_cost_usd={usage.get('total_cost_usd', 0)}"
+    )
+
+
 def build_parser() -> argparse.ArgumentParser:
     """构造命令行解析器。"""
-
     parser = argparse.ArgumentParser(description="AFAC2026 Challenge 4 文档解析工具")
     sub = parser.add_subparsers(dest="command", required=True)
 
@@ -234,12 +253,30 @@ def build_parser() -> argparse.ArgumentParser:
     build_manifest.add_argument("--output-dir", default="outputs/parse/mineru")
     build_manifest.set_defaults(func=cmd_build_manifest)
 
+    enhance = sub.add_parser("enhance-hierarchy", help="基于 MinerU 产物增强标题层级并生成 full_titleEnhanced.md")
+    enhance.add_argument("--output-dir", default="outputs/parse/mineru", help="文档解析汇总输出目录")
+    enhance.add_argument("--provider", default="deepseek", choices=["deepseek", "mock"], help="标题层级增强提供方；mock 仅用于本地测试")
+    enhance.add_argument("--model", default="deepseek-v4-flash", help="LLM 模型名称")
+    enhance.add_argument("--api-key", default=None, help="DeepSeek API Key；不传则读取 DEEPSEEK_API_KEY")
+    enhance.add_argument("--base-url", default=None, help="OpenAI-compatible base_url；DeepSeek 默认 https://api.deepseek.com")
+    enhance.add_argument("--hierarchy-batch-size", type=int, default=120, help="每批发送给 LLM 的标题数量")
+    enhance.add_argument("--llm-timeout", type=int, default=120, help="单次 LLM 请求超时秒数")
+    enhance.add_argument("--llm-retries", type=int, default=3, help="LLM 请求失败重试次数")
+    enhance.add_argument("--doc-id", default=None, help="只增强指定 doc_id，便于单文档测试")
+    enhance.add_argument("--domain", default=None, help="只增强指定 domain")
+    enhance.add_argument("--extract-dir", default=None, help="只增强指定 MinerU 解析目录，可直接传本地 full.md 所在目录")
+    enhance.add_argument("--limit-docs", type=int, default=None, help="最多处理多少条 manifest 记录，便于小样本测试")
+    enhance.add_argument("--no-write-enhanced-md", action="store_true", help="不写 full_titleEnhanced.md")
+    enhance.add_argument("--resume", action="store_true", help="保留参数位；后续可用于断点续跑")
+    enhance.add_argument("--input-price-per-1m", type=float, default=None, help="覆盖输入 token 单价，美元/百万 token")
+    enhance.add_argument("--output-price-per-1m", type=float, default=None, help="覆盖输出 token 单价，美元/百万 token")
+    enhance.set_defaults(func=cmd_enhance_hierarchy)
+
     return parser
 
 
 def main() -> None:
     """命令行主函数。"""
-
     parser = build_parser()
     args = parser.parse_args()
     args.func(args)
