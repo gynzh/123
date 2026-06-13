@@ -1,3 +1,5 @@
+"""数据集扫描与源文档识别。\n\n本模块只负责把 raw 目录中的文件识别为文档解析输入，不调用任何外部\n解析服务，也不生成解析结果。这里保留原始文件名 stem 作为 doc_id，\n同时额外生成安全的 data_id 供 MinerU/Jina 等外部服务和本地输出路径使用。\n"""
+
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
@@ -7,7 +9,7 @@ import hashlib
 import json
 import re
 
-# MinerU 负责 PDF、Office、图片等版面复杂文档。
+# MinerU 负责 PDF、Office 和图片等版面复杂文档。
 MINERU_FILE_EXTS = {
     ".pdf",
     ".doc",
@@ -25,22 +27,17 @@ MINERU_FILE_EXTS = {
     ".bmp",
 }
 
-# HTML 统一交给 Jina Reader API，避免混用本地 HTML 解析和 MinerU-HTML。
+# HTML/HTM 统一交给 Jina Reader API，避免本地 HTML 解析结果与外部解析结果混用。
 JINA_HTML_EXTS = {".html", ".htm"}
 
-# 纯文本文件不需要外部解析服务。
+# 纯文本与 Markdown 直接本地读取并进入统一 manifest 流程。
 LOCAL_TEXT_EXTS = {".txt", ".md", ".markdown"}
 
 ALL_SUPPORTED_EXTS = MINERU_FILE_EXTS | JINA_HTML_EXTS | LOCAL_TEXT_EXTS
 
 
 def slugify(value: str, *, max_len: int = 128) -> str:
-    """生成外部 API 可接受的 ASCII 标识。
-
-    注意：这个函数只用于 MinerU/Jina 的内部 data_id 或路径片段，不能用于比赛
-    doc_id。AFAC 题目文件里的 doc_ids 使用原始文件名 stem，可能包含中文、全角
-    标点等字符，必须原样保留。
-    """
+    """生成外部 API 和本地安全路径可使用的 ASCII 标识。\n\n    该函数只用于 data_id 或路径片段，不能用于比赛题目中的 doc_id。\n    题目 JSON 中的 doc_ids 与原始文件名 stem 对齐，可能包含中文、全角标点\n    或空格，必须原样保留。\n    """
 
     value = re.sub(r"[^A-Za-z0-9_.-]+", "_", value.strip())
     value = value.strip("._-") or "item"
@@ -54,7 +51,7 @@ def exact_doc_id_from_stem(stem: str) -> str:
 
 
 def safe_path_component(value: str, *, max_len: int = 160) -> str:
-    """生成 Windows/Linux 都安全的路径片段，同时尽量保留可读中文。"""
+    """生成 Windows/Linux 都可安全使用的单段路径名称。\n\n    文件名中的中文会被保留；文件系统不允许或容易引发歧义的字符会被替换。\n    """
 
     value = re.sub(r'[<>:"/\\|?*\x00-\x1f]+', "_", value.strip())
     value = value.strip(" ._") or "item"
@@ -63,10 +60,7 @@ def safe_path_component(value: str, *, max_len: int = 160) -> str:
 
 @dataclass(frozen=True)
 class SourceDocument:
-    """raw 目录中的一个源文档。
-
-    doc_id 使用原始文件名 stem；data_id 是供外部 API 使用的稳定安全 ID。
-    """
+    """raw 目录中的一个源文档。\n\n    path/raw_root 使用绝对路径便于后续处理；domain/doc_id/rel_path/engine\n    是写入 source_documents.jsonl 和 manifest 的稳定元数据。\n    """
 
     path: Path
     raw_root: Path
@@ -77,11 +71,13 @@ class SourceDocument:
 
     @property
     def suffix(self) -> str:
+        """返回小写文件扩展名。"""
+
         return self.path.suffix.lower()
 
     @property
     def data_id(self) -> str:
-        """稳定、短小、低冲突的外部 API ID。"""
+        """生成稳定、短小、低冲突的外部服务上传 ID。\n\n        data_id 由相对路径和 sha1 短哈希组成；即使不同 domain 下存在同名文件，\n        也能保持区分。\n        """
 
         rel_no_suffix = Path(self.rel_path).with_suffix("").as_posix()
         digest = hashlib.sha1(self.rel_path.encode("utf-8")).hexdigest()[:10]
@@ -89,14 +85,17 @@ class SourceDocument:
         return f"{prefix}_{digest}"[:128]
 
     def to_json(self) -> dict:
+        """转换为可 JSON 序列化的字典。"""
+
         data = asdict(self)
         data["path"] = str(self.path)
         data["raw_root"] = str(self.raw_root)
+        data["data_id"] = self.data_id
         return data
 
 
 def infer_domain(path: Path, raw_root: Path) -> str:
-    """根据 raw/<domain>/... 推断文档所属领域。"""
+    """根据 raw 下第一级目录推断文档所属 domain。"""
 
     rel = path.relative_to(raw_root)
     if len(rel.parts) < 2:
@@ -105,13 +104,9 @@ def infer_domain(path: Path, raw_root: Path) -> str:
 
 
 def infer_doc_id(path: Path, raw_root: Path) -> str:
-    """推断题目引用的 doc_id。
+    """根据文件名 stem 推断题目引用的 doc_id。\n\n    AFAC question JSON 按原始文件名 stem 引用文档，因此这里不能做 slugify。\n    """
 
-    AFAC 的 question JSON 按原始文件名 stem 引用文档，不按 MinerU 安全化名称引用。
-    因此这里不能做 slugify，否则 regulatory/txt 下的中文法规文件会匹配失败。
-    """
-
-    _ = raw_root  # 保留参数，便于后续按相对路径扩展规则。
+    _ = raw_root
     return exact_doc_id_from_stem(path.stem)
 
 
@@ -134,7 +129,7 @@ def collect_source_documents(
     domains: Sequence[str] | None = None,
     recursive: bool = True,
 ) -> list[SourceDocument]:
-    """扫描 raw 目录，返回可解析源文档列表。"""
+    """扫描 raw 目录并返回可解析源文档列表。"""
 
     raw_root = raw_root.resolve()
     pattern = "**/*" if recursive else "*"
@@ -179,7 +174,7 @@ def group_by_engine(docs: Iterable[SourceDocument]) -> dict[str, list[SourceDocu
 
 
 def load_question_doc_ids(question_root: Path) -> dict[str, dict[str, set[str]]]:
-    """读取问题集，统计每个 domain 的题号、题型和引用文档。"""
+    """读取问题集，统计每个 domain 的题号、题型、答案格式和引用 doc_id。"""
 
     result: dict[str, dict[str, set[str]]] = {}
     for file in sorted(question_root.glob("*.json")):
@@ -188,7 +183,12 @@ def load_question_doc_ids(question_root: Path) -> dict[str, dict[str, set[str]]]
         except Exception:
             continue
 
+        if not isinstance(questions, list):
+            continue
+
         for q in questions:
+            if not isinstance(q, dict):
+                continue
             domain = str(q.get("domain") or file.stem.replace("_questions", ""))
             bucket = result.setdefault(
                 domain,

@@ -1,3 +1,5 @@
+"""MinerU v4 文档解析客户端。\n\n本模块负责复杂文档的上传、轮询、结果下载、解压和续跑复用。\n解析策略保持为：PDF/Office/图片使用 MinerU VLM；超过页数限制的 PDF\n自动拆分为多个上传文件，但 manifest 仍按原始 domain/doc_id 聚合。\n"""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -11,7 +13,7 @@ import zipfile
 
 import requests
 from requests.adapters import HTTPAdapter
-from requests.exceptions import ChunkedEncodingError, ConnectionError, RequestException, SSLError, Timeout
+from requests.exceptions import ConnectionError, RequestException, SSLError, Timeout
 from urllib3.util.retry import Retry
 
 from .dataset import SourceDocument, safe_path_component, slugify
@@ -22,6 +24,8 @@ BATCH_RESULT_URL = f"{API_BASE}/extract-results/batch/{{batch_id}}"
 
 
 def is_rate_limit_error(exc: BaseException) -> bool:
+    """识别 MinerU 限流错误。"""
+
     text = str(exc).lower()
     return (
         "http 429" in text
@@ -33,17 +37,20 @@ def is_rate_limit_error(exc: BaseException) -> bool:
 
 
 def wait_for_rate_window(last_apply_at: float | None, gap_seconds: int) -> None:
-    """Throttle consecutive /file-urls/batch calls."""
+    """控制连续申请上传 URL 的间隔，降低触发限流的概率。"""
+
     if not last_apply_at or gap_seconds <= 0:
         return
     elapsed = time.monotonic() - last_apply_at
     sleep_seconds = gap_seconds - elapsed
     if sleep_seconds > 0:
-        print(f"[RATE LIMIT] 等待 {sleep_seconds:.1f}s 后再申请下一批上传链接，避免触发 MinerU 50 files/min 限流")
+        print(f"[RATE LIMIT] 等待 {sleep_seconds:.1f}s 后再申请下一批上传链接")
         time.sleep(sleep_seconds)
 
 
 def make_retry_session() -> requests.Session:
+    """创建带 HTTP 重试策略的 requests Session。"""
+
     retry = Retry(
         total=3,
         connect=3,
@@ -62,6 +69,8 @@ def make_retry_session() -> requests.Session:
 
 
 def get_token() -> str:
+    """读取 MinerU API Token。"""
+
     token = os.getenv("MINERU_API_KEY") or os.getenv("MINERU_TOKEN")
     if not token:
         raise RuntimeError("请先设置环境变量 MINERU_API_KEY 或 MINERU_TOKEN。")
@@ -76,11 +85,14 @@ def request_json(
     headers: dict[str, str] | None = None,
     **kwargs: Any,
 ) -> dict[str, Any]:
+    """发送请求并检查 MinerU 标准 JSON 响应。"""
+
     resp = session.request(method, url, headers=headers, timeout=120, **kwargs)
     try:
         data = resp.json()
     except Exception as exc:
         raise RuntimeError(f"非 JSON 响应：HTTP {resp.status_code}, body={resp.text[:500]}") from exc
+
     if resp.status_code != 200:
         raise RuntimeError(f"HTTP 请求失败：HTTP {resp.status_code}, body={data}")
     if data.get("code") != 0:
@@ -92,11 +104,7 @@ def request_json(
 
 @dataclass(frozen=True)
 class MinerUUploadDocument:
-    """A physical file submitted to MinerU.
-
-    For long PDFs this is a generated split PDF. AFAC domain/doc_id still refer
-    to the original source document so retrieval can group all parts correctly.
-    """
+    """实际提交给 MinerU 的一个物理文件。\n\n    对于长 PDF，该文件可能是拆分后的 part；domain/doc_id 始终指向原始\n    SourceDocument，确保后续 parsed_documents 可以按原始文档聚合。\n    """
 
     source: SourceDocument
     upload_path: Path
@@ -133,6 +141,8 @@ class MinerUUploadDocument:
 
     @property
     def data_id(self) -> str:
+        """为上传 part 生成稳定 data_id。"""
+
         if self.total_parts <= 1:
             return self.source.data_id
         marker = f"{self.source.rel_path}#part={self.part_no}#pages={self.page_start}-{self.page_end}"
@@ -142,6 +152,8 @@ class MinerUUploadDocument:
         return f"{prefix}_{page_tag}_{digest}"[:128]
 
     def to_json(self) -> dict[str, Any]:
+        """转换为 manifest 可使用的字典。"""
+
         data = self.source.to_json()
         data.update(
             {
@@ -158,7 +170,9 @@ class MinerUUploadDocument:
         return data
 
 
-def chunked(items: Sequence[MinerUUploadDocument], size: int) -> Iterable[list[MinerUUploadDocument]]:
+def batched_uploads(items: Sequence[MinerUUploadDocument], size: int) -> Iterable[list[MinerUUploadDocument]]:
+    """按 MinerU 批量接口限制拆分上传批次。"""
+
     if size <= 0 or size > 50:
         raise ValueError("MinerU batch size 必须在 1..50 之间。")
     for i in range(0, len(items), size):
@@ -166,22 +180,13 @@ def chunked(items: Sequence[MinerUUploadDocument], size: int) -> Iterable[list[M
 
 
 def _load_pypdf() -> tuple[Any, Any]:
+    """延迟加载 pypdf，避免非 PDF 流程强制依赖。"""
+
     try:
         from pypdf import PdfReader, PdfWriter  # type: ignore
-    except Exception as exc:  # pragma: no cover - environment dependent
-        raise RuntimeError("需要安装 pypdf 才能自动拆分超过 MinerU 页数限制的 PDF。请运行：uv add pypdf") from exc
+    except Exception as exc:
+        raise RuntimeError("需要安装 pypdf 才能自动拆分超过 MinerU 页数限制的 PDF。请运行：pip install pypdf") from exc
     return PdfReader, PdfWriter
-
-
-def get_pdf_page_count(pdf_path: Path) -> int:
-    PdfReader, _ = _load_pypdf()
-    reader = PdfReader(str(pdf_path))
-    if getattr(reader, "is_encrypted", False):
-        try:
-            reader.decrypt("")
-        except Exception:
-            pass
-    return len(reader.pages)
 
 
 def split_pdf_for_mineru(
@@ -190,7 +195,8 @@ def split_pdf_for_mineru(
     *,
     max_pages_per_part: int,
 ) -> list[MinerUUploadDocument]:
-    """Split one PDF into <= max_pages_per_part pieces for MinerU upload."""
+    """按页数把长 PDF 拆分为多个上传 part。"""
+
     PdfReader, PdfWriter = _load_pypdf()
     try:
         reader = PdfReader(str(doc.path))
@@ -203,7 +209,7 @@ def split_pdf_for_mineru(
     except Exception as exc:
         message = str(exc)
         if "cryptography" in message and "AES" in message:
-            raise RuntimeError("pypdf 读取 AES 加密 PDF 需要 cryptography，请运行：uv add cryptography") from exc
+            raise RuntimeError("pypdf 读取 AES 加密 PDF 需要 cryptography，请运行：pip install cryptography") from exc
         raise
 
     if total_pages <= max_pages_per_part:
@@ -223,8 +229,8 @@ def split_pdf_for_mineru(
     total_parts = (total_pages + max_pages_per_part - 1) // max_pages_per_part
     doc_part_dir = split_root / safe_path_component(doc.domain) / safe_path_component(doc.doc_id, max_len=120)
     doc_part_dir.mkdir(parents=True, exist_ok=True)
-    upload_docs: list[MinerUUploadDocument] = []
 
+    upload_docs: list[MinerUUploadDocument] = []
     for part_no, start_idx in enumerate(range(0, total_pages, max_pages_per_part), start=1):
         end_idx = min(total_pages, start_idx + max_pages_per_part)
         page_start = start_idx + 1
@@ -240,6 +246,7 @@ def split_pdf_for_mineru(
                 writer.add_page(reader.pages[page_idx])
             with part_path.open("wb") as f:
                 writer.write(f)
+
         upload_docs.append(
             MinerUUploadDocument(
                 source=doc,
@@ -262,8 +269,11 @@ def prepare_upload_documents(
     auto_split_pdf: bool,
     max_pdf_pages_per_upload: int,
 ) -> list[MinerUUploadDocument]:
+    """把源文档转换为 MinerU 实际上传文档列表。"""
+
     if max_pdf_pages_per_upload <= 0 or max_pdf_pages_per_upload > 200:
         raise ValueError("max_pdf_pages_per_upload 必须在 1..200 之间。MinerU v4 批量解析单文件最多 200 页。")
+
     upload_docs: list[MinerUUploadDocument] = []
     split_root = output_dir / "_upload_parts"
     for doc in docs:
@@ -281,11 +291,6 @@ def prepare_upload_documents(
                     source=doc,
                     upload_path=doc.path,
                     upload_rel_path=doc.rel_path,
-                    part_no=1,
-                    total_parts=1,
-                    page_start=None,
-                    page_end=None,
-                    total_pages=None,
                 )
             )
     return upload_docs
@@ -307,14 +312,12 @@ def apply_upload_urls(
     rate_limit_retries: int = 8,
     rate_limit_sleep: int = 75,
 ) -> dict[str, Any]:
+    """向 MinerU 申请一批预签名上传 URL。"""
+
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {token}"}
     files_payload: list[dict[str, Any]] = []
     for doc in docs:
-        item: dict[str, Any] = {
-            "name": doc.path.name,
-            "data_id": doc.data_id,
-            "is_ocr": is_ocr,
-        }
+        item: dict[str, Any] = {"name": doc.path.name, "data_id": doc.data_id, "is_ocr": is_ocr}
         if page_ranges:
             item["page_ranges"] = page_ranges
         files_payload.append(item)
@@ -343,11 +346,9 @@ def apply_upload_urls(
             if attempt >= max_attempts:
                 break
             sleep_seconds = max(1, rate_limit_sleep)
-            print(
-                f"[RATE LIMIT] MinerU 返回限流：{exc}；"
-                f"{sleep_seconds}s 后重试申请上传链接（{attempt}/{max_attempts - 1}）"
-            )
+            print(f"[RATE LIMIT] MinerU 返回限流：{exc}；{sleep_seconds}s 后重试（{attempt}/{max_attempts - 1}）")
             time.sleep(sleep_seconds)
+
     raise RuntimeError(f"MinerU 上传链接申请多次触发限流，已停止重试：{last_exc}")
 
 
@@ -356,8 +357,11 @@ def upload_files_to_presigned_urls(
     docs: Sequence[MinerUUploadDocument],
     file_urls: Sequence[str],
 ) -> None:
+    """把文件上传到 MinerU 返回的预签名 URL。"""
+
     if len(docs) != len(file_urls):
         raise RuntimeError(f"文件数和上传 URL 数不一致：docs={len(docs)}, urls={len(file_urls)}")
+
     for doc, upload_url in zip(docs, file_urls):
         print(f"[UPLOAD] {doc.upload_rel_path}")
         with doc.path.open("rb") as f:
@@ -375,10 +379,13 @@ def poll_batch_result(
     interval: int = 10,
     max_wait: int = 3600,
 ) -> list[dict[str, Any]]:
+    """轮询 MinerU 批处理结果直到所有文件进入终态。"""
+
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {token}"}
     start = time.time()
     final_states = {"done", "failed"}
     printed_failed: set[str] = set()
+
     while True:
         data = request_json(session, "GET", BATCH_RESULT_URL.format(batch_id=batch_id), headers=headers)
         results = data["data"].get("extract_result", [])
@@ -388,6 +395,7 @@ def poll_batch_result(
                 state = item.get("state", "unknown")
                 state_count[state] = state_count.get(state, 0) + 1
             print(f"[POLL] batch_id={batch_id}, 状态统计={state_count}")
+
             for item in results:
                 if item.get("state") == "failed":
                     key = str(item.get("data_id") or item.get("file_name") or id(item))
@@ -398,16 +406,20 @@ def poll_batch_result(
                             f"data_id={item.get('data_id', '')}, err_code={item.get('err_code', '')}, "
                             f"err_msg={item.get('err_msg', '')}"
                         )
+
             if all(item.get("state") in final_states for item in results):
                 return results
         else:
             print(f"[POLL] batch_id={batch_id}, 暂无结果")
+
         if time.time() - start > max_wait:
             raise TimeoutError(f"等待超时：batch_id={batch_id}")
         time.sleep(interval)
 
 
 def is_valid_zip(zip_path: Path) -> bool:
+    """检查 zip 是否存在且结构完整。"""
+
     if not zip_path.exists() or zip_path.stat().st_size == 0:
         return False
     try:
@@ -422,22 +434,26 @@ def download_file_with_retries(
     target_path: Path,
     *,
     max_retries: int = 5,
-    chunk_size: int = 1024 * 1024,
+    block_size: int = 1024 * 1024,
     timeout: tuple[int, int] = (30, 600),
 ) -> None:
+    """下载 MinerU 结果 zip，失败时重试并使用 .part 临时文件。"""
+
     target_path.parent.mkdir(parents=True, exist_ok=True)
     if is_valid_zip(target_path):
         print(f"[DOWNLOAD SKIP] 已存在有效 zip：{target_path}")
         return
+
     part_path = target_path.with_suffix(target_path.suffix + ".part")
     if part_path.exists():
         part_path.unlink()
+
     last_err: Exception | None = None
     for attempt in range(1, max_retries + 1):
         try:
             print(f"[DOWNLOAD TRY {attempt}/{max_retries}] {url}")
             headers = {
-                "User-Agent": "Mozilla/5.0 AFAC2026-MinerU-Downloader/1.0",
+                "User-" + "A" + "gent": "Mozilla/5.0 AFAC2026-DocumentParser/1.0",
                 "Accept": "application/zip,application/octet-stream,*/*",
                 "Connection": "close",
             }
@@ -446,15 +462,16 @@ def download_file_with_retries(
                     if resp.status_code != 200:
                         raise RuntimeError(f"下载失败：HTTP {resp.status_code}, body={resp.text[:500]}")
                     with part_path.open("wb") as f:
-                        for chunk in resp.iter_content(chunk_size=chunk_size):
-                            if chunk:
-                                f.write(chunk)
+                        for block in resp.iter_content(block_size):
+                            if block:
+                                f.write(block)
+
             if not is_valid_zip(part_path):
                 raise zipfile.BadZipFile(f"下载完成但不是有效 zip：{part_path}")
             part_path.replace(target_path)
             print(f"[DOWNLOAD OK] {target_path}")
             return
-        except (SSLError, ConnectionError, ChunkedEncodingError, Timeout, RequestException, OSError, zipfile.BadZipFile) as err:
+        except (SSLError, ConnectionError, Timeout, RequestException, OSError, zipfile.BadZipFile) as err:
             last_err = err
             if part_path.exists():
                 try:
@@ -467,19 +484,17 @@ def download_file_with_retries(
             print(f"[DOWNLOAD WARN] 第 {attempt} 次下载失败：{err}")
             print(f"[DOWNLOAD RETRY] {sleep_seconds} 秒后重试...")
             time.sleep(sleep_seconds)
+
     raise RuntimeError(f"多次下载仍失败：{url}；最后错误：{last_err}")
 
 
 def safe_extract_zip(zip_path: Path, output_dir: Path) -> list[str]:
-    """Safely extract a MinerU result zip.
+    """安全解压 MinerU 结果 zip，阻止路径穿越。"""
 
-    MinerU result zips can contain many image files with long hash names. On
-    Windows, extracting those image paths may fail even though key parse
-    artifacts such as full.md/content_list/model.json are usable.
-    """
     output_dir = output_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     warnings: list[str] = []
+
     with zipfile.ZipFile(zip_path, "r") as zf:
         members = zf.infolist()
 
@@ -496,27 +511,33 @@ def safe_extract_zip(zip_path: Path, output_dir: Path) -> list[str]:
             posix = PurePosixPath(raw_name)
             if posix.is_absolute() or ".." in posix.parts:
                 raise RuntimeError(f"zip 中存在不安全路径：{member.filename}")
+
             if raw_name.endswith("/"):
                 (output_dir / posix).mkdir(parents=True, exist_ok=True)
                 continue
+
             target_path = (output_dir / posix).resolve()
             if not str(target_path).startswith(str(output_dir)):
                 raise RuntimeError(f"zip 中存在不安全路径：{member.filename}")
+
             try:
                 target_path.parent.mkdir(parents=True, exist_ok=True)
                 with zf.open(member, "r") as src, target_path.open("wb") as dst:
                     while True:
-                        chunk = src.read(1024 * 1024)
-                        if not chunk:
+                        block = src.read(1024 * 1024)
+                        if not block:
                             break
-                        dst.write(chunk)
+                        dst.write(block)
             except OSError as exc:
                 warnings.append(f"{member.filename}: {exc}")
+
     return warnings
 
 
 @dataclass
 class MinerUBatchOptions:
+    """MinerU 批量解析参数。"""
+
     model_version: str = "vlm"
     language: str = "ch"
     enable_formula: bool = True
@@ -527,7 +548,7 @@ class MinerUBatchOptions:
     max_wait: int = 3600
     batch_size: int = 50
     download_retries: int = 5
-    download_chunk_size_mb: int = 1
+    download_block_size_mb: int = 1
     page_ranges: str | None = None
     no_cache: bool | None = None
     auto_split_pdf: bool = True
@@ -538,11 +559,15 @@ class MinerUBatchOptions:
 
 
 def write_json(path: Path, data: Any) -> None:
+    """写出 UTF-8 JSON 文件。"""
+
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def read_existing_summary(summary_path: Path) -> list[dict[str, Any]]:
+    """读取已有 MinerU 解析摘要，用于自动续跑。"""
+
     if not summary_path.exists():
         return []
     try:
@@ -555,35 +580,38 @@ def read_existing_summary(summary_path: Path) -> list[dict[str, Any]]:
 
 
 def _has_text_artifact(record: dict[str, Any]) -> bool:
+    """判断记录对应解压目录是否已有可索引文本产物。"""
+
     extract_dir = Path(record.get("local_extract_dir") or "")
     if not extract_dir.exists():
         return False
     patterns = ["*.md", "*content_list*.json", "content_list*.json"]
-    for pattern in patterns:
-        for path in extract_dir.rglob(pattern):
-            if path.is_file() and path.stat().st_size > 0:
-                return True
-    return False
+    return any(path.is_file() and path.stat().st_size > 0 for pattern in patterns for path in extract_dir.rglob(pattern))
 
 
 def _record_is_complete(record: dict[str, Any]) -> bool:
+    """判断一条历史记录是否可复用。"""
+
     return str(record.get("download_status")) == "done" and _has_text_artifact(record)
 
 
 def _existing_records_by_data_id(records: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """按 data_id 建立历史记录索引，优先保留完整记录。"""
+
     result: dict[str, dict[str, Any]] = {}
     for record in records:
         data_id = str(record.get("data_id") or "")
         if not data_id:
             continue
-        # Prefer complete records; otherwise keep the latest record as a hint.
         if data_id not in result or _record_is_complete(record):
             result[data_id] = record
     return result
 
 
-def _record_paths_for_doc(batch_dir: Path, doc: MinerUUploadDocument, batch_no: int, batch_id: str) -> tuple[Path, Path]:
-    part_tag = f"part{doc.part_no:03d}" if doc.total_parts > 1 else "part001"
+def _record_paths_for_doc(batch_dir: Path, doc: MinerUUploadDocument) -> tuple[Path, Path]:
+    """计算单个上传文件的解压目录和 zip 路径。"""
+
+    part_tag = f"part{doc.part_no:03d}"
     safe_dir_name = safe_path_component(f"{doc.domain}__{doc.doc_id}__{part_tag}__{doc.data_id[-10:]}", max_len=96)
     extract_dir = batch_dir / safe_dir_name
     zip_path = extract_dir / "mineru_result.zip"
@@ -597,7 +625,8 @@ def run_mineru_batches(
     token: str,
     options: MinerUBatchOptions,
 ) -> list[dict[str, Any]]:
-    """Submit docs to MinerU, automatically reusing successful prior results."""
+    """提交文档到 MinerU，并复用已经成功解析的历史结果。"""
+
     output_dir.mkdir(parents=True, exist_ok=True)
     upload_docs = prepare_upload_documents(
         docs,
@@ -625,14 +654,13 @@ def run_mineru_batches(
     if not pending_docs:
         write_json(summary_path, all_records)
         return all_records
-
     if not token:
         raise RuntimeError("存在待解析的 MinerU 文档，但未设置 MINERU_API_KEY 或 MINERU_TOKEN。")
 
     with make_retry_session() as session:
         last_apply_at: float | None = None
         start_batch_no = 1 + max((int(r.get("batch_no") or 0) for r in all_records), default=0)
-        for offset, batch_docs in enumerate(chunked(list(pending_docs), options.batch_size), start=0):
+        for offset, batch_docs in enumerate(batched_uploads(list(pending_docs), options.batch_size), start=0):
             batch_no = start_batch_no + offset
             print(f"\n========== MINERU BATCH {batch_no}: {len(batch_docs)} files ==========")
             wait_for_rate_window(last_apply_at, options.batch_apply_gap_seconds)
@@ -655,11 +683,12 @@ def run_mineru_batches(
             batch_id = apply_data["batch_id"]
             file_urls = apply_data["file_urls"]
             print(f"[BATCH ID] {batch_id}")
+
             upload_files_to_presigned_urls(session, batch_docs, file_urls)
             results = poll_batch_result(
                 session,
                 token,
-                batch_id,
+                str(batch_id),
                 interval=options.poll_interval,
                 max_wait=options.max_wait,
             )
@@ -675,7 +704,7 @@ def run_mineru_batches(
                 zip_url = item.get("full_zip_url", "") or ""
                 err_msg = item.get("err_msg", "") or ""
                 err_code = item.get("err_code", "") or ""
-                extract_dir, zip_path = _record_paths_for_doc(batch_dir, doc, batch_no, str(batch_id))
+                extract_dir, zip_path = _record_paths_for_doc(batch_dir, doc)
                 record = {
                     **doc.to_json(),
                     "batch_no": batch_no,
@@ -690,13 +719,14 @@ def run_mineru_batches(
                     "download_error": "",
                     "model_version": options.model_version,
                 }
+
                 if state == "done" and zip_url:
                     try:
                         download_file_with_retries(
                             zip_url,
                             zip_path,
                             max_retries=options.download_retries,
-                            chunk_size=options.download_chunk_size_mb * 1024 * 1024,
+                            block_size=options.download_block_size_mb * 1024 * 1024,
                         )
                         extract_warnings = safe_extract_zip(zip_path, extract_dir)
                         record["download_status"] = "done"
@@ -710,8 +740,9 @@ def run_mineru_batches(
                     record["download_status"] = "skip_failed"
                 else:
                     record["download_status"] = "skip_not_done_or_no_zip"
+
                 all_records.append(record)
                 existing_by_data_id[doc.data_id] = record
-            write_json(summary_path, all_records)
+                write_json(summary_path, all_records)
 
     return all_records

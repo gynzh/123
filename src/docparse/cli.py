@@ -1,8 +1,10 @@
+"""文档解析命令行入口。"""
+
 from __future__ import annotations
 
+from pathlib import Path
 import argparse
 import json
-from pathlib import Path
 
 try:
     from dotenv import load_dotenv
@@ -22,18 +24,18 @@ from .normalize import (
 
 
 def add_common_args(parser: argparse.ArgumentParser) -> None:
-    """为 inspect/parse 子命令添加通用数据集参数。"""
+    """为 inspect、parse、build-manifest 子命令添加通用参数。"""
 
     parser.add_argument(
         "--dataset-root",
         default="public_dataset_a/public_dataset_upload",
         help="比赛数据根目录",
     )
-    parser.add_argument("--raw-dir", default=None, help="raw 目录；默认等于 <dataset-root>/raw")
+    parser.add_argument("--raw-dir", default=None, help="raw 目录；默认等于 dataset-root/raw")
     parser.add_argument(
         "--question-dir",
         default=None,
-        help="题目目录；默认等于 <dataset-root>/questions/group_a",
+        help="题目目录；默认等于 dataset-root/questions/group_a",
     )
     parser.add_argument("--output-dir", default="outputs/parse/mineru", help="文档解析汇总输出目录")
     parser.add_argument("--domain", action="append", dest="domains", help="只解析指定 domain，可重复传入")
@@ -53,15 +55,14 @@ def cmd_inspect(args: argparse.Namespace) -> None:
     print(f"[DATASET] raw_root={raw_root.resolve()}")
     print(f"[DATASET] collected_docs={len(docs)}")
     for engine, rows in sorted(grouped.items()):
-        print(f"  - {engine}: {len(rows)}")
+        print(f" - {engine}: {len(rows)}")
 
     by_domain: dict[str, int] = {}
     for doc in docs:
         by_domain[doc.domain] = by_domain.get(doc.domain, 0) + 1
-
     print("[DOMAINS]")
     for domain, count in sorted(by_domain.items()):
-        print(f"  - {domain}: {count}")
+        print(f" - {domain}: {count}")
 
     if question_root.exists():
         qmeta = load_question_doc_ids(question_root)
@@ -70,20 +71,16 @@ def cmd_inspect(args: argparse.Namespace) -> None:
             parsed_doc_ids = {d.doc_id for d in docs if d.domain == domain}
             missing = sorted(meta["doc_ids"] - parsed_doc_ids)
             print(
-                f"  - {domain}: qids={len(meta['qids'])}, "
+                f" - {domain}: qids={len(meta['qids'])}, "
                 f"referenced_docs={len(meta['doc_ids'])}, "
                 f"missing_in_raw_scan={len(missing)}"
             )
             if missing[:10]:
-                print(f"    missing examples: {missing[:10]}")
+                print(f"   missing examples: {missing[:10]}")
 
 
 def _jina_output_dir_from_args(args: argparse.Namespace) -> Path:
-    """确定 Jina HTML 原始解析产物目录。
-
-    默认 final output_dir 为 outputs/parse/mineru；Jina 原始产物放到同级
-    outputs/parse/jina/jina_html，避免和 MinerU 原始产物混在一起。
-    """
+    """确定 Jina HTML 原始解析产物目录。"""
 
     if getattr(args, "jina_output_dir", None):
         return Path(args.jina_output_dir)
@@ -91,7 +88,7 @@ def _jina_output_dir_from_args(args: argparse.Namespace) -> Path:
 
 
 def _write_parse_outputs(records: list[dict], output_dir: Path) -> None:
-    """写出文档解析阶段汇总文件"""
+    """写出文档解析阶段汇总文件。"""
 
     records = enrich_records_with_artifacts(records, output_dir)
     build_doc_id_map(records, output_dir)
@@ -100,7 +97,7 @@ def _write_parse_outputs(records: list[dict], output_dir: Path) -> None:
 
 
 def cmd_parse(args: argparse.Namespace) -> None:
-    """自动续跑文档解析，并生成解析阶段汇总文件。"""
+    """自动续跑文档解析，并生成文档级标准化产物。"""
 
     if load_dotenv:
         load_dotenv()
@@ -120,7 +117,7 @@ def cmd_parse(args: argparse.Namespace) -> None:
     grouped = group_by_engine(docs)
     print(f"[INFO] 待解析文件：{len(docs)}")
     for engine, rows in sorted(grouped.items()):
-        print(f"  - {engine}: {len(rows)}")
+        print(f" - {engine}: {len(rows)}")
 
     if args.dry_run:
         print(f"[DRY RUN] 文件清单已写入：{output_dir / 'source_documents.jsonl'}")
@@ -146,7 +143,7 @@ def cmd_parse(args: argparse.Namespace) -> None:
             max_wait=args.max_wait,
             batch_size=args.batch_size,
             download_retries=args.download_retries,
-            download_chunk_size_mb=args.download_chunk_size_mb,
+            download_block_size_mb=args.download_block_size_mb,
             page_ranges=args.page_ranges,
             no_cache=args.no_cache,
             auto_split_pdf=not args.no_auto_split_pdf,
@@ -175,6 +172,8 @@ def cmd_parse(args: argparse.Namespace) -> None:
 
 
 def _load_manifest(output_dir: Path) -> list[dict]:
+    """读取已经存在的 manifest.jsonl。"""
+
     manifest_path = output_dir / "manifest.jsonl"
     if not manifest_path.exists():
         raise RuntimeError(f"找不到 manifest.jsonl：{manifest_path}。请先运行 parse。")
@@ -188,7 +187,7 @@ def _load_manifest(output_dir: Path) -> list[dict]:
 
 
 def cmd_build_manifest(args: argparse.Namespace) -> None:
-    """基于已存在 manifest 重建解析阶段汇总文件。"""
+    """基于已存在 manifest 重建文档级解析汇总文件。"""
 
     output_dir = Path(args.output_dir)
     records = _load_manifest(output_dir)
@@ -197,14 +196,16 @@ def cmd_build_manifest(args: argparse.Namespace) -> None:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="AFAC2026 Challenge4 文档解析工具")
+    """构造命令行解析器。"""
+
+    parser = argparse.ArgumentParser(description="AFAC2026 Challenge 4 文档解析工具")
     sub = parser.add_subparsers(dest="command", required=True)
 
     inspect = sub.add_parser("inspect", help="扫描数据集与题目引用关系，不调用解析 API")
     add_common_args(inspect)
     inspect.set_defaults(func=cmd_inspect)
 
-    parse = sub.add_parser("parse", help="自动续跑解析 raw 文档，并生成解析汇总文件")
+    parse = sub.add_parser("parse", help="自动续跑解析 raw 文档，并生成文档级标准化产物")
     add_common_args(parse)
     parse.add_argument("--model-version", default="vlm", choices=["pipeline", "vlm"], help="非 HTML 文档使用的 MinerU 模型")
     parse.add_argument("--language", default="ch", help="MinerU 解析语言")
@@ -216,8 +217,8 @@ def build_parser() -> argparse.ArgumentParser:
     parse.add_argument("--max-wait", type=int, default=3600, help="单个 MinerU 批次最长等待秒数")
     parse.add_argument("--batch-size", type=int, default=50, help="MinerU 每批申请上传链接数量，不能超过 50")
     parse.add_argument("--download-retries", type=int, default=5, help="MinerU 结果 zip 下载重试次数")
-    parse.add_argument("--download-chunk-size-mb", type=int, default=1, help="结果 zip 下载分块大小，单位 MB")
-    parse.add_argument("--page-ranges", default=None, help="调试用页码范围，例如 1-3；正式解析建议不传")
+    parse.add_argument("--download-block-size-mb", type=int, default=1, help="结果 zip 下载分块大小，单位 MB")
+    parse.add_argument("--page-ranges", default=None, help="调试用页码范围，例如 1-3；完整解析时不传")
     parse.add_argument("--no-auto-split-pdf", action="store_true", help="关闭长 PDF 自动拆分；默认开启")
     parse.add_argument("--max-pdf-pages-per-upload", type=int, default=200, help="每个拆分 PDF 的最大页数，默认 200")
     parse.add_argument("--no-cache", action="store_true", default=None, help="传给 MinerU，绕过缓存")
@@ -229,12 +230,7 @@ def build_parser() -> argparse.ArgumentParser:
     parse.add_argument("--dry-run", action="store_true", help="只扫描文件，不上传解析")
     parse.set_defaults(func=cmd_parse)
 
-    # 保留 build-index 作为兼容别名，但语义已改为“重建解析清单”，不再生成 chunks。
-    build_index = sub.add_parser("build-index", help="兼容别名：基于 manifest 重建解析汇总文件，不生成 chunks")
-    build_index.add_argument("--output-dir", default="outputs/parse/mineru")
-    build_index.set_defaults(func=cmd_build_manifest)
-
-    build_manifest = sub.add_parser("build-manifest", help="基于 manifest 重建解析汇总文件")
+    build_manifest = sub.add_parser("build-manifest", help="基于 manifest 重建文档级解析汇总文件")
     build_manifest.add_argument("--output-dir", default="outputs/parse/mineru")
     build_manifest.set_defaults(func=cmd_build_manifest)
 
@@ -242,6 +238,8 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main() -> None:
+    """命令行主函数。"""
+
     parser = build_parser()
     args = parser.parse_args()
     args.func(args)

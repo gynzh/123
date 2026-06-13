@@ -1,13 +1,13 @@
 [project]
-name = "afac2026-chanllenge4-agent"
+name = "afac2026-document-parser"
 version = "0.1.0"
-description = "AFAC2026 Challenge 4 financial long-document agent pipeline"
+description = "AFAC2026 Challenge 4 document parsing and normalized parse artifact generation"
 readme = "ReadMe.md"
 requires-python = ">=3.12"
 dependencies = [
-    "cryptography>=3.1",
-    "pypdf>=4.0.0",
-    "python-dotenv>=1.0.0",
-    "requests>=2.31.0",
-    "urllib3>=2.0.0",
+  "cryptography>=3.1",
+  "pypdf>=4.0.0",
+  "python-dotenv>=1.0.0",
+  "requests>=2.31.0",
+  "urllib3>=2.0.0",
 ]
