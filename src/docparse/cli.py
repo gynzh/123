@@ -200,6 +200,9 @@ def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
         resume=args.resume,
         input_price_per_1m=args.input_price_per_1m,
         output_price_per_1m=args.output_price_per_1m,
+        filter_toc=not args.disable_toc_filter,
+        toc_max_start_page=args.toc_max_start_page,
+        toc_max_follow_pages=args.toc_max_follow_pages,
     )
     stats = enhance_hierarchy(options)
     usage = stats.get("usage", {})
@@ -268,6 +271,9 @@ def build_parser() -> argparse.ArgumentParser:
     enhance.add_argument("--limit-docs", type=int, default=None, help="最多处理多少条 manifest 记录，便于小样本测试")
     enhance.add_argument("--no-write-enhanced-md", action="store_true", help="不写 full_titleEnhanced.md")
     enhance.add_argument("--resume", action="store_true", help="保留参数位；后续可用于断点续跑")
+    enhance.add_argument("--disable-toc-filter", action="store_true", help="不自动过滤目录页目录项；默认会过滤并在 full_titleEnhanced.md 中降级为普通文本")
+    enhance.add_argument("--toc-max-start-page", type=int, default=15, help="只在前 N 页内寻找目录起点，默认 15")
+    enhance.add_argument("--toc-max-follow-pages", type=int, default=12, help="从目录起点最多向后扩展 N 页目录区间，默认 12")
     enhance.add_argument("--input-price-per-1m", type=float, default=None, help="覆盖输入 token 单价，美元/百万 token")
     enhance.add_argument("--output-price-per-1m", type=float, default=None, help="覆盖输出 token 单价，美元/百万 token")
     enhance.set_defaults(func=cmd_enhance_hierarchy)

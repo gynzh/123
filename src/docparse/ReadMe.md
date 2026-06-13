@@ -80,3 +80,8 @@ $env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
 ```powershell
 $env:DEEPSEEK_BASE_URL="https://api.deepseek.com"
 ```
+
+
+## 目录页过滤
+
+标题层级增强默认会识别并过滤前置目录区间中的目录项。程序会先在前置页面寻找“目录/目次/Contents”等目录起点，再向后连续扫描目录项密度较高的页面，因此可处理多页目录。目录项不会发送给 LLM 作为正文标题，写入 `title_hierarchy.jsonl` 时会标记 `is_toc_entry=true`、`is_title=false`，并在 `full_titleEnhanced.md` 中降级为普通文本。若需要调试原始行为，可添加 `--disable-toc-filter`。目录区间范围可用 `--toc-max-start-page` 和 `--toc-max-follow-pages` 调整。
