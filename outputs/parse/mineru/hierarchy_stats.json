@@ -3,17 +3,17 @@
   "model": "rule-title-enhancer",
   "record_count": 2,
   "pdf_group_count": 1,
-  "title_record_count": 515,
+  "title_record_count": 475,
   "llm_request_count": 0,
-  "title_candidates_total": 515,
+  "title_candidates_total": 475,
   "llm_sent_candidates_total": 0,
-  "rule_evaluated_candidates_total": 498,
+  "rule_evaluated_candidates_total": 435,
   "toc_heading_candidates_total": 1,
-  "toc_entry_candidates_total": 16,
-  "toc_pages_total": 1,
-  "rule_detected_candidates_total": 41,
-  "non_title_candidates_total": 52,
-  "elapsed_seconds": 1.299,
+  "toc_entry_candidates_total": 39,
+  "toc_pages_total": 2,
+  "rule_detected_candidates_total": 60,
+  "non_title_candidates_total": 61,
+  "elapsed_seconds": 4.061,
   "enhancement_mode": "rule_based",
   "toc_filter": {
     "enabled": true,
@@ -21,15 +21,15 @@
     "max_follow_pages": 12
   },
   "raw_title_level_counts": {
-    "1": 7,
-    "2": 467
+    "1": 11,
+    "2": 404
   },
   "enhanced_title_level_counts": {
-    "1": 38,
-    "2": 156,
-    "3": 122,
-    "4": 112,
-    "5": 35
+    "1": 41,
+    "2": 130,
+    "3": 113,
+    "4": 89,
+    "5": 41
   },
   "usage": {
     "requests": 0,
@@ -44,59 +44,60 @@
     "title_hierarchy_jsonl": "outputs\\parse\\mineru\\title_hierarchy.jsonl",
     "hierarchy_stats_json": "outputs\\parse\\mineru\\hierarchy_stats.json",
     "enhanced_markdown_files": [
-      "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part001__b77d7e385b\\full_titleEnhanced.md",
-      "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part002__c5e4f0cbf5\\full_titleEnhanced.md"
+      "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text01__part001__86cde1fd08\\full_titleEnhanced.md",
+      "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text01__part002__cf85092766\\full_titleEnhanced.md"
     ]
   },
   "documents": [
     {
-      "group_id": "financial_contracts/text03",
+      "group_id": "financial_contracts/text01",
       "domain": "financial_contracts",
-      "doc_id": "text03",
+      "doc_id": "text01",
       "part_count": 2,
-      "title_candidates": 515,
+      "title_candidates": 475,
       "toc_filter_enabled": true,
-      "toc_reference_candidates": 17,
+      "toc_reference_candidates": 40,
       "toc_heading_candidates": 1,
-      "toc_entry_candidates": 16,
+      "toc_entry_candidates": 39,
       "llm_sent_candidates": 0,
-      "rule_evaluated_candidates": 498,
-      "rule_detected_candidates": 41,
+      "rule_evaluated_candidates": 435,
+      "rule_detected_candidates": 60,
       "llm_request_count": 0,
-      "enhanced_titles": 463,
-      "non_title_candidates": 52,
-      "elapsed_seconds": 1.271,
+      "enhanced_titles": 414,
+      "non_title_candidates": 61,
+      "elapsed_seconds": 4.038,
       "enhanced_markdown_files": [
-        "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part001__b77d7e385b\\full_titleEnhanced.md",
-        "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part002__c5e4f0cbf5\\full_titleEnhanced.md"
+        "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text01__part001__86cde1fd08\\full_titleEnhanced.md",
+        "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text01__part002__cf85092766\\full_titleEnhanced.md"
       ],
       "parts": [
         {
           "domain": "financial_contracts",
-          "doc_id": "text03",
+          "doc_id": "text01",
           "part_no": 1,
-          "local_extract_dir": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part001__b77d7e385b",
-          "title_candidates": 433,
+          "local_extract_dir": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text01__part001__86cde1fd08",
+          "title_candidates": 316,
           "toc_start_page": 7,
           "toc_pages": [
-            7
+            7,
+            8
           ],
           "toc_heading_candidates": 1,
-          "toc_entry_candidates": 16,
-          "rule_detected_candidates": 36,
+          "toc_entry_candidates": 39,
+          "rule_detected_candidates": 42,
           "source_artifact": "content_list_v2"
         },
         {
           "domain": "financial_contracts",
-          "doc_id": "text03",
+          "doc_id": "text01",
           "part_no": 2,
-          "local_extract_dir": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part002__c5e4f0cbf5",
-          "title_candidates": 82,
+          "local_extract_dir": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text01__part002__cf85092766",
+          "title_candidates": 159,
           "toc_start_page": null,
           "toc_pages": [],
           "toc_heading_candidates": 0,
           "toc_entry_candidates": 0,
-          "rule_detected_candidates": 5,
+          "rule_detected_candidates": 18,
           "source_artifact": "content_list_v2"
         }
       ]

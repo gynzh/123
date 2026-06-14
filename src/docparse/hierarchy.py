@@ -552,6 +552,14 @@ def is_noise_title(text: str, *, page_idx: int | None = None) -> bool:
     compact = normalize_title_key(stripped)
     if compact in _MAJOR_UNNUMBERED_TITLES:
         return False
+    if page_idx is not None and page_idx <= 1:
+        # Cover pages often contain issuer names, bond names, addresses and
+        # role labels that MinerU marks as headings.  They are document metadata
+        # rather than section anchors, so they should not pollute the hierarchy.
+        if re.search(r"(股份)?有限公司|集团有限公司|控股集团", stripped) and numbered_heading_level(stripped)[0] is None:
+            return True
+        if re.search(r"公开发行|公司债券|募集说明书|住所[:：]|牵头主承销商|联席主承销商|受托管理人", stripped):
+            return True
     for pattern in _NOISE_TITLE_PATTERNS:
         if pattern.search(stripped) or pattern.search(compact):
             return True
@@ -597,11 +605,20 @@ def rule_candidate_reason(block: TextBlock, *, page_is_toc: bool = False) -> tup
         return True, "mineru_title"
     if page_is_toc and (is_toc_heading_text(text) or is_toc_entry_text(text)):
         return True, "toc_text"
-    if is_noise_title(text, page_idx=block.page_idx) or looks_like_sentence(text):
+    if is_noise_title(text, page_idx=block.page_idx):
         return False, "prose_or_noise"
     level, reason = numbered_heading_level(text)
     if level is not None:
+        # Legal/regulatory articles often contain a complete sentence after
+        # “第X条”.  They are still structural anchors and should not be
+        # filtered merely because they end with a Chinese full stop.
+        if reason in {"chapter_or_section", "article"}:
+            return True, reason
+        if looks_like_sentence(text):
+            return False, "prose_or_noise"
         return True, reason
+    if looks_like_sentence(text):
+        return False, "prose_or_noise"
     if normalize_title_key(text) in _MAJOR_UNNUMBERED_TITLES:
         return True, "known_unnumbered"
     return False, "no_rule"
@@ -1169,7 +1186,16 @@ def final_section_stack(titles: list[EnhancedTitle]) -> list[dict[str, Any]]:
 
 
 def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) -> Path | None:
-    """Write full_titleEnhanced.md by correcting existing and rule-detected Markdown headings."""
+    """Write ``full_titleEnhanced.md`` while preserving body text as much as possible.
+
+    MinerU sometimes emits several Markdown headings and following prose on the
+    same physical line, for example ``## 二、标题 ## （一）子标题 正文``.  A
+    line-level replacement would miss those headings or treat the whole line as
+    one title.  This writer therefore scans every inline heading marker, matches
+    it against the ordered enhanced title records, and emits one normalized
+    Markdown heading line per matched structural title.  Any trailing prose after
+    the matched title is kept as ordinary text on the following line.
+    """
     full_md = extract_dir / "full.md"
     if not full_md.exists():
         candidates = sorted(extract_dir.glob("*full*.md"), key=lambda p: p.stat().st_size, reverse=True)
@@ -1181,63 +1207,182 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
     title_queue = sorted(titles, key=lambda item: item.order)
     cursor = 0
     used_title_indexes: set[int] = set()
-    heading_re = re.compile(r"^(#{1,6})(\s+)(.+?)(\s*)$")
-    new_lines: list[str] = []
+    inline_marker_re = re.compile(r"(?<!#)(#{1,6})\s+")
 
-    def find_title_index(line_text: str, start_cursor: int, *, window: int) -> int | None:
-        key = normalize_inline_text(line_text)
-        if not key:
+    def compact_with_positions(value: str) -> tuple[str, list[int]]:
+        """Return whitespace-free text and the original char index for each char."""
+        chars: list[str] = []
+        positions: list[int] = []
+        for pos, ch in enumerate(value):
+            if ch.isspace():
+                continue
+            chars.append(ch)
+            positions.append(pos)
+        return "".join(chars), positions
+
+    def title_match_score(segment: str, title: EnhancedTitle) -> int | None:
+        """Score how confidently a text segment starts with a known title."""
+        segment_key = normalize_inline_text(strip_toc_page_marker(segment))
+        title_key = normalize_inline_text(title.text)
+        if not segment_key or not title_key:
             return None
+        if segment_key == title_key:
+            return 0
+        # Typical MinerU full.md segments contain the heading text followed by
+        # body prose on the same line.  Prefix matching handles that case.
+        if len(title_key) >= 2 and segment_key.startswith(title_key):
+            return 1
+        # Some Markdown fallback segments include punctuation or space cleanup
+        # differences.  Allow an early contains match, but keep it lower priority.
+        found = segment_key.find(title_key)
+        if len(title_key) >= 4 and 0 <= found <= 8:
+            return 2 + found
+        return None
+
+    def find_title_index(segment: str, start_cursor: int, *, window: int) -> int | None:
+        """Find the next unused title that matches a Markdown segment."""
+        best: tuple[int, int] | None = None
         search_ranges = [range(start_cursor, min(start_cursor + window, len(title_queue))), range(0, len(title_queue))]
         for search_range in search_ranges:
             for idx in search_range:
                 if idx in used_title_indexes:
                     continue
-                if normalize_inline_text(title_queue[idx].text) == key:
-                    used_title_indexes.add(idx)
-                    return idx
+                score = title_match_score(segment, title_queue[idx])
+                if score is None:
+                    continue
+                ranked = (score, idx)
+                if best is None or ranked < best:
+                    best = ranked
+            if best is not None:
+                break
+        if best is None:
+            return None
+        used_title_indexes.add(best[1])
+        return best[1]
+
+    def split_segment_after_title(segment: str, title_text: str) -> tuple[str, str]:
+        """Split an inline heading segment into title text and trailing prose."""
+        raw = segment.strip()
+        if not raw:
+            return title_text.strip(), ""
+        raw_compact, positions = compact_with_positions(raw)
+        title_key = normalize_inline_text(title_text)
+        if title_key and raw_compact.startswith(title_key) and len(positions) >= len(title_key):
+            end_pos = positions[len(title_key) - 1] + 1
+            return raw[:end_pos].strip(), raw[end_pos:].strip()
+        found = raw_compact.find(title_key) if title_key else -1
+        if title_key and 0 <= found <= 8 and len(positions) >= found + len(title_key):
+            start_pos = positions[found]
+            end_pos = positions[found + len(title_key) - 1] + 1
+            prefix = raw[:start_pos].strip()
+            suffix = raw[end_pos:].strip()
+            rest = " ".join(part for part in (prefix, suffix) if part)
+            return raw[start_pos:end_pos].strip(), rest
+        return title_text.strip(), ""
+
+    def append_plain_text(out: list[str], value: str) -> None:
+        """Append non-empty text without creating duplicate blank or noisy lines."""
+        value = value.strip()
+        if value:
+            out.append(value)
+
+    def infer_unmatched_rule_heading(segment: str) -> tuple[int, str, str] | None:
+        """Infer a heading from a Markdown segment that has no candidate record.
+
+        A few MinerU outputs expose corrected-looking Markdown markers in
+        ``full.md`` while the corresponding text block is missing from the
+        structure JSON.  In that case the writer should still use the same
+        deterministic numbering rules instead of leaving the original marker
+        level unchanged.  Whitespace in such inline segments usually separates
+        the heading from following prose, so numbered non-article titles are
+        first evaluated on the leading token.
+        """
+        raw = segment.strip()
+        if not raw or is_noise_title(raw):
+            return None
+        tokens = raw.split()
+        probe_items: list[tuple[str, str]] = []
+        if tokens:
+            first = tokens[0]
+            first_level, first_reason = numbered_heading_level(first)
+            if first_level is not None and first_reason != "article":
+                # ``第一节 标题 正文`` needs the first two tokens to keep the
+                # section caption, while ``（一）标题 正文`` is already complete
+                # in the first token.
+                if first_reason == "chapter_or_section" and len(tokens) >= 2:
+                    probe_items.append((" ".join(tokens[:2]), " ".join(tokens[2:])))
+                probe_items.append((first, " ".join(tokens[1:])))
+        probe_items.append((raw, ""))
+
+        for head_text, trailing in probe_items:
+            level, reason = numbered_heading_level(head_text)
+            if level is None:
+                if normalize_title_key(head_text) in _MAJOR_UNNUMBERED_TITLES:
+                    return 1, head_text.strip(), trailing.strip()
+                continue
+            if reason != "article" and looks_like_body_list_item(head_text, reason):
+                continue
+            if reason not in {"article", "chapter_or_section"} and looks_like_sentence(head_text):
+                continue
+            return max(1, min(6, level)), head_text.strip(), trailing.strip()
         return None
 
-    for line in lines:
-        match = heading_re.match(line)
-        if match:
-            heading_text = match.group(3)
-            found_index = find_title_index(heading_text, cursor, window=45)
-            if found_index is None:
-                new_lines.append(line)
-                continue
-            title = title_queue[found_index]
-            cursor = found_index + 1
-            if not title.is_title or title.is_toc_entry:
-                new_lines.append(f"{heading_text}{match.group(4)}")
-                continue
+    def append_enhanced_segment(out: list[str], segment: str, *, marker: str | None) -> None:
+        """Append one heading/prose segment after title matching."""
+        nonlocal cursor
+        stripped = segment.strip()
+        if not stripped:
+            return
+        found_index = find_title_index(stripped, cursor, window=60)
+        if found_index is None:
+            inferred = infer_unmatched_rule_heading(stripped) if marker else None
+            if inferred is not None:
+                level, heading_text, trailing_text = inferred
+                marks = "#" * max(1, min(6, level))
+                append_plain_text(out, f"{marks} {heading_text}")
+                append_plain_text(out, trailing_text)
+            else:
+                append_plain_text(out, f"{marker} {stripped}" if marker else stripped)
+            return
+        title = title_queue[found_index]
+        cursor = max(cursor, found_index + 1)
+        matched_text, trailing_text = split_segment_after_title(stripped, title.text)
+        if title.is_toc_entry or not title.is_title:
+            append_plain_text(out, matched_text)
+        else:
             level = 1 if title.is_toc_heading else title.enhanced_title_level
             marks = "#" * max(1, min(6, level))
-            new_lines.append(f"{marks}{match.group(2)}{heading_text}{match.group(4)}")
+            append_plain_text(out, f"{marks} {matched_text}")
+        append_plain_text(out, trailing_text)
+
+    new_lines: list[str] = []
+    for line in lines:
+        if not line.strip():
+            new_lines.append(line)
+            continue
+        marker_matches = list(inline_marker_re.finditer(line))
+        if marker_matches:
+            last_end = 0
+            for match_index, match in enumerate(marker_matches):
+                prefix = line[last_end : match.start()]
+                append_plain_text(new_lines, prefix)
+                next_start = marker_matches[match_index + 1].start() if match_index + 1 < len(marker_matches) else len(line)
+                segment = line[match.end() : next_start]
+                append_enhanced_segment(new_lines, segment, marker=match.group(1))
+                last_end = next_start
+            suffix = line[last_end:]
+            append_plain_text(new_lines, suffix)
             continue
 
         stripped = line.strip()
-        if not stripped or stripped.startswith("|") or stripped.startswith("!") or stripped.startswith("<"):
+        if stripped.startswith(("|", "!", "<")):
             new_lines.append(line)
             continue
-        found_index = find_title_index(stripped, cursor, window=45)
-        if found_index is None:
-            new_lines.append(line)
-            continue
-        title = title_queue[found_index]
-        cursor = found_index + 1
-        if title.is_toc_entry or not title.is_title:
-            new_lines.append(line)
-            continue
-        level = 1 if title.is_toc_heading else title.enhanced_title_level
-        marks = "#" * max(1, min(6, level))
-        leading = line[: len(line) - len(line.lstrip())]
-        new_lines.append(f"{leading}{marks} {stripped}")
+        append_enhanced_segment(new_lines, line, marker=None)
 
     out_path = full_md.with_name("full_titleEnhanced.md")
     out_path.write_text("\n".join(new_lines) + "\n", encoding="utf-8")
     return out_path
-
 
 def _select_records(records: list[dict[str, Any]], options: HierarchyEnhanceOptions) -> list[dict[str, Any]]:
     """Filter manifest records for hierarchy enhancement."""

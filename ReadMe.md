@@ -99,7 +99,7 @@ outputs/parse/mineru/hierarchy_stats.json
 full_titleEnhanced.md
 ```
 
-`full.md` 不会被覆盖；`full_titleEnhanced.md` 仅调整 Markdown 标题井号数量，便于人工检查增强效果。
+`full.md` 不会被覆盖；`full_titleEnhanced.md` 会按增强后的标题层级重写 Markdown 标题，并处理同一行多个内联标题的情况，便于人工检查增强效果。
 
 ## 规则标题层级增强
 
@@ -109,6 +109,7 @@ full_titleEnhanced.md
 2. 从目录项中提取高层级标题锚点，用于校正文中同名标题层级。
 3. 对正文标题应用中文金融文档编号规则，例如“第X节”“一、”“（一）”“1、”“（1）”“①”。
 4. 对 MinerU 识别为普通文本但符合标题编号特征的行补充识别为标题。
-5. 对封面机构、承销商标签、表格字段、页眉页脚和正文列表项进行降噪。
+5. 对同一行多个内联 Markdown 标题进行拆分，并按规则重写到 `full_titleEnhanced.md`。
+6. 对封面机构、债券名称、承销商标签、表格字段、页眉页脚和正文列表项进行降噪。
 
 目录区间范围可用 `--toc-max-start-page` 和 `--toc-max-follow-pages` 调整；如需调试原始目录行为，可添加 `--disable-toc-filter`。
