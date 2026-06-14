@@ -1,21 +1,22 @@
 {
-  "provider": "mock",
+  "provider": "deepseek",
   "model": "deepseek-v4-flash",
   "record_count": 1,
   "title_record_count": 274,
-  "real_title_record_count": 265,
+  "real_title_record_count": 250,
   "raw_title_level_counts": {
     "1": 2,
     "2": 272
   },
   "enhanced_title_level_counts": {
-    "1": 11,
-    "2": 83,
+    "1": 12,
+    "2": 40,
     "3": 65,
-    "4": 85,
-    "5": 21
+    "4": 94,
+    "5": 31,
+    "6": 8
   },
-  "toc_title_record_count": 9,
+  "toc_title_record_count": 8,
   "toc_filter": {
     "enabled": true,
     "max_start_page": 15,
@@ -23,12 +24,12 @@
   },
   "usage": {
     "requests": 3,
-    "prompt_tokens": 40016,
-    "completion_tokens": 4909,
-    "total_tokens": 44925,
-    "prompt_cost_usd": 0.00560224,
-    "completion_cost_usd": 0.00137452,
-    "total_cost_usd": 0.00697676
+    "prompt_tokens": 35075,
+    "completion_tokens": 18522,
+    "total_tokens": 53597,
+    "prompt_cost_usd": 0.0049105,
+    "completion_cost_usd": 0.00518616,
+    "total_cost_usd": 0.01009666
   },
   "outputs": {
     "title_hierarchy_jsonl": "outputs\\parse\\mineru\\title_hierarchy.jsonl",
@@ -43,8 +44,8 @@
       "doc_id": "text01",
       "part_no": 1,
       "title_candidates": 274,
-      "toc_title_candidates": 9,
-      "enhanced_titles": 265,
+      "toc_title_candidates": 8,
+      "enhanced_titles": 250,
       "enhanced_md_path": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text01__part001__86cde1fd08\\full_titleEnhanced.md"
     }
   ]

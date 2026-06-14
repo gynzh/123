@@ -316,8 +316,11 @@ def detect_toc_orders(
         for block in by_page.get(page_idx, []):
             if not (block.block_type == "title" or block.raw_level):
                 continue
+            # Keep the TOC heading itself, such as “目录” or “Contents”, as a
+            # visible Markdown heading.  Only TOC entries below it are demoted.
+            # This preserves the document outline while still preventing
+            # front-matter TOC entries from polluting the正文标题树.
             if is_toc_heading_text(block.text):
-                toc_orders.add(block.order)
                 continue
             if is_toc_like_entry_text(block.text):
                 toc_orders.add(block.order)
@@ -611,6 +614,8 @@ def _mock_level_for_text(text: str, raw_level: int | None) -> tuple[int, bool]:
     stripped = text.strip()
     if not stripped:
         return raw_level or 2, False
+    if is_toc_heading_text(stripped):
+        return 1, True
     patterns: list[tuple[str, int]] = [
         (r"^第[一二三四五六七八九十百千万0-9〇零]+[章节篇部分]", 1),
         (r"^[一二三四五六七八九十百千万〇零]+[、．.]", 2),
