@@ -19,9 +19,10 @@ outputs/parse/jina/jina_html/                # Jina HTML 解析结果
 $env:MINERU_API_KEY="你的 MinerU API Key"
 $env:JINA_API_KEY="你的 Jina API Key"
 $env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
+$env:QWEN_API_KEY="你的 Qwen/DashScope API Key"
 ```
 
-`DEEPSEEK_API_KEY` 只在执行标题层级增强时需要。
+`DEEPSEEK_API_KEY` 和 `QWEN_API_KEY` 只在执行对应提供方的标题层级增强时需要。
 
 ## 安装依赖
 
@@ -54,6 +55,14 @@ python scripts/parse_documents.py build-manifest --output-dir outputs/parse/mine
 ```powershell
 python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash
 ```
+
+使用 Qwen/DashScope 增强标题层级：
+
+```powershell
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider qwen --model qwen-flash
+```
+
+Qwen/DashScope 标题层级增强默认关闭 thinking，并优先使用接口返回的 `usage` 统计 token；费用仍按已配置模型价格估算。
 
 单文档增强。同一 `domain/doc_id` 下的所有 MinerU part 会按原 PDF 顺序合并，并在一次 LLM 请求中完成标题层级重建：
 
@@ -101,4 +110,4 @@ full_titleEnhanced.md
 
 `full.md` 不会被覆盖；`full_titleEnhanced.md` 仅调整 Markdown 标题井号数量，便于人工检查增强效果。
 
-标题层级增强采用完整 PDF 级别的标题序列。程序会将同一 `domain/doc_id` 下的所有 MinerU part 按原 PDF 顺序合并，目录页标题和目录项作为 `toc` 参考提供给 LLM，正文标题作为 `titles` 提供给 LLM，LLM 只返回 `id / is_title / level`。目录项不会作为正文标题返回，但会写入 `title_hierarchy.jsonl` 并在 `full_titleEnhanced.md` 中降级为普通文本；“目录/目次/Contents”这类目录页标题本身保留为 Markdown 标题。
+标题层级增强采用完整 PDF 级别的标题序列。程序会将同一 `domain/doc_id` 下的所有 MinerU part 按原 PDF 顺序合并，目录页标题和目录项作为 `toc` 参考提供给 LLM，正文标题作为 `titles` 提供给 LLM，LLM 返回压缩格式 `[id, level]`，其中 `level=0` 表示不是正文标题。目录项不会作为正文标题返回，但会写入 `title_hierarchy.jsonl` 并在 `full_titleEnhanced.md` 中降级为普通文本；“目录/目次/Contents”这类目录页标题本身保留为 Markdown 标题。

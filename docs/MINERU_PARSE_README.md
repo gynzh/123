@@ -23,6 +23,14 @@ python scripts/parse_documents.py parse --dataset-root public_dataset_a/public_d
 python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash
 ```
 
+使用 Qwen/DashScope：
+
+```powershell
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider qwen --model qwen-flash
+```
+
+Qwen/DashScope 标题层级增强默认关闭 thinking，以减少等待时间和无关推理输出；token 用量优先读取接口 `usage` 字段。
+
 单文档增强：
 
 ```powershell
@@ -73,13 +81,14 @@ titles.r   MinerU 原始标题层级
 titles.x   正文标题文本
 ```
 
-LLM 只返回正文标题候选，不返回目录参考项：
+LLM 只返回正文标题候选，不返回目录参考项。返回采用压缩格式，数组第二项为标题层级，`0` 表示不是正文标题：
 
 ```json
 {
   "items": [
-    {"id": "text03_p1_t000060", "is_title": true, "level": 1},
-    {"id": "text03_p1_t000061", "is_title": true, "level": 2}
+    ["text03_p1_t000060", 1],
+    ["text03_p1_t000061", 2],
+    ["text03_p1_t000001", 0]
   ]
 }
 ```

@@ -198,10 +198,13 @@ def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
     if load_dotenv:
         load_dotenv()
 
+    default_model = {"deepseek": "deepseek-v4-flash", "qwen": "qwen-flash", "mock": "mock-title-enhancer"}
+    resolved_model = args.model or default_model.get(args.provider, "deepseek-v4-flash")
+
     options = HierarchyEnhanceOptions(
         output_dir=Path(args.output_dir),
         provider=args.provider,
-        model=args.model,
+        model=resolved_model,
         api_key=args.api_key,
         base_url=args.base_url,
         timeout=args.llm_timeout,
@@ -322,10 +325,10 @@ def build_parser() -> argparse.ArgumentParser:
 
     enhance = sub.add_parser("enhance-hierarchy", help="基于 MinerU 产物增强标题层级并生成 full_titleEnhanced.md")
     enhance.add_argument("--output-dir", default="outputs/parse/mineru", help="文档解析汇总输出目录")
-    enhance.add_argument("--provider", default="deepseek", choices=["deepseek", "mock"], help="标题层级增强提供方；mock 仅用于本地测试")
-    enhance.add_argument("--model", default="deepseek-v4-flash", help="LLM 模型名称")
-    enhance.add_argument("--api-key", default=None, help="DeepSeek API Key；不传则读取 DEEPSEEK_API_KEY")
-    enhance.add_argument("--base-url", default=None, help="OpenAI-compatible base_url；DeepSeek 默认 https://api.deepseek.com")
+    enhance.add_argument("--provider", default="deepseek", choices=["deepseek", "qwen", "mock"], help="标题层级增强提供方；qwen 使用 DashScope/OpenAI-compatible 接口，mock 仅用于本地测试")
+    enhance.add_argument("--model", default=None, help="LLM 模型名称；deepseek 默认 deepseek-v4-flash，qwen 默认 qwen-flash")
+    enhance.add_argument("--api-key", default=None, help="LLM API Key；DeepSeek 读取 DEEPSEEK_API_KEY，Qwen 读取 QWEN_API_KEY 或 DASHSCOPE_API_KEY")
+    enhance.add_argument("--base-url", default=None, help="OpenAI-compatible base_url；DeepSeek/Qwen 均可用环境变量或该参数覆盖")
     enhance.add_argument("--llm-timeout", type=int, default=120, help="单次 LLM 请求超时秒数")
     enhance.add_argument("--llm-retries", type=int, default=3, help="LLM 请求失败重试次数")
     enhance.add_argument("--doc-id", default=None, help="只增强指定 doc_id，便于单文档测试")

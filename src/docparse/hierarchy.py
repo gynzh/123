@@ -21,13 +21,13 @@ TITLE_SYSTEM_PROMPT = """你是中文金融、合同、年报、保险条款和�
 规则：
 1. 只处理 titles 中的项目；toc中是目录中的标题信息，是判断title level的高置信度信息，尽量参考该信息保证高层级title level的准确性。
 2. 每个 titles.id 必须返回一次，不能新增、删除或改写标题。
-3. level 范围为 1-6；不是正文标题时 is_title=false 且 level=0。
+3. 返回层级范围为 1-6；不是正文标题时返回 0。
 4. raw_level 只是 MinerU 的弱参考，不要直接照抄。
 5. 常见层级参考：第X章/第X节=1；一、二、三、=2；（一）（二）=3；1、2、或1.1=4；（1）（2）或①②=5；a、b、A.、B.=6。
 6. 封面机构名称、承销商名称、页眉页脚、表格字段、图片说明、重复噪声不是正文标题。
 7. 只返回 JSON，不要解释。
 
-返回格式：{"items":[{"id":"...","is_title":true,"level":1}]}。
+返回格式：{"items":[["标题ID",层级], ...]}，层级为 1-6；0 表示不是正文标题。
 """
 
 
@@ -667,13 +667,14 @@ def _mock_level_for_text(text: str, raw_level: int | None) -> tuple[int, bool]:
     return max(1, min(6, raw_level or 2)), True
 
 
-def _call_mock_llm(candidates: list[TitleCandidate], model: str) -> tuple[list[dict[str, Any]], LLMUsage]:
+def _call_mock_llm(candidates: list[TitleCandidate], model: str) -> tuple[list[Any], LLMUsage]:
     """Return deterministic hierarchy corrections without network calls."""
-    items: list[dict[str, Any]] = []
+    items: list[list[Any]] = []
     prompt_text = json.dumps({"titles": [c.to_prompt_json() for c in candidates]}, ensure_ascii=False)
     for candidate in candidates:
         level, is_title = _mock_level_for_text(candidate.text, candidate.raw_level)
-        items.append({"id": candidate.title_id, "level": level if is_title else 0, "is_title": is_title})
+        # Compact response format: [title_id, level]. level=0 means non-title.
+        items.append([candidate.title_id, level if is_title else 0])
     output_text = json.dumps({"items": items}, ensure_ascii=False)
     usage = compute_usage_cost(
         model=model,
@@ -683,8 +684,8 @@ def _call_mock_llm(candidates: list[TitleCandidate], model: str) -> tuple[list[d
     return items, usage
 
 
-def _parse_llm_items(content: str) -> list[dict[str, Any]]:
-    """Parse model JSON content into a list of item dictionaries."""
+def _parse_llm_items(content: str) -> list[Any]:
+    """Parse model JSON content into compact [id, level] items."""
     try:
         data = json.loads(content)
     except json.JSONDecodeError:
@@ -696,23 +697,37 @@ def _parse_llm_items(content: str) -> list[dict[str, Any]]:
     items = data.get("items")
     if not isinstance(items, list):
         raise ValueError("LLM 输出缺少 items 数组")
-    return [item for item in items if isinstance(item, dict)]
+    return items
 
 
-def _validate_items(candidates: list[TitleCandidate], items: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
-    """Validate and normalize LLM returned title items."""
+def _item_to_id_level(item: Any) -> tuple[str, int | None]:
+    """Normalize one LLM item from compact array format.
+
+    The expected format is [title_id, level], where level=0 means non-title.
+    A dict fallback is accepted only to make error recovery easier during model
+    output drift, but prompts always ask for the compact array format.
+    """
+    if isinstance(item, (list, tuple)) and len(item) >= 2:
+        return str(item[0] or ""), _safe_int(item[1])
+    if isinstance(item, dict):
+        raw_level = item.get("level")
+        if item.get("is_title") is False:
+            raw_level = 0
+        return str(item.get("id") or ""), _safe_int(raw_level)
+    return "", None
+
+
+def _validate_items(candidates: list[TitleCandidate], items: list[Any]) -> dict[str, dict[str, Any]]:
+    """Validate and normalize compact LLM returned title items."""
     expected = {candidate.title_id: candidate for candidate in candidates}
     result: dict[str, dict[str, Any]] = {}
     for item in items:
-        title_id = str(item.get("id") or "")
+        title_id, level = _item_to_id_level(item)
         if title_id not in expected or title_id in result:
             continue
-        is_title = bool(item.get("is_title", True))
-        level = _safe_int(item.get("level"))
-        if not is_title:
-            level = 0
-        elif level is None or level <= 0:
+        if level is None:
             level = expected[title_id].raw_level or 2
+        is_title = level > 0
         level = 0 if not is_title else max(1, min(6, level))
         result[title_id] = {"enhanced_level": level, "is_title": is_title}
     for title_id, candidate in expected.items():
@@ -748,7 +763,7 @@ def enhance_document_candidates(
         items, usage = _call_mock_llm(candidates, options.model)
     else:
         if client is None:
-            raise RuntimeError("provider=deepseek 时必须提供 LLM client")
+            raise RuntimeError("provider 为 deepseek 或 qwen 时必须提供 LLM client")
         payload = build_prompt_payload(group=group, toc_reference=toc_reference, candidates=candidates)
         chat_result = client.chat_json(system_prompt=TITLE_SYSTEM_PROMPT, user_payload=payload)
         items = _parse_llm_items(chat_result.content)
@@ -1060,6 +1075,17 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
     if options.provider == "deepseek":
         _log("[LLM] 初始化 DeepSeek/OpenAI-compatible client")
         client = OpenAICompatibleClient.from_deepseek_env(
+            model=options.model,
+            api_key=options.api_key,
+            base_url=options.base_url,
+            timeout=options.timeout,
+            max_retries=options.max_retries,
+            input_price_per_1m=options.input_price_per_1m,
+            output_price_per_1m=options.output_price_per_1m,
+        )
+    elif options.provider == "qwen":
+        _log("[LLM] 初始化 Qwen/DashScope OpenAI-compatible client")
+        client = OpenAICompatibleClient.from_qwen_env(
             model=options.model,
             api_key=options.api_key,
             base_url=options.base_url,

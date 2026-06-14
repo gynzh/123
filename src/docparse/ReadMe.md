@@ -25,7 +25,7 @@ llm_client.py      OpenAI-compatible LLM 调用与 token/费用统计
 1. 按 domain/doc_id 将同一 PDF 的多个 MinerU part 合并。
 2. 识别前置目录区间，将“目录/目次/Contents”和目录项作为 toc 参考。
 3. 将正文标题候选作为 titles 发送给 LLM。
-4. LLM 只返回 id、is_title、level。
+4. LLM 只返回压缩数组 `[id, level]`，其中 `level=0` 表示不是正文标题。
 5. 本地代码校验返回结果，生成 section_path。
 6. 写出 title_hierarchy.jsonl、hierarchy_stats.json 和 full_titleEnhanced.md。
 ```
@@ -35,6 +35,14 @@ llm_client.py      OpenAI-compatible LLM 调用与 token/费用统计
 ```powershell
 python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash
 ```
+
+Qwen/DashScope：
+
+```powershell
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider qwen --model qwen-flash
+```
+
+Qwen/DashScope 调用默认关闭 thinking；`prompt_tokens`、`completion_tokens` 和 `total_tokens` 优先读取接口返回的 `usage`。
 
 单文档测试：
 
@@ -57,10 +65,11 @@ python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/m
 ```json
 {
   "items": [
-    {"id": "text03_p1_t000060", "is_title": true, "level": 1},
-    {"id": "text03_p1_t000061", "is_title": true, "level": 2}
+    ["text03_p1_t000060", 1],
+    ["text03_p1_t000061", 2],
+    ["text03_p1_t000001", 0]
   ]
 }
 ```
 
-`level=0` 表示该候选不是正文标题。有效标题层级范围为 1-6。
+数组第二项为标题层级，`0` 表示该候选不是正文标题。有效标题层级范围为 1-6。
