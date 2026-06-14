@@ -14,17 +14,20 @@ import time
 from .llm_client import LLMUsage, OpenAICompatibleClient, compute_usage_cost, estimate_tokens
 
 
-TITLE_SYSTEM_PROMPT = """你是中文金融、合同、年报、保险条款和监管文档的标题层级校对器。
-你的任务是根据输入的连续标题序列、页码、MinerU 原始层级和少量上下文，纠正每个标题的层级。
-必须遵守：
-1. 只返回 JSON 对象，不返回 Markdown 或解释文字。
-2. 不得新增、删除、合并或改写标题。
-3. 每个输入 title_id 必须返回且只返回一次。
-4. enhanced_level 必须是 1 到 6 的整数；文档主标题/章/节通常靠近 1，编号越细层级越深。
-5. is_title 表示该项是否应保留为标题；明显页眉、页脚、表格字段、机构名单或封面辅助信息可以设为 false。
-6. 中文金融文档常见层级可参考：第X章/第X节 -> 1；一、 -> 2；（一） -> 3；1、/1.1 -> 4；（1）/① -> 5；a、/A. -> 6。
-7. 输入中已经过滤了目录页目录项；不要把目录页条目当作正文标题树的一部分。
-输出格式：{"items":[{"title_id":"...","enhanced_level":1,"is_title":true}]}。
+TITLE_SYSTEM_PROMPT = """你是中文金融、合同、年报、保险条款和监管文档的标题层级重建器。
+
+任务：根据完整 PDF 的标题序列和目录参考，判断正文标题的真实层级。
+
+规则：
+1. 只处理 titles 中的项目；toc中是目录中的标题信息，是判断title level的高置信度信息，尽量参考该信息保证高层级title level的准确性。
+2. 每个 titles.id 必须返回一次，不能新增、删除或改写标题。
+3. level 范围为 1-6；不是正文标题时 is_title=false 且 level=0。
+4. raw_level 只是 MinerU 的弱参考，不要直接照抄。
+5. 常见层级参考：第X章/第X节=1；一、二、三、=2；（一）（二）=3；1、2、或1.1=4；（1）（2）或①②=5；a、b、A.、B.=6。
+6. 封面机构名称、承销商名称、页眉页脚、表格字段、图片说明、重复噪声不是正文标题。
+7. 只返回 JSON，不要解释。
+
+返回格式：{"items":[{"id":"...","is_title":true,"level":1}]}。
 """
 
 
@@ -51,26 +54,32 @@ class TitleCandidate:
     page_idx: int | None
     bbox: list[float] | list[int] | None
     order: int
-    before_text: str = ""
-    after_text: str = ""
     source_artifact: str = ""
     is_toc_heading: bool = False
     is_toc_entry: bool = False
     toc_reason: str = ""
+    part_no: int = 1
+    global_order: int = 0
+    global_page_idx: int | None = None
+    record_index: int = 0
 
     def to_prompt_json(self) -> dict[str, Any]:
-        """Return compact JSON used in the LLM prompt."""
-        data: dict[str, Any] = {
-            "title_id": self.title_id,
-            "page_idx": self.page_idx,
-            "raw_level": self.raw_level,
-            "text": self.text,
+        """Return the minimal title item sent to the LLM."""
+        return {
+            "id": self.title_id,
+            "o": self.global_order or self.order,
+            "p": self.global_page_idx,
+            "r": self.raw_level,
+            "x": self.text,
         }
-        if self.before_text:
-            data["before_text"] = self.before_text
-        if self.after_text:
-            data["after_text"] = self.after_text
-        return data
+
+    def to_toc_prompt_json(self) -> dict[str, Any]:
+        """Return the minimal TOC reference item sent to the LLM."""
+        return {
+            "o": self.global_order or self.order,
+            "p": self.global_page_idx,
+            "x": self.text,
+        }
 
 
 @dataclass
@@ -90,6 +99,10 @@ class EnhancedTitle:
     is_toc_heading: bool = False
     is_toc_entry: bool = False
     toc_reason: str = ""
+    part_no: int = 1
+    global_order: int = 0
+    global_page_idx: int | None = None
+    record_index: int = 0
 
     def to_json(self, record: dict[str, Any], *, enhance_method: str, model: str) -> dict[str, Any]:
         """Return JSONL-ready title hierarchy record."""
@@ -110,6 +123,8 @@ class EnhancedTitle:
             "toc_reason": self.toc_reason,
             "section_path": self.section_path,
             "page_idx": self.page_idx,
+            "global_page_idx": self.global_page_idx,
+            "global_order": self.global_order or self.order,
             "bbox": self.bbox,
             "source_artifact": self.source_artifact,
             "enhance_method": enhance_method,
@@ -137,7 +152,6 @@ class HierarchyEnhanceOptions:
     model: str = "deepseek-v4-flash"
     api_key: str | None = None
     base_url: str | None = None
-    batch_size: int = 120
     timeout: int = 120
     max_retries: int = 3
     doc_id: str | None = None
@@ -151,6 +165,15 @@ class HierarchyEnhanceOptions:
     enable_toc_filter: bool = True
     toc_max_start_page: int = 15
     toc_max_follow_pages: int = 12
+
+@dataclass
+class DocumentGroup:
+    """A complete PDF-level group assembled from one or more MinerU parts."""
+
+    group_id: str
+    domain: str
+    doc_id: str
+    records: list[dict[str, Any]]
 
 
 def normalize_inline_text(text: str) -> str:
@@ -522,16 +545,6 @@ def build_title_candidates(
         is_title = block.block_type == "title" or bool(block.raw_level)
         if not is_title:
             continue
-        before_text = ""
-        after_text = ""
-        for prev in reversed(blocks[:index]):
-            if prev.text and prev.text != block.text:
-                before_text = shorten(prev.text, 100)
-                break
-        for nxt in blocks[index + 1 :]:
-            if nxt.text and nxt.text != block.text:
-                after_text = shorten(nxt.text, 140)
-                break
         doc_id = str(record.get("doc_id") or "doc")
         part_no = record.get("upload_part_no", record.get("part_no", 1))
         title_id = f"{doc_id}_p{part_no}_t{len(candidates):06d}"
@@ -551,8 +564,6 @@ def build_title_candidates(
                 page_idx=block.page_idx,
                 bbox=block.bbox,
                 order=block.order,
-                before_text=before_text,
-                after_text=after_text,
                 source_artifact=source_artifact,
                 is_toc_heading=is_toc_heading,
                 is_toc_entry=is_toc_entry,
@@ -560,6 +571,79 @@ def build_title_candidates(
             )
         )
     return candidates, toc_detection
+
+
+def _record_part_no(record: dict[str, Any]) -> int:
+    """Return a stable numeric part number for sorting and prompt context."""
+    return _safe_int(record.get("upload_part_no", record.get("part_no", 1))) or 1
+
+
+def _record_page_start(record: dict[str, Any]) -> int | None:
+    """Return the original PDF page start if available."""
+    return _safe_int(record.get("upload_page_start"))
+
+
+def _global_page_idx(record: dict[str, Any], local_page_idx: int | None) -> int | None:
+    """Convert MinerU local page_idx to an approximate full-PDF page index."""
+    if local_page_idx is None:
+        return None
+    page_start = _record_page_start(record)
+    if page_start is None:
+        return local_page_idx
+    return page_start + local_page_idx
+
+
+def prepare_group_candidates(
+    group: DocumentGroup,
+    *,
+    enable_toc_filter: bool = True,
+    toc_max_start_page: int = 15,
+    toc_max_follow_pages: int = 12,
+) -> tuple[list[TitleCandidate], dict[int, dict[str, Any]], list[dict[str, Any]]]:
+    """Extract title candidates for all parts of one PDF and assign global order."""
+    all_candidates: list[TitleCandidate] = []
+    candidate_records: dict[int, dict[str, Any]] = {}
+    part_summaries: list[dict[str, Any]] = []
+    global_order = 0
+
+    for record_index, record in enumerate(group.records):
+        candidates, toc_detection = build_title_candidates(
+            record,
+            enable_toc_filter=enable_toc_filter,
+            toc_max_start_page=toc_max_start_page,
+            toc_max_follow_pages=toc_max_follow_pages,
+        )
+        part_no = _record_part_no(record)
+        for candidate in candidates:
+            candidate.record_index = record_index
+            candidate.part_no = part_no
+            candidate.global_order = global_order
+            candidate.global_page_idx = _global_page_idx(record, candidate.page_idx)
+            candidate_records[id(candidate)] = record
+            all_candidates.append(candidate)
+            global_order += 1
+        part_summaries.append(
+            {
+                "domain": record.get("domain", ""),
+                "doc_id": record.get("doc_id", ""),
+                "part_no": part_no,
+                "local_extract_dir": record.get("local_extract_dir", ""),
+                "title_candidates": len(candidates),
+                "toc_start_page": toc_detection.toc_start_page,
+                "toc_pages": sorted(toc_detection.toc_pages),
+                "toc_heading_candidates": len([c for c in candidates if c.is_toc_heading]),
+                "toc_entry_candidates": len([c for c in candidates if c.is_toc_entry]),
+                "source_artifact": candidates[0].source_artifact if candidates else "",
+            }
+        )
+    return all_candidates, candidate_records, part_summaries
+
+
+def split_prompt_candidates(candidates: list[TitleCandidate]) -> tuple[list[TitleCandidate], list[TitleCandidate]]:
+    """Split candidates into TOC reference items and正文标题待增强 items."""
+    toc_reference = [candidate for candidate in candidates if candidate.is_toc_heading or candidate.is_toc_entry]
+    titles_to_enhance = [candidate for candidate in candidates if not candidate.is_toc_heading and not candidate.is_toc_entry]
+    return toc_reference, titles_to_enhance
 
 
 def _mock_level_for_text(text: str, raw_level: int | None) -> tuple[int, bool]:
@@ -586,10 +670,10 @@ def _mock_level_for_text(text: str, raw_level: int | None) -> tuple[int, bool]:
 def _call_mock_llm(candidates: list[TitleCandidate], model: str) -> tuple[list[dict[str, Any]], LLMUsage]:
     """Return deterministic hierarchy corrections without network calls."""
     items: list[dict[str, Any]] = []
-    prompt_text = json.dumps([c.to_prompt_json() for c in candidates], ensure_ascii=False)
+    prompt_text = json.dumps({"titles": [c.to_prompt_json() for c in candidates]}, ensure_ascii=False)
     for candidate in candidates:
         level, is_title = _mock_level_for_text(candidate.text, candidate.raw_level)
-        items.append({"title_id": candidate.title_id, "enhanced_level": level, "is_title": is_title})
+        items.append({"id": candidate.title_id, "level": level if is_title else 0, "is_title": is_title})
     output_text = json.dumps({"items": items}, ensure_ascii=False)
     usage = compute_usage_cost(
         model=model,
@@ -620,62 +704,52 @@ def _validate_items(candidates: list[TitleCandidate], items: list[dict[str, Any]
     expected = {candidate.title_id: candidate for candidate in candidates}
     result: dict[str, dict[str, Any]] = {}
     for item in items:
-        title_id = str(item.get("title_id") or "")
+        title_id = str(item.get("id") or "")
         if title_id not in expected or title_id in result:
             continue
-        level = _safe_int(item.get("enhanced_level"))
-        if level is None:
-            level = expected[title_id].raw_level or 2
-        level = max(1, min(6, level))
         is_title = bool(item.get("is_title", True))
+        level = _safe_int(item.get("level"))
+        if not is_title:
+            level = 0
+        elif level is None or level <= 0:
+            level = expected[title_id].raw_level or 2
+        level = 0 if not is_title else max(1, min(6, level))
         result[title_id] = {"enhanced_level": level, "is_title": is_title}
     for title_id, candidate in expected.items():
         if title_id not in result:
             level, is_title = _mock_level_for_text(candidate.text, candidate.raw_level)
-            result[title_id] = {"enhanced_level": level, "is_title": is_title}
+            result[title_id] = {"enhanced_level": level if is_title else 0, "is_title": is_title}
     return result
 
 
 def build_prompt_payload(
     *,
-    record: dict[str, Any],
+    group: DocumentGroup,
+    toc_reference: list[TitleCandidate],
     candidates: list[TitleCandidate],
-    previous_section_stack: list[dict[str, Any]],
 ) -> dict[str, Any]:
-    """Build the compact JSON payload sent to the LLM."""
+    """Build the minimal full-PDF JSON payload sent to the LLM."""
     return {
-        "document": {
-            "domain": record.get("domain", ""),
-            "doc_id": record.get("doc_id", ""),
-            "part_no": record.get("upload_part_no", record.get("part_no", 1)),
-            "upload_page_start": record.get("upload_page_start"),
-            "upload_page_end": record.get("upload_page_end"),
-            "document_type_hint": "中文金融合同、债券募集说明书、年报、保险条款、监管文件或研究报告",
-        },
-        "previous_section_stack": previous_section_stack,
+        "toc": [candidate.to_toc_prompt_json() for candidate in toc_reference],
         "titles": [candidate.to_prompt_json() for candidate in candidates],
     }
 
 
-def enhance_batch(
+def enhance_document_candidates(
     *,
-    record: dict[str, Any],
+    group: DocumentGroup,
+    toc_reference: list[TitleCandidate],
     candidates: list[TitleCandidate],
-    previous_section_stack: list[dict[str, Any]],
     options: HierarchyEnhanceOptions,
     client: OpenAICompatibleClient | None,
 ) -> tuple[list[EnhancedTitle], LLMUsage]:
-    """Enhance a single candidate batch with either LLM or mock provider."""
+    """Enhance all non-TOC title candidates of one complete PDF in one request."""
     if options.provider == "mock":
         items, usage = _call_mock_llm(candidates, options.model)
     else:
         if client is None:
             raise RuntimeError("provider=deepseek 时必须提供 LLM client")
-        payload = build_prompt_payload(
-            record=record,
-            candidates=candidates,
-            previous_section_stack=previous_section_stack,
-        )
+        payload = build_prompt_payload(group=group, toc_reference=toc_reference, candidates=candidates)
         chat_result = client.chat_json(system_prompt=TITLE_SYSTEM_PROMPT, user_payload=payload)
         items = _parse_llm_items(chat_result.content)
         usage = chat_result.usage
@@ -697,6 +771,10 @@ def enhance_batch(
                 source_artifact=candidate.source_artifact,
                 is_toc_heading=False,
                 is_toc_entry=False,
+                part_no=candidate.part_no,
+                global_order=candidate.global_order,
+                global_page_idx=candidate.global_page_idx,
+                record_index=candidate.record_index,
             )
         )
     return enhanced, usage
@@ -718,6 +796,10 @@ def fixed_title_from_candidate(candidate: TitleCandidate) -> EnhancedTitle:
             is_toc_heading=True,
             is_toc_entry=False,
             toc_reason=candidate.toc_reason,
+            part_no=candidate.part_no,
+            global_order=candidate.global_order,
+            global_page_idx=candidate.global_page_idx,
+            record_index=candidate.record_index,
         )
     return EnhancedTitle(
         title_id=candidate.title_id,
@@ -732,6 +814,10 @@ def fixed_title_from_candidate(candidate: TitleCandidate) -> EnhancedTitle:
         is_toc_heading=False,
         is_toc_entry=True,
         toc_reason=candidate.toc_reason,
+        part_no=candidate.part_no,
+        global_order=candidate.global_order,
+        global_page_idx=candidate.global_page_idx,
+        record_index=candidate.record_index,
     )
 
 
@@ -823,8 +909,6 @@ def _select_records(records: list[dict[str, Any]], options: HierarchyEnhanceOpti
         if str(record.get("engine")) != "mineru_vlm" and target_extract is None:
             continue
         selected.append(record)
-        if options.limit_docs is not None and len(selected) >= options.limit_docs:
-            break
     return selected
 
 
@@ -902,36 +986,76 @@ def _usage_line(prefix: str, usage: LLMUsage, *, elapsed_seconds: float | None =
     return ", ".join(parts)
 
 
-def _estimate_prompt_tokens_for_batch(
-    *,
-    record: dict[str, Any],
-    candidates: list[TitleCandidate],
-    previous_section_stack: list[dict[str, Any]],
-) -> int:
-    """Estimate prompt size before the LLM call for progress diagnostics."""
-    payload = build_prompt_payload(
-        record=record,
-        candidates=candidates,
-        previous_section_stack=previous_section_stack,
+def _record_sort_key(record: dict[str, Any]) -> tuple[int, int, str]:
+    """Sort MinerU parts in original PDF order as far as metadata allows."""
+    return (
+        _record_part_no(record),
+        _safe_int(record.get("upload_page_start")) or 0,
+        str(record.get("local_extract_dir") or ""),
     )
+
+
+def _build_document_groups(records: list[dict[str, Any]], options: HierarchyEnhanceOptions) -> list[DocumentGroup]:
+    """Group selected MinerU records by complete PDF instead of individual part."""
+    if options.extract_dir:
+        groups = [
+            DocumentGroup(
+                group_id="manual_extract_dir",
+                domain=str(records[0].get("domain") or "manual"),
+                doc_id=str(records[0].get("doc_id") or Path(str(records[0].get("local_extract_dir") or "manual")).name),
+                records=records,
+            )
+        ]
+        return groups[: options.limit_docs] if options.limit_docs else groups
+
+    grouped: collections.OrderedDict[tuple[str, str], list[dict[str, Any]]] = collections.OrderedDict()
+    for record in sorted(records, key=lambda row: (str(row.get("domain") or ""), str(row.get("doc_id") or ""), _record_sort_key(row))):
+        key = (str(record.get("domain") or ""), str(record.get("doc_id") or ""))
+        grouped.setdefault(key, []).append(record)
+
+    groups: list[DocumentGroup] = []
+    for (domain, doc_id), group_records in grouped.items():
+        group_records = sorted(group_records, key=_record_sort_key)
+        groups.append(
+            DocumentGroup(
+                group_id=f"{domain}/{doc_id}",
+                domain=domain,
+                doc_id=doc_id,
+                records=group_records,
+            )
+        )
+    return groups[: options.limit_docs] if options.limit_docs else groups
+
+
+def _estimate_prompt_tokens_for_document(
+    *,
+    group: DocumentGroup,
+    toc_reference: list[TitleCandidate],
+    candidates: list[TitleCandidate],
+) -> int:
+    """Estimate prompt size before the PDF-level LLM call."""
+    payload = build_prompt_payload(group=group, toc_reference=toc_reference, candidates=candidates)
     prompt_text = TITLE_SYSTEM_PROMPT + "\n" + json.dumps(payload, ensure_ascii=False)
     return estimate_tokens(prompt_text)
 
 
 def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
-    """Run hierarchy enhancement and write output artifacts."""
+    """Run PDF-level hierarchy enhancement and write output artifacts."""
     run_started = time.perf_counter()
     options.output_dir = Path(options.output_dir)
     records = _load_records_for_options(options)
     if not records:
         raise RuntimeError("没有找到需要增强标题层级的 MinerU 记录")
 
+    groups = _build_document_groups(records, options)
+    if not groups:
+        raise RuntimeError("没有找到需要增强标题层级的 PDF 分组")
+
     _log(
         "[SELECT] "
-        f"records={len(records)}, provider={options.provider}, model={options.model}, "
-        f"batch_size={options.batch_size}, timeout={options.timeout}s, retries={options.max_retries}"
+        f"records={len(records)}, pdf_groups={len(groups)}, provider={options.provider}, model={options.model}, "
+        f"mode=whole_pdf_one_request, timeout={options.timeout}s, retries={options.max_retries}"
     )
-
     client: OpenAICompatibleClient | None = None
     if options.provider == "deepseek":
         _log("[LLM] 初始化 DeepSeek/OpenAI-compatible client")
@@ -951,158 +1075,155 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
     enhanced_counts: collections.Counter[int] = collections.Counter()
     docs_summary: list[dict[str, Any]] = []
     written_md: list[str] = []
-    batch_count = 0
+    llm_request_count = 0
     llm_sent_total = 0
     toc_heading_total = 0
     toc_entry_total = 0
     non_title_total = 0
     toc_pages_total = 0
 
-    for record_index, record in enumerate(records, start=1):
-        doc_started = time.perf_counter()
-        doc_label = (
-            f"{record.get('domain', '')}/{record.get('doc_id', '')}"
-            f" part={record.get('upload_part_no', record.get('part_no', 1))}"
-        )
-        _log(
-            f"[DOC] {record_index}/{len(records)} {doc_label}, "
-            f"extract_dir={record.get('local_extract_dir', '')}"
-        )
+    for group_index, group in enumerate(groups, start=1):
+        group_started = time.perf_counter()
+        _log(f"[PDF] {group_index}/{len(groups)} {group.group_id}, parts={len(group.records)}")
+        for part_index, part_record in enumerate(group.records, start=1):
+            _log(
+                f"[PART] {part_index}/{len(group.records)} "
+                f"part={_record_part_no(part_record)}, extract_dir={part_record.get('local_extract_dir', '')}"
+            )
 
-        candidates, toc_detection = build_title_candidates(
-            record,
+        candidates, candidate_records_by_id_raw, part_summaries = prepare_group_candidates(
+            group,
             enable_toc_filter=options.enable_toc_filter,
             toc_max_start_page=options.toc_max_start_page,
             toc_max_follow_pages=options.toc_max_follow_pages,
         )
+        candidate_records_by_title_id = {candidate.title_id: candidate_records_by_id_raw[id(candidate)] for candidate in candidates}
+
         for candidate in candidates:
             if candidate.raw_level:
                 raw_counts[candidate.raw_level] += 1
+
         if not candidates:
-            _log(f"[EXTRACT] {doc_label}: no title candidates found")
+            _log(f"[EXTRACT] {group.group_id}: no title candidates found")
             docs_summary.append(
                 {
-                    "domain": record.get("domain", ""),
-                    "doc_id": record.get("doc_id", ""),
+                    "group_id": group.group_id,
+                    "domain": group.domain,
+                    "doc_id": group.doc_id,
+                    "part_count": len(group.records),
                     "title_candidates": 0,
                     "enhanced_titles": 0,
-                    "elapsed_seconds": round(time.perf_counter() - doc_started, 3),
+                    "elapsed_seconds": round(time.perf_counter() - group_started, 3),
                     "warning": "no title candidates found",
+                    "parts": part_summaries,
                 }
             )
             continue
 
+        toc_reference, llm_candidates = split_prompt_candidates(candidates)
+        fixed_candidates = toc_reference
         enhanced_by_id: dict[str, EnhancedTitle] = {}
-        fixed_candidates = [c for c in candidates if c.is_toc_heading or c.is_toc_entry]
-        llm_candidates = [c for c in candidates if not c.is_toc_heading and not c.is_toc_entry]
         for candidate in fixed_candidates:
             enhanced_by_id[candidate.title_id] = fixed_title_from_candidate(candidate)
-        toc_heading_count = len([c for c in candidates if c.is_toc_heading])
-        toc_entry_count = len([c for c in candidates if c.is_toc_entry])
+
+        toc_heading_count = len([c for c in toc_reference if c.is_toc_heading])
+        toc_entry_count = len([c for c in toc_reference if c.is_toc_entry])
+        toc_page_sets = [set(part.get("toc_pages", [])) for part in part_summaries]
+        toc_pages_in_group = sum(len(pages) for pages in toc_page_sets)
         toc_heading_total += toc_heading_count
         toc_entry_total += toc_entry_count
-        toc_pages_total += len(toc_detection.toc_pages)
+        toc_pages_total += toc_pages_in_group
         llm_sent_total += len(llm_candidates)
-        source_artifact = candidates[0].source_artifact if candidates else ""
-        local_batch_count = math.ceil(len(llm_candidates) / max(1, options.batch_size)) if llm_candidates else 0
 
+        prompt_estimate = _estimate_prompt_tokens_for_document(
+            group=group,
+            toc_reference=toc_reference,
+            candidates=llm_candidates,
+        )
+        page_indexes = [candidate.global_page_idx for candidate in llm_candidates if candidate.global_page_idx is not None]
+        page_range = f", global_pages={min(page_indexes)}-{max(page_indexes)}" if page_indexes else ""
         _log(
-            f"[EXTRACT] {doc_label}: source={source_artifact}, titles={len(candidates)}, "
-            f"toc_pages={sorted(toc_detection.toc_pages)}, toc_start={toc_detection.toc_start_page}, "
+            f"[EXTRACT] {group.group_id}: titles={len(candidates)}, toc_reference={len(toc_reference)}, "
             f"toc_headings={toc_heading_count}, toc_entries={toc_entry_count}, "
-            f"llm_sent={len(llm_candidates)}, llm_batches={local_batch_count}"
+            f"llm_sent={len(llm_candidates)}, prompt_est_tokens≈{prompt_estimate}{page_range}"
         )
 
-        previous_stack: list[dict[str, Any]] = []
-        processed_llm: list[EnhancedTitle] = []
-        for local_batch_index, start in enumerate(range(0, len(llm_candidates), max(1, options.batch_size)), start=1):
-            batch = llm_candidates[start : start + max(1, options.batch_size)]
-            if not batch:
-                continue
-            batch_count += 1
-            prompt_estimate = _estimate_prompt_tokens_for_batch(
-                record=record,
-                candidates=batch,
-                previous_section_stack=previous_stack,
-            )
-            page_indexes = [candidate.page_idx for candidate in batch if candidate.page_idx is not None]
-            page_range = ""
-            if page_indexes:
-                page_range = f", pages={min(page_indexes)}-{max(page_indexes)}"
+        if llm_candidates:
+            llm_request_count += 1
             _log(
-                f"[BATCH] global={batch_count}, doc_batch={local_batch_index}/{local_batch_count}, "
-                f"titles={len(batch)}, prompt_est_tokens≈{prompt_estimate}{page_range}"
+                f"[LLM] start request={llm_request_count}, provider={options.provider}, model={options.model}, "
+                f"pdf={group.group_id}, titles={len(llm_candidates)}, toc_refs={len(toc_reference)}"
             )
-            _log(f"[LLM] start provider={options.provider}, model={options.model}, batch={batch_count}")
-            batch_started = time.perf_counter()
-            enhanced_batch, usage = enhance_batch(
-                record=record,
-                candidates=batch,
-                previous_section_stack=previous_stack,
+            request_started = time.perf_counter()
+            enhanced_llm_titles, usage = enhance_document_candidates(
+                group=group,
+                toc_reference=toc_reference,
+                candidates=llm_candidates,
                 options=options,
                 client=client,
             )
-            batch_elapsed = time.perf_counter() - batch_started
-            _log(_usage_line(f"[LLM] done batch={batch_count}", usage, elapsed_seconds=batch_elapsed))
-            for item in enhanced_batch:
-                enhanced_by_id[item.title_id] = item
-            processed_llm.extend(enhanced_batch)
+            request_elapsed = time.perf_counter() - request_started
+            _log(_usage_line(f"[LLM] done request={llm_request_count}", usage, elapsed_seconds=request_elapsed))
             usage_total.add(usage)
-            assign_section_paths(processed_llm)
-            previous_stack = final_section_stack(processed_llm)
-            if previous_stack:
-                stack_preview = " > ".join(item["text"] for item in previous_stack[-3:])
-                _log(f"[STACK] batch={batch_count}, tail={stack_preview}")
+            for item in enhanced_llm_titles:
+                enhanced_by_id[item.title_id] = item
+        else:
+            _log(f"[LLM] skipped {group.group_id}: no non-TOC title candidates")
 
         enhanced_titles = [enhanced_by_id[c.title_id] for c in candidates if c.title_id in enhanced_by_id]
-        enhanced_titles.sort(key=lambda item: item.order)
+        enhanced_titles.sort(key=lambda item: item.global_order if item.global_order is not None else item.order)
         assign_section_paths(enhanced_titles)
 
-        doc_enhanced_title_count = 0
-        doc_non_title_count = 0
+        group_enhanced_title_count = 0
+        group_non_title_count = 0
         for title in enhanced_titles:
             if title.is_title:
                 enhanced_counts[title.enhanced_title_level] += 1
-                doc_enhanced_title_count += 1
+                group_enhanced_title_count += 1
             else:
                 non_title_total += 1
-                doc_non_title_count += 1
-            all_rows.append(title.to_json(record, enhance_method=options.provider, model=options.model))
+                group_non_title_count += 1
+            row_record = candidate_records_by_title_id.get(title.title_id, group.records[0])
+            all_rows.append(title.to_json(row_record, enhance_method=options.provider, model=options.model))
 
-        extract_dir = resolve_path(str(record.get("local_extract_dir") or ""))
-        enhanced_md_path: Path | None = None
-        if options.write_enhanced_md and extract_dir is not None and extract_dir.exists():
-            enhanced_md_path = rewrite_markdown_headings(extract_dir, enhanced_titles)
-            if enhanced_md_path is not None:
-                written_md.append(str(enhanced_md_path))
-                _log(f"[WRITE] enhanced_md={enhanced_md_path}")
-            else:
-                _log(f"[WRITE] skipped: full.md not found in {extract_dir}")
+        group_written_md: list[str] = []
+        for record_index, record in enumerate(group.records):
+            extract_dir = resolve_path(str(record.get("local_extract_dir") or ""))
+            part_titles = [title for title in enhanced_titles if title.record_index == record_index]
+            enhanced_md_path: Path | None = None
+            if options.write_enhanced_md and extract_dir is not None and extract_dir.exists():
+                enhanced_md_path = rewrite_markdown_headings(extract_dir, part_titles)
+                if enhanced_md_path is not None:
+                    written_md.append(str(enhanced_md_path))
+                    group_written_md.append(str(enhanced_md_path))
+                    _log(f"[WRITE] enhanced_md={enhanced_md_path}")
+                else:
+                    _log(f"[WRITE] skipped: full.md not found in {extract_dir}")
 
-        doc_elapsed = time.perf_counter() - doc_started
+        group_elapsed = time.perf_counter() - group_started
         _log(
-            f"[DOC DONE] {doc_label}: elapsed={_fmt_seconds(doc_elapsed)}, "
-            f"enhanced_titles={doc_enhanced_title_count}, non_titles={doc_non_title_count}"
+            f"[PDF DONE] {group.group_id}: elapsed={_fmt_seconds(group_elapsed)}, "
+            f"parts={len(group.records)}, enhanced_titles={group_enhanced_title_count}, non_titles={group_non_title_count}"
         )
 
         docs_summary.append(
             {
-                "domain": record.get("domain", ""),
-                "doc_id": record.get("doc_id", ""),
-                "part_no": record.get("upload_part_no", 1),
-                "local_extract_dir": record.get("local_extract_dir", ""),
+                "group_id": group.group_id,
+                "domain": group.domain,
+                "doc_id": group.doc_id,
+                "part_count": len(group.records),
                 "title_candidates": len(candidates),
                 "toc_filter_enabled": options.enable_toc_filter,
-                "toc_start_page": toc_detection.toc_start_page,
-                "toc_pages": sorted(toc_detection.toc_pages),
+                "toc_reference_candidates": len(toc_reference),
                 "toc_heading_candidates": toc_heading_count,
                 "toc_entry_candidates": toc_entry_count,
                 "llm_sent_candidates": len(llm_candidates),
-                "llm_batch_count": local_batch_count,
-                "enhanced_titles": doc_enhanced_title_count,
-                "non_title_candidates": doc_non_title_count,
-                "elapsed_seconds": round(doc_elapsed, 3),
-                "enhanced_md_path": str(enhanced_md_path) if enhanced_md_path else "",
+                "llm_request_count": 1 if llm_candidates else 0,
+                "enhanced_titles": group_enhanced_title_count,
+                "non_title_candidates": group_non_title_count,
+                "elapsed_seconds": round(group_elapsed, 3),
+                "enhanced_markdown_files": group_written_md,
+                "parts": part_summaries,
             }
         )
 
@@ -1114,8 +1235,9 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
         "provider": options.provider,
         "model": options.model,
         "record_count": len(records),
+        "pdf_group_count": len(groups),
         "title_record_count": len(all_rows),
-        "llm_batch_count": batch_count,
+        "llm_request_count": llm_request_count,
         "title_candidates_total": len(all_rows),
         "llm_sent_candidates_total": llm_sent_total,
         "toc_heading_candidates_total": toc_heading_total,
@@ -1123,6 +1245,7 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
         "toc_pages_total": toc_pages_total,
         "non_title_candidates_total": non_title_total,
         "elapsed_seconds": round(total_elapsed, 3),
+        "enhancement_mode": "whole_pdf_one_request",
         "toc_filter": {
             "enabled": options.enable_toc_filter,
             "max_start_page": options.toc_max_start_page,

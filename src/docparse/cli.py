@@ -204,7 +204,6 @@ def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
         model=args.model,
         api_key=args.api_key,
         base_url=args.base_url,
-        batch_size=args.hierarchy_batch_size,
         timeout=args.llm_timeout,
         max_retries=args.llm_retries,
         doc_id=args.doc_id,
@@ -222,7 +221,7 @@ def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
 
     print("[HIERARCHY] 启动标题层级增强")
     print(f"[HIERARCHY] output_dir={options.output_dir}")
-    print(f"[HIERARCHY] provider={options.provider}, model={options.model}, batch_size={options.batch_size}")
+    print(f"[HIERARCHY] provider={options.provider}, model={options.model}, mode=whole_pdf_one_request")
     if options.extract_dir:
         print(f"[HIERARCHY] extract_dir={options.extract_dir}")
     if options.domain or options.doc_id or options.limit_docs:
@@ -238,14 +237,13 @@ def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
     usage = stats.get("usage", {})
     outputs = stats.get("outputs", {})
 
-    print(f"[DONE] 标题层级增强完成，处理文档/片段数：{stats.get('record_count', 0)}")
+    print(f"[DONE] 标题层级增强完成，处理 manifest 记录数：{stats.get('record_count', 0)}，PDF 分组数：{stats.get('pdf_group_count', 0)}")
     print(f"[DONE] title_hierarchy.jsonl：{outputs.get('title_hierarchy_jsonl', '')}")
     print(f"[DONE] hierarchy_stats.json：{outputs.get('hierarchy_stats_json', '')}")
     print(
         "[SUMMARY] "
         f"title_records={stats.get('title_record_count', 0)}, "
-        f"llm_batches={stats.get('llm_batch_count', 0)}, "
-        f"llm_sent={stats.get('llm_sent_candidates_total', 0)}, "
+f"llm_sent={stats.get('llm_sent_candidates_total', 0)}, "
         f"toc_headings={stats.get('toc_heading_candidates_total', 0)}, "
         f"toc_entries={stats.get('toc_entry_candidates_total', 0)}, "
         f"non_titles={stats.get('non_title_candidates_total', 0)}"
@@ -260,15 +258,14 @@ def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
         for doc in documents[:max_show]:
             print(
                 " - "
-                f"domain={doc.get('domain', '')}, "
-                f"doc_id={doc.get('doc_id', '')}, "
-                f"part={doc.get('part_no', '')}, "
+                f"group={doc.get('group_id', '')}, "
+                f"parts={doc.get('part_count', 0)}, "
                 f"titles={doc.get('title_candidates', 0)}, "
                 f"llm_sent={doc.get('llm_sent_candidates', 0)}, "
+                f"toc_ref={doc.get('toc_reference_candidates', 0)}, "
                 f"toc_heading={doc.get('toc_heading_candidates', 0)}, "
                 f"toc_entry={doc.get('toc_entry_candidates', 0)}, "
-                f"toc_pages={doc.get('toc_pages', [])}, "
-                f"enhanced_md={doc.get('enhanced_md_path', '')}"
+                f"enhanced_md_files={len(doc.get('enhanced_markdown_files', []))}"
             )
         if len(documents) > max_show:
             print(f" - ... 还有 {len(documents) - max_show} 条文档记录，详见 hierarchy_stats.json")
@@ -329,7 +326,6 @@ def build_parser() -> argparse.ArgumentParser:
     enhance.add_argument("--model", default="deepseek-v4-flash", help="LLM 模型名称")
     enhance.add_argument("--api-key", default=None, help="DeepSeek API Key；不传则读取 DEEPSEEK_API_KEY")
     enhance.add_argument("--base-url", default=None, help="OpenAI-compatible base_url；DeepSeek 默认 https://api.deepseek.com")
-    enhance.add_argument("--hierarchy-batch-size", type=int, default=120, help="每批发送给 LLM 的标题数量")
     enhance.add_argument("--llm-timeout", type=int, default=120, help="单次 LLM 请求超时秒数")
     enhance.add_argument("--llm-retries", type=int, default=3, help="LLM 请求失败重试次数")
     enhance.add_argument("--doc-id", default=None, help="只增强指定 doc_id，便于单文档测试")

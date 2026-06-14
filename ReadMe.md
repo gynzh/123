@@ -1,6 +1,6 @@
 # AFAC2026 Challenge 4 文档解析模块
 
-本仓库当前保留文档解析相关代码和产物：扫描比赛原始文档，调用 MinerU/Jina 解析，生成文档级标准化结果，并支持基于 MinerU 结构化产物的标题层级增强。
+本仓库保留文档解析相关代码和产物：扫描比赛原始文档，调用 MinerU/Jina 解析，生成文档级标准化结果，并支持基于 MinerU 结构化产物的标题层级增强。
 
 ## 目录结构
 
@@ -52,13 +52,13 @@ python scripts/parse_documents.py build-manifest --output-dir outputs/parse/mine
 全量增强 MinerU 标题层级：
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --hierarchy-batch-size 120
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash
 ```
 
-单文档增强：
+单文档增强。同一 `domain/doc_id` 下的所有 MinerU part 会按原 PDF 顺序合并，并在一次 LLM 请求中完成标题层级重建：
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --domain financial_contracts --doc-id text01
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --domain financial_contracts --doc-id text03
 ```
 
 指定单个 MinerU 解析目录增强：
@@ -101,6 +101,4 @@ full_titleEnhanced.md
 
 `full.md` 不会被覆盖；`full_titleEnhanced.md` 仅调整 Markdown 标题井号数量，便于人工检查增强效果。
 
-标题层级增强默认会识别并过滤前置目录区间中的目录项。程序会先在前置页面寻找“目录/目次/Contents”等目录起点，再向后连续扫描目录项密度较高的页面，因此可处理多页目录。目录项不会发送给 LLM 作为正文标题，写入 `title_hierarchy.jsonl` 时会标记 `is_toc_entry=true`、`is_title=false`，并在 `full_titleEnhanced.md` 中降级为普通文本，避免目录页污染正文 section_path。若需要调试原始行为，可添加 `--disable-toc-filter`。目录区间范围可用 `--toc-max-start-page` 和 `--toc-max-follow-pages` 调整。
-
-> 目录过滤说明：增强阶段会保留“目录/目次/Contents”这类目录页标题本身，只降级其下方带页码或点线的目录项；正文中再次出现的同名标题仍正常参与层级增强。
+标题层级增强采用完整 PDF 级别的标题序列。程序会将同一 `domain/doc_id` 下的所有 MinerU part 按原 PDF 顺序合并，目录页标题和目录项作为 `toc` 参考提供给 LLM，正文标题作为 `titles` 提供给 LLM，LLM 只返回 `id / is_title / level`。目录项不会作为正文标题返回，但会写入 `title_hierarchy.jsonl` 并在 `full_titleEnhanced.md` 中降级为普通文本；“目录/目次/Contents”这类目录页标题本身保留为 Markdown 标题。

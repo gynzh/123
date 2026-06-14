@@ -1,30 +1,21 @@
-# MinerU 解析与标题层级增强说明
+# MinerU 文档解析说明
 
-## 解析产物
+本说明对应 `scripts/parse_documents.py` 中的 MinerU 解析与标题层级增强流程。
 
-MinerU 每个解析目录通常包含：
+## 解析流程
 
-```text
-full.md
-full.html
-*_content_list.json
-*_content_list_v2.json
-*_model.json
-layout.json
-mineru_result.zip
+1. `inspect` 扫描比赛原始数据，统计各解析引擎对应的文档数量。
+2. `parse` 调用 MinerU/Jina 解析文档，并保存原始解析目录。
+3. `build-manifest` 基于解析目录重建文档级汇总文件。
+4. `enhance-hierarchy` 基于 MinerU 的 `content_list_v2.json`、`content_list.json` 和 `full.md` 增强标题层级。
+
+## MinerU 解析命令
+
+```powershell
+python scripts/parse_documents.py parse --dataset-root public_dataset_a/public_dataset_upload --output-dir outputs/parse/mineru --model-version vlm --extra-format html --ocr --no-cache --poll-interval 10 --max-wait 3600
 ```
 
-`full.md` 适合人工阅读；`content_list_v2/content_list` 更适合后续结构化处理，因为其中包含标题候选、页码、bbox 和 MinerU 原始标题层级。
-
-## 标题层级问题
-
-当前 MinerU VLM 输出的 `title.level/text_level` 对中文金融、合同、年报、保险条款等文档通常只有 1、2 两级。后续分块和检索不应直接把 MinerU 原始层级当作最终章节树。
-
-## 增强策略
-
-新增 `enhance-hierarchy` 命令以 MinerU 的标题候选为输入，调用 OpenAI-compatible LLM 纠正标题层级。LLM 只返回 `title_id -> enhanced_level/is_title`，本地代码负责校验、生成 `section_path`，并重写可视化 Markdown。
-
-## 命令
+## 标题层级增强命令
 
 全量增强：
 
@@ -35,51 +26,75 @@ python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/m
 单文档增强：
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --domain financial_contracts --doc-id text01
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --domain financial_contracts --doc-id text03
 ```
 
-指定解析目录增强：
+指定单个解析目录增强：
 
 ```powershell
 python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
 ```
 
-本地测试流程：
+本地流程测试：
 
 ```powershell
 python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider mock --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
 ```
 
-## 输出
+## 标题增强输入
+
+增强阶段不再按 part 或标题批次拆分同一 PDF。程序会将同一 `domain/doc_id` 下的所有 MinerU part 合并，构造一个完整 PDF 级别的 LLM 请求。
+
+发送给 LLM 的用户消息只包含两个字段：
+
+```json
+{
+  "toc": [
+    {"o": 1, "p": 8, "x": "目录"},
+    {"o": 2, "p": 8, "x": "第一节 风险提示及说明......12"}
+  ],
+  "titles": [
+    {"id": "text03_p1_t000060", "o": 60, "p": 12, "r": 2, "x": "第一节 风险提示及说明"},
+    {"id": "text03_p1_t000061", "o": 61, "p": 12, "r": 2, "x": "一、与本期债券相关的投资风险"}
+  ]
+}
+```
+
+字段含义：
+
+```text
+toc.o      目录参考项在完整 PDF 标题序列中的顺序
+toc.p      目录参考项在完整 PDF 中的近似页序
+toc.x      目录参考文本
+titles.id  本地映射用标题 ID
+titles.o   正文标题候选在完整 PDF 标题序列中的顺序
+titles.p   正文标题候选在完整 PDF 中的近似页序
+titles.r   MinerU 原始标题层级
+titles.x   正文标题文本
+```
+
+LLM 只返回正文标题候选，不返回目录参考项：
+
+```json
+{
+  "items": [
+    {"id": "text03_p1_t000060", "is_title": true, "level": 1},
+    {"id": "text03_p1_t000061", "is_title": true, "level": 2}
+  ]
+}
+```
+
+## 输出文件
 
 ```text
 outputs/parse/mineru/title_hierarchy.jsonl
 outputs/parse/mineru/hierarchy_stats.json
 ```
 
-每个 MinerU 解析目录中新增：
+每个被增强的 MinerU 解析目录中新增：
 
 ```text
 full_titleEnhanced.md
 ```
 
-`hierarchy_stats.json` 中的 `usage` 字段记录：
-
-```json
-{
-  "requests": 1,
-  "prompt_tokens": 0,
-  "completion_tokens": 0,
-  "total_tokens": 0,
-  "prompt_cost_usd": 0.0,
-  "completion_cost_usd": 0.0,
-  "total_cost_usd": 0.0
-}
-```
-
-
-## 目录页过滤
-
-标题层级增强默认会识别并过滤前置目录区间中的目录项。程序会先在前置页面寻找“目录/目次/Contents”等目录起点，再向后连续扫描目录项密度较高的页面，因此可处理多页目录。目录项不会发送给 LLM 作为正文标题，写入 `title_hierarchy.jsonl` 时会标记 `is_toc_entry=true`、`is_title=false`，并在 `full_titleEnhanced.md` 中降级为普通文本。若需要调试原始行为，可添加 `--disable-toc-filter`。目录区间范围可用 `--toc-max-start-page` 和 `--toc-max-follow-pages` 调整。
-
-> 多页目录处理：目录区间内的目录项会被标记为 `is_toc_entry=true` 并从正文标题树中排除；“目录”页标题本身会保留为 Markdown 标题，便于在 `full_titleEnhanced.md` 中直观看到目录页结构。
+`title_hierarchy.jsonl` 保存标题 ID、原始层级、增强层级、是否目录标题、是否目录项、section path、页码、bbox 和原始解析目录。`hierarchy_stats.json` 保存标题数量、目录参考数量、LLM 请求数、token 消耗和费用估算。

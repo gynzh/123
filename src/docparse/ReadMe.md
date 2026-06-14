@@ -1,89 +1,66 @@
-# docparse 文档解析模块
+# docparse 模块说明
 
-`src/docparse` 负责把比赛原始文档解析为稳定的文档级中间产物。模块当前包含数据集扫描、MinerU/Jina 解析调用、解析产物发现、文档级汇总，以及基于 MinerU 产物的标题层级增强。
+`src/docparse` 包含文档解析阶段的核心代码。模块负责扫描比赛原始文档、调用解析服务、整理解析产物，并基于 MinerU 结构化结果增强标题层级。
 
-## 主要命令
-
-### 扫描数据集
-
-```powershell
-python scripts/parse_documents.py inspect --dataset-root public_dataset_a/public_dataset_upload
-```
-
-### 执行文档解析
-
-```powershell
-python scripts/parse_documents.py parse --dataset-root public_dataset_a/public_dataset_upload --output-dir outputs/parse/mineru --model-version vlm --extra-format html --ocr --no-cache --poll-interval 10 --max-wait 3600
-```
-
-### 重建文档级汇总
-
-```powershell
-python scripts/parse_documents.py build-manifest --output-dir outputs/parse/mineru
-```
-
-### 增强 MinerU 标题层级
-
-对全量 MinerU 解析产物执行标题层级增强：
-
-```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --hierarchy-batch-size 120
-```
-
-单文档测试可指定 `doc_id`：
-
-```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --domain financial_contracts --doc-id text01
-```
-
-也可以直接指定某一个 MinerU 解析目录，适合抽查一个文件：
-
-```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
-```
-
-没有 API Key 时可用 `mock` 做本地流程测试：
-
-```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider mock --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
-```
-
-## 标题层级增强输出
-
-增强命令不会覆盖 MinerU 原始 `full.md`，而是在每个解析目录中写出：
+## 文件职责
 
 ```text
-full_titleEnhanced.md
+cli.py             命令行入口实现
+dataset.py         数据集扫描与题目引用关系读取
+mineru_client.py   MinerU 批量解析、轮询、下载与解压
+jina_client.py     Jina HTML 文档解析
+artifacts.py       MinerU/Jina 解析产物发现与文本读取
+normalize.py       文档级汇总产物生成
+hierarchy.py       LLM 标题层级增强与 full_titleEnhanced.md 生成
+llm_client.py      OpenAI-compatible LLM 调用与 token/费用统计
 ```
 
-该文件仅调整 Markdown 标题井号数量，用于人工直观看标题层级增强效果。
+## 标题层级增强
 
-全局结构化输出位于：
+`hierarchy.py` 从 MinerU 的 `content_list_v2.json`、`content_list.json` 或 `full.md` 中抽取标题候选，并执行完整 PDF 级别的标题层级增强。
+
+核心策略：
 
 ```text
-outputs/parse/mineru/title_hierarchy.jsonl
-outputs/parse/mineru/hierarchy_stats.json
+1. 按 domain/doc_id 将同一 PDF 的多个 MinerU part 合并。
+2. 识别前置目录区间，将“目录/目次/Contents”和目录项作为 toc 参考。
+3. 将正文标题候选作为 titles 发送给 LLM。
+4. LLM 只返回 id、is_title、level。
+5. 本地代码校验返回结果，生成 section_path。
+6. 写出 title_hierarchy.jsonl、hierarchy_stats.json 和 full_titleEnhanced.md。
 ```
 
-`title_hierarchy.jsonl` 记录每个标题的原始层级、增强层级、页码、bbox、section_path 和来源解析目录。`hierarchy_stats.json` 记录原始/增强层级分布、LLM 请求数、token 消耗和估算费用。
-
-## 环境变量
-
-使用 DeepSeek 时需要设置：
+## 增强命令
 
 ```powershell
-$env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash
 ```
 
-可选覆盖：
+单文档测试：
 
 ```powershell
-$env:DEEPSEEK_BASE_URL="https://api.deepseek.com"
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --domain financial_contracts --doc-id text03
 ```
 
+本地 mock 测试：
 
-## 目录页过滤
+```powershell
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider mock --domain financial_contracts --doc-id text03
+```
 
-标题层级增强默认会识别并过滤前置目录区间中的目录项。程序会先在前置页面寻找“目录/目次/Contents”等目录起点，再向后连续扫描目录项密度较高的页面，因此可处理多页目录。目录项不会发送给 LLM 作为正文标题，写入 `title_hierarchy.jsonl` 时会标记 `is_toc_entry=true`、`is_title=false`，并在 `full_titleEnhanced.md` 中降级为普通文本。若需要调试原始行为，可添加 `--disable-toc-filter`。目录区间范围可用 `--toc-max-start-page` 和 `--toc-max-follow-pages` 调整。
+## LLM 输入输出
 
-> `enhance-hierarchy` 默认保留“目录/目次/Contents”等目录页标题，只降级目录项，避免目录项污染正文标题树。
+发送给 LLM 的用户 JSON 只包含 `toc` 和 `titles`。`toc` 只用于参考目录结构，LLM 不返回其中的项目；`titles` 是必须返回的正文标题候选。
+
+返回格式：
+
+```json
+{
+  "items": [
+    {"id": "text03_p1_t000060", "is_title": true, "level": 1},
+    {"id": "text03_p1_t000061", "is_title": true, "level": 2}
+  ]
+}
+```
+
+`level=0` 表示该候选不是正文标题。有效标题层级范围为 1-6。
