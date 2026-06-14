@@ -7,7 +7,9 @@ from pathlib import Path
 from typing import Any, Iterable
 import collections
 import json
+import math
 import re
+import time
 
 from .llm_client import LLMUsage, OpenAICompatibleClient, compute_usage_cost, estimate_tokens
 
@@ -875,15 +877,64 @@ def _counter_to_json(counter: collections.Counter[int]) -> dict[str, int]:
     return {str(k): v for k, v in sorted(counter.items())}
 
 
+def _log(message: str) -> None:
+    """Print progress immediately so long LLM calls do not look frozen."""
+    print(message, flush=True)
+
+
+def _fmt_seconds(seconds: float) -> str:
+    """Format elapsed seconds for readable command output."""
+    return f"{seconds:.1f}s"
+
+
+def _usage_line(prefix: str, usage: LLMUsage, *, elapsed_seconds: float | None = None) -> str:
+    """Build a compact token and cost usage line."""
+    data = usage.to_json()
+    parts = [
+        prefix,
+        f"prompt_tokens={data.get('prompt_tokens', 0)}",
+        f"completion_tokens={data.get('completion_tokens', 0)}",
+        f"total_tokens={data.get('total_tokens', 0)}",
+        f"cost_usd={data.get('total_cost_usd', 0)}",
+    ]
+    if elapsed_seconds is not None:
+        parts.insert(1, f"elapsed={_fmt_seconds(elapsed_seconds)}")
+    return ", ".join(parts)
+
+
+def _estimate_prompt_tokens_for_batch(
+    *,
+    record: dict[str, Any],
+    candidates: list[TitleCandidate],
+    previous_section_stack: list[dict[str, Any]],
+) -> int:
+    """Estimate prompt size before the LLM call for progress diagnostics."""
+    payload = build_prompt_payload(
+        record=record,
+        candidates=candidates,
+        previous_section_stack=previous_section_stack,
+    )
+    prompt_text = TITLE_SYSTEM_PROMPT + "\n" + json.dumps(payload, ensure_ascii=False)
+    return estimate_tokens(prompt_text)
+
+
 def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
     """Run hierarchy enhancement and write output artifacts."""
+    run_started = time.perf_counter()
     options.output_dir = Path(options.output_dir)
     records = _load_records_for_options(options)
     if not records:
         raise RuntimeError("没有找到需要增强标题层级的 MinerU 记录")
 
+    _log(
+        "[SELECT] "
+        f"records={len(records)}, provider={options.provider}, model={options.model}, "
+        f"batch_size={options.batch_size}, timeout={options.timeout}s, retries={options.max_retries}"
+    )
+
     client: OpenAICompatibleClient | None = None
     if options.provider == "deepseek":
+        _log("[LLM] 初始化 DeepSeek/OpenAI-compatible client")
         client = OpenAICompatibleClient.from_deepseek_env(
             model=options.model,
             api_key=options.api_key,
@@ -907,7 +958,17 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
     non_title_total = 0
     toc_pages_total = 0
 
-    for record in records:
+    for record_index, record in enumerate(records, start=1):
+        doc_started = time.perf_counter()
+        doc_label = (
+            f"{record.get('domain', '')}/{record.get('doc_id', '')}"
+            f" part={record.get('upload_part_no', record.get('part_no', 1))}"
+        )
+        _log(
+            f"[DOC] {record_index}/{len(records)} {doc_label}, "
+            f"extract_dir={record.get('local_extract_dir', '')}"
+        )
+
         candidates, toc_detection = build_title_candidates(
             record,
             enable_toc_filter=options.enable_toc_filter,
@@ -918,12 +979,14 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
             if candidate.raw_level:
                 raw_counts[candidate.raw_level] += 1
         if not candidates:
+            _log(f"[EXTRACT] {doc_label}: no title candidates found")
             docs_summary.append(
                 {
                     "domain": record.get("domain", ""),
                     "doc_id": record.get("doc_id", ""),
                     "title_candidates": 0,
                     "enhanced_titles": 0,
+                    "elapsed_seconds": round(time.perf_counter() - doc_started, 3),
                     "warning": "no title candidates found",
                 }
             )
@@ -940,14 +1003,38 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
         toc_entry_total += toc_entry_count
         toc_pages_total += len(toc_detection.toc_pages)
         llm_sent_total += len(llm_candidates)
+        source_artifact = candidates[0].source_artifact if candidates else ""
+        local_batch_count = math.ceil(len(llm_candidates) / max(1, options.batch_size)) if llm_candidates else 0
+
+        _log(
+            f"[EXTRACT] {doc_label}: source={source_artifact}, titles={len(candidates)}, "
+            f"toc_pages={sorted(toc_detection.toc_pages)}, toc_start={toc_detection.toc_start_page}, "
+            f"toc_headings={toc_heading_count}, toc_entries={toc_entry_count}, "
+            f"llm_sent={len(llm_candidates)}, llm_batches={local_batch_count}"
+        )
 
         previous_stack: list[dict[str, Any]] = []
         processed_llm: list[EnhancedTitle] = []
-        for start in range(0, len(llm_candidates), max(1, options.batch_size)):
+        for local_batch_index, start in enumerate(range(0, len(llm_candidates), max(1, options.batch_size)), start=1):
             batch = llm_candidates[start : start + max(1, options.batch_size)]
             if not batch:
                 continue
             batch_count += 1
+            prompt_estimate = _estimate_prompt_tokens_for_batch(
+                record=record,
+                candidates=batch,
+                previous_section_stack=previous_stack,
+            )
+            page_indexes = [candidate.page_idx for candidate in batch if candidate.page_idx is not None]
+            page_range = ""
+            if page_indexes:
+                page_range = f", pages={min(page_indexes)}-{max(page_indexes)}"
+            _log(
+                f"[BATCH] global={batch_count}, doc_batch={local_batch_index}/{local_batch_count}, "
+                f"titles={len(batch)}, prompt_est_tokens≈{prompt_estimate}{page_range}"
+            )
+            _log(f"[LLM] start provider={options.provider}, model={options.model}, batch={batch_count}")
+            batch_started = time.perf_counter()
             enhanced_batch, usage = enhance_batch(
                 record=record,
                 candidates=batch,
@@ -955,22 +1042,31 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
                 options=options,
                 client=client,
             )
+            batch_elapsed = time.perf_counter() - batch_started
+            _log(_usage_line(f"[LLM] done batch={batch_count}", usage, elapsed_seconds=batch_elapsed))
             for item in enhanced_batch:
                 enhanced_by_id[item.title_id] = item
             processed_llm.extend(enhanced_batch)
             usage_total.add(usage)
             assign_section_paths(processed_llm)
             previous_stack = final_section_stack(processed_llm)
+            if previous_stack:
+                stack_preview = " > ".join(item["text"] for item in previous_stack[-3:])
+                _log(f"[STACK] batch={batch_count}, tail={stack_preview}")
 
         enhanced_titles = [enhanced_by_id[c.title_id] for c in candidates if c.title_id in enhanced_by_id]
         enhanced_titles.sort(key=lambda item: item.order)
         assign_section_paths(enhanced_titles)
 
+        doc_enhanced_title_count = 0
+        doc_non_title_count = 0
         for title in enhanced_titles:
             if title.is_title:
                 enhanced_counts[title.enhanced_title_level] += 1
+                doc_enhanced_title_count += 1
             else:
                 non_title_total += 1
+                doc_non_title_count += 1
             all_rows.append(title.to_json(record, enhance_method=options.provider, model=options.model))
 
         extract_dir = resolve_path(str(record.get("local_extract_dir") or ""))
@@ -979,6 +1075,15 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
             enhanced_md_path = rewrite_markdown_headings(extract_dir, enhanced_titles)
             if enhanced_md_path is not None:
                 written_md.append(str(enhanced_md_path))
+                _log(f"[WRITE] enhanced_md={enhanced_md_path}")
+            else:
+                _log(f"[WRITE] skipped: full.md not found in {extract_dir}")
+
+        doc_elapsed = time.perf_counter() - doc_started
+        _log(
+            f"[DOC DONE] {doc_label}: elapsed={_fmt_seconds(doc_elapsed)}, "
+            f"enhanced_titles={doc_enhanced_title_count}, non_titles={doc_non_title_count}"
+        )
 
         docs_summary.append(
             {
@@ -993,8 +1098,10 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
                 "toc_heading_candidates": toc_heading_count,
                 "toc_entry_candidates": toc_entry_count,
                 "llm_sent_candidates": len(llm_candidates),
-                "enhanced_titles": len([t for t in enhanced_titles if t.is_title]),
-                "non_title_candidates": len([t for t in enhanced_titles if not t.is_title]),
+                "llm_batch_count": local_batch_count,
+                "enhanced_titles": doc_enhanced_title_count,
+                "non_title_candidates": doc_non_title_count,
+                "elapsed_seconds": round(doc_elapsed, 3),
                 "enhanced_md_path": str(enhanced_md_path) if enhanced_md_path else "",
             }
         )
@@ -1002,6 +1109,7 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
     title_hierarchy_path = options.output_dir / "title_hierarchy.jsonl"
     stats_path = options.output_dir / "hierarchy_stats.json"
     write_jsonl(title_hierarchy_path, all_rows)
+    total_elapsed = time.perf_counter() - run_started
     stats = {
         "provider": options.provider,
         "model": options.model,
@@ -1014,6 +1122,7 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
         "toc_entry_candidates_total": toc_entry_total,
         "toc_pages_total": toc_pages_total,
         "non_title_candidates_total": non_title_total,
+        "elapsed_seconds": round(total_elapsed, 3),
         "toc_filter": {
             "enabled": options.enable_toc_filter,
             "max_start_page": options.toc_max_start_page,
@@ -1030,4 +1139,7 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
         "documents": docs_summary,
     }
     stats_path.write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
+    _log(f"[WRITE] title_hierarchy={title_hierarchy_path}")
+    _log(f"[WRITE] hierarchy_stats={stats_path}")
+    _log(_usage_line("[RUN DONE]", usage_total, elapsed_seconds=total_elapsed))
     return stats

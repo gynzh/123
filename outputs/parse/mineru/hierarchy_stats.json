@@ -1,66 +1,87 @@
 {
   "provider": "mock",
   "model": "deepseek-v4-flash",
-  "record_count": 1,
-  "title_record_count": 274,
-  "llm_batch_count": 3,
-  "title_candidates_total": 274,
-  "llm_sent_candidates_total": 265,
+  "record_count": 2,
+  "title_record_count": 474,
+  "llm_batch_count": 5,
+  "title_candidates_total": 474,
+  "llm_sent_candidates_total": 473,
   "toc_heading_candidates_total": 1,
-  "toc_entry_candidates_total": 8,
-  "toc_pages_total": 2,
-  "non_title_candidates_total": 8,
+  "toc_entry_candidates_total": 0,
+  "toc_pages_total": 1,
+  "non_title_candidates_total": 0,
+  "elapsed_seconds": 0.101,
   "toc_filter": {
     "enabled": true,
     "max_start_page": 15,
     "max_follow_pages": 12
   },
   "raw_title_level_counts": {
-    "1": 2,
-    "2": 272
+    "1": 7,
+    "2": 467
   },
   "enhanced_title_level_counts": {
-    "1": 12,
-    "2": 83,
-    "3": 65,
-    "4": 85,
-    "5": 21
+    "1": 32,
+    "2": 199,
+    "3": 109,
+    "4": 118,
+    "5": 16
   },
   "usage": {
-    "requests": 3,
-    "prompt_tokens": 40015,
-    "completion_tokens": 4909,
-    "total_tokens": 44924,
-    "prompt_cost_usd": 0.0056021,
-    "completion_cost_usd": 0.00137452,
-    "total_cost_usd": 0.00697662
+    "requests": 5,
+    "prompt_tokens": 64813,
+    "completion_tokens": 8761,
+    "total_tokens": 73574,
+    "prompt_cost_usd": 0.00907382,
+    "completion_cost_usd": 0.00245308,
+    "total_cost_usd": 0.0115269
   },
   "outputs": {
     "title_hierarchy_jsonl": "outputs\\parse\\mineru\\title_hierarchy.jsonl",
     "hierarchy_stats_json": "outputs\\parse\\mineru\\hierarchy_stats.json",
     "enhanced_markdown_files": [
-      "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text01__part001__86cde1fd08\\full_titleEnhanced.md"
+      "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part001__b77d7e385b\\full_titleEnhanced.md",
+      "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part002__c5e4f0cbf5\\full_titleEnhanced.md"
     ]
   },
   "documents": [
     {
       "domain": "financial_contracts",
-      "doc_id": "text01",
+      "doc_id": "text03",
       "part_no": 1,
-      "local_extract_dir": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text01__part001__86cde1fd08",
-      "title_candidates": 274,
+      "local_extract_dir": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part001__b77d7e385b",
+      "title_candidates": 397,
       "toc_filter_enabled": true,
       "toc_start_page": 7,
       "toc_pages": [
-        7,
-        8
+        7
       ],
       "toc_heading_candidates": 1,
-      "toc_entry_candidates": 8,
-      "llm_sent_candidates": 265,
-      "enhanced_titles": 266,
-      "non_title_candidates": 8,
-      "enhanced_md_path": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text01__part001__86cde1fd08\\full_titleEnhanced.md"
+      "toc_entry_candidates": 0,
+      "llm_sent_candidates": 396,
+      "llm_batch_count": 4,
+      "enhanced_titles": 397,
+      "non_title_candidates": 0,
+      "elapsed_seconds": 0.066,
+      "enhanced_md_path": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part001__b77d7e385b\\full_titleEnhanced.md"
+    },
+    {
+      "domain": "financial_contracts",
+      "doc_id": "text03",
+      "part_no": 2,
+      "local_extract_dir": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part002__c5e4f0cbf5",
+      "title_candidates": 77,
+      "toc_filter_enabled": true,
+      "toc_start_page": null,
+      "toc_pages": [],
+      "toc_heading_candidates": 0,
+      "toc_entry_candidates": 0,
+      "llm_sent_candidates": 77,
+      "llm_batch_count": 1,
+      "enhanced_titles": 77,
+      "non_title_candidates": 0,
+      "elapsed_seconds": 0.017,
+      "enhanced_md_path": "outputs\\parse\\mineru\\mineru_vlm\\batch_1_5e462ff7\\financial_contracts__text03__part002__c5e4f0cbf5\\full_titleEnhanced.md"
     }
   ]
 }
