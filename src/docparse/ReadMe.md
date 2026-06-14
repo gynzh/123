@@ -1,75 +1,62 @@
-# docparse 模块说明
+# docparse 文档解析模块
 
-`src/docparse` 包含文档解析阶段的核心代码。模块负责扫描比赛原始文档、调用解析服务、整理解析产物，并基于 MinerU 结构化结果增强标题层级。
+`src/docparse` 负责把比赛原始文档解析为稳定的文档级中间产物。模块包含数据集扫描、MinerU/Jina 解析调用、解析产物发现、文档级汇总，以及基于 MinerU 产物的标题层级增强。
 
-## 文件职责
+## 主要命令
 
-```text
-cli.py             命令行入口实现
-dataset.py         数据集扫描与题目引用关系读取
-mineru_client.py   MinerU 批量解析、轮询、下载与解压
-jina_client.py     Jina HTML 文档解析
-artifacts.py       MinerU/Jina 解析产物发现与文本读取
-normalize.py       文档级汇总产物生成
-hierarchy.py       LLM 标题层级增强与 full_titleEnhanced.md 生成
-llm_client.py      OpenAI-compatible LLM 调用与 token/费用统计
-```
-
-## 标题层级增强
-
-`hierarchy.py` 从 MinerU 的 `content_list_v2.json`、`content_list.json` 或 `full.md` 中抽取标题候选，并执行完整 PDF 级别的标题层级增强。
-
-核心策略：
-
-```text
-1. 按 domain/doc_id 将同一 PDF 的多个 MinerU part 合并。
-2. 识别前置目录区间，将“目录/目次/Contents”和目录项作为 toc 参考。
-3. 将正文标题候选作为 titles 发送给 LLM。
-4. LLM 只返回压缩数组 `[id, level]`，其中 `level=0` 表示不是正文标题。
-5. 本地代码校验返回结果，生成 section_path。
-6. 写出 title_hierarchy.jsonl、hierarchy_stats.json 和 full_titleEnhanced.md。
-```
-
-## 增强命令
+### 扫描数据集
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash
+python scripts/parse_documents.py inspect --dataset-root public_dataset_a/public_dataset_upload
 ```
 
-Qwen/DashScope：
+### 执行文档解析
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider qwen --model qwen-flash
+python scripts/parse_documents.py parse --dataset-root public_dataset_a/public_dataset_upload --output-dir outputs/parse/mineru --model-version vlm --extra-format html --ocr --no-cache --poll-interval 10 --max-wait 3600
 ```
 
-Qwen/DashScope 调用默认关闭 thinking；`prompt_tokens`、`completion_tokens` 和 `total_tokens` 优先读取接口返回的 `usage`。
+### 重建文档级汇总
+
+```powershell
+python scripts/parse_documents.py build-manifest --output-dir outputs/parse/mineru
+```
+
+### 增强标题层级
+
+默认使用本地规则：
+
+```powershell
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider rule
+```
 
 单文档测试：
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --domain financial_contracts --doc-id text03
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider rule --domain financial_contracts --doc-id text01
 ```
 
-本地 mock 测试：
+指定单个 MinerU 解析目录：
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider mock --domain financial_contracts --doc-id text03
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider rule --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
 ```
 
-## LLM 输入输出
+## 标题层级增强输出
 
-发送给 LLM 的用户 JSON 只包含 `toc` 和 `titles`。`toc` 只用于参考目录结构，LLM 不返回其中的项目；`titles` 是必须返回的正文标题候选。
-
-返回格式：
-
-```json
-{
-  "items": [
-    ["text03_p1_t000060", 1],
-    ["text03_p1_t000061", 2],
-    ["text03_p1_t000001", 0]
-  ]
-}
+```text
+outputs/parse/mineru/title_hierarchy.jsonl
+outputs/parse/mineru/hierarchy_stats.json
 ```
 
-数组第二项为标题层级，`0` 表示该候选不是正文标题。有效标题层级范围为 1-6。
+每个被增强的 MinerU 解析目录中新增：
+
+```text
+full_titleEnhanced.md
+```
+
+`full.md` 不会被覆盖；`full_titleEnhanced.md` 用于人工检查标题层级恢复效果。
+
+## 规则增强说明
+
+规则增强不会调用外部模型。它先识别目录区间并从目录项提取高层级锚点，再结合中文标题编号规则恢复正文标题层级，同时补充识别 MinerU 漏掉的普通文本标题，并过滤正文列表、表格字段和封面噪声。

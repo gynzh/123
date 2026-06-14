@@ -1,109 +1,92 @@
-# MinerU 文档解析说明
+# MinerU 文档解析与标题层级增强说明
 
-本说明对应 `scripts/parse_documents.py` 中的 MinerU 解析与标题层级增强流程。
+本说明对应 `scripts/parse_documents.py` 中与 MinerU 相关的解析和标题层级增强流程。
 
 ## 解析流程
 
-1. `inspect` 扫描比赛原始数据，统计各解析引擎对应的文档数量。
-2. `parse` 调用 MinerU/Jina 解析文档，并保存原始解析目录。
-3. `build-manifest` 基于解析目录重建文档级汇总文件。
-4. `enhance-hierarchy` 基于 MinerU 的 `content_list_v2.json`、`content_list.json` 和 `full.md` 增强标题层级。
+MinerU 解析阶段负责将本地 PDF 上传至 MinerU，下载解析结果，并在 `outputs/parse/mineru` 下生成文档级汇总文件。
 
-## MinerU 解析命令
+常用命令：
 
 ```powershell
 python scripts/parse_documents.py parse --dataset-root public_dataset_a/public_dataset_upload --output-dir outputs/parse/mineru --model-version vlm --extra-format html --ocr --no-cache --poll-interval 10 --max-wait 3600
 ```
 
-## 标题层级增强命令
-
-全量增强：
+解析完成后可重建汇总：
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash
+python scripts/parse_documents.py build-manifest --output-dir outputs/parse/mineru
 ```
 
-使用 Qwen/DashScope：
-
-```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider qwen --model qwen-flash
-```
-
-Qwen/DashScope 标题层级增强默认关闭 thinking，以减少等待时间和无关推理输出；token 用量优先读取接口 `usage` 字段。
-
-单文档增强：
-
-```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --domain financial_contracts --doc-id text03
-```
-
-指定单个解析目录增强：
-
-```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
-```
-
-本地流程测试：
-
-```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider mock --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
-```
-
-## 标题增强输入
-
-增强阶段不再按 part 或标题批次拆分同一 PDF。程序会将同一 `domain/doc_id` 下的所有 MinerU part 合并，构造一个完整 PDF 级别的 LLM 请求。
-
-发送给 LLM 的用户消息只包含两个字段：
-
-```json
-{
-  "toc": [
-    {"o": 1, "p": 8, "x": "目录"},
-    {"o": 2, "p": 8, "x": "第一节 风险提示及说明......12"}
-  ],
-  "titles": [
-    {"id": "text03_p1_t000060", "o": 60, "p": 12, "r": 2, "x": "第一节 风险提示及说明"},
-    {"id": "text03_p1_t000061", "o": 61, "p": 12, "r": 2, "x": "一、与本期债券相关的投资风险"}
-  ]
-}
-```
-
-字段含义：
+## 主要产物
 
 ```text
-toc.o      目录参考项在完整 PDF 标题序列中的顺序
-toc.p      目录参考项在完整 PDF 中的近似页序
-toc.x      目录参考文本
-titles.id  本地映射用标题 ID
-titles.o   正文标题候选在完整 PDF 标题序列中的顺序
-titles.p   正文标题候选在完整 PDF 中的近似页序
-titles.r   MinerU 原始标题层级
-titles.x   正文标题文本
+outputs/parse/mineru/manifest.jsonl
+outputs/parse/mineru/manifest.json
+outputs/parse/mineru/parsed_documents.jsonl
+outputs/parse/mineru/parse_stats.json
+outputs/parse/mineru/mineru_vlm/...
 ```
 
-LLM 只返回正文标题候选，不返回目录参考项。返回采用压缩格式，数组第二项为标题层级，`0` 表示不是正文标题：
+每个 MinerU 解析目录通常包含：
 
-```json
-{
-  "items": [
-    ["text03_p1_t000060", 1],
-    ["text03_p1_t000061", 2],
-    ["text03_p1_t000001", 0]
-  ]
-}
+```text
+full.md
+full.html
+*_content_list.json
+*_content_list_v2.json
+*_model.json
+layout.json
+mineru_result.zip
 ```
 
-## 输出文件
+## 标题层级增强
+
+默认使用本地规则增强，不调用 LLM：
+
+```powershell
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider rule
+```
+
+单文档调试：
+
+```powershell
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider rule --domain financial_contracts --doc-id text03
+```
+
+增强阶段会生成：
 
 ```text
 outputs/parse/mineru/title_hierarchy.jsonl
 outputs/parse/mineru/hierarchy_stats.json
 ```
 
-每个被增强的 MinerU 解析目录中新增：
+并在每个解析目录中生成：
 
 ```text
 full_titleEnhanced.md
 ```
 
-`title_hierarchy.jsonl` 保存标题 ID、原始层级、增强层级、是否目录标题、是否目录项、section path、页码、bbox 和原始解析目录。`hierarchy_stats.json` 保存标题数量、目录参考数量、LLM 请求数、token 消耗和费用估算。
+## 规则逻辑
+
+规则增强以“目录锚点 + 编号模式 + MinerU 原始块类型”联合判断标题层级：
+
+- 目录项用于提供高层级参考，但目录项本身不会进入正文标题树。
+- “第X章/第X节/第X部分”通常为一级标题。
+- “一、二、三、”通常为二级标题。
+- “（一）（二）”通常为三级标题。
+- “1、2、1.1”通常为四级标题。
+- “（1）（2）①②”通常为五级标题。
+- “a、b、A.、B.”通常为六级标题。
+
+增强阶段还会从普通文本中补充识别符合标题特征的行，并过滤封面机构、承销商标签、表格字段、正文列表项等非标题噪声。
+
+## LLM 对照模式
+
+如需做 LLM 结果对照，可指定：
+
+```powershell
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider qwen --model qwen-flash --domain financial_contracts --doc-id text03
+```
+
+LLM 模式仍会生成同样的 `title_hierarchy.jsonl`、`hierarchy_stats.json` 和 `full_titleEnhanced.md`。

@@ -198,8 +198,8 @@ def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
     if load_dotenv:
         load_dotenv()
 
-    default_model = {"deepseek": "deepseek-v4-flash", "qwen": "qwen-flash", "mock": "mock-title-enhancer"}
-    resolved_model = args.model or default_model.get(args.provider, "deepseek-v4-flash")
+    default_model = {"rule": "rule-title-enhancer", "deepseek": "deepseek-v4-flash", "qwen": "qwen-flash", "mock": "mock-title-enhancer"}
+    resolved_model = args.model or default_model.get(args.provider, "rule-title-enhancer")
 
     options = HierarchyEnhanceOptions(
         output_dir=Path(args.output_dir),
@@ -246,7 +246,8 @@ def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
     print(
         "[SUMMARY] "
         f"title_records={stats.get('title_record_count', 0)}, "
-f"llm_sent={stats.get('llm_sent_candidates_total', 0)}, "
+        f"rule_eval={stats.get('rule_evaluated_candidates_total', 0)}, "
+        f"llm_sent={stats.get('llm_sent_candidates_total', 0)}, "
         f"toc_headings={stats.get('toc_heading_candidates_total', 0)}, "
         f"toc_entries={stats.get('toc_entry_candidates_total', 0)}, "
         f"non_titles={stats.get('non_title_candidates_total', 0)}"
@@ -264,6 +265,7 @@ f"llm_sent={stats.get('llm_sent_candidates_total', 0)}, "
                 f"group={doc.get('group_id', '')}, "
                 f"parts={doc.get('part_count', 0)}, "
                 f"titles={doc.get('title_candidates', 0)}, "
+                f"rule_eval={doc.get('rule_evaluated_candidates', 0)}, "
                 f"llm_sent={doc.get('llm_sent_candidates', 0)}, "
                 f"toc_ref={doc.get('toc_reference_candidates', 0)}, "
                 f"toc_heading={doc.get('toc_heading_candidates', 0)}, "
@@ -325,8 +327,8 @@ def build_parser() -> argparse.ArgumentParser:
 
     enhance = sub.add_parser("enhance-hierarchy", help="基于 MinerU 产物增强标题层级并生成 full_titleEnhanced.md")
     enhance.add_argument("--output-dir", default="outputs/parse/mineru", help="文档解析汇总输出目录")
-    enhance.add_argument("--provider", default="deepseek", choices=["deepseek", "qwen", "mock"], help="标题层级增强提供方；qwen 使用 DashScope/OpenAI-compatible 接口，mock 仅用于本地测试")
-    enhance.add_argument("--model", default=None, help="LLM 模型名称；deepseek 默认 deepseek-v4-flash，qwen 默认 qwen-flash")
+    enhance.add_argument("--provider", default="rule", choices=["rule", "deepseek", "qwen", "mock"], help="标题层级增强提供方；rule 为本地规则增强，qwen/deepseek 使用 OpenAI-compatible 接口，mock 仅用于本地测试")
+    enhance.add_argument("--model", default=None, help="模型名称；rule 默认 rule-title-enhancer，deepseek 默认 deepseek-v4-flash，qwen 默认 qwen-flash")
     enhance.add_argument("--api-key", default=None, help="LLM API Key；DeepSeek 读取 DEEPSEEK_API_KEY，Qwen 读取 QWEN_API_KEY 或 DASHSCOPE_API_KEY")
     enhance.add_argument("--base-url", default=None, help="OpenAI-compatible base_url；DeepSeek/Qwen 均可用环境变量或该参数覆盖")
     enhance.add_argument("--llm-timeout", type=int, default=120, help="单次 LLM 请求超时秒数")

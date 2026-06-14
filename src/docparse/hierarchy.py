@@ -1,4 +1,4 @@
-"""LLM-assisted title hierarchy enhancement for MinerU parse artifacts."""
+"""Rule-based and optional LLM title hierarchy enhancement for MinerU parse artifacts."""
 
 from __future__ import annotations
 
@@ -62,6 +62,8 @@ class TitleCandidate:
     global_order: int = 0
     global_page_idx: int | None = None
     record_index: int = 0
+    rule_detected: bool = False
+    rule_reason: str = ""
 
     def to_prompt_json(self) -> dict[str, Any]:
         """Return the minimal title item sent to the LLM."""
@@ -103,6 +105,8 @@ class EnhancedTitle:
     global_order: int = 0
     global_page_idx: int | None = None
     record_index: int = 0
+    rule_detected: bool = False
+    rule_reason: str = ""
 
     def to_json(self, record: dict[str, Any], *, enhance_method: str, model: str) -> dict[str, Any]:
         """Return JSONL-ready title hierarchy record."""
@@ -121,6 +125,8 @@ class EnhancedTitle:
             "is_toc_heading": self.is_toc_heading,
             "is_toc_entry": self.is_toc_entry,
             "toc_reason": self.toc_reason,
+            "rule_detected": self.rule_detected,
+            "rule_reason": self.rule_reason,
             "section_path": self.section_path,
             "page_idx": self.page_idx,
             "global_page_idx": self.global_page_idx,
@@ -453,6 +459,218 @@ def is_toc_entry_text(text: str) -> bool:
     return bool(_HEADING_LIKE_RE.match(without_page)) or len(without_page) <= 45
 
 
+_MAJOR_UNNUMBERED_TITLES = {
+    "目录",
+    "目次",
+    "声明",
+    "释义",
+    "摘要",
+    "重大事项提示",
+    "重要提示",
+    "风险提示",
+    "风险提示及说明",
+    "发行概况",
+    "募集资金运用",
+    "发行人基本情况",
+    "财务会计信息",
+    "管理层讨论与分析",
+    "债券持有人会议规则",
+    "受托管理人",
+    "备查文件",
+    "审计报告",
+    "董事会报告",
+    "监事会报告",
+    "公司治理",
+    "保险责任",
+    "责任免除",
+    "重大疾病释义",
+    "现金价值",
+    "保险金申请",
+}
+
+_NOISE_TITLE_PATTERNS = [
+    re.compile(r"^(?:[A-Z][A-Z\s&.,()\-]{6,}|CITIC SECURITIES|CHINA SECURITIES|GF SECURITIES|HUAFU SECURITIES)", re.I),
+    re.compile(r"^(?:牵头主承销商|联席主承销商|簿记管理人|受托管理人|保荐机构|主承销商|信用评级机构)(?:[/／].*)?[:：]?$"),
+    re.compile(r"^(?:中信证券|中信建投证券|广发证券|华福证券|国信证券|万联证券|华泰联合证券|国泰海通证券|金圆统一证券有限公司)$"),
+    re.compile(r"^(?:单位[:：]|注[:：]|资料来源[:：]|数据来源[:：])"),
+    re.compile(r"^(?:发行人名称|注册地址|法定代表人|注册资本|成立日期|统一社会信用代码|联系人|联系电话|传真|邮政编码)$"),
+]
+
+_TITLE_NUMBER_PATTERNS: list[tuple[str, int, str]] = [
+    (r"^第[一二三四五六七八九十百千万0-9〇零]+[章节篇部分]", 1, "chapter_or_section"),
+    (r"^第[一二三四五六七八九十百千万0-9〇零]+条", 2, "article"),
+    (r"^[一二三四五六七八九十百千万〇零]+[、．.]", 2, "chinese_number"),
+    (r"^（[一二三四五六七八九十百千万〇零]+）", 3, "parenthesized_chinese"),
+    (r"^[0-9]+\.$", 2, "annual_arabic_top"),
+    (r"^[0-9]+\.[0-9]+\.?$", 3, "annual_arabic_sub"),
+    (r"^\(?[0-9]+(?:\.[0-9]+)+[、．.)）]?", 4, "arabic_dot_number"),
+    (r"^[0-9]+[、．.]", 4, "arabic_number"),
+    (r"^（[0-9]+）", 5, "parenthesized_arabic"),
+    (r"^\([0-9]+\)", 5, "parenthesized_arabic"),
+    (r"^[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]", 5, "circled_number"),
+    (r"^[a-zA-Z][、．.]", 6, "letter_number"),
+]
+
+
+def strip_toc_page_marker(text: str) -> str:
+    """Remove table-of-contents dot leaders and trailing page numbers."""
+    stripped = re.sub(r"\s+", " ", (text or "").strip())
+    stripped = _TRAILING_PAGE_RE.sub("", stripped).strip()
+    stripped = re.sub(r"[.·…⋯\-—_]+(?:[ivxlcdmIVXLCDM]+|\d{1,4})?$", "", stripped).strip()
+    stripped = re.sub(r"[.·…⋯\-—_]+$", "", stripped).strip()
+    return stripped
+
+
+def normalize_title_key(text: str) -> str:
+    """Normalize a title key for matching TOC entries to body headings."""
+    cleaned = strip_toc_page_marker(text)
+    cleaned = re.sub(r"<[^>]+>", "", cleaned)
+    cleaned = cleaned.replace("\u3000", " ").replace(" ", " ")
+    cleaned = re.sub(r"[#*_`|]+", "", cleaned)
+    cleaned = re.sub(r"\s+", "", cleaned)
+    cleaned = re.sub(r"[：:；;。，,.、]+$", "", cleaned)
+    return cleaned
+
+
+def numbered_heading_level(text: str) -> tuple[int | None, str]:
+    """Return rule level and reason for numbered Chinese/financial headings."""
+    stripped = strip_toc_page_marker(text)
+    compact = re.sub(r"\s+", "", stripped)
+    for pattern, level, reason in _TITLE_NUMBER_PATTERNS:
+        if re.match(pattern, compact):
+            return level, reason
+    return None, ""
+
+
+def is_noise_title(text: str, *, page_idx: int | None = None) -> bool:
+    """Filter cover logos, role labels, table notes and other non-structure headings."""
+    stripped = re.sub(r"\s+", " ", (text or "").strip())
+    if not stripped:
+        return True
+    if len(stripped) > 140:
+        return True
+    compact = normalize_title_key(stripped)
+    if compact in _MAJOR_UNNUMBERED_TITLES:
+        return False
+    for pattern in _NOISE_TITLE_PATTERNS:
+        if pattern.search(stripped) or pattern.search(compact):
+            return True
+    if re.fullmatch(r"[A-Za-z0-9\-_/ .]{1,30}", stripped) and not re.search(r"[\u4e00-\u9fff]", stripped):
+        return True
+    if stripped.startswith("!") or stripped.startswith("<") or stripped.startswith(("☑", "□", "√")):
+        return True
+    if re.fullmatch(r"[0-9,.，%％()（）+\- ]+(?:元|万元|亿元|百万元)?", stripped):
+        return True
+    return False
+
+
+def looks_like_sentence(text: str) -> bool:
+    """Return True if a line is more likely body prose than a standalone heading."""
+    stripped = re.sub(r"\s+", " ", (text or "").strip())
+    if len(stripped) > 90:
+        return True
+    if stripped.endswith(("。", "；", ";")):
+        return True
+    if stripped.count("，") + stripped.count(",") >= 2 and len(stripped) > 45:
+        return True
+    return False
+
+
+def looks_like_body_list_item(text: str, reason: str) -> bool:
+    """Return True for numbered prose items that should not become headings."""
+    stripped = re.sub(r"\s+", " ", (text or "").strip())
+    if reason in {"parenthesized_arabic", "circled_number", "letter_number"}:
+        return len(stripped) > 32 or "的，" in stripped or stripped.endswith(("：", ":", "；", ";", "。"))
+    if reason == "arabic_dot_number":
+        return len(stripped) > 70 or stripped.endswith(("：", ":", "；", ";", "。"))
+    if reason == "arabic_number":
+        return len(stripped) > 65 or stripped.endswith(("；", ";", "。"))
+    return False
+
+
+def rule_candidate_reason(block: TextBlock, *, page_is_toc: bool = False) -> tuple[bool, str]:
+    """Decide whether a MinerU text block should be considered a heading candidate."""
+    text = (block.text or "").strip()
+    if not text:
+        return False, "empty"
+    if block.block_type == "title" or block.raw_level:
+        return True, "mineru_title"
+    if page_is_toc and (is_toc_heading_text(text) or is_toc_entry_text(text)):
+        return True, "toc_text"
+    if is_noise_title(text, page_idx=block.page_idx) or looks_like_sentence(text):
+        return False, "prose_or_noise"
+    level, reason = numbered_heading_level(text)
+    if level is not None:
+        return True, reason
+    if normalize_title_key(text) in _MAJOR_UNNUMBERED_TITLES:
+        return True, "known_unnumbered"
+    return False, "no_rule"
+
+
+def toc_entry_level(text: str) -> int:
+    """Infer TOC entry level from its numbering pattern."""
+    cleaned = strip_toc_page_marker(text)
+    if normalize_title_key(cleaned) in _MAJOR_UNNUMBERED_TITLES:
+        return 1
+    level, _ = numbered_heading_level(cleaned)
+    return level or 1
+
+
+def build_toc_level_map(toc_reference: list[TitleCandidate]) -> dict[str, int]:
+    """Build a high-confidence title-level map from TOC entries."""
+    level_map: dict[str, int] = {}
+    for candidate in toc_reference:
+        if candidate.is_toc_heading:
+            continue
+        key = normalize_title_key(candidate.text)
+        if not key:
+            continue
+        level = toc_entry_level(candidate.text)
+        if key not in level_map or level < level_map[key]:
+            level_map[key] = level
+    return level_map
+
+
+def clamp_level_to_stack(level: int, stack: list[EnhancedTitle]) -> int:
+    """Avoid large hierarchy jumps when numbered headings skip visible parents."""
+    if not stack:
+        return max(1, min(6, level))
+    parent_level = stack[-1].enhanced_title_level
+    if level > parent_level + 1:
+        return parent_level + 1
+    return max(1, min(6, level))
+
+
+def rule_level_for_candidate(
+    candidate: TitleCandidate,
+    *,
+    toc_level_map: dict[str, int],
+    stack: list[EnhancedTitle],
+) -> tuple[int, bool, str]:
+    """Infer final title level using TOC anchors and deterministic numbering rules."""
+    text = candidate.text.strip()
+    key = normalize_title_key(text)
+    if candidate.is_toc_heading:
+        return 1, True, "toc_heading"
+    if candidate.is_toc_entry:
+        return candidate.raw_level or 2, False, "toc_entry"
+    if is_noise_title(text, page_idx=candidate.global_page_idx):
+        return 0, False, "noise"
+    if key in toc_level_map:
+        return toc_level_map[key], True, "toc_match"
+    if key in _MAJOR_UNNUMBERED_TITLES:
+        return 1, True, "known_unnumbered"
+    level, reason = numbered_heading_level(text)
+    if level is not None:
+        if looks_like_body_list_item(text, reason):
+            return 0, False, "body_list_item"
+        return clamp_level_to_stack(level, stack), True, reason
+    if candidate.raw_level and not looks_like_sentence(text):
+        level = 1 if candidate.raw_level == 1 else min(6, max(2, candidate.raw_level))
+        return clamp_level_to_stack(level, stack), True, "mineru_unnumbered"
+    return 0, False, "not_heading"
+
+
 def _page_density(blocks: list[TextBlock], page_idx: int) -> dict[str, Any]:
     """Compute TOC-like density statistics for one page."""
     page_blocks = [block for block in blocks if block.page_idx == page_idx and block.text]
@@ -525,14 +743,44 @@ def detect_toc_pages(
     )
 
 
+def detect_flat_toc_orders(blocks: list[TextBlock], *, enabled: bool = True) -> set[int]:
+    """Detect TOC heading/entry orders when page_idx is unavailable, as in Markdown fallback."""
+    if not enabled or any(block.page_idx is not None for block in blocks):
+        return set()
+    toc_orders: set[int] = set()
+    start_index: int | None = None
+    for idx, block in enumerate(blocks[:120]):
+        if is_toc_heading_text(block.text):
+            following = blocks[idx + 1 : idx + 20]
+            if sum(1 for item in following if is_toc_entry_text(item.text)) >= 2:
+                start_index = idx
+                break
+    if start_index is None:
+        return toc_orders
+    toc_orders.add(blocks[start_index].order)
+    misses = 0
+    for block in blocks[start_index + 1 :]:
+        if is_toc_entry_text(block.text):
+            toc_orders.add(block.order)
+            misses = 0
+            continue
+        if not block.text.strip():
+            continue
+        misses += 1
+        if misses >= 2:
+            break
+    return toc_orders
+
+
 def build_title_candidates(
     record: dict[str, Any],
     *,
     enable_toc_filter: bool = True,
     toc_max_start_page: int = 15,
     toc_max_follow_pages: int = 12,
+    include_rule_candidates: bool = False,
 ) -> tuple[list[TitleCandidate], TocDetectionResult]:
-    """Build ordered title candidates with short local context and TOC flags."""
+    """Build ordered title candidates from MinerU titles and optional rule-matched text blocks."""
     blocks, source_artifact = extract_blocks(record)
     toc_detection = detect_toc_pages(
         blocks,
@@ -540,15 +788,17 @@ def build_title_candidates(
         max_start_page=toc_max_start_page,
         max_follow_pages=toc_max_follow_pages,
     )
+    flat_toc_orders = detect_flat_toc_orders(blocks, enabled=enable_toc_filter)
     candidates: list[TitleCandidate] = []
     for index, block in enumerate(blocks):
-        is_title = block.block_type == "title" or bool(block.raw_level)
-        if not is_title:
+        mineru_is_title = block.block_type == "title" or bool(block.raw_level)
+        page_is_toc = (block.page_idx in toc_detection.toc_pages if block.page_idx is not None else False) or block.order in flat_toc_orders
+        rule_is_title, rule_reason = rule_candidate_reason(block, page_is_toc=page_is_toc)
+        if not mineru_is_title and not (include_rule_candidates and rule_is_title):
             continue
         doc_id = str(record.get("doc_id") or "doc")
         part_no = record.get("upload_part_no", record.get("part_no", 1))
         title_id = f"{doc_id}_p{part_no}_t{len(candidates):06d}"
-        page_is_toc = block.page_idx in toc_detection.toc_pages if block.page_idx is not None else False
         is_toc_heading = page_is_toc and is_toc_heading_text(block.text)
         is_toc_entry = page_is_toc and not is_toc_heading and is_toc_entry_text(block.text)
         toc_reason = ""
@@ -568,6 +818,8 @@ def build_title_candidates(
                 is_toc_heading=is_toc_heading,
                 is_toc_entry=is_toc_entry,
                 toc_reason=toc_reason,
+                rule_detected=not mineru_is_title,
+                rule_reason=rule_reason,
             )
         )
     return candidates, toc_detection
@@ -599,6 +851,7 @@ def prepare_group_candidates(
     enable_toc_filter: bool = True,
     toc_max_start_page: int = 15,
     toc_max_follow_pages: int = 12,
+    include_rule_candidates: bool = False,
 ) -> tuple[list[TitleCandidate], dict[int, dict[str, Any]], list[dict[str, Any]]]:
     """Extract title candidates for all parts of one PDF and assign global order."""
     all_candidates: list[TitleCandidate] = []
@@ -612,6 +865,7 @@ def prepare_group_candidates(
             enable_toc_filter=enable_toc_filter,
             toc_max_start_page=toc_max_start_page,
             toc_max_follow_pages=toc_max_follow_pages,
+            include_rule_candidates=include_rule_candidates,
         )
         part_no = _record_part_no(record)
         for candidate in candidates:
@@ -633,6 +887,7 @@ def prepare_group_candidates(
                 "toc_pages": sorted(toc_detection.toc_pages),
                 "toc_heading_candidates": len([c for c in candidates if c.is_toc_heading]),
                 "toc_entry_candidates": len([c for c in candidates if c.is_toc_entry]),
+                "rule_detected_candidates": len([c for c in candidates if c.rule_detected]),
                 "source_artifact": candidates[0].source_artifact if candidates else "",
             }
         )
@@ -750,6 +1005,46 @@ def build_prompt_payload(
     }
 
 
+
+
+def enhance_document_candidates_by_rule(
+    *,
+    toc_reference: list[TitleCandidate],
+    candidates: list[TitleCandidate],
+    model: str,
+) -> tuple[list[EnhancedTitle], LLMUsage]:
+    """Enhance title levels deterministically with TOC anchors and numbering rules."""
+    toc_level_map = build_toc_level_map(toc_reference)
+    enhanced: list[EnhancedTitle] = []
+    stack: list[EnhancedTitle] = []
+    for candidate in candidates:
+        level, is_title, reason = rule_level_for_candidate(candidate, toc_level_map=toc_level_map, stack=stack)
+        item = EnhancedTitle(
+            title_id=candidate.title_id,
+            text=candidate.text,
+            raw_title_level=candidate.raw_level,
+            enhanced_title_level=level,
+            is_title=is_title,
+            page_idx=candidate.page_idx,
+            bbox=candidate.bbox,
+            order=candidate.order,
+            source_artifact=candidate.source_artifact,
+            is_toc_heading=False,
+            is_toc_entry=False,
+            part_no=candidate.part_no,
+            global_order=candidate.global_order,
+            global_page_idx=candidate.global_page_idx,
+            record_index=candidate.record_index,
+            rule_detected=candidate.rule_detected,
+            rule_reason=reason or candidate.rule_reason,
+        )
+        enhanced.append(item)
+        if item.is_title:
+            while stack and stack[-1].enhanced_title_level >= item.enhanced_title_level:
+                stack.pop()
+            stack.append(item)
+    return enhanced, LLMUsage(requests=0)
+
 def enhance_document_candidates(
     *,
     group: DocumentGroup,
@@ -759,6 +1054,8 @@ def enhance_document_candidates(
     client: OpenAICompatibleClient | None,
 ) -> tuple[list[EnhancedTitle], LLMUsage]:
     """Enhance all non-TOC title candidates of one complete PDF in one request."""
+    if options.provider == "rule":
+        return enhance_document_candidates_by_rule(toc_reference=toc_reference, candidates=candidates, model=options.model)
     if options.provider == "mock":
         items, usage = _call_mock_llm(candidates, options.model)
     else:
@@ -790,6 +1087,8 @@ def enhance_document_candidates(
                 global_order=candidate.global_order,
                 global_page_idx=candidate.global_page_idx,
                 record_index=candidate.record_index,
+                rule_detected=candidate.rule_detected,
+                rule_reason=candidate.rule_reason,
             )
         )
     return enhanced, usage
@@ -815,6 +1114,8 @@ def fixed_title_from_candidate(candidate: TitleCandidate) -> EnhancedTitle:
             global_order=candidate.global_order,
             global_page_idx=candidate.global_page_idx,
             record_index=candidate.record_index,
+            rule_detected=candidate.rule_detected,
+            rule_reason=candidate.rule_reason,
         )
     return EnhancedTitle(
         title_id=candidate.title_id,
@@ -833,6 +1134,8 @@ def fixed_title_from_candidate(candidate: TitleCandidate) -> EnhancedTitle:
         global_order=candidate.global_order,
         global_page_idx=candidate.global_page_idx,
         record_index=candidate.record_index,
+        rule_detected=candidate.rule_detected,
+        rule_reason=candidate.rule_reason,
     )
 
 
@@ -866,7 +1169,7 @@ def final_section_stack(titles: list[EnhancedTitle]) -> list[dict[str, Any]]:
 
 
 def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) -> Path | None:
-    """Write full_titleEnhanced.md by replacing or downgrading Markdown heading markers in order."""
+    """Write full_titleEnhanced.md by correcting existing and rule-detected Markdown headings."""
     full_md = extract_dir / "full.md"
     if not full_md.exists():
         candidates = sorted(extract_dir.glob("*full*.md"), key=lambda p: p.stat().st_size, reverse=True)
@@ -877,31 +1180,59 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
     lines = full_md.read_text(encoding="utf-8", errors="ignore").splitlines()
     title_queue = sorted(titles, key=lambda item: item.order)
     cursor = 0
+    used_title_indexes: set[int] = set()
     heading_re = re.compile(r"^(#{1,6})(\s+)(.+?)(\s*)$")
     new_lines: list[str] = []
 
+    def find_title_index(line_text: str, start_cursor: int, *, window: int) -> int | None:
+        key = normalize_inline_text(line_text)
+        if not key:
+            return None
+        search_ranges = [range(start_cursor, min(start_cursor + window, len(title_queue))), range(0, len(title_queue))]
+        for search_range in search_ranges:
+            for idx in search_range:
+                if idx in used_title_indexes:
+                    continue
+                if normalize_inline_text(title_queue[idx].text) == key:
+                    used_title_indexes.add(idx)
+                    return idx
+        return None
+
     for line in lines:
         match = heading_re.match(line)
-        if not match:
+        if match:
+            heading_text = match.group(3)
+            found_index = find_title_index(heading_text, cursor, window=45)
+            if found_index is None:
+                new_lines.append(line)
+                continue
+            title = title_queue[found_index]
+            cursor = found_index + 1
+            if not title.is_title or title.is_toc_entry:
+                new_lines.append(f"{heading_text}{match.group(4)}")
+                continue
+            level = 1 if title.is_toc_heading else title.enhanced_title_level
+            marks = "#" * max(1, min(6, level))
+            new_lines.append(f"{marks}{match.group(2)}{heading_text}{match.group(4)}")
+            continue
+
+        stripped = line.strip()
+        if not stripped or stripped.startswith("|") or stripped.startswith("!") or stripped.startswith("<"):
             new_lines.append(line)
             continue
-        heading_text = normalize_inline_text(match.group(3))
-        found_index: int | None = None
-        for idx in range(cursor, min(cursor + 35, len(title_queue))):
-            if normalize_inline_text(title_queue[idx].text) == heading_text:
-                found_index = idx
-                break
+        found_index = find_title_index(stripped, cursor, window=45)
         if found_index is None:
             new_lines.append(line)
             continue
         title = title_queue[found_index]
         cursor = found_index + 1
-        if not title.is_title or title.is_toc_entry:
-            new_lines.append(f"{match.group(3)}{match.group(4)}")
+        if title.is_toc_entry or not title.is_title:
+            new_lines.append(line)
             continue
         level = 1 if title.is_toc_heading else title.enhanced_title_level
         marks = "#" * max(1, min(6, level))
-        new_lines.append(f"{marks}{match.group(2)}{match.group(3)}{match.group(4)}")
+        leading = line[: len(line) - len(line.lstrip())]
+        new_lines.append(f"{leading}{marks} {stripped}")
 
     out_path = full_md.with_name("full_titleEnhanced.md")
     out_path.write_text("\n".join(new_lines) + "\n", encoding="utf-8")
@@ -1107,6 +1438,7 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
     toc_entry_total = 0
     non_title_total = 0
     toc_pages_total = 0
+    rule_detected_total = 0
 
     for group_index, group in enumerate(groups, start=1):
         group_started = time.perf_counter()
@@ -1122,6 +1454,7 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
             enable_toc_filter=options.enable_toc_filter,
             toc_max_start_page=options.toc_max_start_page,
             toc_max_follow_pages=options.toc_max_follow_pages,
+            include_rule_candidates=options.provider == "rule",
         )
         candidate_records_by_title_id = {candidate.title_id: candidate_records_by_id_raw[id(candidate)] for candidate in candidates}
 
@@ -1154,32 +1487,47 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
 
         toc_heading_count = len([c for c in toc_reference if c.is_toc_heading])
         toc_entry_count = len([c for c in toc_reference if c.is_toc_entry])
+        rule_detected_count = len([c for c in candidates if c.rule_detected])
         toc_page_sets = [set(part.get("toc_pages", [])) for part in part_summaries]
         toc_pages_in_group = sum(len(pages) for pages in toc_page_sets)
         toc_heading_total += toc_heading_count
         toc_entry_total += toc_entry_count
         toc_pages_total += toc_pages_in_group
+        rule_detected_total += rule_detected_count
         llm_sent_total += len(llm_candidates)
 
-        prompt_estimate = _estimate_prompt_tokens_for_document(
-            group=group,
-            toc_reference=toc_reference,
-            candidates=llm_candidates,
-        )
         page_indexes = [candidate.global_page_idx for candidate in llm_candidates if candidate.global_page_idx is not None]
         page_range = f", global_pages={min(page_indexes)}-{max(page_indexes)}" if page_indexes else ""
-        _log(
-            f"[EXTRACT] {group.group_id}: titles={len(candidates)}, toc_reference={len(toc_reference)}, "
-            f"toc_headings={toc_heading_count}, toc_entries={toc_entry_count}, "
-            f"llm_sent={len(llm_candidates)}, prompt_est_tokens≈{prompt_estimate}{page_range}"
-        )
+        if options.provider == "rule":
+            _log(
+                f"[EXTRACT] {group.group_id}: titles={len(candidates)}, toc_reference={len(toc_reference)}, "
+                f"toc_headings={toc_heading_count}, toc_entries={toc_entry_count}, "
+                f"rule_detected={rule_detected_count}, rule_eval={len(llm_candidates)}{page_range}"
+            )
+        else:
+            prompt_estimate = _estimate_prompt_tokens_for_document(
+                group=group,
+                toc_reference=toc_reference,
+                candidates=llm_candidates,
+            )
+            _log(
+                f"[EXTRACT] {group.group_id}: titles={len(candidates)}, toc_reference={len(toc_reference)}, "
+                f"toc_headings={toc_heading_count}, toc_entries={toc_entry_count}, "
+                f"llm_sent={len(llm_candidates)}, prompt_est_tokens≈{prompt_estimate}{page_range}"
+            )
 
         if llm_candidates:
-            llm_request_count += 1
-            _log(
-                f"[LLM] start request={llm_request_count}, provider={options.provider}, model={options.model}, "
-                f"pdf={group.group_id}, titles={len(llm_candidates)}, toc_refs={len(toc_reference)}"
-            )
+            if options.provider == "rule":
+                _log(
+                    f"[RULE] start provider=rule, model={options.model}, "
+                    f"pdf={group.group_id}, titles={len(llm_candidates)}, toc_refs={len(toc_reference)}"
+                )
+            else:
+                llm_request_count += 1
+                _log(
+                    f"[LLM] start request={llm_request_count}, provider={options.provider}, model={options.model}, "
+                    f"pdf={group.group_id}, titles={len(llm_candidates)}, toc_refs={len(toc_reference)}"
+                )
             request_started = time.perf_counter()
             enhanced_llm_titles, usage = enhance_document_candidates(
                 group=group,
@@ -1189,12 +1537,15 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
                 client=client,
             )
             request_elapsed = time.perf_counter() - request_started
-            _log(_usage_line(f"[LLM] done request={llm_request_count}", usage, elapsed_seconds=request_elapsed))
+            if options.provider == "rule":
+                _log(f"[RULE] done elapsed={_fmt_seconds(request_elapsed)}, enhanced_candidates={len(enhanced_llm_titles)}")
+            else:
+                _log(_usage_line(f"[LLM] done request={llm_request_count}", usage, elapsed_seconds=request_elapsed))
             usage_total.add(usage)
             for item in enhanced_llm_titles:
                 enhanced_by_id[item.title_id] = item
         else:
-            _log(f"[LLM] skipped {group.group_id}: no non-TOC title candidates")
+            _log(f"[ENHANCE] skipped {group.group_id}: no non-TOC title candidates")
 
         enhanced_titles = [enhanced_by_id[c.title_id] for c in candidates if c.title_id in enhanced_by_id]
         enhanced_titles.sort(key=lambda item: item.global_order if item.global_order is not None else item.order)
@@ -1243,8 +1594,10 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
                 "toc_reference_candidates": len(toc_reference),
                 "toc_heading_candidates": toc_heading_count,
                 "toc_entry_candidates": toc_entry_count,
-                "llm_sent_candidates": len(llm_candidates),
-                "llm_request_count": 1 if llm_candidates else 0,
+                "llm_sent_candidates": 0 if options.provider == "rule" else len(llm_candidates),
+                "rule_evaluated_candidates": len(llm_candidates) if options.provider == "rule" else 0,
+                "rule_detected_candidates": rule_detected_count,
+                "llm_request_count": 0 if options.provider == "rule" else (1 if llm_candidates else 0),
                 "enhanced_titles": group_enhanced_title_count,
                 "non_title_candidates": group_non_title_count,
                 "elapsed_seconds": round(group_elapsed, 3),
@@ -1265,13 +1618,15 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
         "title_record_count": len(all_rows),
         "llm_request_count": llm_request_count,
         "title_candidates_total": len(all_rows),
-        "llm_sent_candidates_total": llm_sent_total,
+        "llm_sent_candidates_total": 0 if options.provider == "rule" else llm_sent_total,
+        "rule_evaluated_candidates_total": llm_sent_total if options.provider == "rule" else 0,
         "toc_heading_candidates_total": toc_heading_total,
         "toc_entry_candidates_total": toc_entry_total,
         "toc_pages_total": toc_pages_total,
+        "rule_detected_candidates_total": rule_detected_total,
         "non_title_candidates_total": non_title_total,
         "elapsed_seconds": round(total_elapsed, 3),
-        "enhancement_mode": "whole_pdf_one_request",
+        "enhancement_mode": "rule_based" if options.provider == "rule" else "whole_pdf_one_request",
         "toc_filter": {
             "enabled": options.enable_toc_filter,
             "max_start_page": options.toc_max_start_page,

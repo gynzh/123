@@ -1,6 +1,6 @@
 # AFAC2026 Challenge 4 文档解析模块
 
-本仓库保留文档解析相关代码和产物：扫描比赛原始文档，调用 MinerU/Jina 解析，生成文档级标准化结果，并支持基于 MinerU 结构化产物的标题层级增强。
+本仓库当前保留文档解析相关代码和产物：扫描比赛原始文档，调用 MinerU/Jina 解析，生成文档级标准化结果，并支持基于 MinerU 结构化产物的标题层级增强。
 
 ## 目录结构
 
@@ -18,11 +18,14 @@ outputs/parse/jina/jina_html/                # Jina HTML 解析结果
 ```powershell
 $env:MINERU_API_KEY="你的 MinerU API Key"
 $env:JINA_API_KEY="你的 Jina API Key"
+```
+
+标题层级增强默认使用本地规则，不需要 LLM API Key。若使用 LLM 方式，可设置：
+
+```powershell
 $env:DEEPSEEK_API_KEY="你的 DeepSeek API Key"
 $env:QWEN_API_KEY="你的 Qwen/DashScope API Key"
 ```
-
-`DEEPSEEK_API_KEY` 和 `QWEN_API_KEY` 只在执行对应提供方的标题层级增强时需要。
 
 ## 安装依赖
 
@@ -50,37 +53,25 @@ python scripts/parse_documents.py parse --dataset-root public_dataset_a/public_d
 python scripts/parse_documents.py build-manifest --output-dir outputs/parse/mineru
 ```
 
-全量增强 MinerU 标题层级：
+使用本地规则增强 MinerU 标题层级：
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider rule
 ```
 
-使用 Qwen/DashScope 增强标题层级：
+单文档增强：
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider qwen --model qwen-flash
-```
-
-Qwen/DashScope 标题层级增强默认关闭 thinking，并优先使用接口返回的 `usage` 统计 token；费用仍按已配置模型价格估算。
-
-单文档增强。同一 `domain/doc_id` 下的所有 MinerU part 会按原 PDF 顺序合并，并在一次 LLM 请求中完成标题层级重建：
-
-```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --domain financial_contracts --doc-id text03
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider rule --domain financial_contracts --doc-id text01
 ```
 
 指定单个 MinerU 解析目录增强：
 
 ```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider deepseek --model deepseek-v4-flash --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
+python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider rule --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
 ```
 
-无 API Key 时做本地流程测试：
-
-```powershell
-python scripts/parse_documents.py enhance-hierarchy --output-dir outputs/parse/mineru --provider mock --extract-dir "C:\AFAC_2026\afac2026_chanllenge4_agent\outputs\parse\mineru\mineru_vlm\batch_1_5e462ff7\financial_contracts__text01__part001__86cde1fd08"
-```
+如需保留 LLM 对照测试，可将 `--provider rule` 替换为 `--provider deepseek --model deepseek-v4-flash` 或 `--provider qwen --model qwen-flash`。
 
 ## 核心输出
 
@@ -110,4 +101,14 @@ full_titleEnhanced.md
 
 `full.md` 不会被覆盖；`full_titleEnhanced.md` 仅调整 Markdown 标题井号数量，便于人工检查增强效果。
 
-标题层级增强采用完整 PDF 级别的标题序列。程序会将同一 `domain/doc_id` 下的所有 MinerU part 按原 PDF 顺序合并，目录页标题和目录项作为 `toc` 参考提供给 LLM，正文标题作为 `titles` 提供给 LLM，LLM 返回压缩格式 `[id, level]`，其中 `level=0` 表示不是正文标题。目录项不会作为正文标题返回，但会写入 `title_hierarchy.jsonl` 并在 `full_titleEnhanced.md` 中降级为普通文本；“目录/目次/Contents”这类目录页标题本身保留为 Markdown 标题。
+## 规则标题层级增强
+
+规则增强基于 MinerU 的 `content_list_v2/content_list/full.md` 产物工作，不调用外部模型。增强流程包括：
+
+1. 识别前置目录区间，保留“目录/目次/Contents”标题，降级目录项。
+2. 从目录项中提取高层级标题锚点，用于校正文中同名标题层级。
+3. 对正文标题应用中文金融文档编号规则，例如“第X节”“一、”“（一）”“1、”“（1）”“①”。
+4. 对 MinerU 识别为普通文本但符合标题编号特征的行补充识别为标题。
+5. 对封面机构、承销商标签、表格字段、页眉页脚和正文列表项进行降噪。
+
+目录区间范围可用 `--toc-max-start-page` 和 `--toc-max-follow-pages` 调整；如需调试原始目录行为，可添加 `--disable-toc-filter`。
