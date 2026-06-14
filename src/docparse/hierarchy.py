@@ -355,43 +355,118 @@ def _extract_blocks_from_content_list(data: Any) -> list[TextBlock]:
     return blocks
 
 
+
+def _leading_markdown_heading_text(segment: str) -> str:
+    """Return the likely heading caption from one Markdown heading segment.
+
+    MinerU often attaches following body prose to the same Markdown heading
+    marker.  Candidate extraction must keep only the structural caption; the
+    writer will preserve the trailing prose later by matching this caption as a
+    prefix of the original segment.
+    """
+    raw = re.sub(r"\s+", " ", (segment or "").strip())
+    if not raw:
+        return ""
+    tokens = raw.split()
+    if len(tokens) < 2:
+        return raw
+
+    first = tokens[0]
+    first_level, first_reason = numbered_heading_level(first)
+    if first_level is not None:
+        if first_reason == "chapter_or_section":
+            # Chinese chapters/sections may be written as ``第一章 总 则``.
+            # Include compact two-character captions such as ``总 则`` but stop
+            # before the first article or body sentence.
+            selected = [first]
+            for token in tokens[1:5]:
+                token_level, token_reason = numbered_heading_level(token)
+                if token_level is not None or token_reason == "article":
+                    break
+                selected.append(token)
+                if len(token) > 2:
+                    break
+            return " ".join(selected).strip()
+        if first_reason == "article":
+            return first
+        if first_reason in {"arabic_dot_single", "arabic_dot_number", "academic_number"}:
+            return " ".join(tokens[:2]).strip()
+        if first_reason in {
+            "chinese_number",
+            "parenthesized_chinese",
+            "arabic_number",
+            "parenthesized_arabic",
+            "circled_number",
+            "letter_number",
+        }:
+            return first if len(first) > 3 else " ".join(tokens[:2]).strip()
+
+    if re.fullmatch(r"\d+(?:\.\d+)+[.．]?", first) or re.fullmatch(r"\d+(?:\.\d+)*[.．]", first) or re.fullmatch(r"\d+[、．.]", first):
+        return " ".join(tokens[:2]).strip()
+
+    first_key = normalize_title_key(first)
+    if first_key in _MAJOR_UNNUMBERED_TITLES:
+        return first
+    # Concise unnumbered headings followed by obvious body prose.  This handles
+    # annual-report captions such as ``董事长致辞 致尊敬的各位股东`` without
+    # accepting long table headers as structural headings.
+    if len(first) <= 14 and re.search(r"[，。；:：,;]", " ".join(tokens[1:4])):
+        return first
+    return raw
+
 def _extract_blocks_from_markdown(markdown_path: Path | None) -> list[TextBlock]:
-    """Fallback title extraction from Markdown headings."""
+    """Fallback block extraction from Markdown, including inline headings.
+
+    MinerU frequently writes several headings on one physical line, such as
+    ``## 二、标题 ## （一）子标题 正文``.  A line-level parser loses those
+    boundaries and then the rule engine can only see one oversized title.  The
+    fallback parser therefore scans inline Markdown heading markers and emits
+    each marker segment as an ordered title-like block while preserving the
+    surrounding prose as text blocks.
+    """
     if markdown_path is None or not markdown_path.exists():
         return []
     blocks: list[TextBlock] = []
-    heading_re = re.compile(r"^(#{1,6})\s+(.+?)\s*$")
+    inline_marker_re = re.compile(r"(?<!#)(#{1,6})\s+")
     order = 0
+
+    def add_block(text: str, block_type: str, raw_level: int | None) -> None:
+        nonlocal order
+        text = text.strip()
+        if not text:
+            return
+        blocks.append(
+            TextBlock(
+                block_id=f"b{order:06d}",
+                text=text,
+                block_type=block_type,
+                raw_level=raw_level,
+                page_idx=None,
+                bbox=None,
+                order=order,
+            )
+        )
+        order += 1
+
     for line in markdown_path.read_text(encoding="utf-8", errors="ignore").splitlines():
         stripped = line.strip()
         if not stripped:
             continue
-        match = heading_re.match(stripped)
-        if match:
-            blocks.append(
-                TextBlock(
-                    block_id=f"b{order:06d}",
-                    text=match.group(2).strip(),
-                    block_type="title",
-                    raw_level=len(match.group(1)),
-                    page_idx=None,
-                    bbox=None,
-                    order=order,
-                )
-            )
-        else:
-            blocks.append(
-                TextBlock(
-                    block_id=f"b{order:06d}",
-                    text=stripped,
-                    block_type="text",
-                    raw_level=None,
-                    page_idx=None,
-                    bbox=None,
-                    order=order,
-                )
-            )
-        order += 1
+        matches = list(inline_marker_re.finditer(stripped))
+        if not matches:
+            add_block(stripped, "text", None)
+            continue
+        last_end = 0
+        for idx, match in enumerate(matches):
+            prefix = stripped[last_end:match.start()].strip()
+            if prefix:
+                add_block(prefix, "text", None)
+            seg_start = match.end()
+            seg_end = matches[idx + 1].start() if idx + 1 < len(matches) else len(stripped)
+            segment = stripped[seg_start:seg_end].strip()
+            if segment:
+                add_block(_leading_markdown_heading_text(segment), "title", len(match.group(1)))
+            last_end = seg_end
     return blocks
 
 
@@ -420,7 +495,7 @@ def extract_blocks(record: dict[str, Any]) -> tuple[list[TextBlock], str]:
     return [], ""
 
 
-_TOC_HEADING_RE = re.compile(r"^(目录|目\s*录|目錄|目次|contents|table\s+of\s+contents)$", re.IGNORECASE)
+_TOC_HEADING_RE = re.compile(r"^(目录|目\s*录|目錄|目次|条款目录|contents|table\s+of\s+contents)$", re.IGNORECASE)
 _DOT_LEADER_RE = re.compile(r"(\.{2,}|·{2,}|…{1,}|⋯{1,}|-{2,}|—{2,}|_{2,})")
 _TRAILING_PAGE_RE = re.compile(r"(?:\s|\.|·|…|⋯|-|—|_)+(?:[ivxlcdmIVXLCDM]+|\d{1,4})\s*$")
 _HEADING_LIKE_RE = re.compile(
@@ -486,6 +561,27 @@ _MAJOR_UNNUMBERED_TITLES = {
     "重大疾病释义",
     "现金价值",
     "保险金申请",
+    "本报告导读",
+    "投资要点",
+    "相关报告",
+    "摘要",
+    "引言",
+    "结论",
+    "参考文献",
+    "Abstract",
+    "Keywords",
+    "Key Points",
+    "Introduction",
+    "Background",
+    "Methods",
+    "Materials and Methods",
+    "Results",
+    "Discussion",
+    "Conclusion",
+    "Conclusions",
+    "References",
+    "Acknowledgements",
+    "Acknowledgments",
 }
 
 _NOISE_TITLE_PATTERNS = [
@@ -501,15 +597,21 @@ _TITLE_NUMBER_PATTERNS: list[tuple[str, int, str]] = [
     (r"^第[一二三四五六七八九十百千万0-9〇零]+条", 2, "article"),
     (r"^[一二三四五六七八九十百千万〇零]+[、．.]", 2, "chinese_number"),
     (r"^（[一二三四五六七八九十百千万〇零]+）", 3, "parenthesized_chinese"),
-    (r"^[0-9]+\.$", 2, "annual_arabic_top"),
-    (r"^[0-9]+\.[0-9]+\.?$", 3, "annual_arabic_sub"),
-    (r"^\(?[0-9]+(?:\.[0-9]+)+[、．.)）]?", 4, "arabic_dot_number"),
-    (r"^[0-9]+[、．.]", 4, "arabic_number"),
+    # Annual reports and insurance clauses frequently use Arabic numbering as
+    # real headings.  The final level is adjusted with the current heading stack
+    # so this pattern does not blindly force every numeric list item into the
+    # same depth across all document types.
+    (r"^[0-9]+[.．]\s*[^.．。；;]{1,80}$", 2, "arabic_dot_single"),
+    (r"^[0-9]+(?:\.[0-9]+)+[.．]?\s*[^。；;]{0,80}$", 3, "arabic_dot_number"),
+    (r"^[0-9]+[、．.]\s*[^。；;]{1,80}$", 4, "arabic_number"),
     (r"^（[0-9]+）", 5, "parenthesized_arabic"),
     (r"^\([0-9]+\)", 5, "parenthesized_arabic"),
-    (r"^[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]", 5, "circled_number"),
+    (r"^[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]", 3, "circled_number"),
     (r"^[a-zA-Z][、．.]", 6, "letter_number"),
 ]
+
+_ACADEMIC_NUMBER_RE = re.compile(r"^(?P<num>\d+(?:\.\d+)*)[.．]?\s+(?P<title>[A-Za-z][A-Za-z0-9, /&()\-:]{2,100})$")
+_NUMERIC_PREFIX_RE = re.compile(r"^(\d+(?:\.\d+)*)")
 
 
 def strip_toc_page_marker(text: str) -> str:
@@ -533,13 +635,139 @@ def normalize_title_key(text: str) -> str:
 
 
 def numbered_heading_level(text: str) -> tuple[int | None, str]:
-    """Return rule level and reason for numbered Chinese/financial headings."""
+    """Return rule level and reason for numbered headings.
+
+    The function only classifies the numbering system.  The final hierarchy
+    level may still be adjusted later with the current document stack because
+    the same visual numbering, such as ``1.`` or ``1、``, has different meaning
+    in annual reports, insurance clauses and regulatory documents.
+    """
     stripped = strip_toc_page_marker(text)
+    spaced = re.sub(r"\s+", " ", stripped).strip()
+    academic = _ACADEMIC_NUMBER_RE.match(spaced)
+    if academic:
+        depth = len(academic.group("num").split("."))
+        return max(1, min(6, depth)), "academic_number"
     compact = re.sub(r"\s+", "", stripped)
     for pattern, level, reason in _TITLE_NUMBER_PATTERNS:
         if re.match(pattern, compact):
             return level, reason
     return None, ""
+
+
+def numeric_prefix_parts(text: str) -> list[str]:
+    """Return Arabic dotted numbering parts, e.g. ``1.2.3`` -> [1,2,3]."""
+    stripped = strip_toc_page_marker(text)
+    match = _NUMERIC_PREFIX_RE.match(stripped)
+    if not match:
+        return []
+    return [part for part in match.group(1).split(".") if part]
+
+
+def first_number_token(text: str) -> str | None:
+    """Return the first Arabic numeric token used for parent-child checks."""
+    parts = numeric_prefix_parts(text)
+    return parts[0] if parts else None
+
+
+def structural_parent_level(stack: list[EnhancedTitle]) -> int | None:
+    """Return the nearest accepted structural heading level, ignoring TOC/noise."""
+    parent = nearest_structural_parent(stack)
+    return parent.enhanced_title_level if parent else None
+
+
+def nearest_structural_parent(stack: list[EnhancedTitle]) -> EnhancedTitle | None:
+    """Return the nearest accepted structural heading object."""
+    for item in reversed(stack):
+        if item.is_title and not item.is_toc_heading and not item.is_toc_entry:
+            return item
+    return None
+
+
+def adjust_numbered_level(
+    text: str,
+    base_level: int,
+    reason: str,
+    stack: list[EnhancedTitle],
+) -> int:
+    """Adjust ambiguous numeric headings with document context.
+
+    This is the core strategy change compared with simply adding more regular
+    expressions.  The numbering pattern first determines the *system* of a
+    heading; the current accepted stack then determines its relative depth.
+    This prevents insurance clauses, annual reports and Chinese bond documents
+    from sharing one hard-coded level for every ``1.``-style heading.
+    """
+    parent_level = structural_parent_level(stack)
+    parts = numeric_prefix_parts(text)
+
+    if reason == "academic_number":
+        # English research reports conventionally use 1 / 1.1 / 1.1.1 as
+        # absolute hierarchy levels.  The title text is usually short and clean.
+        return max(1, min(6, len(parts) or base_level))
+
+    if reason == "arabic_dot_single":
+        # ``1.`` is a major heading in insurance clauses and research-style
+        # reports.  A cover/report title should not force it to become level 3.
+        parent = nearest_structural_parent(stack)
+        if parent is None:
+            return 1
+        if parent.rule_reason == "mineru_unnumbered":
+            if re.search(r"年度报告|半年度报告|研究报告|报告|条款|办法|募集说明书", normalize_title_key(parent.text)):
+                return 2
+            return parent.enhanced_title_level
+        if parent.rule_reason in {"arabic_dot_single", "arabic_dot_number", "academic_number"}:
+            return parent.enhanced_title_level
+        return max(1, min(6, parent_level + 1 if parent_level <= 2 else parent_level))
+
+    if reason == "arabic_dot_number":
+        if parts:
+            # If an immediately preceding ``1.`` parent exists, dotted numbers
+            # become children of that parent.  Otherwise treat the dotted depth
+            # as the best absolute signal, which works for insurance clauses.
+            first = parts[0]
+            for item in reversed(stack):
+                item_first = first_number_token(item.text)
+                if item_first == first and item.rule_reason in {"arabic_dot_single", "arabic_number", "academic_number"}:
+                    return max(1, min(6, item.enhanced_title_level + max(1, len(parts) - 1)))
+            return max(2, min(6, len(parts)))
+        return base_level
+
+    if reason == "arabic_number":
+        # ``1、`` is usually a child of Chinese numbered sections.  If the
+        # current stack is an unrelated Arabic dotted branch, start a new
+        # sibling branch instead of nesting deeper under it.
+        parent = nearest_structural_parent(stack)
+        if parent_level is None:
+            return 2
+        if parent and parent.rule_reason in {"arabic_dot_single", "arabic_dot_number", "academic_number"}:
+            return max(2, parent.enhanced_title_level)
+        return max(1, min(6, parent_level + 1))
+
+    if reason == "parenthesized_chinese":
+        if parent_level is None:
+            return 3
+        return max(2, min(6, parent_level + 1)) if parent_level >= 2 else 3
+
+    if reason == "parenthesized_arabic":
+        if parent_level is None:
+            return 4
+        return max(1, min(6, parent_level + 1))
+
+    if reason == "circled_number":
+        compact = normalize_title_key(text)
+        # In insurance products the circled item is usually a top body section
+        # after ``条款目录``.  Treat all circled insurance clause captions as
+        # level 1 rather than nesting them under the previous numeric clause.
+        if parent_level is None or re.search(r"我们|保什么|不保|保多久|保单账户|领取|申请", compact):
+            return 1
+        if any(re.search(r"保险|条款|条款目录", normalize_title_key(item.text)) for item in stack[:4]):
+            return 1
+        if any(item.rule_reason == "circled_number" for item in stack):
+            return 1
+        return max(1, min(6, parent_level + 1))
+
+    return base_level
 
 
 def is_noise_title(text: str, *, page_idx: int | None = None) -> bool:
@@ -589,6 +817,8 @@ def looks_like_body_list_item(text: str, reason: str) -> bool:
     stripped = re.sub(r"\s+", " ", (text or "").strip())
     if reason in {"parenthesized_arabic", "circled_number", "letter_number"}:
         return len(stripped) > 32 or "的，" in stripped or stripped.endswith(("：", ":", "；", ";", "。"))
+    if reason == "arabic_dot_single":
+        return len(stripped) > 55 or stripped.endswith(("：", ":", "；", ";", "。"))
     if reason == "arabic_dot_number":
         return len(stripped) > 70 or stripped.endswith(("：", ":", "；", ";", "。"))
     if reason == "arabic_number":
@@ -664,27 +894,43 @@ def rule_level_for_candidate(
     toc_level_map: dict[str, int],
     stack: list[EnhancedTitle],
 ) -> tuple[int, bool, str]:
-    """Infer final title level using TOC anchors and deterministic numbering rules."""
+    """Infer final title level using TOC anchors, numbering systems and context."""
     text = candidate.text.strip()
     key = normalize_title_key(text)
+
+    # The catalogue itself is an auxiliary reference, not body structure.
+    # Keeping TOC entries out of the accepted stack avoids the most common
+    # failure mode: directory rows being rewritten as body headings.
     if candidate.is_toc_heading:
         return 1, True, "toc_heading"
     if candidate.is_toc_entry:
         return candidate.raw_level or 2, False, "toc_entry"
+
     if is_noise_title(text, page_idx=candidate.global_page_idx):
         return 0, False, "noise"
+
+    # TOC matches are high-confidence anchors for major Chinese document
+    # sections, but they should still be validated by the candidate text.
     if key in toc_level_map:
         return toc_level_map[key], True, "toc_match"
+
     if key in _MAJOR_UNNUMBERED_TITLES:
         return 1, True, "known_unnumbered"
+
     level, reason = numbered_heading_level(text)
     if level is not None:
         if looks_like_body_list_item(text, reason):
             return 0, False, "body_list_item"
-        return clamp_level_to_stack(level, stack), True, reason
+        adjusted = adjust_numbered_level(text, level, reason, stack)
+        return clamp_level_to_stack(adjusted, stack), True, reason
+
+    # MinerU unnumbered headings are useful, but weak.  Only accept concise
+    # non-sentence captions so cover metadata and table labels do not leak into
+    # the hierarchy.
     if candidate.raw_level and not looks_like_sentence(text):
         level = 1 if candidate.raw_level == 1 else min(6, max(2, candidate.raw_level))
         return clamp_level_to_stack(level, stack), True, "mineru_unnumbered"
+
     return 0, False, "not_heading"
 
 
@@ -760,32 +1006,51 @@ def detect_toc_pages(
     )
 
 
+
+def is_plain_toc_entry_text(text: str) -> bool:
+    """Return True for short TOC rows without dot leaders or page numbers.
+
+    Insurance clauses often have a compact ``条款目录`` where entries are
+    written simply as ``1. 关于本合同``.  These rows should serve as catalogue
+    references but must not be emitted as body headings.
+    """
+    stripped = re.sub(r"\s+", " ", (text or "").strip())
+    if not stripped or len(stripped) > 70 or stripped.endswith(("。", "；", ";")):
+        return False
+    _, reason = numbered_heading_level(stripped)
+    return reason in {"arabic_dot_single", "arabic_dot_number", "chinese_number", "parenthesized_chinese", "arabic_number"}
+
 def detect_flat_toc_orders(blocks: list[TextBlock], *, enabled: bool = True) -> set[int]:
     """Detect TOC heading/entry orders when page_idx is unavailable, as in Markdown fallback."""
     if not enabled or any(block.page_idx is not None for block in blocks):
         return set()
     toc_orders: set[int] = set()
     start_index: int | None = None
+    plain_mode = False
     for idx, block in enumerate(blocks[:120]):
         if is_toc_heading_text(block.text):
             following = blocks[idx + 1 : idx + 20]
-            if sum(1 for item in following if is_toc_entry_text(item.text)) >= 2:
+            explicit_entries = sum(1 for item in following if is_toc_entry_text(item.text))
+            plain_entries = sum(1 for item in following[:10] if is_plain_toc_entry_text(item.text))
+            if explicit_entries >= 2 or plain_entries >= 2:
                 start_index = idx
+                plain_mode = explicit_entries < 2
                 break
     if start_index is None:
         return toc_orders
     toc_orders.add(blocks[start_index].order)
-    misses = 0
     for block in blocks[start_index + 1 :]:
-        if is_toc_entry_text(block.text):
+        text = block.text.strip()
+        _, reason = numbered_heading_level(text)
+        is_entry = is_plain_toc_entry_text(text) if plain_mode else is_toc_entry_text(text)
+        if is_entry and reason != "circled_number":
             toc_orders.add(block.order)
-            misses = 0
             continue
-        if not block.text.strip():
+        if not text:
             continue
-        misses += 1
-        if misses >= 2:
-            break
+        # In page-less Markdown fallback, once a non-TOC title appears after
+        # the catalogue, subsequent numbered blocks are body structure.
+        break
     return toc_orders
 
 
@@ -817,7 +1082,7 @@ def build_title_candidates(
         part_no = record.get("upload_part_no", record.get("part_no", 1))
         title_id = f"{doc_id}_p{part_no}_t{len(candidates):06d}"
         is_toc_heading = page_is_toc and is_toc_heading_text(block.text)
-        is_toc_entry = page_is_toc and not is_toc_heading and is_toc_entry_text(block.text)
+        is_toc_entry = page_is_toc and not is_toc_heading and (is_toc_entry_text(block.text) or is_plain_toc_entry_text(block.text))
         toc_reason = ""
         if is_toc_heading:
             toc_reason = "toc_heading"
@@ -1207,6 +1472,7 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
     title_queue = sorted(titles, key=lambda item: item.order)
     cursor = 0
     used_title_indexes: set[int] = set()
+    writer_stack: list[EnhancedTitle] = []
     inline_marker_re = re.compile(r"(?<!#)(#{1,6})\s+")
 
     def compact_with_positions(value: str) -> tuple[str, list[int]]:
@@ -1286,6 +1552,25 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
         if value:
             out.append(value)
 
+    def push_writer_stack(text: str, level: int, reason: str) -> None:
+        """Track headings emitted by the Markdown writer for fallback context."""
+        while writer_stack and writer_stack[-1].enhanced_title_level >= level:
+            writer_stack.pop()
+        writer_stack.append(
+            EnhancedTitle(
+                title_id="__writer__",
+                text=text,
+                raw_title_level=None,
+                enhanced_title_level=level,
+                is_title=True,
+                page_idx=None,
+                bbox=None,
+                order=-1,
+                source_artifact="full.md",
+                rule_reason=reason,
+            )
+        )
+
     def infer_unmatched_rule_heading(segment: str) -> tuple[int, str, str] | None:
         """Infer a heading from a Markdown segment that has no candidate record.
 
@@ -1309,7 +1594,10 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
                 # ``第一节 标题 正文`` needs the first two tokens to keep the
                 # section caption, while ``（一）标题 正文`` is already complete
                 # in the first token.
-                if first_reason == "chapter_or_section" and len(tokens) >= 2:
+                if first_reason in {"chapter_or_section", "arabic_dot_single", "arabic_dot_number", "arabic_number", "academic_number"} and len(tokens) >= 2:
+                    # Keep the visible caption with the number.  MinerU often
+                    # separates the number and caption by one space and then
+                    # appends body prose after another space.
                     probe_items.append((" ".join(tokens[:2]), " ".join(tokens[2:])))
                 probe_items.append((first, " ".join(tokens[1:])))
         probe_items.append((raw, ""))
@@ -1324,7 +1612,9 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
                 continue
             if reason not in {"article", "chapter_or_section"} and looks_like_sentence(head_text):
                 continue
-            return max(1, min(6, level)), head_text.strip(), trailing.strip()
+            adjusted = adjust_numbered_level(head_text, level, reason, writer_stack)
+            adjusted = clamp_level_to_stack(adjusted, writer_stack)
+            return max(1, min(6, adjusted)), head_text.strip(), trailing.strip()
         return None
 
     def append_enhanced_segment(out: list[str], segment: str, *, marker: str | None) -> None:
@@ -1333,6 +1623,9 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
         stripped = segment.strip()
         if not stripped:
             return
+        if marker and is_toc_entry_text(stripped):
+            append_plain_text(out, stripped)
+            return
         found_index = find_title_index(stripped, cursor, window=60)
         if found_index is None:
             inferred = infer_unmatched_rule_heading(stripped) if marker else None
@@ -1340,6 +1633,7 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
                 level, heading_text, trailing_text = inferred
                 marks = "#" * max(1, min(6, level))
                 append_plain_text(out, f"{marks} {heading_text}")
+                push_writer_stack(heading_text, level, numbered_heading_level(heading_text)[1] or "inferred")
                 append_plain_text(out, trailing_text)
             else:
                 append_plain_text(out, f"{marker} {stripped}" if marker else stripped)
@@ -1353,6 +1647,7 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
             level = 1 if title.is_toc_heading else title.enhanced_title_level
             marks = "#" * max(1, min(6, level))
             append_plain_text(out, f"{marks} {matched_text}")
+            push_writer_stack(matched_text, level, title.rule_reason or "matched")
         append_plain_text(out, trailing_text)
 
     new_lines: list[str] = []
