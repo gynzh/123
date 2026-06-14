@@ -1,4 +1,5 @@
 """LLM-assisted title hierarchy enhancement for MinerU parse artifacts."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass, field
@@ -18,10 +19,11 @@ TITLE_SYSTEM_PROMPT = """你是中文金融、合同、年报、保险条款和�
 2. 不得新增、删除、合并或改写标题。
 3. 每个输入 title_id 必须返回且只返回一次。
 4. enhanced_level 必须是 1 到 6 的整数；文档主标题/章/节通常靠近 1，编号越细层级越深。
-5. is_title 表示该项是否应保留为标题；明显页眉、页脚、表格字段、机构名单、封面辅助信息或目录页目录项可以设为 false。
-6. 目录页中的条目不是正文标题，不能进入正文 section_path；真正正文中再次出现的同名标题才作为标题。
-7. 中文金融文档常见层级可参考：第X章/第X节 -> 1；一、 -> 2；（一） -> 3；1、/1.1 -> 4；（1）/① -> 5；a、/A. -> 6。
-输出格式：{"items":[{"title_id":"...","enhanced_level":1,"is_title":true}]}。"""
+5. is_title 表示该项是否应保留为标题；明显页眉、页脚、表格字段、机构名单或封面辅助信息可以设为 false。
+6. 中文金融文档常见层级可参考：第X章/第X节 -> 1；一、 -> 2；（一） -> 3；1、/1.1 -> 4；（1）/① -> 5；a、/A. -> 6。
+7. 输入中已经过滤了目录页目录项；不要把目录页条目当作正文标题树的一部分。
+输出格式：{"items":[{"title_id":"...","enhanced_level":1,"is_title":true}]}。
+"""
 
 
 @dataclass
@@ -39,7 +41,7 @@ class TextBlock:
 
 @dataclass
 class TitleCandidate:
-    """A title candidate sent to the LLM for hierarchy correction."""
+    """A title candidate extracted from MinerU artifacts."""
 
     title_id: str
     text: str
@@ -50,7 +52,9 @@ class TitleCandidate:
     before_text: str = ""
     after_text: str = ""
     source_artifact: str = ""
+    is_toc_heading: bool = False
     is_toc_entry: bool = False
+    toc_reason: str = ""
 
     def to_prompt_json(self) -> dict[str, Any]:
         """Return compact JSON used in the LLM prompt."""
@@ -64,8 +68,6 @@ class TitleCandidate:
             data["before_text"] = self.before_text
         if self.after_text:
             data["after_text"] = self.after_text
-        if self.is_toc_entry:
-            data["is_toc_entry"] = True
         return data
 
 
@@ -83,7 +85,9 @@ class EnhancedTitle:
     order: int
     source_artifact: str
     section_path: list[str] = field(default_factory=list)
+    is_toc_heading: bool = False
     is_toc_entry: bool = False
+    toc_reason: str = ""
 
     def to_json(self, record: dict[str, Any], *, enhance_method: str, model: str) -> dict[str, Any]:
         """Return JSONL-ready title hierarchy record."""
@@ -99,7 +103,9 @@ class EnhancedTitle:
             "raw_title_level": self.raw_title_level,
             "enhanced_title_level": self.enhanced_title_level,
             "is_title": self.is_title,
+            "is_toc_heading": self.is_toc_heading,
             "is_toc_entry": self.is_toc_entry,
+            "toc_reason": self.toc_reason,
             "section_path": self.section_path,
             "page_idx": self.page_idx,
             "bbox": self.bbox,
@@ -108,6 +114,16 @@ class EnhancedTitle:
             "model": model,
             "local_extract_dir": record.get("local_extract_dir", ""),
         }
+
+
+@dataclass
+class TocDetectionResult:
+    """Detected table-of-contents pages and reasons."""
+
+    enabled: bool
+    toc_pages: set[int] = field(default_factory=set)
+    toc_start_page: int | None = None
+    page_stats: dict[int, dict[str, Any]] = field(default_factory=dict)
 
 
 @dataclass
@@ -130,7 +146,7 @@ class HierarchyEnhanceOptions:
     resume: bool = False
     input_price_per_1m: float | None = None
     output_price_per_1m: float | None = None
-    filter_toc: bool = True
+    enable_toc_filter: bool = True
     toc_max_start_page: int = 15
     toc_max_follow_pages: int = 12
 
@@ -138,7 +154,7 @@ class HierarchyEnhanceOptions:
 def normalize_inline_text(text: str) -> str:
     """Normalize inline text for matching titles across artifacts and Markdown."""
     text = re.sub(r"<[^>]+>", "", text or "")
-    text = text.replace("\u3000", " ").replace("&nbsp;", " ")
+    text = text.replace("\u3000", " ").replace(" ", " ")
     text = re.sub(r"[*_`]+", "", text)
     text = re.sub(r"\s+", "", text)
     return text.strip("# ")
@@ -148,186 +164,6 @@ def shorten(text: str, max_chars: int) -> str:
     """Return a compact one-line text snippet."""
     text = re.sub(r"\s+", " ", text or "").strip()
     return text[:max_chars]
-
-
-TOC_HEADING_RE = re.compile(r"^(目录|目次|目\s*录|contents|table\s+of\s+contents)$", re.IGNORECASE)
-TOC_NUMBERED_HEADING_RE = re.compile(
-    r"^(第[一二三四五六七八九十百千万0-9〇零]+[章节篇部分]|"
-    r"[一二三四五六七八九十百千万〇零]+[、．.]|"
-    r"（[一二三四五六七八九十百千万〇零]+）|"
-    r"[0-9]+[、．.]|"
-    r"[0-9]+(\.[0-9]+)+|"
-    r"（[0-9]+）|"
-    r"[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳])"
-)
-
-
-def compact_for_toc(text: str) -> str:
-    """Return a compact form used by TOC detectors."""
-    text = re.sub(r"<[^>]+>", "", text or "")
-    text = text.replace("\u3000", " ").replace("&nbsp;", " ")
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
-
-
-def is_toc_heading_text(text: str) -> bool:
-    """Return True when a block is the table-of-contents heading."""
-    compact = compact_for_toc(text)
-    return bool(TOC_HEADING_RE.match(compact.replace(" ", ""))) or bool(TOC_HEADING_RE.match(compact))
-
-
-
-
-def toc_entry_strength(text: str) -> int:
-    """Return a TOC-entry confidence score for one line.
-
-    The score is deliberately based on line shape rather than title text alone.
-    This avoids demoting real正文标题 such as “第一节 释义” when it appears in
-    the body without a trailing page number.
-    """
-    compact = compact_for_toc(text)
-    if not compact:
-        return 0
-    if is_toc_heading_text(compact):
-        return 3
-    if re.search(r"([.．·•。]{3,}|…{2,}|\.\s*\.\s*\.)\s*[-—]?\s*\d{1,4}\s*$", compact):
-        return 3
-    if re.search(r"\s+[-—]?\s*\d{1,4}\s*$", compact) and TOC_NUMBERED_HEADING_RE.match(compact):
-        return 2
-    if re.search(r"\s+[-—]?\s*\d{1,4}\s*$", compact) and len(compact) <= 80:
-        return 1
-    return 0
-
-
-def is_toc_like_entry_text(text: str) -> bool:
-    """Return True for typical TOC entry lines."""
-    return toc_entry_strength(text) >= 2
-
-
-def page_toc_profile(blocks: list[TextBlock]) -> dict[str, Any]:
-    """Summarize how much a page looks like a table of contents."""
-    title_blocks = [block for block in blocks if block.block_type == "title" or block.raw_level]
-    visible_blocks = [block for block in blocks if compact_for_toc(block.text)]
-    entry_scores = [toc_entry_strength(block.text) for block in visible_blocks]
-    strong_entries = sum(1 for score in entry_scores if score >= 2)
-    weak_entries = sum(1 for score in entry_scores if score >= 1)
-    toc_heading = any(is_toc_heading_text(block.text) for block in visible_blocks)
-    long_body_blocks = sum(1 for block in visible_blocks if len(compact_for_toc(block.text)) >= 120 and toc_entry_strength(block.text) == 0)
-    title_count = max(1, len(title_blocks))
-    visible_count = max(1, len(visible_blocks))
-    return {
-        "title_count": len(title_blocks),
-        "visible_count": len(visible_blocks),
-        "strong_entries": strong_entries,
-        "weak_entries": weak_entries,
-        "toc_heading": toc_heading,
-        "long_body_blocks": long_body_blocks,
-        "strong_ratio_in_titles": strong_entries / title_count,
-        "weak_ratio_in_visible": weak_entries / visible_count,
-    }
-
-
-def is_toc_start_page(profile: dict[str, Any]) -> bool:
-    """Return True when a front-matter page is a likely TOC start."""
-    if not profile["toc_heading"]:
-        return False
-    return (
-        profile["strong_entries"] >= 1
-        or profile["weak_entries"] >= 3
-        or profile["visible_count"] <= 8
-    )
-
-
-def is_toc_continuation_page(profile: dict[str, Any]) -> bool:
-    """Return True when a page likely continues a multi-page TOC."""
-    if profile["toc_heading"]:
-        return True
-    if profile["long_body_blocks"] >= 3 and profile["strong_entries"] < 3:
-        return False
-    if profile["strong_entries"] >= 3:
-        return True
-    if profile["strong_entries"] >= 2 and profile["strong_ratio_in_titles"] >= 0.35:
-        return True
-    if profile["weak_entries"] >= 5 and profile["weak_ratio_in_visible"] >= 0.45:
-        return True
-    return False
-
-
-def detect_toc_orders(
-    blocks: list[TextBlock],
-    *,
-    max_start_page: int = 15,
-    max_follow_pages: int = 12,
-    max_blank_gap: int = 1,
-) -> set[int]:
-    """Detect title block orders that belong to front-matter TOC ranges.
-
-    Detection is range-based rather than single-page-based:
-    1. find an explicit TOC heading in the early front matter;
-    2. expand to following pages whose lines still look like TOC entries;
-    3. demote only title candidates that are either TOC headings or TOC-like
-       entries within the detected TOC range.
-
-    This handles multi-page TOCs while avoiding global text replacement: the
-    same title text in the body is still kept as a real title.
-    """
-    by_page: dict[int, list[TextBlock]] = collections.defaultdict(list)
-    for block in blocks:
-        if block.page_idx is not None:
-            by_page[block.page_idx].append(block)
-    if not by_page:
-        return set()
-
-    page_numbers = sorted(by_page)
-    profiles = {page_idx: page_toc_profile(by_page[page_idx]) for page_idx in page_numbers}
-    toc_pages: set[int] = set()
-
-    for page_idx in page_numbers:
-        if page_idx > max_start_page:
-            continue
-        if not is_toc_start_page(profiles[page_idx]):
-            continue
-
-        toc_pages.add(page_idx)
-        blank_gap = 0
-        last_page = page_idx + max_follow_pages
-        for probe_page in range(page_idx + 1, last_page + 1):
-            page_blocks = by_page.get(probe_page)
-            if not page_blocks:
-                blank_gap += 1
-                if blank_gap > max_blank_gap:
-                    break
-                continue
-            blank_gap = 0
-            if is_toc_continuation_page(profiles[probe_page]):
-                toc_pages.add(probe_page)
-                continue
-            break
-        break
-
-    toc_orders: set[int] = set()
-    for page_idx in toc_pages:
-        page_profile = profiles[page_idx]
-        page_is_dense_toc = (
-            page_profile["strong_entries"] >= 3
-            or page_profile["strong_ratio_in_titles"] >= 0.45
-            or page_profile["toc_heading"]
-        )
-        for block in by_page.get(page_idx, []):
-            if not (block.block_type == "title" or block.raw_level):
-                continue
-            # Keep the TOC heading itself, such as “目录” or “Contents”, as a
-            # visible Markdown heading.  Only TOC entries below it are demoted.
-            # This preserves the document outline while still preventing
-            # front-matter TOC entries from polluting the正文标题树.
-            if is_toc_heading_text(block.text):
-                continue
-            if is_toc_like_entry_text(block.text):
-                toc_orders.add(block.order)
-                continue
-            if page_is_dense_toc and toc_entry_strength(block.text) >= 1:
-                toc_orders.add(block.order)
-    return toc_orders
 
 
 def read_json(path: Path | None) -> Any:
@@ -413,6 +249,16 @@ def text_from_content_value(value: Any) -> str:
 
     walk(value)
     return shorten("".join(parts), 500)
+
+
+def _safe_int(value: Any) -> int | None:
+    """Convert a value to int, returning None for invalid values."""
+    try:
+        if value is None or value == "":
+            return None
+        return int(value)
+    except Exception:
+        return None
 
 
 def _extract_blocks_from_content_list_v2(data: Any) -> list[TextBlock]:
@@ -543,23 +389,131 @@ def extract_blocks(record: dict[str, Any]) -> tuple[list[TextBlock], str]:
     return [], ""
 
 
+_TOC_HEADING_RE = re.compile(r"^(目录|目\s*录|目錄|目次|contents|table\s+of\s+contents)$", re.IGNORECASE)
+_DOT_LEADER_RE = re.compile(r"(\.{2,}|·{2,}|…{1,}|⋯{1,}|-{2,}|—{2,}|_{2,})")
+_TRAILING_PAGE_RE = re.compile(r"(?:\s|\.|·|…|⋯|-|—|_)+(?:[ivxlcdmIVXLCDM]+|\d{1,4})\s*$")
+_HEADING_LIKE_RE = re.compile(
+    r"^(第[一二三四五六七八九十百千万0-9〇零]+[章节篇部分]|"
+    r"[一二三四五六七八九十百千万〇零]+[、．.]|"
+    r"（[一二三四五六七八九十百千万〇零]+）|"
+    r"\(?\d+(?:\.\d+)*[、．.)）]?|"
+    r"[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳]|"
+    r"[A-Za-z][、．.])"
+)
+
+
+def is_toc_heading_text(text: str) -> bool:
+    """Return True for the TOC page heading itself."""
+    normalized = re.sub(r"\s+", "", (text or "").strip()).lower()
+    return bool(_TOC_HEADING_RE.match(normalized)) or normalized in {"contents", "tableofcontents"}
+
+
+def is_toc_entry_text(text: str) -> bool:
+    """Return True if a line looks like a table-of-contents entry."""
+    stripped = re.sub(r"\s+", " ", (text or "").strip())
+    if not stripped or is_toc_heading_text(stripped):
+        return False
+    if len(stripped) > 120:
+        return False
+    compact = re.sub(r"\s+", "", stripped)
+    has_trailing_page = bool(_TRAILING_PAGE_RE.search(stripped)) or bool(re.search(r"[.·…⋯\-—_]\d{1,4}$", compact))
+    if not has_trailing_page:
+        return False
+    if _DOT_LEADER_RE.search(stripped) or _DOT_LEADER_RE.search(compact):
+        return True
+    without_page = _TRAILING_PAGE_RE.sub("", stripped).strip()
+    without_page = re.sub(r"[.·…⋯\-—_]+$", "", without_page).strip()
+    if len(without_page) <= 2:
+        return False
+    return bool(_HEADING_LIKE_RE.match(without_page)) or len(without_page) <= 45
+
+
+def _page_density(blocks: list[TextBlock], page_idx: int) -> dict[str, Any]:
+    """Compute TOC-like density statistics for one page."""
+    page_blocks = [block for block in blocks if block.page_idx == page_idx and block.text]
+    text_count = len(page_blocks)
+    title_count = len([block for block in page_blocks if block.block_type == "title" or block.raw_level])
+    toc_heading_count = len([block for block in page_blocks if is_toc_heading_text(block.text)])
+    toc_entry_count = len([block for block in page_blocks if is_toc_entry_text(block.text)])
+    ratio_base = max(1, min(text_count, max(title_count, 1)))
+    return {
+        "text_count": text_count,
+        "title_count": title_count,
+        "toc_heading_count": toc_heading_count,
+        "toc_entry_count": toc_entry_count,
+        "toc_entry_ratio": toc_entry_count / ratio_base,
+    }
+
+
+def detect_toc_pages(
+    blocks: list[TextBlock],
+    *,
+    enabled: bool = True,
+    max_start_page: int = 15,
+    max_follow_pages: int = 12,
+) -> TocDetectionResult:
+    """Detect a possibly multi-page table-of-contents interval."""
+    if not enabled:
+        return TocDetectionResult(enabled=False)
+    page_indexes = sorted({block.page_idx for block in blocks if block.page_idx is not None})
+    if not page_indexes:
+        return TocDetectionResult(enabled=True)
+
+    page_stats = {page_idx: _page_density(blocks, page_idx) for page_idx in page_indexes}
+    start_page: int | None = None
+    for page_idx in page_indexes:
+        if page_idx > max_start_page:
+            break
+        stats = page_stats[page_idx]
+        next_stats = page_stats.get(page_idx + 1, {})
+        has_heading = stats.get("toc_heading_count", 0) > 0
+        enough_entries = stats.get("toc_entry_count", 0) >= 2 or next_stats.get("toc_entry_count", 0) >= 3
+        if has_heading and enough_entries:
+            start_page = page_idx
+            break
+    if start_page is None:
+        return TocDetectionResult(enabled=True, page_stats=page_stats)
+
+    toc_pages: set[int] = {start_page}
+    last_page = start_page
+    for page_idx in page_indexes:
+        if page_idx <= start_page:
+            continue
+        if page_idx - start_page > max_follow_pages:
+            break
+        if page_idx != last_page + 1:
+            break
+        stats = page_stats[page_idx]
+        entry_count = int(stats.get("toc_entry_count", 0))
+        entry_ratio = float(stats.get("toc_entry_ratio", 0.0))
+        has_continuation = entry_count >= 3 or entry_ratio >= 0.35 or (entry_count >= 2 and last_page in toc_pages)
+        if not has_continuation:
+            break
+        toc_pages.add(page_idx)
+        last_page = page_idx
+
+    return TocDetectionResult(
+        enabled=True,
+        toc_pages=toc_pages,
+        toc_start_page=start_page,
+        page_stats=page_stats,
+    )
+
+
 def build_title_candidates(
     record: dict[str, Any],
     *,
-    filter_toc: bool = True,
+    enable_toc_filter: bool = True,
     toc_max_start_page: int = 15,
     toc_max_follow_pages: int = 12,
-) -> list[TitleCandidate]:
-    """Build ordered title candidates with short local context."""
+) -> tuple[list[TitleCandidate], TocDetectionResult]:
+    """Build ordered title candidates with short local context and TOC flags."""
     blocks, source_artifact = extract_blocks(record)
-    toc_orders = (
-        detect_toc_orders(
-            blocks,
-            max_start_page=toc_max_start_page,
-            max_follow_pages=toc_max_follow_pages,
-        )
-        if filter_toc
-        else set()
+    toc_detection = detect_toc_pages(
+        blocks,
+        enabled=enable_toc_filter,
+        max_start_page=toc_max_start_page,
+        max_follow_pages=toc_max_follow_pages,
     )
     candidates: list[TitleCandidate] = []
     for index, block in enumerate(blocks):
@@ -569,20 +523,24 @@ def build_title_candidates(
         before_text = ""
         after_text = ""
         for prev in reversed(blocks[:index]):
-            if prev.order in toc_orders:
-                continue
             if prev.text and prev.text != block.text:
                 before_text = shorten(prev.text, 100)
                 break
         for nxt in blocks[index + 1 :]:
-            if nxt.order in toc_orders:
-                continue
             if nxt.text and nxt.text != block.text:
                 after_text = shorten(nxt.text, 140)
                 break
         doc_id = str(record.get("doc_id") or "doc")
         part_no = record.get("upload_part_no", record.get("part_no", 1))
         title_id = f"{doc_id}_p{part_no}_t{len(candidates):06d}"
+        page_is_toc = block.page_idx in toc_detection.toc_pages if block.page_idx is not None else False
+        is_toc_heading = page_is_toc and is_toc_heading_text(block.text)
+        is_toc_entry = page_is_toc and not is_toc_heading and is_toc_entry_text(block.text)
+        toc_reason = ""
+        if is_toc_heading:
+            toc_reason = "toc_heading"
+        elif is_toc_entry:
+            toc_reason = "toc_entry_on_detected_toc_page"
         candidates.append(
             TitleCandidate(
                 title_id=title_id,
@@ -594,19 +552,12 @@ def build_title_candidates(
                 before_text=before_text,
                 after_text=after_text,
                 source_artifact=source_artifact,
-                is_toc_entry=block.order in toc_orders,
+                is_toc_heading=is_toc_heading,
+                is_toc_entry=is_toc_entry,
+                toc_reason=toc_reason,
             )
         )
-    return candidates
-
-def _safe_int(value: Any) -> int | None:
-    """Convert a value to int, returning None for invalid values."""
-    try:
-        if value is None or value == "":
-            return None
-        return int(value)
-    except Exception:
-        return None
+    return candidates, toc_detection
 
 
 def _mock_level_for_text(text: str, raw_level: int | None) -> tuple[int, bool]:
@@ -614,8 +565,6 @@ def _mock_level_for_text(text: str, raw_level: int | None) -> tuple[int, bool]:
     stripped = text.strip()
     if not stripped:
         return raw_level or 2, False
-    if is_toc_heading_text(stripped):
-        return 1, True
     patterns: list[tuple[str, int]] = [
         (r"^第[一二三四五六七八九十百千万0-9〇零]+[章节篇部分]", 1),
         (r"^[一二三四五六七八九十百千万〇零]+[、．.]", 2),
@@ -701,10 +650,6 @@ def build_prompt_payload(
             "upload_page_end": record.get("upload_page_end"),
             "document_type_hint": "中文金融合同、债券募集说明书、年报、保险条款、监管文件或研究报告",
         },
-        "instructions": {
-            "exclude_toc_entries": True,
-            "note": "输入标题已尽量排除目录页条目；如果仍看到目录页目录项，请将 is_title 设为 false。",
-        },
         "previous_section_stack": previous_section_stack,
         "titles": [candidate.to_prompt_json() for candidate in candidates],
     }
@@ -732,6 +677,7 @@ def enhance_batch(
         chat_result = client.chat_json(system_prompt=TITLE_SYSTEM_PROMPT, user_payload=payload)
         items = _parse_llm_items(chat_result.content)
         usage = chat_result.usage
+
     by_id = _validate_items(candidates, items)
     enhanced: list[EnhancedTitle] = []
     for candidate in candidates:
@@ -747,17 +693,54 @@ def enhance_batch(
                 bbox=candidate.bbox,
                 order=candidate.order,
                 source_artifact=candidate.source_artifact,
-                is_toc_entry=candidate.is_toc_entry,
+                is_toc_heading=False,
+                is_toc_entry=False,
             )
         )
     return enhanced, usage
+
+
+def fixed_title_from_candidate(candidate: TitleCandidate) -> EnhancedTitle:
+    """Create a deterministic enhanced record for TOC heading or TOC entry."""
+    if candidate.is_toc_heading:
+        return EnhancedTitle(
+            title_id=candidate.title_id,
+            text=candidate.text,
+            raw_title_level=candidate.raw_level,
+            enhanced_title_level=1,
+            is_title=True,
+            page_idx=candidate.page_idx,
+            bbox=candidate.bbox,
+            order=candidate.order,
+            source_artifact=candidate.source_artifact,
+            is_toc_heading=True,
+            is_toc_entry=False,
+            toc_reason=candidate.toc_reason,
+        )
+    return EnhancedTitle(
+        title_id=candidate.title_id,
+        text=candidate.text,
+        raw_title_level=candidate.raw_level,
+        enhanced_title_level=candidate.raw_level or 2,
+        is_title=False,
+        page_idx=candidate.page_idx,
+        bbox=candidate.bbox,
+        order=candidate.order,
+        source_artifact=candidate.source_artifact,
+        is_toc_heading=False,
+        is_toc_entry=True,
+        toc_reason=candidate.toc_reason,
+    )
 
 
 def assign_section_paths(titles: list[EnhancedTitle]) -> None:
     """Assign section_path to enhanced titles in-place."""
     stack: list[EnhancedTitle] = []
     for title in titles:
-        if not title.is_title:
+        if title.is_toc_heading:
+            title.section_path = [title.text]
+            continue
+        if title.is_toc_entry or not title.is_title:
             title.section_path = [item.text for item in stack]
             continue
         level = title.enhanced_title_level
@@ -771,7 +754,7 @@ def final_section_stack(titles: list[EnhancedTitle]) -> list[dict[str, Any]]:
     """Return the current section stack after processing a batch."""
     stack: list[EnhancedTitle] = []
     for title in titles:
-        if not title.is_title:
+        if title.is_toc_heading or title.is_toc_entry or not title.is_title:
             continue
         while stack and stack[-1].enhanced_title_level >= title.enhanced_title_level:
             stack.pop()
@@ -780,7 +763,7 @@ def final_section_stack(titles: list[EnhancedTitle]) -> list[dict[str, Any]]:
 
 
 def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) -> Path | None:
-    """Write full_titleEnhanced.md by replacing Markdown heading markers in order."""
+    """Write full_titleEnhanced.md by replacing or downgrading Markdown heading markers in order."""
     full_md = extract_dir / "full.md"
     if not full_md.exists():
         candidates = sorted(extract_dir.glob("*full*.md"), key=lambda p: p.stat().st_size, reverse=True)
@@ -789,11 +772,11 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
         return None
 
     lines = full_md.read_text(encoding="utf-8", errors="ignore").splitlines()
-    title_queue = list(titles)
+    title_queue = sorted(titles, key=lambda item: item.order)
     cursor = 0
-    matched = 0
     heading_re = re.compile(r"^(#{1,6})(\s+)(.+?)(\s*)$")
     new_lines: list[str] = []
+
     for line in lines:
         match = heading_re.match(line)
         if not match:
@@ -801,7 +784,7 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
             continue
         heading_text = normalize_inline_text(match.group(3))
         found_index: int | None = None
-        for idx in range(cursor, min(cursor + 25, len(title_queue))):
+        for idx in range(cursor, min(cursor + 35, len(title_queue))):
             if normalize_inline_text(title_queue[idx].text) == heading_text:
                 found_index = idx
                 break
@@ -810,12 +793,11 @@ def rewrite_markdown_headings(extract_dir: Path, titles: list[EnhancedTitle]) ->
             continue
         title = title_queue[found_index]
         cursor = found_index + 1
-        matched += 1
-        if not title.is_title:
-            # Demote TOC entries and other false-positive headings to plain text.
+        if not title.is_title or title.is_toc_entry:
             new_lines.append(f"{match.group(3)}{match.group(4)}")
             continue
-        marks = "#" * max(1, min(6, title.enhanced_title_level))
+        level = 1 if title.is_toc_heading else title.enhanced_title_level
+        marks = "#" * max(1, min(6, level))
         new_lines.append(f"{marks}{match.group(2)}{match.group(3)}{match.group(4)}")
 
     out_path = full_md.with_name("full_titleEnhanced.md")
@@ -889,6 +871,10 @@ def _load_records_for_options(options: HierarchyEnhanceOptions) -> list[dict[str
     return selected
 
 
+def _counter_to_json(counter: collections.Counter[int]) -> dict[str, int]:
+    return {str(k): v for k, v in sorted(counter.items())}
+
+
 def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
     """Run hierarchy enhancement and write output artifacts."""
     options.output_dir = Path(options.output_dir)
@@ -914,11 +900,17 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
     enhanced_counts: collections.Counter[int] = collections.Counter()
     docs_summary: list[dict[str, Any]] = []
     written_md: list[str] = []
+    batch_count = 0
+    llm_sent_total = 0
+    toc_heading_total = 0
+    toc_entry_total = 0
+    non_title_total = 0
+    toc_pages_total = 0
 
     for record in records:
-        candidates = build_title_candidates(
+        candidates, toc_detection = build_title_candidates(
             record,
-            filter_toc=options.filter_toc,
+            enable_toc_filter=options.enable_toc_filter,
             toc_max_start_page=options.toc_max_start_page,
             toc_max_follow_pages=options.toc_max_follow_pages,
         )
@@ -937,12 +929,25 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
             )
             continue
 
-        llm_candidates = [candidate for candidate in candidates if not candidate.is_toc_entry]
         enhanced_by_id: dict[str, EnhancedTitle] = {}
+        fixed_candidates = [c for c in candidates if c.is_toc_heading or c.is_toc_entry]
+        llm_candidates = [c for c in candidates if not c.is_toc_heading and not c.is_toc_entry]
+        for candidate in fixed_candidates:
+            enhanced_by_id[candidate.title_id] = fixed_title_from_candidate(candidate)
+        toc_heading_count = len([c for c in candidates if c.is_toc_heading])
+        toc_entry_count = len([c for c in candidates if c.is_toc_entry])
+        toc_heading_total += toc_heading_count
+        toc_entry_total += toc_entry_count
+        toc_pages_total += len(toc_detection.toc_pages)
+        llm_sent_total += len(llm_candidates)
+
         previous_stack: list[dict[str, Any]] = []
-        enhanced_seen: list[EnhancedTitle] = []
+        processed_llm: list[EnhancedTitle] = []
         for start in range(0, len(llm_candidates), max(1, options.batch_size)):
             batch = llm_candidates[start : start + max(1, options.batch_size)]
+            if not batch:
+                continue
+            batch_count += 1
             enhanced_batch, usage = enhance_batch(
                 record=record,
                 candidates=batch,
@@ -950,38 +955,22 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
                 options=options,
                 client=client,
             )
-            for title in enhanced_batch:
-                enhanced_by_id[title.title_id] = title
-            enhanced_seen.extend(enhanced_batch)
+            for item in enhanced_batch:
+                enhanced_by_id[item.title_id] = item
+            processed_llm.extend(enhanced_batch)
             usage_total.add(usage)
-            # Update temporary stack using non-TOC titles seen so far.
-            assign_section_paths(enhanced_seen)
-            previous_stack = final_section_stack(enhanced_seen)
+            assign_section_paths(processed_llm)
+            previous_stack = final_section_stack(processed_llm)
 
-        enhanced_titles: list[EnhancedTitle] = []
-        for candidate in candidates:
-            if candidate.is_toc_entry:
-                enhanced_titles.append(
-                    EnhancedTitle(
-                        title_id=candidate.title_id,
-                        text=candidate.text,
-                        raw_title_level=candidate.raw_level,
-                        enhanced_title_level=max(1, min(6, candidate.raw_level or 2)),
-                        is_title=False,
-                        page_idx=candidate.page_idx,
-                        bbox=candidate.bbox,
-                        order=candidate.order,
-                        source_artifact=candidate.source_artifact,
-                        is_toc_entry=True,
-                    )
-                )
-            else:
-                enhanced_titles.append(enhanced_by_id[candidate.title_id])
-
+        enhanced_titles = [enhanced_by_id[c.title_id] for c in candidates if c.title_id in enhanced_by_id]
+        enhanced_titles.sort(key=lambda item: item.order)
         assign_section_paths(enhanced_titles)
+
         for title in enhanced_titles:
             if title.is_title:
                 enhanced_counts[title.enhanced_title_level] += 1
+            else:
+                non_title_total += 1
             all_rows.append(title.to_json(record, enhance_method=options.provider, model=options.model))
 
         extract_dir = resolve_path(str(record.get("local_extract_dir") or ""))
@@ -996,9 +985,16 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
                 "domain": record.get("domain", ""),
                 "doc_id": record.get("doc_id", ""),
                 "part_no": record.get("upload_part_no", 1),
+                "local_extract_dir": record.get("local_extract_dir", ""),
                 "title_candidates": len(candidates),
-                "toc_title_candidates": len([c for c in candidates if c.is_toc_entry]),
+                "toc_filter_enabled": options.enable_toc_filter,
+                "toc_start_page": toc_detection.toc_start_page,
+                "toc_pages": sorted(toc_detection.toc_pages),
+                "toc_heading_candidates": toc_heading_count,
+                "toc_entry_candidates": toc_entry_count,
+                "llm_sent_candidates": len(llm_candidates),
                 "enhanced_titles": len([t for t in enhanced_titles if t.is_title]),
+                "non_title_candidates": len([t for t in enhanced_titles if not t.is_title]),
                 "enhanced_md_path": str(enhanced_md_path) if enhanced_md_path else "",
             }
         )
@@ -1011,15 +1007,20 @@ def enhance_hierarchy(options: HierarchyEnhanceOptions) -> dict[str, Any]:
         "model": options.model,
         "record_count": len(records),
         "title_record_count": len(all_rows),
-        "real_title_record_count": len([row for row in all_rows if row.get("is_title")]),
-        "raw_title_level_counts": {str(k): v for k, v in sorted(raw_counts.items())},
-        "enhanced_title_level_counts": {str(k): v for k, v in sorted(enhanced_counts.items())},
-        "toc_title_record_count": len([row for row in all_rows if row.get("is_toc_entry")]),
+        "llm_batch_count": batch_count,
+        "title_candidates_total": len(all_rows),
+        "llm_sent_candidates_total": llm_sent_total,
+        "toc_heading_candidates_total": toc_heading_total,
+        "toc_entry_candidates_total": toc_entry_total,
+        "toc_pages_total": toc_pages_total,
+        "non_title_candidates_total": non_title_total,
         "toc_filter": {
-            "enabled": options.filter_toc,
+            "enabled": options.enable_toc_filter,
             "max_start_page": options.toc_max_start_page,
             "max_follow_pages": options.toc_max_follow_pages,
         },
+        "raw_title_level_counts": _counter_to_json(raw_counts),
+        "enhanced_title_level_counts": _counter_to_json(enhanced_counts),
         "usage": usage_total.to_json(),
         "outputs": {
             "title_hierarchy_jsonl": str(title_hierarchy_path),

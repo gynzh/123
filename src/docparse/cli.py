@@ -1,4 +1,5 @@
 """文档解析命令行入口。"""
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -46,6 +47,7 @@ def cmd_inspect(args: argparse.Namespace) -> None:
     dataset_root = Path(args.dataset_root)
     raw_root = Path(args.raw_dir) if args.raw_dir else dataset_root / "raw"
     question_root = Path(args.question_dir) if args.question_dir else dataset_root / "questions" / "group_a"
+
     docs = collect_source_documents(raw_root, domains=args.domains, recursive=not args.no_recursive)
     grouped = group_by_engine(docs)
 
@@ -95,25 +97,30 @@ def cmd_parse(args: argparse.Namespace) -> None:
     """自动续跑文档解析，并生成文档级标准化产物。"""
     if load_dotenv:
         load_dotenv()
+
     dataset_root = Path(args.dataset_root)
     raw_root = Path(args.raw_dir) if args.raw_dir else dataset_root / "raw"
     output_dir = Path(args.output_dir)
     jina_output_dir = _jina_output_dir_from_args(args)
+
     docs = collect_source_documents(raw_root, domains=args.domains, recursive=not args.no_recursive)
     if not docs:
         raise RuntimeError(f"没有找到可解析文件：{raw_root}")
 
     output_dir.mkdir(parents=True, exist_ok=True)
     write_jsonl(output_dir / "source_documents.jsonl", [d.to_json() for d in docs])
+
     grouped = group_by_engine(docs)
     print(f"[INFO] 待解析文件：{len(docs)}")
     for engine, rows in sorted(grouped.items()):
         print(f" - {engine}: {len(rows)}")
+
     if args.dry_run:
         print(f"[DRY RUN] 文件清单已写入：{output_dir / 'source_documents.jsonl'}")
         return
 
     all_records: list[dict] = []
+
     local_docs = grouped.get("local_text", [])
     if local_docs:
         print(f"\n========== LOCAL TEXT: {len(local_docs)} files ==========")
@@ -179,10 +186,18 @@ def cmd_build_manifest(args: argparse.Namespace) -> None:
     print(f"[DONE] 解析汇总文件重建完成：{output_dir.resolve()}")
 
 
+def _fmt_counts(value: object) -> str:
+    """Format a count dictionary for readable command output."""
+    if not isinstance(value, dict) or not value:
+        return "{}"
+    return ", ".join(f"L{k}:{v}" for k, v in sorted(value.items(), key=lambda item: int(item[0])))
+
+
 def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
     """基于 MinerU 产物增强标题层级，并生成可视化 Markdown。"""
     if load_dotenv:
         load_dotenv()
+
     options = HierarchyEnhanceOptions(
         output_dir=Path(args.output_dir),
         provider=args.provider,
@@ -200,20 +215,72 @@ def cmd_enhance_hierarchy(args: argparse.Namespace) -> None:
         resume=args.resume,
         input_price_per_1m=args.input_price_per_1m,
         output_price_per_1m=args.output_price_per_1m,
-        filter_toc=not args.disable_toc_filter,
+        enable_toc_filter=not args.disable_toc_filter,
         toc_max_start_page=args.toc_max_start_page,
         toc_max_follow_pages=args.toc_max_follow_pages,
     )
+
+    print("[HIERARCHY] 启动标题层级增强")
+    print(f"[HIERARCHY] output_dir={options.output_dir}")
+    print(f"[HIERARCHY] provider={options.provider}, model={options.model}, batch_size={options.batch_size}")
+    if options.extract_dir:
+        print(f"[HIERARCHY] extract_dir={options.extract_dir}")
+    if options.domain or options.doc_id or options.limit_docs:
+        print(f"[HIERARCHY] domain={options.domain}, doc_id={options.doc_id}, limit_docs={options.limit_docs}")
+    print(
+        "[TOC] "
+        f"filter={'on' if options.enable_toc_filter else 'off'}, "
+        f"max_start_page={options.toc_max_start_page}, "
+        f"max_follow_pages={options.toc_max_follow_pages}"
+    )
+
     stats = enhance_hierarchy(options)
     usage = stats.get("usage", {})
-    print(f"[DONE] 标题层级增强完成，记录数：{stats.get('title_record_count', 0)}")
-    print(f"[DONE] title_hierarchy.jsonl：{stats['outputs']['title_hierarchy_jsonl']}")
-    print(f"[DONE] hierarchy_stats.json：{stats['outputs']['hierarchy_stats_json']}")
+    outputs = stats.get("outputs", {})
+
+    print(f"[DONE] 标题层级增强完成，处理文档/片段数：{stats.get('record_count', 0)}")
+    print(f"[DONE] title_hierarchy.jsonl：{outputs.get('title_hierarchy_jsonl', '')}")
+    print(f"[DONE] hierarchy_stats.json：{outputs.get('hierarchy_stats_json', '')}")
+    print(
+        "[SUMMARY] "
+        f"title_records={stats.get('title_record_count', 0)}, "
+        f"llm_batches={stats.get('llm_batch_count', 0)}, "
+        f"llm_sent={stats.get('llm_sent_candidates_total', 0)}, "
+        f"toc_headings={stats.get('toc_heading_candidates_total', 0)}, "
+        f"toc_entries={stats.get('toc_entry_candidates_total', 0)}, "
+        f"non_titles={stats.get('non_title_candidates_total', 0)}"
+    )
+    print(f"[LEVEL] raw={_fmt_counts(stats.get('raw_title_level_counts', {}))}")
+    print(f"[LEVEL] enhanced={_fmt_counts(stats.get('enhanced_title_level_counts', {}))}")
+
+    documents = stats.get("documents", [])
+    if isinstance(documents, list) and documents:
+        print("[DOCUMENTS]")
+        max_show = min(len(documents), args.print_doc_limit)
+        for doc in documents[:max_show]:
+            print(
+                " - "
+                f"domain={doc.get('domain', '')}, "
+                f"doc_id={doc.get('doc_id', '')}, "
+                f"part={doc.get('part_no', '')}, "
+                f"titles={doc.get('title_candidates', 0)}, "
+                f"llm_sent={doc.get('llm_sent_candidates', 0)}, "
+                f"toc_heading={doc.get('toc_heading_candidates', 0)}, "
+                f"toc_entry={doc.get('toc_entry_candidates', 0)}, "
+                f"toc_pages={doc.get('toc_pages', [])}, "
+                f"enhanced_md={doc.get('enhanced_md_path', '')}"
+            )
+        if len(documents) > max_show:
+            print(f" - ... 还有 {len(documents) - max_show} 条文档记录，详见 hierarchy_stats.json")
+
     print(
         "[USAGE] "
         f"requests={usage.get('requests', 0)}, "
         f"prompt_tokens={usage.get('prompt_tokens', 0)}, "
         f"completion_tokens={usage.get('completion_tokens', 0)}, "
+        f"total_tokens={usage.get('total_tokens', 0)}, "
+        f"prompt_cost_usd={usage.get('prompt_cost_usd', 0)}, "
+        f"completion_cost_usd={usage.get('completion_cost_usd', 0)}, "
         f"total_cost_usd={usage.get('total_cost_usd', 0)}"
     )
 
@@ -271,11 +338,12 @@ def build_parser() -> argparse.ArgumentParser:
     enhance.add_argument("--limit-docs", type=int, default=None, help="最多处理多少条 manifest 记录，便于小样本测试")
     enhance.add_argument("--no-write-enhanced-md", action="store_true", help="不写 full_titleEnhanced.md")
     enhance.add_argument("--resume", action="store_true", help="保留参数位；后续可用于断点续跑")
-    enhance.add_argument("--disable-toc-filter", action="store_true", help="不自动过滤目录页目录项；默认会过滤并在 full_titleEnhanced.md 中降级为普通文本")
-    enhance.add_argument("--toc-max-start-page", type=int, default=15, help="只在前 N 页内寻找目录起点，默认 15")
-    enhance.add_argument("--toc-max-follow-pages", type=int, default=12, help="从目录起点最多向后扩展 N 页目录区间，默认 12")
     enhance.add_argument("--input-price-per-1m", type=float, default=None, help="覆盖输入 token 单价，美元/百万 token")
     enhance.add_argument("--output-price-per-1m", type=float, default=None, help="覆盖输出 token 单价，美元/百万 token")
+    enhance.add_argument("--disable-toc-filter", action="store_true", help="关闭目录页目录项过滤")
+    enhance.add_argument("--toc-max-start-page", type=int, default=15, help="只在前 N 页寻找目录起点")
+    enhance.add_argument("--toc-max-follow-pages", type=int, default=12, help="目录起点后最多连续扩展的目录页数量")
+    enhance.add_argument("--print-doc-limit", type=int, default=20, help="命令行最多打印多少条文档明细")
     enhance.set_defaults(func=cmd_enhance_hierarchy)
 
     return parser
